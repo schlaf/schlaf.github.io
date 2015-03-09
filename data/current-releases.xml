@@ -1,7 +1,7 @@
 <whac>
-<lastDate="2015-03-09:14:02"/>
+<lastDate date="2015-03-09:14:02"/>
 <factions>
-<faction="khador" version="8" file="khador_2015_03_09.xml"/>
-<faction="cryx" version="6" file="cryx_2015_03_09.xml"/>
+<faction id="khador" version="8" file="khador_2015_03_09.xml"/>
+<faction id="cryx" version="6" file="cryx_2015_03_09.xml"/>
 </factions>
 </whac>
