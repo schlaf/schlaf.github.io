@@ -1000,6 +1000,18 @@
           <capacity title="Hunter">This model ignores forests, concealment, and cover when determining LOS or making a ranged attack.</capacity>
           <capacity title="Return">Immediately after resolving a charge attack, this model can make a full advance toward its warcaster. This model can not be targeted by free strikes during this movement.</capacity>
         </solo>
+          <solo id="KS08_for_butcher" name="War Dog (Butcher addon)" full_name="War Dog" cost="1" qualification="Khador Solo" fa="0" completed="true">
+              <basestats name="War Dog (Butcher addon)" spd="7" str="7" mat="6" rat="1" def="13" arm="14" cmd="6" hitpoints="5" tough="true" />
+              <weapons>
+                  <melee_weapon p_plus_s="11" pow="4" name="Bite" />
+              </weapons>
+              <capacity title="Attached">Before the start of the game, attach this model to a friendly Faction warcaster for the rest of the game. Each warcaster can have only one model attached to it.</capacity>
+              <capacity title="Counter charge">When an enemy model advances and ends its movement within 6" of this model and in its LOS, this model can immediately charge it. If it does, it cannot make another counter charge until after your next turn. This model cannot make a counter charge while engaged.</capacity>
+              <capacity title="Guard Dog">While this model is within 3" of its warcaster or warlock and is not knocked down or stationary, its warcaster or warlock cannot be targeted by free strikes and gains +2 DEF against melee attack rolls, and models attacking the warcaster do not gain back strike bonuses.</capacity>
+              <capacity title="Hunter">This model ignores forests, concealment, and cover when determining LOS or making a ranged attack.</capacity>
+              <capacity title="Return">Immediately after resolving a charge attack, this model can make a full advance toward its warcaster. This model can not be targeted by free strikes during this movement.</capacity>
+              <only_in_tier id="Butcher3 - Blood in the Snow" />
+          </solo>
         <solo id="KS09" name="Yuri the Axe" full_name="Yuri the Axe" cost="3" qualification="Khador Character Solo" fa="C" completed="true">
           <basestats name="Yuri" spd="6" str="8" mat="8" rat="4" def="14" arm="14" cmd="9" hitpoints="5" advance_deployment="true" fearless="true" pathfinder="true" stealth="true" />
           <weapons>

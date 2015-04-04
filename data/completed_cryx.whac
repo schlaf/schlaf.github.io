@@ -153,7 +153,7 @@
           <capacity title="ELITE CADRE [BANE THRALLS]" type="">When a friendly Bane Thrall model in this model's control area destroys a living enemy warrior model, you can add one Grunt to the Bane Thrall's unit. The Grunt must be placed completely within this model's control area and in formation. Bane Thralls put into play by this ability cannot activate the turn they are put in play.</capacity>
         </warcaster>
         <warcaster id="Cz05" name="Goreshade3" full_name="Goreshade, Lord of Ruin" generation="EE" qualification="warcaster" focus="7" warjack_points="5" fa="C">
-          <basestats name="Goreshade the Cursed" spd="8" str="7" mat="7" rat="4" def="14" arm="17" cmd="8" hitpoints="17" undead="true" terror="true"/>
+          <basestats name="Goreshade, Lord of Ruin" spd="8" str="7" mat="7" rat="4" def="14" arm="17" cmd="8" hitpoints="17" undead="true" terror="true"/>
           <weapons>
               <melee_weapon name="VOASS" pow="8" p_plus_s="15" magical="true" reach="true">
               <capacity title="FREEZE">A model hit by this weapon becomes stationary for one round unless it has Immunity:Cold</capacity>
@@ -529,7 +529,7 @@
           <basestats name="Ripjaw" spd="7" str="7" mat="6" rat="5" def="15" arm="14" cmd="0" arc_node="true"/>
           <weapons>
               <melee_weapon p_plus_s="10" pow="3" name="Bone Saw" location="H">
-                  <capacity title="Armor Piercing" type="*Action">When calculating damage from this attack, halve the base ARM stats of models hit that have medium or larger bases. This attack gains +2 to damage rolls against models with small bases.</capacity>
+                  <capacity title="Armor Piercing" type="*Attack">When calculating damage from this attack, halve the base ARM stats of models hit that have medium or larger bases. This attack gains +2 to damage rolls against models with small bases.</capacity>
                   <capacity title="Vice Lock" type="*Attack">This attack causes no damage. The model hit suffers -2 DEF and for one round cannot advance while within this model's melee range.</capacity>
               </melee_weapon>
           </weapons>
@@ -541,7 +541,7 @@
           </weapons>
           <capacity title="FINISHER">this model gains an additional die on damage rolls against damaged models</capacity>
           <capacity title="FLIGHT">This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movement to move completely past them. This model ignores intervening models when declaring its charge target.</capacity>
-          <capacity title="SPRINT">At the end of this mode1's activation, if it destroyed one or more enemy models with melee attacks this activation it can make a full advance.</capacity>
+          <capacity title="SPRINT">At the end of this model's activation, if it destroyed one or more enemy models with melee attacks this activation it can make a full advance.</capacity>
         </warjack>
         <warjack id="CJ09" name="Seether" full_name="Seether" qualification="Cryx Helljack" fa="U" cost="9" damage_grid="xx..xxx....x.......L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="Seether" spd="6" str="10" mat="8" rat="5" def="13" arm="17" cmd="0" terror="true" />
@@ -553,7 +553,7 @@
             <melee_weapon name="Tusks" pow="2" p_plus_s="12" />
           </weapons>
           <capacity title="AGGRESSIVE" type="">This model can run or charge without spending focus or being forced.</capacity>
-          <capacity title="SOUL DRIVE" type="">This model is allocated l additional focus point during your Control Phase.</capacity>
+          <capacity title="SOUL DRIVE" type="">This model is allocated 1 additional focus point during your Control Phase.</capacity>
         </warjack>
         <warjack id="CJ07" name="Slayer" full_name="Slayer" qualification="Cryx Helljack" fa="U" cost="6" damage_grid="xx..xxx....x.......L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="Slayer" spd="6" str="10" mat="7" rat="5" def="13" arm="17" cmd="0" />
@@ -578,7 +578,7 @@
           <capacity title="ARCANE ASSASSIN" type="">When making attacks, ignore focus points overboosting the target's Power Field and spell effects adding to its ARM or DEE</capacity>
           <capacity title="EXTENDED CONTROL RANGE" type="">When checking to see if this model is in its controller's control area, double the area.</capacity><!-- errata 12-2013 -->
         </warjack>
-        <warjack id="CJ21" name="Inflictor" full_name="Inflictor" damage_grid="xx..xxx....x.......L..R.LLMCRRxMMCCx" cost="8" qualification="Heavy Warjack" fa="U">
+        <warjack id="CJ21" name="Inflictor" full_name="Inflictor" damage_grid="xx..xxx....x.......L..R.LLMCRRxMMCCx" cost="8" qualification="Heavy Warjack" fa="U" completed="true">
           <basestats name="Inflictor" spd="6" str="10" mat="7" rat="5" def="13" arm="17" cmd="0" />
           <weapons>
               <melee_weapon p_plus_s="13" pow="3" name="Shield Claw" open_fist="true" shield="true"></melee_weapon>
@@ -883,7 +883,7 @@
           </weapons>
           <capacity title="BODY COUNT">This model gains one soul token each time it destroys a living enemy model. It can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to boost attack or damage rolls at one token per boost.</capacity>
         </unit>
-        <unit id="CU12" name="The withershadow combine" full_name="The withershadow combine" qualification="CRYX CHARACTER UNIT" fa="C" base_cost="5" full_cost="-" baseCount="3" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU12" name="The Withershadow Combine" full_name="The Withershadow Combine" qualification="CRYX CHARACTER UNIT" fa="C" base_cost="5" full_cost="-" baseCount="3" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="Maelovus" spd="6" str="7" mat="7" rat="4" def="14" arm="16" cmd="9" undead="true" terror="true" officer="true" hitpoints="5" />
           <weapons>
             <melee_weapon name="Lich claws" pow="6" p_plus_s="13" />
@@ -1118,7 +1118,7 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <weapons>
               <melee_weapon p_plus_s="10" pow="6" name="Fell Spear" magical="true" reach="true"></melee_weapon>
           </weapons>
-          <capacity title="ATTACHMENT [Mecanithrall or Banethrall]">This attachment can be added to a Mecanithrall or Banethrall unit.</capacity>
+          <capacity title="ATTACHMENT [Mecanithrall or Bile Thrall]">This attachment can be added to a Mecanithrall or Bile Thrall unit.</capacity>
           <capacity title="Battle Wizard">Once per turn, when this model destroys one or more enemy models with a melee attack during its activation, immediately after the attack is resolved it can make one Magic Ability special attack or special action.</capacity>
           <capacity title="Magic Ability [6]"></capacity>
           <capacity title="* Dark Fire" type="*Attack">Dark fire is a RNG 10, POW 12 magic attack. When a living model is destroyed by Dark Fire, this model gains its soul token regardless of the proximity of other models.</capacity>

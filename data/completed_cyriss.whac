@@ -13,10 +13,10 @@
             </melee_weapon>
             <ranged_weapon rng="12" name="Polynomial Beam" aoe="-" pow="12" rof="1" magical="true" />
           </weapons>
-          <feat title="Eleventh Hour">Friendly Faction models currently within Aurora's control area gain Refuge. (When a model with Refuge hits an enemy model with an attack during its activation, immediately after its combat action ends the model with Refuge can make a full advance. It cannot be targeted by free strikes during this movement.)</feat>
+          <feat title="Eleventh Hour">Friendly Faction models currently within Aurora's control area gain Refuge for one round. (When a model with Refuge hits an enemy model with an attack during its activation, immediately after its combat action ends the model with Refuge can make a full advance. It cannot be targeted by free strikes during this movement.)</feat>
           <spell name="ADMONITION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy model advances and ends its movement within 6" of target model in this model's battlegroup, the affected model can immediately advance up to 3", then ADMONITION expires. The affected model cannot be targeted by free strikes during this movement.</spell>
           <spell name="BLADED GALE" cost="3" rng="SP8" aoe="-" pow="13" up="NO" off="YES">Models hit lose Flight for one round.</spell>
-          <spell name="FLASHING BLADE" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model immediately makes one normal attack with one of its melee weapons against each enemy model in its LOS that is in that weapon's melee range. These attacks are simultaneous.</spell>
+          <spell name="FLASHING BLADE" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model immediately makes one normal attack with one of its melee weapons against each enemy model in its LOS that is in the weapon's melee range. These attacks are simultaneous.</spell>
           <spell name="TRANSFERENCE" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">While in this model's control area, friendly Faction warrior models can spend 1 Focus point on this model to boost a melee attack or melee damage roll during their activation.</spell>
           <spell name="TRUE PATH" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Friendly faction warrior models/units beginning their activation in this model's control area gain +2" of movement and Pathfinder during their activation. True Path lasts one turn.</spell>
           <capacity title="ELITE CADRE [CLOCKWORK ANGELS]">Friendly Clockwork Angel units gain Combined Melee Attack.</capacity>
@@ -39,7 +39,8 @@
           <feat title="Circumpotence">Enemy models currently within Axis' control area suffer -2 SPD and STR, and friendly Faction models currently in Axis' control area gain +2 SPD and STR. Circumpotence last for one round.</feat>
           <spell name="BATTERING RAM" cost="2" rng="6" aoe="-" pow="12" up="NO" off="YES">When an enemy model is hit by BATTERING RAM, it can be pushed 3" directly away from the spells point of origin.</spell>
           <spell name="IRON AGGRESSION" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Warjack can run, charge, or make slam or trample power attacks without spending focus and gains boosted melee attack rolls.</spell>
-          <spell name="ONSLAUGHT" cost="3" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Friendly Faction models beginning a charge in this model's control area gain Pathfinder during the charge.</spell> <!-- errata may 2014 -->
+          <spell name="ONSLAUGHT" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Friendly Faction models beginning a charge in this model's control area gain Pathfinder during the charge.</spell>
+          <!-- errata may 2014 -->
           <spell name="RAZOR WALL" cost="2" rng="CTRL" aoe="WALL" pow="-" up="YES" off="NO">Place the wall template anywhere completely within this model's Control Area where it does not touch a model's base, an obstruction or an obstacle. When a model enters or ends its activation in the wall area it suffers 1 damage point.</spell>
           <spell name="UNSTOPPABLE FORCE" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">While in this model's control area, models in its battlegroup gain Bulldoze. Unstoppable Force lasts for one turn. (When a model with Bulldoze advances into B2B contact with an enemy model during its activation, it can push that model up to 2" directly away from it. A model can be pushed by Bulldoze only once per activation. Bulldoze has no effect when a model makes a trample power attack.)</spell>
           <capacity title="FIELD MARSHAL [COUNTER CHARGE]">Models in this model's battlegroup gain Counter Charge. (When an enemy model advances and ends its movement within 6" of a model with Counter Charge and in its LOS, the model with Counter Charge can immediately charge it. If it does it cannot make another Counter Charge until after your next turn. A model cannot make a counter charge while engaged.)</capacity>
@@ -53,9 +54,9 @@
             <ranged_weapon rng="11" name="Aperture Blast" aoe="4" pow="15" rof="1" />
           </weapons>
           <feat title="Mathematical Perfection">Directrix's MAT and RAT are each equal to her FOCUS for one turn.</feat>
-          <spell name="BACKLASH" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">When target enemy warjack thast is part of a battlegroup is damaged, its controller suffers 1 damage.</spell>
-          <spell name="DOMINATION" cost="3" rng="6" aoe="-" pow="-" up="NO" off="YES">Take control of target enemy non-character warjack that has a functional cortex. You can make a full advance with the warjack and can then make one normal attack, then DOMINATION expires. DOMINATION can be cast only once per turn.</spell>
-          <spell name="FIRE GROUP" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area the ranged weapons of models in its battlegroup gain +2 RNG. Fire Group lasts 1 turn.</spell>
+          <spell name="BACKLASH" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">When target enemy warjack that is part of a battlegroup is damaged, its controller suffers 1 damage point.</spell>
+          <spell name="DOMINATION" cost="3" rng="8" aoe="-" pow="-" up="NO" off="YES">Take control of target enemy non-character warjack that has a functional cortex. You can make a full advance with the warjack and can then make one normal attack, then DOMINATION expires. DOMINATION can be cast only once per turn.</spell>
+          <spell name="FIRE GROUP" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area the ranged weapons of models in its battlegroup gain +2 RNG. Fire Group lasts for one turn.</spell>
           <spell name="SHRAPNEL SWARM" cost="3" rng="8" aoe="*" pow="13" up="NO" off="YES">On a direct hit against an enemy model, center a 4" AOE on the model hit. After resolving the damage roll, models in the AOE are hit and suffer 1 point of damage.</spell>
           <spell name="TACTICAL SUPREMACY" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit can advance 3" after all models have ended their activations on your turn.</spell>
           <capacity title="FIELD MARSHAL [ARC NODE]">Models in this model's battlegroup gain Arc Node.</capacity>
@@ -67,7 +68,7 @@
               <basestats name="Exponent Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true"/>
               <weapons>
               	  <ranged_weapon rng="10" name="Aperture Beam" aoe="-" pow="-" rof="1">
-              		<capacity title="IMPERIL">For one round when a model/unit is hit by this attack suffers a damage roll add +2 to the damage roll</capacity>
+                <capacity title="IMPERIL">For one round when a model/unit is hit by this attack suffers a damage roll add +2 to the roll.</capacity>
             	  </ranged_weapon>
               </weapons>
           	  <capacity title="STEADY" >This model cannot be knocked down.</capacity>
@@ -97,7 +98,8 @@
             <melee_weapon p_plus_s="14" pow="5" name="Workshop Array" count="2" />
             <ranged_weapon rng="11" name="Static Bolt" aoe="-" pow="11" rof="1" electricity="true" />
           </weapons>
-          <feat title="Technological Superiority">While in Syntherion's control area, models in his battlegroup can charge without spending focus and gain Weapon Platform. Technological Superiority lasts for one turn. (A model with Weapon Platform can make melee and ranged attacks in the same activation, when a model with Weapon Platform makes its initial melee attacks or a power attack, it can also make its initial ranged attacks. A model with Weapon Platform can make ranged attacks even while in melee.)</feat>
+          <feat title="Technological Superiority">When a model in Syntherion’s battlegroup begins its activation in his control area, it can charge without spending focus and gains Weapon Platform (A model with Weapon Platform can make melee and ranged attacks in the same activation, when a model with Weapon Platform makes its initial melee attacks or a power attack, it can also make its initial ranged attacks. A model with Weapon Platform can make ranged attacks even while in melee.)</feat>
+          <!-- errata feb 2015 -->
           <spell name="CONVECTION" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">When Convection destroys a living enemy model, allocate 1 focus point to a warjack in this model's battlegroup that is in its control area.</spell>
           <spell name="HOT SHOT" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target model in this model's battlegroup gains boosted ranged attack damage rolls.</spell>
           <spell name="MAGNETIC HOLD" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers -2SPD and DEF. Friendly Faction models with Construct charging an affected model gain +2" movement.</spell>
@@ -124,7 +126,7 @@
         <warjack id="cocJ02" name="Diffuser" full_name="Diffuser" damage_grid="xx..xxxx..xxxx..xxx....xxHHHHxMMIIMM" cost="3" qualification="Convergence Light Vector" fa="U" completed="true">
           <basestats name="Diffuser" spd="5" str="7" mat="0" rat="0" def="12" arm="16" cmd="0" />
           <weapons>
-            <melee_weapon p_plus_s="6" pow="0" name="Bash" />
+            <melee_weapon p_plus_s="7" pow="0" name="Bash"/>
             <ranged_weapon rng="11" name="Homing Ripspike" aoe="-" pow="11" rof="1">
               <capacity title="BEACON">Friendly models can charge or make slam power attacks against an enemy model hit by this weapon without being forced or spending focus. A friendly model charging an enemy hit by this weapon gains +2" of movement. Beacon lasts one turn.</capacity>
               <capacity title="LUCK">This model can reroll missed attack rolls with this weapon. Each attack can be rerolled only once as a result of Luck.</capacity>
@@ -136,7 +138,7 @@
           <basestats name="Galvanizer" spd="5" str="7" mat="0" rat="0" def="12" arm="16" cmd="0" />
           <weapons>
             <melee_weapon p_plus_s="12" pow="5" name="Metal Saw">
-              <capacity title="CRITICAL GRIEVOUS WOUNDS">On a critical hit, the model hit by this weapon loses Tough, cannot heat or be healed, and cannot transfer damage for one round.</capacity>
+              <capacity title="CRITICAL GRIEVOUS WOUNDS">On a critical hit, the model hit by this weapon loses Tough, cannot heal or be healed, and cannot transfer damage for one round.</capacity>
             </melee_weapon>
           </weapons>
           <capacity title="CIRCULAR VISION">This model's front arc extends to 360°</capacity>
@@ -231,7 +233,7 @@
         </warjack>
       </warjacks>
       <colossals>
-        <colossal id="cocJ11" name="Prime Axiom" full_name="Prime Axiom" damage_grid_left="xx....xx....xx..SS.LLSSILLIIIIMMMMMI" damage_grid_right="....xx....xxSS..xxISRR.xIIIIRRIMMMMM" cost="19" qualification="Convergence Colossal" fa="2" completed="true">
+        <colossal id="cocJ11" name="Prime Axiom" full_name="Prime Axiom" damage_grid_left="xx....xx....xx..SSX.LLSILLIIIIMMMMMI" damage_grid_right="....xx....xxSS..xxISRR.xIIIIRRIMMMMM" cost="19" qualification="Convergence Colossal" fa="2" completed="true">
           <basestats name="Prime Axiom" spd="5" str="16" mat="0" rat="0" def="7" arm="20" cmd="0" />
           <weapons>
             <ranged_weapon rng="13" name="Accelespiker" aoe="-" pow="11" rof="2" location="S">
@@ -252,6 +254,7 @@
               <capacity title="SUSTAINED ATTACK">During this model's activation, when it makes an attack with this weapon against the last model hit by the weapon this activation, the attack automatically hits.</capacity>
             </melee_weapon>
           </weapons>
+          <capacity title="LAUCH SERVITOR">Once per turn during this model's activation, you can place one servitor solo into play within 2" of this model.</capacity>
         </colossal>
       </colossals>
       <battleEngines>
@@ -268,7 +271,7 @@
           <capacity title="SERVITOR SATELLITES">At the start of this model's activation, remove any permutation Servitors this model put into play from the table. Once per activation, after its normal movement, this model can place up to 3 Permutation Servitors anywhere within 1" of this model.</capacity>
           <capacity title="STEADY">This model cannot be knocked down.</capacity>
           <model id="Permutation Servitors" name="Permutation Servitors" full_name="Permutation Servitors">
-              <basestats name="Permutation Servitors" spd="6" str="10" mat="0" rat="4" def="10" arm="20" cmd="10" construct="true"/>
+            <basestats name="Permutation Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="-" construct="true" pathfinder="true"/>
               <capacity title="ORBIT">This model does not begin the game in play and does not activate. This model cannot be hit by attacks made by the model that put it into play. If the model that put this model into play is destroyed or removed from play, remove this model from play.</capacity>
               <capacity title="STEADY">This model cannot be knocked down.</capacity>
           </model>
@@ -288,7 +291,7 @@
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
           <capacity title="REFORM">After all models in this unit have completed their actions, each can advance up to 3".</capacity>
         </unit>
-        <unit id="cocU02" name="Obstructors" full_name="Obstructors" base_cost="4" baseCount="6" full_cost="6" fullCount="9" qualification="Convergence Unit" fa="3" completed="true">
+        <unit id="cocU02" name="Obstructors" full_name="Obstructors" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Convergence Unit" fa="3" completed="true">
           <basestats name="Leader and grunts" spd="5" str="7" mat="6" rat="5" def="12" arm="14" cmd="7" construct="true" />
           <weapons>
             <melee_weapon p_plus_s="11" pow="4" name="Teleflail" reach="true" chain="true">
@@ -298,7 +301,7 @@
           <capacity title="SHIELD WALL" type="Order">For one round, each affected model gains a +4 ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
         </unit>
-        <unit id="cocU03" name="Reductors" full_name="Reductors" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Convergence Unit" fa="2" completed="true">
+        <unit id="cocU03" name="Reductors" full_name="Reductors" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Convergence Unit" fa="3" completed="true">
           <basestats name="Leader and grunts" spd="5" str="7" mat="6" rat="5" def="12" arm="14" cmd="7" construct="true" />
           <weapons>
             <melee_weapon p_plus_s="10" pow="3" name="Retractable Blade" />
@@ -330,9 +333,9 @@
           <capacity title="WEAPONS MODULATION" type="*Action">This model can make this special action only when B2B with a friendly Faction model with Construct. The construct's weapons gain Magical Weapon for one round.</capacity>
         </unit>
         <unit id="cocU06" name="Reciprocators" full_name="Reciprocators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true">
-          <basestats name="Leader and grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="15" cmd="7" construct="true" hitpoints="8" />
+          <basestats name="Leader and grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="16" cmd="7" construct="true" hitpoints="8"/>
           <weapons>
-            <melee_weapon p_plus_s="12" pow="4" name="Protean Polearm" />
+            <melee_weapon p_plus_s="12" pow="4" name="Protean Polearm" reach="true"/>
           </weapons>
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
           <capacity title="SHIELD WALL" type="Order">For one round, each affected model gains a +4 ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can beginthe game affected by Shield Wall.</capacity>
@@ -349,6 +352,7 @@
               <capacity title="ARMOR PIERCING">When calculating damage from this weapon, halve the base ARM stats of models hit that have medium or larger bases. This weapon gains +2 damage rolls against models with small bases.</capacity>
             </ranged_weapon>
           </weapons>
+          <capacity title="ASSAULT (ORDER)">Affected models must charge or run. As part of a charge, after moving but before making its charge attack, an affected model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of the affected model's activation. Models that received this order cannot make combined ranged attacks this activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, the affected model must still make the ranged attack before its activation ends.</capacity>
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
           <capacity title="REPAIRABLE">Other models can make Bodge or Repair special actions to repair this model as if it were a warjack.</capacity>
           <capacity title="VARIABLE[RANGED]">At the start of this model's activation, choose one of the following modes for the unit's weapons. Each of this model's melee weapons gains the ability listed for one round.</capacity>
@@ -382,7 +386,7 @@
           <capacity title="MODEL COUNT">3 models</capacity>
         </solo>
         <solo id="cocS04" name="Elimination Servitors" full_name="Elimination Servitors" cost="2" qualification="Convergence Solo" fa="3" completed="true">
-          <basestats name="Elimination Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true" />
+          <basestats name="Elimination Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true" gunfighter="true"/>
           <weapons>
             <ranged_weapon rng="9" name="Spike Ejector" aoe="-" rof="1" pow="-">
               <capacity title="PUNCTURE">A model hit by this attack automatically suffers 1 damage point.</capacity>
@@ -411,7 +415,7 @@
           <capacity title="DEFENSIVE STRIKE">Once per turn, when an enemy model advances into and ends its movement in this model's melee range, this model can immediately make one normal melee attack against it.</capacity>
         </solo>
         <solo id="cocS07" name="Reflex Servitors" full_name="Reflex Servitors" cost="2" qualification="Convergence Solo" fa="3" completed="true">
-          <basestats name="Reflex Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true" />
+          <basestats name="Reflex Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true" advance_deployment="true"/>
           <weapons>
             <melee_weapon p_plus_s="0" pow="0" name="Probability Mine">
               <capacity title="DETONATION">If this attack directly hits, instead of dealing damage normally, center a 4" AOE on the model hit and remove this model from play. The model hit suffers an unboostable POW 14 damage roll. If the attack misses, center the AOE on this mode; and remove this model from play. Models in the AOE other than the model directly hit are hit and suffer an unboostable POW 7 blast damage roll. Blast damage from this attack is not considered to have been caused by a melee attack. Detonation damage is unboostable.</capacity>
@@ -434,7 +438,7 @@
           <capacity title="IRON SENTINEL">While B2B with a friendly Faction warjack, this model gains +2 DEF and ARM and cannot be knocked down.</capacity>
           <capacity title="REALIGNMENT">Once per game during its unit's activation, this model can use Realignment. Models in the unit can reroll failed attack rolls and skill checks this turn. Each roll can be rerolled only once as a result of Realignment.</capacity>
           <capacity title="REPAIR [9]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
-          <capacity title="TACTICS: RANKED ATTACKS">Models in this unit gain Ranked Attacks.(Friendly Faction models can ignore models w/ Ranked Attacks when determining LOS.)</capacity>
+          <capacity title="TACTICS: RANKED ATTACKS">Models in this unit gain Ranked Attacks.(Friendly Faction models can ignore models with Ranked Attacks when determining LOS.)</capacity>
           <restricted_to id="cocU01" />
           <restricted_to id="cocU02" />
           <restricted_to id="cocU03" />

@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
   <armies>
-    <army faction="faction_cygnar" name="cygnar">
+    <army faction="faction_cygnar" name="cygnar" version="forum_cygnar_001">
       <warcasters>
         <warcaster id="Yw01" name="Haley1" full_name="Captain Victoria Haley" generation="P" qualification="Cygnar Warcaster" focus="7" warjack_points="5" fa="C" completed="true">
           <basestats name="Haley" spd="6" str="5" mat="6" rat="5" def="16" arm="14" cmd="8" hitpoints="15" />
@@ -1013,7 +1013,7 @@
           <spell name="ARCANE SHIELD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +3 ARM.</spell>
         </solo>
         <solo id="YS02" name="Gun Mage Captain Adept" full_name="Gun Mage Captain Adept" cost="2" qualification="Cygnar Arcane Tempest Solo" fa="2"  completed="true">
-          <basestats name="Captain" spd="6" str="4" mat="5" rat="8" def="15" arm="11" cmd="9" hitpoints="5" commander="true" />
+          <basestats name="Captain" spd="6" str="4" mat="5" rat="8" def="15" arm="11" cmd="9" hitpoints="5" commander="true" advance_deployment="true" />
           <weapons>
             <ranged_weapon name="Magelock Pistol" rng="10" rof="1" aoe="-" pow="10" magical="true" />
             <melee_weapon name="Sword" pow="3" p_plus_s="7" magical="false" reach="false" />

@@ -1554,7 +1554,7 @@
               <melee_weapon name="Saber" pow="3" p_plus_s="9" magical="true" weapon_master="true">
               </melee_weapon>
           </weapons>
-          <capacity title="MERCENARIES">This models will work for Cryx.</capacity>
+          <capacity title="MERCENARIES">These models will work for Cryx.</capacity>
           <capacity title="BLOOD BOUND">When this model destroys a living enemy model with an attack, after the attack is resolved you can return one destroyed model in this unit to play. The model returns with five damage boxes, must be placed within 3" of this model, and cannot activate the turn it returns to play. The destroyed model is removed from play but does not provide a soul or corpse token.</capacity>
           <capacity title="SWASHBUCKLER">When this model makes a melee attack during its activation, its front arc extends to 360 degrees, and it can make one melee attack against each model in its LOS that is in its melee range.</capacity>
           <model full_name="Morland" id="morland">

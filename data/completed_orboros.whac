@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="warmachine.xsd">
+<ruleset xmlns="http://www.whac.com"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
   <armies>
-    <army faction="faction_orboros" name="Orboros">
+    <army faction="faction_orboros" name="Orboros" version="forum_orboros_001">
       <warlocks>
         <!--Kaya Wildborne complete-->
         <warlock id="Ow01" name="Kaya1" full_name="Kaya the Wildborne" generation="P" qualification="Circle Warlock" fury="6" warbeast_points="6" fa="C" completed="true">
