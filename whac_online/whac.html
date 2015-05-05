@@ -1,0 +1,604 @@
+<html> 
+<head><title>WHAC - Online</title>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="whac.css">
+	<link rel="icon" href="favicon.ico" />
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="jsrender.js"></script>
+	<script src="jsviews.js"></script>
+	<script src="cryx.js"></script>
+	<script src="cygnar.js"></script>
+	<script src="mercs.js"></script>
+	<script src="menoth.js"></script>
+	<script src="retribution.js"></script>
+	<script src="whac.js"></script>
+
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script>
+$(function() {
+$( "#army_options" ).accordion({
+		heightStyle: "content"
+	})
+});
+
+</script>
+
+
+</head>
+ 
+<body>
+
+<div id="dialog-confirm-unit-size" title="Unit size">
+</div>
+
+
+<div id="dialog-export-army" title="Export Army">
+	<ul id="selected_entries_ul_export"></ul>
+</div>
+
+<div id="dialog-theme-display" title="Theme force requirements/benefits" style="display: none;">
+<H2>Models available</H2>
+	<ul id="theme_groups_available"></ul>
+<H2>Requirements</H2>
+	<ul id="theme_must_have"></ul>
+<H2>Benefits</H2>
+	<ul id="theme_benefits"></ul>
+</div>
+
+
+
+<script id="modelSelectionTemplate" type="text/x-jsrender">
+		{^{for groups}}
+			{{if entries.length > 0}}
+			<li class="selection_group"><img src="{{:logo}}.png" class="faction_logo"/>{{:label}}</li>
+				<ul id="group_{{:id}}" style="display:none">
+					{^{for entries}}				
+					<li class="selection_model">
+						<a class="model_title"> {^{:name}} </a>
+						<img class="add_entry" data-link="class{merge:isAddable toggle='visible'} class{merge:!isAddable toggle='invisible'}" 
+							src="add.png" />
+						<br/>
+						<span class="fa">FA:{^{:selectedFA}}/
+						{^{if alteredFA != 0}}
+							<font color="blue">{^{:alteredFA}}</font>
+						{{else}}
+							{{:fa}}
+						{{/if}}
+						
+						</span>
+						{{if min != undefined}} 
+							<span class="unitSize">{{:min}}/{{:max}} models</span>
+							<span class="cost">{{:costMin}}/{{:costMax}} PC</span><span> </span>
+						{{else}}
+							{{if count}} 
+							<span class="unitSize">{{:count}} models</span>
+							{{/if}}	
+							<span class="cost">{{:cost}}PC</span>
+						{{/if}}
+						<span>&nbsp; </span>
+					</li>
+					{{/for}}
+				</ul>
+			{{/if}}
+  		{{/for}}
+</script>
+
+
+<script id="modelSelectedTemplate" type="text/x-jsrender">
+		{^{for entries}}
+			<li>
+				<a class="model_title">{{:name}} : {^{:cost}} PC</a>
+				<img class="remove_entry" src="remove.png" />
+				<img class="specialist" data-link="class{merge:specialist toggle='full_visible'} class{merge:!specialist toggle='shadow'} class{merge:canSpecialist toggle='visible'} class{merge:!canSpecialist toggle='invisible'}" 
+							src="specialist.png" />
+			
+			</li>
+
+			{^{if attachment}}
+				<ul>
+					<li>
+						<a class="model_title"> {^{:attachment.name}} : {^{:attachment.cost}} PC</a>
+						<img class="remove_attachment" src="remove.png" />
+						<img class="specialist_attach" data-link="class{merge:attachment.specialist toggle='full_visible'} class{merge:!attachment.specialist toggle='shadow'} class{merge:attachment.canSpecialist toggle='visible'} class{merge:!attachment.canSpecialist toggle='invisible'}" 
+									src="specialist.png" />
+					</li>
+				</ul>
+			{{/if}}
+				<ul>
+				{^{for warjacks}}				
+					<li>
+						<a class="model_title"> {^{:name}} : {^{:cost}} PC</a>
+						<img class="remove_warjack" src="remove.png" />
+						<img class="specialist" data-link="class{merge:specialist toggle='full_visible'} class{merge:!specialist toggle='shadow'} class{merge:canSpecialist toggle='visible'} class{merge:!canSpecialist toggle='invisible'}" 
+									src="specialist.png" />
+					</li>
+				{{/for}}
+				</ul>
+				<ul>
+				{^{for weapons}}				
+					<li>
+						<a class="model_title"> {^{:name}}  : {^{:cost}} PC </a>
+						<img class="remove_wa" src="remove.png" />
+						<img class="specialist" data-link="class{merge:specialist toggle='full_visible'} class{merge:!specialist toggle='shadow'} class{merge:canSpecialist toggle='visible'} class{merge:!canSpecialist toggle='invisible'}" 
+									src="specialist.png" />
+					</li>
+				{{/for}}
+				</ul>
+
+  		{{/for}}
+</script>
+
+
+<script id="armyExportTemplate" type="text/x-jsrender">
+	<ul>
+		{^{for entries}}
+			<a class="model_title">{{:name}} : {^{:cost}} PC</a>
+			{^{if specialist}} (Specialist) {{/if}}
+
+			<br>
+
+			{^{if attachment}}
+				* <a class="model_title"> {^{:attachment.name}} : {^{:attachment.cost}} PC</a>
+				{^{if attachment.specialist}} (Specialist)
+				{{/if}}
+				<br>
+			{{/if}}
+				{^{for warjacks}}				
+					* <a class="model_title"> {^{:name}} : {^{:cost}} PC</a>{^{if specialist}} (Specialist) {{/if}}<br>
+				{{/for}}
+			{{if weapons && weapons.length > 0}}
+				{^{for weapons}}				
+					* <a class="model_title"> {^{:name}}  : {^{:cost}} PC {^{if specialist}} (Specialist) {{/if}}</a><br>
+				{{/for}}
+			{{/if}}
+
+  		{{/for}}
+  	</ul>
+</script>
+
+<script id="tierBenefitsTemplate" type="text/x-jsrender">
+	<ul>
+		{{for faAlterations}}
+		<li>
+			{{:faAlterString}}
+		</li>
+		{{/for}}
+		{{if benefit}}
+			<li>{{:benefit}}</li>
+		{{/if}}
+  	</ul>
+</script>
+
+<script id="tierLevelTemplate" type="text/x-jsrender">
+	<ul>
+		{^{for availableModels}}
+			<li><a class="group">{{:type}} </a></li>
+			<ul>
+				<li>{{:models}}</li>
+			</ul>
+  		{{/for}}
+  	</ul>
+</script>
+
+<script id="tierMustHaveTemplate" type="text/x-jsrender">
+	<ul>
+		{{if mustHave == null || mustHave.length == 0 }}
+		The army can include only the models listed above.
+		{{/if}}
+
+		{{for mustHave}}
+		<li>
+			{{if inBG}}
+			Warcaster/lock Battlegroup includes {{:min}} or more
+			{{else}}
+				{{if inMarshal}}
+				The army includes {{:min}} or more `jack marshaled warjacks
+				{{else}}
+				The army includes {{:min}} or more 
+				{{/if}}
+			{{/if}}
+			{{:mustHaveString}}
+		</li>
+		{{/for}}
+		<br>
+  	</ul>
+</script>
+
+
+
+
+
+
+<div class="header">
+<table><tr><td rowspan="2"><img src="ic_lau10.png" width="96px" height="96px"/></td><td><H1>Warmachine &amp; Hordes Army Creator : Online!</H1><H2 id="resume">Menoth, 50+10 points, Heaven's Doors</td></tr></table>
+</div>
+ 
+<div class=".ui-widget">
+<form>
+
+<div class="ui-accordion" id="army_options" data-collapsed="false">
+
+
+<!-- ******************************** choose options : points / specialists ***************************************-->
+	<H1 class="ui-accordion-header"> Create army options</H1>
+	<div id="army_option">
+	 
+	 	<p>
+		<label for="range-army-points">Army points (normal) :</label> <input id="range-army-points-text" type="text" value="50" readonly="true">
+		</p>
+		<div id="range-army-points"></div>
+		<p/>
+
+		<div> 
+		    <label for="nb_casters">Number of warcasters/warlocks:</label>
+		    <select id="nb_casters" name="nb_casters_select" autocomplete="off">
+		        <option value="1" selected="selected">1</option>
+		        <option value="2">2</option>
+		        <option value="3">3</option>
+		        <option value="4">4</option>
+		        <option value="5">5</option>
+		        <option value="6">6</option>
+		    </select>
+		</div>
+		<p/>
+
+		<div> 
+		    <label for="flip-specialists">Use specialist:</label>
+		    <select id="flip-specialists" name="flip-specialists-select" autocomplete="off">
+		        <option value="off" selected="true" >Off</option>
+		        <option value="on">On</option>
+		    </select>
+		</div>
+		<p/>
+		<div id="div-specialist-range">
+				<p>
+		    <label for="range-specialits-points">Specialist points :</label> <input id="range-specialits-points-text" type="text" value="10"  readonly="true">
+		    </p>
+		    <div id="range-specialits-points" width="50%"></div>
+		</div>   
+		<button id="validate-points-button">Validate points</button>
+	</div>
+
+
+
+
+<!-- ******************************** choose faction ***************************************-->
+
+	<H1> Choose faction </H1>
+	<div id="faction_options">
+	    <select name="select-native-system" id="select-native-system">
+	        <option value="0">Warmachine</option>
+	        <option value="1">Hordes</option>
+	    </select>
+	    
+	    <select name="select-native-faction" id="select-native-faction">
+	    </select>
+	    
+	    <select name="select-native-tierOrContract" id="select-native-tierOrContract">
+	    </select>
+
+
+	    <button id="validate-faction-button">Validate faction</button>
+	</div>
+
+
+
+<!-- ******************************** choose army entries ***************************************-->  
+  	<H1> Select army </H1>
+	<div id="army_selection">
+		<div id="army_zone"  class="army_zone">
+			<div id="compendium" class="compendium"></div>
+			<div id="army_points_div" class="army_points"></div>
+			<div id="tiers_div" class="tiers"> 
+				Theme force : <span id="theme_title"></span>
+				<img id="tier1" class="tierImg" src ="tiers1.png" />
+				<img id="tier2" class="tierImg" src ="tiers2.png" />
+				<img id="tier3" class="tierImg" src ="tiers3.png" />
+				<img id="tier4" class="tierImg" src ="tiers4.png" />
+				
+			</div>
+			
+		   	<div id="army_entries" class="army_entries">
+		   		<ul id="entrygroups">
+		   		</ul>
+		  	</div>
+			<div id="army_selected" class="army_selected">
+			    <ul id="selected_entries_ul">
+			    </ul>
+			</div>
+			<div id="objective_choice" class="objective_choice">
+				<label for="objective">Objective :</label> 
+				<select id="objective" name="objective">
+					<option id="0">Select Objective</option>
+					<option id="1">Arcane Wonder</option>
+					<option id="2">Armory</option>
+					<option id="3">Bunker</option>
+					<option id="4">Effigy of Valor</option>
+					<option id="5">Fuel Cache</option>
+					<option id="6">Stockpile</option>
+				</select>
+			</div>
+			<div height="500px">&nbsp;</div>
+		</div>
+		<p/>
+		<div id="export-army-button">Export army content</div>
+		<div id="clean-army-button">Clear army content</div>
+		
+  	</div>
+  
+  
+</div>
+
+
+</div>
+
+ <!-- whac -->
+ 
+ </form>
+
+ </body>
+ 
+ <script>
+var arrayLength = systems.length;
+$(document).ready(function(){
+	army_points = 50;
+	army_points_specialists = 10;
+
+
+	
+	$("#tier1").data({ level: 1 });
+	$("#tier2").data({ level: 2 });
+	$("#tier3").data({ level: 3 });
+	$("#tier4").data({ level: 4 });
+
+	$("#tier1").click(function(event) {
+		var levelValue = $.data(this, 'level');
+		showThemeLevel(event,levelValue);
+	});	
+	$("#tier2").click(function(event) {
+		var levelValue = $.data(this, 'level');
+		showThemeLevel(event,levelValue);
+	});	
+	$("#tier3").click(function(event) {
+		var levelValue = $.data(this, 'level');
+		showThemeLevel(event,levelValue);
+	});	
+	$("#tier4").click(function(event) {
+		var levelValue = $.data(this, 'level');
+		showThemeLevel(event,levelValue);
+	});	
+
+	$("#range-army-points").slider({
+	 	range: "max",
+		min: 15,
+		max: 300,
+		value: 50,
+		slide : function(event, ui) {
+			$("#range-army-points-text").val(ui.value);
+			
+		},
+		change: function() {
+			buildResume();
+		}
+	});
+
+	$( "#range-army-points-text" ).val( $( "#range-army-points" ).slider( "value" ) );
+
+	$("#range-specialits-points").slider({
+	 	range: "max",
+		min: 5,
+		max: 30,
+		value: 10,
+		step: 5,
+		slide : function(event, ui) {
+			$("#range-specialits-points-text").val(ui.value);
+		},
+		change: function() {
+			buildResume();
+		}
+	});
+	$( "#range-specialits-points-text" ).val( $( "#range-specialits-points" ).slider( "value" ) );
+
+	$("#range-specialits-points").val("off");
+	$("#div-specialist-range").hide();
+
+
+	$("#nb_casters").change(function() {
+		
+	});
+
+	$("#range-specialits-points").change(function() {
+		$("#range-specialits-points-text").val($("#range-specialits-points").val());
+	});
+	
+
+	
+	
+	$('#flip-specialists').change(function() {
+	    var page = $(this).val();
+	    if (page == "on") {
+	    	showSpecialists(true);
+	    	$('#div-specialist-range').show(400);
+	    } else {
+	    	showSpecialists(false);
+	    	$('#div-specialist-range').hide(400);
+	    }
+	    buildResume();
+	});
+
+
+	$("#validate-points-button" )
+      .button()
+      .click(function( event ) {
+      	nb_casters = $("#nb_casters").val();
+      	recomposeArmy();
+      	$("#army_options").accordion( "option", "active", 1 );
+      	event.preventDefault();
+      });
+
+	
+  $("#select-native-system").change( function() {
+  	populateFactions(this.value);
+  });
+
+  $("#select-native-faction").change( function() {
+  	populateTiersContracts(this.value);
+  });
+
+  
+  $("#validate-faction-button" )
+      .button()
+      .click(function( event ) {
+		event.preventDefault();
+		changeFaction();
+      });
+	
+
+$("#clean-army-button")      
+	.button()
+	.click(function( event ) {
+		$.observable(selected_entries.entries).remove(0, selected_entries.entries.length);
+		recomposeArmy();
+		event.preventDefault();
+	});
+
+$("#export-army-button")
+      .button()
+      .click(function( event ) {
+
+		var content = $("#army_points_div").html();
+		content += "<p/>" 
+		content += $.templates("#armyExportTemplate").render(selected_entries);
+
+		content += "<p/>"
+		content += "Objective = " + $("#objective").val();
+
+		var title = "Export army content";
+		var buttons = new Array();
+		var button = {
+			text: "OK" ,
+			click: function() {
+				// addWarjack(candidate, model);
+				$( this ).dialog( "close" );
+				}
+			};
+		buttons.push(button);
+
+		$( "#dialog-export-army" ).html(content);
+		$( "#dialog-export-army" ).dialog({
+			resizable: false,
+			height:"auto",
+			title:title,
+			width:450,
+			modal: true,
+			buttons: buttons
+		});
+
+      	event.preventDefault();
+      });
+
+
+  populateFactions(0);
+  populateTiersContracts("Cryx");
+  populateEntryGroups();
+  calculateCompendium();
+  // $("#entry-groups" ).selectable();
+  // $("#entry-groups" ).selectable( "refresh" );
+  
+  // populateEntries();
+
+});
+
+function populateFactions(systemValue) {
+	var options = '';
+	chosenSystem = systems[systemValue];
+	for (var i = 0; i < factions[chosenSystem].length; i++) {
+	    options += '<option value="' + factions[chosenSystem][i] + '">' + factions[chosenSystem][i] + '</option>';
+	}
+	$('#select-native-faction').empty();
+	$('#select-native-faction').html(options);
+}
+
+
+function populateTiersContracts(factionValue) {
+	var options = '';
+	options += '<option value="None">None</option>';
+
+	var selectedFactionId = faction_ids[factionValue];
+
+	full_tiers[factionValue].tiers.map(function(tier) {
+ 		options += '<option value="' + tier.name + '">' + tier.name + '</option>';
+	});
+	$('#select-native-tierOrContract').empty();
+	$('#select-native-tierOrContract').html(options);
+}
+
+function populateEntryGroups() {
+
+	
+$.templates("#modelSelectionTemplate").link("#entrygroups", full_entries)
+.on("click", ".add_entry", function() {
+    var view = $.view(this);
+    // view.data is the entry!
+    var selectedNewEntry = tryAddModel(view.data.id);
+})
+.on("click", ".selection_group", function() {
+	var view = $.view(this);
+    // view.data is the group!
+	var isOpen = view.data.open;
+	if (isOpen == true) {
+		view.data.open = false;
+		$("#group_"+ view.data.id).hide();
+	} else {
+		view.data.open = true;
+		$("#group_"+ view.data.id).show();
+	}
+});
+
+$.templates("#modelSelectedTemplate").link("#selected_entries_ul", selected_entries)
+.on("click", ".remove_entry", function() {
+    var view = $.view(this);
+    var index = $.view(this).index;
+    // view.data is the entry!
+    var selectedNewEntry = tryRemoveModel(index, view.data);
+})
+.on("click", ".specialist", function() {
+    var view = $.view(this);
+    var index = $.view(this).index;
+    // view.data is the entry!
+    flipSpecialist(view.data);
+})
+.on("click", ".specialist_attach", function() {
+    var view = $.view(this);
+    var index = $.view(this).index;
+    // view.data is the parent of the attachment!
+    flipSpecialistAttachment(index, view.data);
+})
+
+.on("click", ".remove_attachment", function() {
+    var view = $.view(this);
+    var index = $.view(this).getIndex();
+    // view.data is the parent of the attachment!
+    var selectedNewEntry = tryRemoveAttachment(index, view.data);
+})
+.on("click", ".remove_warjack", function() {
+    var view = $.view(this);
+    var index = $.view(this).getIndex();
+    var parentIndex = view.parent.getIndex();
+    // view.data is the warjack!
+    var selectedNewEntry = tryRemoveWarjack(parentIndex, index, view.data);
+})
+.on("click", ".remove_wa", function() {
+    var view = $.view(this);
+    var index = $.view(this).getIndex();
+    var parentIndex = view.parent.getIndex();
+    // view.data is the WA!
+    var selectedNewEntry = tryRemoveWA(parentIndex, index, view.data);
+});
+
+}
+
+</script>
+
+ 
+ </html>

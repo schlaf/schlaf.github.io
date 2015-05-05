@@ -1,0 +1,313 @@
+div#entry {
+border-top: 5px solid #E9EFE5;
+border: 1px solid #000;
+}
+
+#army_selected ul {
+	padding-left: 0px;
+}
+
+#army_selected ul li {	
+	border:1px solid black;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+
+	margin-left: 0px;
+	margin-bottom: 5px;
+	
+	line-height: 30px;
+	list-style-type: none;
+	background-color: #EEE;
+	background-repeat: no-repeat;
+	box-shadow: rgba(0,0,0,0.4) 4px 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+
+	vertical-align: middle;
+}
+
+#army_selected ul ul li  {	
+	border:1px solid black;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+
+	margin-left: 20px;
+	margin-bottom: 5px;
+	
+	line-height: 30px;
+	list-style-type: none;
+	background-color: #EEE;
+	background-repeat: no-repeat;
+	box-shadow: rgba(0,0,0,0.4) 4px 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+#army_selected ul li a.model_title  {
+	text-transform : uppercase;
+	font-size:12pt;
+	width: 80%;
+}
+
+#army_selected ul li img.remove_entry {
+	float: right;
+	padding-right: 5px;
+}
+
+#army_selected ul ul li img.remove_attachment {
+	float: right;
+	padding-right: 5px;
+}
+
+#army_selected ul ul li img.remove_warjack {
+	float: right;
+	padding-right: 5px;
+}
+
+#army_selected ul ul li img.remove_wa {
+	float: right;
+	padding-right: 5px;
+}
+
+#army_selected ul li span.cost {
+	padding-left: 150px
+}
+
+#army_selected img.specialist {
+	width: 32px;
+	height: 32px;
+}
+
+#army_selected img.specialist_attach {
+	width: 32px;
+	height: 32px;
+}
+
+#army_selected ul ul li img.shadow {
+	float: right;
+	opacity:.3;
+}
+
+#army_selected ul ul li img.full_visible {
+	float: right;
+	opacity:1;
+	filter:"alpha(opacity=100)";
+}
+
+#army_selected ul li img.shadow {
+	float: right;
+	opacity:0.3;
+	filter:"alpha(opacity=30)";
+}
+
+#army_selected ul li img.full_visible {
+	float: right;
+	opacity:1;
+}
+
+#army_selected img.invisible {
+	display: none;
+}
+
+#army_selected img.visible {
+	display: inline-block;
+}
+
+#army_entries ul ul li {	
+	border:1px solid black;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 15px;
+	margin-bottom: 5px;
+	line-height: 20px;
+	list-style-type: none;
+	background-color: #EEE;
+	background-repeat: no-repeat;
+	box-shadow: rgba(0,0,0,0.4) 2px 2px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+#army_entries ul ul li a.model_title  {
+	text-transform : uppercase;
+	font-size:12pt;
+	width: 80%;
+}
+#army_entries ul ul li span.fa {
+	float: left;
+	padding-left: 15px;
+}
+
+#army_entries ul ul li span.unitSize {
+	padding-left: 15px;
+	float: left;
+}
+
+#army_entries ul ul li span.cost {
+	padding-right: 15px;
+	float: right;
+}
+#army_entries ul ul li img.add_entry {
+	float: right;
+	padding-right: 5px;
+}
+
+#army_entries ul ul li img.invisible {
+	float: right;
+	display: none;
+}
+
+#army_entries ul ul li img.visible {
+	float: right;
+	display: inline-block;
+}
+
+
+#army_entries ul ul li div button {
+	float: right;
+  width: 50px;
+  padding-right : 5px;
+}
+
+#army_entries ul li {	
+	border:2px solid red;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-bottom: 5px;
+	line-height: 30px;
+	list-style-type: none;
+	background-color: #EEE;
+	background-repeat: no-repeat;
+	box-shadow: rgba(0,0,0,0.4) 4px 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	vertical-align: middle;
+}
+
+#army_entries ul li img.faction_logo {
+	float: left;
+	width: 32px;
+	height: 32px;
+	vertical-align: center;
+}
+
+#army_entries ul {	
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+div#compendium {
+    float: left;
+    width: 50%;
+}
+
+div#army_groups {
+    width: 95%;
+    padding: 5px;
+}
+
+div#army_zone {	
+	width: 100%;
+	border:1px solid black;
+	padding: 5px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	 height:650px;
+}
+
+
+div#army_entries {
+	float: left;
+    width: 50%;
+    overflow-y: scroll;
+    height:500px;
+    margin-bottom: 20px;
+}
+div#army_selected {
+    float: right;
+    width: 50%;
+    overflow-y: scroll;
+    height:465px;
+}
+
+div#objective_choice {
+    float: right;
+    width: 48%;
+    height:30px;
+   	border:1px solid black;
+	padding: 5px;
+	margin-top: 3px;
+	margin-right: 5px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+    margin-bottom: 20px;
+}
+
+div#army_points {
+    float: right;
+    width: 50%;
+}
+
+div#tiers {
+    float: right;
+    width: 50%;
+}
+
+#army_groups ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#army_groups ul li {
+  border:2px solid red;
+  
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+  line-height: 15px;
+  list-style-type: none;
+  background-color: #EEE;
+  background-repeat: no-repeat;
+
+	box-shadow: rgba(0,0,0,0.4) 4px 4px;
+  
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+#army_entries .ui-selecting {
+	background: #ccc;
+}
+#army_entries .ui-selected {
+	background: #999;
+}
+
+img.halfTransparent {
+	opacity:.3;
+}
+
+img.tierImg{
+	width: 48px;
+	height: 48px;
+}
