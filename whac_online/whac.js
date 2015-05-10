@@ -24,6 +24,7 @@ faction_ids = [];
 faction_ids["Cryx"] = "faction_cryx";
 faction_ids["Cygnar"] = "faction_cygnar";
 faction_ids["Cyriss"] = "faction_cryx";
+faction_ids["Khador"] = "faction_khador";
 faction_ids["Retribution"] = "faction_retribution";
 faction_ids["Protectorate"] = "faction_menoth";
 faction_ids["Mercenaries"] = "faction_mercs";
@@ -47,13 +48,16 @@ namesForEntries = {};
 full_data = new Array();
 full_data["Cygnar"] = cygnar_entries;
 full_data["Cryx"] = cryx_entries;
+full_data["Khador"] = khador_entries;
 full_data["Mercenaries"] = mercenaries_entries;
 full_data["Retribution"] = retribution_entries;
 full_data["Protectorate"] = menoth_entries;
 
 full_tiers = new Array();
 full_tiers["Cryx"] = cryx_tiers;
-full_tiers["Cygnar"] =cygnar_tiers;
+full_tiers["Cygnar"] = cygnar_tiers;
+full_tiers["Khador"] = khador_tiers;
+full_tiers["Protectorate"] = menoth_tiers;
 
 
 selected_entries = {entries : [ ]};
@@ -344,7 +348,7 @@ function tryAddModel(modelId) {
 }
 
 function addWarjack(candidate, model) {
-	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: ""};
+	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: "", alteredCost:-1};
 	selectedNewEntry.id = model.id;
 	selectedNewEntry.type = "warjack";
 	selectedNewEntry.name = model.name;
@@ -354,13 +358,17 @@ function addWarjack(candidate, model) {
 	selectedNewEntry.specialist = false;
 	selectedNewEntry.canSpecialist = show_specialists;
 
+	if (model.free == true) {
+		selectedNewEntry.alteredCost = 0;
+		selectedNewEntry.free = true;
+	}
 
 	$.observable(candidate.warjacks).insert(selectedNewEntry);
 	recomposeArmy();
 }
 
 function addUA(candidate, model) {
-	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: ""};
+	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: "", alteredCost:-1};
 	selectedNewEntry.id = model.id;
 	selectedNewEntry.type = model.type;
 	selectedNewEntry.name = model.name;
@@ -369,13 +377,19 @@ function addUA(candidate, model) {
 	selectedNewEntry.cost = model.cost;
 	selectedNewEntry.specialist = false;
 	selectedNewEntry.canSpecialist = show_specialists;
+
+	if (model.free == true) {
+		selectedNewEntry.alteredCost = 0;
+		selectedNewEntry.free = true;
+	}
+
 
 	$.observable(candidate).setProperty("attachment", selectedNewEntry);
 	recomposeArmy();
 }
 
 function addWA(candidate, model) {
-	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: ""};
+	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: "", alteredCost:-1};
 	selectedNewEntry.id = model.id;
 	selectedNewEntry.type = model.type;
 	selectedNewEntry.name = model.name;
@@ -385,12 +399,18 @@ function addWA(candidate, model) {
 	selectedNewEntry.specialist = false;
 	selectedNewEntry.canSpecialist = show_specialists;
 
+	if (model.free == true) {
+		selectedNewEntry.alteredCost = 0;
+		selectedNewEntry.free = true;
+	}
+
+
 	$.observable(candidate.weapons).insert(selectedNewEntry);
 	recomposeArmy();
 }
 
 function addSoloAttachment(candidate, model) {
-	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: ""};
+	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: "", alteredCost:-1};
 	selectedNewEntry.id = model.id;
 	selectedNewEntry.type = "soloAttachment";
 	selectedNewEntry.name = model.name;
@@ -399,6 +419,12 @@ function addSoloAttachment(candidate, model) {
 	selectedNewEntry.cost = model.cost;
 	selectedNewEntry.specialist = false;
 	selectedNewEntry.canSpecialist = show_specialists;
+
+	if (model.free == true) {
+		selectedNewEntry.alteredCost = 0;
+		selectedNewEntry.free = true;
+	}
+
 
 
 	$.observable(candidate).setProperty("attachment", selectedNewEntry);
@@ -506,7 +532,7 @@ function findWhoToAttachWarjack(selectionWarjack) {
 			}
 		}
 		if (entry.type == "soloJourneyMan") {
-			result.push(entry);	
+			canAdd = true;
 		}
 		if (entry.type == "unitMarshall") {
 			if (selectionWarjack.fa != "C") { // marshall do not have character jacks
@@ -573,7 +599,12 @@ function recomposeArmy() {
 		});
 	}
 
+	calculateCompendium();
 
+	if (currentTier) {
+		computeTiersLevel();
+		computeTiersBonus();
+	}
 
 	for (var i = 0; i < full_entries.groups.length; i++) {
 		var group = full_entries.groups[i];
@@ -635,19 +666,17 @@ function recomposeArmy() {
 								}
 							}
 						}
+
+						if (entry.free == true) { 
+							// free models can be added regardless of FA.
+							isAddable = true;
+						}
 					}
 				}
 			}
 			$.observable(entry).setProperty("isAddable", isAddable );
 		});
-	}
-
-	calculateCompendium();
-
-	if (currentTier) {
-		computeTiersLevel();
-		computeTiersBonus();
-	}
+	}	
 	
 
 	displayThemeIcons();
@@ -667,15 +696,25 @@ function calculateSelectionCount() {
 	}
 
 	selected_entries.entries.map(function(entry) {
+
+		if (entry.free == true) {
+			return; // free models do not count toward FA
+		}
 		addOne(entry);
 		// treat attachments && warjacks
 		if (entry.warjacks && entry.warjacks.length > 0) {
 			for (var i = 0; i < entry.warjacks.length; i++) {
+				if (entry.warjacks[i] == true) {
+					return; // free models do not count toward FA
+				}
 				addOne(entry.warjacks[i]);
 			}
 		}
 
 		if (entry.attachment != null) {
+			if (entry.attachment.free == true) {
+				return; // free models do not count toward FA
+			}
 			addOne(entry.attachment);
 		}
 
@@ -710,6 +749,26 @@ function findSelection(entryId) {
 	return result;
 }
 
+function getRealCost(entry) {
+	if (entry.free == true) {
+		return 0;
+	} else {
+		if (entry.alteredCost != -1) {
+			return entry.alteredCost;
+		} else {
+			return entry.cost;
+		}
+	}
+}
+
+function returnArmyPoints() {
+	var result = army_points_selected + '/ ' + army_points ;
+	if (army_points_specialists_selected > 0) {
+		result += ' (SPE :' + army_points_specialists_selected + '/' + army_points_specialists + ')';
+	}
+	return result;
+}
+
 function calculateCompendium() {
 	var WCCount = 0;
 	var WLCount = 0;
@@ -728,9 +787,9 @@ function calculateCompendium() {
 			army_points_selected -= entry.cost;
 		} else {
 			if (entry.specialist == true) {
-				army_points_specialists_selected += entry.cost;	
+				army_points_specialists_selected += getRealCost(entry);	
 			} else {
-				army_points_selected += entry.cost;		
+				army_points_selected += getRealCost(entry);		
 			}
 		}
 		if (entry.type == "unit" || entry.type == "unit_marshall") {
@@ -741,18 +800,18 @@ function calculateCompendium() {
 			WJCount += entry.warjacks.length;
 			for (var i = 0; i < entry.warjacks.length; i++) {
 				if (entry.warjacks[i].specialist == true) {
-					army_points_specialists_selected += entry.warjacks[i].cost;	
+					army_points_specialists_selected += getRealCost(entry.warjacks[i]);	
 				} else {
-					army_points_selected += entry.warjacks[i].cost;		
+					army_points_selected += getRealCost(entry.warjacks[i]);		
 				}
 			}
 		}
 
 		if (entry.attachment != null) {
 			if (entry.attachment.specialist == true) {
-				army_points_specialists_selected += entry.attachment.cost;	
+				army_points_specialists_selected += getRealCost(entry.attachment);
 			} else {
-				army_points_selected += entry.attachment.cost;		
+				army_points_selected += getRealCost(entry.attachment);		
 			}
 		}
 
@@ -812,7 +871,7 @@ function calculateCompendium() {
 
 function addWarcaster(model) {
 	// create a warcaster
-	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: ""};
+	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: "", alteredCost:-1};
 	selectedNewEntry.id = model.id;
 	selectedNewEntry.type = "warcaster";
 	selectedNewEntry.name = model.name;
@@ -832,7 +891,7 @@ function addWarcaster(model) {
 }
 
 function addBattleEngine(model) {
-	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: ""};
+	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: "", alteredCost:-1};
 	selectedNewEntry.id = model.id;
 	selectedNewEntry.type = model.type;
 	selectedNewEntry.name = model.name;
@@ -842,6 +901,11 @@ function addBattleEngine(model) {
 	selectedNewEntry.specialist = false;
 	selectedNewEntry.canSpecialist = show_specialists;
 
+	if (model.free == true) {
+		selectedNewEntry.alteredCost = 0;
+		selectedNewEntry.free = true;
+	}
+
 	$.observable(model).setProperty("selectedFA", 1 );
 	$.observable(selected_entries.entries).insert(selectedNewEntry);
 
@@ -849,7 +913,7 @@ function addBattleEngine(model) {
 }
 
 function addSolo(model)	 {
-	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: ""};
+	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: "", alteredCost:-1};
 	selectedNewEntry.id = model.id;
 	selectedNewEntry.type = model.type;
 	selectedNewEntry.name = model.name;
@@ -859,6 +923,12 @@ function addSolo(model)	 {
 	selectedNewEntry.warjacks = new Array();
 	selectedNewEntry.specialist = false;
 	selectedNewEntry.canSpecialist = show_specialists;
+
+	if (model.free == true) {
+		selectedNewEntry.alteredCost = 0;
+		selectedNewEntry.free = true;
+	}
+
 
 	$.observable(model).setProperty("selectedFA", 1 );
 	$.observable(selected_entries.entries).insert(selectedNewEntry);
@@ -870,7 +940,7 @@ function addSolo(model)	 {
 function addUnitVariable(modelId, minOrMax) {
 	var model = findEntry(modelId);
 
-	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: ""};
+	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: "", alteredCost:-1};
 	selectedNewEntry.id = modelId;
 	selectedNewEntry.type = model.type;
 	selectedNewEntry.name = model.name;
@@ -901,7 +971,7 @@ function addUnitVariable(modelId, minOrMax) {
 
 function addUnitFixed(modelId) {
 	var model = findEntry(modelId)
-	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: "", warjacks:""};
+	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: "", warjacks:"", alteredCost:-1};
 	selectedNewEntry.id = modelId;
 	selectedNewEntry.type = "unit";
 	selectedNewEntry.name = model.name;
@@ -964,7 +1034,7 @@ function changeFaction() {
 			entry.selectedFA = 0;
 			entry.alteredFA = 0;
 			entry.free = false;
-			entry.alteredCost = 0;
+			entry.alteredCost = -1;
 			entry.isTierModified = false;
 		});
 	});
@@ -1156,9 +1226,56 @@ function changeFaction() {
 				alteration.faAlterString = faAlterString;
 			});
 
-//Arcane Tempest Gun Mage units in this army
+			level.costAlterations.map(function(alteration){
+				var modelName = namesForEntries[alteration.id];
+				var costAlterString = "Reduce the point cost of " + modelName + " by " + alteration.bonus ;
+
+				if (alteration.restricted_to) {
+					costAlterString += " if it is attached to " + namesForEntries[alteration.restricted_to];
+				}
+				alteration.costAlterString = costAlterString;
+			});
+
+			level.freeModels.map(function(freeModel){
+				var freeModelString = "Add ";
+				
+				if (freeModel.id instanceof Array) {
+					freeModelString += " one of ("
+					for (var i = 0 ; i < freeModel.id.length; i++) {
+						if (i>0) {
+							freeModelString += ";";
+						}
+						freeModelString += namesForEntries[freeModel.id[i]];
+					}
+					freeModelString += ")"
+				} else {
+				 	freeModelString += "a " + namesForEntries[freeModel.id];
+				}
+				freeModelString += " free of cost";
+				if (freeModel.forEach && freeModel.forEach.length > 0) {
+					freeModelString += " for each ";
+						if (freeModel.forEach.length > 1) {
+							freeModelString += "(";
+						}
+						for (var i = 0; i < freeModel.forEach.length; i++) {
+							if (i > 0) {
+								freeModelString += "; ";
+							}
+							freeModelString += namesForEntries[freeModel.forEach[i]];
+						}
+						if (freeModel.forEach.length > 1) {
+							freeModelString += ")";
+						}
+				}
+				freeModelString += ". This entry ignores FA restrictions." ;
+				freeModel.freeModelString = freeModelString;
+			});
+
+// Reduce the point cost ofStormclad warjacks by 1.
+// Arcane Tempest Gun Mage units in this army
 // Stormsmith Stormcaller solos increases by + 1 for every heavy warjack included
 
+// Add a unit attachment to one Arcane Tempest Gun Mage unit free of cost. This unit attachment ignores FA restrictions.
 
 
 		});
@@ -1415,7 +1532,144 @@ function computeTiersBonus() {
 			}
 			
 		});
+
+		currentTier.levels[i].costAlterations.map(function(costAlteration){
+
+			// apply cost on "selection models"
+			for (var i = 0; i < full_entries.groups.length; i++) {
+				var group = full_entries.groups[i];
+				for (var j = 0; j < group.entries.length; j++) {
+					var entry = group.entries[j];
+					if (entry.id == costAlteration.id) {
+						if (entry.type == "unit" || entry.type == "unitMarshall") {
+							if (entry.min) {
+								var newCostMin = entry.costMin - costAlteration.bonus;
+								var newCostMax = entry.costMax - costAlteration.bonus;
+								$.observable(entry).setProperty("alteredCost", costAlteration.bonus); // just to notify the "if" in template
+								$.observable(entry).setProperty("alteredCostMin", newCostMin);
+								$.observable(entry).setProperty("alteredCostMax", newCostMax);
+							} else {
+								var newCost = entry.cost - costAlteration.bonus;
+								$.observable(entry).setProperty("alteredCost", newCost);
+							}
+
+						} else {
+							var newCost = entry.cost - costAlteration.bonus;
+							$.observable(entry).setProperty("alteredCost", newCost);
+						}
+					}
+				}
+			}
+
+			// apply cost on "selected models"
+			selected_entries.entries.map(function (entry) {
+				// entry.canSpecialist = show;
+				if (entry.type == "warcaster" || entry.type == "warlock") {
+					// rien!
+				} else {
+					if (entry.id == costAlteration.id) {
+						var newCost = entry.cost - costAlteration.bonus;
+						$.observable(entry).setProperty("alteredCost", newCost);	
+					}
+				}
+				if (entry.attachment) {
+					if (entry.attachment.id == costAlteration.id) {
+						var newCost = entry.attachment.cost - costAlteration.bonus;
+						$.observable(entry.attachment).setProperty("alteredCost", newCost);	
+					}
+
+				}
+				if (entry.warjacks instanceof Array) {
+					entry.warjacks.map(function(warjack) {
+						if (warjack.id == costAlteration.id) {
+							var newCost = warjack.cost - costAlteration.bonus;
+							$.observable(warjack).setProperty("alteredCost", newCost);	
+						}
+					});
+				}
+
+				if (entry.weapons instanceof Array) {
+					entry.weapons.map(function(WA) {
+						if (WA.id == costAlteration.id) {
+							var newCost = WA.cost - costAlteration.bonus;
+							$.observable(WA).setProperty("alteredCost", newCost);	
+						}
+					});
+				}
+			});
+
+
+
+		});
+
+
+		currentTier.levels[i].freeModels.map(function(freeModel) {
+			var alreadyCountedBonus = 0; // count all items for same "bonus" entry
+
+			if (freeModel.id instanceof Array) {
+				for (var k = 0 ; k < freeModel.id.length; k++) {
+					alreadyCountedBonus = calculateFreeModelCount(freeModel.id[k], alreadyCountedBonus) ;
+				}
+			} else {
+				alreadyCountedBonus = calculateFreeModelCount(freeModel.id, 0) ;
+			}
+
+			// apply free on "selection models"
+			for (var i = 0; i < full_entries.groups.length; i++) {
+				var group = full_entries.groups[i];
+				for (var j = 0; j < group.entries.length; j++) {
+					var entry = group.entries[j];
+					var matchFreeModel = false; // check if this model is included in a free-model-rule
+
+					if (freeModel.id instanceof Array) {
+						for (var k = 0 ; k < freeModel.id.length; k++) {
+							if (entry.id == freeModel.id[k]) {
+								matchFreeModel = true;
+							}
+						}
+					} else {
+						if (entry.id == freeModel.id) {
+								matchFreeModel = true;
+						}
+					}
+
+					if (matchFreeModel) {
+						if (alreadyCountedBonus == 0) {
+							$.observable(entry).setProperty("free", true);	
+						} else {
+							$.observable(entry).setProperty("free", false);	
+						}
+					}
+				}
+			}
+		});
+
 	}
+
+}
+
+function calculateFreeModelCount(entryId, alreadyCountedBonus) {
+	// count already existent bonus
+	selected_entries.entries.map(function (selected) {
+		if (selected.id == entryId && selected.free == true) {
+			alreadyCountedBonus++;
+		}
+		if (selected.attachment) {
+			if (selected.attachment.id == entryId && selected.attachment.free == true) {
+				alreadyCountedBonus++;
+			}
+		}
+
+		if (selected.weapons instanceof Array) {
+			selected.weapons.map(function(WA) {
+				if (WA.id == entryId && WA.free == true) {
+					alreadyCountedBonus++;
+				}
+			});
+		}
+	});
+
+	return alreadyCountedBonus;
 
 }
 

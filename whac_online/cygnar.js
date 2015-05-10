@@ -4,23 +4,19 @@ cygnar_entries =
 cygnar_tiers = {
   "tiers":[
     {
-      "availableModels":[
-        {
-          "models":"Cygnar non-character warjacks with ranged weapons, Lancers",
-          "type":"WARJACKS"
-        },
-        {
-          "models":"Arcane Tempest units",
-          "type":"UNITS"
-        },
-        {
-          "models":"Arcane Tempest solos",
-          "type":"SOLOS"
-        }
-      ],
+      "availableModels":[ ],
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+            {
+              "id":"YU01",
+              "bonus":1
+            }
+          ],
           "mustHave":[
 
           ],
@@ -57,6 +53,16 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+            {
+              "id":[
+                "YA01"
+              ]
+            }
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -97,6 +103,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -148,6 +160,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -194,160 +212,6 @@ cygnar_tiers = {
     {
       "availableModels":[
         {
-          "models":"Cygnar non-character light warjacks",
-          "type":"WARJACKS"
-        },
-        {
-          "models":"Arcane Tempest units, Rangers",
-          "type":"UNITS"
-        },
-        {
-          "models":"Arcane Tempest solos",
-          "type":"SOLOS"
-        }
-      ],
-      "faction":"faction_cygnar",
-      "levels":[
-        {
-          "mustHave":[
-
-          ],
-          "onlyModels":{
-            "ids":[
-              "Yx03",
-              "YJ01",
-              "YJ02",
-              "YJ03",
-              "YJ04",
-              "YJ05",
-              "YJ15",
-              "YJ18",
-              "YU01",
-              "YA01",
-              "YU11",
-              "YU13",
-              "YU16",
-              "YS02"
-            ]
-          },
-          "level":1,
-          "benefit":"You can redeploy one model/unit after both players have deployed but before the first player's first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
-          "faAlterations":[
-
-          ]
-        },
-        {
-          "mustHave":[
-            {
-              "inMarshal":false,
-              "min":2,
-              "ids":[
-                "YU01"
-              ],
-              "inBG":false
-            }
-          ],
-          "onlyModels":{
-            "ids":[
-              "Yx03",
-              "YJ01",
-              "YJ02",
-              "YJ03",
-              "YJ04",
-              "YJ05",
-              "YJ15",
-              "YJ18",
-              "YU01",
-              "YA01",
-              "YU11",
-              "YU13",
-              "YU16",
-              "YS02"
-            ]
-          },
-          "level":2,
-          "benefit":"",
-          "faAlterations":[
-
-          ]
-        },
-        {
-          "mustHave":[
-            {
-              "inMarshal":false,
-              "min":1,
-              "ids":[
-                "YU13"
-              ],
-              "inBG":false
-            }
-          ],
-          "onlyModels":{
-            "ids":[
-              "Yx03",
-              "YJ01",
-              "YJ02",
-              "YJ03",
-              "YJ04",
-              "YJ05",
-              "YJ15",
-              "YJ18",
-              "YU01",
-              "YA01",
-              "YU11",
-              "YU13",
-              "YU16",
-              "YS02"
-            ]
-          },
-          "level":3,
-          "benefit":"Your deployment zone is extended 2\" forward.",
-          "faAlterations":[
-
-          ]
-        },
-        {
-          "mustHave":[
-            {
-              "inMarshal":false,
-              "min":2,
-              "ids":[
-                "YJ02"
-              ],
-              "inBG":false
-            }
-          ],
-          "onlyModels":{
-            "ids":[
-              "Yx03",
-              "YJ01",
-              "YJ02",
-              "YJ03",
-              "YJ04",
-              "YJ05",
-              "YJ15",
-              "YJ18",
-              "YU01",
-              "YA01",
-              "YU11",
-              "YU13",
-              "YU16",
-              "YS02"
-            ]
-          },
-          "level":4,
-          "benefit":"Friendly models/units can begin the game affected by Caine's upkeep spells. These spells and their targets must be declared before either player sets up models. Caine does not pay focus to upkeep these spells during your first turn.",
-          "faAlterations":[
-
-          ]
-        }
-      ],
-      "casterId":"Yx03",
-      "name":"Caine2 - The Huntsman"
-    },
-    {
-      "availableModels":[
-        {
           "models":"Cygnar non-character warjacks with SPD 6 or more",
           "type":"WARJACKS"
         },
@@ -363,6 +227,12 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
 
           ],
@@ -392,6 +262,19 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+            {
+              "id":[
+                "YA08"
+              ],
+              "forEach":[
+                "YU14"
+              ]
+            }
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -434,6 +317,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -471,6 +360,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -534,6 +429,12 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
 
           ],
@@ -577,6 +478,16 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+            {
+              "id":[
+                "YA06"
+              ]
+            }
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -624,6 +535,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -671,6 +588,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -743,6 +666,12 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
 
           ],
@@ -796,6 +725,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -859,6 +794,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -910,6 +851,17 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+            {
+              "id":[
+                "YJ05",
+                "YJ15"
+              ]
+            }
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -1005,6 +957,12 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
 
           ],
@@ -1043,6 +1001,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -1088,6 +1052,16 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+            {
+              "id":[
+                "YS03"
+              ]
+            }
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -1127,12 +1101,18 @@ cygnar_tiers = {
             ]
           },
           "level":3,
-          "benefit":"",
+          "bit":"",
           "faAlterations":[
 
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -1206,6 +1186,12 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
 
           ],
@@ -1245,6 +1231,16 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+            {
+              "id":[
+                "YA05"
+              ]
+            }
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -1291,6 +1287,47 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+            {
+              "id":"YJ07",
+              "bonus":1
+            },
+            {
+              "id":"YJ08",
+              "bonus":1
+            },
+            {
+              "id":"YJ09",
+              "bonus":1
+            },
+            {
+              "id":"YJ10",
+              "bonus":1
+            },
+            {
+              "id":"YJ12",
+              "bonus":1
+            },
+            {
+              "id":"YJ14",
+              "bonus":1
+            },
+            {
+              "id":"YJ11",
+              "bonus":1
+            },
+            {
+              "id":"YJ19",
+              "bonus":1
+            },
+            {
+              "id":"YJ21",
+              "bonus":1
+            }
+          ],
           "mustHave":[
 
           ],
@@ -1322,6 +1359,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -1381,6 +1424,15 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+            {
+              "id":"YU02",
+              "bonus":1
+            }
+          ],
           "mustHave":[
 
           ],
@@ -1419,6 +1471,16 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+            {
+              "id":[
+                "YA07"
+              ]
+            }
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -1464,6 +1526,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":true,
@@ -1520,6 +1588,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -1586,6 +1660,12 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
 
           ],
@@ -1625,6 +1705,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -1671,6 +1757,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -1718,6 +1810,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -1793,6 +1891,12 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
 
           ],
@@ -1828,6 +1932,19 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+            {
+              "id":[
+                "YS03"
+              ],
+              "forEach":[
+                "YU15"
+              ]
+            }
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -1881,6 +1998,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -1923,6 +2046,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -1986,6 +2115,12 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
 
           ],
@@ -2021,6 +2156,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -2063,6 +2204,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -2105,6 +2252,43 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+            {
+              "id":"YJ07",
+              "bonus":1
+            },
+            {
+              "id":"YJ08",
+              "bonus":1
+            },
+            {
+              "id":"YJ09",
+              "bonus":1
+            },
+            {
+              "id":"YJ10",
+              "bonus":1
+            },
+            {
+              "id":"YJ12",
+              "bonus":1
+            },
+            {
+              "id":"YJ14",
+              "bonus":1
+            },
+            {
+              "id":"YJ19",
+              "bonus":1
+            },
+            {
+              "id":"YJ21",
+              "bonus":1
+            }
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -2173,6 +2357,15 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+            {
+              "id":"YU13",
+              "bonus":1
+            }
+          ],
           "mustHave":[
 
           ],
@@ -2212,6 +2405,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -2255,6 +2454,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -2298,6 +2503,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -2369,6 +2580,12 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
 
           ],
@@ -2413,6 +2630,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -2470,6 +2693,16 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+            {
+              "id":[
+                "YA02"
+              ]
+            }
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -2521,6 +2754,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -2593,6 +2832,12 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
 
           ],
@@ -2647,6 +2892,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -2693,6 +2944,16 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+            {
+              "id":[
+                "YU15"
+              ]
+            }
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -2739,6 +3000,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -2746,8 +3013,7 @@ cygnar_tiers = {
               "ids":[
                 "YJ07",
                 "YJ08",
-                "YJ09",
-                "YJ10",
+                "YJ09",          "YJ10",
                 "YJ11",
                 "YJ12",
                 "YJ14",
@@ -2819,6 +3085,19 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+            {
+              "id":"YU09",
+              "bonus":1
+            },
+            {
+              "id":"YU17",
+              "bonus":1
+            }
+          ],
           "mustHave":[
 
           ],
@@ -2855,6 +3134,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -2898,6 +3183,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -2946,6 +3237,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -3010,6 +3307,19 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+            {
+              "id":"YU14",
+              "bonus":1
+            },
+            {
+              "id":"YU05",
+              "bonus":1
+            }
+          ],
           "mustHave":[
 
           ],
@@ -3069,6 +3379,16 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+            {
+              "id":[
+                "YS08"
+              ]
+            }
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -3121,6 +3441,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -3173,6 +3499,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -3245,6 +3577,12 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
 
           ],
@@ -3290,6 +3628,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -3339,6 +3683,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -3388,6 +3738,256 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+            {
+              "id":"YJ01",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ02",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ03",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ04",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ05",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ07",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ08",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ09",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ10",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ12",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ14",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ15",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ18",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ19",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ20",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ21",
+              "bonus":1,
+              "restricted_to":"YA11"
+            },
+            {
+              "id":"YJ01",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ02",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ03",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ04",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ05",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ07",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ08",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ09",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ10",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ12",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ14",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ15",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ18",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ19",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ20",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ21",
+              "bonus":1,
+              "restricted_to":"YS01"
+            },
+            {
+              "id":"YJ01",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ02",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ03",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ04",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ05",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ07",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ08",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ09",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ10",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ12",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ14",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ15",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ18",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ19",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ20",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ21",
+              "bonus":1,
+              "restricted_to":"YW05"
+            },
+            {
+              "id":"YJ16",
+              "bonus":1,
+              "restricted_to":"YW05"
+            }
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -3466,6 +4066,12 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
 
           ],
@@ -3514,6 +4120,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -3569,6 +4181,16 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+            {
+              "id":[
+                "YA07"
+              ]
+            }
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -3624,6 +4246,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -3700,6 +4328,15 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+            {
+              "id":"YJ10",
+              "bonus":1
+            }
+          ],
           "mustHave":[
 
           ],
@@ -3745,6 +4382,16 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+            {
+              "id":[
+                "YA02"
+              ]
+            }
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -3794,6 +4441,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -3843,6 +4496,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -3917,6 +4576,12 @@ cygnar_tiers = {
       "faction":"faction_cygnar",
       "levels":[
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
 
           ],
@@ -3947,6 +4612,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -3981,6 +4652,12 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+
+          ],
           "mustHave":[
             {
               "inMarshal":false,
@@ -4020,6 +4697,19 @@ cygnar_tiers = {
           ]
         },
         {
+          "freeModels":[
+
+          ],
+          "costAlterations":[
+            {
+              "id":"YU10",
+              "bonus":1
+            },
+            {
+              "id":"YU16",
+              "bonus":1
+            }
+          ],
           "mustHave":[
             {
               "inMarshal":false,

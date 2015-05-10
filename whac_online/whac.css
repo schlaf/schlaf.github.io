@@ -16,7 +16,7 @@ border: 1px solid #000;
 	margin-left: 0px;
 	margin-bottom: 5px;
 	
-	line-height: 30px;
+	line-height: 18px;
 	list-style-type: none;
 	background-color: #EEE;
 	background-repeat: no-repeat;
@@ -35,58 +35,72 @@ border: 1px solid #000;
 	padding-top: 5px;
 	padding-left: 5px;
 
-	margin-left: 20px;
+	margin-left: 15px;
 	margin-bottom: 5px;
 	
-	line-height: 30px;
+	line-height: 18px;
 	list-style-type: none;
 	background-color: #EEE;
 	background-repeat: no-repeat;
-	box-shadow: rgba(0,0,0,0.4) 4px 4px;
+	box-shadow: rgba(0,0,0,0.4) 2px 2px;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
 }
 
-#army_selected ul li a.model_title  {
+#army_selected div.model_title  {
+	float: left; 
 	text-transform : uppercase;
-	font-size:12pt;
-	width: 80%;
+	font-size:8pt;
+	width: 60%;
 }
 
 #army_selected ul li img.remove_entry {
+	width: 20px;
+	height: 20px;
 	float: right;
 	padding-right: 5px;
 }
 
 #army_selected ul ul li img.remove_attachment {
+	width: 20px;
+	height: 20px;
 	float: right;
 	padding-right: 5px;
 }
 
 #army_selected ul ul li img.remove_warjack {
+	width: 20px;
+	height: 20px;
 	float: right;
 	padding-right: 5px;
 }
 
 #army_selected ul ul li img.remove_wa {
+	width: 20px;
+	height: 20px;
 	float: right;
 	padding-right: 5px;
 }
 
-#army_selected ul li span.cost {
-	padding-left: 150px
+#army_selected div.cost {
+	padding-right: 5px;
+	text-align : right;
+	font-size:8pt;
+	width: 8%;
+	float: right;
 }
 
+
 #army_selected img.specialist {
-	width: 32px;
-	height: 32px;
+	width: 20px;
+	height: 20px;
 }
 
 #army_selected img.specialist_attach {
-	width: 32px;
-	height: 32px;
+	width: 20px;
+	height: 20px;
 }
 
 #army_selected ul ul li img.shadow {
@@ -112,11 +126,17 @@ border: 1px solid #000;
 }
 
 #army_selected img.invisible {
-	display: none;
+	visibility: hidden;
 }
 
 #army_selected img.visible {
-	display: inline-block;
+	visibility: visible;
+}
+
+#army_selected img.freeModel {
+	float: right;
+	width: 20px;
+	height: 20px;
 }
 
 #army_entries ul ul li {	
@@ -125,7 +145,7 @@ border: 1px solid #000;
 	padding-top: 5px;
 	padding-left: 15px;
 	margin-bottom: 5px;
-	line-height: 20px;
+	line-height: 18px;
 	list-style-type: none;
 	background-color: #EEE;
 	background-repeat: no-repeat;
@@ -136,26 +156,42 @@ border: 1px solid #000;
 	border-bottom-right-radius: 3px;
 }
 
-#army_entries ul ul li a.model_title  {
+#army_entries ul ul li div.model_title  {
 	text-transform : uppercase;
-	font-size:12pt;
-	width: 80%;
+	float: left; 
+	/* margin-left: 3px; */
+	font-size:8pt;
+	width: 60%;
 }
-#army_entries ul ul li span.fa {
+#army_entries ul ul li div.fa {
 	float: left;
-	padding-left: 15px;
+	font-size:8pt;
+	width: 15%;
+	padding-left: 2px;
 }
 
-#army_entries ul ul li span.unitSize {
+#army_entries ul ul li div.unitSize {
 	padding-left: 15px;
+	font-size:8pt;
 	float: left;
 }
 
-#army_entries ul ul li span.cost {
-	padding-right: 15px;
-	float: right;
+#army_entries ul ul li div.cost {
+	padding-left: 5px;
+	font-size:8pt;
+	width: 10%;
+	float: left;
 }
 #army_entries ul ul li img.add_entry {
+	width: 20px;
+	height: 20px;
+	float: right;
+	padding-right: 5px;
+}
+
+#army_entries ul ul li img.freeModel {
+	width: 20px;
+	height: 20px;
 	float: right;
 	padding-right: 5px;
 }
@@ -183,7 +219,7 @@ border: 1px solid #000;
 	padding-top: 5px;
 	padding-left: 5px;
 	margin-bottom: 5px;
-	line-height: 30px;
+	line-height: 25px;
 	list-style-type: none;
 	background-color: #EEE;
 	background-repeat: no-repeat;
@@ -242,7 +278,7 @@ div#army_selected {
     float: right;
     width: 50%;
     overflow-y: scroll;
-    height:465px;
+    height:500px;
 }
 
 div#objective_choice {
@@ -311,3 +347,59 @@ img.tierImg{
 	width: 48px;
 	height: 48px;
 }
+
+#dialog-export-army ul ul{
+	border:0px ;
+	padding: 0px;
+}
+
+#dialog-export-army ul {
+	border:2px solid red;
+	margin: 0px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+#dialog-export-army ul li {
+	list-style-type: none;
+	  padding-bottom: 5px;
+	  padding-top: 5px;
+	  padding-left: 5px;
+	  margin-left: 0px;
+	  margin-bottom: 5px;
+	  line-height: 15px;
+}
+
+
+#dialog-export-army ul ul li {
+	list-style-type: none;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 20px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	line-height: 15px;
+}
+
+#dialog-export-army div.model_title  {
+	float: left; 
+	text-transform : uppercase;
+	font-size:8pt;
+	width: 60%;
+}
+
+#dialog-export-army div.cost {
+	padding-right: 5px;
+	text-align : right;
+	font-size:8pt;
+	width: 15%;
+	float: right;
+}
+
