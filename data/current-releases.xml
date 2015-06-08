@@ -5,7 +5,7 @@
 <faction id="faction_cygnar" version="forum_cygnar_001" file="cygnar_001.xml" lastDate="2015-03-15"/>
 <faction id="faction_cyriss" version="forum_cyriss_001" file="cyriss_001.xml" lastDate="2015-03-15"/>
 <faction id="faction_khador" version="forum_khador_001" file="khador_001.xml" lastDate="2015-03-15"/>
-<faction id="faction_menoth" version="forum_menoth_001" file="menoth_001.xml" lastDate="2015-03-15"/>
+<faction id="faction_menoth" version="forum_menoth_002" file="menoth_001.xml" lastDate="2015-06-08"/>
 <faction id="faction_mercs" version="forum_mercs_001" file="mercs_001.xml" lastDate="2015-03-15"/>
 <faction id="faction_retribution" version="forum_retribution_002" file="retribution_001.xml" lastDate="2015-06-07"/>
 <faction id="faction_everblight" version="forum_everblight_001" file="everblight_001.xml" lastDate="2015-03-15"/>
