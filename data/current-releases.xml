@@ -10,7 +10,7 @@
 <faction id="faction_retribution" version="forum_retribution_002" file="retribution_001.xml" lastDate="2015-06-07"/>
 <faction id="faction_everblight" version="forum_everblight_001" file="everblight_001.xml" lastDate="2015-03-15"/>
 <faction id="faction_minions" version="forum_minions_001" file="minions_001.xml" lastDate="2015-03-15"/>
-<faction id="faction_orboros" version="forum_orboros_001" file="orboros_001.xml" lastDate="2015-03-15"/>
+<faction id="faction_orboros" version="forum_orboros_002" file="orboros_001.xml" lastDate="2015-06-15"/>
 <faction id="faction_skorne" version="forum_skorne_001" file="skorne_001.xml" lastDate="2015-03-15"/>
 <faction id="faction_trollblood" version="forum_trollblood_001" file="cryx_001.xml" lastDate="2015-03-15"/>
 </factions>
