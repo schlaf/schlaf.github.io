@@ -1,16 +1,16 @@
 <whac>
-<lastDate date="2015-03-09:14:02"/>
+<lastDate date="2015-07-03:14:02"/>
 <factions>
-<faction id="faction_cryx" version="forum_cryx_002" file="cryx_002.xml" lastDate="2015-06-05"/>
-<faction id="faction_cygnar" version="forum_cygnar_001" file="cygnar_001.xml" lastDate="2015-03-15"/>
-<faction id="faction_cyriss" version="forum_cyriss_001" file="cyriss_001.xml" lastDate="2015-03-15"/>
-<faction id="faction_khador" version="forum_khador_002" file="khador_001.xml" lastDate="2015-06-09"/>
+<faction id="faction_cryx" version="forum_cryx_003" file="cryx_002.xml" lastDate="2015-07-03"/>
+<faction id="faction_cygnar" version="forum_cygnar_002" file="cygnar_001.xml" lastDate="2015-07-03"/>
+<faction id="faction_cyriss" version="forum_cyriss_002" file="cyriss_001.xml" lastDate="2015-07-03"/>
+<faction id="faction_khador" version="forum_khador_003" file="khador_001.xml" lastDate="2015-07-03"/>
 <faction id="faction_menoth" version="forum_menoth_002" file="menoth_001.xml" lastDate="2015-06-08"/>
-<faction id="faction_mercs" version="forum_mercs_002" file="mercs_001.xml" lastDate="2015-06-15"/>
+<faction id="faction_mercs" version="forum_mercs_003" file="mercs_001.xml" lastDate="2015-07-03"/>
 <faction id="faction_retribution" version="forum_retribution_002" file="retribution_001.xml" lastDate="2015-06-07"/>
-<faction id="faction_everblight" version="forum_everblight_001" file="everblight_001.xml" lastDate="2015-03-15"/>
-<faction id="faction_minions" version="forum_minions_001" file="minions_001.xml" lastDate="2015-03-15"/>
-<faction id="faction_orboros" version="forum_orboros_002" file="orboros_001.xml" lastDate="2015-06-15"/>
+<faction id="faction_everblight" version="forum_everblight_002" file="everblight_001.xml" lastDate="2015-07-03"/>
+<faction id="faction_minions" version="forum_minions_002" file="minions_001.xml" lastDate="2015-07-03"/>
+<faction id="faction_orboros" version="forum_orboros_003" file="orboros_001.xml" lastDate="2015-07-03"/>
 <faction id="faction_skorne" version="forum_skorne_001" file="skorne_001.xml" lastDate="2015-03-15"/>
 <faction id="faction_trollblood" version="forum_trollblood_001" file="cryx_001.xml" lastDate="2015-03-15"/>
 </factions>
