@@ -3,7 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
   <armies>
-    <army faction="faction_cryx" name="cryx" version="forum_cryx_002"><!-- include deny3 and other -->
+    <army faction="faction_cryx" name="cryx" version="forum_cryx_003">
+        <!-- 002 include deny3, barathrum, sepulcher, soul trapper -->
+        <!-- 003 correct soul trapper range for collecting souls + machine wraith FA-->
       <warcasters>
         <!-- ************************************************************* -->
         <!-- ***********************asphyxious   ************************* -->
@@ -187,7 +189,7 @@
           <feat title="Winter's Grip">Center a 3" AOE on any number of friendly non-warcaster warrior models currently in Goreshade's control area. Enemy models without Immunity:Cold within one or more AOE become stationary for one round. Then the models the AOEs are centered on are destroyed.</feat>
 
           <spell name="INFERNAL MACHINE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target warjack in this model's battlegroup gains Terror and +2 MAT and SPD.</spell>
-		  <spell name="MOCKERY OF LIFE" cost="2" rng="CTRL" aoe="-" pow="-" up="NO" off="NO">Return one destroyed Faction Undead grunt to play with one unmarked damage box. It must be placed in this model's control area in formation and within 3" of another model in its unit. The Grunt must forfeits its action the turn it isreturned to play.</spell>          
+      <spell name="MOCKERY OF LIFE" cost="2" rng="CTRL" aoe="-" pow="-" up="NO" off="NO">Return one destroyed Faction Undead grunt to play with one unmarked damage box. It must be placed in this model's control area in formation and within 3" of another model in its unit. The Grunt must forfeits its action the turn it isreturned to play.</spell>          
           <spell name="OCCULTATION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains Stealth.</spell>
           <spell name="SCYTHING TOUCH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack damage rolls. Affected models gain Critical Corrosion on their normal melee attacks.</spell>
           <spell name="SIPHON BOLT" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">When this spell hits an enemy model with 1 or more focus or fury points on it, that model loses 1 focus or fury point and this model gains 1 focus point.</spell>
@@ -1001,7 +1003,7 @@
             <capacity title="SOUL TAKER">See above.</capacity>
           </model>
         </unit>
-		<unit id="CU17" name="Bane Riders" full_name="Bane Riders" base_cost="7" baseCount="3" full_cost="11" fullCount="5" qualification="Cryx Cavalry Unit" fa="1" completed="true">
+    <unit id="CU17" name="Bane Riders" full_name="Bane Riders" base_cost="7" baseCount="3" full_cost="11" fullCount="5" qualification="Cryx Cavalry Unit" fa="1" completed="true">
           <basestats name="Leader and grunts" spd="7" str="7" mat="6" rat="4" def="12" arm="18" cmd="8" hitpoints="5" />
           <weapons>
               <melee_weapon p_plus_s="13" pow="5" name="Bane Blade" reach="true">
@@ -1093,7 +1095,7 @@
           <capacity title="SOUL MATRIX">While in this model's commande range during their activation, warjacks controlled by this model can spend soul tokens on this model to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
           <capacity title="SOUL TAKER">This model gains one soul token when a living enemy model is destroyed within 2" of it. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
         </solo>
-        <solo id="CS05" name="Machine Wraith" full_name="Machine Wraith" qualification="CRYX SOLO" fa="1" cost="1" completed="true">
+        <solo id="CS05" name="Machine Wraith" full_name="Machine Wraith" qualification="CRYX SOLO" fa="3" cost="1" completed="true">
           <basestats name="Machine Wraith" spd="7" str="4" mat="6" rat="0" def="14" arm="12" cmd="7" undead="true" incorporeal="true" />
           <weapons>
             <melee_weapon name="mechano-claws" pow="4" p_plus_s="8" />
@@ -1215,7 +1217,7 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <weapons>
               <melee_weapon name="MECHANO-CLAW" pow="4" p_plus_s="8"></melee_weapon>
           </weapons>
-          <capacity title="SOUL COLLECTOR">This model gains one soul token when a living enemy model is destroyed in its command range. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
+          <capacity title="SOUL COLLECTOR">This model gains one soul token when a living enemy model is destroyed within 10" of it. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
           <capacity title="SOUL TRANSFER" type="*Action">RNG 5. Target Friendly Faction model with Body Count, Cull Soul, Soul Collector, or Soul Taker. If the model is in range, remove any number of soul tokens from this model and place one soul token on the friendly model for each token removed.</capacity>
           <capacity title="Model Count">2 Soul Trappers</capacity>
         </solo>
