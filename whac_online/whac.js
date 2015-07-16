@@ -23,11 +23,16 @@ factions[systems[1]] = ["Everblight", "Orboros", "Minions", "Skorne", "Trollbloo
 faction_ids = [];
 faction_ids["Cryx"] = "faction_cryx";
 faction_ids["Cygnar"] = "faction_cygnar";
-faction_ids["Cyriss"] = "faction_cryx";
+faction_ids["Cyriss"] = "faction_cyriss";
 faction_ids["Khador"] = "faction_khador";
 faction_ids["Retribution"] = "faction_retribution";
 faction_ids["Protectorate"] = "faction_menoth";
 faction_ids["Mercenaries"] = "faction_mercs";
+faction_ids["Everblight"] = "faction_everblight";
+faction_ids["Orboros"] = "faction_orboros";
+faction_ids["Minions"] = "faction_minions";
+faction_ids["Skorne"] = "faction_skorne";
+faction_ids["Trollblood"] = "faction_trollblood";
 
 
 groups = ["warcasters", "warlocks", "warjacks", "colossals", "warbeasts", "battleengine", "units", "UAs", "WAs", "solos"];
@@ -46,18 +51,37 @@ namesForEntries = {};
 
 
 full_data = new Array();
-full_data["Cygnar"] = cygnar_entries;
-full_data["Cryx"] = cryx_entries;
-full_data["Khador"] = khador_entries;
-full_data["Mercenaries"] = mercenaries_entries;
-full_data["Retribution"] = retribution_entries;
-full_data["Protectorate"] = menoth_entries;
+full_data["Cygnar"] = faction_cygnar_entries;
+full_data["Cryx"] = faction_cryx_entries;
+full_data["Cyriss"] = faction_cyriss_entries;
+full_data["Khador"] = faction_khador_entries;
+full_data["Mercenaries"] = faction_mercs_entries;
+full_data["Protectorate"] = faction_menoth_entries;
+full_data["Retribution"] = faction_retribution_entries;
+
+full_data["Everblight"] = faction_everblight_entries;
+full_data["Minions"] = faction_minions_entries;
+full_data["Orboros"] = faction_orboros_entries;
+full_data["Skorne"] = faction_skorne_entries;
+full_data["Trollblood"] = faction_trollblood_entries;
+
+
 
 full_tiers = new Array();
-full_tiers["Cryx"] = cryx_tiers;
-full_tiers["Cygnar"] = cygnar_tiers;
-full_tiers["Khador"] = khador_tiers;
-full_tiers["Protectorate"] = menoth_tiers;
+
+full_tiers["Cryx"] = faction_cryx_tiers;
+full_tiers["Cygnar"] = faction_cygnar_tiers;
+full_tiers["Cyriss"] = faction_cyriss_tiers;
+full_tiers["Khador"] = faction_khador_tiers;
+full_tiers["Mercenaries"] = faction_mercs_tiers;
+full_tiers["Protectorate"] = faction_menoth_tiers;
+full_tiers["Retribution"] = faction_retribution_tiers;
+
+full_tiers["Everblight"] = faction_everblight_tiers;
+full_tiers["Orboros"] = faction_orboros_tiers;
+full_tiers["Minions"] = faction_minions_tiers;
+full_tiers["Skorne"] = faction_skorne_tiers;
+full_tiers["Trollblood"] = faction_trollblood_tiers;
 
 
 selected_entries = {entries : [ ]};
@@ -93,6 +117,16 @@ function tryRemoveWarjack(parentIndex, index, selectedModel) {
 	var index;
 	var parentEntry = selected_entries.entries[parentIndex];
 	$.observable(parentEntry.warjacks).remove(index);
+	recomposeArmy();
+}
+
+/**
+* remove the warbeast from model. parentIndex is the index of the parent, index is the order of the warbeast to delete among the other warbeasts of parent
+*/
+function tryRemoveWarbeast(parentIndex, index, selectedModel) {
+	var index;
+	var parentEntry = selected_entries.entries[parentIndex];
+	$.observable(parentEntry.warbeasts).remove(index);
 	recomposeArmy();
 }
 
@@ -133,6 +167,9 @@ function tryAddModel(modelId) {
 	if (model.type == "warcaster") {
 		console.log("adding a warcaster");
 		addWarcaster(model);
+	} else if (model.type == "warlock") {
+		console.log("adding a warlock");
+		addWarlock(model);
 	} else if (model.type == "warjack") {
 		// find model to attach
 		var candidates = findWhoToAttachWarjack(model);
@@ -172,6 +209,45 @@ function tryAddModel(modelId) {
 
 		recomposeArmy();
 		console.log("adding a warjack");
+	} else if (model.type == "warbeast") {
+		// find model to attach
+		var candidates = findWhoToAttachWarbeast(model);
+		if (candidates.length > 1) {
+			// many models can have beasts
+			$( "#unit-size-title").html("Add " + model.name);
+			var title = "Attach " + model.name + " to ...";
+
+			var buttons = new Array();
+
+			candidates.map( function(candidate) {
+				var button = {
+					text: candidate.name ,
+					click: function() {
+						addWarbeast(candidate, model);
+						$( this ).dialog( "close" );
+						}
+					};
+				buttons.push(button);
+			});
+
+			var minSizeButton = candidates[0].name;
+			var maxSizeButton = candidates[1].name;
+			$( "#dialog-confirm-unit-size" ).dialog({
+				resizable: false,
+				height:"auto",
+				title:title,
+				width:450,
+				modal: true,
+				buttons: buttons
+			});
+		} else if (candidates.length == 1) {
+			addWarbeast(candidates[0], model);
+		} else {
+			alert("No MODEL/UNIT to attach this warbeast");
+		}
+
+		recomposeArmy();
+		console.log("adding a warbeast");
 	} else if (model.type == "battleengine" ) {
 		addBattleEngine(model)	;
 		recomposeArmy();
@@ -364,6 +440,26 @@ function addWarjack(candidate, model) {
 	}
 
 	$.observable(candidate.warjacks).insert(selectedNewEntry);
+	recomposeArmy();
+}
+
+function addWarbeast(candidate, model) {
+	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: "", alteredCost:-1};
+	selectedNewEntry.id = model.id;
+	selectedNewEntry.type = "warbeast";
+	selectedNewEntry.name = model.name;
+	selectedNewEntry.faction = model.faction;
+	selectedNewEntry.fa = model.fa;
+	selectedNewEntry.cost = model.cost;
+	selectedNewEntry.specialist = false;
+	selectedNewEntry.canSpecialist = show_specialists;
+
+	if (model.free == true) {
+		selectedNewEntry.alteredCost = 0;
+		selectedNewEntry.free = true;
+	}
+
+	$.observable(candidate.warbeasts).insert(selectedNewEntry);
 	recomposeArmy();
 }
 
@@ -581,6 +677,66 @@ function findWhoToAttachWarjack(selectionWarjack) {
 	return result;
 }
 
+function findWhoToAttachWarbeast(selectionWarbeast) {
+
+	var result = new Array();
+
+	// find models who can have jacks
+	selected_entries.entries.map( function(entry) {
+
+		var canAdd = false;
+
+		if (entry.type == "warlock") {
+			canAdd = true;
+		}
+		if (entry.type == "soloLesserWarlock") {
+			canAdd = true;
+		}
+
+		// filter upon faction
+		if (selectionWarbeast.faction != entry.faction) {
+			// will only use faction warjacks
+			canAdd = false;
+		}
+
+		// filter upon "restricted_to" on the beast
+		if (selectionWarbeast.restricted_to) {
+			conserveUponRestriction = false;	
+			selectionWarbeast.restricted_to.map( function(restricted_to) {
+				if (restricted_to == entry.id) {
+					conserveUponRestriction = true;
+				}
+			});
+
+			if (conserveUponRestriction == false) {
+				canAdd = false;
+			}
+		}
+
+		// filter upon "restricted_to" on the (lesser) warlock
+		if (entry.restricted_to) {
+			conserveUponRestriction = false;	
+			entry.restricted_to.map( function(restricted_to) {
+				if (restricted_to == selectionWarbeast.id) {
+					conserveUponRestriction = true;
+				}
+			});
+
+			if (conserveUponRestriction == false) {
+				canAdd = false;
+			}
+		}
+
+		if (canAdd) {
+			result.push(entry);
+		}
+
+
+	});
+
+	return result;
+}
+
 function recomposeArmy() {
 
 	var commanderCount = 0;
@@ -701,13 +857,22 @@ function calculateSelectionCount() {
 			return; // free models do not count toward FA
 		}
 		addOne(entry);
-		// treat attachments && warjacks
+		// treat attachments && warjacks && warbeasts
 		if (entry.warjacks && entry.warjacks.length > 0) {
 			for (var i = 0; i < entry.warjacks.length; i++) {
 				if (entry.warjacks[i] == true) {
 					return; // free models do not count toward FA
 				}
 				addOne(entry.warjacks[i]);
+			}
+		}
+
+		if (entry.warbeasts && entry.warbeasts.length > 0) {
+			for (var i = 0; i < entry.warbeasts.length; i++) {
+				if (entry.warbeasts[i] == true) {
+					return; // free models do not count toward FA
+				}
+				addOne(entry.warbeasts[i]);
 			}
 		}
 
@@ -807,6 +972,17 @@ function calculateCompendium() {
 			}
 		}
 
+		if (entry.warbeasts && entry.warbeasts.length > 0) {
+			WBCount += entry.warbeasts.length;
+			for (var i = 0; i < entry.warbeasts.length; i++) {
+				if (entry.warbeasts[i].specialist == true) {
+					army_points_specialists_selected += getRealCost(entry.warbeasts[i]);	
+				} else {
+					army_points_selected += getRealCost(entry.warbeasts[i]);		
+				}
+			}
+		}
+
 		if (entry.attachment != null) {
 			if (entry.attachment.specialist == true) {
 				army_points_specialists_selected += getRealCost(entry.attachment);
@@ -818,11 +994,10 @@ function calculateCompendium() {
 		if (entry.weapons && entry.weapons.length > 0) {
 			for (var i = 0; i < entry.weapons.length; i++) {
 				if (entry.weapons[i].specialist == true) {
-					army_points_specialists_selected += entry.weapons[i].cost;	
+					army_points_specialists_selected += getRealCost(entry.weapons[i]);	
 				} else {
-					army_points_selected += entry.weapons[i].cost;		
+					army_points_selected += getRealCost(entry.weapons[i]);		
 				}
-				army_points_selected += entry.weapons[i].cost;	
 			}
 		}
 
@@ -890,6 +1065,27 @@ function addWarcaster(model) {
 	recomposeArmy();
 }
 
+function addWarlock(model) {
+	// create a warcaster
+	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: "", alteredCost:-1};
+	selectedNewEntry.id = model.id;
+	selectedNewEntry.type = "warlock";
+	selectedNewEntry.name = model.name;
+	selectedNewEntry.faction = model.faction;
+	selectedNewEntry.fa = model.fa;
+	selectedNewEntry.cost = model.cost;
+	selectedNewEntry.warbeasts = new Array();
+	selectedNewEntry.canSpecialist = false;
+
+	//$.observable(model).setProperty("selectedFA", 1 );
+	//$.observable(model).setProperty("isAddable", false);
+	// model.selectedFA = 1;
+
+	$.observable(selected_entries.entries).insert(selectedNewEntry);
+
+	recomposeArmy();
+}
+
 function addBattleEngine(model) {
 	var selectedNewEntry = {id : "", name:"",  type:"", faction:"", fa:"", cost: "", alteredCost:-1};
 	selectedNewEntry.id = model.id;
@@ -921,12 +1117,17 @@ function addSolo(model)	 {
 	selectedNewEntry.fa = model.fa;
 	selectedNewEntry.cost = model.cost;
 	selectedNewEntry.warjacks = new Array();
+	selectedNewEntry.warbeasts = new Array();
 	selectedNewEntry.specialist = false;
 	selectedNewEntry.canSpecialist = show_specialists;
 
 	if (model.free == true) {
 		selectedNewEntry.alteredCost = 0;
 		selectedNewEntry.free = true;
+	}
+
+	if (model.restricted_to != undefined) {
+		selectedNewEntry.restricted_to = model.restricted_to;
 	}
 
 
@@ -1148,6 +1349,17 @@ function changeFaction() {
 
 				return conserveEntry;
 			});
+		
+			entries_remaining.map(function(entry){
+				// dynamically add properties needed
+				entry.selectedFA = 0;
+				entry.alteredFA = 0;
+				entry.free = false;
+				entry.alteredCost = -1;
+				entry.isTierModified = false;
+			});
+
+
 			if (entries_remaining != null && entries_remaining.length > 0) {
 				var newGroup = {id:group.id, label:group.label, logo:group.logo, entries : entries_remaining};
 				groups.push(newGroup);
@@ -1158,6 +1370,105 @@ function changeFaction() {
 
 	} else {
 		// include minions
+
+		var minion_groups = full_data["Minions"].groups;
+
+		var minions_casters_marshall_warlocks = [];
+
+// first step : count caster, journeyman, ... to allow for warjacks filtering.
+		minion_groups.map( function(group) {
+			group.entries.map(function (entry) {
+				var conserveEntry = false;
+				if (entry.works_for && entry.works_for.length > 0) {
+					entry.works_for.map( function(faction_for) {
+						if (faction_for == selectedFactionId) {
+							conserveEntry = true;
+						}
+					});
+				}
+
+				if (currentTier) {
+					if ( $.inArray(entry.id, currentTier.levels[0].onlyModels.ids) == -1) {
+						conserveEntry = false; // model not included in tier
+					}
+				}
+
+				// find model that can have warjacks/warbeasts
+				if (conserveEntry && (entry.type == "warcaster" || entry.type == "warlock" 
+					|| entry.type == "unitMarshall" || entry.type == "soloMarshall"
+					|| entry.type == "UAMarshall" 
+					|| entry.type == "soloJourneyMan" || entry.type == "soloLesserWarlock")) {
+
+					if (entry.type == "warcaster" || entry.type == "warlock") {
+						if ( nb_casters > 1) {
+							// count minion casters ONLY if more than 1 caster in army...
+							minions_casters_marshall_warlocks.push(entry.id);		
+						}
+					} else {
+						minions_casters_marshall_warlocks.push(entry.id);		
+					}
+				}
+			});
+		});
+
+		minion_groups.map( function(group) {
+			// filter entries upon faction work for
+			var entries_remaining = group.entries.filter(function (entry) {
+				var conserveEntry = false;
+				if (entry.works_for && entry.works_for.length > 0) {
+					entry.works_for.map( function(faction_for) {
+						if (faction_for == selectedFactionId) {
+							conserveEntry = true;
+						}
+					});
+				}
+
+				if (currentTier) {
+					if ( $.inArray(entry.id, currentTier.levels[0].onlyModels.ids) == -1) {
+						conserveEntry = false; // model not included in tier
+					}
+				}
+
+
+				if (entry.type == "warcaster" || entry.type == "warlock") {
+					if ( nb_casters < 2) {
+						// count minion casters ONLY if more than 1 caster in army...
+						conserveEntry = false;		
+					}
+				}
+
+				// treat warjacks / beast depending on model restriction, not faction.
+				if (entry.type == "warjack" || entry.type == "warbeast" ) {
+					// warjacks & warbeasts are affiliated to caster/warlock, not faction
+					if (entry.restricted_to) {
+						entry.restricted_to.map( function(restricted_to) {
+							minions_casters_marshall_warlocks.map(function (wannabeOwnerId) {
+								if (restricted_to == wannabeOwnerId) {
+									conserveEntry = true;	
+								}
+							});
+						});
+					}
+				}
+
+				return conserveEntry;
+			});
+		
+			entries_remaining.map(function(entry){
+				// dynamically add properties needed
+				entry.selectedFA = 0;
+				entry.alteredFA = 0;
+				entry.free = false;
+				entry.alteredCost = -1;
+				entry.isTierModified = false;
+			});
+
+
+			if (entries_remaining != null && entries_remaining.length > 0) {
+				var newGroup = {id:group.id, label:group.label, logo:group.logo, entries : entries_remaining};
+				groups.push(newGroup);
+			}
+		});		
 	}
 
 
@@ -1439,6 +1750,14 @@ function computeTiersLevel() {
 								}
 							}
 						}
+						if (entry.type == "warlock" && entry.warbeasts) {
+							for (var i = 0; i< entry.warbeasts.length; i++) {
+								if (entry.warbeasts[i].id == id) {
+									count++;
+								}
+							}
+						}
+
 					} else if (entry.type == "unit" && must.inMarshal == true) {
 						if (entry.attachment && entry.attachment.type == "UAMarshall") {
 							if (entry.warjacks) {
@@ -1462,6 +1781,13 @@ function computeTiersLevel() {
 						if (entry.warjacks) {
 							for (var i = 0; i< entry.warjacks.length; i++) {
 								if (entry.warjacks[i].id == id) {
+									count++;
+								}
+							}
+						}
+						if (entry.warbeasts) {
+							for (var i = 0; i< entry.warbeasts.length; i++) {
+								if (entry.warbeasts[i].id == id) {
 									count++;
 								}
 							}
@@ -1584,6 +1910,14 @@ function computeTiersBonus() {
 						if (warjack.id == costAlteration.id) {
 							var newCost = warjack.cost - costAlteration.bonus;
 							$.observable(warjack).setProperty("alteredCost", newCost);	
+						}
+					});
+				}
+				if (entry.warbeasts instanceof Array) {
+					entry.warbeasts.map(function(warbeast) {
+						if (warbeast.id == costAlteration.id) {
+							var newCost = warbeast.cost - costAlteration.bonus;
+							$.observable(warbeast).setProperty("alteredCost", newCost);	
 						}
 					});
 				}

@@ -77,6 +77,14 @@ border: 1px solid #000;
 	padding-right: 5px;
 }
 
+#army_selected ul ul li img.remove_warbeast {
+	width: 20px;
+	height: 20px;
+	float: right;
+	padding-right: 5px;
+}
+
+
 #army_selected ul ul li img.remove_wa {
 	width: 20px;
 	height: 20px;

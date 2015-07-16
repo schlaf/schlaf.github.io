@@ -4,14 +4,23 @@
 	<link rel="stylesheet" href="whac.css">
 	<link rel="icon" href="favicon.ico" />
 	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="js.cookie.js"></script>
 	<script src="jsrender.js"></script>
 	<script src="jsviews.js"></script>
-	<script src="cryx.js"></script>
-	<script src="cygnar.js"></script>
-	<script src="khador.js"></script>
-	<script src="mercs.js"></script>
-	<script src="menoth.js"></script>
-	<script src="retribution.js"></script>
+
+<script src="faction_trollblood.js"></script>
+<script src="faction_skorne.js"></script>
+<script src="faction_retribution.js"></script>
+<script src="faction_orboros.js"></script>
+<script src="faction_minions.js"></script>
+<script src="faction_mercs.js"></script>
+<script src="faction_menoth.js"></script>
+<script src="faction_khador.js"></script>
+<script src="faction_everblight.js"></script>
+<script src="faction_cyriss.js"></script>
+<script src="faction_cygnar.js"></script>
+<script src="faction_cryx.js"></script>
+
 	<script src="whac.js"></script>
 
 	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
@@ -142,6 +151,17 @@ $( "#army_options" ).accordion({
 						<div>&nbsp;</div>
 					</li>
 				{{/for}}
+				{^{for warbeasts}}				
+					<li>
+						<div class="model_title"> {^{:name}}</div> 
+						<img class="remove_warbeast" src="remove.png" />
+						<img class="specialist" data-link="class{merge:specialist toggle='full_visible'} class{merge:!specialist toggle='shadow'} class{merge:canSpecialist toggle='visible'} class{merge:!canSpecialist toggle='invisible'}" 
+									src="specialist.png" />
+						<img class="freeModel" data-link="class{merge:free toggle='visible'} class{merge:!free toggle='invisible'}" src="free.gif"/>
+						<div class="cost">{^{if alteredCost!=-1}}<font color="blue">{^{:alteredCost}}</font>{{else}}{^{:cost}}{{/if}} PC</div>
+						<div>&nbsp;</div>
+					</li>
+				{{/for}}
 				</ul>
 				<ul>
 				{^{for weapons}}				
@@ -187,6 +207,16 @@ $( "#army_options" ).accordion({
 			{{/if}}
 				<ul>
 				{^{for warjacks}}				
+					<li>
+						<div class="model_title"> *{^{:name}}
+						{{if specialist}} (SPECIALIST){{/if}}
+						{{if free}} (FREE){{/if}}
+						</div> 
+						<div class="cost">{^{if alteredCost!=-1}}<font color="blue">{^{:alteredCost}}</font>{{else}}{^{:cost}}{{/if}} PC</div>
+						<div>&nbsp;</div>
+					</li>
+				{{/for}}
+				{^{for warbeasts}}				
 					<li>
 						<div class="model_title"> *{^{:name}}
 						{{if specialist}} (SPECIALIST){{/if}}
@@ -343,15 +373,15 @@ $( "#army_options" ).accordion({
 
 	<H1> Choose faction </H1>
 	<div id="faction_options">
-	    <select name="select-native-system" id="select-native-system">
+	    <select name="select-native-system" id="select-native-system"  autocomplete="off">
 	        <option value="0">Warmachine</option>
 	        <option value="1">Hordes</option>
 	    </select>
 	    
-	    <select name="select-native-faction" id="select-native-faction">
+	    <select name="select-native-faction" id="select-native-faction"  autocomplete="off">
 	    </select>
 	    
-	    <select name="select-native-tierOrContract" id="select-native-tierOrContract">
+	    <select name="select-native-tierOrContract" id="select-native-tierOrContract"  autocomplete="off">
 	    </select>
 
 
@@ -550,18 +580,11 @@ $("#export-army-button")
 		content += "<p/>" 
 		content += $.templates("#armyExportTemplate").render(selected_entries);
 
-		var title = "Export army content";
+		var title = "Export army content : use ctrl+C to copy";
 		var buttons = new Array();
 		
-		var buttonCopy = {
-			text: "Copy text" ,
-			click: function() {
-				copyText();
-				}
-			};
-		buttons.push(buttonCopy);
 		var button = {
-			text: "OK" ,
+			text: "Close" ,
 			click: function() {
 				// addWarjack(candidate, model);
 				$( this ).dialog( "close" );
@@ -599,12 +622,19 @@ $("#export-army-button")
 
 function populateFactions(systemValue) {
 	var options = '';
+	var firstFaction = null;
 	chosenSystem = systems[systemValue];
 	for (var i = 0; i < factions[chosenSystem].length; i++) {
 	    options += '<option value="' + factions[chosenSystem][i] + '">' + factions[chosenSystem][i] + '</option>';
+
+	    if (i == 0) {
+	    	firstFaction = factions[chosenSystem][i];
+	    }
 	}
 	$('#select-native-faction').empty();
 	$('#select-native-faction').html(options);
+
+	populateTiersContracts(firstFaction);
 }
 
 
@@ -676,6 +706,13 @@ $.templates("#modelSelectedTemplate").link("#selected_entries_ul", selected_entr
     // view.data is the warjack!
     var selectedNewEntry = tryRemoveWarjack(parentIndex, index, view.data);
 })
+.on("click", ".remove_warbeast", function() {
+    var view = $.view(this);
+    var index = $.view(this).getIndex();
+    var parentIndex = view.parent.getIndex();
+    // view.data is the warjack!
+    var selectedNewEntry = tryRemoveWarbeast(parentIndex, index, view.data);
+})
 .on("click", ".remove_wa", function() {
     var view = $.view(this);
     var index = $.view(this).getIndex();
@@ -687,13 +724,6 @@ $.templates("#modelSelectedTemplate").link("#selected_entries_ul", selected_entr
 }
 
 </script>
-
-		<script language="javascript" type="text/javascript"> 
-			function copyText() { 
-				var output = document.getElementById("export_content").innerHTML; 
-				document.getElementById("output").value = output; 
-			} 
-		</script>
 
  
  </html>
