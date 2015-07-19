@@ -548,7 +548,7 @@ faction_minions_entries = {
 			"works_for": ["faction_orboros"],
 			"type": "solo",
 			"cost": 3,
-			"name": "Eiryss"
+			"name": "Eiryss, Mage Hunter of Ios"
 		}, {
 			"id": "IW03_minion",
 			"fa": "C",
@@ -628,7 +628,7 @@ faction_minions_entries = {
 			"works_for": ["faction_orboros", "faction_trollblood"],
 			"type": "solo",
 			"cost": 2,
-			"name": "Professor Victor Pendrake"
+			"name": "Professor Viktor Pendrake"
 		}, {
 			"id": "IS02",
 			"fa": "3",
