@@ -562,6 +562,7 @@
                     </weapons>
                     <animus name="Primal" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly living warbeast gains +2 STR and MAT for one round and automatically frenzies during your next Control Phase.</animus>
                     <capacity title="Pain Response">While damaged this model can charge or make power attacks without being forced.</capacity>
+                    <restricted_to id="IW08"/>
                     <only_in_tier id="Dr. Arkadius - Nature of the Beast (NQ56)"/>
                 </warbeast>
 
