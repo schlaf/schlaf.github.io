@@ -566,7 +566,6 @@
                     <only_in_tier id="Dr. Arkadius - Nature of the Beast (NQ56)"/>
                 </warbeast>
 
-
                 <warbeast id="Lug_minion" name="Lug" full_name="Lug" qualification="Mercenary Minion Character Heavy Warbeast" fa="C" cost="0" fury="4" threshold="9" damage_spiral="8-11-8" completed="true">
                     <basestats name="LUG" spd="5" str="12" mat="5" rat="1" def="12" arm="18" cmd="6" immunity_frost="true" pathfinder="true" />
                     <weapons>
