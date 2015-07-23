@@ -8,7 +8,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 6,
-        "name": "Caine1"
+        "name": "Caine1(Lieutenant Allister Caine)"
       },
       {
         "id": "Yw02",
@@ -16,7 +16,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 6,
-        "name": "Stryker1"
+        "name": "Stryker1(Commander Coleman Stryker)"
       },
       {
         "id": "Yw04",
@@ -24,7 +24,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 6,
-        "name": "Nemo1"
+        "name": "Nemo1(Commander Adept Nemo)"
       },
       {
         "id": "YW05",
@@ -32,7 +32,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 5,
-        "name": "Siege"
+        "name": "Brisbane(Major Markus 'Siege' Brisbane)"
       },
       {
         "id": "YW09",
@@ -40,7 +40,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 6,
-        "name": "Constance Blaize"
+        "name": "Constance Blaize(Constance Blaize, Knight of the Prophet)"
       },
       {
         "id": "Yx02",
@@ -48,7 +48,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 6,
-        "name": "Stryker2"
+        "name": "Stryker2(Lord Commander Stryker)"
       },
       {
         "id": "YW08",
@@ -56,7 +56,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 6,
-        "name": "Kara Sloan"
+        "name": "Kara Sloan(Captain Kara Sloan)"
       },
       {
         "id": "Yx01",
@@ -64,7 +64,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 5,
-        "name": "Haley2"
+        "name": "Haley2(Major Victoria Haley)"
       },
       {
         "id": "YW07",
@@ -72,7 +72,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 5,
-        "name": "Darius"
+        "name": "Darius(Captain E. Dominic Darius & Halfjacks)"
       },
       {
         "id": "Yx04",
@@ -80,7 +80,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 6,
-        "name": "Nemo2"
+        "name": "Nemo2(General Adept Nemo)"
       },
       {
         "id": "YW06",
@@ -88,7 +88,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 6,
-        "name": "Kraye"
+        "name": "Kraye(Captain Jeremiah Kraye)"
       },
       {
         "id": "Yx03",
@@ -96,7 +96,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 5,
-        "name": "Caine2"
+        "name": "Caine2(Captain Allister Caine)"
       },
       {
         "id": "Yz02",
@@ -104,7 +104,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 5,
-        "name": "Stryker3"
+        "name": "Stryker3(Lord General Coleman Stryker)"
       },
       {
         "id": "Yz01",
@@ -112,7 +112,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 3,
-        "name": "Haley3"
+        "name": "Haley3(Major Prime Victoria Haley)"
       },
       {
         "id": "Yz04",
@@ -120,7 +120,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 3,
-        "name": "Nemo3"
+        "name": "Nemo3(Artificer General Nemo & Storm Chaser Adept Finch)"
       },
       {
         "id": "YW10",
@@ -128,7 +128,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 6,
-        "name": "Sturgis"
+        "name": "Sturgis(Commander Dalin Sturgis)"
       },
       {
         "id": "Yw01",
@@ -136,7 +136,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warcaster",
         "cost": 5,
-        "name": "Haley1"
+        "name": "Haley1(Captain Victoria Haley)"
       }
     ],
     "logo": "faction_cygnar",
@@ -160,20 +160,20 @@ faction_cygnar_entries = {"groups":[
         "name": "Avenger"
       },
       {
-        "id": "YJ18",
-        "fa": "U",
-        "faction": "faction_cygnar",
-        "type": "warjack",
-        "cost": 5,
-        "name": "Minuteman"
-      },
-      {
         "id": "YJ09",
         "fa": "U",
         "faction": "faction_cygnar",
         "type": "warjack",
         "cost": 9,
         "name": "Centurion"
+      },
+      {
+        "id": "YJ18",
+        "fa": "U",
+        "faction": "faction_cygnar",
+        "type": "warjack",
+        "cost": 5,
+        "name": "Minuteman"
       },
       {
         "id": "YJ08",
@@ -229,7 +229,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "warjack",
         "cost": 19,
-        "name": "Stormwall"
+        "name": "Stormwall(Stormwall & Lightning Pod)"
       },
       {
         "id": "YJ13",
@@ -248,20 +248,20 @@ faction_cygnar_entries = {"groups":[
         "name": "Hammersmith"
       },
       {
-        "id": "YJ15",
-        "fa": "U",
-        "faction": "faction_cygnar",
-        "type": "warjack",
-        "cost": 5,
-        "name": "Firefly"
-      },
-      {
         "id": "YJ06",
         "fa": "C",
         "faction": "faction_cygnar",
         "type": "warjack",
         "cost": 8,
         "name": "Thorn"
+      },
+      {
+        "id": "YJ15",
+        "fa": "U",
+        "faction": "faction_cygnar",
+        "type": "warjack",
+        "cost": 5,
+        "name": "Firefly"
       },
       {
         "id": "YJ14",
@@ -423,7 +423,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "unit",
         "cost": 2,
-        "name": "Storm Tower"
+        "name": "Stormsmith Storm Tower"
       },
       {
         "min": 6,
@@ -458,7 +458,7 @@ faction_cygnar_entries = {"groups":[
         "costMin": 4,
         "fa": "2",
         "faction": "faction_cygnar",
-        "type": "unit",
+        "type": "unitMarshall",
         "cost": 4
       },
       {
@@ -499,7 +499,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "unit",
         "cost": 6,
-        "name": "Arcane Tempest Gun Mages"
+        "name": "Arcane Tempest Gun Mage Pistoleers"
       },
       {
         "id": "YU11",
@@ -646,7 +646,7 @@ faction_cygnar_entries = {"groups":[
         "faction": "faction_cygnar",
         "type": "RA",
         "cost": 2,
-        "name": "Captain Jonas Murdoch"
+        "name": "Jonas Murdoch(Captain Jonas Murdoch)"
       }
     ],
     "logo": "faction_cygnar",
@@ -667,7 +667,7 @@ faction_cygnar_entries = {"groups":[
         "id": "YS10",
         "fa": "2",
         "faction": "faction_cygnar",
-        "type": "solo",
+        "type": "soloMarshall",
         "cost": 2,
         "name": "Stormblade Captain"
       },
@@ -723,9 +723,9 @@ faction_cygnar_entries = {"groups":[
         "id": "YS09",
         "fa": "C",
         "faction": "faction_cygnar",
-        "type": "solo",
+        "type": "soloMarshall",
         "cost": 3,
-        "name": "Archduke Alain Runewood"
+        "name": "Archduke Alain Runewood(Archduke Alain Runewood, Lord of Fharin)"
       },
       {
         "id": "YS06",

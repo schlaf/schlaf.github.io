@@ -14,7 +14,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "warlock",
         "cost": 1,
-        "name": "Saeryn & Rhyas"
+        "name": "Saeryn & Rhyas(Saeryn & Rhyas, Talons of Everblight)"
       },
       {
         "id": "Ew02",
@@ -22,7 +22,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "warlock",
         "cost": 5,
-        "name": "Thagrosh1"
+        "name": "Thagrosh1(Thagrosh, Prophet of Everblight)"
       },
       {
         "id": "EW08",
@@ -30,7 +30,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "warlock",
         "cost": 5,
-        "name": "Kallus"
+        "name": "Kallus, Wrath of Everblight"
       },
       {
         "id": "Ex06",
@@ -38,7 +38,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "warlock",
         "cost": 5,
-        "name": "Absylonia2"
+        "name": "Absylonia2(Absylonia, Daughter of Everblight)"
       },
       {
         "id": "Ew03",
@@ -46,7 +46,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "warlock",
         "cost": 6,
-        "name": "Vayl1"
+        "name": "Vayl1(Vayl, Disciple of Everblight)"
       },
       {
         "id": "Ez01",
@@ -54,7 +54,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "warlock",
         "cost": 5,
-        "name": "Lylyth3"
+        "name": "Lylyth3(Lylyth, Reckoning of Everblight)"
       },
       {
         "id": "EW07",
@@ -62,7 +62,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "warlock",
         "cost": 3,
-        "name": "Bethayne"
+        "name": "Bethayne, Voice of Everblight & Belphagor"
       },
       {
         "id": "EW06",
@@ -70,7 +70,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "warlock",
         "cost": 5,
-        "name": "Absylonia"
+        "name": "Absylonia1(Absylonia, Terror of Everblight)"
       },
       {
         "id": "Ew01",
@@ -78,7 +78,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "warlock",
         "cost": 6,
-        "name": "Lylyth1"
+        "name": "Lylyth1(Lylyth, Herald of Everblight)"
       },
       {
         "id": "EW05",
@@ -86,7 +86,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "warlock",
         "cost": 5,
-        "name": "Saeryn"
+        "name": "Saeryn, Omen of Everblight"
       },
       {
         "id": "Ex01",
@@ -94,7 +94,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "warlock",
         "cost": 5,
-        "name": "Lylyth2"
+        "name": "Lylyth2(Lylyth, Shadow of Everblight)"
       },
       {
         "id": "EW04",
@@ -102,7 +102,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "warlock",
         "cost": 6,
-        "name": "Rhyas"
+        "name": "Rhyas, Sigil of Everblight"
       },
       {
         "id": "Ex02",
@@ -110,7 +110,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "warlock",
         "cost": 3,
-        "name": "Thagrosh2"
+        "name": "Thagrosh2(Thagrosh, the Messiah)"
       },
       {
         "id": "Ex03",
@@ -118,7 +118,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "warlock",
         "cost": 6,
-        "name": "Vayl2"
+        "name": "Vayl2(Vayl, Consul of Everblight)"
       }
     ],
     "logo": "faction_everblight",
@@ -387,9 +387,9 @@ faction_everblight_entries = {"groups":[
         "cost": 5
       },
       {
-        "min": 4,
+        "min": 5,
         "id": "EU06",
-        "max": 6,
+        "max": 7,
         "name": "Spawning Vessel",
         "costMax": 3,
         "costMin": 2,
@@ -412,7 +412,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "unit",
         "cost": 6,
-        "name": "Blighted Nyss Striders"
+        "name": "Strider Rangers"
       },
       {
         "id": "EU13",
@@ -420,7 +420,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "unit",
         "cost": 6,
-        "name": "Blighted Strider Blightblades"
+        "name": "Strider Blightblades"
       },
       {
         "min": 3,
@@ -533,7 +533,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "UA",
         "cost": 3,
-        "name": "Blighted Nyss Striders Officer & Musician",
+        "name": "Strider Rangers Officer & Musician",
         "restricted_to": "EU07"
       },
       {
@@ -579,7 +579,7 @@ faction_everblight_entries = {"groups":[
         "faction": "faction_everblight",
         "type": "solo",
         "cost": 4,
-        "name": "Blighted Nyss Sorceress and Hellion"
+        "name": "Blighted Nyss Sorceress & Hellion"
       },
       {
         "id": "ES04",

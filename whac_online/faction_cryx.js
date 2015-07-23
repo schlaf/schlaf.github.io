@@ -8,7 +8,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 6,
-        "name": "Sturgis"
+        "name": "Sturgis(Sturgis the Corrupted)"
       },
       {
         "id": "CW08",
@@ -16,7 +16,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 6,
-        "name": "Venethrax"
+        "name": "Venethrax(Lich Lord Venethrax)"
       },
       {
         "id": "CW09",
@@ -24,7 +24,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 5,
-        "name": "Scaverous"
+        "name": "Scaverous(Lord Exhumator Scaverous)"
       },
       {
         "id": "CW04",
@@ -32,7 +32,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 4,
-        "name": "Terminus"
+        "name": "Terminus(Lich Lord Terminus)"
       },
       {
         "id": "CW06",
@@ -40,7 +40,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 5,
-        "name": "Witch Coven"
+        "name": "Witch Coven(The witch coven of Garlghast)"
       },
       {
         "id": "CW07",
@@ -48,7 +48,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 4,
-        "name": "Mortenebra"
+        "name": "Mortenebra(Master Necrotech Mortenebra & Deryliss)"
       },
       {
         "id": "Cx05",
@@ -56,7 +56,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 5,
-        "name": "Goreshade2"
+        "name": "Goreshade2(Goreshade the Cursed)"
       },
       {
         "id": "Cx03",
@@ -64,7 +64,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 6,
-        "name": "Skarre2"
+        "name": "Skarre2(Skarre queen of the broken coast)"
       },
       {
         "id": "Cw05",
@@ -72,7 +72,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 6,
-        "name": "Goreshade1"
+        "name": "Goreshade1(Goreshade the bastard)"
       },
       {
         "id": "Cw03",
@@ -80,7 +80,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 6,
-        "name": "Skarre1"
+        "name": "Skarre1(Pirate queen Skarre)"
       },
       {
         "id": "Cw02",
@@ -88,7 +88,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 5,
-        "name": "Deneghra1"
+        "name": "Deneghra1(Warwitch Deneghra)"
       },
       {
         "id": "Cz05",
@@ -96,7 +96,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 5,
-        "name": "Goreshade3"
+        "name": "Goreshade3(Goreshade, Lord of Ruin)"
       },
       {
         "id": "Cw01",
@@ -104,7 +104,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 6,
-        "name": "Asphyxious1"
+        "name": "Asphyxious1(Iron Lich Asphyxious)"
       },
       {
         "id": "Cx01",
@@ -112,7 +112,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 6,
-        "name": "Asphyxious2"
+        "name": "Asphyxious2(Lich Lord Asphyxious)"
       },
       {
         "id": "Cx02",
@@ -120,7 +120,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 6,
-        "name": "Deneghra2"
+        "name": "Deneghra2(Wraith Witch Deneghra)"
       },
       {
         "id": "Cz01",
@@ -128,7 +128,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 4,
-        "name": "Asphyxious3"
+        "name": "Asphyxious3(Asphyxious the Hellbringer & Vociferon)"
       },
       {
         "id": "Cz02",
@@ -136,7 +136,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "warcaster",
         "cost": 4,
-        "name": "Deneghra3"
+        "name": "Deneghra3(Deneghra, the Soul Weaver)"
       }
     ],
     "logo": "faction_cryx",
@@ -152,14 +152,6 @@ faction_cryx_entries = {"groups":[
     "id": "faction_cryx_warjacks",
     "entries": [
       {
-        "id": "CJ13",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 10,
-        "name": "Nightmare"
-      },
-      {
         "id": "CJ08",
         "fa": "U",
         "faction": "faction_cryx",
@@ -168,12 +160,12 @@ faction_cryx_entries = {"groups":[
         "name": "Reaper"
       },
       {
-        "id": "CJ12",
+        "id": "CJ13",
         "fa": "C",
         "faction": "faction_cryx",
         "type": "warjack",
-        "cost": 12,
-        "name": "Deathjack"
+        "cost": 10,
+        "name": "Nightmare"
       },
       {
         "id": "CJ07",
@@ -182,6 +174,14 @@ faction_cryx_entries = {"groups":[
         "type": "warjack",
         "cost": 6,
         "name": "Slayer"
+      },
+      {
+        "id": "CJ12",
+        "fa": "C",
+        "faction": "faction_cryx",
+        "type": "warjack",
+        "cost": 12,
+        "name": "Deathjack"
       },
       {
         "id": "CJ24",
@@ -216,14 +216,6 @@ faction_cryx_entries = {"groups":[
         "name": "Barathrum"
       },
       {
-        "id": "CJ14",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 8,
-        "name": "Corruptor"
-      },
-      {
         "id": "CJ05",
         "fa": "U",
         "faction": "faction_cryx",
@@ -232,12 +224,12 @@ faction_cryx_entries = {"groups":[
         "name": "Helldiver"
       },
       {
-        "id": "CJ17",
+        "id": "CJ14",
         "fa": "U",
         "faction": "faction_cryx",
         "type": "warjack",
-        "cost": 4,
-        "name": "Scavenger"
+        "cost": 8,
+        "name": "Corruptor"
       },
       {
         "id": "CJ04",
@@ -248,12 +240,12 @@ faction_cryx_entries = {"groups":[
         "name": "Stalker"
       },
       {
-        "id": "CJ16",
-        "fa": "C",
+        "id": "CJ17",
+        "fa": "U",
         "faction": "faction_cryx",
         "type": "warjack",
-        "cost": 9,
-        "name": "Malice"
+        "cost": 4,
+        "name": "Scavenger"
       },
       {
         "id": "CJ03",
@@ -262,6 +254,14 @@ faction_cryx_entries = {"groups":[
         "type": "warjack",
         "cost": 4,
         "name": "Nightwretch"
+      },
+      {
+        "id": "CJ16",
+        "fa": "C",
+        "faction": "faction_cryx",
+        "type": "warjack",
+        "cost": 9,
+        "name": "Malice"
       },
       {
         "id": "CJ19",
@@ -383,7 +383,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "unit",
         "cost": 3,
-        "name": "Revenant Cannon Crew"
+        "name": "Revenant cannon crew"
       },
       {
         "min": 6,
@@ -401,7 +401,7 @@ faction_cryx_entries = {"groups":[
         "min": 6,
         "id": "CU16",
         "max": 10,
-        "name": "Satyxis Blood Witches",
+        "name": "Satyxis Blood witches",
         "costMax": 6,
         "costMin": 4,
         "fa": "2",
@@ -415,7 +415,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "unit",
         "cost": 2,
-        "name": "Necrosurgeon & Stitch Thralls"
+        "name": "Necrosurgeon & stitch thralls"
       },
       {
         "id": "CU14",
@@ -429,7 +429,7 @@ faction_cryx_entries = {"groups":[
         "min": 6,
         "id": "CU13",
         "max": 10,
-        "name": "Cephalyx Mind Slaver & Drudges",
+        "name": "Cephalyx mind slaver & Drudges",
         "costMax": 6,
         "costMin": 4,
         "fa": "2",
@@ -489,7 +489,7 @@ faction_cryx_entries = {"groups":[
         "min": 3,
         "id": "CU07",
         "max": 5,
-        "name": "Black Ogrun Boarding Party",
+        "name": "Black Ogrun boarding party",
         "costMax": 6,
         "costMin": 4,
         "fa": "2",
@@ -525,7 +525,7 @@ faction_cryx_entries = {"groups":[
         "min": 6,
         "id": "CU05",
         "max": 10,
-        "name": "Revenant Crew of the Atramentous",
+        "name": "Revenant crew of the Atramentous",
         "costMax": 9,
         "costMin": 6,
         "fa": "2",
@@ -549,7 +549,7 @@ faction_cryx_entries = {"groups":[
         "min": 6,
         "id": "CU03",
         "max": 10,
-        "name": "Mechanithralls",
+        "name": "Mecanithralls",
         "costMax": 5,
         "costMin": 3,
         "fa": "3",
@@ -570,7 +570,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "WA",
         "cost": 1,
-        "name": "Revenant Crew Riflemen",
+        "name": "Revenant crew rifleman",
         "restricted_to": "CU05"
       },
       {
@@ -697,7 +697,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "solo",
         "cost": 2,
-        "name": "Bloat Thrall"
+        "name": "Bloat thrall"
       },
       {
         "id": "CS13",
@@ -713,7 +713,7 @@ faction_cryx_entries = {"groups":[
         "faction": "faction_cryx",
         "type": "soloJourneyMan",
         "cost": 3,
-        "name": "Aiakos"
+        "name": "Aiakos(Aiakos, Scourge of meredius)"
       },
       {
         "id": "CS11",

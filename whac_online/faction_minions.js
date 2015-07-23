@@ -20,7 +20,7 @@ faction_minions_entries = {"groups":[
         ],
         "type": "warlock",
         "cost": 5,
-        "name": "Sturm und Drang"
+        "name": "Sturm & Drang"
       },
       {
         "id": "IW11",
@@ -76,7 +76,7 @@ faction_minions_entries = {"groups":[
         ],
         "type": "warlock",
         "cost": 6,
-        "name": "Maelok, the Dreadbound"
+        "name": "Maelok the Dreadbound"
       },
       {
         "id": "IW13",
@@ -117,7 +117,7 @@ faction_minions_entries = {"groups":[
         ],
         "type": "warlock",
         "cost": 6,
-        "name": "Calaban, the Gravewalker"
+        "name": "Calaban, the Grave Walker"
       },
       {
         "id": "IW06",
@@ -145,7 +145,7 @@ faction_minions_entries = {"groups":[
         ],
         "type": "warlock",
         "cost": 6,
-        "name": "Lord Carver"
+        "name": "Lord Carver, BMMD, Esq. III"
       }
     ],
     "logo": "faction_minions",
@@ -267,7 +267,7 @@ faction_minions_entries = {"groups":[
         "type": "warbeast",
         "cost": 4,
         "restricted_to": ["IW11"],
-        "name": "Bone Swarm"
+        "name": "Boneswarm (Midas - Butcher's Block)"
       },
       {
         "id": "IB01",
@@ -413,7 +413,7 @@ faction_minions_entries = {"groups":[
           "IW14",
           "IW04_minion"
         ],
-        "name": "Bone Swarm"
+        "name": "Boneswarm"
       },
       {
         "id": "OB02_minion_arkadius",
@@ -589,7 +589,7 @@ faction_minions_entries = {"groups":[
           "faction_trollblood",
           "faction_skorne"
         ],
-        "name": "Gatormen Posse",
+        "name": "Gatorman Posse",
         "costMax": 9,
         "costMin": 6,
         "fa": "2",
@@ -651,7 +651,7 @@ faction_minions_entries = {"groups":[
         ],
         "type": "unit",
         "cost": 6,
-        "name": "Gatorman Bokor and Bog Trog Shamblers"
+        "name": "Gatorman Bokor and Bog Trog Swamp Shamblers"
       },
       {
         "min": 6,
@@ -761,7 +761,7 @@ faction_minions_entries = {"groups":[
         "works_for": ["faction_trollblood"],
         "type": "soloMarshall",
         "cost": 2,
-        "name": "Moorclaw"
+        "name": "Raluk Moorclaw, the Ironmonger"
       },
       {
         "id": "IW04_minion",
@@ -775,7 +775,7 @@ faction_minions_entries = {"groups":[
         ],
         "type": "soloLesserWarlock",
         "cost": 9,
-        "name": "Wrong Eye & Snapjaw"
+        "name": "Wrong Eye (Wrong Eye & Snapjaw)"
       },
       {
         "id": "IW02_minion",
@@ -787,7 +787,7 @@ faction_minions_entries = {"groups":[
         ],
         "type": "soloLesserWarlock",
         "cost": 9,
-        "name": "Dahlia Hallyr & Skarath"
+        "name": "Dahlia Hallyr (Dahlia Hallyr & Skarath)"
       },
       {
         "id": "MS30_minion",
@@ -822,7 +822,7 @@ faction_minions_entries = {"groups":[
         "works_for": ["faction_orboros"],
         "type": "solo",
         "cost": 3,
-        "name": "Eiryss"
+        "name": "Eiryss, Mage Hunter of Ios"
       },
       {
         "id": "IW03_minion",
@@ -836,7 +836,7 @@ faction_minions_entries = {"groups":[
         ],
         "type": "soloLesserWarlock",
         "cost": 9,
-        "name": "Rorsh & Brine"
+        "name": "Rorsh (Rorsh & Brine)"
       },
       {
         "id": "IS15",
@@ -862,7 +862,7 @@ faction_minions_entries = {"groups":[
         ],
         "type": "soloLesserWarlock",
         "cost": 9,
-        "name": "Brun Cragback & Lug"
+        "name": "Brun Cragback (Brun Cragback & Lug)"
       },
       {
         "id": "IS14",
@@ -901,7 +901,7 @@ faction_minions_entries = {"groups":[
         ],
         "type": "solo",
         "cost": 2,
-        "name": "Alten Ashley, Monster Hunter"
+        "name": "Alten Ashley"
       },
       {
         "id": "IS12_minion",
@@ -915,7 +915,7 @@ faction_minions_entries = {"groups":[
         ],
         "type": "solo",
         "cost": 1,
-        "name": "Goblin Tinker"
+        "name": "Gobber Tinker"
       },
       {
         "id": "IS04_minion",
@@ -927,7 +927,7 @@ faction_minions_entries = {"groups":[
         ],
         "type": "solo",
         "cost": 2,
-        "name": "Lanyssa Ryssyll, Nyss Sorceress"
+        "name": "Lanyssa Ryssyll"
       },
       {
         "id": "IS11",
@@ -953,7 +953,7 @@ faction_minions_entries = {"groups":[
         ],
         "type": "solo",
         "cost": 2,
-        "name": "Professor Victor Pendrake"
+        "name": "Viktor Pendrake"
       },
       {
         "id": "IS02",
@@ -979,7 +979,7 @@ faction_minions_entries = {"groups":[
           "faction_trollblood",
           "faction_skorne"
         ],
-        "type": "solo",
+        "type": "soloAttachment",
         "cost": 2,
         "name": "Targ"
       }

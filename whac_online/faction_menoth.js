@@ -8,7 +8,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 6,
-        "name": "Feora2"
+        "name": "Feora2(Feora, Protector of the Flame)"
       },
       {
         "id": "Px07",
@@ -16,7 +16,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 4,
-        "name": "Reznik2"
+        "name": "Reznik2(Servath Reznik, Wrath of Ages)"
       },
       {
         "id": "PW06",
@@ -24,7 +24,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 5,
-        "name": "Harbinger"
+        "name": "The Harbinger of Menoth"
       },
       {
         "id": "PW05",
@@ -32,7 +32,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 6,
-        "name": "Amon"
+        "name": "High Allegiant Amon Ad-Raza"
       },
       {
         "id": "Px01",
@@ -40,7 +40,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 6,
-        "name": "Kreoss2"
+        "name": "Kreoss2(Grand Exemplar Kreoss)"
       },
       {
         "id": "PW08",
@@ -48,7 +48,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 6,
-        "name": "Vindictus"
+        "name": "Vice Scrutator Vindictus"
       },
       {
         "id": "Px02",
@@ -56,7 +56,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 6,
-        "name": "Reclaimer2"
+        "name": "Testament of Menoth"
       },
       {
         "id": "PW07",
@@ -64,7 +64,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 6,
-        "name": "Reznik1"
+        "name": "Reznik1(High Executioner Servath Reznik)"
       },
       {
         "id": "Px03",
@@ -72,7 +72,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 6,
-        "name": "Severius2"
+        "name": "Severius2(Hierarch Severius)"
       },
       {
         "id": "Pz01",
@@ -80,7 +80,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 5,
-        "name": "Kreoss3"
+        "name": "Kreoss3(Intercessor Kreoss)"
       },
       {
         "id": "Pw01",
@@ -88,7 +88,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 5,
-        "name": "Kreoss1"
+        "name": "Kreoss1(High Exemplar Kreoss)"
       },
       {
         "id": "Pw02",
@@ -96,7 +96,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 6,
-        "name": "Reclaimer1"
+        "name": "The High Reclaimer"
       },
       {
         "id": "Pw03",
@@ -104,7 +104,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 6,
-        "name": "Severius1"
+        "name": "Severius1(Grand Scrutator Severius)"
       },
       {
         "id": "Pw04",
@@ -112,7 +112,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 6,
-        "name": "Feora1"
+        "name": "Feora1(Feora, Priestess of the Flame)"
       },
       {
         "id": "PW10",
@@ -120,7 +120,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 6,
-        "name": "Anson Durst"
+        "name": "Anson Durst, Rock of the Faith"
       },
       {
         "id": "PW09",
@@ -128,7 +128,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "warcaster",
         "cost": 6,
-        "name": "Thyra"
+        "name": "Thyra, Flame of Sorrow"
       }
     ],
     "logo": "faction_menoth",
@@ -574,14 +574,6 @@ faction_menoth_entries = {"groups":[
         "cost": 2,
         "name": "Exemplar Errant Officer & Standard Bearer",
         "restricted_to": "PU09"
-      },
-      {
-        "id": "PA05",
-        "fa": "2",
-        "faction": "faction_menoth",
-        "type": "RA",
-        "cost": 2,
-        "name": "Attendant Priest"
       }
     ],
     "logo": "faction_menoth",
@@ -631,6 +623,14 @@ faction_menoth_entries = {"groups":[
         "name": "Hierophant"
       },
       {
+        "id": "PA05",
+        "fa": "2",
+        "faction": "faction_menoth",
+        "type": "solo",
+        "cost": 2,
+        "name": "Attendant Priest"
+      },
+      {
         "id": "PS09",
         "fa": "C",
         "faction": "faction_menoth",
@@ -676,7 +676,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "soloJourneyMan",
         "cost": 3,
-        "name": "Tristan Durant"
+        "name": "Initiate Tristan Durant"
       },
       {
         "id": "PS02",
@@ -684,7 +684,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "solo",
         "cost": 3,
-        "name": "Knight Exemplar Seneschal"
+        "name": "Knights Exemplar Seneschal"
       },
       {
         "id": "PS12",
@@ -700,7 +700,7 @@ faction_menoth_entries = {"groups":[
         "faction": "faction_menoth",
         "type": "solo",
         "cost": 1,
-        "name": "The Wrack (3 wracks)"
+        "name": "Wrack"
       },
       {
         "id": "PS13",

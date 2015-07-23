@@ -14,7 +14,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "warlock",
         "cost": 4,
-        "name": "Kromac"
+        "name": "Kromac(Kromac the Ravenous)"
       },
       {
         "id": "Ow04",
@@ -22,7 +22,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "warlock",
         "cost": 6,
-        "name": "Morvahna the Autumnblade"
+        "name": "Morvahna1(Morvahna the Autumnblade)"
       },
       {
         "id": "OW07",
@@ -30,7 +30,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "warlock",
         "cost": 6,
-        "name": "Cassius"
+        "name": "Cassius(Cassius the Oathkeeper and Wurmwood, Tree of Fate)"
       },
       {
         "id": "Ox04",
@@ -38,7 +38,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "warlock",
         "cost": 5,
-        "name": "Morvahna the Dawnshadow"
+        "name": "Morvahna2(Morvahna the Dawnshadow)"
       },
       {
         "id": "OW06",
@@ -46,7 +46,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "warlock",
         "cost": 5,
-        "name": "Mohsar"
+        "name": "Mohsar(Mohsar the Desertwalker)"
       },
       {
         "id": "Ox03",
@@ -54,7 +54,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "warlock",
         "cost": 5,
-        "name": "Baldur the Stonesoul"
+        "name": "Baldur2(Baldur the Stonesoul)"
       },
       {
         "id": "Ox02",
@@ -62,7 +62,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "warlock",
         "cost": 5,
-        "name": "Krueger the Stormlord"
+        "name": "Krueger2(Krueger the Stormlord)"
       },
       {
         "id": "Ow01",
@@ -70,7 +70,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "warlock",
         "cost": 6,
-        "name": "Kaya the Wildborne"
+        "name": "Kaya1(Kaya the Wildborne)"
       },
       {
         "id": "Ox01",
@@ -78,7 +78,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "warlock",
         "cost": 3,
-        "name": "Kaya the Moonhunter & Laris"
+        "name": "Kaya2(Kaya the Moonhunter & Laris)"
       },
       {
         "id": "Ow03",
@@ -86,7 +86,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "warlock",
         "cost": 6,
-        "name": "Baldur the Stonecleaver"
+        "name": "Baldur1(Baldur the Stonecleaver)"
       },
       {
         "id": "Ow02",
@@ -94,7 +94,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "warlock",
         "cost": 5,
-        "name": "Krueger the Stormwrath"
+        "name": "Krueger1(Krueger the Stormwrath)"
       },
       {
         "id": "OW08",
@@ -110,7 +110,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "warlock",
         "cost": 6,
-        "name": "Bradigus"
+        "name": "Bradigus(Bradigus Thorle the Runecarver)"
       },
       {
         "id": "OW10",
@@ -118,7 +118,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "warlock",
         "cost": 4,
-        "name": "Kromac2"
+        "name": "Kromac2(Kromac, Champion of the Wurm)"
       }
     ],
     "logo": "faction_orboros",
@@ -344,7 +344,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "unit",
         "cost": 3,
-        "name": "Sentry Stone & Manikins"
+        "name": "Sentry Stone & Mannikins"
       },
       {
         "min": 6,
@@ -400,7 +400,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "unit",
         "cost": 5,
-        "name": "Stoneward and Woldstalkers"
+        "name": "Stoneward and Woldstalkers(Druid Stoneward and Woldstalkers)"
       },
       {
         "id": "OU09",
@@ -438,7 +438,7 @@ faction_orboros_entries = {"groups":[
         "min": 3,
         "id": "OU06",
         "max": 5,
-        "name": "Tharn Wolfriders",
+        "name": "Tharn Wolf Riders",
         "costMax": 10,
         "costMin": 6,
         "fa": "1",
@@ -516,7 +516,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "UA",
         "cost": 1,
-        "name": "Stone keeper",
+        "name": "Stone Keeper",
         "restricted_to": "OU09"
       },
       {

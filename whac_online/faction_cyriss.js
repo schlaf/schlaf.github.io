@@ -8,7 +8,7 @@ faction_cyriss_entries = {"groups":[
         "faction": "faction_cyriss",
         "type": "warcaster",
         "cost": 4,
-        "name": "Iron Mother Directrix & Exponent Servitors"
+        "name": "Iron Mother Directrix(Iron Mother Directrix & Exponent Servitors)"
       },
       {
         "id": "cocW02",
@@ -16,7 +16,7 @@ faction_cyriss_entries = {"groups":[
         "faction": "faction_cyriss",
         "type": "warcaster",
         "cost": 6,
-        "name": "Axis, the Harmonic Enforcer"
+        "name": "Axis(Axis, the Harmonic Enforcer)"
       },
       {
         "id": "cocW01",
@@ -24,7 +24,7 @@ faction_cyriss_entries = {"groups":[
         "faction": "faction_cyriss",
         "type": "warcaster",
         "cost": 6,
-        "name": "Aurora, Numen of Aerogensis"
+        "name": "Aurora(Aurora, Numen of Aerogenesis)"
       },
       {
         "id": "cocW05",
@@ -32,7 +32,7 @@ faction_cyriss_entries = {"groups":[
         "faction": "faction_cyriss",
         "type": "warcaster",
         "cost": 6,
-        "name": "Forge Master Syntherion"
+        "name": "Syntherion(Forge Master Syntherion)"
       },
       {
         "id": "cocW04",
@@ -40,7 +40,7 @@ faction_cyriss_entries = {"groups":[
         "faction": "faction_cyriss",
         "type": "warcaster",
         "cost": 5,
-        "name": "Father Lucant, Divinity Architect"
+        "name": "Lucant(Father Lucant, Divinity Architect)"
       }
     ],
     "logo": "faction_cyriss",
@@ -196,7 +196,7 @@ faction_cyriss_entries = {"groups":[
         "name": "Reductors",
         "costMax": 6,
         "costMin": 4,
-        "fa": "2",
+        "fa": "3",
         "faction": "faction_cyriss",
         "type": "unit",
         "cost": 4

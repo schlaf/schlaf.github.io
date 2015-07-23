@@ -8,7 +8,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 6,
-        "name": "Butcher1"
+        "name": "Butcher1(The Butcher of Khardov)"
       },
       {
         "id": "Kw03",
@@ -16,7 +16,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 5,
-        "name": "Vladimir1"
+        "name": "Vladimir1(Vladimir, The Dark Prince)"
       },
       {
         "id": "Kw02",
@@ -24,7 +24,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 5,
-        "name": "Sorscha1"
+        "name": "Sorscha1(Kommander Sorscha)"
       },
       {
         "id": "KW08",
@@ -32,7 +32,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 6,
-        "name": "Strakhov"
+        "name": "Strakhov(Kommander Strakhov)"
       },
       {
         "id": "KW09",
@@ -40,7 +40,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 5,
-        "name": "Harkevich"
+        "name": "Harkevich(Kommander Harkevich, the iron wolf )"
       },
       {
         "id": "Kx06",
@@ -48,7 +48,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 4,
-        "name": "Zerkova2"
+        "name": "Zerkova2(Obavnik Kommander Zerkova and Reaver Guard)"
       },
       {
         "id": "KW05",
@@ -64,7 +64,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 6,
-        "name": "Zerkova"
+        "name": "Zerkova(Koldun Kommander Aleksandra Zerkova)"
       },
       {
         "id": "Kx03",
@@ -72,7 +72,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 5,
-        "name": "Vladimir2"
+        "name": "Vladimir2(Vladimir Tzepesci, the Dark Champion)"
       },
       {
         "id": "KW07",
@@ -80,7 +80,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 3,
-        "name": "Old Witch"
+        "name": "Old Witch(Old Witch of Khador)"
       },
       {
         "id": "Kx04",
@@ -88,7 +88,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 5,
-        "name": "Irusk2"
+        "name": "Irusk2(Supreme Kommandant Irusk)"
       },
       {
         "id": "Kx02",
@@ -96,7 +96,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 6,
-        "name": "Sorscha2"
+        "name": "Sorscha2(Forward Kommander Sorscha)"
       },
       {
         "id": "Kx01",
@@ -104,7 +104,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 6,
-        "name": "Butcher2"
+        "name": "Butcher2(Kommander Orsus Zoktavir)"
       },
       {
         "id": "Kw04",
@@ -112,7 +112,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 6,
-        "name": "Irusk1"
+        "name": "Irusk1(Kommandant Irusk)"
       },
       {
         "id": "Kz01",
@@ -120,7 +120,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 4,
-        "name": "Butcher3"
+        "name": "Butcher3(Kommander Zoktavir, The Butcher Unleashed)"
       },
       {
         "id": "Kz03",
@@ -128,7 +128,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "warcaster",
         "cost": 5,
-        "name": "Vladimir3"
+        "name": "Vladimir3(Vladimir Tzepesci, Great Prince of Umbrey)"
       }
     ],
     "logo": "faction_khador",
@@ -653,7 +653,7 @@ faction_khador_entries = {"groups":[
         "faction": "faction_khador",
         "type": "solo",
         "cost": 1,
-        "name": "War Dog (Butcher addon)"
+        "name": "War Dog (Butcher addon)(War Dog)"
       },
       {
         "id": "KS05",

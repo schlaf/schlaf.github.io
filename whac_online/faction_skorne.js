@@ -14,7 +14,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 5,
-        "name": "Zaal & Kovaas"
+        "name": "Supreme Aptimus Zaal & Kovaas"
       },
       {
         "id": "SW04",
@@ -22,7 +22,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 5,
-        "name": "Xerxis"
+        "name": "Tyrant Xerxis"
       },
       {
         "id": "SW07",
@@ -30,7 +30,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 5,
-        "name": "Rasheth"
+        "name": "Dominar Rasheth"
       },
       {
         "id": "Sx04",
@@ -46,7 +46,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 5,
-        "name": "Mordikaar"
+        "name": "Void Seer Mordikaar"
       },
       {
         "id": "Sx03",
@@ -70,7 +70,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 6,
-        "name": "Naaresh"
+        "name": "Master Ascetic Naaresh"
       },
       {
         "id": "Sw03",
@@ -94,7 +94,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 2,
-        "name": "Makeda and the Exalted Court"
+        "name": "Makeda & the Exalted Court"
       },
       {
         "id": "Sx02",
@@ -147,7 +147,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warbeast",
         "cost": 4,
-        "name": "Razorworm"
+        "name": "Razor Worm"
       },
       {
         "id": "SB03",
@@ -239,7 +239,7 @@ faction_skorne_entries = {"groups":[
       },
       {
         "id": "SB18",
-        "fa": "U",
+        "fa": "2",
         "faction": "faction_skorne",
         "type": "warbeast",
         "cost": 20,
@@ -411,7 +411,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "unit",
         "cost": 5,
-        "name": "Bloodrunners"
+        "name": "Paingiver Bloodrunners"
       },
       {
         "id": "SU10",
@@ -582,7 +582,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "solo",
         "cost": 2,
-        "name": "Bloodrunner Master Tormentor"
+        "name": "Paingiver Bloodrunner Master Tormentor"
       },
       {
         "id": "SS02",
@@ -598,7 +598,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "solo",
         "cost": 5,
-        "name": "Tyrant Rhadiem"
+        "name": "Tyrant Rhadeim"
       },
       {
         "id": "SS04",
@@ -606,7 +606,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "solo",
         "cost": 2,
-        "name": "Extoler Soulward"
+        "name": "Extoller Soulward"
       },
       {
         "id": "SS07",

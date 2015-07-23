@@ -22,7 +22,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 5,
-        "name": "Grissel Bloodsong"
+        "name": "Grissel Bloodsong, Fell Caller"
       },
       {
         "id": "Tw02",
@@ -30,7 +30,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 7,
-        "name": "Hoarluk Doomshaper"
+        "name": "Hoarluk Doomshaper, Shaman of the Gnarls"
       },
       {
         "id": "Tx04",
@@ -46,7 +46,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 6,
-        "name": "Chief Madrak Ironhide"
+        "name": "Madrak Ironhide, Thornwood Chieftain"
       },
       {
         "id": "TW06",
@@ -54,7 +54,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 5,
-        "name": "Calandra Truthsayer"
+        "name": "Calandra Truthsayer, Oracle of the Glimmerwood"
       },
       {
         "id": "TW05",
@@ -62,7 +62,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 5,
-        "name": "Borka Kegslayer"
+        "name": "Borka Kegslayer & Pyg Keg Carrier"
       },
       {
         "id": "TW08",
@@ -70,7 +70,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 6,
-        "name": "Jarl Skuld"
+        "name": "Jarl Skuld, Devil of the Thornwood"
       },
       {
         "id": "TW07",
@@ -273,7 +273,7 @@ faction_trollblood_entries = {"groups":[
       "faction": "faction_trollblood",
       "type": "battleengine",
       "cost": 9,
-      "name": "War Wagon"
+      "name": "Trollkin War Wagon"
     }],
     "logo": "faction_trollblood",
     "label": "Battle engines"
@@ -305,7 +305,7 @@ faction_trollblood_entries = {"groups":[
         "min": 3,
         "id": "TU08",
         "max": 5,
-        "name": "Trollkin Long Riders",
+        "name": "Long Riders",
         "costMax": 11,
         "costMin": 7,
         "fa": "1",
@@ -317,7 +317,7 @@ faction_trollblood_entries = {"groups":[
         "min": 6,
         "id": "TU10",
         "max": 10,
-        "name": "Trollkin Scattergunners",
+        "name": "Scattergunners",
         "costMax": 8,
         "costMin": 5,
         "fa": "2",
@@ -349,7 +349,7 @@ faction_trollblood_entries = {"groups":[
         "min": 4,
         "id": "TU02",
         "max": 6,
-        "name": "Krielstone Bearer and Stone Scribes",
+        "name": "Krielstone Bearer & Stone Scribes",
         "costMax": 4,
         "costMin": 3,
         "fa": "1",
@@ -395,7 +395,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "unit",
         "cost": 3,
-        "name": "Thumpercrew"
+        "name": "Thumper Crew"
       },
       {
         "id": "TU15",
@@ -445,7 +445,7 @@ faction_trollblood_entries = {"groups":[
         "min": 6,
         "id": "TU04",
         "max": 10,
-        "name": "Pyg Bushwhackers",
+        "name": "Pyg Bushwackers",
         "costMax": 8,
         "costMin": 5,
         "fa": "2",
@@ -489,7 +489,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "UA",
         "cost": 2,
-        "name": "Trollkin Scattergunner Officer & Standard",
+        "name": "Scattergunner Officer & Standard",
         "restricted_to": "TU10"
       },
       {
@@ -507,7 +507,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "UA",
         "cost": 1,
-        "name": "Krielstone Stone Scribe Elder",
+        "name": "Stone Scribe Elder",
         "restricted_to": "TU02"
       },
       {
@@ -588,13 +588,13 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "solo",
         "cost": 5,
-        "name": "Horthol, Long Rider Champion"
+        "name": "Horthol, Long Rider Hero"
       },
       {
         "id": "TS06",
         "fa": "1",
         "faction": "faction_trollblood",
-        "type": "solo",
+        "type": "soloAttachment",
         "cost": 2,
         "name": "Trollkin Runebearer"
       },

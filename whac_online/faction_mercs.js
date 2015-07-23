@@ -25,7 +25,7 @@ faction_mercs_entries = {"groups":[
         ],
         "type": "warcaster",
         "cost": 6,
-        "name": "Magnus2"
+        "name": "Magnus the Warlord"
       },
       {
         "id": "MW10",
@@ -33,11 +33,12 @@ faction_mercs_entries = {"groups":[
         "faction": "faction_mercs",
         "works_for": [
           "faction_khador",
-          "faction_cygnar"
+          "faction_cygnar",
+          "faction_menoth"
         ],
         "type": "warcaster",
         "cost": 5,
-        "name": "Ossrum"
+        "name": "General Ossrum"
       },
       {
         "id": "MW05",
@@ -102,7 +103,7 @@ faction_mercs_entries = {"groups":[
         "works_for": ["faction_cygnar"],
         "type": "warcaster",
         "cost": 6,
-        "name": "Constance Blaize"
+        "name": "Constance Blaize, Knight of the Prophet"
       },
       {
         "id": "Mw01",
@@ -115,7 +116,7 @@ faction_mercs_entries = {"groups":[
         ],
         "type": "warcaster",
         "cost": 6,
-        "name": "Magnus1"
+        "name": "Magnus the Traitor"
       },
       {
         "id": "MW09",
@@ -129,7 +130,7 @@ faction_mercs_entries = {"groups":[
         ],
         "type": "warcaster",
         "cost": 6,
-        "name": "Damiano"
+        "name": "Captain Damiano"
       },
       {
         "id": "MW08",
@@ -143,7 +144,7 @@ faction_mercs_entries = {"groups":[
         ],
         "type": "warcaster",
         "cost": 6,
-        "name": "MacBain"
+        "name": "Drake MacBain"
       },
       {
         "id": "MW07",
@@ -152,7 +153,7 @@ faction_mercs_entries = {"groups":[
         "works_for": ["faction_cygnar"],
         "type": "warcaster",
         "cost": 6,
-        "name": "Shae"
+        "name": "Captain Phinneus Shae"
       },
       {
         "id": "MW06",
@@ -166,7 +167,7 @@ faction_mercs_entries = {"groups":[
         ],
         "type": "warcaster",
         "cost": 5,
-        "name": "Montador"
+        "name": "Captain Bartolo Montador"
       }
     ],
     "logo": "faction_mercs",
@@ -265,6 +266,15 @@ faction_mercs_entries = {"groups":[
         "name": "Rover"
       },
       {
+        "id": "MJ13forCw03",
+        "fa": "U",
+        "faction": "faction_mercs",
+        "type": "warjack",
+        "cost": 8,
+        "restricted_to": ["Cw03"],
+        "name": "Mariner"
+      },
+      {
         "id": "MJ17",
         "fa": "C",
         "faction": "faction_mercs",
@@ -287,15 +297,6 @@ faction_mercs_entries = {"groups":[
           "MS26"
         ],
         "name": "Rocinante"
-      },
-      {
-        "id": "MJ13forCw03",
-        "fa": "U",
-        "faction": "faction_mercs",
-        "type": "warjack",
-        "cost": 8,
-        "restricted_to": ["Cw03"],
-        "name": "Mariner"
       },
       {
         "id": "MJ14",
@@ -400,7 +401,7 @@ faction_mercs_entries = {"groups":[
           "MW09",
           "YX09_mercs"
         ],
-        "name": "Gallant(merc)"
+        "name": "Gallant"
       },
       {
         "id": "MJ10",
@@ -509,7 +510,7 @@ faction_mercs_entries = {"groups":[
         "type": "warjack",
         "cost": 4,
         "restricted_to": ["MS25"],
-        "name": "Vanguard"
+        "name": "Vanguard (Gastone Crosse)"
       },
       {
         "id": "MM01",
@@ -578,6 +579,15 @@ faction_mercs_entries = {"groups":[
         "name": "Ghordson Driller"
       },
       {
+        "id": "MJ12forCw03",
+        "fa": "U",
+        "faction": "faction_mercs",
+        "type": "warjack",
+        "cost": 6,
+        "restricted_to": ["Cw03"],
+        "name": "Freebooter"
+      },
+      {
         "id": "MJ09",
         "fa": "U",
         "faction": "faction_mercs",
@@ -601,15 +611,6 @@ faction_mercs_entries = {"groups":[
           "YA01_mercs"
         ],
         "name": "Mangler"
-      },
-      {
-        "id": "MJ12forCw03",
-        "fa": "U",
-        "faction": "faction_mercs",
-        "type": "warjack",
-        "cost": 6,
-        "restricted_to": ["Cw03"],
-        "name": "Freebooter"
       },
       {
         "id": "MJ04",
@@ -722,7 +723,7 @@ faction_mercs_entries = {"groups":[
         "type": "warbeast",
         "cost": 4,
         "restricted_to": ["IW04_mercs"],
-        "name": "Bone Swarm"
+        "name": "Boneswarm"
       },
       {
         "id": "IB04_mercs",
@@ -878,7 +879,7 @@ faction_mercs_entries = {"groups":[
         ],
         "type": "unit",
         "cost": 5,
-        "name": "Alexia Ciannor & the Risen"
+        "name": "Alexia Ciannor & the Risen & Thrall Warrior"
       },
       {
         "id": "CU14_mercs",
@@ -902,9 +903,7 @@ faction_mercs_entries = {"groups":[
         "fa": "2",
         "faction": "faction_mercs",
         "works_for": [
-          "faction_menoth",
           "faction_khador",
-          "faction_cryx",
           "faction_cygnar"
         ],
         "type": "unit",
@@ -940,7 +939,7 @@ faction_mercs_entries = {"groups":[
         "costMin": 5,
         "fa": "2",
         "faction": "faction_mercs",
-        "type": "unit",
+        "type": "unitMarshall",
         "cost": 5
       },
       {
@@ -1000,7 +999,7 @@ faction_mercs_entries = {"groups":[
         "faction": "faction_mercs",
         "type": "unit",
         "cost": 6,
-        "name": "Arcane Tempest Gun Mages"
+        "name": "Arcane Tempest Gun Mage Pistoleers"
       },
       {
         "id": "MU02",
@@ -1057,7 +1056,7 @@ faction_mercs_entries = {"groups":[
         "costMin": 4,
         "fa": "2",
         "faction": "faction_mercs",
-        "type": "unit",
+        "type": "unitMarshall",
         "cost": 4
       },
       {
@@ -1110,7 +1109,7 @@ faction_mercs_entries = {"groups":[
         "faction": "faction_mercs",
         "type": "unit",
         "cost": 2,
-        "name": "Trencher Chaingun Crew"
+        "name": "Trencher Chain Gun Crew"
       },
       {
         "id": "YU07_mercs",
@@ -1150,7 +1149,7 @@ faction_mercs_entries = {"groups":[
         "faction": "faction_mercs",
         "type": "unit",
         "cost": 4,
-        "name": "Commodore Cannon & Crew"
+        "name": "The Commodore Cannon & Crew"
       },
       {
         "min": 6,
@@ -1371,7 +1370,7 @@ faction_mercs_entries = {"groups":[
           "faction_khador",
           "faction_cygnar"
         ],
-        "name": "Hammerfall Officer & Standard",
+        "name": "Hammerfall High Shield Officer & Standard",
         "fa": "1",
         "faction": "faction_mercs",
         "type": "UAMarshall",
@@ -1391,7 +1390,7 @@ faction_mercs_entries = {"groups":[
         "id": "YA05_mercs",
         "fa": "1",
         "faction": "faction_mercs",
-        "type": "UAMarshall",
+        "type": "UA",
         "cost": 2,
         "name": "Sword Knight Officer & Standard",
         "restricted_to": "YU08_mercs"
@@ -1440,7 +1439,7 @@ faction_mercs_entries = {"groups":[
           "faction_cryx",
           "faction_cygnar"
         ],
-        "name": "Mr. Walls, Sea Dog Crew Quartermaster",
+        "name": "Mr. Walls, the Quartermaster",
         "fa": "C",
         "faction": "faction_mercs",
         "type": "UA",
@@ -1494,15 +1493,15 @@ faction_mercs_entries = {"groups":[
         ],
         "type": "solo",
         "cost": 2,
-        "name": "Alten Ashley, Monster Hunter"
+        "name": "Alten Ashley"
       },
       {
         "id": "IS12_mercs",
         "fa": "2",
         "faction": "faction_mercs",
         "works_for": [
-          "faction_cryx",
-          "faction_cygnar"
+          "faction_cygnar",
+          "faction_khador"
         ],
         "type": "solo",
         "cost": 1,
@@ -1514,7 +1513,11 @@ faction_mercs_entries = {"groups":[
         "faction": "faction_mercs",
         "type": "solo",
         "cost": 2,
-        "name": "Trencher Master Gunner"
+        "restricted_to": [
+          "Mw01",
+          "Mx01"
+        ],
+        "name": "Trencher Master Gunner (Magnus: Bad Seeds)"
       },
       {
         "id": "IS03_mercs",
@@ -1561,7 +1564,7 @@ faction_mercs_entries = {"groups":[
         ],
         "type": "soloMarshall",
         "cost": 2,
-        "name": "Moorclaw"
+        "name": "Raluk Moorclaw, the Ironmonger"
       },
       {
         "id": "MS08",
@@ -1633,7 +1636,8 @@ faction_mercs_entries = {"groups":[
         "faction": "faction_mercs",
         "type": "solo",
         "cost": 2,
-        "name": "Gun Mage Captain Adept"
+        "restricted_to": ["MW04"],
+        "name": "Gun Mage Captain Adept (Ashlynn: Viva La Resistance)"
       },
       {
         "id": "MS05",
@@ -1671,7 +1675,7 @@ faction_mercs_entries = {"groups":[
           "faction_menoth"
         ],
         "type": "solo",
-        "cost": 3,
+        "cost": 2,
         "name": "Sergeant Nicolas Verendrye"
       },
       {
@@ -1721,7 +1725,7 @@ faction_mercs_entries = {"groups":[
         ],
         "type": "solo",
         "cost": 3,
-        "name": "Eiryss"
+        "name": "Eiryss, Mage Hunter of Ios"
       },
       {
         "id": "MS23",
@@ -1771,7 +1775,7 @@ faction_mercs_entries = {"groups":[
         "works_for": ["faction_cryx"],
         "type": "soloLesserWarlock",
         "cost": 9,
-        "name": "Wrong Eye & Snapjaw"
+        "name": "Wrong Eye (Wrong Eye & Snapjaw)"
       },
       {
         "id": "MS20",
@@ -1811,7 +1815,7 @@ faction_mercs_entries = {"groups":[
         ],
         "type": "soloLesserWarlock",
         "cost": 9,
-        "name": "Rorsh & Brine"
+        "name": "Rorsh (Rorsh & Brine)"
       },
       {
         "id": "YS11_mercs",
@@ -1866,7 +1870,7 @@ faction_mercs_entries = {"groups":[
         ],
         "type": "solo",
         "cost": 2,
-        "name": "Lanyssa Ryssyll"
+        "name": "Lanyssa Ryssyll, Nyss Sorceress"
       },
       {
         "id": "MS16",
@@ -1927,7 +1931,7 @@ faction_mercs_entries = {"groups":[
         ],
         "type": "solo",
         "cost": 3,
-        "name": "Eiryss, Angel of the Retribution"
+        "name": "Eiryss, Angel of Retribution"
       },
       {
         "id": "MS17",
@@ -1960,7 +1964,7 @@ faction_mercs_entries = {"groups":[
         ],
         "type": "solo",
         "cost": 2,
-        "name": "Taryn di la Rovissi"
+        "name": "Taryn di la Rovissi, Llaelese Gun Mage"
       },
       {
         "id": "CS02_mercs",
@@ -1976,7 +1980,7 @@ faction_mercs_entries = {"groups":[
         "faction": "faction_mercs",
         "type": "soloLesserWarlock",
         "cost": 9,
-        "name": "Brun Cragback & Lug"
+        "name": "Brun Cragback (Brun Cragback & Lug)"
       },
       {
         "id": "MS10",
@@ -1999,7 +2003,7 @@ faction_mercs_entries = {"groups":[
         "works_for": ["faction_retribution"],
         "type": "soloLesserWarlock",
         "cost": 9,
-        "name": "Dahlia Hallyr & Skarath"
+        "name": "Dahlia Hallyr (Dahlia Hallyr & Skarath)"
       },
       {
         "id": "CS05_mercs",

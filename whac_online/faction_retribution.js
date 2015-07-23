@@ -8,7 +8,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 5,
-        "name": "Thyron"
+        "name": "Thyron(Thyron, Sword of Truth)"
       },
       {
         "id": "Rw02",
@@ -16,7 +16,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 6,
-        "name": "Dawnlord Vyros"
+        "name": "Vyros1(Dawnlord Vyros)"
       },
       {
         "id": "RW07",
@@ -24,7 +24,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 6,
-        "name": "Issyria"
+        "name": "Issyria1(Issyria, Sibyl of Dawn)"
       },
       {
         "id": "RW06",
@@ -32,7 +32,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 6,
-        "name": "Ossyan"
+        "name": "Ossyan1(Lord Arcanist Ossyan)"
       },
       {
         "id": "RW05",
@@ -40,7 +40,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 6,
-        "name": "Ravyn, Eternal Light"
+        "name": "Ravyn1(Ravyn, Eternal Light)"
       },
       {
         "id": "RW04",
@@ -48,7 +48,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 7,
-        "name": "Kaelyssa, Night's Whisper"
+        "name": "Kaelyssa1(Kaelyssa, Night's Whisper)"
       },
       {
         "id": "RW03",
@@ -56,7 +56,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 5,
-        "name": "Garryth, Blade of Retribution"
+        "name": "Garryth1(Garryth, Blade of Retribution)"
       },
       {
         "id": "RW01",
@@ -64,7 +64,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 6,
-        "name": "Adeptis Rahn Shyeel"
+        "name": "Rahn1(Adeptis Rahn)"
       },
       {
         "id": "Rx02",
@@ -72,7 +72,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 5,
-        "name": "Vyros, Incissar of the Dawnguard"
+        "name": "Vyros2(Vyros, Incissar of the Dawnguard)"
       }
     ],
     "logo": "faction_retribution",
@@ -349,7 +349,7 @@ faction_retribution_entries = {"groups":[
         "min": 6,
         "id": "RU05",
         "max": 10,
-        "name": "Mage Hunter Strikeforce",
+        "name": "Mage Hunter Strike Force",
         "costMax": 8,
         "costMin": 5,
         "fa": "2",
@@ -371,13 +371,13 @@ faction_retribution_entries = {"groups":[
     "id": "faction_retribution_UAs",
     "entries": [
       {
-        "id": "RA06",
+        "id": "RA03",
         "fa": "1",
         "faction": "faction_retribution",
         "type": "UA",
         "cost": 2,
-        "name": "Riflemen Officer & Standard",
-        "restricted_to": "RU04"
+        "restricted_to": ["RU05"],
+        "name": "Strike Force Commander"
       },
       {
         "id": "RA02",
@@ -385,8 +385,8 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "UA",
         "cost": 2,
-        "name": "Dawnguard Sentinel Officer & Standard",
-        "restricted_to": "RU02"
+        "restricted_to": ["RU02"],
+        "name": "Dawnguard Sentinel Officer & Standard"
       },
       {
         "id": "RA01",
@@ -394,47 +394,8 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "UA",
         "cost": 2,
-        "name": "Dawnguard Invictor Officer & Standard",
-        "restricted_to": "RU01"
-      },
-      {
-        "id": "RA05",
-        "fa": "1",
-        "faction": "faction_retribution",
-        "type": "UA",
-        "cost": 2,
-        "name": "Houseguard Halberdiers Officer & Standard",
-        "restricted_to": "RU07"
-      },
-      {
-        "id": "RA03",
-        "fa": "1",
-        "faction": "faction_retribution",
-        "type": "UA",
-        "cost": 2,
-        "name": "Mage Hunter Commander",
-        "restricted_to": "RU05"
-      },
-      {
-        "id": "RA04",
-        "fa": "3",
-        "faction": "faction_retribution",
-        "type": "UA",
-        "cost": 1,
-        "restricted_to": [
-          "RU01",
-          "RU02",
-          "RU03",
-          "RU04",
-          "RU05",
-          "RU06",
-          "RU07",
-          "RU08",
-          "RU09",
-          "RU10",
-          "RU11"
-        ],
-        "name": "Soulless Escort"
+        "restricted_to": ["RU01"],
+        "name": "Dawnguard Invictor Officer & Standard"
       },
       {
         "id": "RA07",
@@ -446,7 +407,25 @@ faction_retribution_entries = {"groups":[
           "RU05",
           "RU10"
         ],
-        "name": "Eiryss3"
+        "name": "Eiryss3(Eiryss, Mage Hunter Commander)"
+      },
+      {
+        "id": "RA06",
+        "fa": "1",
+        "faction": "faction_retribution",
+        "type": "UA",
+        "cost": 2,
+        "restricted_to": ["RU04"],
+        "name": "Riflemen Officer & Standard"
+      },
+      {
+        "id": "RA05",
+        "fa": "1",
+        "faction": "faction_retribution",
+        "type": "UA",
+        "cost": 2,
+        "restricted_to": ["RU07"],
+        "name": "Houseguard Halberdiers Officer & Standard"
       }
     ],
     "logo": "faction_retribution",
@@ -549,7 +528,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "solo",
         "cost": 1,
-        "name": "Arcanist"
+        "name": "Arcanist(Arcanist (Force Wall))"
       },
       {
         "id": "RS07",
@@ -565,7 +544,26 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "solo",
         "cost": 4,
-        "name": "Dawnguard Destor Thane"
+        "name": "Destor Thane"
+      },
+      {
+        "id": "RA04",
+        "fa": "3",
+        "faction": "faction_retribution",
+        "type": "solo",
+        "cost": 1,
+        "restricted_to": [
+          "RU01",
+          "RU02",
+          "RU03",
+          "RU04",
+          "RU05",
+          "RU06",
+          "RU07",
+          "RU08",
+          "RU10"
+        ],
+        "name": "Soulless Escort"
       }
     ],
     "logo": "faction_retribution",
