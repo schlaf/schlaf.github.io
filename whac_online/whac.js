@@ -1840,6 +1840,13 @@ function computeTiersBonus() {
 											}
 										});
 									}
+									if (selected.warbeasts) {
+										selected.warbeasts.map(function(warbeast){
+											if ( $.inArray(warbeast.id, faAlteration.forEach)>=0) {
+												count++;
+											}
+										});
+									}
 									if (selected.attachment != null) {
 										if ( $.inArray(selected.attachment.id, faAlteration.forEach)>=0) {
 											count++;
@@ -1948,6 +1955,41 @@ function computeTiersBonus() {
 				alreadyCountedBonus = calculateFreeModelCount(freeModel.id, 0) ;
 			}
 
+
+			var bonusCount = 0; // number of time we can apply "free"
+			if (freeModel.forEach) {	
+				// count models already selected
+				var count = 0;
+				selected_entries.entries.map(function(selected) {
+					if ( $.inArray(selected.id, freeModel.forEach)>=0) {
+						count++;
+					}
+					if (selected.warjacks) {
+						selected.warjacks.map(function(warjack){
+							if ( $.inArray(warjack.id, freeModel.forEach)>=0) {
+								count++;
+							}
+						});
+					}
+					if (selected.warbeasts) {
+						selected.warbeasts.map(function(warbeast){
+							if ( $.inArray(warbeast.id, freeModel.forEach)>=0) {
+								count++;
+							}
+						});
+					}
+					if (selected.attachment != null) {
+						if ( $.inArray(selected.attachment.id, freeModel.forEach)>=0) {
+							count++;
+						}
+					}
+				});
+				bonusCount = count;
+			} else {
+				// direct bonus
+				bonusCount = 1;
+			}
+
 			// apply free on "selection models"
 			for (var i = 0; i < full_entries.groups.length; i++) {
 				var group = full_entries.groups[i];
@@ -1968,8 +2010,9 @@ function computeTiersBonus() {
 					}
 
 					if (matchFreeModel) {
-						if (alreadyCountedBonus == 0) {
+						if (alreadyCountedBonus < bonusCount ) {
 							$.observable(entry).setProperty("free", true);	
+							alreadyCountedBonus ++;
 						} else {
 							$.observable(entry).setProperty("free", false);	
 						}
