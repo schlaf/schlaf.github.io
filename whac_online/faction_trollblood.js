@@ -14,7 +14,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 6,
-        "name": "Grim Angus"
+        "name": "Grim1(Grim Angus)"
       },
       {
         "id": "Tw03",
@@ -22,7 +22,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 5,
-        "name": "Grissel Bloodsong, Fell Caller"
+        "name": "Grissel1(Grissel Bloodsong, Fell Caller)"
       },
       {
         "id": "Tw02",
@@ -30,7 +30,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 7,
-        "name": "Hoarluk Doomshaper, Shaman of the Gnarls"
+        "name": "Doomshaper1(Hoarluk Doomshaper, Shaman of the Gnarls)"
       },
       {
         "id": "Tx04",
@@ -38,7 +38,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 4,
-        "name": "Hunters Grim"
+        "name": "Grim2(Hunters Grim)"
       },
       {
         "id": "Tw01",
@@ -46,7 +46,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 6,
-        "name": "Madrak Ironhide, Thornwood Chieftain"
+        "name": "Madrak1(Madrak Ironhide, Thornwood Chieftain)"
       },
       {
         "id": "TW06",
@@ -62,7 +62,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 5,
-        "name": "Borka Kegslayer & Pyg Keg Carrier"
+        "name": "Borka1(Borka Kegslayer & Pyg Keg Carrier)"
       },
       {
         "id": "TW08",
@@ -86,7 +86,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 6,
-        "name": "Borka, Vengeance of the Rimeshaws"
+        "name": "Borka2(Borka, Vengeance of the Rimeshaws)"
       },
       {
         "id": "Tx03",
@@ -94,7 +94,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 6,
-        "name": "Grissel Bloodsong, Marshal of the Kriels"
+        "name": "Grissel2(Grissel Bloodsong, Marshal of the Kriels)"
       },
       {
         "id": "Tx02",
@@ -102,7 +102,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 6,
-        "name": "Hoarluk Doomshaper, Rage of Dhunia"
+        "name": "Doomshaper2(Hoarluk Doomshaper, Rage of Dhunia)"
       },
       {
         "id": "Tx01",
@@ -110,7 +110,7 @@ faction_trollblood_entries = {"groups":[
         "faction": "faction_trollblood",
         "type": "warlock",
         "cost": 5,
-        "name": "Madrak Ironhide, World Ender"
+        "name": "Madrak2(Madrak Ironhide, World Ender)"
       }
     ],
     "logo": "faction_trollblood",
