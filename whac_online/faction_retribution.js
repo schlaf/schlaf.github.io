@@ -24,7 +24,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 6,
-        "name": "Issyria1(Issyria, Sibyl of Dawn)"
+        "name": "Issyria(Issyria, Sibyl of Dawn)"
       },
       {
         "id": "RW06",
@@ -32,7 +32,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 6,
-        "name": "Ossyan1(Lord Arcanist Ossyan)"
+        "name": "Ossyan(Lord Arcanist Ossyan)"
       },
       {
         "id": "RW05",
@@ -40,7 +40,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 6,
-        "name": "Ravyn1(Ravyn, Eternal Light)"
+        "name": "Ravyn(Ravyn, Eternal Light)"
       },
       {
         "id": "RW04",
@@ -48,7 +48,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 7,
-        "name": "Kaelyssa1(Kaelyssa, Night's Whisper)"
+        "name": "Kaelyssa(Kaelyssa, Night's Whisper)"
       },
       {
         "id": "RW03",
@@ -56,7 +56,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 5,
-        "name": "Garryth1(Garryth, Blade of Retribution)"
+        "name": "Garryth(Garryth, Blade of Retribution)"
       },
       {
         "id": "RW01",
@@ -64,7 +64,7 @@ faction_retribution_entries = {"groups":[
         "faction": "faction_retribution",
         "type": "warcaster",
         "cost": 6,
-        "name": "Rahn1(Adeptis Rahn)"
+        "name": "Rahn(Adeptis Rahn)"
       },
       {
         "id": "Rx02",

@@ -22,7 +22,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 5,
-        "name": "Tyrant Xerxis"
+        "name": "Xerxis1(Tyrant Xerxis)"
       },
       {
         "id": "SW07",
@@ -38,7 +38,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 5,
-        "name": "Xerxis, Fury of Halaak"
+        "name": "Xerxis2(Xerxis, Fury of Halaak)"
       },
       {
         "id": "SW06",
@@ -54,7 +54,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 6,
-        "name": "Lord Arbiter Hexeris"
+        "name": "Hexeris2(Lord Arbiter Hexeris)"
       },
       {
         "id": "Sw01",
@@ -62,7 +62,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 7,
-        "name": "Master Tormentor Morghoul"
+        "name": "Morghoul1(Master Tormentor Morghoul)"
       },
       {
         "id": "SW08",
@@ -78,7 +78,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 6,
-        "name": "Lord Tyrant Hexeris"
+        "name": "Hexeris1(Lord Tyrant Hexeris)"
       },
       {
         "id": "Sw02",
@@ -86,7 +86,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 5,
-        "name": "Archdomina Makeda"
+        "name": "Archdomina Makeda1 (Archdomina Makeda)"
       },
       {
         "id": "Sz02",
@@ -94,7 +94,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 2,
-        "name": "Makeda & the Exalted Court"
+        "name": "Makeda3(Makeda & the Exalted Court)"
       },
       {
         "id": "Sx02",
@@ -102,7 +102,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 5,
-        "name": "Supreme Archdomina Makeda"
+        "name": "Makeda2(Supreme Archdomina Makeda)"
       },
       {
         "id": "Sx01",
@@ -110,7 +110,7 @@ faction_skorne_entries = {"groups":[
         "faction": "faction_skorne",
         "type": "warlock",
         "cost": 6,
-        "name": "Lord Assassin Morghoul"
+        "name": "Morghoul2(Lord Assassin Morghoul)"
       }
     ],
     "logo": "faction_skorne",

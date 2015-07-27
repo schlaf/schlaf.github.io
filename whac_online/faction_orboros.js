@@ -14,7 +14,7 @@ faction_orboros_entries = {"groups":[
         "faction": "faction_orboros",
         "type": "warlock",
         "cost": 4,
-        "name": "Kromac(Kromac the Ravenous)"
+        "name": "Kromac1(Kromac the Ravenous)"
       },
       {
         "id": "Ow04",
