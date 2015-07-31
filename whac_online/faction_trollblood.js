@@ -158,6 +158,14 @@ faction_trollblood_entries = {"groups":[
         "name": "Mountain King"
       },
       {
+        "id": "TB16",
+        "fa": "2",
+        "faction": "faction_trollblood",
+        "type": "warbeast",
+        "cost": 18,
+        "name": "Glacier King"
+      },
+      {
         "id": "TB01",
         "fa": "U",
         "faction": "faction_trollblood",
