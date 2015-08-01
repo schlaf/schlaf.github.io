@@ -17,6 +17,14 @@ faction_skorne_entries = {"groups":[
         "name": "Supreme Aptimus Zaal & Kovaas"
       },
       {
+        "id": "Sx05",
+        "fa": "C",
+        "faction": "faction_skorne",
+        "type": "warlock",
+        "cost": 6,
+        "name": "Zaal2(Zaal, The Ancestral Advocate)"
+      },
+      {
         "id": "SW04",
         "fa": "C",
         "faction": "faction_skorne",
