@@ -3,7 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
   <armies>
-    <army faction="faction_menoth" name="Menoth" version="forum_menoth_002"> <!-- 002 : add reckoning entries : anson, hand of judgment, purifier, pyrrhus, revelator -->
+    <army faction="faction_menoth" name="Menoth" version="forum_menoth_003"> 
+		<!-- 002 : add reckoning entries : anson, hand of judgment, purifier, pyrrhus, revelator -->
+		<!--- 003 Fixed spell typos --->
       <warcasters>
         <warcaster id="Pw01" name="Kreoss1" generation="P" full_name="High Exemplar Kreoss" qualification="Protectorate Warcaster" focus="7" warjack_points="5" fa="C" completed="true">
           <basestats name="KREOSS" spd="5" str="6" mat="7" rat="4" def="14" arm="15" cmd="8" hitpoints="18" />
