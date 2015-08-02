@@ -17,7 +17,7 @@
           <spell name="FURY" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +3 to melee damage rolls but suffers -1 DEF.</spell>
           <spell name="IRON FLESH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly warrior model/unit gains +3 DEF but suffers -1 SPD.</spell>
           <spell name="FULL THROTTLE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Warjacks in this model's battlegroup beginning their activations in its control area can run, charge, or make slam or trample power attacks without spending focus that activation. While in this model's control area, models in its battlegroup gain boosted melee attack rolls. Full Throttle lasts for one turn.</spell>
-          <spell name="OBLITERATION" cost="4" rng="10" aoe="4" pow="15" up="NO" off="YES">The force of this attacks blasts apart the earth itself.</spell>
+          <spell name="OBLITERATION" cost="4" rng="10" aoe="4" pow="15" up="NO" off="YES">The force of this attack blasts apart the earth itself.</spell>
         </warcaster>
         <warcaster id="Kx01" name="Butcher2" full_name="Kommander Orsus Zoktavir" generation="E" qualification="Khador Epic Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="BUTCHER" spd="5" str="8" mat="9" rat="5" def="14" arm="18" cmd="7" hitpoints="20" terror="true" />
@@ -43,7 +43,7 @@
           </weapons>
           <feat title="Red Haze">Zoktavir gains up to 6 focus points. He cannot have more focus points than his current FOCUS as a result of Red Haze. Enemy models/units in Zoktavir's melee range automatically fail command checks for one round.</feat>
           <spell name="ENERGIZER" cost="*" rng="self" aoe="ctrl" pow="-" up="NO" off="NO">This model spends up to 3 focus points to cast Energizer. Models in its battlegroup that are currently in its control area can immediately advance up to 1" for each focus point spent. Energizer can be cast only once per turn.</spell>
-          <spell name="FLASHING BLADE" cost="1" rng="self" aoe="-" pow="-" up="NO" off="NO">This model immediately makes one normal attack with one of its melee weapons against each enemy model in its LOS that is in the weapon's melee range. These attacks are simultaneous.</spell>
+		  <spell name="FLASHING BLADE" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model immediately makes one normal attack with one of its melee weapons against each enemy model in its LOS that is in the weapon's melee range. These attacks are simultaneous.</spell>
           <spell name="IMPENDING DOOM" cost="2" rng="self" aoe="*" pow="-" up="NO" off="NO">Enemy models within 5" of this model are pushed 5" directly toward it in the order you choose.</spell>
           <spell name="OBLITERATION" cost="4" rng="10" aoe="4" pow="15" up="NO" off="YES">The force of this attack blasts apart the earth itself.</spell>
           <spell name="SILENCE OF DEATH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit's melee weapons gain Grievous Wounds. (When a model is hit by a weapon with Grievous Wounds, for one round it loses Tough, cannot heal or be healed, and cannot transfer damage.)</spell>
@@ -177,7 +177,7 @@
           <spell name="GRIND" cost="3" rng="10" aoe="-" pow="14" up="NO" off="YES">When a warjack is hit by Grind, it suffers 1 damage point to its first available Movement system box.</spell>
           <spell name="INHOSPITABLE GROUND" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, enemy models treat open terrain as rough terrain. Inhospitable Ground lasts for one round.</spell>
           <spell name="IRON FLESH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly warrior model/unit gains +3 DEF but suffers -1 SPD.</spell>
-          <spell name="SUPERIORITY" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction warjack gains +2 SPD, MAT, and DEF and cannot be knocked down.</spell>
+		  <spell name="SUPERIORITY" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction warjack gains +2 SPD, MAT and DEF and cannot be knocked down.</spell>
           <capacity title="ASSAULT">As part of a charge, after moving but before making its charge attack, this model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of this model's activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, this model can make the Assault ranged attack before its activation ends.</capacity>
           <capacity title="QUICK WORK">When this model destroys one or more enemy models with a melee attack during its combat action, immediately after that attack is resolved this model can make one normal ranged attack. Attacks gained from Quick Work do not count against a weapon's ROF.</capacity>
         </warcaster>
