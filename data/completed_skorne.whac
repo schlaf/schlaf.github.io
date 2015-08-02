@@ -3,7 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
   <armies>
-    <army faction="faction_skorne" name="Skorne" version="forum_skorne_001">
+    <army faction="faction_skorne" name="Skorne" version="forum_skorne_002">
+		<!--- 002 Fixed spell typos --->
       <warlocks>
         <warlock id="Sw01" name="Master Tormentor Morghoul" generation="P" full_name="Master Tormentor Morghoul" qualification="Skorne Warlock" fury="5" warbeast_points="7" fa="C" completed="true">
           <basestats name="MORGHOUL" spd="7" str="6" mat="8" rat="4" def="17" arm="13" cmd="8" hitpoints="15" pathfinder="true" />
@@ -208,7 +209,7 @@
           <feat title="Strength Eternal">Remove d6 +3 damage points from each friendly Faction model with Construct currently in Zaal's control area. While in Zaal's control area, friendly Faction models with Construct gain boosted melee attack rolls and +5 arm for one round.</feat>
           <spell name="ANNIHLATION" cost="4" rng="10" aoe="3" pow="10" up="NO" off="YES"> Models hit suffer a POW 10 damage roll. Models boxed by Annihlation are removed from play. This model gains a soul token for each living non-soulless enemy model removed from play this way.</spell>
           <spell name="MAGE SIGHT" cost="2" rng="CTRL" aoe="5" pow="-" up="YES" off="NO">Place a 5'' AOE completely in this model's control area. While a model is within the AOE, models in this model's battlegroup ignore forests and cloud effects when drawing LOS to it and ignore Stealh when attacking it.</spell>
-          <spell name="SUNDER SPIRIT" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES"> An enemy warbeast damaged by Sunder Spirit loses its animus for one round.</spell>
+          <spell name="SUNDER SPIRIT" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">An enemy warbeast damaged by Sunder Spirit loses its animus for one round.</spell>
           <spell name="TRANSFERENCE" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO"> While in this model's control area, friendly Faction non-warlock warrior models can spend 1 fury point on this model to boost a melee attack or melee damage roll during their activation.</spell>
           <spell name="VISION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">The next time target friendly Faction model is directly hit by an attack, it suffers no damage roll from the attack, then Vision expires.</spell>
           <capacity title="DIRECT SPIRITS">When a friendly living Faction warrior model is destroyed in this models's control area and generates a soul, you choose which eligible model gains the soul, regardless of the proximity of other models. Enemy models never gain soul tokens for friendly living Faction warrior models destroyed in this model's control area.</capacity>
