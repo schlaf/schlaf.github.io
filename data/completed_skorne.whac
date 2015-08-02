@@ -3,8 +3,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
   <armies>
-    <army faction="faction_skorne" name="Skorne" version="forum_skorne_003">
-		<!--- 003 Fixed spell typos --->
+	  <army faction="faction_skorne" name="Skorne" version="forum_skorne_003">
+    <!-- 002 add zaal2 -->
+	<!--- 003 Fixed spell typos --->
       <warlocks>
         <warlock id="Sw01" name="Master Tormentor Morghoul" generation="P" full_name="Master Tormentor Morghoul" qualification="Skorne Warlock" fury="5" warbeast_points="7" fa="C" completed="true">
           <basestats name="MORGHOUL" spd="7" str="6" mat="8" rat="4" def="17" arm="13" cmd="8" hitpoints="15" pathfinder="true" />
