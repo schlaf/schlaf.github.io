@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
   <armies>
-    <army faction="faction_everblight" name="Everblight" version="forum_everblight_002">
-        <!-- 002 add saeryn&rhyas + tagrosh2 weapon P+S -->
+    <army faction="faction_everblight" name="Everblight" version="forum_everblight_003">
+        <!-- 003 Updated spell typos -->
       <warlocks>
         <warlock id="Ew01" name="Lylyth1" generation="P" generation_id="Lylyth" full_name="Lylyth, Herald of Everblight" qualification="Legion Blighted Nyss Warlock" fury="5" warbeast_points="6" fa="C" completed="true">
           <basestats name="LYLYTH" spd="7" str="4" mat="5" rat="7" def="16" arm="14" cmd="8" hitpoints="15" eyelesssight="true" pathfinder="true" />
@@ -248,7 +248,7 @@
           <feat title="Conjoined Spirits" >This feat can be used once per game by either Saeryn or Rhyas. When this feat is used, either Saeryn and Rhyas immediately trade places or you can return one of them to play. If you choose to return Saeryn or Rhyas to play, place the returned model within 3" of the model that used this feat. The returned model comes into play with a number of fury points equal to its FURY. After using Conjoined Spirits, models in this unit cannot advance for one turn.</feat>
 
           <spell name="BANISHING WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Enemy upkeep spells on target friendly model/unit expire. Affected models cannot be targeted by enemy spells or animi.</spell>
-            <spell name="BLOOD RAIN" cost="3" rng="8" aoe="3" pow="12" up="NO" off="YES">Blood Rain causes corrosion damage. Models hit suffer the Corrosion continuous effect</spell>
+            <spell name="BLOOD RAIN" cost="3" rng="8" aoe="3" pow="12" up="NO" off="YES">Blood Rain causes corrosion damage. Models hit suffer the Corrosion continuous effect.</spell>
             <spell name="MARKED FOR DEATH" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">Target enemy model/ unit suffers -2 DEF and loses lncorporeal and Stealth and cannot gain those abilities while affected by Marked for Death. Friendly Faction models can target an affected model regardless of LOS.</spell>
             <spell name="PSYCHIC VAMPIRE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">When an enemy model casts a spell or uses an animus while in this model's control area, the enemy model suffers 1 damage point and this model heals 1 damage point.</spell>
             <spell name="RAZOR WIND" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">A blade of wind slices through the target model.</spell>
@@ -263,7 +263,7 @@
                   </melee_weapon>
               </weapons>
               <spell name="ONSLAUGHT" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Friendly Faction models beginning a charge in this model's control area gain Pathfinder during the charge.</spell>
-              <spell name="FLASHING BLADE" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This models immediately makes one normal melee attack with one of its melee weapon against each enemy model in its LOS that is in the weapon's melee range. These attacks are simultaneous.</spell>
+              <spell name="FLASHING BLADE" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This models immediately makes one normal melee attack with one of its melee weapons against each enemy model in its LOS that is in the weapon's melee range. These attacks are simultaneous.</spell>
               <spell name="OCCULTATION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains Stealth.</spell>
               <capacity title="Acrobatics">This model can advance through other models if it has enough movement to move completely past their bases. This model cannot be targeted by free strikes. This model ignores intervening models when declaring its charge target.</capacity>
               <capacity title="Bond of Blood [Saeryn]"> This model can spend fury points to transfer damage to Saeryn.</capacity>
