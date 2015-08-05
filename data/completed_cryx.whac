@@ -6,6 +6,7 @@
     <army faction="faction_cryx" name="cryx" version="forum_cryx_003">
         <!-- 002 include deny3, barathrum, sepulcher, soul trapper -->
         <!-- 003 correct soul trapper range for collecting souls + machine wraith FA-->
+		<!-- 004 Duplicate spells now have same wording, fixed wrong cost on Parasite -->
       <warcasters>
         <!-- ************************************************************* -->
         <!-- ***********************asphyxious   ************************* -->
@@ -19,8 +20,8 @@
           </weapons>
           <feat title="Consuming Blight"><![CDATA[Living enemy models currently in Asphyxious' control area suffer an unboostable POW 5 damage roll. Asphyxious gains up to 7 focus points. He cannot have more focus points than his current FOCUS as a result of Consuming Blight.]]></feat>
           <spell name="BREATH OF CORRUPTION" cost="3" rng="8" aoe="3" pow="12" up="NO" off="YES">Models hit suffer a POW l2 corrosion damage roll. The AOE is a cloud effect that remains in play for one round. Models entering or ending their activation in the AOE suffer 1 point of corrosion damage</spell>
-          <spell name="HELLFIRE" cost="3" rng="10" aoe="-" pow="14" up="NO" off="YES">A model/ unit hit by Hellfire must pass a command check or flee.</spell>
-          <spell name="PARASITE" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers -3 ARM and this model gains +1 ARM.</spell>
+          <spell name="HELLFIRE" cost="3" rng="10" aoe="-" pow="14" up="NO" off="YES">A model/unit hit by Hellfire must pass a command check or flee.</spell>
+		  <spell name="PARASITE" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers -3 ARM and this model gains +1 ARM.</spell>
           <spell name="SCYTHING TOUCH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack damage rolls. Affected models gain Critical Corrosion on their normal melee attacks.</spell>
           <spell name="TELEPORT" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">Place this model anywhere completely within 8" of its current location, then its activation ends.</spell>
           <capacity title="CULL SOUL" type="">This model gains one soul token for each living enemy model destroyed within 2" of it. When this model replenishes its focus during your next Control Phase, replace each soul token on it with 1 focus point.</capacity>
@@ -55,7 +56,7 @@
           <spell name="ASHEN VEIL" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model / unit gains concealment. Living enemy models suffer -2 to attack rolls while within 2" of an affected model.</spell>
           <spell name="BONE SHAKER" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">When this spell boxes a living or undead non-warcaster non-warlock enemy warrior model, you can immediately make a full advance with the enemy model followed by a normal melee attack, then the boxed model is removed from play. The boxed model cannot be targeted by free strikes during this movement.</spell>
           <spell name="CARNAGE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Friendly Faction models gain +2 to melee attack rolls against enemy models in this model's control area. Carnage lasts for one turn.</spell>
-          <spell name="HEX BLAST" cost="3" rng="10" aoe="3" pow="13" up="NO" off="YES">Enemy upkeep spells and animi on the model/ unit directly hit by Hex Blast immediately expire.</spell>
+          <spell name="HEX BLAST" cost="3" rng="10" aoe="3" pow="13" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire.</spell>
           <spell name="MOBILITY" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Models in this model's battlegroup currently in its control area gain +2 SPD and Pathfinder for one turn.</spell>
           <spell name="SCYTHING TOUCH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack damage rolls. Affected models gain Critical Corrosion on their normal melee attacks.</spell>
           <capacity title="CULL SOUL" type="">This model gains one soul token for each living enemy model destroyed within 2" of it. When this model replenishes its focus during your next Control Phase, replace each soul token on it with 1 focus point.</capacity>
@@ -84,9 +85,9 @@
           </weapons>
           <feat title="The Withering"><![CDATA[Enemy models currently in Deneghra's control area suffer -2 to their SPD, STR, MAT, RAT, DEF, ARM, and FOCUS and cannot run or make special attacks. The Withering lasts for one round.]]></feat>
           <spell name="CRIPPLING GRASP" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers -2 SPD, STR, DEF, and ARM and cannot run or make special attacks.</spell>
-          <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (When it advances, a model with Ghostly ignores movement penalties from terrain and obstacles and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
+<spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
           <spell name="INFLUENCE" cost="1" rng="10" aoe="-" pow="-" up="NO" off="YES">Take control of target enemy non-warcaster, non-warlock warrior model. The model immediately makes one normal melee attack, then Influence expires.</spell>
-          <spell name="PARASITE" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/ unit suffers -3 ARM and this model gains +1 ARM.</spell>
+		  <spell name="PARASITE" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers -3 ARM and this model gains +1 ARM.</spell>
           <spell name="SCOURGE" cost="4" rng="8" aoe="3" pow="13" up="NO" off="YES">All models hit by Scourge are knocked down.</spell>
           <spell name="VENOM" cost="2" rng="SP8" aoe="-" pow="10" up="NO" off="YES">Venom causes corrosion damage. Models hit suffer the Corrosion continuous effect</spell>
           <capacity title="CULL SOUL" type="">This model gains one soul token for each living enemy model destroyed within 2" of it. When this model replenishes its focus during your next Control Phase, replace each soul token on it with 1 focus point.</capacity>
@@ -104,9 +105,9 @@
           </weapons>
           <feat title="Web of shadows"><![CDATA[Enemy models currently in Deneghra's control area suffer Shadow Bind for one round. (A model affected by Shadow Bind suffers -3 DEF and for one round when it advances it cannot move except to change facing.)]]></feat>
           <spell name="CURSE OF SHADOWS" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers -2 ARM and cannot make free strikes. A model can advance through an affected model if it has enough movement to move completely past its base.</spell>
-          <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
+		  <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
           <spell name="HELLMOUTH" cost="4" rng="8" aoe="*" pow="12" up="NO" off="YES">If this attack misses, nothing happens. If it hits, before making the damage roll, push models within 3" of the model hit 3" directly toward it in the order you choose. Then center a 3" AOE on the model hit. Models hit suffer a POW 12 damage roll. Models boxed by Hellmouth are removed from play.</spell>
-          <spell name="MARKED FOR DEATH" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">Target enemy model/ unit suffers -2 DEF and loses lncorporeal and Stealth and cannot gain those abilities while affected by Marked for Death. Friendly Faction models can target an affected model regardless of LOS.</spell>
+          <spell name="MARKED FOR DEATH" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">Target enemy model/unit suffers -2 DEF and loses lncorporeal and Stealth and cannot gain those abilities while affected by Marked for Death. Friendly Faction models can target an affected model regardless of LOS.</spell>
           <spell name="PURSUIT" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">If target enemy model/unit advances during its normal movement, immediately after ending this movement one model in this model's battlegroup that is in its control area can make a full advance.</spell> <!-- errata may 2014 -->
           <spell name="VENOM" cost="2" rng="SP8" aoe="-" pow="10" up="NO" off="YES">Venom causes corrosion damage. Models hit suffer the Corrosion continuous effect</spell>
           <capacity title="CULL SOUL" type="">This model gains one soul token for each living enemy model destroyed within 2" of it. When this model replenishes its focus during your next Control Phase, replace each soul token on it with 1 focus point.</capacity>
@@ -125,7 +126,7 @@
           </weapons>
 
           <feat title="Hell Gate">Deneghra immediately gains seven soul tokens</feat>
-          <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (When it advances, a model with Ghostly ignores movement penalties from terrain and obstacles and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
+		  <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
           <spell name="GRAVE WIND" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model gains +2 DEF and Poltergeist. (When an enemy model misses the model with Poltergeist with an attack, immediately after the attack is resolved you can choose to push the enemy model d3" directly away from the model with Poltergeist.)</spell>
           <spell name="MORTALITY" cost="3" rng="10" aoe="-" pow="-" up="NO" off="YES">Target enemy model/unit suffers –2 DEF and ARM and cannot be healed. Mortality lasts for one round.</spell>
           <spell name="SCOURGE" cost="4" rng="8" aoe="3" pow="13" up="NO" off="YES">All models hit by Scourge are knocked down.</spell>
@@ -147,7 +148,7 @@
           </weapons>
           <feat title="Dark summons">Goreshade summons a unit of Bane Thralls. Place one Leader and five Grunts within 3" of Goreshade.</feat>
           <spell name="BLEED" cost="2" rng="8" aoe="-" pow="10" up="NO" off="YES">When Bleed destroys a living enemy model, this model heals d3 damage points.</spell>
-          <spell name="HEX BLAST" cost="3" rng="10" aoe="3" pow="13" up="NO" off="YES">Enemy upkeep spells and animi on the model/ unit directly hit by Hex Blast immediately expire.</spell>
+          <spell name="HEX BLAST" cost="3" rng="10" aoe="3" pow="13" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire.</spell>
           <spell name="MAGE BLIGHT" cost="5" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, living enemy models cannot cast spells or use feats. Mage Blight lasts for one round.</spell>
           <spell name="SHADOWMANCER" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Models in this model's battlegroup gain Dark Shroud and Stealth while in its control area. Shadowmancer lasts for one round. (While in the melee range of a model with Dark Shroud, enemy models suffer -2 ARM.)</spell>
           <spell name="SOUL GATE" cost="3" rng="CTRL" aoe="-" pow="-" up="NO" off="NO">Remove a friendly trooper model in this model's control area from play and replace it with target warjack in this model's battlegroup that is in its control area. LOS to that target is not required. The warjack cannot activate this turn after being placed by Soul Gate.</spell>
@@ -171,7 +172,7 @@
           </weapons>
           <feat title="Reanimator"><![CDATA[Remove one or more friendly Faction warrior models currently in Goreshade's control area from play. For each model removed, return one destroyed non-character friendly Faction warrior model to play completely within Goreshade's control area. Place returned trooper models in formation with their original units. Returned models forfeit their actions the turn they return to play.]]></feat>
           <spell name="CURSE OF SHADOWS" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers -2 ARM and cannot make free strikes. A model can advance through an affected model if it has enough movement to move completely past its base.</spell>
-          <spell name="HEX BLAST" cost="3" rng="10" aoe="3" pow="13" up="NO" off="YES">Enemy upkeep spells and animi on the model/ unit directly hit by Hex Blast immediately expire.</spell>
+          <spell name="HEX BLAST" cost="3" rng="10" aoe="3" pow="13" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire.</spell>
           <spell name="OCCULTATION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains Stealth.</spell>
           <spell name="PHANTOM HUNTER" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target model in this model's battlegroup ignores LOS when making charges, slams, and attacks. That model ignores concealment and cover when resolving attacks.</spell>
           <spell name="SUDDEN DEATH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy model advances and ends its movement within 6" of target friendly Faction non-warcaster warrior model and the affected model is not engaged, the affected model can immediately charge the enemy model, then Sudden Death expires. A trooper model that charges as a result of Sudden Death ignores unit formation while resolving the charge. If the trooper model is out of formation after the charge attack is resolved, it is destroyed before Sudden Death expires.</spell>
@@ -206,10 +207,10 @@
             </melee_weapon>
           </weapons>
           <feat title="Black Gate"><![CDATA[While in this model's control area, friendly Faction models gain boosted magic attack rolls. When Scaverous casts a spell, reduce the COST of the spell by 1. When an enemy model casts a spell or uses an animus while in Scaverous' control area, increase the COST by 1. Black Gate lasts for one round,]]></feat>
-          <spell name="DEATH WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/ unit gains +2 ARM. If an affected warjack is damaged, you choose which column suffers the damage.</spell>
+          <spell name="DEATH WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains +2 ARM. If an affected warjack is damaged, you choose which column suffers the damage.</spell>
           <spell name="EXCARNATE" cost="3" rng="10" aoe="-" pow="13" up="NO" off="YES">When a living enemy warrior model is boxed by Excarnate, remove it from play. You can then add one Grunt to a friendly Faction small-based undead unit in this model's control area. The Grunt must be placed in formation and within 3" of this model.</spell>
           <spell name="FEAST OF WORMS" cost="4" rng="10" aoe="4" pow="12" up="YES" off="YES">While in the AOE, enemy models suffer -2 ARM. The AOE remains in play as long as upkeep is paid</spell>
-          <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (When it advances, a model with Ghostly ignores movement penalties from terrain and obstacles and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
+          <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
           <spell name="ICY GRIP" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">Target enemy warrior model/unit without Immunity: Cold suffers -2 DEF and cannot run or make special attack.</spell>
           <spell name="TELEKINESIS" cost="2" rng="8" aoe="-" pow="-" up="NO" off="*">Place target model completely within 2" of it's current location. When Telekinesis targets an enemy model, it is an offensive spell and requires a magic attack roll. A model can be affected by Telekinesis only once per turn.</spell>
           <capacity title="CULL SOUL" type="">This model gains one soul token for each living enemy model destroyed within 2" of it. When this model replenishes its focus during your next Control Phase, replace each soul token on it with 1 focus point.</capacity>
@@ -255,7 +256,7 @@
           <spell name="BACKLASH" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">When target enemy warjack that is part of a battlegroup is damaged, its controller suffers l damage point</spell>
           <spell name="BLACK SPOT" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">Target enemy warrior model/unit suffers -2 DEF. When a friendly Faction model destroys one or more affected models with a melee or ranged attack during its activation, immediately after the attack is resolved it can make one additional melee or ranged attack regardless of ROF. Attacks gained from Black Spot cannot generate additional attacks from Black Spot.</spell>
           <spell name="BLOOD RAIN" cost="3" rng="8" aoe="3" pow="12" up="NO" off="YES">Blood Rain causes corrosion damage. Models hit suffer the Corrosion continuous effect</spell>
-          <spell name="DEATH WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/ unit gains +2 ARM. If an affected warjack is damaged, you choose which column suffers the damage.</spell>
+          <spell name="DEATH WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains +2 ARM. If an affected warjack is damaged, you choose which column suffers the damage.</spell>
           <spell name="PERDITION" cost="2" rng="10" aoe="-" pow="10" up="NO" off="YES">When an enemy model is damaged by Perdition, immediately after the attack is resolved one warjack in this model's battlegroup that is currently in this model's control area can make a full advance toward the nearest enemy model. A model can advance as a result of Perdition only once per turn.</spell>
           <capacity title="BLOOD TRADE" type="">This model can upkeep spells by suffering 1 damage point per spell instead of spending focus.</capacity>
           <capacity title="INSPIRATION [SATYXIS]" type="">Friendly Satyxis models/ units in this model's command range never flee and immediately rally.</capacity>
@@ -339,9 +340,9 @@
           </weapons>
           <feat title="Nightfall"><![CDATA[While in the Coven's control area, enemy models suffer -2 MAT and RAT and their LOS is reduced to 5". Nightfall lasts for one round.]]></feat>
           <spell name="CURSE OF SHADOWS" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers -2 ARM and cannot make free strikes. A model can advance through an affected model if it has enough movement to move completely past its base.</spell>
-          <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/ unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
+          <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
           <spell name="INFERNAL MACHINE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target warjack in this model's battlegroup gains Terror and +2 MAT and SPD.</spell>
-          <spell name="OCCULTATION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/ unit gains Stealth</spell>
+          <spell name="OCCULTATION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains Stealth.</spell>
           <spell name="STYGIAN ABYSS" cost="3" rng="10" aoe="-" pow="12" up="NO" off="YES">On a critical hit, the model hit suffers Shadow Bind for one round. (A model suffering Shadow Bind suffers -3 DEF, and for one round when it advances it cannot move except to change facing.)</spell>
           <spell name="VEIL OF MISTS" cost="3" rng="CTRL" aoe="4" pow="-" up="YES" off="NO">Place a 4" AOE cloud effect anywhere completely within this model's control area. This AOE does not block friendly Faction models' LOS. While in the AOE, friendly Faction models gain Pathfinder and can move through obstructions and other models if they have enough movement to move completely past them.</spell>
           <capacity title="ARCANE NEXUS">When a Witch casts a spell, the Egregore is the spell's point of origin. The Witch must have LOS to her target, but the Egregore does not. All LOS modifiers are based on the LOS of the Witch. Witches can channel spells normally. The Coven can have up to one attached model, this model is attached to the Coven, not to an individual Witch. The Coven can have only one of each of their upkeep spells in play at a time.</capacity>
@@ -947,7 +948,7 @@
                   <capacity title="BLOODLETTING">When this model makes an attack with this weapon during its activation, choose one of the following abilities:</capacity>
                   <capacity title="*Blood Mist">If this attack boxes a living model, center a 3" AOE cloud effect on the boxed model and remove it from play. The cloud effect remains in play for one round.</capacity>
                   <capacity title="*Death Strike">If this attack destroys a living model, after resolving the attack choose a model within 4" of this model. The chosen model suffers a damage roll with a POW equal to the STR of the model destroyed by the attack.</capacity>
-                  <capacity title="DISPEL">When this weapon hits a model/ unit, upkeep spells on that model/unit immediately expire.</capacity>
+                  <capacity title="DISPEL">When this weapon hits a model/unit, upkeep spells on that model/unit immediately expire.</capacity>
                 </melee_weapon>
               </weapons>
               <capacity title="ATTACHMENT [SATYXIS BLOOD WITCHES]">This attachment can be added to a Satyxis Blood Witches unit.</capacity>
@@ -999,7 +1000,7 @@
             <capacity title="DISMANTLE">See above.</capacity>
             <capacity title="MAGIC ABILITY">[7]</capacity>
             <capacity title="DARK FIRE" type="*Attack">See above.</capacity>
-            <capacity title="PUPPET MASTER" type="*Action or attack">Puppet Master is a RNG 10 spell. When it targets an enemy model/ unit, it is a magic attack. You can have one affected model reroll one or more dice of your choice  rolled for a command check, attack, or damage roll, then Puppet Master expires. Puppet Master lasts for one round.</capacity>
+            <capacity title="PUPPET MASTER" type="*Action or attack">Puppet Master is a RNG 10 spell. When it targets an enemy model/unit, it is a magic attack. You can have one affected model reroll one or more dice of your choice  rolled for a command check, attack, or damage roll, then Puppet Master expires. Puppet Master lasts for one round.</capacity>
             <capacity title="SOUL TAKER">See above.</capacity>
           </model>
         </unit>

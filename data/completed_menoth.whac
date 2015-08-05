@@ -3,7 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
   <armies>
-    <army faction="faction_menoth" name="Menoth" version="forum_menoth_002"> <!-- 002 : add reckoning entries : anson, hand of judgment, purifier, pyrrhus, revelator -->
+    <army faction="faction_menoth" name="Menoth" version="forum_menoth_003"> 
+		<!-- 002 : add reckoning entries : anson, hand of judgment, purifier, pyrrhus, revelator -->
+		<!--- 003 Fixed spell typos --->
       <warcasters>
         <warcaster id="Pw01" name="Kreoss1" generation="P" full_name="High Exemplar Kreoss" qualification="Protectorate Warcaster" focus="7" warjack_points="5" fa="C" completed="true">
           <basestats name="KREOSS" spd="5" str="6" mat="7" rat="4" def="14" arm="15" cmd="8" hitpoints="18" />
@@ -132,7 +134,7 @@
           <spell name="ENGINE OF DESTRUCTION" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model gains +2 SPD, +4 STR, and +4 MAT for one round.</spell>
           <spell name="HEX HAMMER" cost="3" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">When an enemy model casts a spell or uses an animus while in this model's control area, after the spell or animus has been cast or used the enemy model suffers d3 damage points.</spell>
           <spell name="IGNITE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack damage rolls. Affected models gain Critical Fire on their normal melee attacks.</spell>
-          <spell name="IMMOLATION" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">Immolation causes fire damage. On a critical hit, the model hit suffer the Fire continuous effect</spell>
+          <spell name="IMMOLATION" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">Immolation causes fire damage. On a critical hit, the model hit suffer the Fire continuous effect.</spell>
           <spell name="WALL OF FIRE" cost="2" rng="CTRL" aoe="WALL" pow="-" up="YES" off="NO">Place the wall template anywhere completely in this model's control area where it does not touch a model's base, an obstruction, or an obstacle. When a model enters or ends its activation in the wall area, it suffers an unboostable POW 12 fire damage roll and the Fire continuous effect. Models within the wall template gain concealment.</spell>
           <capacity title="INSPIRATION [FLAMEGUARD]">Friendly Flameguard models/units in this model's command range never flee and immediately rally.</capacity>
         </warcaster>
