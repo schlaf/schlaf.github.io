@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
   <armies>
-    <army faction="faction_cryx" name="cryx" version="forum_cryx_003">
+    <army faction="faction_cryx" name="cryx" version="forum_cryx_004">
         <!-- 002 include deny3, barathrum, sepulcher, soul trapper -->
         <!-- 003 correct soul trapper range for collecting souls + machine wraith FA-->
 		<!-- 004 Duplicate spells now have same wording, fixed wrong cost on Parasite -->
