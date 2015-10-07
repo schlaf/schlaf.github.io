@@ -259,6 +259,7 @@ $( "#army_options" ).accordion({
 	<textarea id="output" cols="30" rows="15" style="float:right" ; width:50%>{^{for entries}}
 {{:name}} {{if specialist}}(SPECIALIST){{/if}}{{if free}} (FREE){{/if}}{^{if alteredCost!=-1}}!{^{:alteredCost}}!{{else}}{^{:cost}}{{/if}} PC{^{if attachment}}
 * {^{:attachment.name}} {{if attachment.specialist}}(SPECIALIST){{/if}}{{if attachment.free}} (FREE){{/if}}{^{if attachment.alteredCost!=-1}}!{^{:attachment.alteredCost}}!{{else}}{^{:attachment.cost}}{{/if}} PC{{/if}}{^{for warjacks}}
+* {^{:name}} {{if specialist}}(SPECIALIST){{/if}}{{if free}}(FREE){{/if}} {^{if alteredCost!=-1}}!{^{:alteredCost}}!{{else}}{^{:cost}}{{/if}} PC{{/for}}{^{for warbeasts}}
 * {^{:name}} {{if specialist}}(SPECIALIST){{/if}}{{if free}}(FREE){{/if}} {^{if alteredCost!=-1}}!{^{:alteredCost}}!{{else}}{^{:cost}}{{/if}} PC{{/for}}{{/for}}</textarea>
 
 </script>
