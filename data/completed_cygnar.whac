@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
   <armies>
-    <army faction="faction_cygnar" name="cygnar" version="forum_cygnar_003"> 
-		<!-- Fixed spell wording and problems. -->
+    <army faction="faction_cygnar" name="cygnar" version="forum_cygnar_004">
+		<!-- August 2015 Errata --> 
       <warcasters>
         <warcaster id="Yw01" name="Haley1" full_name="Captain Victoria Haley" generation="P" qualification="Cygnar Warcaster" focus="7" warjack_points="5" fa="C" completed="true">
           <basestats name="Haley" spd="6" str="5" mat="6" rat="5" def="16" arm="14" cmd="8" hitpoints="15" />
@@ -31,7 +31,7 @@
             </melee_weapon>
             <ranged_weapon name="Hand Cannon" rng="12" rof="1" aoe="-" pow="12" magical="false" />
           </weapons>
-          <feat title="Temporal Shift"><![CDATA[During your opponent's next Activation Phase, enemy models/units activating while in Haley's control area forfeit either their movement or their action during their activations, as their controller chooses. Affected models/units activate at the start of their controller's next Activation Phase in the order you choose. Temporal Shift lasts for one round.]]></feat>
+          <feat title="Temporal Shift"><![CDATA[During your opponent's next Activation Phase, enemy models/units activating while in Haley's control area forfeit either their movement or their action during their activations, as their controller chooses. Temporal Shift lasts for one round.]]></feat>
           <spell name="ARCANE BOLT" cost="2" rng="12" aoe="-" pow="11" up="NO" off="YES">Magical bolts of energy streak toward the target model.</spell>
           <spell name="DEADEYE" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains an additional die on each model's first ranged attack roll this turn.</spell>
           <spell name="DECELERATION" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly models gain +2 DEF and ARM against ranged attacks. Deceleration lasts for one round.</spell>
@@ -42,7 +42,7 @@
           <capacity title="REPLICATION" type="">When an enemy model in this model's control area spends focus points to cast an offensive spell, this model can cast that spell on your next turn as if it were one of its own spells. This model can upkeep replicated spells.</capacity>
           <capacity title="WARJACK BOND (EPIC HALEY)" type="">One non-character warjack in Haley's battlegroup can begin the game bonded to her. If this warjack begins its activation in Haley's control area, it gains +2" movement that activation.</capacity>
         </warcaster>
-          <warcaster id="Yz01" name="Haley3" full_name="Major Prime Victoria Haley" generation="EE" qualification="Cygnar Epic Warcaster Unit" focus="8" warjack_points="3" fa="C" completed="true">
+        <warcaster id="Yz01" name="Haley3" full_name="Major Prime Victoria Haley" generation="EE" qualification="Cygnar Epic Warcaster Unit" focus="8" warjack_points="3" fa="C" completed="true">
               <basestats name="Haley Prime" spd="6" str="5" mat="6" rat="5" def="16" arm="14" cmd="8" hitpoints="15" officer="true" />
               <weapons>
                   <melee_weapon name="Echo" pow="7" p_plus_s="12" magical="true" reach="true">
@@ -54,7 +54,7 @@
               <spell name="DOMINATION" cost="3" rng="8" aoe="-" pow="-" up="NO" off="YES">Take control of target enemy non-character warjack that has a functional cortex. You can make a full advance with the warjack and can then make one normal attack, then Domination expires. Domination can be cast only once per turn.</spell>
               <spell name="REPUDIATE" cost="2" rng="10" aoe="-" pow="-" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Repudiate immediately expire. An enemy model maintaining an upkeep spell that expired as a result of Repudiate suffers d3 damage points.</spell>
               <spell name="TACTICAL SUPREMACY" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit can advance up to 3" after all models have ended their activations on your turn.</spell>
-              <spell name="TEMPORAL FLUX" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">While within 5" of a model in this unit, friendly models gain +2 DEF and enemy models suffer -2 DEF. Temporal Flux lasts for one round.</spell>
+              <spell name="TEMPORAL FLUX" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">Models in this unit gain +2 DEF. While within 5" of one or more models in this unit, other friendly models gain +2 DEF and enemy models suffer -2 DEF. Temporal Flux lasts for one round.</spell>
               <capacity title="REITERATION" type="">This model can cast any spell cast by another model in its own unit this activation as if that spell were one of its own.</capacity>
               <capacity title="TIME WALKER" type="">At any time during its unit's activation, this model can spend 2 focus points to add either Haley Past or Haley Future to this unit if that model is not already in play. Place that model within 2" of Haley Prime. The placed model enters play with a number of focus points equal to its FOCUS. The placed model cannot activate this turn. When this model replenishes its focus points, this model can receive 2 fewer focus points for Haley Past and/or 2 fewer focus points for Haley Future. If this model does not receive 2 fewer focus points for another model in this unit, remove that model from play.</capacity>
               <capacity title="WARCASTER UNIT" type="">This unit is made up of Haley Prime, Haley Past and Haley Future. However, only Haley Prime begins the game in play.</capacity>
@@ -67,7 +67,7 @@
                   <spell name="CHAIN BLAST" cost="3" rng="10" aoe="3" pow="12" up="NO" off="YES">After determining the point of impact for this attack, roll deviation for an additional 3" AOE from that point. Models in that AOE are hit and suffer a POW 6 blast damage roll.</spell>
                   <spell name="FORCE HAMMER" cost="4" rng="10" aoe="-" pow="12" up="NO" off="YES">Instead of suffering a normal damage roll, a non-incorporeal model Force Hammer hits is slammed d6" directly away from the spell's point of origin regardless of its base size and suffers a POW 12 damage roll. Collateral damage from this slam is POW 12.</spell>
                   <capacity title="RAW TALENT" type="">This model gains an additional die on its damage rolls</capacity>
-                  <capacity title="TIME PROJECTION" type="">This model is not a warcaster but has the following warcaster special rules: Control Area, Focus Manipulation, Power Field, and Spellcaster. During your Control Phase this model can allocate focus points to warjacks in Haley Prime's battlegroup that are in her control area. This model can channel spells through warjacks in Haley Prime's battlegroup with the arc node advantage that are in her control area.</capacity>
+                  <capacity title="TIME PROJECTION" type="">This model is not a warcaster but has the following warcaster special rules: Control Area, Focus Manipulation, Power Field, and Spellcaster. During your Control Phase, this model can allocate focus points to warjacks in Haley Prime's battlegroup that are in this model's control area. This model can channel spells through warjacks in Haley Prime's battlegroup with the arc node advantage that are in this model's control area.</capacity>
               </model>
               <model id="Yz01_Future" name="HALEY FUTURE" full_name="Haley Future">
                   <basestats name="Haley Future" spd="6" str="5" mat="6" rat="5" def="16" arm="14" cmd="8" hitpoints="5" incorporeal="true" focus="4" />
@@ -140,7 +140,7 @@
           <capacity title="ELITE CADRE [STORM LANCES]" type="">Friendly Storm Lances models gain Reform. (After all models in a unit with Reform have completed their actions, each can advance up to 3".)</capacity>
           <capacity title="FIELD MARSHALL [ASSAULT]">Models in this model's battlegroup gain Assault. (As part of a charge, after moving but before making its charge attack, a model with Assault can make one ranged attack targeting the model charged unless they were in melee with each other at the start of the affected model's activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, this model must still make the ranged attack before its activation ends.)</capacity>
           <capacity title="PLASMA NIMBUS">If this model is hit by a melee attack, immediately after the attack is resolved the attacking model suffers a POW 10 electrical damage roll unless this model was destroyed or removed from play by the attack</capacity>
-        </warcaster>        
+        </warcaster>
         <warcaster id="Yw03" name="Caine1" full_name="Lieutenant Allister Caine" generation="P" qualification="Cygnar Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="Caine" spd="7" str="5" mat="4" rat="8" def="17" arm="13" cmd="8" hitpoints="15" />
           <weapons>
@@ -351,14 +351,11 @@
               <ranged_weapon pow="12" aoe="-" rng="12" rof="1" name="Hand Cannon"></ranged_weapon>
           </weapons>
           <feat title="Dead on Arrival">Enemy non-warlock, non-warcaster models in Sturgis' control area are pushed 3" directly toward Sturgis in the order you choose. Then enemy models within 3" of Sturgis suffer a POW 12 magical damage roll. For each model destroyed by Dead on Arrival, you can allocate 1 focus point to a warjack in Sturgis' battlegroup in his control area.</feat>
-          
           <spell name="ARCANE SHIELD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +3 ARM.</spell>
           <spell name="CONVECTION" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">When Convection destroys a living enemy model, allocate 1 focus point to a warjack in this model's battlegroup that is in its control area.</spell>
           <spell name="LIGHTNING STORM" cost="3" rng="8" aoe="3" pow="10" up="NO" off="YES">Models hit suffer a POW 10 electrical damage roll. The AOE remains in play for one round. Models entering or ending their activations in the AOE suffer a POW 10 electrical damage roll.</spell>
           <spell name="SNIPE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model's/unit's ranged weapons gain +4 RNG.</spell>
           <spell name="TELEPORT" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">Place this model anywhere completely within 8" of its current location, then its activation ends.</spell>
-          
-          
           <capacity title="Relentless Charge">This model gains Pathfinder during activations it charges.</capacity>
           <capacity title="Reversal">When a model misses this model with a charge or a power attack, the attacking model is knocked down.</capacity>
           <capacity title="Snap Strike">This model can make one additional attack with each melee weapon for each focus point spent to make additional attacks.</capacity>
@@ -617,7 +614,7 @@
           <capacity title="Affinity [Nemo]">While in Nemo's control area, Dynamo can reroll missed attack rolls with Damage Type: Electricity. Attack rolls can be rerolled only once as a result of this affinity.</capacity>
           <capacity title="Special Issue [Nemo]">This model can be included in Nemo's theme forces. It can be also bonded to Nemo.</capacity>
         </warjack>
-          <warjack id="YJ24" name="Ace" full_name="Ace" damage_grid="xxxxxxxx..xx.......L..R.LLMCRRxMMCCx" cost="7" qualification="Cygnar Character Light Warjack" fa="C"  completed="true">
+        <warjack id="YJ24" name="Ace" full_name="Ace" damage_grid="xxxxxxxx..xx.......L..R.LLMCRRxMMCCx" cost="7" qualification="Cygnar Character Light Warjack" fa="C"  completed="true">
               <basestats name="Ace" spd="6" str="7" mat="6" rat="7" def="14" arm="15" cmd="0" advance_deployment="true" pathfinder="true" />
               <weapons>
                   <melee_weapon p_plus_s="11" pow="4" name="Battle Axe" location="R" />
@@ -660,7 +657,7 @@
             <capacity title="Conductor">When a friendly Stormsmith Stormcaller makes a Surge or Triangulation Stormcall, this model is considered to be another friendly Stormsmith Stormcaller.</capacity>
           </model>
         </colossal>
-          <colossal id="YJ23" name="Hurricane" full_name="Hurricane" damage_grid_left="xxxxx.xxx.......SS.LLLSCLLCCCCLCMMMM" damage_grid_right=".xxxxx...xxxSS....CSRRR.CCCCRRMMMMCR" cost="18" qualification="Cygnar Colossal" fa="2" completed="true">
+        <colossal id="YJ23" name="Hurricane" full_name="Hurricane" damage_grid_left="xxxxx.xxx.......SS.LLLSCLLCCCCLCMMMM" damage_grid_right=".xxxxx...xxxSS....CSRRR.CCCCRRMMMMCR" cost="18" qualification="Cygnar Colossal" fa="2" completed="true">
               <basestats name="Hurricane" spd="5" str="17" mat="6" rat="6" def="10" arm="19" cmd="0" immunity_electricity="true" arc_node="true" />
               <weapons>
                   <melee_weapon name="Shock fist" location="L" p_plus_s="20" pow="3" open_fist="true">
@@ -1062,7 +1059,7 @@
           <capacity title="● Blessed">When making an attack with this weapon, ignore spell effects that add to a model's ARM or DEF.</capacity>
           <capacity title="● Electro leap">When a model is hit with this weapon, you can have lightning arc to the nearest model within 4" of the model hit, ignoring the attacking model. The model the lightning arcs to suffers an unboostable POW 10 electrical damage roll.</capacity>
         </unit>
-    <unit  id="YU17" name="Silver Line Stormguard" full_name="Silver Line Stormguard" base_cost="6" baseCount="6" full_cost="9" fullCount="10" qualification="Cygnar Storm Knight Unit" fa="2" completed="true">
+		<unit  id="YU17" name="Silver Line Stormguard" full_name="Silver Line Stormguard" base_cost="6" baseCount="6" full_cost="9" fullCount="10" qualification="Cygnar Storm Knight Unit" fa="2" completed="true">
       <basestats name="Leader and grunts" spd="5" str="6" mat="7" rat="5" def="12" arm="15" cmd="9" cma="true" immunity_electricity="true" gunfighter="true"/>
       <weapons>
           <melee_weapon p_plus_s="12" pow="6" name="Thunder Halberd" reach="true">
@@ -1073,7 +1070,6 @@
       <capacity title="Polarity Wall">While this model is B2B with one or mode models in its unit, it cannot be charged by a model beginning the charge in the model's front ard.</capacity>
       <capacity title="Ranked attacks">Friendly Faction models can ignore this model when determining LOS.</capacity>
     </unit>
-        
       </units>
       <solos>
         <solo id="YS01" name="Journeyman Warcaster" full_name="Journeyman Warcaster" cost="3" qualification="Cygnar Solo" fa="1"  completed="true">
@@ -1221,33 +1217,32 @@
           <capacity title="Parry" type="">This model cannot be targeted by free strikes.</capacity>
           <capacity title="Sprint">At the end of this model's activation, if it destroyed one or more enemy models with melee attacks this activation it can make a full advance.</capacity>
         </solo>
-        <solo  id="YS10" name="Stormblade Captain" full_name="Stormblade Captain" cost="2" qualification="Cygnar Storm Knight Solo" fa="2" completed="true">
-      <basestats name="Captain" spd="5" str="6" mat="8" rat="6" def="12" arm="16" cmd="10"  hitpoints="5" immunity_electricity="true" jack_marshal="true" commander="true"/>
-      <weapons>
-          <ranged_weapon rng="8" name="Nexus Blast" aoe="-" pow="14" rof="1" electricity="true"></ranged_weapon>
-          <melee_weapon p_plus_s="13" pow="7" name="Nexus Blade" reach="true" weapon_master="true"></melee_weapon>
-      </weapons>
-      <capacity title="Tactician [Storm Knight]">While in this model's commande range, Friendly Storm Knight models ignore other Friendly Storm Knight models when determining LOS. Friendly Storm Knight models can advance trough other Friendly Storm Knight models in this model's commande if they have enough movement to move completely past them.</capacity>
-      <capacity title="Leadership [Storm Knights]">Friendly Storm Knight models activating while in this model's command range gain Relentless Charge that activation.</capacity>
-      <capacity title="Quick Work">When this model destroys one or more enemy models with a melee attack during its combat action, immediately after that attack is resolved this model can make one normal ranged attack. Attacks gained from Quick Work do not count against a weapon's ROF.</capacity>
-      <capacity title="Relentless Charge">This model gains Pathfinder during activations it charges.</capacity>
-    </solo>
-          <solo id="YS11" name="Trench Buster" full_name="Trench Buster" cost="3" qualification="Cygnar Ogrun Trencher Solo" fa="2" completed="true">
-              <basestats name="Trench Buster" spd="6" str="9" mat="7" rat="5" def="13" arm="17" cmd="9" hitpoints="8" advance_deployment="true" tough="true" />
-              <weapons>
-                  <ranged_weapon name="Cinder Bomber" rng="10" rof="1" aoe="3" pow="14" fire="true" >
-                      <capacity title="Arcing Fire">When attacking with this weapon, this model can ignore intervening models except those within 1" of the target.</capacity>
-                      <capacity title="Smoke">This weapon's AOE is a cloud effect that remains in play for one round.</capacity>
-                  </ranged_weapon>
-                  <melee_weapon name="Bayonet" pow="4" p_plus_s="13" />
-                  <melee_weapon name="Assault Shield" pow="2" p_plus_s="11" />
-              </weapons>
-              <capacity title="Assault">As part of a charge, after moving but before making its charge attack, a model with Assault can make one ranged attack targeting the model charged unless they were in melee with each other at the start of the affected model's activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, this model must still make the ranged attack before its activation ends.)</capacity>
-              <capacity title="Flank [Trencher]" type="">When this model makes a melee attack against an enemy model within a melee range of a friendly model of type indicated, this model gains +2 to attacks rolls and gains an additional damage die.</capacity>
-              <capacity title="Girded" >This model does not suffer blast damage. Friendly models in B2B with it do not suffer blast damage.</capacity>
-          </solo>
+		<solo id="YS10" name="Stormblade Captain" full_name="Stormblade Captain" cost="2" qualification="Cygnar Storm Knight Solo" fa="2" completed="true">
+			<basestats name="Captain" spd="5" str="6" mat="8" rat="6" def="12" arm="16" cmd="10" hitpoints="5" immunity_electricity="true" jack_marshal="true" commander="true"/>
+			<weapons>
+				<ranged_weapon rng="8" name="Nexus Blast" aoe="-" pow="14" rof="1" electricity="true"/>
+				<melee_weapon p_plus_s="13" pow="7" name="Nexus Blade" reach="true" weapon_master="true"/>
+			</weapons>
+			<capacity title="Tactician [Storm Knight]">While in this model's commande range, Friendly Storm Knight models ignore other Friendly Storm Knight models when determining LOS. Friendly Storm Knight models can advance trough other Friendly Storm Knight models in this model's commande if they have enough movement to move completely past them.</capacity>
+			<capacity title="Leadership [Storm Knights]">Friendly Storm Knight models activating while in this model's command range gain Relentless Charge that activation.</capacity>
+			<capacity title="Quick Work">When this model destroys one or more enemy models with a melee attack during its combat action, immediately after that attack is resolved this model can make one normal ranged attack. Attacks gained from Quick Work do not count against a weapon's ROF.</capacity>
+			<capacity title="Relentless Charge">This model gains Pathfinder during activations it charges.</capacity>
+		</solo>
+		<solo id="YS11" name="Trench Buster" full_name="Trench Buster" cost="3" qualification="Cygnar Ogrun Trencher Solo" fa="2" completed="true">
+			<basestats name="Trench Buster" spd="6" str="9" mat="7" rat="5" def="13" arm="17" cmd="9" hitpoints="8" advance_deployment="true" tough="true"/>
+			<weapons>
+				<ranged_weapon name="Cinder Bomber" rng="10" rof="1" aoe="3" pow="14" fire="true">
+					<capacity title="Arcing Fire">When attacking with this weapon, this model can ignore intervening models except those within 1" of the target.</capacity>
+					<capacity title="Smoke">This weapon's AOE is a cloud effect that remains in play for one round.</capacity>
+				</ranged_weapon>
+				<melee_weapon name="Bayonet" pow="4" p_plus_s="13"/>
+				<melee_weapon name="Assault Shield" pow="2" p_plus_s="11"/>
+			</weapons>
+			<capacity title="Assault">As part of a charge, after moving but before making its charge attack, a model with Assault can make one ranged attack targeting the model charged unless they were in melee with each other at the start of the affected model's activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, this model must still make the ranged attack before its activation ends.)</capacity>
+			<capacity title="Flank [Another Trencher]" type="">When this model makes a melee attack against an enemy model within a melee range of a friendly model of type indicated, this model gains +2 to attacks rolls and gains an additional damage die.</capacity>
+			<capacity title="Girded">This model does not suffer blast damage. Friendly models in B2B with it do not suffer blast damage.</capacity>
+		</solo>
       </solos>
     </army>
   </armies>
 </ruleset>
-

@@ -158,7 +158,7 @@ faction_trollblood_entries = {"groups":[
         "name": "Mountain King"
       },
       {
-        "id": "TB16",
+        "id": "TB18",
         "fa": "2",
         "faction": "faction_trollblood",
         "type": "warbeast",
