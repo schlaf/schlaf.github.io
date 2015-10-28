@@ -302,6 +302,14 @@ faction_orboros_entries = {"groups":[
         "name": "Feral Warpwolf"
       },
       {
+        "id": "OB20",
+        "fa": "2",
+        "faction": "faction_orboros",
+        "type": "warbeast",
+        "cost": 19,
+        "name": "Storm Raptor"
+      },
+      {
         "id": "Laris",
         "fa": "C",
         "faction": "faction_orboros",
@@ -453,6 +461,18 @@ faction_orboros_entries = {"groups":[
         "type": "unit",
         "cost": 5,
         "name": "Death Wolves, The"
+      },
+      {
+        "min": 3,
+        "id": "OU14",
+        "max": 5,
+        "name": "Blackclad Mist Riders",
+        "costMax": 9,
+        "costMin": 6,
+        "fa": "1",
+        "faction": "faction_orboros",
+        "type": "unit",
+        "cost": 6
       },
       {
         "id": "OU01",
@@ -616,6 +636,14 @@ faction_orboros_entries = {"groups":[
         "type": "solo",
         "cost": 1,
         "name": "Gallows Grove"
+      },
+      {
+        "id": "OS10",
+        "fa": "2",
+        "faction": "faction_orboros",
+        "type": "solo",
+        "cost": 2,
+        "name": "Bloodweaver Night Witch"
       },
       {
         "id": "OS09",

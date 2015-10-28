@@ -1026,6 +1026,10 @@ faction_trollblood_tiers = {"tiers":[
             "bonus": 1
           },
           {
+            "id": "TE01",
+            "bonus": 1
+          },
+          {
             "id": "TS05",
             "bonus": 1
           }
@@ -1052,6 +1056,7 @@ faction_trollblood_tiers = {"tiers":[
           "TA01",
           "TA02",
           "TU02",
+          "TU03",
           "TA03",
           "TU08",
           "TU11",
@@ -1103,6 +1108,7 @@ faction_trollblood_tiers = {"tiers":[
           "TA01",
           "TA02",
           "TU02",
+          "TU03",
           "TA03",
           "TU08",
           "TU11",
@@ -1157,6 +1163,7 @@ faction_trollblood_tiers = {"tiers":[
           "TA01",
           "TA02",
           "TU02",
+          "TU03",
           "TA03",
           "TU08",
           "TU11",
@@ -1203,6 +1210,7 @@ faction_trollblood_tiers = {"tiers":[
           "TA01",
           "TA02",
           "TU02",
+          "TU03",
           "TA03",
           "TU08",
           "TU11",
