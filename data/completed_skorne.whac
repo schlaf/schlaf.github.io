@@ -3,14 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
     <armies>
-        <army faction="faction_skorne" name="Skorne" version="forum_skorne_005">
+        <army faction="faction_skorne" name="Skorne" version="forum_skorne_006">
             <!-- 002 add zaal2 -->
             <!-- 003 Fixed spell typos -->
             <!-- 004 Fixed Zaal2 typo -->
             <!-- 005 august 2015 errata (animantarax) -->
-            <!-- 006 add Desert Hydra -->
+            <!-- 006 add devastation entries -->
             <warlocks>
-                <warlock id="Sw01" name="Master Tormentor Morghoul" generation="P" full_name="Master Tormentor Morghoul" qualification="Skorne Warlock" fury="5" warbeast_points="7" fa="C" completed="true">
+                <warlock id="Sw01" name="Morghoul1" generation="P" full_name="Master Tormentor Morghoul" qualification="Skorne Warlock" fury="5" warbeast_points="7" fa="C" completed="true">
                     <basestats name="MORGHOUL" spd="7" str="6" mat="8" rat="4" def="17" arm="13" cmd="8" hitpoints="15" pathfinder="true" />
                     <weapons>
                         <melee_weapon name="Ripper " pow="3" count="2" p_plus_s="9" magical="true">
@@ -28,7 +28,7 @@
                     <capacity title="PERFECT BALANCE">This model cannot be targeted by combined melee attacks, combined ranged attacks, or free strikes. Models do not gain back strike bonuses against this model. When knocked down, this model can stand up during its activation without forfeiting its movement or action if it is able to forfeit its movement or action to stand up.</capacity>
                     <capacity title="SPRINT">At the end of this model's activation, if it destroyed one or more enemy models with melee attacks this activation it can make a full advance.</capacity>
                 </warlock>
-                <warlock id="Sx01" name="Lord Assassin Morghoul" generation="E" full_name="Lord Assassin Morghoul" qualification="Skorne Epic Warlock" fury="5" warbeast_points="6" fa="C" completed="true">
+                <warlock id="Sx01" name="Morghoul2" generation="E" full_name="Lord Assassin Morghoul" qualification="Skorne Epic Warlock" fury="5" warbeast_points="6" fa="C" completed="true">
                     <basestats name="MORGHOUL" spd="7" str="6" mat="8" rat="4" def="17" arm="13" cmd="8" hitpoints="15" pathfinder="true" stealth="true" />
                     <weapons>
                         <melee_weapon name="Mercy" pow="6" p_plus_s="12" magical="true" weapon_master="true" />
@@ -45,7 +45,7 @@
                     <capacity title="ELITE CADRE [PAINGIVERS]">Friendly Paingiver models gain Perfect Balance.</capacity>
                     <capacity title="PERFECT BALANCE">This model cannot be targeted by combined melee attacks, combined ranged attacks, or free strikes. Models do not gain back strike bonuses against this model. When knocked down, this model can stand up during its activation without forfeiting its movement or action if it is able to forfeit its movement or action to stand up.</capacity>
                 </warlock>
-                <warlock id="Sw02" name="Archdomina Makeda" generation="P" full_name="Archdomina Makeda" qualification="Skorne Warlock" fury="6" warbeast_points="5" fa="C" completed="true">
+                <warlock id="Sw02" name="Makeda1" generation="P" full_name="Archdomina Makeda" qualification="Skorne Warlock" fury="6" warbeast_points="5" fa="C" completed="true">
                     <basestats name="MAKEDA" spd="6" str="7" mat="7" rat="4" def="15" arm="16" cmd="9" hitpoints="16" />
                     <weapons>
                         <melee_weapon name="Sword of Baalash " pow="5" count="2" p_plus_s="12" magical="true">
@@ -61,7 +61,7 @@
                     <capacity title="INSPIRATION [SKORNE MODELS]">Friendly Skorne models/units in this model's command range never flee and immediately rally.</capacity>
                     <capacity title="SIDE STEP">When this model hits an enemy model with an initial attack or a special attack that is not a power attack, it can advance up to 2" after the attack is resolved. This model cannot be targeted by free strikes during this movement.</capacity>
                 </warlock>
-                <warlock id="Sx02" name="Supreme Archdomina Makeda" generation="E" full_name="Supreme Archdomina Makeda" qualification="Skorne Epic Warlock" fury="6" warbeast_points="5" fa="C" completed="true">
+                <warlock id="Sx02" name="Makeda2" generation="E" full_name="Supreme Archdomina Makeda" qualification="Skorne Epic Warlock" fury="6" warbeast_points="5" fa="C" completed="true">
                     <basestats name="MAKEDA" spd="6" str="7" mat="7" rat="4" def="15" arm="17" cmd="10" hitpoints="16" />
                     <weapons>
                         <melee_weapon name="Sword of Baalash " pow="5" count="2" p_plus_s="12" magical="true" />
@@ -75,7 +75,7 @@
                     <capacity title="INSPIRATION [SKORNE MODELS]">Friendly Skorne models/units in this model's command range never flee and immediately rally.</capacity>
                     <capacity title="STAY DEATH">Once per turn, when a friendly living Faction trooper model is disabled in this model's command range, this model can spend 1 fury point for the disabled model to heal 1 damage point.</capacity>
                 </warlock>
-                <warlock id="Sz02" name="Makeda &amp; the Exalted Court" generation="EE" full_name="Makeda &amp; the Exalted Court" qualification="Skorne Epic Warlock Unit" fury="6" warbeast_points="2" fa="C" completed="true">
+                <warlock id="Sz02" name="Makeda3" generation="EE" full_name="Makeda &amp; the Exalted Court" qualification="Skorne Epic Warlock Unit" fury="6" warbeast_points="2" fa="C" completed="true">
                     <basestats name="MAKEDA" spd="6" str="7" mat="8" rat="4" def="15" arm="17" cmd="10" hitpoints="16" officer="true" />
                     <weapons>
                         <melee_weapon name="Talon of Murzoul" pow="8" p_plus_s="15" magical="true" reach="true">
@@ -105,7 +105,7 @@
                         </weapons>
                     </model>
                 </warlock>
-                <warlock id="Sw03" name="Lord Tyrant Hexeris" generation="P" full_name="Lord Tyrant Hexeris" qualification="Skorne Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
+                <warlock id="Sw03" name="Hexeris1" generation="P" full_name="Lord Tyrant Hexeris" qualification="Skorne Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
                     <basestats name="HEXERIS" spd="6" str="8" mat="7" rat="4" def="15" arm="16" cmd="8" hitpoints="17" />
                     <weapons>
                         <melee_weapon name="Gulgata" pow="6" p_plus_s="14" magical="true" reach="true">
@@ -121,7 +121,7 @@
                     <spell name="SOUL SLAVE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target warbeast in this model's battlegroup automatically passes threshold checks. This model can channel spells through the affected warbeast.</spell>
                     <capacity title="VAMPIRIC REAPING">This model can reave fury points from enemy warbeasts destroyed in its control area if it is closer to the warbeast than all other models that could reave its fury.</capacity>
                 </warlock>
-                <warlock id="Sx03" name="Lord Arbiter Hexeris" generation="E" full_name="Lord Arbiter Hexeris" qualification="Skorne Epic Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
+                <warlock id="Sx03" name="Hexeris2" generation="E" full_name="Lord Arbiter Hexeris" qualification="Skorne Epic Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
                     <basestats name="HEXERIS" spd="6" str="8" mat="7" rat="4" def="15" arm="16" cmd="8" hitpoints="17" />
                     <weapons>
                         <melee_weapon name="Gulgata" pow="6" p_plus_s="14" magical="true" reach="true">
@@ -137,7 +137,7 @@
                     <capacity title="VAMPIRIC HARVEST">When a living enemy model is destroyed in this model's control area, a model in this model's battlegroup in its control area can heal 1 damage point.</capacity>
                     <capacity title="WARBEST BOND">One non-character warbeast in Hexeris' battlegroup can begin the game bonded to him. Hexeris can channel spells through the bonded warbeast while it is in his command range.</capacity>
                 </warlock>
-                <warlock id="SW04" name="Tyrant Xerxis" generation="P" full_name="Tyrant Xerxis" qualification="Skorne Warlock" fury="5" warbeast_points="5" fa="C" completed="true">
+                <warlock id="SW04" name="Xerxis1" generation="P" full_name="Tyrant Xerxis" qualification="Skorne Warlock" fury="5" warbeast_points="5" fa="C" completed="true">
                     <basestats name="XERXIS" spd="5" str="8" mat="8" rat="4" def="13" arm="18" cmd="9" hitpoints="19" />
                     <weapons>
                         <melee_weapon name="Pillars of Halaak " pow="6" count="2" p_plus_s="14" magical="true" reach="true">
@@ -154,7 +154,7 @@
                     <capacity title="MARTIAL DISCIPLINE">Friendly living Faction warrior models with small or medium bases can ignore friendly Faction warrior models in this model's command range when determining LOS and can advance through friendly Faction warrior models in this model's command range if they have enough movement to move completely past them.</capacity>
                     <capacity title="OVERTAKE">When this model destroys one or more enemy warrior models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1".</capacity>
                 </warlock>
-                <warlock id="Sx04" name="Xerxis, Fury of Halaak" generation="E" full_name="Xerxis, Fury of Halaak" qualification="Skorne Epic Cavalry Battle Engine Warlock" fury="5" warbeast_points="5" fa="C" completed="true">
+                <warlock id="Sx04" name="Xerxis2" generation="E" full_name="Xerxis, Fury of Halaak" qualification="Skorne Epic Cavalry Battle Engine Warlock" fury="5" warbeast_points="5" fa="C" completed="true">
                     <basestats name="XERXIS" spd="7" str="8" mat="8" rat="4" def="13" arm="19" cmd="9" hitpoints="19" />
                     <weapons>
                         <melee_weapon name="Lamentor" pow="7" p_plus_s="15" magical="true" reach="true">
@@ -173,7 +173,7 @@
                     <capacity title="COMBAT RIDER">During a combat action it did not make a charge attack, this model can make one melee attack with its Mount.</capacity>
                     <capacity title="WARBEAST BOND">One non-character warbeast in Xerxis' battlegroup can begin the game bonded to him. Once per turn during his activation, Xerxis can cast the bonded warbeast's animus as a spell without spending fury.</capacity>
                 </warlock>
-                <warlock id="SW05" name="Supreme Aptimus Zaal &amp; Kovaas" generation="P" full_name="Supreme Aptimus Zaal &amp; Kovaas" qualification="Skorne Warlock" fury="7" warbeast_points="5" fa="C" completed="true">
+                <warlock id="SW05" name="Zaal1" generation="P" full_name="Supreme Aptimus Zaal &amp; Kovaas" qualification="Skorne Warlock" fury="7" warbeast_points="5" fa="C" completed="true">
                     <basestats name="ZAAL" spd="6" str="5" mat="6" rat="6" def="15" arm="14" cmd="8" hitpoints="15" gunfighter="true" />
                     <weapons>
                         <ranged_weapon name="Spirit Eye" rng="8" rof="1" aoe="-" pow="6" magical="true">
@@ -203,15 +203,15 @@
                         <capacity title="SOUL TAKER">This model gains one soul token when a living enemy model is destroyed within 2" of it. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
                     </model>
                 </warlock>
-                <warlock id="Sx05" name="Zaal, The Ancestral Advocate" generation="E" full_name="Zaal, The Ancestral Advocate" qualification="Skorne Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
+                <warlock id="Sx05" name="Zaal2" generation="E" full_name="Zaal, The Ancestral Advocate" qualification="Skorne Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
                     <basestats name="ZAAL" spd="4" str="8" mat="6" rat="6" def="10" arm="18" cmd="8" hitpoints="18" construct="true" />
                     <weapons>
                         <melee_weapon name="Obsidian Staff " pow="6" count="1" p_plus_s="14" magical="true" reach="true">
                             <capacity title="SILENCER">A model hit by this weapon cannot cast spells for one round.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Strength Eternal">Remove d6 +3 damage points from each friendly Faction model with Construct currently in Zaal's control area. While in Zaal's control area, friendly Faction models with Construct gain boosted melee attack rolls and +5 arm for one round.</feat>
-                    <spell name="ANNIHLATION" cost="4" rng="10" aoe="3" pow="10" up="NO" off="YES"> Models hit suffer a POW 10 damage roll. Models boxed by Annihlation are removed from play. This model gains a soul token for each living non-soulless enemy model removed from play this way.</spell>
+                    <feat title="Strength Eternal">Remove d6+3 damage points from each friendly Faction model with Construct currently in Zaal's control area. While in Zaal's control area, friendly Faction models with Construct gain boosted melee attack rolls and +5 ARM for one round.</feat>
+                    <spell name="ANNIHILATION" cost="4" rng="10" aoe="3" pow="10" up="NO" off="YES"> Models hit suffer a POW 10 damage roll. Models boxed by Annihilation are removed from play. This model gains a soul token for each living non-soulless enemy model removed from play this way.</spell>
                     <spell name="MAGE SIGHT" cost="2" rng="CTRL" aoe="5" pow="-" up="YES" off="NO">Place a 5'' AOE completely in this model's control area. While a model is within the AOE, models in this model's battlegroup ignore forests and cloud effects when drawing LOS to it and ignore Stealh when attacking it.</spell>
                     <spell name="SUNDER SPIRIT" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">An enemy warbeast damaged by Sunder Spirit loses its animus for one round.</spell>
                     <spell name="TRANSFERENCE" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO"> While in this model's control area, friendly Faction non-warlock warrior models can spend 1 fury point on this model to boost a melee attack or melee damage roll during their activation.</spell>
@@ -543,20 +543,21 @@
                 </warbeast>
                 <warbeast id="SB22" name="Desert Hydra" full_name="Desert Hydra" qualification="Skorne Gargantuan" fa="2" cost="19" fury="4" threshold="8" damage_spiral="14-20-14" completed="true">
                     <basestats name="HYDRA" spd="5" str="14" mat="6" rat="5" def="9" arm="19" cmd="7" gunfighter="true" />
-                        <weapons>
-                            <ranged_weapon name="Acid Spray" rng="SP6" rof="1" aoe="-" pow="12" corrosion="true" continuous_corrosion="true">
-                                <capacity title="CONCENTRATED BLAST (★ATTACK)">This weapon becomes RNG SP10 and POW 16 for this attack.</capacity>
-                            </ranged_weapon>
-                            <melee_weapon name="Bite" pow="4" p_plus_s="18" location="-">
-                                <capacity title="CRITICAL GRIEVOUS WOUNDS">On a critical hit, the model hit by this weapon loses Tough, cannot heal or be healed, and cannot transfer damage for one round.</capacity>
-                            </melee_weapon>
-                        </weapons>
-                        <animus name="SAND STORM" cost="2" rng="SELF" aoe="*" pow="-" up="NO" off="NO">While in this model's command range, enemy models cannot make ranged attacks. Sand Storm lasts for one round.</animus>
-                        <capacity title="CIRCULAR VISION">This model's front arc extends to 360°.</capacity>
-                        <capacity title="MULTIPLE HEADS [5]">This model can make 5 initial attacks each combat action, using any combination of Acid Spray and Bite attacks. This model loses one initial attack for each aspect it has lost. This model cannot be forced to make additional Acid Spray attacks.</capacity>
-                        <capacity title="REGENERATION [D3+3]">This model can be forced to heal d3+3 damage points once per activation. This model cannot use Regeneration during an activation it runs.</capacity>
-                        <capacity title="SNACKING">When this model boxes a living model with a melee attack, this model can heal d3 damage points. If this model heals, the boxed model is removed from play.</capacity>
+                    <weapons>
+                        <ranged_weapon name="Acid Spray" rng="SP6" rof="1" aoe="-" pow="12" corrosion="true" continuous_corrosion="true">
+                            <capacity title="CONCENTRATED BLAST (★ATTACK)">This weapon becomes RNG SP10 and POW 16 for this attack.</capacity>
+                        </ranged_weapon>
+                        <melee_weapon name="Bite" pow="4" p_plus_s="18" location="-">
+                            <capacity title="CRITICAL GRIEVOUS WOUNDS">On a critical hit, the model hit by this weapon loses Tough, cannot heal or be healed, and cannot transfer damage for one round.</capacity>
+                        </melee_weapon>
+                    </weapons>
+                    <animus name="SAND STORM" cost="2" rng="SELF" aoe="*" pow="-" up="NO" off="NO">While in this model's command range, enemy models cannot make ranged attacks. Sand Storm lasts for one round.</animus>
+                    <capacity title="CIRCULAR VISION">This model's front arc extends to 360°.</capacity>
+                    <capacity title="MULTIPLE HEADS [5]">This model can make 5 initial attacks each combat action, using any combination of Acid Spray and Bite attacks. This model loses one initial attack for each aspect it has lost. This model cannot be forced to make additional Acid Spray attacks.</capacity>
+                    <capacity title="REGENERATION [D3+3]">This model can be forced to heal d3+3 damage points once per activation. This model cannot use Regeneration during an activation it runs.</capacity>
+                    <capacity title="SNACKING">When this model boxes a living model with a melee attack, this model can heal d3 damage points. If this model heals, the boxed model is removed from play.</capacity>
                 </warbeast>
+
             </warbeasts>
             <battleEngines>
                 <battleEngine id="SE01" name="Siege Animantarax" full_name="Siege Animantarax" qualification="Skorne Battle Engine" fa="2" cost="9" completed="true">
@@ -620,13 +621,33 @@
                         </model>
                     </unit_attachment>
                 </unit>
-                <unit id="SU04" name="Immortals" full_name="Immortals" qualification="Skorne Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true">
-                    <basestats name="LEADER &amp; GRUNTS" spd="4" str="7" mat="6" rat="3" def="12" arm="17" cmd="8" construct="true" />
+                <unit id="SU04" name="Immortals" full_name="Immortals" qualification="Skorne Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true" has_unit_attachment="true">
+                    <basestats name="LEADER &amp; GRUNTS" spd="4" str="7" mat="6" rat="3" def="12" arm="17" cmd="8" construct="true"/>
                     <weapons>
                         <melee_weapon name="Great Sword" pow="6" p_plus_s="13" magical="true" reach="true" />
                     </weapons>
                     <capacity title="RESONANCE [ANCESTRAL GUARDIAN]">When it begins its activation in the command range of a friendly Ancestral Guardian model, this model gains +2" movement this activation.</capacity>
                     <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
+                    <unit_attachment id="SA04" name="Extoller Advocate" full_name="Extoller Advocate" qualification="Skorne Unit Attachment" fa="1" completed="true" cost="2">
+                        <model id="advocate">
+                            <basestats name="ADVOCATE" spd="6" str="5" mat="5" rat="5" def="14" arm="13" cmd="8" gunfighter="true" officer="true"/>
+                            <weapons>
+                                <ranged_weapon name="Spirit Eye" rng="8" rof="1" aoe="-" pow="6" magical="true">
+                                    <capacity title="ANNIHILATING GAZE">When a living model is hit by this attack, add its current STR to the damage roll.</capacity>
+                                    <capacity title="GHOST SHOT">This model ignores LOS when making attacks with this weapon. When resolving attacks with this weapon, ignore concealment and cover.</capacity>
+                                </ranged_weapon>
+                                <melee_weapon name="Staff of Ancients" pow="4" p_plus_s="9" magical="true" reach="true"></melee_weapon>
+                            </weapons>
+                            <capacity title="ATTACHMENT [IMMORTALS]">This attachment can be added to an Immortals unit.</capacity>
+                            <capacity title="DEATH BOON"> When a model in this unit makes an attack or damage roll during its activation, this model can spend one soul token to cause that model to reroll that roll. Each roll can be rerolled only once due to Death Boon.</capacity>
+                            <capacity title="SACRIFICIAL PAWN [IMMORTAL]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Immortal model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
+                            <capacity title="SHEPHERD">This model gains one soul token for each model in this unit in formation destroyed by a continuous effect, an enemy attack, or collateral damage from an enemy attack. This model can have up to five soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
+                            <capacity title="SOUL MASTERY">Anytime during its activation, this model can spend soul tokens for the following effects. Each use of a Soul Mastery effect costs one soul token.</capacity>
+                            <capacity title="● GRAVE MIST">Models in this unit gain concealment and +2 DEF against melee attacks for one round.</capacity>
+                            <capacity title="● SPIRIT WALKER">Models in this unit in formation gain Incorporeal for one turn.</capacity>
+                            <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent’s last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
+                        </model>
+                    </unit_attachment>
                 </unit>
                 <unit id="SU05" name="Paingiver Beast Handlers" full_name="Paingiver Beast Handlers" qualification="Skorne Unit" fa="2" base_cost="2" full_cost="3" baseCount="4" fullCount="6" completed="true">
                     <basestats name="LEADER &amp; GRUNTS" spd="6" str="5" mat="5" rat="4" def="13" arm="11" cmd="8" />
@@ -808,6 +829,36 @@
                     <capacity title="BLADE SHIELD">This model gains +2 DEF against ranged attack rolls.</capacity>
                     <capacity title="PARRY">This model cannot be targeted by free strikes.</capacity>
                     <capacity title="REFORM">After all models in this unit have completed their actions, each can advance up to 3".</capacity>
+                </unit>
+                <unit id="SU16" name="Legends of Halaak" full_name="Legends of Halaak" qualification="Skorne Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="3" fullCount="-" completed="true">
+                    <basestats name="VALGESH" spd="6" str="7" mat="7" rat="4" def="13" arm="15" cmd="10" officer="true" fearless="true" />
+                    <weapons>
+                        <melee_weapon name="Sword" pow="3" p_plus_s="10" count="2">
+                            <capacity title="Combo Strike" type="*Attack"> Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model’s STR plus twice the POW of this weapon.</capacity>
+                        </melee_weapon>
+                    </weapons>
+                    <capacity title="FLANK [ANOTHER MODEL IN THIS UNIT]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
+                    <capacity title="GRANTED: SIDE STEP">While this model is in play, models in this unit gain Side Step. (When a model with Side Step hits an enemy model with an initial melee attack or a melee special attack that is not a power attack, it can advance up to 2"  after the attack is resolved. It cannot be targeted by free strikes during this movement.)</capacity>
+                    <model id="cidaar">
+                        <basestats name="CIDAAR" spd="6" str="7" mat="7" rat="4" def="13" arm="15" cmd="10" fearless="true" />
+                        <weapons>
+                            <melee_weapon name="Naginata" pow="5" p_plus_s="12" reach="true" />
+                        </weapons>
+                        <capacity title="DEFENSIVE STRIKE">Once per turn, when an enemy model advances into and ends its movement in this model’s melee range, this model can immediately make one normal melee attack against it.</capacity>
+                        <capacity title="FLANK [ANOTHER MODEL IN THIS UNIT]">See above.</capacity>
+                        <capacity title="GRANTED: SYNCHRONICITY">While this model is in play, models in its unit gain Synchronicity. (While B2B with one or more models in its unit, a model with Synchronicity gains +2 DEF.)</capacity>
+                    </model>
+                    <model id="J’DETH">
+                        <basestats name="J’DETH" spd="6" str="7" mat="7" rat="4" def="13" arm="15" cmd="10" fearless="true" />
+                        <weapons>
+                            <melee_weapon name="Maul" pow="4" p_plus_s="11" count="2">
+                                <capacity title="Combo Smite" type="*Attack">Make a melee attack. On a hit, instead of making a normal damage roll the target model is slammed d6" directly away from this model and suffers a damage roll with POW equal to the STR of this model plus twice the POW of this weapon. The POW of collateral damage is equal to this model’s STR.</capacity>
+                            </melee_weapon>
+                        </weapons>
+                        <capacity title="FLANK [ANOTHER MODEL IN THIS UNIT]">See above.</capacity>
+                        <capacity title="GRANTED: RELENTLESS CHARGE">While this model is in play, models in this unit gain Relentless Charge. (Models with Relentless Charge gain Pathfinder during activations they charge.)</capacity>
+                    </model>
+
                 </unit>
             </units>
             <solos>
