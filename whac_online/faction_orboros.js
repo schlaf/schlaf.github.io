@@ -1,690 +1,681 @@
 faction_orboros_entries = {"groups":[
   {
+    "logo": "faction_orboros",
     "id": "faction_orboros_warcasters",
     "entries": [],
-    "logo": "faction_orboros",
     "label": "Warcasters"
   },
   {
+    "logo": "faction_orboros",
     "id": "faction_orboros_warlocks",
     "entries": [
       {
-        "id": "OW05",
+        "name": "Morvahna1(Morvahna the Autumnblade)",
         "fa": "C",
+        "cost": 6,
         "faction": "faction_orboros",
-        "type": "warlock",
-        "cost": 4,
-        "name": "Kromac1(Kromac the Ravenous)"
-      },
-      {
         "id": "Ow04",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warlock",
-        "cost": 6,
-        "name": "Morvahna1(Morvahna the Autumnblade)"
+        "type": "warlock"
       },
       {
-        "id": "OW07",
+        "name": "Krueger1(Krueger the Stormwrath)",
         "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warlock",
-        "cost": 6,
-        "name": "Cassius(Cassius the Oathkeeper and Wurmwood, Tree of Fate)"
-      },
-      {
-        "id": "Ox04",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warlock",
         "cost": 5,
-        "name": "Morvahna2(Morvahna the Dawnshadow)"
-      },
-      {
-        "id": "OW06",
-        "fa": "C",
         "faction": "faction_orboros",
-        "type": "warlock",
-        "cost": 5,
-        "name": "Mohsar(Mohsar the Desertwalker)"
-      },
-      {
-        "id": "Ox03",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warlock",
-        "cost": 5,
-        "name": "Baldur2(Baldur the Stonesoul)"
-      },
-      {
-        "id": "Ox02",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warlock",
-        "cost": 5,
-        "name": "Krueger2(Krueger the Stormlord)"
-      },
-      {
-        "id": "Ow01",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warlock",
-        "cost": 6,
-        "name": "Kaya1(Kaya the Wildborne)"
-      },
-      {
-        "id": "Ox01",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warlock",
-        "cost": 3,
-        "name": "Kaya2(Kaya the Moonhunter & Laris)"
-      },
-      {
-        "id": "Ow03",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warlock",
-        "cost": 6,
-        "name": "Baldur1(Baldur the Stonecleaver)"
-      },
-      {
         "id": "Ow02",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warlock",
-        "cost": 5,
-        "name": "Krueger1(Krueger the Stormwrath)"
+        "type": "warlock"
       },
       {
-        "id": "OW08",
+        "name": "Bradigus(Bradigus Thorle the Runecarver)",
         "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warlock",
         "cost": 6,
-        "name": "Grayle"
-      },
-      {
+        "faction": "faction_orboros",
         "id": "OW09",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warlock",
-        "cost": 6,
-        "name": "Bradigus(Bradigus Thorle the Runecarver)"
+        "type": "warlock"
       },
       {
-        "id": "OW10",
+        "name": "Kromac2(Kromac, Champion of the Wurm)",
         "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warlock",
         "cost": 4,
-        "name": "Kromac2(Kromac, Champion of the Wurm)"
+        "faction": "faction_orboros",
+        "id": "OW10",
+        "type": "warlock"
+      },
+      {
+        "name": "Krueger2(Krueger the Stormlord)",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_orboros",
+        "id": "Ox02",
+        "type": "warlock"
+      },
+      {
+        "name": "Baldur2(Baldur the Stonesoul)",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_orboros",
+        "id": "Ox03",
+        "type": "warlock"
+      },
+      {
+        "name": "Grayle",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_orboros",
+        "id": "OW08",
+        "type": "warlock"
+      },
+      {
+        "name": "Kromac(Kromac the Ravenous)",
+        "fa": "C",
+        "cost": 4,
+        "faction": "faction_orboros",
+        "id": "OW05",
+        "type": "warlock"
+      },
+      {
+        "name": "Kaya2(Kaya the Moonhunter & Laris)",
+        "fa": "C",
+        "cost": 3,
+        "faction": "faction_orboros",
+        "id": "Ox01",
+        "type": "warlock"
+      },
+      {
+        "name": "Kaya1(Kaya the Wildborne)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_orboros",
+        "id": "Ow01",
+        "type": "warlock"
+      },
+      {
+        "name": "Cassius(Cassius the Oathkeeper and Wurmwood, Tree of Fate)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_orboros",
+        "id": "OW07",
+        "type": "warlock"
+      },
+      {
+        "name": "Morvahna2(Morvahna the Dawnshadow)",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_orboros",
+        "id": "Ox04",
+        "type": "warlock"
+      },
+      {
+        "name": "Mohsar(Mohsar the Desertwalker)",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_orboros",
+        "id": "OW06",
+        "type": "warlock"
+      },
+      {
+        "name": "Baldur1(Baldur the Stonecleaver)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_orboros",
+        "id": "Ow03",
+        "type": "warlock"
       }
     ],
-    "logo": "faction_orboros",
     "label": "Warlocks"
   },
   {
+    "logo": "faction_orboros",
     "id": "faction_orboros_warjacks",
     "entries": [],
-    "logo": "faction_orboros",
     "label": "Warjacks"
   },
   {
+    "logo": "faction_orboros",
     "id": "faction_orboros_warbeasts",
     "entries": [
       {
-        "id": "OB11",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 10,
-        "name": "Warpwolf Stalker"
-      },
-      {
-        "id": "OB10",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 9,
-        "name": "Woldwarden"
-      },
-      {
-        "id": "OB13",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 5,
-        "name": "Scarsfell Griffon"
-      },
-      {
-        "id": "OB04",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 5,
-        "name": "Woldwyrd"
-      },
-      {
-        "id": "OB21",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 9,
-        "name": "Brennos the Elderhorn"
-      },
-      {
-        "id": "OB12",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 9,
-        "name": "Woldguardian"
-      },
-      {
-        "id": "OB03",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 5,
-        "name": "Woldwatcher"
-      },
-      {
-        "id": "OB20",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 4,
-        "name": "Argus Moonhound"
-      },
-      {
-        "id": "OB15",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 5,
-        "name": "Winter Argus"
-      },
-      {
-        "id": "OB02",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 4,
-        "name": "Gorax"
-      },
-      {
-        "id": "OB14",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 11,
-        "name": "Ghetorix"
-      },
-      {
-        "id": "OB01",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 4,
-        "name": "Argus"
-      },
-      {
-        "id": "OB17",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 9,
-        "name": "Rip Horn Satyr"
-      },
-      {
-        "id": "OB08",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 7,
-        "name": "Shadowhorn Satyr"
-      },
-      {
-        "id": "OB16",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 5,
-        "name": "Razorwing Griffon"
-      },
-      {
-        "id": "OB07",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 9,
-        "name": "Pureblood Warpwolf"
-      },
-      {
-        "id": "OB19",
-        "fa": "U",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 4,
-        "name": "Rotterhorn Griffon"
-      },
-      {
-        "id": "OB06",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 11,
-        "name": "Megalith"
-      },
-      {
-        "id": "OB18",
+        "name": "Woldwrath",
         "fa": "2",
-        "faction": "faction_orboros",
-        "type": "warbeast",
         "cost": 20,
-        "name": "Woldwrath"
+        "faction": "faction_orboros",
+        "id": "OB18",
+        "type": "warbeast"
       },
       {
-        "id": "OB05",
+        "name": "Shadowhorn Satyr",
         "fa": "U",
+        "cost": 7,
         "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 8,
-        "name": "Gnarlhorn Satyr"
+        "id": "OB08",
+        "type": "warbeast"
       },
       {
-        "id": "OB09",
+        "name": "Rotterhorn Griffon",
         "fa": "U",
+        "cost": 4,
         "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 9,
-        "name": "Feral Warpwolf"
+        "id": "OB19",
+        "type": "warbeast"
       },
       {
-        "id": "OB20",
-        "fa": "2",
-        "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 19,
-        "name": "Storm Raptor"
-      },
-      {
-        "id": "Laris",
+        "name": "Ghetorix",
         "fa": "C",
+        "cost": 11,
         "faction": "faction_orboros",
-        "type": "warbeast",
-        "cost": 0,
+        "id": "OB14",
+        "type": "warbeast"
+      },
+      {
+        "name": "Rip Horn Satyr",
+        "fa": "U",
+        "cost": 9,
+        "faction": "faction_orboros",
+        "id": "OB17",
+        "type": "warbeast"
+      },
+      {
+        "name": "Scarsfell Griffon",
+        "fa": "U",
+        "cost": 5,
+        "faction": "faction_orboros",
+        "id": "OB13",
+        "type": "warbeast"
+      },
+      {
+        "name": "Woldwyrd",
+        "fa": "U",
+        "cost": 5,
+        "faction": "faction_orboros",
+        "id": "OB04",
+        "type": "warbeast"
+      },
+      {
+        "name": "Gorax",
+        "fa": "U",
+        "cost": 4,
+        "faction": "faction_orboros",
+        "id": "OB02",
+        "type": "warbeast"
+      },
+      {
+        "name": "Laris",
+        "fa": "C",
         "restricted_to": ["Ox01"],
-        "name": "Laris"
+        "cost": 0,
+        "faction": "faction_orboros",
+        "id": "Laris",
+        "type": "warbeast"
+      },
+      {
+        "name": "Brennos the Elderhorn",
+        "fa": "C",
+        "cost": 9,
+        "faction": "faction_orboros",
+        "id": "OB21",
+        "type": "warbeast"
+      },
+      {
+        "name": "Woldwarden",
+        "fa": "U",
+        "cost": 9,
+        "faction": "faction_orboros",
+        "id": "OB10",
+        "type": "warbeast"
+      },
+      {
+        "name": "Gnarlhorn Satyr",
+        "fa": "U",
+        "cost": 8,
+        "faction": "faction_orboros",
+        "id": "OB05",
+        "type": "warbeast"
+      },
+      {
+        "name": "Argus Moonhound",
+        "fa": "U",
+        "cost": 4,
+        "faction": "faction_orboros",
+        "id": "OB20",
+        "type": "warbeast"
+      },
+      {
+        "name": "Winter Argus",
+        "fa": "U",
+        "cost": 5,
+        "faction": "faction_orboros",
+        "id": "OB15",
+        "type": "warbeast"
+      },
+      {
+        "name": "Woldguardian",
+        "fa": "U",
+        "cost": 9,
+        "faction": "faction_orboros",
+        "id": "OB12",
+        "type": "warbeast"
+      },
+      {
+        "name": "Feral Warpwolf",
+        "fa": "U",
+        "cost": 9,
+        "faction": "faction_orboros",
+        "id": "OB09",
+        "type": "warbeast"
+      },
+      {
+        "name": "Woldwatcher",
+        "fa": "U",
+        "cost": 5,
+        "faction": "faction_orboros",
+        "id": "OB03",
+        "type": "warbeast"
+      },
+      {
+        "name": "Razorwing Griffon",
+        "fa": "U",
+        "cost": 5,
+        "faction": "faction_orboros",
+        "id": "OB16",
+        "type": "warbeast"
+      },
+      {
+        "name": "Pureblood Warpwolf",
+        "fa": "U",
+        "cost": 9,
+        "faction": "faction_orboros",
+        "id": "OB07",
+        "type": "warbeast"
+      },
+      {
+        "name": "Megalith",
+        "fa": "C",
+        "cost": 11,
+        "faction": "faction_orboros",
+        "id": "OB06",
+        "type": "warbeast"
+      },
+      {
+        "name": "Warpwolf Stalker",
+        "fa": "U",
+        "cost": 10,
+        "faction": "faction_orboros",
+        "id": "OB11",
+        "type": "warbeast"
+      },
+      {
+        "name": "Argus",
+        "fa": "U",
+        "cost": 4,
+        "faction": "faction_orboros",
+        "id": "OB01",
+        "type": "warbeast"
+      },
+      {
+        "name": "Storm Raptor",
+        "fa": "2",
+        "cost": 19,
+        "faction": "faction_orboros",
+        "id": "OB22",
+        "type": "warbeast"
       }
     ],
-    "logo": "faction_orboros",
     "label": "Warbeasts"
   },
   {
+    "logo": "faction_orboros",
     "id": "faction_orboros_bes",
     "entries": [{
-      "id": "OE01",
+      "name": "Celestal Fulcrum",
       "fa": "2",
-      "faction": "faction_orboros",
-      "type": "battleengine",
       "cost": 9,
-      "name": "Celestal Fulcrum"
+      "faction": "faction_orboros",
+      "id": "OE01",
+      "type": "battleengine"
     }],
-    "logo": "faction_orboros",
     "label": "Battle engines"
   },
   {
+    "logo": "faction_orboros",
     "id": "faction_orboros_units",
     "entries": [
       {
-        "id": "OU05",
+        "name": "Stoneward and Woldstalkers(Druid Stoneward and Woldstalkers)",
         "fa": "2",
-        "faction": "faction_orboros",
-        "type": "unit",
         "cost": 5,
-        "name": "Tharn Bloodweavers"
-      },
-      {
-        "id": "OU10",
-        "fa": "2",
         "faction": "faction_orboros",
-        "type": "unit",
-        "cost": 3,
-        "name": "Sentry Stone & Mannikins"
-      },
-      {
-        "min": 6,
-        "id": "OU04",
-        "max": 10,
-        "name": "Reeves of Orboros",
-        "costMax": 10,
-        "costMin": 6,
-        "fa": "2",
-        "faction": "faction_orboros",
-        "type": "unit",
-        "cost": 6
-      },
-      {
-        "min": 3,
-        "id": "OU11",
-        "max": 5,
-        "name": "Warpborn Skinwalkers",
-        "costMax": 8,
-        "costMin": 5,
-        "fa": "2",
-        "faction": "faction_orboros",
-        "type": "unit",
-        "cost": 5
-      },
-      {
-        "min": 4,
-        "id": "OU03",
-        "max": 6,
-        "name": "Tharn Ravagers",
-        "costMax": 9,
-        "costMin": 6,
-        "fa": "2",
-        "faction": "faction_orboros",
-        "type": "unit",
-        "cost": 6
-      },
-      {
-        "min": 4,
-        "id": "OU12",
-        "max": 6,
-        "name": "Tharn Blood Pack",
-        "costMax": 10,
-        "costMin": 7,
-        "fa": "2",
-        "faction": "faction_orboros",
-        "type": "unit",
-        "cost": 7
-      },
-      {
         "id": "OU02",
-        "fa": "2",
-        "faction": "faction_orboros",
-        "type": "unit",
-        "cost": 5,
-        "name": "Stoneward and Woldstalkers(Druid Stoneward and Woldstalkers)"
+        "type": "unit"
       },
       {
-        "id": "OU09",
-        "fa": "2",
-        "faction": "faction_orboros",
-        "type": "unit",
-        "cost": 2,
-        "name": "Shifting Stones"
-      },
-      {
-        "min": 6,
-        "id": "OU08",
-        "max": 10,
-        "name": "Wolves of Orboros",
-        "costMax": 6,
-        "costMin": 4,
-        "fa": "3",
-        "faction": "faction_orboros",
-        "type": "unit",
-        "cost": 4
-      },
-      {
-        "min": 6,
-        "id": "OU07",
-        "max": 10,
-        "name": "Tharn Bloodtrackers",
-        "costMax": 8,
-        "costMin": 5,
-        "fa": "1",
-        "faction": "faction_orboros",
-        "type": "unit",
-        "cost": 5
-      },
-      {
-        "min": 3,
-        "id": "OU06",
-        "max": 5,
-        "name": "Tharn Wolf Riders",
-        "costMax": 10,
-        "costMin": 6,
-        "fa": "1",
-        "faction": "faction_orboros",
-        "type": "unit",
-        "cost": 6
-      },
-      {
-        "id": "OU13",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "unit",
-        "cost": 5,
-        "name": "Death Wolves, The"
-      },
-      {
-        "min": 3,
-        "id": "OU14",
-        "max": 5,
-        "name": "Blackclad Mist Riders",
+        "max": 6,
+        "min": 4,
         "costMax": 9,
+        "fa": "2",
         "costMin": 6,
-        "fa": "1",
+        "id": "OU03",
+        "name": "Tharn Ravagers",
+        "cost": 6,
         "faction": "faction_orboros",
-        "type": "unit",
-        "cost": 6
+        "type": "unit"
       },
       {
-        "id": "OU01",
+        "name": "Sentry Stone & Mannikins",
         "fa": "2",
+        "cost": 3,
         "faction": "faction_orboros",
-        "type": "unit",
+        "id": "OU10",
+        "type": "unit"
+      },
+      {
+        "name": "Tharn Bloodweavers",
+        "fa": "2",
+        "cost": 5,
+        "faction": "faction_orboros",
+        "id": "OU05",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 6,
+        "fa": "3",
+        "costMin": 4,
+        "id": "OU08",
+        "name": "Wolves of Orboros",
+        "cost": 4,
+        "faction": "faction_orboros",
+        "type": "unit"
+      },
+      {
+        "max": 6,
+        "min": 4,
+        "costMax": 10,
+        "fa": "2",
+        "costMin": 7,
+        "id": "OU12",
+        "name": "Tharn Blood Pack",
         "cost": 7,
-        "name": "Druids of Orboros"
+        "faction": "faction_orboros",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 8,
+        "fa": "1",
+        "costMin": 5,
+        "id": "OU07",
+        "name": "Tharn Bloodtrackers",
+        "cost": 5,
+        "faction": "faction_orboros",
+        "type": "unit"
+      },
+      {
+        "name": "Druids of Orboros",
+        "fa": "2",
+        "cost": 7,
+        "faction": "faction_orboros",
+        "id": "OU01",
+        "type": "unit"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "costMax": 9,
+        "fa": "1",
+        "costMin": 6,
+        "id": "OU14",
+        "name": "Blackclad Mist Riders",
+        "cost": 6,
+        "faction": "faction_orboros",
+        "type": "unit"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "costMax": 10,
+        "fa": "1",
+        "costMin": 6,
+        "id": "OU06",
+        "name": "Tharn Wolf Riders",
+        "cost": 6,
+        "faction": "faction_orboros",
+        "type": "unit"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "costMax": 8,
+        "fa": "2",
+        "costMin": 5,
+        "id": "OU11",
+        "name": "Warpborn Skinwalkers",
+        "cost": 5,
+        "faction": "faction_orboros",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 10,
+        "fa": "2",
+        "costMin": 6,
+        "id": "OU04",
+        "name": "Reeves of Orboros",
+        "cost": 6,
+        "faction": "faction_orboros",
+        "type": "unit"
+      },
+      {
+        "name": "Death Wolves, The",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_orboros",
+        "id": "OU13",
+        "type": "unit"
+      },
+      {
+        "name": "Shifting Stones",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_orboros",
+        "id": "OU09",
+        "type": "unit"
       }
     ],
-    "logo": "faction_orboros",
     "label": "Units"
   },
   {
+    "logo": "faction_orboros",
     "id": "faction_orboros_WAs",
     "entries": [{
-      "id": "OA02",
-      "fa": "1",
-      "faction": "faction_orboros",
-      "type": "WA",
-      "cost": 2,
       "name": "Tharn Ravager Shaman",
-      "restricted_to": "OU03"
+      "fa": "1",
+      "cost": 2,
+      "restricted_to": "OU03",
+      "faction": "faction_orboros",
+      "id": "OA02",
+      "type": "WA"
     }],
-    "logo": "faction_orboros",
     "label": "Weapon Attachments"
   },
   {
+    "logo": "faction_orboros",
     "id": "faction_orboros_UAs",
     "entries": [
       {
-        "id": "OA05",
-        "fa": "1",
-        "faction": "faction_orboros",
-        "type": "UA",
-        "cost": 2,
-        "name": "Reeves of Orboros Chieftain & Standard",
-        "restricted_to": "OU04"
-      },
-      {
-        "id": "OA08",
-        "fa": "1",
-        "faction": "faction_orboros",
-        "type": "UA",
-        "cost": 3,
-        "name": "Warpborn Alpha",
-        "restricted_to": "OU11"
-      },
-      {
-        "id": "OA06",
-        "fa": "1",
-        "faction": "faction_orboros",
-        "type": "UA",
-        "cost": 2,
         "name": "Tharn Ravager Chieftain",
-        "restricted_to": "OU03"
-      },
-      {
-        "id": "OA04",
         "fa": "1",
-        "faction": "faction_orboros",
-        "type": "UA",
-        "cost": 1,
-        "name": "Stone Keeper",
-        "restricted_to": "OU09"
-      },
-      {
-        "id": "OA03",
-        "fa": "1",
-        "faction": "faction_orboros",
-        "type": "UA",
         "cost": 2,
+        "restricted_to": "OU03",
+        "faction": "faction_orboros",
+        "id": "OA06",
+        "type": "UA"
+      },
+      {
         "name": "Wolf of Orboros Officer & Standard",
-        "restricted_to": "OU08"
-      },
-      {
-        "id": "OA07",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "UA",
-        "cost": 2,
-        "name": "Nuala the Huntress",
-        "restricted_to": "OU07"
-      },
-      {
-        "id": "OA01",
         "fa": "1",
-        "faction": "faction_orboros",
-        "type": "UA",
         "cost": 2,
+        "restricted_to": "OU08",
+        "faction": "faction_orboros",
+        "id": "OA03",
+        "type": "UA"
+      },
+      {
+        "name": "Nuala the Huntress",
+        "fa": "C",
+        "cost": 2,
+        "restricted_to": "OU07",
+        "faction": "faction_orboros",
+        "id": "OA07",
+        "type": "UA"
+      },
+      {
         "name": "Druids of Orboros Overseer",
-        "restricted_to": "OU01"
+        "fa": "1",
+        "cost": 2,
+        "restricted_to": "OU01",
+        "faction": "faction_orboros",
+        "id": "OA01",
+        "type": "UA"
+      },
+      {
+        "name": "Warpborn Alpha",
+        "fa": "1",
+        "cost": 3,
+        "restricted_to": "OU11",
+        "faction": "faction_orboros",
+        "id": "OA08",
+        "type": "UA"
+      },
+      {
+        "name": "Reeves of Orboros Chieftain & Standard",
+        "fa": "1",
+        "cost": 2,
+        "restricted_to": "OU04",
+        "faction": "faction_orboros",
+        "id": "OA05",
+        "type": "UA"
+      },
+      {
+        "name": "Stone Keeper",
+        "fa": "1",
+        "cost": 1,
+        "restricted_to": "OU09",
+        "faction": "faction_orboros",
+        "id": "OA04",
+        "type": "UA"
       }
     ],
-    "logo": "faction_orboros",
     "label": "Unit Attachments"
   },
   {
+    "logo": "faction_orboros",
     "id": "faction_orboros_solos",
     "entries": [
       {
-        "id": "OS02",
+        "name": "Una the Falconer",
         "fa": "C",
-        "faction": "faction_orboros",
-        "type": "solo",
-        "cost": 4,
-        "name": "Lord of the Feast"
-      },
-      {
-        "id": "OS03",
-        "fa": "2",
-        "faction": "faction_orboros",
-        "type": "solo",
-        "cost": 3,
-        "name": "Tharn Ravager White Mane"
-      },
-      {
-        "id": "OS01",
-        "fa": "2",
-        "faction": "faction_orboros",
-        "type": "solo",
-        "cost": 2,
-        "name": "Blackclad Wayfarer"
-      },
-      {
-        "id": "OS06",
-        "fa": "1",
-        "faction": "faction_orboros",
-        "type": "solo",
-        "cost": 2,
-        "name": "Druid Wilder"
-      },
-      {
-        "id": "OS07",
-        "fa": "2",
-        "faction": "faction_orboros",
-        "type": "solo",
-        "cost": 2,
-        "name": "Reeve Hunter"
-      },
-      {
-        "id": "OS04",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "solo",
-        "cost": 5,
-        "name": "Wolflord Morraig"
-      },
-      {
-        "id": "OS05",
-        "fa": "3",
-        "faction": "faction_orboros",
-        "type": "solo",
-        "cost": 1,
-        "name": "War Wolf"
-      },
-      {
-        "id": "OS08",
-        "fa": "4",
-        "faction": "faction_orboros",
-        "type": "solo",
-        "cost": 1,
-        "name": "Gallows Grove"
-      },
-      {
-        "id": "OS10",
-        "fa": "2",
-        "faction": "faction_orboros",
-        "type": "solo",
-        "cost": 2,
-        "name": "Bloodweaver Night Witch"
-      },
-      {
-        "id": "OS09",
-        "fa": "C",
-        "faction": "faction_orboros",
-        "type": "soloLesserWarlock",
-        "cost": 3,
         "restricted_to": [
           "OB13",
           "OB16",
           "OB19"
         ],
-        "name": "Una the Falconer"
+        "cost": 3,
+        "faction": "faction_orboros",
+        "id": "OS09",
+        "type": "soloLesserWarlock"
+      },
+      {
+        "name": "Druid Wilder",
+        "fa": "1",
+        "cost": 2,
+        "faction": "faction_orboros",
+        "id": "OS06",
+        "type": "solo"
+      },
+      {
+        "name": "Bloodweaver Night Witch",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_orboros",
+        "id": "OS10",
+        "type": "solo"
+      },
+      {
+        "name": "Gallows Grove",
+        "fa": "4",
+        "cost": 1,
+        "faction": "faction_orboros",
+        "id": "OS08",
+        "type": "solo"
+      },
+      {
+        "name": "War Wolf",
+        "fa": "3",
+        "cost": 1,
+        "faction": "faction_orboros",
+        "id": "OS05",
+        "type": "solo"
+      },
+      {
+        "name": "Blackclad Wayfarer",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_orboros",
+        "id": "OS01",
+        "type": "solo"
+      },
+      {
+        "name": "Reeve Hunter",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_orboros",
+        "id": "OS07",
+        "type": "solo"
+      },
+      {
+        "name": "Lord of the Feast",
+        "fa": "C",
+        "cost": 4,
+        "faction": "faction_orboros",
+        "id": "OS02",
+        "type": "solo"
+      },
+      {
+        "name": "Tharn Ravager White Mane",
+        "fa": "2",
+        "cost": 3,
+        "faction": "faction_orboros",
+        "id": "OS03",
+        "type": "solo"
+      },
+      {
+        "name": "Wolflord Morraig",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_orboros",
+        "id": "OS04",
+        "type": "solo"
       }
     ],
-    "logo": "faction_orboros",
     "label": "Solos"
   }
 ]};
 
 faction_orboros_tiers = {"tiers":[
   {
-    "availableModels": [
-      {
-        "models": "Circle construct non-character warbeasts, Megalith",
-        "type": "WARBEASTS"
-      },
-      {
-        "models": "Druids of Orboros, Druid Stoneward & Woldstalkers, Sentry Stones & Mannikins, Shifting Stones",
-        "type": "UNITS"
-      },
-      {
-        "models": "Blackclad Wayfarer, Druid Wilder",
-        "type": "SOLOS"
-      }
-    ],
+    "name": "Baldur - Rock of Orboros",
+    "casterId": "Ow03",
     "faction": "faction_orboros",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Sentry Stone & Mannikin units can be placed up to 20\" from the back edge of Baldur's deployment zone.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ow03",
@@ -702,24 +693,24 @@ faction_orboros_tiers = {"tiers":[
           "OU10",
           "OS01",
           "OS06"
-        ]},
-        "level": 1,
-        "benefit": "Sentry Stone & Mannikin units can be placed up to 20\" from the back edge of Baldur's deployment zone.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Up to one warbeast in Baldur's battlegroup gains Advance Deployment for each Shifting Stone or Sentry Stone & Mannikin unit in the army.",
+        "level": 2,
         "mustHave": [
           {
-            "inMarshal": false,
             "min": 1,
+            "inMarshal": false,
             "ids": ["OU09"],
             "inBG": false
           },
           {
-            "inMarshal": false,
             "min": 1,
+            "inMarshal": false,
             "ids": ["OU10"],
             "inBG": false
           }
@@ -740,17 +731,17 @@ faction_orboros_tiers = {"tiers":[
           "OU10",
           "OS01",
           "OS06"
-        ]},
-        "level": 2,
-        "benefit": "Up to one warbeast in Baldur's battlegroup gains Advance Deployment for each Shifting Stone or Sentry Stone & Mannikin unit in the army.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Druid Stoneward & Woldstalker units gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["OU02"],
           "inBG": false
         }],
@@ -770,10 +761,7 @@ faction_orboros_tiers = {"tiers":[
           "OU10",
           "OS01",
           "OS06"
-        ]},
-        "level": 3,
-        "benefit": "Druid Stoneward & Woldstalker units gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -791,9 +779,12 @@ faction_orboros_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OB06"],
           "inBG": false
         }],
@@ -813,39 +804,44 @@ faction_orboros_tiers = {"tiers":[
           "OU10",
           "OS01",
           "OS06"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ow03",
-    "name": "Baldur - Rock of Orboros"
-  },
-  {
     "availableModels": [
       {
-        "models": "Circle construct non-character warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Circle construct non-character warbeasts, Megalith"
       },
       {
-        "models": "Sentry Stone & Mannikins, Shifting Stones, Druid Stoneward & Woldstalkers, Reeves of Orboros, Wolves of Orboros, Death Wolves",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Druids of Orboros, Druid Stoneward & Woldstalkers, Sentry Stones & Mannikins, Shifting Stones"
       },
       {
-        "models": "Blackclad Wayfarer, Gallows Grove, Reeve Hunter, War Wolf",
-        "type": "SOLOS"
-      },
-      {
-        "models": "Celestial Fulcrum",
-        "type": "BATTLE_ENGINES"
+        "type": "SOLOS",
+        "models": "Blackclad Wayfarer, Druid Wilder"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Bradigus - Wold War",
+    "casterId": "OW09",
     "faction": "faction_orboros",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "OU09",
+            "bonus": 1
+          },
+          {
+            "id": "OU10",
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "OW09",
@@ -867,26 +863,17 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS08",
           "OE01"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "OU09",
-            "bonus": 1
-          },
-          {
-            "id": "OU10",
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You can redeploy one model/unit after both players have deployed but before the first player\u2019s first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OU09"],
           "inBG": false
         }],
@@ -910,17 +897,17 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS08",
           "OE01"
-        ]},
-        "level": 2,
-        "benefit": "You can redeploy one model/unit after both players have deployed but before the first player\u2019s first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Sentry Stones start the game with 3 Fury",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OU10"],
           "inBG": false
         }],
@@ -944,14 +931,14 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS08",
           "OE01"
-        ]},
-        "level": 3,
-        "benefit": "Sentry Stones start the game with 3 Fury",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{"id": ["OB03"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [],
         "onlyModels": {"ids": [
           "OW09",
@@ -964,30 +951,31 @@ faction_orboros_tiers = {"tiers":[
           "OU09",
           "OS08",
           "OE01"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "OW09",
-    "name": "Bradigus - Wold War"
-  },
-  {
     "availableModels": [
       {
-        "models": "Griffon warbeasts, Wold Guardian, Woldwarden, Woldwrath",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Circle construct non-character warbeasts"
       },
       {
-        "models": "Druids of Orboros, Shifting Stones, Tharn Bloodweavers",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Sentry Stone & Mannikins, Shifting Stones, Druid Stoneward & Woldstalkers, Reeves of Orboros, Wolves of Orboros, Death Wolves"
       },
       {
-        "models": "Blackclad Wayfarer, Gallows Grove",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Blackclad Wayfarer, Gallows Grove, Reeve Hunter, War Wolf"
+      },
+      {
+        "type": "BATTLE_ENGINES",
+        "models": "Celestial Fulcrum"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Cassius - Giants of Stone (NQ44)",
+    "casterId": "OW07",
     "faction": "faction_orboros",
     "levels": [
       {
@@ -1003,6 +991,9 @@ faction_orboros_tiers = {"tiers":[
           ]
         }],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "OW07",
@@ -1019,17 +1010,17 @@ faction_orboros_tiers = {"tiers":[
           "OU05",
           "OS01",
           "OS08"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Models in your army gain Spell Ward during the first round of the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["OB18"],
           "inBG": false
         }],
@@ -1048,17 +1039,17 @@ faction_orboros_tiers = {"tiers":[
           "OU05",
           "OS01",
           "OS08"
-        ]},
-        "level": 2,
-        "benefit": "Models in your army gain Spell Ward during the first round of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Blackclad Wayfarer solos gain Ambush. (You can choose not to deploy models with Ambush at the start of the game. If it is not deployed normally, you can put a model with Ambush into play at the end of any of your Control Phases after your first turn. When you do, choose any table edge except the back of your opponent\u2019s deployment zone. Place the model with Ambush within 3\" of the chosen table edge.)",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OS01"],
           "inBG": false
         }],
@@ -1077,17 +1068,17 @@ faction_orboros_tiers = {"tiers":[
           "OU05",
           "OS01",
           "OS08"
-        ]},
-        "level": 3,
-        "benefit": "Blackclad Wayfarer solos gain Ambush. (You can choose not to deploy models with Ambush at the start of the game. If it is not deployed normally, you can put a model with Ambush into play at the end of any of your Control Phases after your first turn. When you do, choose any table edge except the back of your opponent\u2019s deployment zone. Place the model with Ambush within 3\" of the chosen table edge.)",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment zone is extended 2\" forward.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OB13"],
           "inBG": true
         }],
@@ -1106,35 +1097,51 @@ faction_orboros_tiers = {"tiers":[
           "OU05",
           "OS01",
           "OS08"
-        ]},
-        "level": 4,
-        "benefit": "Your deployment zone is extended 2\" forward.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "OW07",
-    "name": "Cassius - Giants of Stone (NQ44)"
-  },
-  {
     "availableModels": [
       {
-        "models": "Circle construct warbeasts, Circle heavy warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Griffon warbeasts, Wold Guardian, Woldwarden, Woldwrath"
       },
       {
-        "models": "Druids of Orboros, Reeves of Orboros, Sentry Stones & Mannikins, Shifting Stones, Warpbom Skinwalkers",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Druids of Orboros, Shifting Stones, Tharn Bloodweavers"
       },
       {
-        "models": "Feralgeist, Reeve Hunters, War Wolves, Lord of the Feast",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Blackclad Wayfarer, Gallows Grove"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Cassius - Widower's Wood",
+    "casterId": "OW07",
     "faction": "faction_orboros",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "OU11",
+            "bonus": 512
+          },
+          {
+            "id": "OS05",
+            "forEach": [
+              "OU01",
+              "OU04",
+              "OU09",
+              "OU10",
+              "OU11"
+            ],
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "OW07",
@@ -1165,33 +1172,17 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS05",
           "OS02"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "OU11",
-            "bonus": 512
-          },
-          {
-            "id": "OS05",
-            "forEach": [
-              "OU01",
-              "OU04",
-              "OU09",
-              "OU10",
-              "OU11"
-            ],
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment zone is extended 2\" forward.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["OU11"],
           "inBG": false
         }],
@@ -1224,17 +1215,17 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS05",
           "OS02"
-        ]},
-        "level": 2,
-        "benefit": "Your deployment zone is extended 2\" forward.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Wurmwood begins the game with three soul tokens.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OS02"],
           "inBG": false
         }],
@@ -1267,17 +1258,17 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS05",
           "OS02"
-        ]},
-        "level": 3,
-        "benefit": "Wurmwood begins the game with three soul tokens.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Models/units in this army gain Stealth during the first round of the game.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OB11"],
           "inBG": false
         }],
@@ -1310,35 +1301,48 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS05",
           "OS02"
-        ]},
-        "level": 4,
-        "benefit": "Models/units in this army gain Stealth during the first round of the game.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "OW07",
-    "name": "Cassius - Widower's Wood"
-  },
-  {
     "availableModels": [
       {
-        "models": "Circle non-character Argus and Warpwolf warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Circle construct warbeasts, Circle heavy warbeasts"
       },
       {
-        "models": "Wolfes of Orboros, Reeves of Orboros, Skinwalker units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Druids of Orboros, Reeves of Orboros, Sentry Stones & Mannikins, Shifting Stones, Warpbom Skinwalkers"
       },
       {
-        "models": "War Wolfes, Wolfes of Orboros solos, Reeves of Orboros solos, Wolf Lord Morraig",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Feralgeist, Reeve Hunters, War Wolves, Lord of the Feast"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Grayle - Claw & Fang",
+    "casterId": "OW08",
     "faction": "faction_orboros",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "OU08",
+            "bonus": 512
+          },
+          {
+            "id": "OU04",
+            "bonus": 512
+          },
+          {
+            "id": "OA03",
+            "bonus": 512
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "OW08",
@@ -1357,23 +1361,7 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS04",
           "OA08"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "OU08",
-            "bonus": 512
-          },
-          {
-            "id": "OU04",
-            "bonus": 512
-          },
-          {
-            "id": "OA03",
-            "bonus": 512
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [{
@@ -1385,9 +1373,12 @@ faction_orboros_tiers = {"tiers":[
           ]
         }],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "OU08",
             "OU04",
@@ -1412,17 +1403,17 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS04",
           "OA08"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "One Reeves of Orboros unit gains Advance Deployement.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OS04"],
           "inBG": false
         }],
@@ -1443,17 +1434,17 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS04",
           "OA08"
-        ]},
-        "level": 3,
-        "benefit": "One Reeves of Orboros unit gains Advance Deployement.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment zone is extended 2\" forward.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "OB01",
             "OB15",
@@ -1478,30 +1469,27 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS04",
           "OA08"
-        ]},
-        "level": 4,
-        "benefit": "Your deployment zone is extended 2\" forward.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "OW08",
-    "name": "Grayle - Claw & Fang"
-  },
-  {
     "availableModels": [
       {
-        "models": "Living Circle non-character warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Circle non-character Argus and Warpwolf warbeasts"
       },
       {
-        "models": "Reeves of Orboros, Tharn Bloodtrackers, Tharn Wolf Riders, Wolves of Orboros",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Wolfes of Orboros, Reeves of Orboros, Skinwalker units"
       },
       {
-        "models": "Druid Wilder, Reeve Hunter, War Wolf, Wolf Lord Morraig",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "War Wolfes, Wolfes of Orboros solos, Reeves of Orboros solos, Wolf Lord Morraig"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Kaya - The Wild Hunt",
+    "casterId": "Ow01",
     "faction": "faction_orboros",
     "levels": [
       {
@@ -1510,6 +1498,13 @@ faction_orboros_tiers = {"tiers":[
           "id": "OU04",
           "bonus": 1
         }],
+        "faAlterations": [{
+          "id": "OS05",
+          "forEach": ["OU04"],
+          "bonus": 1
+        }],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ow01",
@@ -1537,21 +1532,17 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS05",
           "OS04"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [{
-          "id": "OS05",
-          "forEach": ["OU04"],
-          "bonus": 1
-        }]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "One Wolves of Orboros unit gains Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OS04"],
           "inBG": false
         }],
@@ -1581,17 +1572,17 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS05",
           "OS04"
-        ]},
-        "level": 2,
-        "benefit": "One Wolves of Orboros unit gains Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each Reeves of Orboros unit in the army, place one 4\" AOE forest template anywhere completely within 20\" of the back edge of Kaya's deployment zone after  his army. Forest templates cannot be placed within 3\" of another terrain feature, including other forest templates.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OU04"],
           "inBG": false
         }],
@@ -1621,17 +1612,17 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS05",
           "OS04"
-        ]},
-        "level": 3,
-        "benefit": "For each Reeves of Orboros unit in the army, place one 4\" AOE forest template anywhere completely within 20\" of the back edge of Kaya's deployment zone after  his army. Forest templates cannot be placed within 3\" of another terrain feature, including other forest templates.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment zone is extended 2\" forward.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "OB05",
             "OB07",
@@ -1668,35 +1659,35 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS05",
           "OS04"
-        ]},
-        "level": 4,
-        "benefit": "Your deployment zone is extended 2\" forward.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ow01",
-    "name": "Kaya - The Wild Hunt"
-  },
-  {
     "availableModels": [
       {
-        "models": "Circle non-character warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Living Circle non-character warbeasts"
       },
       {
-        "models": "Shifting Stones, Tharn units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Reeves of Orboros, Tharn Bloodtrackers, Tharn Wolf Riders, Wolves of Orboros"
       },
       {
-        "models": "Druid Wilder, Tharn solos",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Druid Wilder, Reeve Hunter, War Wolf, Wolf Lord Morraig"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Kaya2 - Soothe the savage beast",
+    "casterId": "Ox01",
     "faction": "faction_orboros",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Models in the army have concealment during the first round of the game.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ox01",
@@ -1730,17 +1721,17 @@ faction_orboros_tiers = {"tiers":[
           "OU12",
           "OS03",
           "OS06"
-        ]},
-        "level": 1,
-        "benefit": "Models in the army have concealment during the first round of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Kaya\u2019s battlegroup gains Pathfinder and Treewalker during the first round of the game. (Models with Treewalker ignore forests when determining LOS. While in a forest, models with Treewalker gain +2 DEF against melee attack rolls and can advance through obstructions and other models if they have enough movement to move completely past them.)",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OU03"],
           "inBG": false
         }],
@@ -1776,17 +1767,17 @@ faction_orboros_tiers = {"tiers":[
           "OU12",
           "OS03",
           "OS06"
-        ]},
-        "level": 2,
-        "benefit": "Kaya\u2019s battlegroup gains Pathfinder and Treewalker during the first round of the game. (Models with Treewalker ignore forests when determining LOS. While in a forest, models with Treewalker gain +2 DEF against melee attack rolls and can advance through obstructions and other models if they have enough movement to move completely past them.)",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Models/units with Heart Eater begin the game with one corpse token.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "OU03",
             "OU05",
@@ -1828,10 +1819,7 @@ faction_orboros_tiers = {"tiers":[
           "OU12",
           "OS03",
           "OS06"
-        ]},
-        "level": 3,
-        "benefit": "Models/units with Heart Eater begin the game with one corpse token.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{"id": [
@@ -1844,9 +1832,12 @@ faction_orboros_tiers = {"tiers":[
           "OB20"
         ]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 4,
+          "inMarshal": false,
           "ids": [
             "OB01",
             "OB02",
@@ -1896,35 +1887,59 @@ faction_orboros_tiers = {"tiers":[
           "OU12",
           "OS03",
           "OS06"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ox01",
-    "name": "Kaya2 - Soothe the savage beast"
-  },
-  {
     "availableModels": [
       {
-        "models": "Circle non-character living warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Circle non-character warbeasts"
       },
       {
-        "models": "Tharn units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Shifting Stones, Tharn units"
       },
       {
-        "models": "Tharn solos, Lord of the Feast",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Druid Wilder, Tharn solos"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Kromac - Heart Eaters",
+    "casterId": "OW05",
     "faction": "faction_orboros",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "OU03",
+            "bonus": 512
+          },
+          {
+            "id": "OA06",
+            "bonus": 512
+          },
+          {
+            "id": "OA02",
+            "bonus": 512
+          },
+          {
+            "id": "OS03",
+            "forEach": [
+              "OU03",
+              "OU05",
+              "OU06",
+              "OU07",
+              "OU12"
+            ],
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "OW05",
@@ -1952,41 +1967,17 @@ faction_orboros_tiers = {"tiers":[
           "OA07",
           "OS02",
           "OS03"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "OU03",
-            "bonus": 512
-          },
-          {
-            "id": "OA06",
-            "bonus": 512
-          },
-          {
-            "id": "OA02",
-            "bonus": 512
-          },
-          {
-            "id": "OS03",
-            "forEach": [
-              "OU03",
-              "OU05",
-              "OU06",
-              "OU07",
-              "OU12"
-            ],
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [{"id": ["OA06"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["OU03"],
           "inBG": false
         }],
@@ -2016,17 +2007,17 @@ faction_orboros_tiers = {"tiers":[
           "OA07",
           "OS02",
           "OS03"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For every two solos in the army, one heavy warbeast in Kromac's battlegroup gains Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["OS03"],
           "inBG": false
         }],
@@ -2056,17 +2047,17 @@ faction_orboros_tiers = {"tiers":[
           "OA07",
           "OS02",
           "OS03"
-        ]},
-        "level": 3,
-        "benefit": "For every two solos in the army, one heavy warbeast in Kromac's battlegroup gains Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Models in Kromac's battlegroup gain Stealth during the first round of the game.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OS02"],
           "inBG": false
         }],
@@ -2096,35 +2087,49 @@ faction_orboros_tiers = {"tiers":[
           "OA07",
           "OS02",
           "OS03"
-        ]},
-        "level": 4,
-        "benefit": "Models in Kromac's battlegroup gain Stealth during the first round of the game.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "OW05",
-    "name": "Kromac - Heart Eaters"
-  },
-  {
     "availableModels": [
       {
-        "models": "Circle non-character warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Circle non-character living warbeasts"
       },
       {
-        "models": "Druids of Orboros, Shifting Stones, Wolves of Orboros",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Tharn units"
       },
       {
-        "models": "Blackclad Wayfarer, Druid Wilder, Wolf Lord Morraig",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Tharn solos, Lord of the Feast"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Krueger - Storm Front",
+    "casterId": "Ow02",
     "faction": "faction_orboros",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "OU01",
+            "bonus": 512
+          },
+          {
+            "id": "OA01",
+            "bonus": 512
+          },
+          {
+            "id": "OS01",
+            "forEach": ["OU01"],
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ow02",
@@ -2155,31 +2160,17 @@ faction_orboros_tiers = {"tiers":[
           "OS01",
           "OS06",
           "OS04"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "OU01",
-            "bonus": 512
-          },
-          {
-            "id": "OA01",
-            "bonus": 512
-          },
-          {
-            "id": "OS01",
-            "forEach": ["OU01"],
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You gain +l on your starting game roll.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OS04"],
           "inBG": false
         }],
@@ -2212,10 +2203,7 @@ faction_orboros_tiers = {"tiers":[
           "OS01",
           "OS06",
           "OS04"
-        ]},
-        "level": 2,
-        "benefit": "You gain +l on your starting game roll.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -2223,9 +2211,12 @@ faction_orboros_tiers = {"tiers":[
           "id": "OU01",
           "bonus": 1
         }],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["OU01"],
           "inBG": false
         }],
@@ -2258,17 +2249,17 @@ faction_orboros_tiers = {"tiers":[
           "OS01",
           "OS06",
           "OS04"
-        ]},
-        "level": 3,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Warbeasts in Krueger's battlegroup gain +2 SPD during your first turn of the game.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "OB05",
             "OB07",
@@ -2311,35 +2302,35 @@ faction_orboros_tiers = {"tiers":[
           "OS01",
           "OS06",
           "OS04"
-        ]},
-        "level": 4,
-        "benefit": "Warbeasts in Krueger's battlegroup gain +2 SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ow02",
-    "name": "Krueger - Storm Front"
-  },
-  {
     "availableModels": [
       {
-        "models": "Circle non-character warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Circle non-character warbeasts"
       },
       {
-        "models": "Druid Stoneward & Woldstalkers, Reeves of Orboros, Sentry Stone & Mannikins, Shifting Stones, Druid units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Druids of Orboros, Shifting Stones, Wolves of Orboros"
       },
       {
-        "models": "Blackclad Wayfarer, Reeve Hunters, War Wolves, Lord of the Feast",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Blackclad Wayfarer, Druid Wilder, Wolf Lord Morraig"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Mohsar - Sandstorm",
+    "casterId": "OW06",
     "faction": "faction_orboros",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Models in Mohsar's battlegroup gain Apparition during your first turn of the game. (During your Control Phase, place models with Apparition anywhere completely within 2\" of their current locations. If this affects a unit, only models in formation can be placed.)",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "OW06",
@@ -2373,17 +2364,17 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS05",
           "OS02"
-        ]},
-        "level": 1,
-        "benefit": "Models in Mohsar's battlegroup gain Apparition during your first turn of the game. (During your Control Phase, place models with Apparition anywhere completely within 2\" of their current locations. If this affects a unit, only models in formation can be placed.)",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Druid Stoneward & Woldstalker units can be redeployed after both players have deployed but before the first player first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OU02"],
           "inBG": false
         }],
@@ -2419,17 +2410,17 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS05",
           "OS02"
-        ]},
-        "level": 2,
-        "benefit": "Druid Stoneward & Woldstalker units can be redeployed after both players have deployed but before the first player first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{"id": ["OA01"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["OU01"],
           "inBG": false
         }],
@@ -2465,17 +2456,17 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS05",
           "OS02"
-        ]},
-        "level": 3,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each heavy warbeast in Mohsar's battlegroup, place one 3\" AOE anywhere completely within 20\" of the back edge of Mohsar's deployment zone after terrain has been placed but before either player deploys his army. The AOEs are obstructions that block LOS and provide cover. They are structures with ARM 18 that leave play if they suffer 1 or more damage points.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "OB05",
             "OB07",
@@ -2520,35 +2511,44 @@ faction_orboros_tiers = {"tiers":[
           "OS07",
           "OS05",
           "OS02"
-        ]},
-        "level": 4,
-        "benefit": "For each heavy warbeast in Mohsar's battlegroup, place one 3\" AOE anywhere completely within 20\" of the back edge of Mohsar's deployment zone after terrain has been placed but before either player deploys his army. The AOEs are obstructions that block LOS and provide cover. They are structures with ARM 18 that leave play if they suffer 1 or more damage points.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "OW06",
-    "name": "Mohsar - Sandstorm"
-  },
-  {
     "availableModels": [
       {
-        "models": "Circle non-character light warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Circle non-character warbeasts"
       },
       {
-        "models": "Druids of Orboros, Tharn Bloodtrackers, Tham Bloodweavers, Tharn Wolf Riders, Shifting Stones",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Druid Stoneward & Woldstalkers, Reeves of Orboros, Sentry Stone & Mannikins, Shifting Stones, Druid units"
       },
       {
-        "models": "Blackclad Wayfarer, Druid Wilder, War Wolfes",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Blackclad Wayfarer, Reeve Hunters, War Wolves, Lord of the Feast"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Morvahna - Harvest of Blood",
+    "casterId": "Ow04",
     "faction": "faction_orboros",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "OU07",
+            "bonus": 2
+          },
+          {
+            "id": "OU05",
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ow04",
@@ -2572,26 +2572,17 @@ faction_orboros_tiers = {"tiers":[
           "OS01",
           "OS06",
           "OS05"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "OU07",
-            "bonus": 2
-          },
-          {
-            "id": "OU05",
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [{"id": ["OA07"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OU07"],
           "inBG": false
         }],
@@ -2617,17 +2608,17 @@ faction_orboros_tiers = {"tiers":[
           "OS01",
           "OS06",
           "OS05"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Friendly models/ units can begin the game affected by Morvahna's upkeep spells. These spells and their targets must be declared before either player sets up models. Morvahna does not pay focus to upkeep these spells during your first turn.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["OU05"],
           "inBG": false
         }],
@@ -2653,17 +2644,17 @@ faction_orboros_tiers = {"tiers":[
           "OS01",
           "OS06",
           "OS05"
-        ]},
-        "level": 3,
-        "benefit": "Friendly models/ units can begin the game affected by Morvahna's upkeep spells. These spells and their targets must be declared before either player sets up models. Morvahna does not pay focus to upkeep these spells during your first turn.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment zone is extended 2\" forward.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OU06"],
           "inBG": false
         }],
@@ -2689,39 +2680,35 @@ faction_orboros_tiers = {"tiers":[
           "OS01",
           "OS06",
           "OS05"
-        ]},
-        "level": 4,
-        "benefit": "Your deployment zone is extended 2\" forward.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ow04",
-    "name": "Morvahna - Harvest of Blood"
-  },
-  {
     "availableModels": [
       {
-        "models": "Circle non-character construct warbeasts, Megalith",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Circle non-character light warbeasts"
       },
       {
-        "models": "Druids of Orboros, Shifting Stones",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Druids of Orboros, Tharn Bloodtrackers, Tham Bloodweavers, Tharn Wolf Riders, Shifting Stones"
       },
       {
-        "models": "Blackclad Wayfarer, Gallows Grove, Lord of the Feast",
-        "type": "SOLOS"
-      },
-      {
-        "models": "Celestial Fulcrum",
-        "type": "BATTLE_ENGINES"
+        "type": "SOLOS",
+        "models": "Blackclad Wayfarer, Druid Wilder, War Wolfes"
       }
-    ],
+    ]
+  },
+  {
+    "name": "epic Baldur - Hour of Reckoning",
+    "casterId": "Ox03",
     "faction": "faction_orboros",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Shifting Stones units and Gallows Grove solos in the army can be placed up to 20\" from the back edge of Baldur's deployment zone.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ox03",
@@ -2740,17 +2727,17 @@ faction_orboros_tiers = {"tiers":[
           "OS08",
           "OS02",
           "OE01"
-        ]},
-        "level": 1,
-        "benefit": "Shifting Stones units and Gallows Grove solos in the army can be placed up to 20\" from the back edge of Baldur's deployment zone.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each Druids of Orboros unit in the army, one Celestial Fulcrum battle engine gains Advance Deployment.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OU01"],
           "inBG": false
         }],
@@ -2771,17 +2758,17 @@ faction_orboros_tiers = {"tiers":[
           "OS08",
           "OS02",
           "OE01"
-        ]},
-        "level": 2,
-        "benefit": "For each Druids of Orboros unit in the army, one Celestial Fulcrum battle engine gains Advance Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Heavy Warbeasts in Baldur's battlegroup gain +2 SPD during your first turn of the game.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OB06"],
           "inBG": false
         }],
@@ -2802,10 +2789,7 @@ faction_orboros_tiers = {"tiers":[
           "OS08",
           "OS02",
           "OE01"
-        ]},
-        "level": 3,
-        "benefit": "Heavy Warbeasts in Baldur's battlegroup gain +2 SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -2819,9 +2803,12 @@ faction_orboros_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "OB03",
             "OB04"
@@ -2845,35 +2832,39 @@ faction_orboros_tiers = {"tiers":[
           "OS08",
           "OS02",
           "OE01"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ox03",
-    "name": "epic Baldur - Hour of Reckoning"
-  },
-  {
     "availableModels": [
       {
-        "models": "Living Circle non-character warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Circle non-character construct warbeasts, Megalith"
       },
       {
-        "models": "Reeves of Orboros, Tharn Bloodtrackers, Tharn Wolf Riders, Wolves of Orboros",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Druids of Orboros, Shifting Stones"
       },
       {
-        "models": "Druid Wilder, Reeve Hunter, War Wolf, Wolf Lord Morraig",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Blackclad Wayfarer, Gallows Grove, Lord of the Feast"
+      },
+      {
+        "type": "BATTLE_ENGINES",
+        "models": "Celestial Fulcrum"
       }
-    ],
+    ]
+  },
+  {
+    "name": "epic Kaya - Call of the Wild",
+    "casterId": "Ox01",
     "faction": "faction_orboros",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Heavy warbeasts in Kaya's battlegroup gain Advance Deployment.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ox01",
@@ -2899,17 +2890,17 @@ faction_orboros_tiers = {"tiers":[
           "OS06",
           "OS05",
           "OA08"
-        ]},
-        "level": 1,
-        "benefit": "Heavy warbeasts in Kaya's battlegroup gain Advance Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Warpbom Skinwalkers gain Advance Move.(Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OU11"],
           "inBG": false
         }],
@@ -2937,17 +2928,17 @@ faction_orboros_tiers = {"tiers":[
           "OS06",
           "OS05",
           "OA08"
-        ]},
-        "level": 2,
-        "benefit": "Warpbom Skinwalkers gain Advance Move.(Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Benefit: You gain +1 on your starting game roll.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OU01"],
           "inBG": false
         }],
@@ -2975,10 +2966,7 @@ faction_orboros_tiers = {"tiers":[
           "OS06",
           "OS05",
           "OA08"
-        ]},
-        "level": 3,
-        "benefit": "Benefit: You gain +1 on your starting game roll.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -3008,9 +2996,12 @@ faction_orboros_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "OB05",
             "OB07",
@@ -3045,35 +3036,38 @@ faction_orboros_tiers = {"tiers":[
           "OS06",
           "OS05",
           "OA08"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ox01",
-    "name": "epic Kaya - Call of the Wild"
-  },
-  {
     "availableModels": [
       {
-        "models": "Living Circle non-character warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Living Circle non-character warbeasts"
       },
       {
-        "models": "Tharn Ravagers, Warpborn Skinwalkers",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Reeves of Orboros, Tharn Bloodtrackers, Tharn Wolf Riders, Wolves of Orboros"
       },
       {
-        "models": "Tham Ravager solos, Lord of the Feast",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Druid Wilder, Reeve Hunter, War Wolf, Wolf Lord Morraig"
       }
-    ],
+    ]
+  },
+  {
+    "name": "epic Krueger - The Devourer's Host",
+    "casterId": "Ox02",
     "faction": "faction_orboros",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [{
+          "id": "OU03",
+          "bonus": 512
+        }],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ox02",
@@ -3097,20 +3091,17 @@ faction_orboros_tiers = {"tiers":[
           "OS03",
           "OS02",
           "OA08"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [{
-          "id": "OU03",
-          "bonus": 512
-        }]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Tharn Ravager units and the Lord of the Feast each begin the game with one corpse token.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OS02"],
           "inBG": false
         }],
@@ -3136,17 +3127,17 @@ faction_orboros_tiers = {"tiers":[
           "OS03",
           "OS02",
           "OA08"
-        ]},
-        "level": 2,
-        "benefit": "Tharn Ravager units and the Lord of the Feast each begin the game with one corpse token.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Tharn Ravager models/units gain +2 SPD during your first turn of the game.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["OU03"],
           "inBG": false
         }],
@@ -3172,17 +3163,17 @@ faction_orboros_tiers = {"tiers":[
           "OS03",
           "OS02",
           "OA08"
-        ]},
-        "level": 3,
-        "benefit": "Tharn Ravager models/units gain +2 SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Warpwolves in Krueger's battlegroup gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "OB07",
             "OB09",
@@ -3212,35 +3203,35 @@ faction_orboros_tiers = {"tiers":[
           "OS03",
           "OS02",
           "OA08"
-        ]},
-        "level": 4,
-        "benefit": "Warpwolves in Krueger's battlegroup gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ox02",
-    "name": "epic Krueger - The Devourer's Host"
-  },
-  {
     "availableModels": [
       {
-        "models": "Circle construct non-character warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Living Circle non-character warbeasts"
       },
       {
-        "models": "Druids of Orboros, Druid Stoneward & Woldstalkers, Shifting Stones",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Tharn Ravagers, Warpborn Skinwalkers"
       },
       {
-        "models": "Blackclad Wayfarer, Gallows Groves, Lord of the Feast",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Tham Ravager solos, Lord of the Feast"
       }
-    ],
+    ]
+  },
+  {
+    "name": "epic Krueger - Wake of Destruction (NQ38)",
+    "casterId": "Ox02",
     "faction": "faction_orboros",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each Shifting Stone unit in the army, one warbeast gains Advance Deployment. Additionally, this army can include Eiryss, Mage Hunter of Ios as a Minion.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ox02",
@@ -3259,17 +3250,17 @@ faction_orboros_tiers = {"tiers":[
           "OS02",
           "OS08",
           "MS01_minion"
-        ]},
-        "level": 1,
-        "benefit": "For each Shifting Stone unit in the army, one warbeast gains Advance Deployment. Additionally, this army can include Eiryss, Mage Hunter of Ios as a Minion.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{"id": ["OA01"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["OU01"],
           "inBG": false
         }],
@@ -3290,17 +3281,17 @@ faction_orboros_tiers = {"tiers":[
           "OS02",
           "OS08",
           "MS01_minion"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each Blackclad Wayfarer, you can redeploy one model/unit after both players have deployed but before the first player\u2019s first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OS01"],
           "inBG": false
         }],
@@ -3321,17 +3312,17 @@ faction_orboros_tiers = {"tiers":[
           "OS02",
           "OS08",
           "MS01_minion"
-        ]},
-        "level": 3,
-        "benefit": "For each Blackclad Wayfarer, you can redeploy one model/unit after both players have deployed but before the first player\u2019s first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment zone is extended 2\" forward.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "OB05",
             "OB07",
@@ -3360,39 +3351,35 @@ faction_orboros_tiers = {"tiers":[
           "OS02",
           "OS08",
           "MS01_minion"
-        ]},
-        "level": 4,
-        "benefit": "Your deployment zone is extended 2\" forward.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ox02",
-    "name": "epic Krueger - Wake of Destruction (NQ38)"
-  },
-  {
     "availableModels": [
       {
-        "models": "Circle non-character warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Circle construct non-character warbeasts"
       },
       {
-        "models": "Druids of Orboros, Tharn units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Druids of Orboros, Druid Stoneward & Woldstalkers, Shifting Stones"
       },
       {
-        "models": "Druid Wilder, Gallows Grove, Blackclad solos, Tharn solos",
-        "type": "SOLOS"
-      },
-      {
-        "models": "Celestial Fulcrum",
-        "type": "BATTLE_ENGINES"
+        "type": "SOLOS",
+        "models": "Blackclad Wayfarer, Gallows Groves, Lord of the Feast"
       }
-    ],
+    ]
+  },
+  {
+    "name": "epic Morvahna - Seasons of Fate",
+    "casterId": "Ox04",
     "faction": "faction_orboros",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You can redeploy models/ units with Prey after both players have deployed but before the first player's first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ox04",
@@ -3429,17 +3416,17 @@ faction_orboros_tiers = {"tiers":[
           "OS01",
           "OS03",
           "OE01"
-        ]},
-        "level": 1,
-        "benefit": "You can redeploy models/ units with Prey after both players have deployed but before the first player's first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You gain +1 on your starting roll for the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "OB01",
             "OB02",
@@ -3492,17 +3479,17 @@ faction_orboros_tiers = {"tiers":[
           "OS01",
           "OS03",
           "OE01"
-        ]},
-        "level": 2,
-        "benefit": "You gain +1 on your starting roll for the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Friendly models/ units can begin the game affected by Morvahna's upkeep spells. These spells and their targets must be declared before either player sets up models. Morvahna does not pay focus to upkeep these spells during your first turn.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["OS06"],
           "inBG": false
         }],
@@ -3541,10 +3528,7 @@ faction_orboros_tiers = {"tiers":[
           "OS01",
           "OS03",
           "OE01"
-        ]},
-        "level": 3,
-        "benefit": "Friendly models/ units can begin the game affected by Morvahna's upkeep spells. These spells and their targets must be declared before either player sets up models. Morvahna does not pay focus to upkeep these spells during your first turn.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -3562,9 +3546,12 @@ faction_orboros_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "OU03",
             "OU05",
@@ -3609,14 +3596,27 @@ faction_orboros_tiers = {"tiers":[
           "OS01",
           "OS03",
           "OE01"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ox04",
-    "name": "epic Morvahna - Seasons of Fate"
+    "availableModels": [
+      {
+        "type": "WARBEASTS",
+        "models": "Circle non-character warbeasts"
+      },
+      {
+        "type": "UNITS",
+        "models": "Druids of Orboros, Tharn units"
+      },
+      {
+        "type": "SOLOS",
+        "models": "Druid Wilder, Gallows Grove, Blackclad solos, Tharn solos"
+      },
+      {
+        "type": "BATTLE_ENGINES",
+        "models": "Celestial Fulcrum"
+      }
+    ]
   }
 ]};
 
