@@ -8,6 +8,7 @@
             <!-- 003 Fixed spell typos -->
             <!-- 004 Fixed Zaal2 typo -->
             <!-- 005 august 2015 errata (animantarax) -->
+            <!-- 006 add Desert Hydra -->
             <warlocks>
                 <warlock id="Sw01" name="Master Tormentor Morghoul" generation="P" full_name="Master Tormentor Morghoul" qualification="Skorne Warlock" fury="5" warbeast_points="7" fa="C" completed="true">
                     <basestats name="MORGHOUL" spd="7" str="6" mat="8" rat="4" def="17" arm="13" cmd="8" hitpoints="15" pathfinder="true" />
@@ -539,6 +540,22 @@
                     <animus name="SWARM" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model has concealment. Living enemy models suffer -2 to attack rolls while within 2" of this model. Swarm lasts for one round.</animus>
                     <capacity title="CARAPACE">This model gains +4 ARM against free strike damage rolls and ranged attack damage rolls.</capacity>
                     <capacity title="STEADY">This model cannot be knocked down.</capacity>
+                </warbeast>
+                <warbeast id="SB22" name="Desert Hydra" full_name="Desert Hydra" qualification="Skorne Gargantuan" fa="2" cost="19" fury="4" threshold="8" damage_spiral="14-20-14" completed="true">
+                    <basestats name="HYDRA" spd="5" str="14" mat="6" rat="5" def="9" arm="19" cmd="7" gunfighter="true" />
+                        <weapons>
+                            <ranged_weapon name="Acid Spray" rng="SP6" rof="1" aoe="-" pow="12" corrosion="true" continuous_corrosion="true">
+                                <capacity title="CONCENTRATED BLAST (★ATTACK)">This weapon becomes RNG SP10 and POW 16 for this attack.</capacity>
+                            </ranged_weapon>
+                            <melee_weapon name="Bite" pow="4" p_plus_s="18" location="-">
+                                <capacity title="CRITICAL GRIEVOUS WOUNDS">On a critical hit, the model hit by this weapon loses Tough, cannot heal or be healed, and cannot transfer damage for one round.</capacity>
+                            </melee_weapon>
+                        </weapons>
+                        <animus name="SAND STORM" cost="2" rng="SELF" aoe="*" pow="-" up="NO" off="NO">While in this model's command range, enemy models cannot make ranged attacks. Sand Storm lasts for one round.</animus>
+                        <capacity title="CIRCULAR VISION">This model's front arc extends to 360°.</capacity>
+                        <capacity title="MULTIPLE HEADS [5]">This model can make 5 initial attacks each combat action, using any combination of Acid Spray and Bite attacks. This model loses one initial attack for each aspect it has lost. This model cannot be forced to make additional Acid Spray attacks.</capacity>
+                        <capacity title="REGENERATION [D3+3]">This model can be forced to heal d3+3 damage points once per activation. This model cannot use Regeneration during an activation it runs.</capacity>
+                        <capacity title="SNACKING">When this model boxes a living model with a melee attack, this model can heal d3 damage points. If this model heals, the boxed model is removed from play.</capacity>
                 </warbeast>
             </warbeasts>
             <battleEngines>
