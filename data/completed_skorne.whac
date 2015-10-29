@@ -541,7 +541,7 @@
                     <capacity title="CARAPACE">This model gains +4 ARM against free strike damage rolls and ranged attack damage rolls.</capacity>
                     <capacity title="STEADY">This model cannot be knocked down.</capacity>
                 </warbeast>
-                <warbeast id="SB22" name="Hydra" full_name="Desert Hydra" qualification="Skorne Gargantuan" fa="2" cost="19" fury="4" threshold="8" damage_spiral="14-20-14" completed="true">
+                <warbeast id="SB22" name="Desert Hydra" full_name="Desert Hydra" qualification="Skorne Gargantuan" fa="2" cost="19" fury="4" threshold="8" damage_spiral="14-20-14" completed="true">
                     <basestats name="HYDRA" spd="5" str="14" mat="6" rat="5" def="9" arm="19" cmd="7" gunfighter="true" />
                         <weapons>
                             <ranged_weapon name="Acid Spray" rng="SP6" rof="1" aoe="-" pow="12" corrosion="true" continuous_corrosion="true">
