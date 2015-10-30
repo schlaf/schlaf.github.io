@@ -1932,6 +1932,8 @@ faction_skorne_tiers = {"tiers":[
           "IU05",
           "IU06",
           "IU07",
+          "IU08",
+          "IU09",
           "SS01",
           "SS07"
         ]}
@@ -1940,7 +1942,7 @@ faction_skorne_tiers = {"tiers":[
         "freeModels": [],
         "costAlterations": [],
         "faAlterations": [],
-        "benefit": "One Minion unit gains +2 SPD during your first turn of the game for each Paingiver Task Master solo included .",
+        "benefit": "One Minion unit gains +2 SPD during your first turn of the game for each Paingiver Task Master solo included.",
         "level": 2,
         "mustHave": [
           {
@@ -1959,7 +1961,9 @@ faction_skorne_tiers = {"tiers":[
               "IU04",
               "IU05",
               "IU06",
-              "IU07"
+              "IU07",
+              "IU08",
+              "IU09"
             ],
             "inBG": false
           }
@@ -1987,6 +1991,8 @@ faction_skorne_tiers = {"tiers":[
           "IU05",
           "IU06",
           "IU07",
+          "IU08",
+          "IU09",
           "SS01",
           "SS07"
         ]}
@@ -2026,6 +2032,8 @@ faction_skorne_tiers = {"tiers":[
           "IU05",
           "IU06",
           "IU07",
+          "IU08",
+          "IU09",
           "SS01",
           "SS07"
         ]}
@@ -2070,6 +2078,8 @@ faction_skorne_tiers = {"tiers":[
           "IU05",
           "IU06",
           "IU07",
+          "IU08",
+          "IU09",
           "SS01",
           "SS07"
         ]}
