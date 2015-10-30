@@ -2,7 +2,7 @@
 <lastDate date="2015-07-03:14:02"/>
 <factions>
 <faction id="faction_cryx" version="forum_cryx_004" file="cryx_002.xml" lastDate="2015-08-02"/>
-<faction id="faction_cygnar" version="forum_cygnar_003" file="cygnar_001.xml" lastDate="2015-08-02"/>
+<faction id="faction_cygnar" version="forum_cygnar_004" file="cygnar_001.xml" lastDate="2015-08-02"/>
 <faction id="faction_cyriss" version="forum_cyriss_002" file="cyriss_001.xml" lastDate="2015-07-03"/>
 <faction id="faction_khador" version="forum_khador_004" file="khador_001.xml" lastDate="2015-08-02"/>
 <faction id="faction_menoth" version="forum_menoth_003" file="menoth_001.xml" lastDate="2015-08-02"/>
