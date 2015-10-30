@@ -8,10 +8,10 @@
 <faction id="faction_menoth" version="forum_menoth_003" file="menoth_001.xml" lastDate="2015-08-02"/>
 <faction id="faction_mercs" version="forum_mercs_005" file="mercs_001.xml" lastDate="2015-08-02"/>
 <faction id="faction_retribution" version="forum_retribution_002" file="retribution_001.xml" lastDate="2015-06-07"/>
-<faction id="faction_everblight" version="forum_everblight_003" file="everblight_001.xml" lastDate="2015-08-02"/>
+<faction id="faction_everblight" version="forum_everblight_004" file="everblight_001.xml" lastDate="2015-10-28"/>
 <faction id="faction_minions" version="forum_minions_003" file="minions_001.xml" lastDate="2015-07-21"/>
-<faction id="faction_orboros" version="forum_orboros_004" file="orboros_001.xml" lastDate="2015-08-02"/>
-<faction id="faction_skorne" version="forum_skorne_004" file="skorne_001.xml" lastDate="2015-08-02"/>
-<faction id="faction_trollblood" version="forum_trollblood_001" file="cryx_001.xml" lastDate="2015-03-15"/>
+<faction id="faction_orboros" version="forum_orboros_005" file="orboros_001.xml" lastDate="2015-10-29"/>
+<faction id="faction_skorne" version="forum_skorne_006" file="skorne_001.xml" lastDate="2015-10-29"/>
+<faction id="faction_trollblood" version="forum_trollblood_003" file="cryx_001.xml" lastDate="2015-10-28"/>
 </factions>
 </whac>

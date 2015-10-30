@@ -3,11 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
   <armies>
-    <army faction="faction_mercs" name="Mercenaries" version="forum_mercs_005">
+    <army faction="faction_mercs" name="Mercenaries" version="forum_mercs_004">
         <!-- 002 add cyphon, siege crawler, nicolas verendrye, correct puppet masters affiliation solos + swamp gobber river raiders + trench buster for Magnus bad seeds-->
         <!-- 003 corrected drudge grunt ARM -->
         <!-- 004 add savio montera + swamp gobber raiders + allow monstrosities for cyphon -->
-		<!-- 005 fixed spell typos -->
+        <!-- 005 august 2015 errata -->
       <warcasters>
         <warcaster id="Mw01" name="Magnus the Traitor" generation="P" full_name="Magnus the Traitor" qualification="Mercenary Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="MAGNUS" spd="5" str="6" mat="7" rat="5" def="14" arm="17" cmd="7" hitpoints="17" />
@@ -50,7 +50,7 @@
           <feat title="Kill Box">Choose two table edges. Enemy models beginning an advance in Magnus' control area cannot advance toward those table edges for one round.</feat>
           <spell name="BULLET DODGER" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model gains +2 DEF against ranged attack rolls and Dodge, (A model with Dodge can advance up to 2" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.)</spell>
           <spell name="CALAMITY" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Friendly models gain +2 to attack and damage rolls against target enemy model/unit.</spell>
-          <spell name="CONVECTION" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">When Convection destroys a living enemy model, allocate 1 focus point to a warjack in this model's battlegroup that is in its control area.</spell>
+          <spell name="CONVECTION" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">When Convection destroys a living enemy model, allocate 1 focus point to a warjack in this model’s battlegroup that is in its control area.</spell>
           <spell name="MOBILITY" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Models in this model's battlegroup currently in its control area gain +2 SPD and Pathfinder for one turn.</spell>
           <spell name="OBLITERATION" cost="4" rng="10" aoe="4" pow="15" up="NO" off="YES">The force of this attacks blasts apart the earth itself.</spell>
           <capacity title="MERCENARY">This model will work for Cryx, Khador, and the Protectorate.</capacity>
@@ -119,7 +119,7 @@
           <spell name="ADMONITION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy model advances and ends its movement within 6" of target model in this model’s battlegroup, the affected model can immediately advance up to 3", then Admonition expires. The affected model cannot be targeted by free strikes during this movement.</spell>
           <spell name="DISTRACTION" cost="2" rng="8" aoe="-" pow="-" up="NO" off="YES">Target enemy warrior model/unit cannot make ranged attacks and suffers –2 DEF and MAT for one round.</spell>
           <spell name="FLASHING BLADE" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model immediately makes one normal melee attack with one of its melee weapons against each enemy model in its LOS that is in the weapon's melee range. These attacks are simultaneous.</spell>
-          <spell name="GALLOWS" cost="3" rng="10" aoe="-" pow="13" up="NO" off="YES">When an enemy model is hit by this attack, it can be pushed d6" directly toward Gallows' point of origin.</spell>
+          <spell name="GALLOWS" cost="3" rng="10" aoe="-" pow="13" up="NO" off="YES">When an enemy model is hit by this attack, it can be pushed d6" directly toward Gallow's point of origin.</spell>
           <spell name="QUICKEN" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 SPD and +2 DEF against ranged and magic attack rolls.</spell>
           <spell name="TWISTER" cost="2" rng="10" aoe="3" pow="10" up="NO" off="YES">The AOE is a cloud effect that remains in play for one round.</spell>
           <capacity title="MERCENARY">This model will work for Cygnar and the Protectorate.</capacity>
@@ -2697,7 +2697,7 @@
           </weapons>
           <capacity title="MERCENARY">This model will work for Cryx, Cygnar, Khador and the Protectorate</capacity>
             <capacity title="Field Medic">While within 3" of this model, other friendly living non-warcaster, non-warlock Faction warrior models gain Tough</capacity>
-            <capacity title="Flank [Steelhead]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of type indicated, this model gains +2 to attacks rolls and gains an additional damage die.</capacity>
+            <capacity title="Flank [Another Steelhead]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of type indicated, this model gains +2 to attacks rolls and gains an additional damage die.</capacity>
             <capacity title="Hold the line">While B2B with one or more Steelhead models, this model gains +2 ARM.</capacity>
             <capacity title="Leadership [Steelhead]">While in this model's command range, friendly Steelhead models gain Defensive Line. (While a model with Defensive line is B2B with one or more models in its unit, it gains +2 ARM)</capacity>
           <works_for id="faction_cryx"/>
@@ -2725,7 +2725,7 @@
           </solo>
 
 
-          <solo id="MS31" name="Savio Montero Acosta" full_name="Sergeant Nicolas Verendrye" fa="C" cost="3" qualification="Mercenary Thamarite Character Solo" >
+          <solo id="MS31" name="Savio Montero Acosta" full_name="Savio Montero Acosta" fa="C" cost="3" qualification="Mercenary Thamarite Character Solo" >
               <basestats name="Acosta" spd="7" str="6" mat="9" rat="6" def="15" arm="15" cmd="9" hitpoints="5" fearless="true" immunity_electricity="true"/>
               <weapons>
                   <melee_weapon name="Storm Glaive" pow="7" p_plus_s="13" weapon_master="true" count="2"/>

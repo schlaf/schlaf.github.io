@@ -1,677 +1,708 @@
 faction_everblight_entries = {"groups":[
   {
+    "logo": "faction_everblight",
     "id": "faction_everblight_warcasters",
     "entries": [],
-    "logo": "faction_everblight",
     "label": "Warcasters"
   },
   {
+    "logo": "faction_everblight",
     "id": "faction_everblight_warlocks",
     "entries": [
       {
-        "id": "EW09",
+        "name": "Saeryn, Omen of Everblight",
         "fa": "C",
-        "faction": "faction_everblight",
-        "type": "warlock",
-        "cost": 1,
-        "name": "Saeryn & Rhyas(Saeryn & Rhyas, Talons of Everblight)"
-      },
-      {
-        "id": "Ew02",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "warlock",
         "cost": 5,
-        "name": "Thagrosh1(Thagrosh, Prophet of Everblight)"
-      },
-      {
-        "id": "EW08",
-        "fa": "C",
         "faction": "faction_everblight",
-        "type": "warlock",
-        "cost": 5,
-        "name": "Kallus, Wrath of Everblight"
-      },
-      {
-        "id": "Ex06",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "warlock",
-        "cost": 5,
-        "name": "Absylonia2(Absylonia, Daughter of Everblight)"
-      },
-      {
-        "id": "Ew03",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "warlock",
-        "cost": 6,
-        "name": "Vayl1(Vayl, Disciple of Everblight)"
-      },
-      {
-        "id": "Ez01",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "warlock",
-        "cost": 5,
-        "name": "Lylyth3(Lylyth, Reckoning of Everblight)"
-      },
-      {
-        "id": "EW07",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "warlock",
-        "cost": 3,
-        "name": "Bethayne, Voice of Everblight & Belphagor"
-      },
-      {
-        "id": "EW06",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "warlock",
-        "cost": 5,
-        "name": "Absylonia1(Absylonia, Terror of Everblight)"
-      },
-      {
-        "id": "Ew01",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "warlock",
-        "cost": 6,
-        "name": "Lylyth1(Lylyth, Herald of Everblight)"
-      },
-      {
         "id": "EW05",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "warlock",
-        "cost": 5,
-        "name": "Saeryn, Omen of Everblight"
+        "type": "warlock"
       },
       {
-        "id": "Ex01",
+        "name": "Absylonia2(Absylonia, Daughter of Everblight)",
         "fa": "C",
-        "faction": "faction_everblight",
-        "type": "warlock",
         "cost": 5,
-        "name": "Lylyth2(Lylyth, Shadow of Everblight)"
+        "faction": "faction_everblight",
+        "id": "Ex06",
+        "type": "warlock"
       },
       {
-        "id": "EW04",
+        "name": "Lylyth3(Lylyth, Reckoning of Everblight)",
         "fa": "C",
+        "cost": 5,
         "faction": "faction_everblight",
-        "type": "warlock",
+        "id": "Ez01",
+        "type": "warlock"
+      },
+      {
+        "name": "Vayl2(Vayl, Consul of Everblight)",
+        "fa": "C",
         "cost": 6,
-        "name": "Rhyas, Sigil of Everblight"
-      },
-      {
-        "id": "Ex02",
-        "fa": "C",
         "faction": "faction_everblight",
-        "type": "warlock",
-        "cost": 3,
-        "name": "Thagrosh2(Thagrosh, the Messiah)"
-      },
-      {
         "id": "Ex03",
+        "type": "warlock"
+      },
+      {
+        "name": "Absylonia1(Absylonia, Terror of Everblight)",
         "fa": "C",
+        "cost": 5,
         "faction": "faction_everblight",
-        "type": "warlock",
+        "id": "EW06",
+        "type": "warlock"
+      },
+      {
+        "name": "Saeryn & Rhyas(Saeryn & Rhyas, Talons of Everblight)",
+        "fa": "C",
+        "cost": 1,
+        "faction": "faction_everblight",
+        "id": "EW09",
+        "type": "warlock"
+      },
+      {
+        "name": "Thagrosh1(Thagrosh, Prophet of Everblight)",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_everblight",
+        "id": "Ew02",
+        "type": "warlock"
+      },
+      {
+        "name": "Thagrosh2(Thagrosh, the Messiah)",
+        "fa": "C",
+        "cost": 3,
+        "faction": "faction_everblight",
+        "id": "Ex02",
+        "type": "warlock"
+      },
+      {
+        "name": "Kallus, Wrath of Everblight",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_everblight",
+        "id": "EW08",
+        "type": "warlock"
+      },
+      {
+        "name": "Bethayne, Voice of Everblight & Belphagor",
+        "fa": "C",
+        "cost": 3,
+        "faction": "faction_everblight",
+        "id": "EW07",
+        "type": "warlock"
+      },
+      {
+        "name": "Vayl1(Vayl, Disciple of Everblight)",
+        "fa": "C",
         "cost": 6,
-        "name": "Vayl2(Vayl, Consul of Everblight)"
+        "faction": "faction_everblight",
+        "id": "Ew03",
+        "type": "warlock"
+      },
+      {
+        "name": "Rhyas, Sigil of Everblight",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_everblight",
+        "id": "EW04",
+        "type": "warlock"
+      },
+      {
+        "name": "Lylyth2(Lylyth, Shadow of Everblight)",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_everblight",
+        "id": "Ex01",
+        "type": "warlock"
+      },
+      {
+        "name": "Lylyth1(Lylyth, Herald of Everblight)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_everblight",
+        "id": "Ew01",
+        "type": "warlock"
       }
     ],
-    "logo": "faction_everblight",
     "label": "Warlocks"
   },
   {
+    "logo": "faction_everblight",
     "id": "faction_everblight_warjacks",
     "entries": [],
-    "logo": "faction_everblight",
     "label": "Warjacks"
   },
   {
+    "logo": "faction_everblight",
     "id": "faction_everblight_warbeasts",
     "entries": [
       {
-        "id": "EB06",
-        "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 5,
-        "name": "Teraph"
-      },
-      {
-        "id": "EB05",
-        "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 4,
-        "name": "Raek"
-      },
-      {
-        "id": "EB04",
-        "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 5,
-        "name": "Nephilim Soldier"
-      },
-      {
-        "id": "EB03",
-        "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 5,
-        "name": "Nephilim Protector"
-      },
-      {
-        "id": "EB09",
-        "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 11,
-        "name": "Carnivean"
-      },
-      {
-        "id": "EB08",
-        "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 9,
-        "name": "Angelius"
-      },
-      {
-        "id": "EB07",
-        "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 8,
-        "name": "Seraph"
-      },
-      {
-        "id": "EB18",
-        "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 5,
-        "name": "Nephilim Bloodseer"
-      },
-      {
-        "id": "EB19",
-        "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 4,
-        "name": "Afflictor"
-      },
-      {
-        "id": "EB14",
-        "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 6,
-        "name": "Nephilim Bolt Thrower"
-      },
-      {
-        "id": "EB15",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 11,
-        "name": "Proteus"
-      },
-      {
-        "id": "EB16",
-        "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 5,
-        "name": "Naga Nightlurker"
-      },
-      {
-        "id": "EB17",
+        "name": "Blight Bringer",
         "fa": "2",
+        "cost": 18,
         "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 20,
-        "name": "Archangel"
+        "id": "EB24",
+        "type": "warbeast"
       },
       {
-        "id": "EB22",
+        "name": "Nephilim Bolt Thrower",
         "fa": "U",
+        "cost": 6,
         "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 4,
-        "name": "Blight Wasps"
+        "id": "EB14",
+        "type": "warbeast"
       },
       {
-        "id": "EB21",
+        "name": "Nephilim Protector",
         "fa": "U",
+        "cost": 5,
         "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 7,
-        "name": "Neraph"
+        "id": "EB03",
+        "type": "warbeast"
       },
       {
-        "id": "EB23",
+        "name": "Proteus",
         "fa": "C",
+        "cost": 11,
         "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 10,
-        "name": "Zuriel"
+        "id": "EB15",
+        "type": "warbeast"
       },
       {
-        "id": "EB20",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 0,
-        "restricted_to": ["EW07"],
-        "name": "Belphagor"
-      },
-      {
-        "id": "EB12",
+        "name": "Scythean",
         "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 2,
-        "name": "Stinger"
-      },
-      {
-        "id": "EB13",
-        "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 10,
-        "name": "Ravagore"
-      },
-      {
-        "id": "EB10",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 12,
-        "name": "Typhon"
-      },
-      {
-        "id": "EB01",
-        "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
-        "cost": 2,
-        "name": "Harrier"
-      },
-      {
-        "id": "EB11",
-        "fa": "U",
-        "faction": "faction_everblight",
-        "type": "warbeast",
         "cost": 9,
-        "name": "Scythean"
+        "faction": "faction_everblight",
+        "id": "EB11",
+        "type": "warbeast"
       },
       {
-        "id": "EB02",
-        "fa": "U",
+        "name": "Belphagor",
+        "fa": "C",
+        "restricted_to": ["EW07"],
+        "cost": 0,
         "faction": "faction_everblight",
-        "type": "warbeast",
+        "id": "EB20",
+        "type": "warbeast"
+      },
+      {
+        "name": "Nephilim Bloodseer",
+        "fa": "U",
+        "cost": 5,
+        "faction": "faction_everblight",
+        "id": "EB18",
+        "type": "warbeast"
+      },
+      {
+        "name": "Stinger",
+        "fa": "U",
         "cost": 2,
-        "name": "Shredder"
+        "faction": "faction_everblight",
+        "id": "EB12",
+        "type": "warbeast"
+      },
+      {
+        "name": "Typhon",
+        "fa": "C",
+        "cost": 12,
+        "faction": "faction_everblight",
+        "id": "EB10",
+        "type": "warbeast"
+      },
+      {
+        "name": "Archangel",
+        "fa": "2",
+        "cost": 20,
+        "faction": "faction_everblight",
+        "id": "EB17",
+        "type": "warbeast"
+      },
+      {
+        "name": "Seraph",
+        "fa": "U",
+        "cost": 8,
+        "faction": "faction_everblight",
+        "id": "EB07",
+        "type": "warbeast"
+      },
+      {
+        "name": "Blight Wasps",
+        "fa": "U",
+        "cost": 4,
+        "faction": "faction_everblight",
+        "id": "EB22",
+        "type": "warbeast"
+      },
+      {
+        "name": "Ravagore",
+        "fa": "U",
+        "cost": 10,
+        "faction": "faction_everblight",
+        "id": "EB13",
+        "type": "warbeast"
+      },
+      {
+        "name": "Zuriel",
+        "fa": "C",
+        "cost": 10,
+        "faction": "faction_everblight",
+        "id": "EB23",
+        "type": "warbeast"
+      },
+      {
+        "name": "Carnivean",
+        "fa": "U",
+        "cost": 11,
+        "faction": "faction_everblight",
+        "id": "EB09",
+        "type": "warbeast"
+      },
+      {
+        "name": "Raek",
+        "fa": "U",
+        "cost": 4,
+        "faction": "faction_everblight",
+        "id": "EB05",
+        "type": "warbeast"
+      },
+      {
+        "name": "Neraph",
+        "fa": "U",
+        "cost": 7,
+        "faction": "faction_everblight",
+        "id": "EB21",
+        "type": "warbeast"
+      },
+      {
+        "name": "Nephilim Soldier",
+        "fa": "U",
+        "cost": 5,
+        "faction": "faction_everblight",
+        "id": "EB04",
+        "type": "warbeast"
+      },
+      {
+        "name": "Teraph",
+        "fa": "U",
+        "cost": 5,
+        "faction": "faction_everblight",
+        "id": "EB06",
+        "type": "warbeast"
+      },
+      {
+        "name": "Harrier",
+        "fa": "U",
+        "cost": 2,
+        "faction": "faction_everblight",
+        "id": "EB01",
+        "type": "warbeast"
+      },
+      {
+        "name": "Naga Nightlurker",
+        "fa": "U",
+        "cost": 5,
+        "faction": "faction_everblight",
+        "id": "EB16",
+        "type": "warbeast"
+      },
+      {
+        "name": "Angelius",
+        "fa": "U",
+        "cost": 9,
+        "faction": "faction_everblight",
+        "id": "EB08",
+        "type": "warbeast"
+      },
+      {
+        "name": "Shredder",
+        "fa": "U",
+        "cost": 2,
+        "faction": "faction_everblight",
+        "id": "EB02",
+        "type": "warbeast"
+      },
+      {
+        "name": "Afflictor",
+        "fa": "U",
+        "cost": 4,
+        "faction": "faction_everblight",
+        "id": "EB19",
+        "type": "warbeast"
       }
     ],
-    "logo": "faction_everblight",
     "label": "Warbeasts"
   },
   {
+    "logo": "faction_everblight",
     "id": "faction_everblight_bes",
     "entries": [{
-      "id": "EE01",
+      "name": "Throne of Everblight",
       "fa": "2",
-      "faction": "faction_everblight",
-      "type": "battleengine",
       "cost": 9,
-      "name": "Throne of Everblight"
+      "faction": "faction_everblight",
+      "id": "EE01",
+      "type": "battleengine"
     }],
-    "logo": "faction_everblight",
     "label": "Battle engines"
   },
   {
+    "logo": "faction_everblight",
     "id": "faction_everblight_units",
     "entries": [
       {
-        "min": 6,
-        "id": "EU02",
         "max": 10,
-        "name": "Blighted Nyss Legionnaires",
-        "costMax": 6,
-        "costMin": 4,
-        "fa": "2",
-        "faction": "faction_everblight",
-        "type": "unit",
-        "cost": 4
-      },
-      {
         "min": 6,
-        "id": "EU03",
-        "max": 10,
-        "name": "Blighted Nyss Swordsmen",
         "costMax": 8,
-        "costMin": 5,
         "fa": "2",
-        "faction": "faction_everblight",
-        "type": "unit",
-        "cost": 5
-      },
-      {
-        "min": 6,
-        "id": "EU01",
-        "max": 10,
-        "name": "Blighted Nyss Archers",
-        "costMax": 8,
         "costMin": 5,
-        "fa": "2",
-        "faction": "faction_everblight",
-        "type": "unit",
-        "cost": 5
-      },
-      {
-        "min": 6,
-        "id": "EU11",
-        "max": 10,
-        "name": "Blighted Nyss Hex Hunters",
-        "costMax": 8,
-        "costMin": 5,
-        "fa": "2",
-        "faction": "faction_everblight",
-        "type": "unit",
-        "cost": 5
-      },
-      {
-        "min": 5,
-        "id": "EU06",
-        "max": 7,
-        "name": "Spawning Vessel",
-        "costMax": 3,
-        "costMin": 2,
-        "fa": "1",
-        "faction": "faction_everblight",
-        "type": "unit",
-        "cost": 2
-      },
-      {
-        "id": "EU12",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "unit",
+        "id": "EU14",
+        "name": "Grotesque Banshees",
         "cost": 5,
-        "name": "Blackfrost Shard"
-      },
-      {
-        "id": "EU07",
-        "fa": "2",
         "faction": "faction_everblight",
-        "type": "unit",
-        "cost": 6,
-        "name": "Strider Rangers"
+        "type": "unit"
       },
       {
-        "id": "EU13",
-        "fa": "2",
-        "faction": "faction_everblight",
-        "type": "unit",
-        "cost": 6,
-        "name": "Strider Blightblades"
-      },
-      {
-        "min": 3,
-        "id": "EU04",
-        "max": 5,
-        "name": "Blighted Nyss Raptors",
-        "costMax": 10,
-        "costMin": 6,
+        "max": 7,
+        "min": 5,
+        "costMax": 3,
         "fa": "1",
+        "costMin": 2,
+        "id": "EU06",
+        "name": "Spawning Vessel",
+        "cost": 2,
         "faction": "faction_everblight",
-        "type": "unit",
-        "cost": 6
+        "type": "unit"
       },
       {
-        "id": "EU05",
-        "fa": "2",
-        "faction": "faction_everblight",
-        "type": "unit",
-        "cost": 3,
-        "name": "Blighted Nyss Scather Crew"
-      },
-      {
-        "min": 6,
-        "id": "EU10",
-        "max": 10,
-        "name": "Blighted Nyss Grotesques",
-        "costMax": 6,
-        "costMin": 4,
-        "fa": "2",
-        "faction": "faction_everblight",
-        "type": "unit",
-        "cost": 4
-      },
-      {
+        "max": 5,
         "min": 3,
+        "costMax": 8,
+        "fa": "3",
+        "costMin": 5,
         "id": "EU08",
-        "max": 5,
         "name": "Blighted Ogrun Warmongers",
-        "costMax": 8,
-        "costMin": 5,
-        "fa": "3",
+        "cost": 5,
         "faction": "faction_everblight",
-        "type": "unit",
-        "cost": 5
+        "type": "unit"
       },
       {
-        "min": 3,
-        "id": "EU09",
-        "max": 5,
-        "name": "Blighted Ogrun Warspears",
-        "costMax": 8,
-        "costMin": 5,
-        "fa": "3",
+        "name": "Strider Blightblades",
+        "fa": "2",
+        "cost": 6,
         "faction": "faction_everblight",
-        "type": "unit",
-        "cost": 5
+        "id": "EU13",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 6,
+        "fa": "2",
+        "costMin": 4,
+        "id": "EU02",
+        "name": "Blighted Nyss Legionnaires",
+        "cost": 4,
+        "faction": "faction_everblight",
+        "type": "unit"
+      },
+      {
+        "name": "Strider Rangers",
+        "fa": "2",
+        "cost": 6,
+        "faction": "faction_everblight",
+        "id": "EU07",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 6,
+        "fa": "2",
+        "costMin": 4,
+        "id": "EU10",
+        "name": "Grotesque Raiders",
+        "cost": 4,
+        "faction": "faction_everblight",
+        "type": "unit"
+      },
+      {
+        "name": "Blackfrost Shard",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_everblight",
+        "id": "EU12",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 8,
+        "fa": "2",
+        "costMin": 5,
+        "id": "EU01",
+        "name": "Blighted Nyss Archers",
+        "cost": 5,
+        "faction": "faction_everblight",
+        "type": "unit"
+      },
+      {
+        "name": "Blighted Nyss Scather Crew",
+        "fa": "2",
+        "cost": 3,
+        "faction": "faction_everblight",
+        "id": "EU05",
+        "type": "unit"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "costMax": 10,
+        "fa": "1",
+        "costMin": 6,
+        "id": "EU04",
+        "name": "Blighted Nyss Raptors",
+        "cost": 6,
+        "faction": "faction_everblight",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 8,
+        "fa": "2",
+        "costMin": 5,
+        "id": "EU03",
+        "name": "Blighted Nyss Swordsmen",
+        "cost": 5,
+        "faction": "faction_everblight",
+        "type": "unit"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "costMax": 8,
+        "fa": "3",
+        "costMin": 5,
+        "id": "EU09",
+        "name": "Blighted Ogrun Warspears",
+        "cost": 5,
+        "faction": "faction_everblight",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 8,
+        "fa": "2",
+        "costMin": 5,
+        "id": "EU11",
+        "name": "Blighted Nyss Hex Hunters",
+        "cost": 5,
+        "faction": "faction_everblight",
+        "type": "unit"
       }
     ],
-    "logo": "faction_everblight",
     "label": "Units"
   },
   {
+    "logo": "faction_everblight",
     "id": "faction_everblight_WAs",
     "entries": [],
-    "logo": "faction_everblight",
     "label": "Weapon Attachments"
   },
   {
+    "logo": "faction_everblight",
     "id": "faction_everblight_UAs",
     "entries": [
       {
-        "id": "EA05",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "UA",
-        "cost": 3,
         "name": "Captain Farilor & Standard",
-        "restricted_to": "EU02"
-      },
-      {
-        "id": "EA02",
-        "fa": "1",
-        "faction": "faction_everblight",
-        "type": "UA",
-        "cost": 3,
-        "name": "Blighted Nyss Swordsmen Abbot & Champion",
-        "restricted_to": "EU03"
-      },
-      {
-        "id": "EA01",
-        "fa": "1",
-        "faction": "faction_everblight",
-        "type": "UA",
-        "cost": 2,
-        "name": "Blighted Nyss Archer Officer & Ammo Porter",
-        "restricted_to": "EU01"
-      },
-      {
-        "id": "EA04",
         "fa": "C",
-        "faction": "faction_everblight",
-        "type": "UA",
         "cost": 3,
-        "name": "Bayal, Hound of Everblight",
-        "restricted_to": "EU11"
+        "restricted_to": "EU02",
+        "faction": "faction_everblight",
+        "id": "EA05",
+        "type": "UA"
       },
       {
-        "id": "EA03",
-        "fa": "1",
-        "faction": "faction_everblight",
-        "type": "UA",
-        "cost": 3,
         "name": "Strider Rangers Officer & Musician",
-        "restricted_to": "EU07"
+        "fa": "1",
+        "cost": 3,
+        "restricted_to": "EU07",
+        "faction": "faction_everblight",
+        "id": "EA03",
+        "type": "UA"
       },
       {
-        "id": "EA06",
-        "fa": "2",
-        "faction": "faction_everblight",
-        "type": "UA",
+        "name": "Blighted Nyss Archer Officer & Ammo Porter",
+        "fa": "1",
         "cost": 2,
+        "restricted_to": "EU01",
+        "faction": "faction_everblight",
+        "id": "EA01",
+        "type": "UA"
+      },
+      {
+        "name": "Blighted Nyss Swordsmen Abbot & Champion",
+        "fa": "1",
+        "cost": 3,
+        "restricted_to": "EU03",
+        "faction": "faction_everblight",
+        "id": "EA02",
+        "type": "UA"
+      },
+      {
         "name": "Warspear Chieftan",
-        "restricted_to": "EU09"
+        "fa": "2",
+        "cost": 2,
+        "restricted_to": "EU09",
+        "faction": "faction_everblight",
+        "id": "EA06",
+        "type": "UA"
+      },
+      {
+        "name": "Bayal, Hound of Everblight",
+        "fa": "C",
+        "cost": 3,
+        "restricted_to": "EU11",
+        "faction": "faction_everblight",
+        "id": "EA04",
+        "type": "UA"
       }
     ],
-    "logo": "faction_everblight",
     "label": "Unit Attachments"
   },
   {
+    "logo": "faction_everblight",
     "id": "faction_everblight_solos",
     "entries": [
       {
-        "id": "ES10",
+        "name": "The Forsaken",
         "fa": "2",
+        "cost": 2,
         "faction": "faction_everblight",
-        "type": "soloLesserWarlock",
-        "cost": 3,
+        "id": "ES05",
+        "type": "solo"
+      },
+      {
+        "name": "Annyssa Ryvaal, Talon of Everblight",
+        "fa": "C",
+        "cost": 4,
+        "faction": "faction_everblight",
+        "id": "ES08",
+        "type": "solo"
+      },
+      {
+        "name": "Strider Deathstalker",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_everblight",
+        "id": "ES04",
+        "type": "solo"
+      },
+      {
+        "name": "Beast Mistress",
+        "fa": "2",
         "restricted_to": [
           "EB01",
           "EB02",
           "EB12"
         ],
-        "name": "Beast Mistress"
-      },
-      {
-        "id": "ES11",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "solo",
         "cost": 3,
-        "name": "Fyanna the Lash"
-      },
-      {
-        "id": "ES01",
-        "fa": "2",
         "faction": "faction_everblight",
-        "type": "solo",
-        "cost": 4,
-        "name": "Blighted Nyss Sorceress & Hellion"
+        "id": "ES10",
+        "type": "soloLesserWarlock"
       },
       {
-        "id": "ES04",
-        "fa": "2",
-        "faction": "faction_everblight",
-        "type": "solo",
-        "cost": 2,
-        "name": "Strider Deathstalker"
-      },
-      {
-        "id": "ES05",
-        "fa": "2",
-        "faction": "faction_everblight",
-        "type": "solo",
-        "cost": 2,
-        "name": "The Forsaken"
-      },
-      {
-        "id": "ES02",
-        "fa": "2",
-        "faction": "faction_everblight",
-        "type": "solo",
-        "cost": 5,
-        "name": "Incubus"
-      },
-      {
-        "id": "ES03",
-        "fa": "2",
-        "faction": "faction_everblight",
-        "type": "solo",
-        "cost": 1,
-        "name": "Blighted Nyss Shepherd"
-      },
-      {
-        "id": "ES08",
-        "fa": "C",
-        "faction": "faction_everblight",
-        "type": "solo",
-        "cost": 4,
-        "name": "Annyssa Ryvaal, Talon of Everblight"
-      },
-      {
-        "id": "ES09",
+        "name": "Succubus",
         "fa": "1",
-        "faction": "faction_everblight",
-        "type": "soloAttachment",
         "cost": 2,
-        "name": "Succubus"
+        "faction": "faction_everblight",
+        "id": "ES09",
+        "type": "soloAttachment"
       },
       {
-        "id": "ES06",
+        "name": "Incubus",
         "fa": "2",
+        "cost": 5,
         "faction": "faction_everblight",
-        "type": "solo",
-        "cost": 3,
-        "name": "Warmonger War Chief"
+        "id": "ES02",
+        "type": "solo"
       },
       {
-        "id": "ES07",
-        "fa": "3",
+        "name": "Blighted Nyss Sorceress & Hellion",
+        "fa": "2",
+        "cost": 4,
         "faction": "faction_everblight",
-        "type": "solo",
+        "id": "ES01",
+        "type": "solo"
+      },
+      {
+        "name": "Warmonger War Chief",
+        "fa": "2",
+        "cost": 3,
+        "faction": "faction_everblight",
+        "id": "ES06",
+        "type": "solo"
+      },
+      {
+        "name": "Fyanna the Lash",
+        "fa": "C",
+        "cost": 3,
+        "faction": "faction_everblight",
+        "id": "ES11",
+        "type": "solo"
+      },
+      {
+        "name": "Blighted Nyss Shepherd",
+        "fa": "2",
         "cost": 1,
-        "name": "Spell Martyr"
+        "faction": "faction_everblight",
+        "id": "ES03",
+        "type": "solo"
+      },
+      {
+        "name": "Grotesque Assassin",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_everblight",
+        "id": "ES12",
+        "type": "solo"
+      },
+      {
+        "name": "Spell Martyr",
+        "fa": "3",
+        "cost": 1,
+        "faction": "faction_everblight",
+        "id": "ES07",
+        "type": "solo"
       }
     ],
-    "logo": "faction_everblight",
     "label": "Solos"
   }
 ]};
 
 faction_everblight_tiers = {"tiers":[
   {
-    "availableModels": [
-      {
-        "models": "Non-character Legion warbeasts, Typhon",
-        "type": "WARBEASTS"
-      },
-      {
-        "models": "Spawning Vessel ",
-        "type": "UNITS"
-      },
-      {
-        "models": "Blighted Nyss Shepherds, The Forsaken",
-        "type": "SOLOS"
-      }
-    ],
+    "name": "Absylonia - Winds of Change",
+    "casterId": "EW06",
     "faction": "faction_everblight",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [{
+          "id": "ES05",
+          "forEach": [
+            "EB07",
+            "EB08",
+            "EB09",
+            "EB10",
+            "EB11",
+            "EB13",
+            "EB21"
+          ],
+          "bonus": 1
+        }],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "EW06",
@@ -696,32 +727,21 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU06",
           "ES03",
           "ES05"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [{
-          "id": "ES05",
-          "forEach": [
-            "EB07",
-            "EB08",
-            "EB09",
-            "EB10",
-            "EB11",
-            "EB13",
-            "EB21"
-          ],
-          "bonus": 1
-        }]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Lesser warbeasts in Absylonia's battlegroup gain Advance Deployment.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "EB01",
             "EB02",
@@ -752,20 +772,21 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU06",
           "ES03",
           "ES05"
-        ]},
-        "level": 2,
-        "benefit": "Lesser warbeasts in Absylonia's battlegroup gain Advance Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each Forsaken solo in the army, one heavy warbeast in Absylonia's battlegroup gains Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["ES05"],
           "inBG": false
         }],
@@ -792,13 +813,11 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU06",
           "ES03",
           "ES05"
-        ]},
-        "level": 3,
-        "benefit": "For each Forsaken solo in the army, one heavy warbeast in Absylonia's battlegroup gains Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -836,9 +855,12 @@ faction_everblight_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "EB07",
             "EB08",
@@ -874,42 +896,39 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU06",
           "ES03",
           "ES05"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "EW06",
-    "name": "Absylonia - Winds of Change"
-  },
-  {
     "availableModels": [
       {
-        "models": "Legion non-character warbeasts, Proteus",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Non-character Legion warbeasts, Typhon"
       },
       {
-        "models": "Strider units, Legion units with Flight ",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Spawning Vessel "
       },
       {
-        "models": " Forsaken, Strider solos, Legion solos with Flight",
-        "type": "SOLOS"
-      },
-      {
-        "models": "Legion battle engines with Flight",
-        "type": "BATTLE_ENGINES"
+        "type": "SOLOS",
+        "models": "Blighted Nyss Shepherds, The Forsaken"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Absylonia2 - Death's Wings",
+    "casterId": "Ex06",
     "faction": "faction_everblight",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Flying models gain +2 SPD during your first turn of the game. ",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ex06",
@@ -941,17 +960,17 @@ faction_everblight_tiers = {"tiers":[
           "ES04",
           "ES01",
           "EE01"
-        ]},
-        "level": 1,
-        "benefit": "Flying models gain +2 SPD during your first turn of the game. ",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Units in the army gain Advance Deployment",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["EU07"],
           "inBG": false
         }],
@@ -985,17 +1004,17 @@ faction_everblight_tiers = {"tiers":[
           "ES04",
           "ES01",
           "EE01"
-        ]},
-        "level": 2,
-        "benefit": "Units in the army gain Advance Deployment",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Warbeasts in Absylonia\u2019s battlegroup can use their animi during your first turn of the game without being forced. Warbeasts cannot also be forced to use their animi that turn.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "EB01",
             "EB02",
@@ -1050,10 +1069,7 @@ faction_everblight_tiers = {"tiers":[
           "ES04",
           "ES01",
           "EE01"
-        ]},
-        "level": 3,
-        "benefit": "Warbeasts in Absylonia\u2019s battlegroup can use their animi during your first turn of the game without being forced. Warbeasts cannot also be forced to use their animi that turn.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -1067,9 +1083,12 @@ faction_everblight_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["EB17"],
           "inBG": false
         }],
@@ -1103,30 +1122,31 @@ faction_everblight_tiers = {"tiers":[
           "ES04",
           "ES01",
           "EE01"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ex06",
-    "name": "Absylonia2 - Death's Wings"
-  },
-  {
     "availableModels": [
       {
-        "models": "Non-character Legion warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Legion non-character warbeasts, Proteus"
       },
       {
-        "models": "Spawning Vessel, Legion units with Magic Ability",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Strider units, Legion units with Flight "
       },
       {
-        "models": "The Forsaken, Incubi, Spell Martyrs, Legion solos with Magic Ability",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": " Forsaken, Strider solos, Legion solos with Flight"
+      },
+      {
+        "type": "BATTLE_ENGINES",
+        "models": "Legion battle engines with Flight"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Bethayne - Black Magic",
+    "casterId": "EW07",
     "faction": "faction_everblight",
     "levels": [
       {
@@ -1135,6 +1155,17 @@ faction_everblight_tiers = {"tiers":[
           "id": "ES01",
           "bonus": 1
         }],
+        "faAlterations": [{
+          "id": "ES01",
+          "forEach": [
+            "EU06",
+            "EU11",
+            "EU12"
+          ],
+          "bonus": 1
+        }],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "EW07",
@@ -1158,6 +1189,7 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU06",
           "EU11",
           "EA04",
@@ -1167,25 +1199,17 @@ faction_everblight_tiers = {"tiers":[
           "ES07",
           "ES01",
           "ES09"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [{
-          "id": "ES01",
-          "forEach": [
-            "EU06",
-            "EU11",
-            "EU12"
-          ],
-          "bonus": 1
-        }]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each Blighted Nyss Sorceress & Hellion solo in the army, you can redeploy one model/unit after both players have deployed but before the first player's first  turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["ES01"],
           "inBG": false
         }],
@@ -1211,6 +1235,7 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU06",
           "EU11",
           "EA04",
@@ -1220,17 +1245,17 @@ faction_everblight_tiers = {"tiers":[
           "ES07",
           "ES01",
           "ES09"
-        ]},
-        "level": 2,
-        "benefit": "For each Blighted Nyss Sorceress & Hellion solo in the army, you can redeploy one model/unit after both players have deployed but before the first player's first  turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Increase the COST of spells and animi cast by enemy models by + 1 during the first round of the game.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "EU11",
             "EU12"
@@ -1259,6 +1284,7 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU06",
           "EU11",
           "EA04",
@@ -1268,17 +1294,17 @@ faction_everblight_tiers = {"tiers":[
           "ES07",
           "ES01",
           "ES09"
-        ]},
-        "level": 3,
-        "benefit": "Increase the COST of spells and animi cast by enemy models by + 1 during the first round of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Warbeasts in Bethayne's battlegroup gain +2 SPD during your first turn of the game.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "EB07",
             "EB08",
@@ -1311,6 +1337,7 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU06",
           "EU11",
           "EA04",
@@ -1320,17 +1347,27 @@ faction_everblight_tiers = {"tiers":[
           "ES07",
           "ES01",
           "ES09"
-        ]},
-        "level": 4,
-        "benefit": "Warbeasts in Bethayne's battlegroup gain +2 SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "EW07",
-    "name": "Bethayne - Black Magic"
+    "availableModels": [
+      {
+        "type": "WARBEASTS",
+        "models": "Non-character Legion warbeasts"
+      },
+      {
+        "type": "UNITS",
+        "models": "Spawning Vessel, Legion units with Magic Ability"
+      },
+      {
+        "type": "SOLOS",
+        "models": "The Forsaken, Incubi, Spell Martyrs, Legion solos with Magic Ability"
+      }
+    ]
   },
   {
-    "availableModels": [],
+    "name": "Kallus - Unconquerable Dominion",
+    "casterId": "EW08",
     "faction": "faction_everblight",
     "levels": [
       {
@@ -1339,6 +1376,9 @@ faction_everblight_tiers = {"tiers":[
           "id": "EU03",
           "bonus": 1
         }],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "EW08",
@@ -1366,17 +1406,17 @@ faction_everblight_tiers = {"tiers":[
           "EA02",
           "ES02",
           "ES07"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": [
             "EA05",
             "EA02"
@@ -1409,17 +1449,17 @@ faction_everblight_tiers = {"tiers":[
           "EA02",
           "ES02",
           "ES07"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "EB07",
             "EB08",
@@ -1455,17 +1495,17 @@ faction_everblight_tiers = {"tiers":[
           "EA02",
           "ES02",
           "ES07"
-        ]},
-        "level": 3,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 4,
+          "inMarshal": false,
           "ids": [
             "EU10",
             "EU02",
@@ -1499,35 +1539,25 @@ faction_everblight_tiers = {"tiers":[
           "EA02",
           "ES02",
           "ES07"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "EW08",
-    "name": "Kallus - Unconquerable Dominion"
+    "availableModels": []
   },
   {
-    "availableModels": [
-      {
-        "models": "Non-character Legion warbeasts",
-        "type": "WARBEASTS"
-      },
-      {
-        "models": "Blighted Nyss Archers, Blighted Nyss Raptors, Legion units with Stealth",
-        "type": "UNITS"
-      },
-      {
-        "models": "Incubi, Legion solos with Stealth",
-        "type": "SOLOS"
-      }
-    ],
+    "name": "Lylyth - Hunter Killers",
+    "casterId": "Ew01",
     "faction": "faction_everblight",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [{
+          "id": "EU04",
+          "bonus": 1
+        }],
+        "benefit": "Additionally, you gain +1 on your starting roll for the game.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ew01",
@@ -1551,30 +1581,30 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU01",
           "EA01",
           "EU04",
           "EU07",
           "EA03",
           "EU11",
+          "EU13",
           "EA04",
           "ES02",
           "ES04",
-          "ES08"
-        ]},
-        "level": 1,
-        "benefit": "Additionally, you gain +1 on your starting roll for the game.",
-        "faAlterations": [{
-          "id": "EU04",
-          "bonus": 1
-        }]
+          "ES08",
+          "ES12"
+        ]}
       },
       {
         "freeModels": [{"id": ["EA01"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["EU01"],
           "inBG": false
         }],
@@ -1600,27 +1630,30 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU01",
           "EA01",
           "EU04",
           "EU07",
           "EA03",
           "EU11",
+          "EU13",
           "EA04",
           "ES02",
           "ES04",
-          "ES08"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+          "ES08",
+          "ES12"
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Place Annyssa Ryvaal and Blighted Nyss Raptor units after normal deployment. These models are placed at the same time as your models with Advance Deployment (if any). These models must be placed within you normal deployment zone.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["ES08"],
           "inBG": false
         }],
@@ -1646,27 +1679,30 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU01",
           "EA01",
           "EU04",
           "EU07",
           "EA03",
           "EU11",
+          "EU13",
           "EA04",
           "ES02",
           "ES04",
-          "ES08"
-        ]},
-        "level": 3,
-        "benefit": "Place Annyssa Ryvaal and Blighted Nyss Raptor units after normal deployment. These models are placed at the same time as your models with Advance Deployment (if any). These models must be placed within you normal deployment zone.",
-        "faAlterations": []
+          "ES08",
+          "ES12"
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Lesser warbeasts and Raeks in Lylith's battlegroup gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["EB05"],
           "inBG": true
         }],
@@ -1692,65 +1728,45 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU01",
           "EA01",
           "EU04",
           "EU07",
           "EA03",
           "EU11",
+          "EU13",
           "EA04",
           "ES02",
           "ES04",
-          "ES08"
-        ]},
-        "level": 4,
-        "benefit": "Lesser warbeasts and Raeks in Lylith's battlegroup gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
-        "faAlterations": []
+          "ES08",
+          "ES12"
+        ]}
       }
     ],
-    "casterId": "Ew01",
-    "name": "Lylyth - Hunter Killers"
-  },
-  {
     "availableModels": [
       {
-        "models": "Non-character Legion warbeasts with ranged weapons",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Non-character Legion warbeasts"
       },
       {
-        "models": "Blighted Nyss Raptors, Blighted Nyss Striders",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Blighted Nyss Archers, Blighted Nyss Raptors, Legion units with Stealth"
       },
       {
-        "models": "Striders solos, Annyssa Ryvaal",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Incubi, Legion solos with Stealth"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Lylyth2 - Ravens of War",
+    "casterId": "Ex01",
     "faction": "faction_everblight",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
-        "mustHave": [],
-        "onlyModels": {"ids": [
-          "Ex01",
-          "EB06",
-          "EB07",
-          "EB08",
-          "EB09",
-          "EB12",
-          "EB13",
-          "EB14",
-          "EB16",
-          "EB17",
-          "EU04",
-          "EU07",
-          "EA03",
-          "ES08",
-          "ES04"
-        ]},
-        "level": 1,
-        "benefit": "",
         "faAlterations": [
           {
             "id": "EU07",
@@ -1764,14 +1780,38 @@ faction_everblight_tiers = {"tiers":[
             ],
             "bonus": 1
           }
-        ]
+        ],
+        "benefit": "",
+        "level": 1,
+        "mustHave": [],
+        "onlyModels": {"ids": [
+          "Ex01",
+          "EB06",
+          "EB07",
+          "EB08",
+          "EB09",
+          "EB12",
+          "EB13",
+          "EB14",
+          "EB16",
+          "EB17",
+          "EB24",
+          "EU04",
+          "EU07",
+          "EA03",
+          "ES08",
+          "ES04"
+        ]}
       },
       {
         "freeModels": [{"id": ["EA03"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["EU07"],
           "inBG": false
         }],
@@ -1786,22 +1826,23 @@ faction_everblight_tiers = {"tiers":[
           "EB14",
           "EB16",
           "EB17",
+          "EB24",
           "EU04",
           "EU07",
           "EA03",
           "ES08",
           "ES04"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For every two Strider Deathstalker solo in the army, place one 4\" AOE forest template anywhere completely within 20\" of the back edge of Lylith's deployment zone after terrain has been placed but before either player deploys his army. Forest templates cannot be placed within 3\" of another terrain feature, including forest templates.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["ES04"],
           "inBG": false
         }],
@@ -1816,22 +1857,23 @@ faction_everblight_tiers = {"tiers":[
           "EB14",
           "EB16",
           "EB17",
+          "EB24",
           "EU04",
           "EU07",
           "EA03",
           "ES08",
           "ES04"
-        ]},
-        "level": 3,
-        "benefit": "For every two Strider Deathstalker solo in the army, place one 4\" AOE forest template anywhere completely within 20\" of the back edge of Lylith's deployment zone after terrain has been placed but before either player deploys his army. Forest templates cannot be placed within 3\" of another terrain feature, including forest templates.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Warbeasts in Lylith's battlegroup gain +2 SPD during your first turn of the game.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "EB06",
             "EB07",
@@ -1841,7 +1883,8 @@ faction_everblight_tiers = {"tiers":[
             "EB13",
             "EB14",
             "EB16",
-            "EB17"
+            "EB17",
+            "EB24"
           ],
           "inBG": true
         }],
@@ -1856,40 +1899,41 @@ faction_everblight_tiers = {"tiers":[
           "EB14",
           "EB16",
           "EB17",
+          "EB24",
           "EU04",
           "EU07",
           "EA03",
           "ES08",
           "ES04"
-        ]},
-        "level": 4,
-        "benefit": "Warbeasts in Lylith's battlegroup gain +2 SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ex01",
-    "name": "Lylyth2 - Ravens of War"
-  },
-  {
     "availableModels": [
       {
-        "models": "Non-character Legion warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Non-character Legion warbeasts with ranged weapons"
       },
       {
-        "models": "Legion units with ranged weapons",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Blighted Nyss Raptors, Strider Rangers"
       },
       {
-        "models": "Beast Mistress, Blighted Nyss Shepherd, Legion solos with ranged weapons",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Striders solos, Annyssa Ryvaal"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Lylyth3 - Scourge of God",
+    "casterId": "Ez01",
     "faction": "faction_everblight",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Fore each Strider Deathstalker solo in the army, you can redeploy one model/unit after both players have deployed but before the first player's first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ez01",
@@ -1912,6 +1956,7 @@ faction_everblight_tiers = {"tiers":[
           "EB18",
           "EB19",
           "EB21",
+          "EB24",
           "EU01",
           "EA01",
           "EU05",
@@ -1924,17 +1969,17 @@ faction_everblight_tiers = {"tiers":[
           "ES04",
           "ES08",
           "EU04"
-        ]},
-        "level": 1,
-        "benefit": "Fore each Strider Deathstalker solo in the army, you can redeploy one model/unit after both players have deployed but before the first player's first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Units gain Stealth during the first round of the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": [
             "EU01",
             "EA01",
@@ -1966,6 +2011,7 @@ faction_everblight_tiers = {"tiers":[
           "EB18",
           "EB19",
           "EB21",
+          "EB24",
           "EU01",
           "EA01",
           "EU05",
@@ -1978,17 +2024,17 @@ faction_everblight_tiers = {"tiers":[
           "ES04",
           "ES08",
           "EU04"
-        ]},
-        "level": 2,
-        "benefit": "Units gain Stealth during the first round of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Fore each Blighted Nyss Shepherd solo in the army, one warbeast in Lylyth's battlegroup can use it's animus during your first turn without being forced. These warbeasts cannot also be forced to use their animi that turn.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["ES03"],
           "inBG": false
         }],
@@ -2013,6 +2059,7 @@ faction_everblight_tiers = {"tiers":[
           "EB18",
           "EB19",
           "EB21",
+          "EB24",
           "EU01",
           "EA01",
           "EU05",
@@ -2025,10 +2072,7 @@ faction_everblight_tiers = {"tiers":[
           "ES04",
           "ES08",
           "EU04"
-        ]},
-        "level": 3,
-        "benefit": "Fore each Blighted Nyss Shepherd solo in the army, one warbeast in Lylyth's battlegroup can use it's animus during your first turn without being forced. These warbeasts cannot also be forced to use their animi that turn.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{
@@ -2040,9 +2084,12 @@ faction_everblight_tiers = {"tiers":[
           "forEach": ["EB17"]
         }],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["EB17"],
           "inBG": false
         }],
@@ -2067,6 +2114,7 @@ faction_everblight_tiers = {"tiers":[
           "EB18",
           "EB19",
           "EB21",
+          "EB24",
           "EU01",
           "EA01",
           "EU05",
@@ -2079,35 +2127,44 @@ faction_everblight_tiers = {"tiers":[
           "ES04",
           "ES08",
           "EU04"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ez01",
-    "name": "Lylyth3 - Scourge of God"
-  },
-  {
     "availableModels": [
       {
-        "models": "Non-character Legion warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Non-character Legion warbeasts"
       },
       {
-        "models": "Blighted Nyss Hex Hunters, Blighted Nyss Swordsmen, Blackfrost Shard",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Legion units with ranged weapons"
       },
       {
-        "models": "Blighted Nyss Shepherds, Incubi",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Beast Mistress, Blighted Nyss Shepherd, Legion solos with ranged weapons"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Rhyas - Alpha Strike",
+    "casterId": "EW04",
     "faction": "faction_everblight",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "EU03",
+            "bonus": 512
+          },
+          {
+            "id": "EA02",
+            "bonus": 512
+          }
+        ],
+        "benefit": "You gain + 1 on your starting roll for the game. ",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "EW04",
@@ -2137,26 +2194,17 @@ faction_everblight_tiers = {"tiers":[
           "EU12",
           "ES03",
           "ES02"
-        ]},
-        "level": 1,
-        "benefit": "You gain + 1 on your starting roll for the game. ",
-        "faAlterations": [
-          {
-            "id": "EU03",
-            "bonus": 512
-          },
-          {
-            "id": "EA02",
-            "bonus": 512
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Blighted Nyss Swordsman units gain +2 SPD during your first turn of the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["EU03"],
           "inBG": false
         }],
@@ -2188,17 +2236,17 @@ faction_everblight_tiers = {"tiers":[
           "EU12",
           "ES03",
           "ES02"
-        ]},
-        "level": 2,
-        "benefit": "Blighted Nyss Swordsman units gain +2 SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Models/units in your army gain Pathfinder during your first turn of the game.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["EU12"],
           "inBG": false
         }],
@@ -2230,10 +2278,7 @@ faction_everblight_tiers = {"tiers":[
           "EU12",
           "ES03",
           "ES02"
-        ]},
-        "level": 3,
-        "benefit": "Models/units in your army gain Pathfinder during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -2241,9 +2286,12 @@ faction_everblight_tiers = {"tiers":[
           "id": "EB08",
           "bonus": 1
         }],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["EB08"],
           "inBG": true
         }],
@@ -2275,35 +2323,42 @@ faction_everblight_tiers = {"tiers":[
           "EU12",
           "ES03",
           "ES02"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "EW04",
-    "name": "Rhyas - Alpha Strike"
-  },
-  {
     "availableModels": [
       {
-        "models": "Non-character Legion warbeasts, Typhon",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Non-character Legion warbeasts"
       },
       {
-        "models": "Blighted Nyss Swordsmen, Blighted Ogrun units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Blighted Nyss Hex Hunters, Blighted Nyss Swordsmen, Blackfrost Shard"
       },
       {
-        "models": "Blighted Nyss Shepherd, Blighted Ogrun solos, Succubus",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Blighted Nyss Shepherds, Incubi"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Rhyas - Rearguard (NQ36)",
+    "casterId": "EW04",
     "faction": "faction_everblight",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [{
+          "id": "ES06",
+          "forEach": [
+            "EU08",
+            "EU09"
+          ],
+          "bonus": 1
+        }],
+        "benefit": "Models/units gain Stealth during the first round of the game.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "EW04",
@@ -2335,24 +2390,17 @@ faction_everblight_tiers = {"tiers":[
           "ES06",
           "ES09",
           "EA06"
-        ]},
-        "level": 1,
-        "benefit": "Models/units gain Stealth during the first round of the game.",
-        "faAlterations": [{
-          "id": "ES06",
-          "forEach": [
-            "EU08",
-            "EU09"
-          ],
-          "bonus": 1
-        }]
+        ]}
       },
       {
         "freeModels": [{"id": ["EA02"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["EU03"],
           "inBG": false
         }],
@@ -2386,17 +2434,17 @@ faction_everblight_tiers = {"tiers":[
           "ES06",
           "ES09",
           "EA06"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Friendly models/units can begin the game affected by Rhyas' upkeep spells. These spells and their targets must be declared before either player sets up models. Rhyas does not pay fury to upkeep these spells during your first turn.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["EB10"],
           "inBG": false
         }],
@@ -2430,17 +2478,17 @@ faction_everblight_tiers = {"tiers":[
           "ES06",
           "ES09",
           "EA06"
-        ]},
-        "level": 3,
-        "benefit": "Friendly models/units can begin the game affected by Rhyas' upkeep spells. These spells and their targets must be declared before either player sets up models. Rhyas does not pay fury to upkeep these spells during your first turn.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Blighted Ogrun models gain Advance Deployment",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "EU08",
             "EU09"
@@ -2477,35 +2525,35 @@ faction_everblight_tiers = {"tiers":[
           "ES06",
           "ES09",
           "EA06"
-        ]},
-        "level": 4,
-        "benefit": "Blighted Ogrun models gain Advance Deployment",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "EW04",
-    "name": "Rhyas - Rearguard (NQ36)"
-  },
-  {
     "availableModels": [
       {
-        "models": "Non-character Legion warbeasts with Flight, Nephilim warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Non-character Legion warbeasts, Typhon"
       },
       {
-        "models": "Legion units with Flight ",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Blighted Nyss Swordsmen, Blighted Ogrun units"
       },
       {
-        "models": "Blighted Nyss Shepherd, Blighted Nyss Sorceress & Hellion, Spell Martyrs",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Blighted Nyss Shepherd, Blighted Ogrun solos, Succubus"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Saeryn - Fallen Angels",
+    "casterId": "EW05",
     "faction": "faction_everblight",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Spell Martyr solos gain Advance Deployment",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "EW05",
@@ -2525,17 +2573,17 @@ faction_everblight_tiers = {"tiers":[
           "ES01",
           "ES03",
           "ES07"
-        ]},
-        "level": 1,
-        "benefit": "Spell Martyr solos gain Advance Deployment",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You gain + 1 on your starting roll for the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["ES01"],
           "inBG": false
         }],
@@ -2557,17 +2605,17 @@ faction_everblight_tiers = {"tiers":[
           "ES01",
           "ES03",
           "ES07"
-        ]},
-        "level": 2,
-        "benefit": "You gain + 1 on your starting roll for the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment zone is extended 2\" forward.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "EB07",
             "EB08",
@@ -2594,10 +2642,7 @@ faction_everblight_tiers = {"tiers":[
           "ES01",
           "ES03",
           "ES07"
-        ]},
-        "level": 3,
-        "benefit": "Your deployment zone is extended 2\" forward.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{"id": [
@@ -2607,9 +2652,12 @@ faction_everblight_tiers = {"tiers":[
           "EB18"
         ]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 4,
+          "inMarshal": false,
           "ids": [
             "EB03",
             "EB04",
@@ -2637,35 +2685,48 @@ faction_everblight_tiers = {"tiers":[
           "ES01",
           "ES03",
           "ES07"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "EW05",
-    "name": "Saeryn - Fallen Angels"
-  },
-  {
     "availableModels": [
       {
-        "models": "Non-character Legion warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Non-character Legion warbeasts with Flight, Nephilim warbeasts"
       },
       {
-        "models": "Spawning Vessels, Blighted Ogrun units ",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Legion units with Flight "
       },
       {
-        "models": "The Forsaken, Blighted Ogrun solos",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Blighted Nyss Shepherd, Blighted Nyss Sorceress & Hellion, Spell Martyrs"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Thagrosh - Army of Annihilation",
+    "casterId": "Ew02",
     "faction": "faction_everblight",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "EU06",
+            "bonus": 1
+          },
+          {
+            "id": "EU08",
+            "bonus": 512
+          },
+          {
+            "id": "EU09",
+            "bonus": 512
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ew02",
@@ -2688,36 +2749,24 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EA06",
           "EU06",
           "EU08",
           "EU09",
           "ES05",
           "ES06"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "EU06",
-            "bonus": 1
-          },
-          {
-            "id": "EU08",
-            "bonus": 512
-          },
-          {
-            "id": "EU09",
-            "bonus": 512
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [{"id": ["ES06"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "EU08",
             "EU09"
@@ -2745,23 +2794,24 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EA06",
           "EU06",
           "EU08",
           "EU09",
           "ES05",
           "ES06"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Lesser warbeasts in Thagrosh's battlegroup gain Advance Deployment",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["EU06"],
           "inBG": false
         }],
@@ -2786,23 +2836,24 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EA06",
           "EU06",
           "EU08",
           "EU09",
           "ES05",
           "ES06"
-        ]},
-        "level": 3,
-        "benefit": "Lesser warbeasts in Thagrosh's battlegroup gain Advance Deployment",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment zone is extended 2\"' forward.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "EB07",
             "EB08",
@@ -2834,41 +2885,51 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EA06",
           "EU06",
           "EU08",
           "EU09",
           "ES05",
           "ES06"
-        ]},
-        "level": 4,
-        "benefit": "Your deployment zone is extended 2\"' forward.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ew02",
-    "name": "Thagrosh - Army of Annihilation"
-  },
-  {
     "availableModels": [
       {
-        "models": "Non-character Legion warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Non-character Legion warbeasts"
       },
       {
-        "models": "Spawning Vessel",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Spawning Vessels, Blighted Ogrun units "
       },
       {
-        "models": "Beast Mistress, Blighted Nyss Shepherd, Blighted Nyss Sorceress & Hellion, Spell Martyr, Succubus",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "The Forsaken, Blighted Ogrun solos"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Thagrosh1 - New Blood (NQ50)",
+    "casterId": "Ew02",
     "faction": "faction_everblight",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "EU06",
+            "bonus": 2
+          },
+          {
+            "id": "ES10",
+            "bonus": 2
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ew02",
@@ -2892,32 +2953,24 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU06",
           "ES10",
           "ES03",
           "ES01",
           "ES07",
           "ES09"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "EU06",
-            "bonus": 2
-          },
-          {
-            "id": "ES10",
-            "bonus": 2
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Each Spawning Vessel in the army begins the game with one corpse token.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["EU06"],
           "inBG": false
         }],
@@ -2943,16 +2996,14 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU06",
           "ES10",
           "ES03",
           "ES01",
           "ES07",
           "ES09"
-        ]},
-        "level": 2,
-        "benefit": "Each Spawning Vessel in the army begins the game with one corpse token.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{
@@ -2964,9 +3015,12 @@ faction_everblight_tiers = {"tiers":[
           "forEach": ["ES10"]
         }],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Add one warbeast to each Beast Mistress's battlegroup free of cost.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["ES10"],
           "inBG": false
         }],
@@ -2992,23 +3046,24 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU06",
           "ES10",
           "ES03",
           "ES01",
           "ES07",
           "ES09"
-        ]},
-        "level": 3,
-        "benefit": "Add one warbeast to each Beast Mistress's battlegroup free of cost.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Beast Mistresses and warbeasts in their battlegroups gain Advance Deployment",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "EB06",
             "EB12"
@@ -3037,41 +3092,45 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU06",
           "ES10",
           "ES03",
           "ES01",
           "ES07",
           "ES09"
-        ]},
-        "level": 4,
-        "benefit": "Beast Mistresses and warbeasts in their battlegroups gain Advance Deployment",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ew02",
-    "name": "Thagrosh1 - New Blood (NQ50)"
-  },
-  {
     "availableModels": [
       {
-        "models": "Non-character Legion warbeasts, Typhon",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Non-character Legion warbeasts"
       },
       {
-        "models": "Blighted Nyss Legionnaires, Legion units with Flight",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Spawning Vessel"
       },
       {
-        "models": "Incubi, Spell Martyrs, The Forsaken, Legion solos with Flight",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Beast Mistress, Blighted Nyss Shepherd, Blighted Nyss Sorceress & Hellion, Spell Martyr, Succubus"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Thagrosh2 - Dragon's Host",
+    "casterId": "Ex02",
     "faction": "faction_everblight",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [{
+          "id": "EU02",
+          "bonus": 512
+        }],
+        "benefit": "Additionally, units and solos with Flight gain Advance Deployment",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ex02",
@@ -3095,6 +3154,7 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU02",
           "EA05",
           "EU10",
@@ -3103,20 +3163,17 @@ faction_everblight_tiers = {"tiers":[
           "ES05",
           "ES01",
           "ES03"
-        ]},
-        "level": 1,
-        "benefit": "Additionally, units and solos with Flight gain Advance Deployment",
-        "faAlterations": [{
-          "id": "EU02",
-          "bonus": 512
-        }]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You gain + 1 on your starting roll for the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["ES01"],
           "inBG": false
         }],
@@ -3142,6 +3199,7 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU02",
           "EA05",
           "EU10",
@@ -3150,17 +3208,17 @@ faction_everblight_tiers = {"tiers":[
           "ES05",
           "ES01",
           "ES03"
-        ]},
-        "level": 2,
-        "benefit": "You gain + 1 on your starting roll for the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Blighted Nyss Legionnaire units gain +2 SPD during your first turn of the game.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["EU02"],
           "inBG": false
         }],
@@ -3186,6 +3244,7 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU02",
           "EA05",
           "EU10",
@@ -3194,10 +3253,7 @@ faction_everblight_tiers = {"tiers":[
           "ES05",
           "ES01",
           "ES03"
-        ]},
-        "level": 3,
-        "benefit": "Blighted Nyss Legionnaire units gain +2 SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{
@@ -3213,9 +3269,12 @@ faction_everblight_tiers = {"tiers":[
           ]
         }],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For every two heavy warbeasts in the army, add a Blighted Nyss Shepherd solo to the army free of cost. These solos ignore FA restrictions.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "EB07",
             "EB08",
@@ -3249,6 +3308,7 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU02",
           "EA05",
           "EU10",
@@ -3257,35 +3317,38 @@ faction_everblight_tiers = {"tiers":[
           "ES05",
           "ES01",
           "ES03"
-        ]},
-        "level": 4,
-        "benefit": "For every two heavy warbeasts in the army, add a Blighted Nyss Shepherd solo to the army free of cost. These solos ignore FA restrictions.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ex02",
-    "name": "Thagrosh2 - Dragon's Host"
-  },
-  {
     "availableModels": [
       {
-        "models": "Non-character Legion warbeasts",
-        "type": "WARBEASTS"
+        "type": "WARBEASTS",
+        "models": "Non-character Legion warbeasts, Typhon"
       },
       {
-        "models": "Spawning Vessel, Blighted Nyss units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Blighted Nyss Legionnaires, Legion units with Flight"
       },
       {
-        "models": "Blighted Nyss Shepherds, Incubi, Spell Martyrs, Legion solos with Magic Ability ",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Incubi, Spell Martyrs, The Forsaken, Legion solos with Flight, Blighted Nyss Shepherds "
       }
-    ],
+    ]
+  },
+  {
+    "name": "Vayl - Winter Storm",
+    "casterId": "Ew03",
     "faction": "faction_everblight",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [{
+          "id": "EU11",
+          "bonus": 512
+        }],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ew03",
@@ -3308,6 +3371,7 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU01",
           "EA01",
           "EU02",
@@ -3328,20 +3392,17 @@ faction_everblight_tiers = {"tiers":[
           "ES07",
           "ES01",
           "ES09"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [{
-          "id": "EU11",
-          "bonus": 512
-        }]
+        ]}
       },
       {
         "freeModels": [{"id": ["EA04"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["EU11"],
           "inBG": false
         }],
@@ -3366,6 +3427,7 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU01",
           "EA01",
           "EU02",
@@ -3386,17 +3448,17 @@ faction_everblight_tiers = {"tiers":[
           "ES07",
           "ES01",
           "ES09"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Warbeasts in Vayl's battlegroup gain +2 SPD during your first turn of the game.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["EU06"],
           "inBG": false
         }],
@@ -3421,6 +3483,7 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU01",
           "EA01",
           "EU02",
@@ -3441,17 +3504,17 @@ faction_everblight_tiers = {"tiers":[
           "ES07",
           "ES01",
           "ES09"
-        ]},
-        "level": 3,
-        "benefit": "Warbeasts in Vayl's battlegroup gain +2 SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "The LOS of models without Eyeless Sight is reduced to 8\" during the first round of the game.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 5,
+          "inMarshal": false,
           "ids": [
             "EB01",
             "EB02",
@@ -3471,7 +3534,8 @@ faction_everblight_tiers = {"tiers":[
             "EB18",
             "EB19",
             "EB21",
-            "EB22"
+            "EB22",
+            "EB24"
           ],
           "inBG": false
         }],
@@ -3496,6 +3560,7 @@ faction_everblight_tiers = {"tiers":[
           "EB19",
           "EB21",
           "EB22",
+          "EB24",
           "EU01",
           "EA01",
           "EU02",
@@ -3516,22 +3581,35 @@ faction_everblight_tiers = {"tiers":[
           "ES07",
           "ES01",
           "ES09"
-        ]},
-        "level": 4,
-        "benefit": "The LOS of models without Eyeless Sight is reduced to 8\" during the first round of the game.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ew03",
-    "name": "Vayl - Winter Storm"
+    "availableModels": [
+      {
+        "type": "WARBEASTS",
+        "models": "Non-character Legion warbeasts"
+      },
+      {
+        "type": "UNITS",
+        "models": "Spawning Vessel, Blighted Nyss units"
+      },
+      {
+        "type": "SOLOS",
+        "models": "Blighted Nyss Shepherds, Incubi, Spell Martyrs, Legion solos with Magic Ability "
+      }
+    ]
   },
   {
-    "availableModels": [],
+    "name": "Vayl2 - Machinations of Shadow",
+    "casterId": "Ex03",
     "faction": "faction_everblight",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Non-character solos in this army gaim Advance Deployment.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Ex03",
@@ -3566,17 +3644,17 @@ faction_everblight_tiers = {"tiers":[
           "EE01",
           "ES09",
           "EA05"
-        ]},
-        "level": 1,
-        "benefit": "Non-character solos in this army gaim Advance Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You gain +1 on your starting roll for the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["EU06"],
           "inBG": false
         }],
@@ -3613,17 +3691,17 @@ faction_everblight_tiers = {"tiers":[
           "EE01",
           "ES09",
           "EA05"
-        ]},
-        "level": 2,
-        "benefit": "You gain +1 on your starting roll for the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Warbeasts with Flight gain +2 SPD during your first turn of the game.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "EB01",
             "EB04",
@@ -3668,10 +3746,7 @@ faction_everblight_tiers = {"tiers":[
           "EE01",
           "ES09",
           "EA05"
-        ]},
-        "level": 3,
-        "benefit": "Warbeasts with Flight gain +2 SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -3705,9 +3780,12 @@ faction_everblight_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "EB07",
             "EB08",
@@ -3752,14 +3830,10 @@ faction_everblight_tiers = {"tiers":[
           "EE01",
           "ES09",
           "EA05"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Ex03",
-    "name": "Vayl2 - Machinations of Shadow"
+    "availableModels": []
   }
 ]};
 
