@@ -411,11 +411,23 @@ faction_skorne_entries = {"groups":[
         "type": "unit"
       },
       {
+        "max": 10,
+        "min": 6,
+        "costMax": 8,
+        "fa": "3",
+        "costMin": 5,
+        "id": "SU16",
+        "name": "Praetorian Keltarii",
+        "cost": 5,
+        "faction": "faction_skorne",
+        "type": "unit"
+      },
+      {
         "name": "Legends of Halaak",
         "fa": "C",
         "cost": 4,
         "faction": "faction_skorne",
-        "id": "SU16",
+        "id": "SU17",
         "type": "unit"
       },
       {
@@ -2100,6 +2112,191 @@ faction_skorne_tiers = {"tiers":[
       }
     ]
   },
+
+
+
+
+
+
+  {
+    "name": "Rasheth - Siege Column (NQ46)",
+    "casterId": "SW07",
+    "faction": "faction_skorne",
+    "levels": [
+      {
+        "freeModels": [],
+        "costAlterations": [
+          {
+            "id": "SB18",
+            "bonus": 1
+          },
+          {
+            "id": "SB22",
+            "bonus": 1
+          },
+          {
+            "id": "SE01",
+            "bonus": 1
+          }
+        ],
+        "faAlterations": [],
+        "benefit": "Reduce the point cost of huge-based models by 1.",
+        "level": 1,
+        "mustHave": [],
+        "onlyModels": {"ids": [
+          "SW07",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB07",
+          "SB14",
+          "SB18",
+          "SB21",
+          "SB22",
+          "SU05",
+          "SU06",
+          "SU07",
+          "SU08",
+          "SA01",
+          "SU09",
+          "SU10",
+          "SU13",
+          "SU16",
+          "SS01",
+          "SS05",
+          "SE01"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Light Artillery units gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 2,
+        "mustHave": [
+          {
+            "min": 1,
+            "inMarshal": false,
+            "ids": [
+              "SU09",
+              "SS05"
+            ],
+            "inBG": false
+          },
+          {
+            "min": 1,
+            "inMarshal": false,
+            "ids": [
+              "SU10",
+              "SU13"
+            ],
+            "inBG": false
+          }
+        ],
+        "onlyModels": {"ids": [
+          "SW07",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB07",
+          "SB14",
+          "SB18",
+          "SB21",
+          "SB22",
+          "SU05",
+          "SU06",
+          "SU07",
+          "SU08",
+          "SA01",
+          "SU09",
+          "SU10",
+          "SU13",
+          "SU16",
+          "SS01",
+          "SS05",
+          "SE01"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Siege Animantarax battle engines begin the game with 3 rage tokens.",
+        "level": 3,
+        "mustHave": [{
+          "min": 1,
+          "inMarshal": false,
+          "ids": ["SE01"],
+          "inBG": false
+        }],
+        "onlyModels": {"ids": [
+          "SW07"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Roll two dice for your starting game roll and keep the higher result.",
+        "level": 4,
+        "mustHave": [{
+          "min": 1,
+          "inMarshal": false,
+          "ids": ["SB18"],
+          "inBG": false
+        }],
+        "onlyModels": {"ids": [
+          "SW07",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB07",
+          "SB14",
+          "SB18",
+          "SB21",
+          "SB22",
+          "SU05",
+          "SU06",
+          "SU07",
+          "SU08",
+          "SA01",
+          "SU09",
+          "SU10",
+          "SU13",
+          "SU16",
+          "SS01",
+          "SS05",
+          "SE01"
+        ]}
+      }
+    ],
+    "availableModels": [
+      {
+        "type": "WARBEASTS",
+        "models": "Skorne warbeasts with ranged attacks"
+      },
+      {
+        "type": "UNITS",
+        "models": "Light Artillery units, Paingiver Beast Handlers, Praetorian Units, Tyrant Commander & Standard Bearer"
+      },
+      {
+        "type": "SOLOS",
+        "models": "Agonizer, Tyrant Rhadeim"
+      },
+      {
+        "type": "BATTLE_ENGINES",
+        "models": "Siege Animantarax"
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
   {
     "name": "Xerxis - The Abyssal Cohort (NQ39)",
     "casterId": "SW04",
