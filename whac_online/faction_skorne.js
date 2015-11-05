@@ -2112,12 +2112,6 @@ faction_skorne_tiers = {"tiers":[
       }
     ]
   },
-
-
-
-
-
-
   {
     "name": "Rasheth - Siege Column (NQ46)",
     "casterId": "SW07",
@@ -2230,7 +2224,27 @@ faction_skorne_tiers = {"tiers":[
           "inBG": false
         }],
         "onlyModels": {"ids": [
-          "SW07"
+          "SW07",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB07",
+          "SB14",
+          "SB18",
+          "SB21",
+          "SB22",
+          "SU05",
+          "SU06",
+          "SU07",
+          "SU08",
+          "SA01",
+          "SU09",
+          "SU10",
+          "SU13",
+          "SU16",
+          "SS01",
+          "SS05",
+          "SE01"
         ]}
       },
       {
@@ -2289,14 +2303,263 @@ faction_skorne_tiers = {"tiers":[
       }
     ]
   },
-
-
-
-
-
-
-
-
+  {
+    "name": "Morghoul2 - Hit Squad (Forces of Distinction)",
+    "casterId": "Sx01",
+    "faction": "faction_skorne",
+    "levels": [
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "The Bloodrunner Master Tormentor gains Shadow Whip (Shadow Whip : If an attack with the weapon hits, the attacker or someone in the command radius may immediately advance 3\". Only one advance per model per turn.)",
+        "level": 1,
+        "mustHave": [],
+        "onlyModels": {"ids": [
+          "Sx01",
+          "SB01",
+          "SB02",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB06",
+          "SB07",
+          "SB08",
+          "SB09",
+          "SB11",
+          "SB12",
+          "SB14",
+          "SB15",
+          "SB17",
+          "SB18",
+          "SB19",
+          "SB20",
+          "SB21",
+          "SB22",
+          "SU01",
+          "SU05",
+          "SS01",
+          "SS03",
+          "SS07",
+          "IU01",
+          "IU02",
+          "IU03",
+          "IU04",
+          "IU05",
+          "IU06",
+          "IU07",
+          "IU08",
+          "IU09"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your opponent's models/units lose Advance Deployment",
+        "level": 2,
+        "mustHave": [
+          {
+            "min": 2,
+            "inMarshal": false,
+            "ids": [
+              "SU01"
+            ],
+            "inBG": false
+          }
+        ],
+        "onlyModels": {"ids": [
+          "Sx01",
+          "SB01",
+          "SB02",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB06",
+          "SB07",
+          "SB08",
+          "SB09",
+          "SB11",
+          "SB12",
+          "SB14",
+          "SB15",
+          "SB17",
+          "SB18",
+          "SB19",
+          "SB20",
+          "SB21",
+          "SB22",
+          "SU01",
+          "SU05",
+          "SS01",
+          "SS03",
+          "SS07",
+          "IU01",
+          "IU02",
+          "IU03",
+          "IU04",
+          "IU05",
+          "IU06",
+          "IU07",
+          "IU08",
+          "IU09"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [
+          {
+            "id": "SB06",
+            "bonus": 1
+          },
+          {
+            "id": "SB07",
+            "bonus": 1
+          },
+          {
+            "id": "SB08",
+            "bonus": 1
+          },
+          {
+            "id": "SB09",
+            "bonus": 1
+          },
+          {
+            "id": "SB11",
+            "bonus": 1
+          },
+          {
+            "id": "SB15",
+            "bonus": 1
+          },
+          {
+            "id": "SB20",
+            "bonus": 1
+          },
+          {
+            "id": "SB21",
+            "bonus": 1
+          }
+        ],
+        "faAlterations": [],
+        "benefit": "Reduce the cost of heavy warbeasts by 1.",
+        "level": 3,
+        "mustHave": [{
+          "min": 3,
+          "inMarshal": false,
+          "ids": ["SB06", "SB07", "SB08", "SB09", "SB11", "SB15", "SB20", "SB21"],
+          "inBG": true
+        }],
+        "onlyModels": {"ids": [
+          "Sx01",
+          "SB01",
+          "SB02",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB06",
+          "SB07",
+          "SB08",
+          "SB09",
+          "SB11",
+          "SB12",
+          "SB14",
+          "SB15",
+          "SB17",
+          "SB18",
+          "SB19",
+          "SB20",
+          "SB21",
+          "SB22",
+          "SU01",
+          "SU05",
+          "SS01",
+          "SS03",
+          "SS07",
+          "IU01",
+          "IU02",
+          "IU03",
+          "IU04",
+          "IU05",
+          "IU06",
+          "IU07",
+          "IU08",
+          "IU09"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "The Agonizer begins the game with 1 Fury for each Paingiver unit.",
+        "level": 4,
+        "mustHave": [
+        {
+          "min": 1,
+          "inMarshal": false,
+          "ids": ["SU05"],
+          "inBG": false
+        },
+        {
+          "min": 1,
+          "inMarshal": false,
+          "ids": ["SS01"],
+          "inBG": false
+        }
+        ],
+        "onlyModels": {"ids": [
+          "Sx01",
+          "SB01",
+          "SB02",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB06",
+          "SB07",
+          "SB08",
+          "SB09",
+          "SB11",
+          "SB12",
+          "SB14",
+          "SB15",
+          "SB17",
+          "SB18",
+          "SB19",
+          "SB20",
+          "SB21",
+          "SB22",
+          "SU01",
+          "SU05",
+          "SS01",
+          "SS03",
+          "SS07",
+          "IU01",
+          "IU02",
+          "IU03",
+          "IU04",
+          "IU05",
+          "IU06",
+          "IU07",
+          "IU08",
+          "IU09"
+        ]}
+      }
+    ],
+    "availableModels": [
+      {
+        "type": "WARBEASTS",
+        "models": "Skorne non-character warbeasts"
+      },
+      {
+        "type": "UNITS",
+        "models": "Paingiver Units, Minion units that will work for Skorne"
+      },
+      {
+        "type": "SOLOS",
+        "models": "Agonizer, Paingiver Solos"
+      }
+    ]
+  },
   {
     "name": "Xerxis - The Abyssal Cohort (NQ39)",
     "casterId": "SW04",
