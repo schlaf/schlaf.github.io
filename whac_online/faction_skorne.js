@@ -411,11 +411,23 @@ faction_skorne_entries = {"groups":[
         "type": "unit"
       },
       {
+        "max": 10,
+        "min": 6,
+        "costMax": 8,
+        "fa": "3",
+        "costMin": 5,
+        "id": "SU16",
+        "name": "Praetorian Keltarii",
+        "cost": 5,
+        "faction": "faction_skorne",
+        "type": "unit"
+      },
+      {
         "name": "Legends of Halaak",
         "fa": "C",
         "cost": 4,
         "faction": "faction_skorne",
-        "id": "SU16",
+        "id": "SU17",
         "type": "unit"
       },
       {
@@ -1932,6 +1944,8 @@ faction_skorne_tiers = {"tiers":[
           "IU05",
           "IU06",
           "IU07",
+          "IU08",
+          "IU09",
           "SS01",
           "SS07"
         ]}
@@ -1940,7 +1954,7 @@ faction_skorne_tiers = {"tiers":[
         "freeModels": [],
         "costAlterations": [],
         "faAlterations": [],
-        "benefit": "One Minion unit gains +2 SPD during your first turn of the game for each Paingiver Task Master solo included .",
+        "benefit": "One Minion unit gains +2 SPD during your first turn of the game for each Paingiver Task Master solo included.",
         "level": 2,
         "mustHave": [
           {
@@ -1959,7 +1973,9 @@ faction_skorne_tiers = {"tiers":[
               "IU04",
               "IU05",
               "IU06",
-              "IU07"
+              "IU07",
+              "IU08",
+              "IU09"
             ],
             "inBG": false
           }
@@ -1987,6 +2003,8 @@ faction_skorne_tiers = {"tiers":[
           "IU05",
           "IU06",
           "IU07",
+          "IU08",
+          "IU09",
           "SS01",
           "SS07"
         ]}
@@ -2026,6 +2044,8 @@ faction_skorne_tiers = {"tiers":[
           "IU05",
           "IU06",
           "IU07",
+          "IU08",
+          "IU09",
           "SS01",
           "SS07"
         ]}
@@ -2070,6 +2090,8 @@ faction_skorne_tiers = {"tiers":[
           "IU05",
           "IU06",
           "IU07",
+          "IU08",
+          "IU09",
           "SS01",
           "SS07"
         ]}
@@ -2087,6 +2109,454 @@ faction_skorne_tiers = {"tiers":[
       {
         "type": "SOLOS",
         "models": "Agonizer, Paingiver Task Master"
+      }
+    ]
+  },
+  {
+    "name": "Rasheth - Siege Column (NQ46)",
+    "casterId": "SW07",
+    "faction": "faction_skorne",
+    "levels": [
+      {
+        "freeModels": [],
+        "costAlterations": [
+          {
+            "id": "SB18",
+            "bonus": 1
+          },
+          {
+            "id": "SB22",
+            "bonus": 1
+          },
+          {
+            "id": "SE01",
+            "bonus": 1
+          }
+        ],
+        "faAlterations": [],
+        "benefit": "Reduce the point cost of huge-based models by 1.",
+        "level": 1,
+        "mustHave": [],
+        "onlyModels": {"ids": [
+          "SW07",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB07",
+          "SB14",
+          "SB18",
+          "SB21",
+          "SB22",
+          "SU05",
+          "SU06",
+          "SU07",
+          "SU08",
+          "SA01",
+          "SU09",
+          "SU10",
+          "SU13",
+          "SU16",
+          "SS01",
+          "SS05",
+          "SE01"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Light Artillery units gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 2,
+        "mustHave": [
+          {
+            "min": 1,
+            "inMarshal": false,
+            "ids": [
+              "SU09",
+              "SS05"
+            ],
+            "inBG": false
+          },
+          {
+            "min": 1,
+            "inMarshal": false,
+            "ids": [
+              "SU10",
+              "SU13"
+            ],
+            "inBG": false
+          }
+        ],
+        "onlyModels": {"ids": [
+          "SW07",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB07",
+          "SB14",
+          "SB18",
+          "SB21",
+          "SB22",
+          "SU05",
+          "SU06",
+          "SU07",
+          "SU08",
+          "SA01",
+          "SU09",
+          "SU10",
+          "SU13",
+          "SU16",
+          "SS01",
+          "SS05",
+          "SE01"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Siege Animantarax battle engines begin the game with 3 rage tokens.",
+        "level": 3,
+        "mustHave": [{
+          "min": 1,
+          "inMarshal": false,
+          "ids": ["SE01"],
+          "inBG": false
+        }],
+        "onlyModels": {"ids": [
+          "SW07",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB07",
+          "SB14",
+          "SB18",
+          "SB21",
+          "SB22",
+          "SU05",
+          "SU06",
+          "SU07",
+          "SU08",
+          "SA01",
+          "SU09",
+          "SU10",
+          "SU13",
+          "SU16",
+          "SS01",
+          "SS05",
+          "SE01"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Roll two dice for your starting game roll and keep the higher result.",
+        "level": 4,
+        "mustHave": [{
+          "min": 1,
+          "inMarshal": false,
+          "ids": ["SB18"],
+          "inBG": false
+        }],
+        "onlyModels": {"ids": [
+          "SW07",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB07",
+          "SB14",
+          "SB18",
+          "SB21",
+          "SB22",
+          "SU05",
+          "SU06",
+          "SU07",
+          "SU08",
+          "SA01",
+          "SU09",
+          "SU10",
+          "SU13",
+          "SU16",
+          "SS01",
+          "SS05",
+          "SE01"
+        ]}
+      }
+    ],
+    "availableModels": [
+      {
+        "type": "WARBEASTS",
+        "models": "Skorne warbeasts with ranged attacks"
+      },
+      {
+        "type": "UNITS",
+        "models": "Light Artillery units, Paingiver Beast Handlers, Praetorian Units, Tyrant Commander & Standard Bearer"
+      },
+      {
+        "type": "SOLOS",
+        "models": "Agonizer, Tyrant Rhadeim"
+      },
+      {
+        "type": "BATTLE_ENGINES",
+        "models": "Siege Animantarax"
+      }
+    ]
+  },
+  {
+    "name": "Morghoul2 - Hit Squad (Forces of Distinction)",
+    "casterId": "Sx01",
+    "faction": "faction_skorne",
+    "levels": [
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "The Bloodrunner Master Tormentor gains Shadow Whip (Shadow Whip : If an attack with the weapon hits, the attacker or someone in the command radius may immediately advance 3\". Only one advance per model per turn.)",
+        "level": 1,
+        "mustHave": [],
+        "onlyModels": {"ids": [
+          "Sx01",
+          "SB01",
+          "SB02",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB06",
+          "SB07",
+          "SB08",
+          "SB09",
+          "SB11",
+          "SB12",
+          "SB14",
+          "SB15",
+          "SB17",
+          "SB18",
+          "SB19",
+          "SB20",
+          "SB21",
+          "SB22",
+          "SU01",
+          "SU05",
+          "SS01",
+          "SS03",
+          "SS07",
+          "IU01",
+          "IU02",
+          "IU03",
+          "IU04",
+          "IU05",
+          "IU06",
+          "IU07",
+          "IU08",
+          "IU09"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your opponent's models/units lose Advance Deployment",
+        "level": 2,
+        "mustHave": [
+          {
+            "min": 2,
+            "inMarshal": false,
+            "ids": [
+              "SU01"
+            ],
+            "inBG": false
+          }
+        ],
+        "onlyModels": {"ids": [
+          "Sx01",
+          "SB01",
+          "SB02",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB06",
+          "SB07",
+          "SB08",
+          "SB09",
+          "SB11",
+          "SB12",
+          "SB14",
+          "SB15",
+          "SB17",
+          "SB18",
+          "SB19",
+          "SB20",
+          "SB21",
+          "SB22",
+          "SU01",
+          "SU05",
+          "SS01",
+          "SS03",
+          "SS07",
+          "IU01",
+          "IU02",
+          "IU03",
+          "IU04",
+          "IU05",
+          "IU06",
+          "IU07",
+          "IU08",
+          "IU09"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [
+          {
+            "id": "SB06",
+            "bonus": 1
+          },
+          {
+            "id": "SB07",
+            "bonus": 1
+          },
+          {
+            "id": "SB08",
+            "bonus": 1
+          },
+          {
+            "id": "SB09",
+            "bonus": 1
+          },
+          {
+            "id": "SB11",
+            "bonus": 1
+          },
+          {
+            "id": "SB15",
+            "bonus": 1
+          },
+          {
+            "id": "SB20",
+            "bonus": 1
+          },
+          {
+            "id": "SB21",
+            "bonus": 1
+          }
+        ],
+        "faAlterations": [],
+        "benefit": "Reduce the cost of heavy warbeasts by 1.",
+        "level": 3,
+        "mustHave": [{
+          "min": 3,
+          "inMarshal": false,
+          "ids": ["SB06", "SB07", "SB08", "SB09", "SB11", "SB15", "SB20", "SB21"],
+          "inBG": true
+        }],
+        "onlyModels": {"ids": [
+          "Sx01",
+          "SB01",
+          "SB02",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB06",
+          "SB07",
+          "SB08",
+          "SB09",
+          "SB11",
+          "SB12",
+          "SB14",
+          "SB15",
+          "SB17",
+          "SB18",
+          "SB19",
+          "SB20",
+          "SB21",
+          "SB22",
+          "SU01",
+          "SU05",
+          "SS01",
+          "SS03",
+          "SS07",
+          "IU01",
+          "IU02",
+          "IU03",
+          "IU04",
+          "IU05",
+          "IU06",
+          "IU07",
+          "IU08",
+          "IU09"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "The Agonizer begins the game with 1 Fury for each Paingiver unit.",
+        "level": 4,
+        "mustHave": [
+        {
+          "min": 1,
+          "inMarshal": false,
+          "ids": ["SU05"],
+          "inBG": false
+        },
+        {
+          "min": 1,
+          "inMarshal": false,
+          "ids": ["SS01"],
+          "inBG": false
+        }
+        ],
+        "onlyModels": {"ids": [
+          "Sx01",
+          "SB01",
+          "SB02",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB06",
+          "SB07",
+          "SB08",
+          "SB09",
+          "SB11",
+          "SB12",
+          "SB14",
+          "SB15",
+          "SB17",
+          "SB18",
+          "SB19",
+          "SB20",
+          "SB21",
+          "SB22",
+          "SU01",
+          "SU05",
+          "SS01",
+          "SS03",
+          "SS07",
+          "IU01",
+          "IU02",
+          "IU03",
+          "IU04",
+          "IU05",
+          "IU06",
+          "IU07",
+          "IU08",
+          "IU09"
+        ]}
+      }
+    ],
+    "availableModels": [
+      {
+        "type": "WARBEASTS",
+        "models": "Skorne non-character warbeasts"
+      },
+      {
+        "type": "UNITS",
+        "models": "Paingiver Units, Minion units that will work for Skorne"
+      },
+      {
+        "type": "SOLOS",
+        "models": "Agonizer, Paingiver Solos"
       }
     ]
   },
