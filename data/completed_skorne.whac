@@ -3,12 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
     <armies>
-        <army faction="faction_skorne" name="Skorne" version="forum_skorne_006">
+        <army faction="faction_skorne" name="Skorne" version="forum_skorne_007">
             <!-- 002 add zaal2 -->
             <!-- 003 Fixed spell typos -->
             <!-- 004 Fixed Zaal2 typo -->
             <!-- 005 august 2015 errata (animantarax) -->
             <!-- 006 add devastation entries -->
+            <!-- 007 correct id for legends of halaak (was overwritting praetorian keltarii) -->
             <warlocks>
                 <warlock id="Sw01" name="Morghoul1" generation="P" full_name="Master Tormentor Morghoul" qualification="Skorne Warlock" fury="5" warbeast_points="7" fa="C" completed="true">
                     <basestats name="MORGHOUL" spd="7" str="6" mat="8" rat="4" def="17" arm="13" cmd="8" hitpoints="15" pathfinder="true" />
@@ -830,7 +831,7 @@
                     <capacity title="PARRY">This model cannot be targeted by free strikes.</capacity>
                     <capacity title="REFORM">After all models in this unit have completed their actions, each can advance up to 3".</capacity>
                 </unit>
-                <unit id="SU16" name="Legends of Halaak" full_name="Legends of Halaak" qualification="Skorne Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="3" fullCount="-" completed="true">
+                <unit id="SU17" name="Legends of Halaak" full_name="Legends of Halaak" qualification="Skorne Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="3" fullCount="-" completed="true">
                     <basestats name="VALGESH" spd="6" str="7" mat="7" rat="4" def="13" arm="15" cmd="10" officer="true" fearless="true" />
                     <weapons>
                         <melee_weapon name="Sword" pow="3" p_plus_s="10" count="2">
