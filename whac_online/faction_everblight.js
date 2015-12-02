@@ -956,10 +956,12 @@ faction_everblight_tiers = {"tiers":[
           "EU07",
           "EA03",
           "EU10",
+          "EU14",
           "ES05",
           "ES04",
           "ES01",
-          "EE01"
+          "EE01",
+          "ES12"
         ]}
       },
       {
@@ -1000,10 +1002,12 @@ faction_everblight_tiers = {"tiers":[
           "EU07",
           "EA03",
           "EU10",
+          "EU14",
           "ES05",
           "ES04",
           "ES01",
-          "EE01"
+          "EE01",
+          "ES12"
         ]}
       },
       {
@@ -1065,10 +1069,12 @@ faction_everblight_tiers = {"tiers":[
           "EU07",
           "EA03",
           "EU10",
+          "EU14",
           "ES05",
           "ES04",
           "ES01",
-          "EE01"
+          "EE01",
+          "ES12"
         ]}
       },
       {
@@ -1118,10 +1124,12 @@ faction_everblight_tiers = {"tiers":[
           "EU07",
           "EA03",
           "EU10",
+          "EU14",
           "ES05",
           "ES04",
           "ES01",
-          "EE01"
+          "EE01",
+          "ES12"
         ]}
       }
     ],
@@ -2544,6 +2552,230 @@ faction_everblight_tiers = {"tiers":[
     ]
   },
   {
+    "name": "Saeryn & Rhyas - Might & Magic",
+    "casterId": "EW09",
+    "faction": "faction_everblight",
+    "levels": [
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "EU03",
+            "bonus": 1
+          },
+          {
+            "id": "EU11",
+            "bonus": 1
+          },
+          {
+            "id": "EA02",
+            "bonus": 1
+          }
+        ],
+        "level": 1,
+        "mustHave": [],
+        "onlyModels": {"ids": [
+          "EW09",
+          "EB01",
+          "EB02",
+          "EB03",
+          "EB04",
+          "EB05",
+          "EB06",
+          "EB07",
+          "EB08",
+          "EB09",
+          "EB11",
+          "EB12",
+          "EB13",
+          "EB14",
+          "EB15",
+          "EB16",
+          "EB18",
+          "EB17",
+          "EB19",
+          "EB21",
+          "EB22",
+          "EB23",
+          "EB24",
+          "EU03",
+          "EA02",
+          "EU11",
+          "EA04",
+          "ES01",
+          "ES02",
+          "ES07"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Spell Martyrs gain Stealth during the first round of the game.",
+        "level": 2,
+        "mustHave": [{
+          "min": 1,
+          "inMarshal": false,
+          "ids": ["ES07"],
+          "inBG": false
+        }],
+        "onlyModels": {"ids": [
+          "EW09",
+          "EB01",
+          "EB02",
+          "EB03",
+          "EB04",
+          "EB05",
+          "EB06",
+          "EB07",
+          "EB08",
+          "EB09",
+          "EB11",
+          "EB12",
+          "EB13",
+          "EB14",
+          "EB15",
+          "EB16",
+          "EB18",
+          "EB17",
+          "EB19",
+          "EB21",
+          "EB22",
+          "EB23",
+          "EB24",
+          "EU03",
+          "EA02",
+          "EU11",
+          "EA04",
+          "ES01",
+          "ES02",
+          "ES07"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "(The nephilim warbeasts must be different) Nephilim warbeasts gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 3,
+        "mustHave": [{
+          "min": 3,
+          "inMarshal": false,
+          "ids": [
+            "EB03",
+            "EB04",
+            "EB14",
+            "EB18"
+          ],
+          "inBG": false
+        }],
+        "onlyModels": {"ids": [
+          "EW09",
+          "EB01",
+          "EB02",
+          "EB03",
+          "EB04",
+          "EB05",
+          "EB06",
+          "EB07",
+          "EB08",
+          "EB09",
+          "EB11",
+          "EB12",
+          "EB13",
+          "EB14",
+          "EB15",
+          "EB16",
+          "EB18",
+          "EB17",
+          "EB19",
+          "EB21",
+          "EB22",
+          "EB23",
+          "EB24",
+          "EU03",
+          "EA02",
+          "EU11",
+          "EA04",
+          "ES01",
+          "ES02",
+          "ES07"
+        ]}
+      },
+      {
+        "freeModels": [{"id": [
+          "EB14",
+          "EB03",
+          "EB04",
+          "EB18"
+        ]}],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
+        "mustHave": [{
+          "min": 4,
+          "inMarshal": false,
+          "ids": [
+            "EB03",
+            "EB04",
+            "EB14",
+            "EB18",
+            "EB23"
+          ],
+          "inBG": true
+        }],
+        "onlyModels": {"ids": [
+          "EW09",
+          "EB01",
+          "EB02",
+          "EB03",
+          "EB04",
+          "EB05",
+          "EB06",
+          "EB07",
+          "EB08",
+          "EB09",
+          "EB11",
+          "EB12",
+          "EB13",
+          "EB14",
+          "EB15",
+          "EB16",
+          "EB18",
+          "EB17",
+          "EB19",
+          "EB21",
+          "EB22",
+          "EB23",
+          "EB24",
+          "EU03",
+          "EA02",
+          "EU11",
+          "EA04",
+          "ES01",
+          "ES02",
+          "ES07"
+        ]}
+      }
+    ],
+    "availableModels": [
+      {
+        "type": "WARBEASTS",
+        "models": "Legion non-character warbeasts, Zuriel"
+      },
+      {
+        "type": "UNITS",
+        "models": "Blighted Nyss Swordsmen, Hex Hunters"
+      },
+      {
+        "type": "SOLOS",
+        "models": "Blighted Nyss Sorceress & Hellion, Incubi, Spell Martyrs"
+      }
+    ]
+  },
+  {
     "name": "Saeryn - Fallen Angels",
     "casterId": "EW05",
     "faction": "faction_everblight",
@@ -2570,6 +2802,7 @@ faction_everblight_tiers = {"tiers":[
           "EB22",
           "EB23",
           "EU10",
+          "EU14",
           "ES01",
           "ES03",
           "ES07"
@@ -2602,6 +2835,7 @@ faction_everblight_tiers = {"tiers":[
           "EB22",
           "EB23",
           "EU10",
+          "EU14",
           "ES01",
           "ES03",
           "ES07"
@@ -2639,6 +2873,7 @@ faction_everblight_tiers = {"tiers":[
           "EB22",
           "EB23",
           "EU10",
+          "EU14",
           "ES01",
           "ES03",
           "ES07"
@@ -2682,6 +2917,7 @@ faction_everblight_tiers = {"tiers":[
           "EB22",
           "EB23",
           "EU10",
+          "EU14",
           "ES01",
           "ES03",
           "ES07"
@@ -3158,11 +3394,13 @@ faction_everblight_tiers = {"tiers":[
           "EU02",
           "EA05",
           "EU10",
+          "EU14",
           "ES02",
           "ES07",
           "ES05",
           "ES01",
-          "ES03"
+          "ES03",
+          "ES12"
         ]}
       },
       {
@@ -3203,11 +3441,13 @@ faction_everblight_tiers = {"tiers":[
           "EU02",
           "EA05",
           "EU10",
+          "EU14",
           "ES02",
           "ES07",
           "ES05",
           "ES01",
-          "ES03"
+          "ES03",
+          "ES12"
         ]}
       },
       {
@@ -3248,11 +3488,13 @@ faction_everblight_tiers = {"tiers":[
           "EU02",
           "EA05",
           "EU10",
+          "EU14",
           "ES02",
           "ES07",
           "ES05",
           "ES01",
-          "ES03"
+          "ES03",
+          "ES12"
         ]}
       },
       {
@@ -3312,11 +3554,13 @@ faction_everblight_tiers = {"tiers":[
           "EU02",
           "EA05",
           "EU10",
+          "EU14",
           "ES02",
           "ES07",
           "ES05",
           "ES01",
-          "ES03"
+          "ES03",
+          "ES12"
         ]}
       }
     ],

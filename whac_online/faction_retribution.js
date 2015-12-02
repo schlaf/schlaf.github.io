@@ -1,557 +1,515 @@
 faction_retribution_entries = {"groups":[
   {
+    "logo": "faction_retribution",
     "id": "faction_retribution_warcasters",
     "entries": [
       {
-        "id": "RW08",
+        "name": "Issyria1(Issyria, Sibyl of Dawn)",
         "fa": "C",
-        "faction": "faction_retribution",
-        "type": "warcaster",
-        "cost": 5,
-        "name": "Thyron(Thyron, Sword of Truth)"
-      },
-      {
-        "id": "Rw02",
-        "fa": "C",
-        "faction": "faction_retribution",
-        "type": "warcaster",
         "cost": 6,
-        "name": "Vyros1(Dawnlord Vyros)"
-      },
-      {
+        "faction": "faction_retribution",
         "id": "RW07",
-        "fa": "C",
-        "faction": "faction_retribution",
-        "type": "warcaster",
-        "cost": 6,
-        "name": "Issyria(Issyria, Sibyl of Dawn)"
+        "type": "warcaster"
       },
       {
-        "id": "RW06",
+        "name": "Kaelyssa1(Kaelyssa, Night's Whisper)",
         "fa": "C",
-        "faction": "faction_retribution",
-        "type": "warcaster",
-        "cost": 6,
-        "name": "Ossyan(Lord Arcanist Ossyan)"
-      },
-      {
-        "id": "RW05",
-        "fa": "C",
-        "faction": "faction_retribution",
-        "type": "warcaster",
-        "cost": 6,
-        "name": "Ravyn(Ravyn, Eternal Light)"
-      },
-      {
-        "id": "RW04",
-        "fa": "C",
-        "faction": "faction_retribution",
-        "type": "warcaster",
         "cost": 7,
-        "name": "Kaelyssa(Kaelyssa, Night's Whisper)"
+        "faction": "faction_retribution",
+        "id": "RW04",
+        "type": "warcaster"
       },
       {
-        "id": "RW03",
+        "name": "Vyros1(Dawnlord Vyros)",
         "fa": "C",
-        "faction": "faction_retribution",
-        "type": "warcaster",
-        "cost": 5,
-        "name": "Garryth(Garryth, Blade of Retribution)"
-      },
-      {
-        "id": "RW01",
-        "fa": "C",
-        "faction": "faction_retribution",
-        "type": "warcaster",
         "cost": 6,
-        "name": "Rahn(Adeptis Rahn)"
+        "faction": "faction_retribution",
+        "id": "Rw02",
+        "type": "warcaster"
       },
       {
-        "id": "Rx02",
+        "name": "Garryth1(Garryth, Blade of Retribution)",
         "fa": "C",
-        "faction": "faction_retribution",
-        "type": "warcaster",
         "cost": 5,
-        "name": "Vyros2(Vyros, Incissar of the Dawnguard)"
+        "faction": "faction_retribution",
+        "id": "RW03",
+        "type": "warcaster"
+      },
+      {
+        "name": "Ossyan1(Lord Arcanist Ossyan)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_retribution",
+        "id": "RW06",
+        "type": "warcaster"
+      },
+      {
+        "name": "Vyros2(Vyros, Incissar of the Dawnguard)",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_retribution",
+        "id": "Rx02",
+        "type": "warcaster"
+      },
+      {
+        "name": "Thyron(Thyron, Sword of Truth)",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_retribution",
+        "id": "RW08",
+        "type": "warcaster"
+      },
+      {
+        "name": "Ravyn1(Ravyn, Eternal Light)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_retribution",
+        "id": "RW05",
+        "type": "warcaster"
+      },
+      {
+        "name": "Rahn1(Adeptis Rahn)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_retribution",
+        "id": "RW01",
+        "type": "warcaster"
       }
     ],
-    "logo": "faction_retribution",
     "label": "Warcasters"
   },
   {
+    "logo": "faction_retribution",
     "id": "faction_retribution_warlocks",
     "entries": [],
-    "logo": "faction_retribution",
     "label": "Warlocks"
   },
   {
+    "logo": "faction_retribution",
     "id": "faction_retribution_warjacks",
     "entries": [
       {
-        "id": "RJ08",
+        "name": "Sphinx",
         "fa": "U",
-        "faction": "faction_retribution",
-        "type": "warjack",
-        "cost": 4,
-        "name": "Aspis"
-      },
-      {
-        "id": "RJ09",
-        "fa": "U",
-        "faction": "faction_retribution",
-        "type": "warjack",
-        "cost": 10,
-        "name": "Banshee"
-      },
-      {
-        "id": "RJ10",
-        "fa": "U",
-        "faction": "faction_retribution",
-        "type": "warjack",
-        "cost": 9,
-        "name": "Daemon"
-      },
-      {
-        "id": "RJ01",
-        "fa": "U",
-        "faction": "faction_retribution",
-        "type": "warjack",
-        "cost": 6,
-        "name": "Chimera"
-      },
-      {
-        "id": "RJ16",
-        "fa": "2",
-        "faction": "faction_retribution",
-        "type": "warjack",
-        "cost": 17,
-        "name": "Helios"
-      },
-      {
-        "id": "RJ03",
-        "fa": "U",
-        "faction": "faction_retribution",
-        "type": "warjack",
-        "cost": 4,
-        "name": "Griffon"
-      },
-      {
-        "id": "RJ15",
-        "fa": "C",
-        "faction": "faction_retribution",
-        "type": "warjack",
-        "cost": 6,
-        "name": "Moros"
-      },
-      {
-        "id": "RJ02",
-        "fa": "U",
-        "faction": "faction_retribution",
-        "type": "warjack",
-        "cost": 5,
-        "name": "Gorgon"
-      },
-      {
-        "id": "RJ14",
-        "fa": "C",
-        "faction": "faction_retribution",
-        "type": "warjack",
-        "cost": 12,
-        "name": "Imperatus"
-      },
-      {
-        "id": "RJ05",
-        "fa": "U",
-        "faction": "faction_retribution",
-        "type": "warjack",
-        "cost": 8,
-        "name": "Manticore"
-      },
-      {
-        "id": "RJ13",
-        "fa": "2",
-        "faction": "faction_retribution",
-        "type": "warjack",
-        "cost": 18,
-        "name": "Hyperion"
-      },
-      {
-        "id": "RJ04",
-        "fa": "U",
-        "faction": "faction_retribution",
-        "type": "warjack",
-        "cost": 9,
-        "name": "Hydra"
-      },
-      {
-        "id": "RJ12",
-        "fa": "C",
-        "faction": "faction_retribution",
-        "type": "warjack",
-        "cost": 9,
-        "name": "Hypnos"
-      },
-      {
-        "id": "RJ07",
-        "fa": "C",
-        "faction": "faction_retribution",
-        "type": "warjack",
-        "cost": 10,
-        "name": "Discordia"
-      },
-      {
-        "id": "RJ11",
-        "fa": "U",
-        "faction": "faction_retribution",
-        "type": "warjack",
         "cost": 7,
-        "name": "Sphinx"
+        "faction": "faction_retribution",
+        "id": "RJ11",
+        "type": "warjack"
       },
       {
-        "id": "RJ06",
+        "name": "Griffon",
         "fa": "U",
+        "cost": 4,
         "faction": "faction_retribution",
-        "type": "warjack",
+        "id": "RJ03",
+        "type": "warjack"
+      },
+      {
+        "name": "Hyperion",
+        "fa": "2",
+        "cost": 18,
+        "faction": "faction_retribution",
+        "id": "RJ13",
+        "type": "warjack"
+      },
+      {
+        "name": "Banshee",
+        "fa": "U",
         "cost": 10,
-        "name": "Phoenix"
+        "faction": "faction_retribution",
+        "id": "RJ09",
+        "type": "warjack"
+      },
+      {
+        "name": "Hypnos",
+        "fa": "C",
+        "cost": 9,
+        "faction": "faction_retribution",
+        "id": "RJ12",
+        "type": "warjack"
+      },
+      {
+        "name": "Moros",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_retribution",
+        "id": "RJ15",
+        "type": "warjack"
+      },
+      {
+        "name": "Phoenix",
+        "fa": "U",
+        "cost": 10,
+        "faction": "faction_retribution",
+        "id": "RJ06",
+        "type": "warjack"
+      },
+      {
+        "name": "Hydra",
+        "fa": "U",
+        "cost": 9,
+        "faction": "faction_retribution",
+        "id": "RJ04",
+        "type": "warjack"
+      },
+      {
+        "name": "Gorgon",
+        "fa": "U",
+        "cost": 5,
+        "faction": "faction_retribution",
+        "id": "RJ02",
+        "type": "warjack"
+      },
+      {
+        "name": "Chimera",
+        "fa": "U",
+        "cost": 6,
+        "faction": "faction_retribution",
+        "id": "RJ01",
+        "type": "warjack"
+      },
+      {
+        "name": "Helios",
+        "fa": "2",
+        "cost": 17,
+        "faction": "faction_retribution",
+        "id": "RJ16",
+        "type": "warjack"
+      },
+      {
+        "name": "Aspis",
+        "fa": "U",
+        "cost": 4,
+        "faction": "faction_retribution",
+        "id": "RJ08",
+        "type": "warjack"
+      },
+      {
+        "name": "Imperatus",
+        "fa": "C",
+        "cost": 12,
+        "faction": "faction_retribution",
+        "id": "RJ14",
+        "type": "warjack"
+      },
+      {
+        "name": "Daemon",
+        "fa": "U",
+        "cost": 9,
+        "faction": "faction_retribution",
+        "id": "RJ10",
+        "type": "warjack"
+      },
+      {
+        "name": "Discordia",
+        "fa": "C",
+        "cost": 10,
+        "faction": "faction_retribution",
+        "id": "RJ07",
+        "type": "warjack"
+      },
+      {
+        "name": "Manticore",
+        "fa": "U",
+        "cost": 8,
+        "faction": "faction_retribution",
+        "id": "RJ05",
+        "type": "warjack"
       }
     ],
-    "logo": "faction_retribution",
     "label": "Warjacks"
   },
   {
+    "logo": "faction_retribution",
     "id": "faction_retribution_warbeasts",
     "entries": [],
-    "logo": "faction_retribution",
     "label": "Warbeasts"
   },
   {
+    "logo": "faction_retribution",
     "id": "faction_retribution_bes",
     "entries": [{
-      "id": "RE01",
+      "name": "Arcantrik Force Generator",
       "fa": "2",
-      "faction": "faction_retribution",
-      "type": "battleengine",
       "cost": 10,
-      "name": "Arcantrik Force Generator"
+      "faction": "faction_retribution",
+      "id": "RE01",
+      "type": "battleengine"
     }],
-    "logo": "faction_retribution",
     "label": "Battle engines"
   },
   {
+    "logo": "faction_retribution",
     "id": "faction_retribution_units",
     "entries": [
       {
-        "min": 6,
-        "id": "RU04",
-        "max": 10,
-        "name": "Houseguard Riflemen",
-        "costMax": 8,
-        "costMin": 5,
-        "fa": "3",
-        "faction": "faction_retribution",
-        "type": "unit",
-        "cost": 5
-      },
-      {
-        "id": "RU03",
+        "name": "House Vyre Electromancers",
         "fa": "2",
-        "faction": "faction_retribution",
-        "type": "unit",
-        "cost": 5,
-        "name": "House Shyeel Battle Mages"
-      },
-      {
-        "min": 6,
-        "id": "RU02",
-        "max": 10,
-        "name": "Dawnguard Sentinels",
-        "costMax": 9,
-        "costMin": 6,
-        "fa": "2",
-        "faction": "faction_retribution",
-        "type": "unitMarshall",
-        "cost": 6
-      },
-      {
-        "min": 6,
-        "id": "RU01",
-        "max": 10,
-        "name": "Dawnguard Invictors",
-        "costMax": 10,
-        "costMin": 6,
-        "fa": "2",
-        "faction": "faction_retribution",
-        "type": "unitMarshall",
-        "cost": 6
-      },
-      {
-        "id": "RU11",
-        "fa": "2",
-        "faction": "faction_retribution",
-        "type": "unit",
         "cost": 4,
-        "name": "House Vyre Electromancers"
+        "faction": "faction_retribution",
+        "id": "RU11",
+        "type": "unit"
       },
       {
-        "min": 6,
-        "id": "RU10",
-        "max": 10,
-        "name": "Mage Hunter Infiltrators",
-        "costMax": 8,
-        "costMin": 5,
+        "name": "House Shyeel Battle Mages",
         "fa": "2",
-        "faction": "faction_retribution",
-        "type": "unit",
-        "cost": 5
-      },
-      {
-        "id": "RU09",
-        "fa": "2",
-        "faction": "faction_retribution",
-        "type": "unit",
-        "cost": 2,
-        "name": "Heavy Rifle Team"
-      },
-      {
-        "id": "RU08",
-        "fa": "2",
-        "faction": "faction_retribution",
-        "type": "unit",
         "cost": 5,
-        "name": "Stormfall Archers"
-      },
-      {
-        "min": 6,
-        "id": "RU07",
-        "max": 10,
-        "name": "Houseguard Halberdiers",
-        "costMax": 7,
-        "costMin": 4,
-        "fa": "3",
         "faction": "faction_retribution",
-        "type": "unit",
-        "cost": 4
+        "id": "RU03",
+        "type": "unit"
       },
       {
-        "min": 3,
-        "id": "RU06",
-        "max": 5,
-        "name": "Dawnguard Destors",
-        "costMax": 11,
-        "costMin": 7,
-        "fa": "1",
-        "faction": "faction_retribution",
-        "type": "unit",
-        "cost": 7
-      },
-      {
-        "min": 6,
-        "id": "RU05",
         "max": 10,
-        "name": "Mage Hunter Strike Force",
-        "costMax": 8,
-        "costMin": 5,
+        "min": 6,
+        "costMax": 10,
         "fa": "2",
+        "costMin": 6,
+        "id": "RU01",
+        "name": "Dawnguard Invictors",
+        "cost": 6,
         "faction": "faction_retribution",
-        "type": "unit",
-        "cost": 5
+        "type": "unitMarshall"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 7,
+        "fa": "3",
+        "costMin": 4,
+        "id": "RU07",
+        "name": "Houseguard Halberdiers",
+        "cost": 4,
+        "faction": "faction_retribution",
+        "type": "unit"
+      },
+      {
+        "name": "Stormfall Archers",
+        "fa": "2",
+        "cost": 5,
+        "faction": "faction_retribution",
+        "id": "RU08",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 9,
+        "fa": "2",
+        "costMin": 6,
+        "id": "RU02",
+        "name": "Dawnguard Sentinels",
+        "cost": 6,
+        "faction": "faction_retribution",
+        "type": "unitMarshall"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "costMax": 11,
+        "fa": "1",
+        "costMin": 7,
+        "id": "RU06",
+        "name": "Dawnguard Destors",
+        "cost": 7,
+        "faction": "faction_retribution",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 8,
+        "fa": "2",
+        "costMin": 5,
+        "id": "RU05",
+        "name": "Mage Hunter Strike Force",
+        "cost": 5,
+        "faction": "faction_retribution",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 8,
+        "fa": "3",
+        "costMin": 5,
+        "id": "RU04",
+        "name": "Houseguard Riflemen",
+        "cost": 5,
+        "faction": "faction_retribution",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 8,
+        "fa": "2",
+        "costMin": 5,
+        "id": "RU10",
+        "name": "Mage Hunter Infiltrators",
+        "cost": 5,
+        "faction": "faction_retribution",
+        "type": "unit"
+      },
+      {
+        "name": "Heavy Rifle Team",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_retribution",
+        "id": "RU09",
+        "type": "unit"
       }
     ],
-    "logo": "faction_retribution",
     "label": "Units"
   },
   {
+    "logo": "faction_retribution",
     "id": "faction_retribution_WAs",
     "entries": [],
-    "logo": "faction_retribution",
     "label": "Weapon Attachments"
   },
   {
+    "logo": "faction_retribution",
     "id": "faction_retribution_UAs",
     "entries": [
       {
-        "id": "RA03",
-        "fa": "1",
-        "faction": "faction_retribution",
-        "type": "UA",
-        "cost": 2,
-        "restricted_to": ["RU05"],
-        "name": "Strike Force Commander"
-      },
-      {
-        "id": "RA02",
-        "fa": "1",
-        "faction": "faction_retribution",
-        "type": "UA",
-        "cost": 2,
-        "restricted_to": ["RU02"],
-        "name": "Dawnguard Sentinel Officer & Standard"
-      },
-      {
-        "id": "RA01",
-        "fa": "1",
-        "faction": "faction_retribution",
-        "type": "UA",
-        "cost": 2,
-        "restricted_to": ["RU01"],
-        "name": "Dawnguard Invictor Officer & Standard"
-      },
-      {
-        "id": "RA07",
+        "name": "Eiryss3(Eiryss, Mage Hunter Commander)",
         "fa": "C",
-        "faction": "faction_retribution",
-        "type": "UA",
-        "cost": 3,
         "restricted_to": [
           "RU05",
           "RU10"
         ],
-        "name": "Eiryss3(Eiryss, Mage Hunter Commander)"
+        "cost": 3,
+        "faction": "faction_retribution",
+        "id": "RA07",
+        "type": "UA"
       },
       {
-        "id": "RA06",
+        "name": "Dawnguard Invictor Officer & Standard",
         "fa": "1",
-        "faction": "faction_retribution",
-        "type": "UA",
+        "restricted_to": ["RU01"],
         "cost": 2,
-        "restricted_to": ["RU04"],
-        "name": "Riflemen Officer & Standard"
+        "faction": "faction_retribution",
+        "id": "RA01",
+        "type": "UA"
       },
       {
-        "id": "RA05",
+        "name": "Dawnguard Sentinel Officer & Standard",
         "fa": "1",
-        "faction": "faction_retribution",
-        "type": "UA",
+        "restricted_to": ["RU02"],
         "cost": 2,
+        "faction": "faction_retribution",
+        "id": "RA02",
+        "type": "UA"
+      },
+      {
+        "name": "Houseguard Halberdiers Officer & Standard",
+        "fa": "1",
         "restricted_to": ["RU07"],
-        "name": "Houseguard Halberdiers Officer & Standard"
+        "cost": 2,
+        "faction": "faction_retribution",
+        "id": "RA05",
+        "type": "UA"
+      },
+      {
+        "name": "Riflemen Officer & Standard",
+        "fa": "1",
+        "restricted_to": ["RU04"],
+        "cost": 2,
+        "faction": "faction_retribution",
+        "id": "RA06",
+        "type": "UA"
+      },
+      {
+        "name": "Strike Force Commander",
+        "fa": "1",
+        "restricted_to": ["RU05"],
+        "cost": 2,
+        "faction": "faction_retribution",
+        "id": "RA03",
+        "type": "UA"
       }
     ],
-    "logo": "faction_retribution",
     "label": "Unit Attachments"
   },
   {
+    "logo": "faction_retribution",
     "id": "faction_retribution_solos",
     "entries": [
       {
-        "id": "RS12",
-        "fa": "C",
-        "faction": "faction_retribution",
-        "type": "soloJourneyMan",
+        "name": "House Shyeel Artificer",
+        "fa": "2",
         "cost": 3,
-        "name": "Elara, Tyro of The Third Chamber"
-      },
-      {
-        "id": "RS13",
-        "fa": "2",
         "faction": "faction_retribution",
-        "type": "solo",
-        "cost": 2,
-        "name": "Houseguard Thane"
-      },
-      {
-        "id": "RS10",
-        "fa": "C",
-        "faction": "faction_retribution",
-        "type": "solo",
-        "cost": 5,
-        "name": "Fane Knight Skeryth Issyen"
-      },
-      {
-        "id": "RS01",
-        "fa": "2",
-        "faction": "faction_retribution",
-        "type": "solo",
-        "cost": 1,
-        "name": "Arcanist"
-      },
-      {
         "id": "RS11",
-        "fa": "2",
-        "faction": "faction_retribution",
-        "type": "solo",
-        "cost": 3,
-        "name": "House Shyeel Artificer"
+        "type": "solo"
       },
       {
-        "id": "RS02",
+        "name": "Mage Hunter Assassin",
         "fa": "2",
-        "faction": "faction_retribution",
-        "type": "soloMarshall",
         "cost": 2,
-        "name": "Dawnguard Scyir"
-      },
-      {
-        "id": "RS03",
-        "fa": "2",
         "faction": "faction_retribution",
-        "type": "solo",
-        "cost": 2,
-        "name": "Ghost Sniper"
-      },
-      {
-        "id": "RS04",
-        "fa": "2",
-        "faction": "faction_retribution",
-        "type": "solo",
-        "cost": 2,
-        "name": "House Shyeel Magister"
-      },
-      {
-        "id": "RS14",
-        "fa": "2",
-        "faction": "faction_retribution",
-        "type": "solo",
-        "cost": 1,
-        "name": "Soulless Voidtracer"
-      },
-      {
         "id": "RS05",
-        "fa": "2",
-        "faction": "faction_retribution",
-        "type": "solo",
-        "cost": 2,
-        "name": "Mage Hunter Assassin"
+        "type": "solo"
       },
       {
-        "id": "RS06",
+        "name": "Elara, Tyro of The Third Chamber",
         "fa": "C",
-        "faction": "faction_retribution",
-        "type": "solo",
         "cost": 3,
-        "name": "Narn, Mage Hunter of Ios"
+        "faction": "faction_retribution",
+        "id": "RS12",
+        "type": "soloJourneyMan"
       },
       {
-        "id": "RS01_forceWall",
+        "name": "Destor Thane",
         "fa": "2",
-        "faction": "faction_retribution",
-        "type": "solo",
-        "cost": 1,
-        "name": "Arcanist(Arcanist (Force Wall))"
-      },
-      {
-        "id": "RS07",
-        "fa": "C",
-        "faction": "faction_retribution",
-        "type": "solo",
-        "cost": 2,
-        "name": "Nayl"
-      },
-      {
-        "id": "RS08",
-        "fa": "2",
-        "faction": "faction_retribution",
-        "type": "solo",
         "cost": 4,
-        "name": "Destor Thane"
+        "faction": "faction_retribution",
+        "id": "RS08",
+        "type": "solo"
       },
       {
-        "id": "RA04",
-        "fa": "3",
-        "faction": "faction_retribution",
-        "type": "solo",
+        "name": "Arcanist(Arcanist (Force Wall))",
+        "fa": "2",
         "cost": 1,
+        "faction": "faction_retribution",
+        "id": "RS01_forceWall",
+        "type": "solo"
+      },
+      {
+        "name": "House Shyeel Magister",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_retribution",
+        "id": "RS04",
+        "type": "solo"
+      },
+      {
+        "name": "Arcanist",
+        "fa": "2",
+        "cost": 1,
+        "faction": "faction_retribution",
+        "id": "RS01",
+        "type": "solo"
+      },
+      {
+        "name": "Fane Knight Skeryth Issyen",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_retribution",
+        "id": "RS10",
+        "type": "solo"
+      },
+      {
+        "name": "Dawnguard Scyir",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_retribution",
+        "id": "RS02",
+        "type": "soloMarshall"
+      },
+      {
+        "name": "Soulless Escort",
+        "fa": "3",
         "restricted_to": [
           "RU01",
           "RU02",
@@ -563,35 +521,78 @@ faction_retribution_entries = {"groups":[
           "RU08",
           "RU10"
         ],
-        "name": "Soulless Escort"
+        "cost": 1,
+        "faction": "faction_retribution",
+        "id": "RA04",
+        "type": "solo"
+      },
+      {
+        "name": "Soulless Voidtracer",
+        "fa": "2",
+        "cost": 1,
+        "faction": "faction_retribution",
+        "id": "RS14",
+        "type": "solo"
+      },
+      {
+        "name": "Houseguard Thane",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_retribution",
+        "id": "RS13",
+        "type": "solo"
+      },
+      {
+        "name": "Narn, Mage Hunter of Ios",
+        "fa": "C",
+        "cost": 3,
+        "faction": "faction_retribution",
+        "id": "RS06",
+        "type": "solo"
+      },
+      {
+        "name": "Nayl",
+        "fa": "C",
+        "cost": 2,
+        "faction": "faction_retribution",
+        "id": "RS07",
+        "type": "solo"
+      },
+      {
+        "name": "Ghost Sniper",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_retribution",
+        "id": "RS03",
+        "type": "solo"
       }
     ],
-    "logo": "faction_retribution",
     "label": "Solos"
   }
 ]};
 
 faction_retribution_tiers = {"tiers":[
   {
-    "availableModels": [
-      {
-        "models": "Retribution non-character warjacks",
-        "type": "WARJACKS"
-      },
-      {
-        "models": "Mage Hunter units",
-        "type": "UNITS"
-      },
-      {
-        "models": "Mage Hunter Assassin solos, Nayl",
-        "type": "SOLOS"
-      }
-    ],
+    "name": "Garryth - Assassins",
+    "casterId": "RW03",
     "faction": "faction_retribution",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "RU05",
+            "bonus": 512
+          },
+          {
+            "id": "RS05",
+            "forEach": ["RU05"],
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "RW03",
@@ -614,27 +615,17 @@ faction_retribution_tiers = {"tiers":[
           "RA04",
           "RS05",
           "RS07"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "RU05",
-            "bonus": 512
-          },
-          {
-            "id": "RS05",
-            "forEach": ["RU05"],
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You gain +1 on your starting game roll.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": ["RS05"],
           "inBG": false
         }],
@@ -659,24 +650,24 @@ faction_retribution_tiers = {"tiers":[
           "RA04",
           "RS05",
           "RS07"
-        ]},
-        "level": 2,
-        "benefit": "You gain +1 on your starting game roll.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{"id": ["RS07"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 3,
         "mustHave": [
           {
-            "inMarshal": false,
             "min": 3,
+            "inMarshal": false,
             "ids": ["RU05"],
             "inBG": false
           },
           {
-            "inMarshal": false,
             "min": 3,
+            "inMarshal": false,
             "ids": ["RA04"],
             "inBG": false
           }
@@ -702,14 +693,14 @@ faction_retribution_tiers = {"tiers":[
           "RA04",
           "RS05",
           "RS07"
-        ]},
-        "level": 3,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Models in Garryth's battlegroup gain Advance Deployment.",
+        "level": 4,
         "mustHave": [],
         "onlyModels": {"ids": [
           "RW03",
@@ -723,35 +714,48 @@ faction_retribution_tiers = {"tiers":[
           "RA04",
           "RS05",
           "RS07"
-        ]},
-        "level": 4,
-        "benefit": "Models in Garryth's battlegroup gain Advance Deployment.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "RW03",
-    "name": "Garryth - Assassins"
-  },
-  {
     "availableModels": [
       {
-        "models": "Retribution non-character myrmidons with Field Generator systems",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Retribution non-character warjacks"
       },
       {
-        "models": "Dawnguard Invictors, Dawnguard Sentinels, Houseguard units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Mage Hunter units"
       },
       {
-        "models": "Arcanists, Dawnguard Scyirs, Houseguard solos, Sylys Wyshnalyrr the Seeker",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Mage Hunter Assassin solos, Nayl"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Issyria - Dawnbringers",
+    "casterId": "RW07",
     "faction": "faction_retribution",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "RS01",
+            "bonus": 1
+          },
+          {
+            "id": "RS02",
+            "bonus": 1
+          },
+          {
+            "id": "RS13",
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "RW07",
@@ -778,30 +782,17 @@ faction_retribution_tiers = {"tiers":[
           "RS02",
           "RS13",
           "MS23"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "RS01",
-            "bonus": 1
-          },
-          {
-            "id": "RS02",
-            "bonus": 1
-          },
-          {
-            "id": "RS13",
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Warrior models/units gain +2 SPD during your first turn of the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["RS13"],
           "inBG": false
         }],
@@ -830,10 +821,7 @@ faction_retribution_tiers = {"tiers":[
           "RS02",
           "RS13",
           "MS23"
-        ]},
-        "level": 2,
-        "benefit": "Warrior models/units gain +2 SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{"id": [
@@ -841,9 +829,12 @@ faction_retribution_tiers = {"tiers":[
           "RA02"
         ]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "RU01",
             "RU02"
@@ -875,17 +866,17 @@ faction_retribution_tiers = {"tiers":[
           "RS02",
           "RS13",
           "MS23"
-        ]},
-        "level": 3,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Roll two dice for your starting game roll and keep the higher result.\n",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": [
             "RJ01",
             "RJ06"
@@ -917,39 +908,35 @@ faction_retribution_tiers = {"tiers":[
           "RS02",
           "RS13",
           "MS23"
-        ]},
-        "level": 4,
-        "benefit": "Roll two dice for your starting game roll and keep the higher result.\n",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "RW07",
-    "name": "Issyria - Dawnbringers"
-  },
-  {
     "availableModels": [
       {
-        "models": "Retribution non-character myrmidons with force field damage boxes",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Retribution non-character myrmidons with Field Generator systems"
       },
       {
-        "models": "House Shyeel units ",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Dawnguard Invictors, Dawnguard Sentinels, Houseguard units"
       },
       {
-        "models": "Arcanists, House Shyeel solos",
-        "type": "SOLOS"
-      },
-      {
-        "models": "Arcantrik Force Generator",
-        "type": "BATTLE_ENGINES"
+        "type": "SOLOS",
+        "models": "Arcanists, Dawnguard Scyirs, Houseguard solos, Sylys Wyshnalyrr the Seeker"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Kaelyssa - Force Wall",
+    "casterId": "RW04",
     "faction": "faction_retribution",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Arcanists gain Force Multiplier (★Action). (Replace the Arcanist card with the theme force Arcanist card found in this article.)",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "RW04",
@@ -968,17 +955,30 @@ faction_retribution_tiers = {"tiers":[
           "RS04",
           "RS11",
           "RE01"
-        ]},
-        "level": 1,
-        "benefit": "Arcanists gain Force Multiplier (★Action). (Replace the Arcanist card with the theme force Arcanist card found in this article.)",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "RU03",
+            "bonus": 2
+          },
+          {
+            "id": "RS04",
+            "bonus": 2
+          },
+          {
+            "id": "RS11",
+            "bonus": 2
+          }
+        ],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["RU03"],
           "inBG": false
         }],
@@ -999,30 +999,17 @@ faction_retribution_tiers = {"tiers":[
           "RS04",
           "RS11",
           "RE01"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "RU03",
-            "bonus": 2
-          },
-          {
-            "id": "RS04",
-            "bonus": 2
-          },
-          {
-            "id": "RS11",
-            "bonus": 2
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Enemy models cannot run or charge during the first round of the game.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["RS11"],
           "inBG": false
         }],
@@ -1043,10 +1030,7 @@ faction_retribution_tiers = {"tiers":[
           "RS04",
           "RS11",
           "RE01"
-        ]},
-        "level": 3,
-        "benefit": "Enemy models cannot run or charge during the first round of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{
@@ -1064,9 +1048,12 @@ faction_retribution_tiers = {"tiers":[
           ]
         }],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "RJ04",
             "RJ05",
@@ -1091,35 +1078,42 @@ faction_retribution_tiers = {"tiers":[
           "RS04",
           "RS11",
           "RE01"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "RW04",
-    "name": "Kaelyssa - Force Wall"
-  },
-  {
     "availableModels": [
       {
-        "models": "Retribution non-character warjacks",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Retribution non-character myrmidons with force field damage boxes"
       },
       {
-        "models": "Mage Hunter units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "House Shyeel units "
       },
       {
-        "models": "Arcanist solos, Ghost Sniper solos, Mage Hunter solos",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Arcanists, House Shyeel solos"
+      },
+      {
+        "type": "BATTLE_ENGINES",
+        "models": "Arcantrik Force Generator"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Kaelyssa - Shadows of Retribution",
+    "casterId": "RW04",
     "faction": "faction_retribution",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [{
+          "id": "RU05",
+          "bonus": 512
+        }],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "RW04",
@@ -1145,20 +1139,17 @@ faction_retribution_tiers = {"tiers":[
           "RS05",
           "RS06",
           "RS07"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [{
-          "id": "RU05",
-          "bonus": 512
-        }]
+        ]}
       },
       {
         "freeModels": [{"id": ["RA03"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["RU05"],
           "inBG": false
         }],
@@ -1186,17 +1177,17 @@ faction_retribution_tiers = {"tiers":[
           "RS05",
           "RS06",
           "RS07"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You can redeploy any one Mage Hunter model/unit after both players have deployed but before the first player's first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 4,
+          "inMarshal": false,
           "ids": [
             "RS05",
             "RS06",
@@ -1228,17 +1219,17 @@ faction_retribution_tiers = {"tiers":[
           "RS05",
           "RS06",
           "RS07"
-        ]},
-        "level": 3,
-        "benefit": "You can redeploy any one Mage Hunter model/unit after both players have deployed but before the first player's first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment is extended 2\" forward.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "RJ01",
             "RJ02",
@@ -1279,39 +1270,44 @@ faction_retribution_tiers = {"tiers":[
           "RS05",
           "RS06",
           "RS07"
-        ]},
-        "level": 4,
-        "benefit": "Your deployment is extended 2\" forward.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "RW04",
-    "name": "Kaelyssa - Shadows of Retribution"
-  },
-  {
     "availableModels": [
       {
-        "models": "Retribution non-character myrmidons without force field damage boxes, Hypnos",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Retribution non-character warjacks"
       },
       {
-        "models": "Stormfall Archers, Houseguard units, House Vyre units ",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Mage Hunter units"
       },
       {
-        "models": "Arcanist, Ghost Sniper, Sylys Wyshnalyrr",
-        "type": "SOLOS"
-      },
-      {
-        "models": "Arcantrik Force Generator",
-        "type": "BATTLE_ENGINES"
+        "type": "SOLOS",
+        "models": "Arcanist solos, Ghost Sniper solos, Mage Hunter solos"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Ossyan - The Hour of War",
+    "casterId": "RW06",
     "faction": "faction_retribution",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [{
+          "id": "RS01",
+          "forEach": [
+            "RJ09",
+            "RJ10",
+            "RJ11",
+            "RJ12"
+          ],
+          "bonus": 1
+        }],
+        "benefit": "You gain + 1 on your starting roll for the game.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "RW06",
@@ -1331,26 +1327,17 @@ faction_retribution_tiers = {"tiers":[
           "RS03",
           "MS23",
           "RE01"
-        ]},
-        "level": 1,
-        "benefit": "You gain + 1 on your starting roll for the game.",
-        "faAlterations": [{
-          "id": "RS01",
-          "forEach": [
-            "RJ09",
-            "RJ10",
-            "RJ11",
-            "RJ12"
-          ],
-          "bonus": 1
-        }]
+        ]}
       },
       {
         "freeModels": [{"id": ["RA06"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["RU04"],
           "inBG": false
         }],
@@ -1372,17 +1359,17 @@ faction_retribution_tiers = {"tiers":[
           "RS03",
           "MS23",
           "RE01"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each Arcanist solo in the army, one myrmidon in Ossyan's battlegroup gains Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["RS01"],
           "inBG": false
         }],
@@ -1404,17 +1391,17 @@ faction_retribution_tiers = {"tiers":[
           "RS03",
           "MS23",
           "RE01"
-        ]},
-        "level": 3,
-        "benefit": "For each Arcanist solo in the army, one myrmidon in Ossyan's battlegroup gains Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Friendly models/units can begin the game affected by Ossyan's upkeep spells. These spells and their targets must be declared before either player sets up models. Ossyan does not pay focus to upkeep these spells during your first turn.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["RJ12"],
           "inBG": false
         }],
@@ -1436,35 +1423,49 @@ faction_retribution_tiers = {"tiers":[
           "RS03",
           "MS23",
           "RE01"
-        ]},
-        "level": 4,
-        "benefit": "Friendly models/units can begin the game affected by Ossyan's upkeep spells. These spells and their targets must be declared before either player sets up models. Ossyan does not pay focus to upkeep these spells during your first turn.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "RW06",
-    "name": "Ossyan - The Hour of War"
-  },
-  {
     "availableModels": [
       {
-        "models": "Retribution non-character warjacks",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Retribution non-character myrmidons without force field damage boxes, Hypnos"
       },
       {
-        "models": "Houseguard units, House Shyeel Battle Mage Units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Stormfall Archers, Houseguard units, House Vyre units "
       },
       {
-        "models": "Arcanist solos, House Shyeel Battle Mage Magister solos",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Arcanist, Ghost Sniper, Sylys Wyshnalyrr"
+      },
+      {
+        "type": "BATTLE_ENGINES",
+        "models": "Arcantrik Force Generator"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Rahn - Charge of the Battle Mages",
+    "casterId": "RW01",
     "faction": "faction_retribution",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "RU03",
+            "bonus": 512
+          },
+          {
+            "id": "RS04",
+            "forEach": ["RU03"],
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "RW01",
@@ -1490,27 +1491,17 @@ faction_retribution_tiers = {"tiers":[
           "RA06",
           "RS01",
           "RS04"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "RU03",
-            "bonus": 512
-          },
-          {
-            "id": "RS04",
-            "forEach": ["RU03"],
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [{"id": ["RS01"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "RJ04",
             "RJ05",
@@ -1546,17 +1537,17 @@ faction_retribution_tiers = {"tiers":[
           "RA06",
           "RS01",
           "RS04"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "House Shyeel Battle Mage units and House Shyeel Battle Mage Magister solos in the army gain Advance Move. Models with Advance Move can make a full advance after both players have deployed but before the first player's first turn.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": ["RS04"],
           "inBG": false
         }],
@@ -1584,17 +1575,17 @@ faction_retribution_tiers = {"tiers":[
           "RA06",
           "RS01",
           "RS04"
-        ]},
-        "level": 3,
-        "benefit": "House Shyeel Battle Mage units and House Shyeel Battle Mage Magister solos in the army gain Advance Move. Models with Advance Move can make a full advance after both players have deployed but before the first player's first turn.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Friendly models/units can begin the game affected by Rahn's upkeep spells. These spells and their targets must be declared before either player sets up models. Rahn does not pay focus to upkeep these spells during your first turn.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 4,
+          "inMarshal": false,
           "ids": ["RU03"],
           "inBG": false
         }],
@@ -1622,35 +1613,48 @@ faction_retribution_tiers = {"tiers":[
           "RA06",
           "RS01",
           "RS04"
-        ]},
-        "level": 4,
-        "benefit": "Friendly models/units can begin the game affected by Rahn's upkeep spells. These spells and their targets must be declared before either player sets up models. Rahn does not pay focus to upkeep these spells during your first turn.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "RW01",
-    "name": "Rahn - Charge of the Battle Mages"
-  },
-  {
     "availableModels": [
       {
-        "models": "Non-character Retribution warjacks with Field Dependent, Discordia",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Retribution non-character warjacks"
       },
       {
-        "models": "House Shyeel units, Houseguard units, Stormfall Archers",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Houseguard units, House Shyeel Battle Mage Units"
       },
       {
-        "models": "Arcanist Solos, House Shyeel solos, Eiryss, Angel of Retribution, Sylys Wyshnalyrr, the Seeker.",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Arcanist solos, House Shyeel Battle Mage Magister solos"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Rahn - Fires From On High",
+    "casterId": "RW01",
     "faction": "faction_retribution",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "RU03",
+            "bonus": 1
+          },
+          {
+            "id": "RS04",
+            "bonus": 1
+          },
+          {
+            "id": "RS11",
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "RW01",
@@ -1677,30 +1681,17 @@ faction_retribution_tiers = {"tiers":[
           "RS11",
           "MS01e",
           "MS23"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "RU03",
-            "bonus": 1
-          },
-          {
-            "id": "RS04",
-            "bonus": 1
-          },
-          {
-            "id": "RS11",
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Heavy warjacks and colossals gain +2SPD during your first turn of the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["RJ13"],
           "inBG": false
         }],
@@ -1729,17 +1720,17 @@ faction_retribution_tiers = {"tiers":[
           "RS11",
           "MS01e",
           "MS23"
-        ]},
-        "level": 2,
-        "benefit": "Heavy warjacks and colossals gain +2SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Stormfall Archers gain Advance Deployment.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["RU08"],
           "inBG": false
         }],
@@ -1768,10 +1759,7 @@ faction_retribution_tiers = {"tiers":[
           "RS11",
           "MS01e",
           "MS23"
-        ]},
-        "level": 3,
-        "benefit": "Stormfall Archers gain Advance Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -1785,9 +1773,12 @@ faction_retribution_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "RS04",
             "RS11"
@@ -1819,35 +1810,44 @@ faction_retribution_tiers = {"tiers":[
           "RS11",
           "MS01e",
           "MS23"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "RW01",
-    "name": "Rahn - Fires From On High"
-  },
-  {
     "availableModels": [
       {
-        "models": "Retribution non-character warjacks",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Non-character Retribution warjacks with Field Dependent, Discordia"
       },
       {
-        "models": "Dawnguard Invictor units, Mage Hunter units, Stormfall Archer units ",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "House Shyeel units, Houseguard units, Stormfall Archers"
       },
       {
-        "models": "Mage Hunter solos, Fane Knight Skyreth Issyen",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Arcanist Solos, House Shyeel solos, Eiryss, Angel of Retribution, Sylys Wyshnalyrr, the Seeker."
       }
-    ],
+    ]
+  },
+  {
+    "name": "Ravyn - Will of the Nine Voices",
+    "casterId": "RW05",
     "faction": "faction_retribution",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "RU05",
+            "bonus": 512
+          },
+          {
+            "id": "RA03",
+            "bonus": 512
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "RW05",
@@ -1874,19 +1874,7 @@ faction_retribution_tiers = {"tiers":[
           "RS07",
           "RS10",
           "MS01"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "RU05",
-            "bonus": 512
-          },
-          {
-            "id": "RA03",
-            "bonus": 512
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [{"id": [
@@ -1896,9 +1884,12 @@ faction_retribution_tiers = {"tiers":[
           "RS07"
         ]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": ["RU05"],
           "inBG": false
         }],
@@ -1927,24 +1918,24 @@ faction_retribution_tiers = {"tiers":[
           "RS07",
           "RS10",
           "MS01"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You gain +1 on your starting game roll.",
+        "level": 3,
         "mustHave": [
           {
-            "inMarshal": false,
             "min": 1,
+            "inMarshal": false,
             "ids": ["RS06"],
             "inBG": false
           },
           {
-            "inMarshal": false,
             "min": 1,
+            "inMarshal": false,
             "ids": ["RS10"],
             "inBG": false
           }
@@ -1974,17 +1965,17 @@ faction_retribution_tiers = {"tiers":[
           "RS07",
           "RS10",
           "MS01"
-        ]},
-        "level": 3,
-        "benefit": "You gain +1 on your starting game roll.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Each warjack in Ravyn's battlegroup is automatically allocated 1 focus point at the start of your first Control Phase. This focus is in addition to any points Ravyn allocates.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["RJ06"],
           "inBG": true
         }],
@@ -2013,35 +2004,35 @@ faction_retribution_tiers = {"tiers":[
           "RS07",
           "RS10",
           "MS01"
-        ]},
-        "level": 4,
-        "benefit": "Each warjack in Ravyn's battlegroup is automatically allocated 1 focus point at the start of your first Control Phase. This focus is in addition to any points Ravyn allocates.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "RW05",
-    "name": "Ravyn - Will of the Nine Voices"
-  },
-  {
     "availableModels": [
       {
-        "models": "Retribution non-character myrmidons",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Retribution non-character warjacks"
       },
       {
-        "models": "Houseguard units, Mage Hunter Infiltrators, Stormfall Archers",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Dawnguard Invictor units, Mage Hunter units, Stormfall Archer units "
       },
       {
-        "models": "Arcanists, Ghost Snipers, Houseguard solos, Soulless solos, Narn Mage Hunter of Ios, Sylys Wyshnalyrr the Seeker",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Mage Hunter solos, Fane Knight Skyreth Issyen"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Thyron - Rush of Battle",
+    "casterId": "RW08",
     "faction": "faction_retribution",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Solos gain Advance Deployyment.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "RW08",
@@ -2071,17 +2062,17 @@ faction_retribution_tiers = {"tiers":[
           "RS13",
           "RS14",
           "MS23"
-        ]},
-        "level": 1,
-        "benefit": "Solos gain Advance Deployyment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{"id": ["RA05"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["RU07"],
           "inBG": false
         }],
@@ -2113,17 +2104,17 @@ faction_retribution_tiers = {"tiers":[
           "RS13",
           "RS14",
           "MS23"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You gain +1 on starting roll",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["RU10"],
           "inBG": false
         }],
@@ -2155,17 +2146,17 @@ faction_retribution_tiers = {"tiers":[
           "RS13",
           "RS14",
           "MS23"
-        ]},
-        "level": 3,
-        "benefit": "You gain +1 on starting roll",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Models/units in your army can begin the game affected by Thyron's upkeep spells. Thyron does not pay focus to upkeep these spells during your first turn.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "RJ01",
             "RJ02",
@@ -2202,35 +2193,52 @@ faction_retribution_tiers = {"tiers":[
           "RS13",
           "RS14",
           "MS23"
-        ]},
-        "level": 4,
-        "benefit": "Models/units in your army can begin the game affected by Thyron's upkeep spells. Thyron does not pay focus to upkeep these spells during your first turn.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "RW08",
-    "name": "Thyron - Rush of Battle"
-  },
-  {
     "availableModels": [
       {
-        "models": "Retribution non-character warjacks with Field Dependant",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Retribution non-character myrmidons"
       },
       {
-        "models": "Small-based Dawnguard units, Houseguard units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Houseguard units, Mage Hunter Infiltrators, Stormfall Archers"
       },
       {
-        "models": "Arcanist solos, Dawnguard solos, Houseguard solos",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Arcanists, Ghost Snipers, Houseguard solos, Soulless solos, Narn Mage Hunter of Ios, Sylys Wyshnalyrr the Seeker"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Vyros - Dawn's Talon (NQ#35)",
+    "casterId": "Rw02",
     "faction": "faction_retribution",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "RU01",
+            "bonus": 1
+          },
+          {
+            "id": "RU02",
+            "bonus": 1
+          },
+          {
+            "id": "RS08",
+            "bonus": 1
+          },
+          {
+            "id": "RS02",
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Rw02",
@@ -2256,27 +2264,7 @@ faction_retribution_tiers = {"tiers":[
           "RS01",
           "RS02",
           "RS08"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "RU01",
-            "bonus": 1
-          },
-          {
-            "id": "RU02",
-            "bonus": 1
-          },
-          {
-            "id": "RS08",
-            "bonus": 1
-          },
-          {
-            "id": "RS02",
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
@@ -2306,9 +2294,12 @@ faction_retribution_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "RJ04",
             "RJ05",
@@ -2343,17 +2334,17 @@ faction_retribution_tiers = {"tiers":[
           "RS01",
           "RS02",
           "RS08"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For every two units in the army, one heavy warjack in Vyros\u2019 battlegroup gains Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.).",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "RU01",
             "RU02",
@@ -2387,17 +2378,17 @@ faction_retribution_tiers = {"tiers":[
           "RS01",
           "RS02",
           "RS08"
-        ]},
-        "level": 3,
-        "benefit": "For every two units in the army, one heavy warjack in Vyros\u2019 battlegroup gains Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.).",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Each warjack in Vyros\u2019 battlegroup is automatically allocated 1 focus point at the start of your first Control Phase. This focus is in addition to any points Vyros allocates.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 4,
+          "inMarshal": false,
           "ids": [
             "RJ01",
             "RJ02",
@@ -2438,35 +2429,52 @@ faction_retribution_tiers = {"tiers":[
           "RS01",
           "RS02",
           "RS08"
-        ]},
-        "level": 4,
-        "benefit": "Each warjack in Vyros\u2019 battlegroup is automatically allocated 1 focus point at the start of your first Control Phase. This focus is in addition to any points Vyros allocates.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Rw02",
-    "name": "Vyros - Dawn's Talon (NQ#35)"
-  },
-  {
     "availableModels": [
       {
-        "models": "Retribution non-character warjacks",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Retribution non-character warjacks with Field Dependant"
       },
       {
-        "models": "Dawnguard units, Stormfall Archer units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Small-based Dawnguard units, Houseguard units"
       },
       {
-        "models": "Arcanist solos, Dawnguard solos",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Arcanist solos, Dawnguard solos, Houseguard solos"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Vyros - Legions of the Dawn",
+    "casterId": "Rw02",
     "faction": "faction_retribution",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "RU01",
+            "bonus": 512
+          },
+          {
+            "id": "RU02",
+            "bonus": 512
+          },
+          {
+            "id": "RS02",
+            "forEach": [
+              "RU01",
+              "RU02"
+            ],
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Rw02",
@@ -2492,34 +2500,17 @@ faction_retribution_tiers = {"tiers":[
           "RS01",
           "RS02",
           "RS08"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "RU01",
-            "bonus": 512
-          },
-          {
-            "id": "RU02",
-            "bonus": 512
-          },
-          {
-            "id": "RS02",
-            "forEach": [
-              "RU01",
-              "RU02"
-            ],
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [{"id": ["RA02"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["RU02"],
           "inBG": false
         }],
@@ -2547,24 +2538,24 @@ faction_retribution_tiers = {"tiers":[
           "RS01",
           "RS02",
           "RS08"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You gain +1 on your starting game roll.",
+        "level": 3,
         "mustHave": [
           {
-            "inMarshal": false,
             "min": 1,
+            "inMarshal": false,
             "ids": ["RU06"],
             "inBG": false
           },
           {
-            "inMarshal": false,
             "min": 1,
+            "inMarshal": false,
             "ids": ["RS08"],
             "inBG": false
           }
@@ -2593,17 +2584,17 @@ faction_retribution_tiers = {"tiers":[
           "RS01",
           "RS02",
           "RS08"
-        ]},
-        "level": 3,
-        "benefit": "You gain +1 on your starting game roll.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment is extended 2\" forward.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "RJ04",
             "RJ05",
@@ -2638,30 +2629,27 @@ faction_retribution_tiers = {"tiers":[
           "RS01",
           "RS02",
           "RS08"
-        ]},
-        "level": 4,
-        "benefit": "Your deployment is extended 2\" forward.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Rw02",
-    "name": "Vyros - Legions of the Dawn"
-  },
-  {
     "availableModels": [
       {
-        "models": "Retribution non-character warjacks with Field Dependant",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Retribution non-character warjacks"
       },
       {
-        "models": "Dawnguard units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Dawnguard units, Stormfall Archer units"
       },
       {
-        "models": "Arcanist solos, Dawnguard solos",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Arcanist solos, Dawnguard solos"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Vyros2 - Guardians of the gate",
+    "casterId": "Rx02",
     "faction": "faction_retribution",
     "levels": [
       {
@@ -2670,6 +2658,12 @@ faction_retribution_tiers = {"tiers":[
           "id": "RU06",
           "bonus": 1
         }],
+        "faAlterations": [{
+          "id": "RU06",
+          "bonus": 512
+        }],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Rx02",
@@ -2691,20 +2685,17 @@ faction_retribution_tiers = {"tiers":[
           "RS01",
           "RS02",
           "RS08"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [{
-          "id": "RU06",
-          "bonus": 512
-        }]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Dawnguard Sentinel units gain Advance Deployment.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["RU02"],
           "inBG": false
         }],
@@ -2728,17 +2719,17 @@ faction_retribution_tiers = {"tiers":[
           "RS01",
           "RS02",
           "RS08"
-        ]},
-        "level": 2,
-        "benefit": "Dawnguard Sentinel units gain Advance Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Dawnguard Destor units and solos gain +2 SPD during your first turn of the game.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["RS08"],
           "inBG": false
         }],
@@ -2762,17 +2753,17 @@ faction_retribution_tiers = {"tiers":[
           "RS01",
           "RS02",
           "RS08"
-        ]},
-        "level": 3,
-        "benefit": "Dawnguard Destor units and solos gain +2 SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "During your first Control Phase of the game, your Warjacks are each allocated 1 focus point.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": [
             "RJ04",
             "RJ05",
@@ -2803,14 +2794,23 @@ faction_retribution_tiers = {"tiers":[
           "RS01",
           "RS02",
           "RS08"
-        ]},
-        "level": 4,
-        "benefit": "During your first Control Phase of the game, your Warjacks are each allocated 1 focus point.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Rx02",
-    "name": "Vyros2 - Guardians of the gate"
+    "availableModels": [
+      {
+        "type": "WARJACKS",
+        "models": "Retribution non-character warjacks with Field Dependant"
+      },
+      {
+        "type": "UNITS",
+        "models": "Dawnguard units"
+      },
+      {
+        "type": "SOLOS",
+        "models": "Arcanist solos, Dawnguard solos"
+      }
+    ]
   }
 ]};
 

@@ -355,6 +355,14 @@ faction_skorne_entries = {"groups":[
         "type": "unit"
       },
       {
+        "name": "Legends of Halaak",
+        "fa": "C",
+        "cost": 4,
+        "faction": "faction_skorne",
+        "id": "SU17",
+        "type": "unit"
+      },
+      {
         "max": 10,
         "min": 6,
         "costMax": 6,
@@ -411,11 +419,15 @@ faction_skorne_entries = {"groups":[
         "type": "unit"
       },
       {
-        "name": "Legends of Halaak",
-        "fa": "C",
-        "cost": 4,
-        "faction": "faction_skorne",
+        "max": 10,
+        "min": 6,
+        "costMax": 8,
+        "fa": "3",
+        "costMin": 5,
         "id": "SU16",
+        "name": "Praetorian Keltarii",
+        "cost": 5,
+        "faction": "faction_skorne",
         "type": "unit"
       },
       {
@@ -684,6 +696,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU05",
           "SU02",
           "SU03",
@@ -734,6 +747,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU05",
           "SU02",
           "SU03",
@@ -784,6 +798,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU05",
           "SU02",
           "SU03",
@@ -838,6 +853,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU05",
           "SU02",
           "SU03",
@@ -914,6 +930,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU03",
           "SA03",
           "SU05",
@@ -964,6 +981,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU03",
           "SA03",
           "SU05",
@@ -1014,6 +1032,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU03",
           "SA03",
           "SU05",
@@ -1070,6 +1089,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU03",
           "SA03",
           "SU05",
@@ -1135,6 +1155,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SE01",
           "SU05",
           "SU02",
@@ -1182,6 +1203,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SE01",
           "SU05",
           "SU02",
@@ -1224,7 +1246,8 @@ faction_skorne_tiers = {"tiers":[
             "SB18",
             "SB19",
             "SB20",
-            "SB21"
+            "SB21",
+            "SB22"
           ],
           "inBG": false
         }],
@@ -1248,6 +1271,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SE01",
           "SU05",
           "SU02",
@@ -1304,6 +1328,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SE01",
           "SU05",
           "SU02",
@@ -1372,6 +1397,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU12",
           "SU07",
           "SU08",
@@ -1418,6 +1444,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU12",
           "SU07",
           "SU08",
@@ -1463,6 +1490,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU12",
           "SU07",
           "SU08",
@@ -1500,7 +1528,8 @@ faction_skorne_tiers = {"tiers":[
             "SB18",
             "SB19",
             "SB20",
-            "SB21"
+            "SB21",
+            "SB22"
           ],
           "inBG": false
         }],
@@ -1525,6 +1554,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU12",
           "SU07",
           "SU08",
@@ -1740,6 +1770,7 @@ faction_skorne_tiers = {"tiers":[
           "SB14",
           "SB15",
           "SB17",
+          "SB22",
           "SU01",
           "SU05",
           "SU12",
@@ -1772,6 +1803,7 @@ faction_skorne_tiers = {"tiers":[
           "SB14",
           "SB15",
           "SB17",
+          "SB22",
           "SU01",
           "SU05",
           "SU12",
@@ -1804,6 +1836,7 @@ faction_skorne_tiers = {"tiers":[
           "SB14",
           "SB15",
           "SB17",
+          "SB22",
           "SU01",
           "SU05",
           "SU12",
@@ -1831,7 +1864,8 @@ faction_skorne_tiers = {"tiers":[
             "SB12",
             "SB14",
             "SB15",
-            "SB17"
+            "SB17",
+            "SB22"
           ],
           "inBG": false
         }],
@@ -1847,6 +1881,7 @@ faction_skorne_tiers = {"tiers":[
           "SB14",
           "SB15",
           "SB17",
+          "SB22",
           "SU01",
           "SU05",
           "SU12",
@@ -1932,6 +1967,8 @@ faction_skorne_tiers = {"tiers":[
           "IU05",
           "IU06",
           "IU07",
+          "IU08",
+          "IU09",
           "SS01",
           "SS07"
         ]}
@@ -1959,7 +1996,9 @@ faction_skorne_tiers = {"tiers":[
               "IU04",
               "IU05",
               "IU06",
-              "IU07"
+              "IU07",
+              "IU08",
+              "IU09"
             ],
             "inBG": false
           }
@@ -1987,6 +2026,8 @@ faction_skorne_tiers = {"tiers":[
           "IU05",
           "IU06",
           "IU07",
+          "IU08",
+          "IU09",
           "SS01",
           "SS07"
         ]}
@@ -2026,6 +2067,8 @@ faction_skorne_tiers = {"tiers":[
           "IU05",
           "IU06",
           "IU07",
+          "IU08",
+          "IU09",
           "SS01",
           "SS07"
         ]}
@@ -2070,6 +2113,8 @@ faction_skorne_tiers = {"tiers":[
           "IU05",
           "IU06",
           "IU07",
+          "IU08",
+          "IU09",
           "SS01",
           "SS07"
         ]}
@@ -2123,6 +2168,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU03",
           "SU05",
           "SU07",
@@ -2166,6 +2212,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU03",
           "SU05",
           "SU07",
@@ -2212,6 +2259,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU03",
           "SU05",
           "SU07",
@@ -2271,6 +2319,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU03",
           "SU05",
           "SU07",
@@ -2528,6 +2577,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU05",
           "SU06",
           "SU09",
@@ -2573,6 +2623,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU05",
           "SU06",
           "SU09",
@@ -2614,6 +2665,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU05",
           "SU06",
           "SU09",
@@ -2655,6 +2707,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU05",
           "SU06",
           "SU09",
@@ -2742,7 +2795,9 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU04",
+          "SA04",
           "SU06",
           "SU07",
           "SU08",
@@ -2786,7 +2841,9 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU04",
+          "SA04",
           "SU06",
           "SU07",
           "SU08",
@@ -2833,7 +2890,9 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU04",
+          "SA04",
           "SU06",
           "SU07",
           "SU08",
@@ -2877,7 +2936,9 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU04",
+          "SA04",
           "SU06",
           "SU07",
           "SU08",
@@ -2902,6 +2963,201 @@ faction_skorne_tiers = {"tiers":[
       {
         "type": "SOLOS",
         "models": "Ancestral Guardian solos, Extoller solos"
+      }
+    ]
+  },
+  {
+    "name": "Zaal2 - Exalted Legions",
+    "casterId": "Sx05",
+    "faction": "faction_skorne",
+    "levels": [
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "SU04",
+            "bonus": 1
+          },
+          {
+            "id": "SS02",
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
+        "mustHave": [],
+        "onlyModels": {"ids": [
+          "Sx05",
+          "SB01",
+          "SB02",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB06",
+          "SB07",
+          "SB08",
+          "SB09",
+          "SB11",
+          "SB12",
+          "SB14",
+          "SB15",
+          "SB17",
+          "SB18",
+          "SB19",
+          "SB20",
+          "SB21",
+          "SB22",
+          "SU05",
+          "SU04",
+          "SA04",
+          "SS02",
+          "SS09"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment zone is extended 2\" forward.",
+        "level": 2,
+        "mustHave": [{
+          "min": 2,
+          "inMarshal": false,
+          "ids": [
+            "SB01",
+            "SB02",
+            "SB03",
+            "SB04",
+            "SB05",
+            "SB12",
+            "SB14"
+          ],
+          "inBG": false
+        }],
+        "onlyModels": {"ids": [
+          "Sx05",
+          "SB01",
+          "SB02",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB06",
+          "SB07",
+          "SB08",
+          "SB09",
+          "SB11",
+          "SB12",
+          "SB14",
+          "SB15",
+          "SB17",
+          "SB18",
+          "SB19",
+          "SB20",
+          "SB21",
+          "SB22",
+          "SU05",
+          "SU04",
+          "SA04",
+          "SS02",
+          "SS09"
+        ]}
+      },
+      {
+        "freeModels": [{"id": ["SA04"]}],
+        "costAlterations": [],
+        "faAlterations": [],
+        "level": 3,
+        "mustHave": [{
+          "min": 2,
+          "inMarshal": false,
+          "ids": ["SU04"],
+          "inBG": false
+        }],
+        "onlyModels": {"ids": [
+          "Sx05",
+          "SB01",
+          "SB02",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB06",
+          "SB07",
+          "SB08",
+          "SB09",
+          "SB11",
+          "SB12",
+          "SB14",
+          "SB15",
+          "SB17",
+          "SB18",
+          "SB19",
+          "SB20",
+          "SB21",
+          "SB22",
+          "SU05",
+          "SU04",
+          "SA04",
+          "SS02",
+          "SS09"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Construct solos in the army begin the game with three soul tokens.",
+        "level": 4,
+        "mustHave": [{
+          "min": 3,
+          "inMarshal": false,
+          "ids": [
+            "SS02",
+            "SS09"
+          ],
+          "inBG": false
+        }],
+        "onlyModels": {"ids": [
+          "Sx05",
+          "SB01",
+          "SB02",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB06",
+          "SB07",
+          "SB08",
+          "SB09",
+          "SB11",
+          "SB12",
+          "SB14",
+          "SB15",
+          "SB17",
+          "SB18",
+          "SB19",
+          "SB20",
+          "SB21",
+          "SB22",
+          "SU05",
+          "SU04",
+          "SA04",
+          "SS02",
+          "SS09"
+        ]}
+      }
+    ],
+    "availableModels": [
+      {
+        "type": "WARBEASTS",
+        "models": "Skorne non-character warbeasts"
+      },
+      {
+        "type": "UNITS",
+        "models": "Paingiver Beast Handlers, Skorne Construct units"
+      },
+      {
+        "type": "SOLOS",
+        "models": "Skorne Construct solos"
       }
     ]
   },
@@ -2937,6 +3193,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU05",
           "SU06",
           "SU07",
@@ -2993,6 +3250,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU05",
           "SU06",
           "SU07",
@@ -3054,6 +3312,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU05",
           "SU06",
           "SU07",
@@ -3099,7 +3358,8 @@ faction_skorne_tiers = {"tiers":[
             "SB18",
             "SB19",
             "SB20",
-            "SB21"
+            "SB21",
+            "SB22"
           ],
           "inBG": false
         }],
@@ -3123,6 +3383,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU05",
           "SU06",
           "SU07",
@@ -3347,6 +3608,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU01",
           "SU05",
           "SS03",
@@ -3385,6 +3647,7 @@ faction_skorne_tiers = {"tiers":[
           "SB19",
           "SB20",
           "SB21",
+          "SB22",
           "SU01",
           "SU05",
           "SS03",

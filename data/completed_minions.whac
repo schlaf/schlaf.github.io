@@ -950,9 +950,9 @@
                             <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
                         </weapons>
                         <capacity title="Magic Ability [7]"></capacity>
-                        <capacity title="•  Arcane Bolt" type="*Attack">Arcane Bolt is a RNG 12, POW 11 magic attack.</capacity>
-                        <capacity title="•  Wind Barrier" type="*Action">Non-magical ranged attacks targeting this model or a model in this unit completely within 3" of this model automatically miss. Wind Barrier lasts for one round.</capacity>
-                        <capacity title="•  Zephyr" type="*Action">Models in this unit that are in formation can immediately advance up to 3". They cannot be targeted by free strikes during this movement.</capacity>
+                        <capacity title="•	Arcane Bolt" type="*Attack">Arcane Bolt is a RNG 12, POW 11 magic attack.</capacity>
+                        <capacity title="•	Wind Barrier" type="*Action">Non-magical ranged attacks targeting this model or a model in this unit completely within 3" of this model automatically miss. Wind Barrier lasts for one round.</capacity>
+                        <capacity title="•	Zephyr" type="*Action">Models in this unit that are in formation can immediately advance up to 3". They cannot be targeted by free strikes during this movement.</capacity>
                         <capacity title="True Sight"> This model ignores concealment, Camouflage, and Stealth.</capacity>
                     </model>
                     <works_for id="faction_orboros" />

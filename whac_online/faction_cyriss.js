@@ -1,268 +1,266 @@
 faction_cyriss_entries = {"groups":[
   {
+    "logo": "faction_cyriss",
     "id": "faction_cyriss_warcasters",
     "entries": [
       {
-        "id": "cocW03",
+        "name": "Syntherion(Forge Master Syntherion)",
         "fa": "C",
-        "faction": "faction_cyriss",
-        "type": "warcaster",
-        "cost": 4,
-        "name": "Iron Mother Directrix(Iron Mother Directrix & Exponent Servitors)"
-      },
-      {
-        "id": "cocW02",
-        "fa": "C",
-        "faction": "faction_cyriss",
-        "type": "warcaster",
         "cost": 6,
-        "name": "Axis(Axis, the Harmonic Enforcer)"
-      },
-      {
-        "id": "cocW01",
-        "fa": "C",
         "faction": "faction_cyriss",
-        "type": "warcaster",
-        "cost": 6,
-        "name": "Aurora(Aurora, Numen of Aerogenesis)"
-      },
-      {
         "id": "cocW05",
-        "fa": "C",
-        "faction": "faction_cyriss",
-        "type": "warcaster",
-        "cost": 6,
-        "name": "Syntherion(Forge Master Syntherion)"
+        "type": "warcaster"
       },
       {
-        "id": "cocW04",
+        "name": "Axis(Axis, the Harmonic Enforcer)",
         "fa": "C",
+        "cost": 6,
         "faction": "faction_cyriss",
-        "type": "warcaster",
+        "id": "cocW02",
+        "type": "warcaster"
+      },
+      {
+        "name": "Lucant(Father Lucant, Divinity Architect)",
+        "fa": "C",
         "cost": 5,
-        "name": "Lucant(Father Lucant, Divinity Architect)"
+        "faction": "faction_cyriss",
+        "id": "cocW04",
+        "type": "warcaster"
+      },
+      {
+        "name": "Iron Mother Directrix(Iron Mother Directrix & Exponent Servitors)",
+        "fa": "C",
+        "cost": 4,
+        "faction": "faction_cyriss",
+        "id": "cocW03",
+        "type": "warcaster"
+      },
+      {
+        "name": "Aurora(Aurora, Numen of Aerogenesis)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_cyriss",
+        "id": "cocW01",
+        "type": "warcaster"
       }
     ],
-    "logo": "faction_cyriss",
     "label": "Warcasters"
   },
   {
+    "logo": "faction_cyriss",
     "id": "faction_cyriss_warlocks",
     "entries": [],
-    "logo": "faction_cyriss",
     "label": "Warlocks"
   },
   {
+    "logo": "faction_cyriss",
     "id": "faction_cyriss_warjacks",
     "entries": [
       {
-        "id": "cocJ10",
+        "name": "Inverter",
         "fa": "U",
-        "faction": "faction_cyriss",
-        "type": "warjack",
         "cost": 8,
-        "name": "Monitor"
-      },
-      {
-        "id": "cocJ11",
-        "fa": "2",
         "faction": "faction_cyriss",
-        "type": "warjack",
-        "cost": 19,
-        "name": "Prime Axiom"
-      },
-      {
-        "id": "cocJ09",
-        "fa": "U",
-        "faction": "faction_cyriss",
-        "type": "warjack",
-        "cost": 6,
-        "name": "Modulator"
-      },
-      {
         "id": "cocJ08",
-        "fa": "U",
-        "faction": "faction_cyriss",
-        "type": "warjack",
-        "cost": 8,
-        "name": "Inverter"
+        "type": "warjack"
       },
       {
-        "id": "cocJ07",
+        "name": "Cipher",
         "fa": "U",
-        "faction": "faction_cyriss",
-        "type": "warjack",
-        "cost": 7,
-        "name": "Conservator"
-      },
-      {
-        "id": "cocJ06",
-        "fa": "U",
-        "faction": "faction_cyriss",
-        "type": "warjack",
         "cost": 9,
-        "name": "Cipher"
+        "faction": "faction_cyriss",
+        "id": "cocJ06",
+        "type": "warjack"
       },
       {
-        "id": "cocJ05",
+        "name": "Modulator",
         "fa": "U",
+        "cost": 6,
         "faction": "faction_cyriss",
-        "type": "warjack",
-        "cost": 8,
-        "name": "Assimilator"
+        "id": "cocJ09",
+        "type": "warjack"
       },
       {
-        "id": "cocJ04",
-        "fa": "U",
+        "name": "Prime Axiom",
+        "fa": "2",
+        "cost": 19,
         "faction": "faction_cyriss",
-        "type": "warjack",
+        "id": "cocJ11",
+        "type": "warjack"
+      },
+      {
+        "name": "Mitigator",
+        "fa": "U",
         "cost": 4,
-        "name": "Mitigator"
-      },
-      {
-        "id": "cocJ03",
-        "fa": "U",
         "faction": "faction_cyriss",
-        "type": "warjack",
-        "cost": 3,
-        "name": "Galvanizer"
+        "id": "cocJ04",
+        "type": "warjack"
       },
       {
-        "id": "cocJ02",
+        "name": "Monitor",
         "fa": "U",
+        "cost": 8,
         "faction": "faction_cyriss",
-        "type": "warjack",
-        "cost": 3,
-        "name": "Diffuser"
+        "id": "cocJ10",
+        "type": "warjack"
       },
       {
-        "id": "cocJ01",
+        "name": "Assimilator",
+        "fa": "U",
+        "cost": 8,
+        "faction": "faction_cyriss",
+        "id": "cocJ05",
+        "type": "warjack"
+      },
+      {
+        "name": "Corollary",
         "fa": "1",
-        "faction": "faction_cyriss",
-        "type": "warjack",
         "cost": 3,
-        "name": "Corollary"
+        "faction": "faction_cyriss",
+        "id": "cocJ01",
+        "type": "warjack"
+      },
+      {
+        "name": "Diffuser",
+        "fa": "U",
+        "cost": 3,
+        "faction": "faction_cyriss",
+        "id": "cocJ02",
+        "type": "warjack"
+      },
+      {
+        "name": "Galvanizer",
+        "fa": "U",
+        "cost": 3,
+        "faction": "faction_cyriss",
+        "id": "cocJ03",
+        "type": "warjack"
+      },
+      {
+        "name": "Conservator",
+        "fa": "U",
+        "cost": 7,
+        "faction": "faction_cyriss",
+        "id": "cocJ07",
+        "type": "warjack"
       }
     ],
-    "logo": "faction_cyriss",
     "label": "Warjacks"
   },
   {
+    "logo": "faction_cyriss",
     "id": "faction_cyriss_warbeasts",
     "entries": [],
-    "logo": "faction_cyriss",
     "label": "Warbeasts"
   },
   {
+    "logo": "faction_cyriss",
     "id": "faction_cyriss_bes",
     "entries": [{
-      "id": "cocE01",
+      "name": "Transinfinite Emergence Projector & Permutation Servitors",
       "fa": "2",
-      "faction": "faction_cyriss",
-      "type": "battleengine",
       "cost": 9,
-      "name": "Transinfinite Emergence Projector & Permutation Servitors"
+      "faction": "faction_cyriss",
+      "id": "cocE01",
+      "type": "battleengine"
     }],
-    "logo": "faction_cyriss",
     "label": "Battle engines"
   },
   {
+    "logo": "faction_cyriss",
     "id": "faction_cyriss_units",
     "entries": [
       {
-        "id": "cocU05",
-        "fa": "U",
-        "faction": "faction_cyriss",
-        "type": "unit",
-        "cost": 2,
-        "name": "Optifex Directive"
-      },
-      {
-        "min": 3,
-        "id": "cocU04",
-        "max": 5,
-        "name": "Eradicators",
-        "costMax": 9,
-        "costMin": 6,
-        "fa": "2",
-        "faction": "faction_cyriss",
-        "type": "unit",
-        "cost": 6
-      },
-      {
+        "max": 10,
         "min": 6,
+        "costMax": 6,
+        "fa": "3",
+        "costMin": 4,
         "id": "cocU03",
-        "max": 10,
         "name": "Reductors",
-        "costMax": 6,
-        "costMin": 4,
-        "fa": "3",
+        "cost": 4,
         "faction": "faction_cyriss",
-        "type": "unit",
-        "cost": 4
+        "type": "unit"
       },
       {
-        "min": 6,
-        "id": "cocU02",
-        "max": 10,
-        "name": "Obstructors",
-        "costMax": 6,
-        "costMin": 4,
-        "fa": "3",
-        "faction": "faction_cyriss",
-        "type": "unit",
-        "cost": 4
-      },
-      {
-        "id": "cocU01",
-        "fa": "3",
-        "faction": "faction_cyriss",
-        "type": "unit",
-        "cost": 3,
-        "name": "Clockwork Angels"
-      },
-      {
-        "min": 3,
-        "id": "cocU07",
         "max": 5,
-        "name": "Perforators",
-        "costMax": 9,
-        "costMin": 6,
-        "fa": "2",
-        "faction": "faction_cyriss",
-        "type": "unit",
-        "cost": 6
-      },
-      {
         "min": 3,
+        "costMax": 9,
+        "fa": "2",
+        "costMin": 6,
         "id": "cocU06",
-        "max": 5,
         "name": "Reciprocators",
-        "costMax": 9,
-        "costMin": 6,
-        "fa": "2",
+        "cost": 6,
         "faction": "faction_cyriss",
-        "type": "unit",
-        "cost": 6
+        "type": "unit"
+      },
+      {
+        "name": "Optifex Directive",
+        "fa": "U",
+        "cost": 2,
+        "faction": "faction_cyriss",
+        "id": "cocU05",
+        "type": "unit"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "costMax": 9,
+        "fa": "2",
+        "costMin": 6,
+        "id": "cocU04",
+        "name": "Eradicators",
+        "cost": 6,
+        "faction": "faction_cyriss",
+        "type": "unit"
+      },
+      {
+        "name": "Clockwork Angels",
+        "fa": "3",
+        "cost": 3,
+        "faction": "faction_cyriss",
+        "id": "cocU01",
+        "type": "unit"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "costMax": 9,
+        "fa": "2",
+        "costMin": 6,
+        "id": "cocU07",
+        "name": "Perforators",
+        "cost": 6,
+        "faction": "faction_cyriss",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 6,
+        "fa": "3",
+        "costMin": 4,
+        "id": "cocU02",
+        "name": "Obstructors",
+        "cost": 4,
+        "faction": "faction_cyriss",
+        "type": "unit"
       }
     ],
-    "logo": "faction_cyriss",
     "label": "Units"
   },
   {
+    "logo": "faction_cyriss",
     "id": "faction_cyriss_WAs",
     "entries": [],
-    "logo": "faction_cyriss",
     "label": "Weapon Attachments"
   },
   {
+    "logo": "faction_cyriss",
     "id": "faction_cyriss_UAs",
     "entries": [{
-      "id": "cocA01",
+      "name": "Transverse Enumerator",
       "fa": "3",
-      "faction": "faction_cyriss",
-      "type": "UA",
-      "cost": 2,
       "restricted_to": [
         "cocU01",
         "cocU02",
@@ -272,97 +270,99 @@ faction_cyriss_entries = {"groups":[
         "cocU06",
         "cocU07"
       ],
-      "name": "Transverse Enumerator"
+      "cost": 2,
+      "faction": "faction_cyriss",
+      "id": "cocA01",
+      "type": "UA"
     }],
-    "logo": "faction_cyriss",
     "label": "Unit Attachments"
   },
   {
+    "logo": "faction_cyriss",
     "id": "faction_cyriss_solos",
     "entries": [
       {
+        "name": "Steelsoul Protector",
+        "fa": "3",
+        "cost": 2,
+        "faction": "faction_cyriss",
         "id": "cocS06",
-        "fa": "3",
-        "faction": "faction_cyriss",
-        "type": "solo",
-        "cost": 2,
-        "name": "Steelsoul Protector"
+        "type": "solo"
       },
       {
-        "id": "cocS07",
+        "name": "Elimination Servitors",
         "fa": "3",
-        "faction": "faction_cyriss",
-        "type": "solo",
         "cost": 2,
-        "name": "Reflex Servitors"
-      },
-      {
+        "faction": "faction_cyriss",
         "id": "cocS04",
-        "fa": "3",
-        "faction": "faction_cyriss",
-        "type": "solo",
-        "cost": 2,
-        "name": "Elimination Servitors"
+        "type": "solo"
       },
       {
-        "id": "cocS05",
+        "name": "Enigma Foundry",
         "fa": "2",
-        "faction": "faction_cyriss",
-        "type": "solo",
         "cost": 3,
-        "name": "Enigma Foundry"
+        "faction": "faction_cyriss",
+        "id": "cocS05",
+        "type": "solo"
       },
       {
-        "id": "cocS01",
+        "name": "Attunement Servitors",
         "fa": "3",
-        "faction": "faction_cyriss",
-        "type": "solo",
-        "cost": 1,
-        "name": "Accretion Servitors"
-      },
-      {
-        "id": "cocS03",
-        "fa": "3",
-        "faction": "faction_cyriss",
-        "type": "solo",
         "cost": 2,
-        "name": "Attunement Servitors"
+        "faction": "faction_cyriss",
+        "id": "cocS03",
+        "type": "solo"
       },
       {
-        "id": "cocS02",
-        "fa": "4",
-        "faction": "faction_cyriss",
-        "type": "solo",
+        "name": "Accretion Servitors",
+        "fa": "3",
         "cost": 1,
-        "name": "Algorithmic Dispersion Optifex"
+        "faction": "faction_cyriss",
+        "id": "cocS01",
+        "type": "solo"
+      },
+      {
+        "name": "Algorithmic Dispersion Optifex",
+        "fa": "4",
+        "cost": 1,
+        "faction": "faction_cyriss",
+        "id": "cocS02",
+        "type": "solo"
+      },
+      {
+        "name": "Reflex Servitors",
+        "fa": "3",
+        "cost": 2,
+        "faction": "faction_cyriss",
+        "id": "cocS07",
+        "type": "solo"
       }
     ],
-    "logo": "faction_cyriss",
     "label": "Solos"
   }
 ]};
 
 faction_cyriss_tiers = {"tiers":[
   {
-    "availableModels": [
-      {
-        "models": "Convergence non-character vectors",
-        "type": "WARJACKS"
-      },
-      {
-        "models": "Optifex units, units with Flight",
-        "type": "UNITS"
-      },
-      {
-        "models": "Optifex solos, Servitor solos, Steelsoul Protector solos, solos with Flight",
-        "type": "SOLOS"
-      }
-    ],
+    "name": "Aurora - Maiden of Gears",
+    "casterId": "cocW01",
     "faction": "faction_cyriss",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "cocU01",
+            "bonus": 2
+          },
+          {
+            "id": "cocS06",
+            "bonus": 2
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "cocW01",
@@ -385,26 +385,17 @@ faction_cyriss_tiers = {"tiers":[
           "cocS04",
           "cocS06",
           "cocA01"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "cocU01",
-            "bonus": 2
-          },
-          {
-            "id": "cocS06",
-            "bonus": 2
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Clockwork Angel units gain Stealth during the first round of the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": ["cocU01"],
           "inBG": false
         }],
@@ -429,17 +420,17 @@ faction_cyriss_tiers = {"tiers":[
           "cocS04",
           "cocS06",
           "cocA01"
-        ]},
-        "level": 2,
-        "benefit": "Clockwork Angel units gain Stealth during the first round of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Steelsoul Protectors gain Advanced Deployment.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["cocS06"],
           "inBG": false
         }],
@@ -464,17 +455,17 @@ faction_cyriss_tiers = {"tiers":[
           "cocS04",
           "cocS06",
           "cocA01"
-        ]},
-        "level": 3,
-        "benefit": "Steelsoul Protectors gain Advanced Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Heavy vectors in Aurora\u2019s battlegroup gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "cocJ05",
             "cocJ06",
@@ -506,35 +497,38 @@ faction_cyriss_tiers = {"tiers":[
           "cocS04",
           "cocS06",
           "cocA01"
-        ]},
-        "level": 4,
-        "benefit": "Heavy vectors in Aurora\u2019s battlegroup gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "cocW01",
-    "name": "Aurora - Maiden of Gears"
-  },
-  {
     "availableModels": [
       {
-        "models": "Convergence non-character vectors without ranged weapons",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Convergence non-character vectors"
       },
       {
-        "models": "Small-based units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Optifex units, units with Flight"
       },
       {
-        "models": "Enigma Foundries",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Optifex solos, Servitor solos, Steelsoul Protector solos, solos with Flight"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Axis - Sustained Attack",
+    "casterId": "cocW02",
     "faction": "faction_cyriss",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [{
+          "id": "cocS05",
+          "bonus": 2
+        }],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "cocW02",
@@ -548,13 +542,7 @@ faction_cyriss_tiers = {"tiers":[
           "cocU05",
           "cocS05",
           "cocA01"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [{
-          "id": "cocS05",
-          "bonus": 2
-        }]
+        ]}
       },
       {
         "freeModels": [],
@@ -562,9 +550,12 @@ faction_cyriss_tiers = {"tiers":[
           "id": "cocS05",
           "bonus": 1
         }],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["cocS05"],
           "inBG": false
         }],
@@ -580,17 +571,17 @@ faction_cyriss_tiers = {"tiers":[
           "cocU05",
           "cocS05",
           "cocA01"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Clockwork Vessels units gain Advanced Deployment.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "cocU01",
             "cocU02",
@@ -610,17 +601,17 @@ faction_cyriss_tiers = {"tiers":[
           "cocU05",
           "cocS05",
           "cocA01"
-        ]},
-        "level": 3,
-        "benefit": "Clockwork Vessels units gain Advanced Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each vector in the battlegroup, place a wreck marker on the table before the game starts.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "cocJ07",
             "cocJ08"
@@ -639,39 +630,48 @@ faction_cyriss_tiers = {"tiers":[
           "cocU05",
           "cocS05",
           "cocA01"
-        ]},
-        "level": 4,
-        "benefit": "For each vector in the battlegroup, place a wreck marker on the table before the game starts.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "cocW02",
-    "name": "Axis - Sustained Attack"
-  },
-  {
     "availableModels": [
       {
-        "models": "Convergence non-character vectors",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Convergence non-character vectors without ranged weapons"
       },
       {
-        "models": "Optifex units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Small-based units"
       },
       {
-        "models": "Servitor solos, Steelsoul Protector solos",
-        "type": "SOLOS"
-      },
-      {
-        "models": "Transfinite Emergence Projector",
-        "type": "BATTLE_ENGINES"
+        "type": "SOLOS",
+        "models": "Enigma Foundries"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Iron Mother - Carrier Group",
+    "casterId": "cocW03",
     "faction": "faction_cyriss",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "cocS01",
+            "bonus": 1
+          },
+          {
+            "id": "cocS03",
+            "bonus": 1
+          },
+          {
+            "id": "cocS04",
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "cocW03",
@@ -692,30 +692,17 @@ faction_cyriss_tiers = {"tiers":[
           "cocS04",
           "cocS06",
           "cocE01"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "cocS01",
-            "bonus": 1
-          },
-          {
-            "id": "cocS03",
-            "bonus": 1
-          },
-          {
-            "id": "cocS04",
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Vectors in the army gain Pathfinder during your first turn of the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["cocU05"],
           "inBG": false
         }],
@@ -738,17 +725,17 @@ faction_cyriss_tiers = {"tiers":[
           "cocS04",
           "cocS06",
           "cocE01"
-        ]},
-        "level": 2,
-        "benefit": "Vectors in the army gain Pathfinder during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Servitor solos gain Advance Deployment",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "cocS01",
             "cocS03",
@@ -775,17 +762,17 @@ faction_cyriss_tiers = {"tiers":[
           "cocS04",
           "cocS06",
           "cocE01"
-        ]},
-        "level": 3,
-        "benefit": "Servitor solos gain Advance Deployment",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "During your first turn, when a Prime Axiom uses Launch Servitor you can place up to three Servitor solos instead of placing one.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["cocJ11"],
           "inBG": false
         }],
@@ -808,35 +795,52 @@ faction_cyriss_tiers = {"tiers":[
           "cocS04",
           "cocS06",
           "cocE01"
-        ]},
-        "level": 4,
-        "benefit": "During your first turn, when a Prime Axiom uses Launch Servitor you can place up to three Servitor solos instead of placing one.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "cocW03",
-    "name": "Iron Mother - Carrier Group"
-  },
-  {
     "availableModels": [
       {
-        "models": "Convergence non-character vectors",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Convergence non-character vectors"
       },
       {
-        "models": "Medium- and large-based units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Optifex units"
       },
       {
-        "models": "Medium- and large-based solos",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Servitor solos, Steelsoul Protector solos"
+      },
+      {
+        "type": "BATTLE_ENGINES",
+        "models": "Transfinite Emergence Projector"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Lucant - Iron Giants",
+    "casterId": "cocW04",
     "faction": "faction_cyriss",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "cocU04",
+            "bonus": 1
+          },
+          {
+            "id": "cocU06",
+            "bonus": 1
+          },
+          {
+            "id": "cocU07",
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "cocW04",
@@ -856,30 +860,17 @@ faction_cyriss_tiers = {"tiers":[
           "cocU07",
           "cocS05",
           "cocS06"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "cocU04",
-            "bonus": 1
-          },
-          {
-            "id": "cocU06",
-            "bonus": 1
-          },
-          {
-            "id": "cocU07",
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You gain +1 on your starting roll for the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["cocU07"],
           "inBG": false
         }],
@@ -901,17 +892,17 @@ faction_cyriss_tiers = {"tiers":[
           "cocU07",
           "cocS05",
           "cocS06"
-        ]},
-        "level": 2,
-        "benefit": "You gain +1 on your starting roll for the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "One Clockwork Vessel unit without a ranged attack gains Advance Deployment",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "cocU04",
             "cocU06"
@@ -936,10 +927,7 @@ faction_cyriss_tiers = {"tiers":[
           "cocU07",
           "cocS05",
           "cocS06"
-        ]},
-        "level": 3,
-        "benefit": "One Clockwork Vessel unit without a ranged attack gains Advance Deployment",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -957,9 +945,12 @@ faction_cyriss_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "cocJ05",
             "cocJ06",
@@ -988,39 +979,35 @@ faction_cyriss_tiers = {"tiers":[
           "cocU07",
           "cocS05",
           "cocS06"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "cocW04",
-    "name": "Lucant - Iron Giants"
-  },
-  {
     "availableModels": [
       {
-        "models": "Convergence non-character vectors",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Convergence non-character vectors"
       },
       {
-        "models": "Optifex units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Medium- and large-based units"
       },
       {
-        "models": "Optifex solos, Servitor solos",
-        "type": "SOLOS"
-      },
-      {
-        "models": "Transfinite Emergence Projector",
-        "type": "BATTLE_ENGINES"
+        "type": "SOLOS",
+        "models": "Medium- and large-based solos"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Syntherion - The Great Machine",
+    "casterId": "cocW05",
     "faction": "faction_cyriss",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Algorithmic Dispersion Optifex models gain Advanced Deployment.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "cocW05",
@@ -1043,17 +1030,17 @@ faction_cyriss_tiers = {"tiers":[
           "cocS07",
           "cocE01",
           "cocA01"
-        ]},
-        "level": 1,
-        "benefit": "Algorithmic Dispersion Optifex models gain Advanced Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Reduce the cost of Syntherion\u2019s spells by 1 during your first turn of the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["cocJ01"],
           "inBG": false
         }],
@@ -1078,17 +1065,17 @@ faction_cyriss_tiers = {"tiers":[
           "cocS07",
           "cocE01",
           "cocA01"
-        ]},
-        "level": 2,
-        "benefit": "Reduce the cost of Syntherion\u2019s spells by 1 during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each Optifex Directive unit in the army, the Corollary begins the game with 1 focus point (to a maximum of 3).",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["cocU05"],
           "inBG": false
         }],
@@ -1113,17 +1100,17 @@ faction_cyriss_tiers = {"tiers":[
           "cocS07",
           "cocE01",
           "cocA01"
-        ]},
-        "level": 3,
-        "benefit": "For each Optifex Directive unit in the army, the Corollary begins the game with 1 focus point (to a maximum of 3).",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{"id": ["cocJ03"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 5,
+          "inMarshal": false,
           "ids": [
             "cocJ01",
             "cocJ02",
@@ -1160,14 +1147,27 @@ faction_cyriss_tiers = {"tiers":[
           "cocS07",
           "cocE01",
           "cocA01"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "cocW05",
-    "name": "Syntherion - The Great Machine"
+    "availableModels": [
+      {
+        "type": "WARJACKS",
+        "models": "Convergence non-character vectors"
+      },
+      {
+        "type": "UNITS",
+        "models": "Optifex units"
+      },
+      {
+        "type": "SOLOS",
+        "models": "Optifex solos, Servitor solos"
+      },
+      {
+        "type": "BATTLE_ENGINES",
+        "models": "Transfinite Emergence Projector"
+      }
+    ]
   }
 ]};
 

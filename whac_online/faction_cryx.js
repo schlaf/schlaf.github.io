@@ -1,787 +1,778 @@
 faction_cryx_entries = {"groups":[
   {
+    "logo": "faction_cryx",
     "id": "faction_cryx_warcasters",
     "entries": [
       {
-        "id": "CW10",
+        "name": "Goreshade3(Goreshade, Lord of Ruin)",
         "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
-        "cost": 6,
-        "name": "Sturgis(Sturgis the Corrupted)"
-      },
-      {
-        "id": "CW08",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
-        "cost": 6,
-        "name": "Venethrax(Lich Lord Venethrax)"
-      },
-      {
-        "id": "CW09",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
         "cost": 5,
-        "name": "Scaverous(Lord Exhumator Scaverous)"
-      },
-      {
-        "id": "CW04",
-        "fa": "C",
         "faction": "faction_cryx",
-        "type": "warcaster",
-        "cost": 4,
-        "name": "Terminus(Lich Lord Terminus)"
-      },
-      {
-        "id": "CW06",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
-        "cost": 5,
-        "name": "Witch Coven(The witch coven of Garlghast)"
-      },
-      {
-        "id": "CW07",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
-        "cost": 4,
-        "name": "Mortenebra(Master Necrotech Mortenebra & Deryliss)"
-      },
-      {
-        "id": "Cx05",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
-        "cost": 5,
-        "name": "Goreshade2(Goreshade the Cursed)"
-      },
-      {
-        "id": "Cx03",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
-        "cost": 6,
-        "name": "Skarre2(Skarre queen of the broken coast)"
-      },
-      {
-        "id": "Cw05",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
-        "cost": 6,
-        "name": "Goreshade1(Goreshade the bastard)"
-      },
-      {
-        "id": "Cw03",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
-        "cost": 6,
-        "name": "Skarre1(Pirate queen Skarre)"
-      },
-      {
-        "id": "Cw02",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
-        "cost": 5,
-        "name": "Deneghra1(Warwitch Deneghra)"
-      },
-      {
         "id": "Cz05",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
-        "cost": 5,
-        "name": "Goreshade3(Goreshade, Lord of Ruin)"
+        "type": "warcaster"
       },
       {
-        "id": "Cw01",
+        "name": "Deneghra3(Deneghra, the Soul Weaver)",
         "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
-        "cost": 6,
-        "name": "Asphyxious1(Iron Lich Asphyxious)"
-      },
-      {
-        "id": "Cx01",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
-        "cost": 6,
-        "name": "Asphyxious2(Lich Lord Asphyxious)"
-      },
-      {
-        "id": "Cx02",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
-        "cost": 6,
-        "name": "Deneghra2(Wraith Witch Deneghra)"
-      },
-      {
-        "id": "Cz01",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warcaster",
         "cost": 4,
-        "name": "Asphyxious3(Asphyxious the Hellbringer & Vociferon)"
-      },
-      {
+        "faction": "faction_cryx",
         "id": "Cz02",
+        "type": "warcaster"
+      },
+      {
+        "name": "Deneghra2(Wraith Witch Deneghra)",
         "fa": "C",
+        "cost": 6,
         "faction": "faction_cryx",
-        "type": "warcaster",
+        "id": "Cx02",
+        "type": "warcaster"
+      },
+      {
+        "name": "Asphyxious2(Lich Lord Asphyxious)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_cryx",
+        "id": "Cx01",
+        "type": "warcaster"
+      },
+      {
+        "name": "Terminus(Lich Lord Terminus)",
+        "fa": "C",
         "cost": 4,
-        "name": "Deneghra3(Deneghra, the Soul Weaver)"
+        "faction": "faction_cryx",
+        "id": "CW04",
+        "type": "warcaster"
+      },
+      {
+        "name": "Witch Coven(The witch coven of Garlghast)",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_cryx",
+        "id": "CW06",
+        "type": "warcaster"
+      },
+      {
+        "name": "Deneghra1(Warwitch Deneghra)",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_cryx",
+        "id": "Cw02",
+        "type": "warcaster"
+      },
+      {
+        "name": "Venethrax(Lich Lord Venethrax)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_cryx",
+        "id": "CW08",
+        "type": "warcaster"
+      },
+      {
+        "name": "Skarre2(Skarre queen of the broken coast)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_cryx",
+        "id": "Cx03",
+        "type": "warcaster"
+      },
+      {
+        "name": "Goreshade2(Goreshade the Cursed)",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_cryx",
+        "id": "Cx05",
+        "type": "warcaster"
+      },
+      {
+        "name": "Goreshade1(Goreshade the bastard)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_cryx",
+        "id": "Cw05",
+        "type": "warcaster"
+      },
+      {
+        "name": "Sturgis(Sturgis the Corrupted)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_cryx",
+        "id": "CW10",
+        "type": "warcaster"
+      },
+      {
+        "name": "Mortenebra(Master Necrotech Mortenebra & Deryliss)",
+        "fa": "C",
+        "cost": 4,
+        "faction": "faction_cryx",
+        "id": "CW07",
+        "type": "warcaster"
+      },
+      {
+        "name": "Asphyxious3(Asphyxious the Hellbringer & Vociferon)",
+        "fa": "C",
+        "cost": 4,
+        "faction": "faction_cryx",
+        "id": "Cz01",
+        "type": "warcaster"
+      },
+      {
+        "name": "Skarre1(Pirate queen Skarre)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_cryx",
+        "id": "Cw03",
+        "type": "warcaster"
+      },
+      {
+        "name": "Scaverous(Lord Exhumator Scaverous)",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_cryx",
+        "id": "CW09",
+        "type": "warcaster"
+      },
+      {
+        "name": "Asphyxious1(Iron Lich Asphyxious)",
+        "fa": "C",
+        "cost": 6,
+        "faction": "faction_cryx",
+        "id": "Cw01",
+        "type": "warcaster"
       }
     ],
-    "logo": "faction_cryx",
     "label": "Warcasters"
   },
   {
+    "logo": "faction_cryx",
     "id": "faction_cryx_warlocks",
     "entries": [],
-    "logo": "faction_cryx",
     "label": "Warlocks"
   },
   {
+    "logo": "faction_cryx",
     "id": "faction_cryx_warjacks",
     "entries": [
       {
-        "id": "CJ08",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 7,
-        "name": "Reaper"
-      },
-      {
-        "id": "CJ13",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 10,
-        "name": "Nightmare"
-      },
-      {
-        "id": "CJ07",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 6,
-        "name": "Slayer"
-      },
-      {
-        "id": "CJ12",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 12,
-        "name": "Deathjack"
-      },
-      {
-        "id": "CJ24",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 4,
-        "name": "Shrike"
-      },
-      {
-        "id": "CJ15",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 5,
-        "name": "Ripjaw"
-      },
-      {
-        "id": "CJ06",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 5,
-        "name": "Cankerworm"
-      },
-      {
-        "id": "CJ23",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 10,
-        "name": "Barathrum"
-      },
-      {
-        "id": "CJ05",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 3,
-        "name": "Helldiver"
-      },
-      {
-        "id": "CJ14",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 8,
-        "name": "Corruptor"
-      },
-      {
-        "id": "CJ04",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 4,
-        "name": "Stalker"
-      },
-      {
-        "id": "CJ17",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 4,
-        "name": "Scavenger"
-      },
-      {
-        "id": "CJ03",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 4,
-        "name": "Nightwretch"
-      },
-      {
-        "id": "CJ16",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 9,
-        "name": "Malice"
-      },
-      {
-        "id": "CJ19",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 8,
-        "name": "Erebus"
-      },
-      {
-        "id": "CJ02",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 5,
-        "name": "Defiler"
-      },
-      {
-        "id": "CJ18",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 9,
-        "name": "Desecrator"
-      },
-      {
-        "id": "CJ01",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 4,
-        "name": "Deathripper"
-      },
-      {
-        "id": "CJ22",
+        "name": "Sepulcher",
         "fa": "2",
-        "faction": "faction_cryx",
-        "type": "warjack",
         "cost": 18,
-        "name": "Sepulcher"
+        "faction": "faction_cryx",
+        "id": "CJ22",
+        "type": "warjack"
       },
       {
-        "id": "CJ21",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 8,
-        "name": "Inflictor"
-      },
-      {
-        "id": "CJ20",
-        "fa": "2",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 19,
-        "name": "Kraken"
-      },
-      {
-        "id": "CJ11",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
+        "name": "Barathrum",
+        "fa": "C",
         "cost": 10,
-        "name": "Harrower"
+        "faction": "faction_cryx",
+        "id": "CJ23",
+        "type": "warjack"
       },
       {
+        "name": "Erebus",
+        "fa": "C",
+        "cost": 8,
+        "faction": "faction_cryx",
+        "id": "CJ19",
+        "type": "warjack"
+      },
+      {
+        "name": "Defiler",
+        "fa": "U",
+        "cost": 5,
+        "faction": "faction_cryx",
+        "id": "CJ02",
+        "type": "warjack"
+      },
+      {
+        "name": "Harrower",
+        "fa": "U",
+        "cost": 10,
+        "faction": "faction_cryx",
+        "id": "CJ11",
+        "type": "warjack"
+      },
+      {
+        "name": "Stalker",
+        "fa": "U",
+        "cost": 4,
+        "faction": "faction_cryx",
+        "id": "CJ04",
+        "type": "warjack"
+      },
+      {
+        "name": "Leviathan",
+        "fa": "U",
+        "cost": 9,
+        "faction": "faction_cryx",
         "id": "CJ10",
-        "fa": "U",
-        "faction": "faction_cryx",
-        "type": "warjack",
-        "cost": 9,
-        "name": "Leviathan"
+        "type": "warjack"
       },
       {
-        "id": "CJ09",
+        "name": "Corruptor",
         "fa": "U",
+        "cost": 8,
         "faction": "faction_cryx",
-        "type": "warjack",
+        "id": "CJ14",
+        "type": "warjack"
+      },
+      {
+        "name": "Shrike",
+        "fa": "U",
+        "cost": 4,
+        "faction": "faction_cryx",
+        "id": "CJ24",
+        "type": "warjack"
+      },
+      {
+        "name": "Inflictor",
+        "fa": "U",
+        "cost": 8,
+        "faction": "faction_cryx",
+        "id": "CJ21",
+        "type": "warjack"
+      },
+      {
+        "name": "Helldiver",
+        "fa": "U",
+        "cost": 3,
+        "faction": "faction_cryx",
+        "id": "CJ05",
+        "type": "warjack"
+      },
+      {
+        "name": "Scavenger",
+        "fa": "U",
+        "cost": 4,
+        "faction": "faction_cryx",
+        "id": "CJ17",
+        "type": "warjack"
+      },
+      {
+        "name": "Malice",
+        "fa": "C",
         "cost": 9,
-        "name": "Seether"
+        "faction": "faction_cryx",
+        "id": "CJ16",
+        "type": "warjack"
+      },
+      {
+        "name": "Kraken",
+        "fa": "2",
+        "cost": 19,
+        "faction": "faction_cryx",
+        "id": "CJ20",
+        "type": "warjack"
+      },
+      {
+        "name": "Seether",
+        "fa": "U",
+        "cost": 9,
+        "faction": "faction_cryx",
+        "id": "CJ09",
+        "type": "warjack"
+      },
+      {
+        "name": "Deathjack",
+        "fa": "C",
+        "cost": 12,
+        "faction": "faction_cryx",
+        "id": "CJ12",
+        "type": "warjack"
+      },
+      {
+        "name": "Slayer",
+        "fa": "U",
+        "cost": 6,
+        "faction": "faction_cryx",
+        "id": "CJ07",
+        "type": "warjack"
+      },
+      {
+        "name": "Nightwretch",
+        "fa": "U",
+        "cost": 4,
+        "faction": "faction_cryx",
+        "id": "CJ03",
+        "type": "warjack"
+      },
+      {
+        "name": "Reaper",
+        "fa": "U",
+        "cost": 7,
+        "faction": "faction_cryx",
+        "id": "CJ08",
+        "type": "warjack"
+      },
+      {
+        "name": "Nightmare",
+        "fa": "C",
+        "cost": 10,
+        "faction": "faction_cryx",
+        "id": "CJ13",
+        "type": "warjack"
+      },
+      {
+        "name": "Desecrator",
+        "fa": "U",
+        "cost": 9,
+        "faction": "faction_cryx",
+        "id": "CJ18",
+        "type": "warjack"
+      },
+      {
+        "name": "Ripjaw",
+        "fa": "U",
+        "cost": 5,
+        "faction": "faction_cryx",
+        "id": "CJ15",
+        "type": "warjack"
+      },
+      {
+        "name": "Deathripper",
+        "fa": "U",
+        "cost": 4,
+        "faction": "faction_cryx",
+        "id": "CJ01",
+        "type": "warjack"
+      },
+      {
+        "name": "Cankerworm",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_cryx",
+        "id": "CJ06",
+        "type": "warjack"
       }
     ],
-    "logo": "faction_cryx",
     "label": "Warjacks"
   },
   {
+    "logo": "faction_cryx",
     "id": "faction_cryx_warbeasts",
     "entries": [],
-    "logo": "faction_cryx",
     "label": "Warbeasts"
   },
   {
+    "logo": "faction_cryx",
     "id": "faction_cryx_bes",
     "entries": [{
-      "id": "CE01",
+      "name": "Wraith Engine",
       "fa": "2",
-      "faction": "faction_cryx",
-      "type": "battleengine",
       "cost": 9,
-      "name": "Wraith Engine"
+      "faction": "faction_cryx",
+      "id": "CE01",
+      "type": "battleengine"
     }],
-    "logo": "faction_cryx",
     "label": "Battle engines"
   },
   {
+    "logo": "faction_cryx",
     "id": "faction_cryx_units",
     "entries": [
       {
-        "id": "CU12",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 5,
-        "name": "The Withershadow Combine"
-      },
-      {
-        "id": "CU11",
-        "fa": "2",
-        "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 3,
-        "name": "Revenant cannon crew"
-      },
-      {
-        "min": 6,
-        "id": "CU10",
         "max": 10,
-        "name": "Bloodgorgers",
-        "costMax": 8,
-        "costMin": 5,
-        "fa": "2",
-        "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 5
-      },
-      {
         "min": 6,
-        "id": "CU16",
-        "max": 10,
-        "name": "Satyxis Blood witches",
-        "costMax": 6,
-        "costMin": 4,
-        "fa": "2",
-        "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 4
-      },
-      {
-        "id": "CU15",
-        "fa": "2",
-        "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 2,
-        "name": "Necrosurgeon & stitch thralls"
-      },
-      {
-        "id": "CU14",
-        "fa": "1",
-        "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 4,
-        "name": "Cephalyx Overlords"
-      },
-      {
-        "min": 6,
-        "id": "CU13",
-        "max": 10,
-        "name": "Cephalyx mind slaver & Drudges",
-        "costMax": 6,
-        "costMin": 4,
-        "fa": "2",
-        "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 4
-      },
-      {
-        "min": 3,
-        "id": "CU17",
-        "max": 5,
-        "name": "Bane Riders",
-        "costMax": 11,
-        "costMin": 7,
-        "fa": "1",
-        "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 7
-      },
-      {
-        "min": 3,
-        "id": "CU08",
-        "max": 5,
-        "name": "Soulhunters",
         "costMax": 9,
-        "costMin": 6,
-        "fa": "1",
-        "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 6
-      },
-      {
-        "min": 6,
-        "id": "CU09",
-        "max": 10,
-        "name": "Blackbane's Ghost Raiders",
-        "costMax": 9,
-        "costMin": 6,
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 6
-      },
-      {
-        "min": 6,
-        "id": "CU06",
-        "max": 10,
-        "name": "Bane Knights",
-        "costMax": 10,
-        "costMin": 6,
-        "fa": "3",
-        "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 6
-      },
-      {
-        "min": 3,
-        "id": "CU07",
-        "max": 5,
-        "name": "Black Ogrun boarding party",
-        "costMax": 6,
-        "costMin": 4,
         "fa": "2",
-        "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 4
-      },
-      {
-        "min": 6,
-        "id": "CU01",
-        "max": 10,
-        "name": "Bane Thralls",
-        "costMax": 8,
-        "costMin": 5,
-        "fa": "3",
-        "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 5
-      },
-      {
-        "min": 6,
-        "id": "CU04",
-        "max": 10,
-        "name": "Satyxis Raiders",
-        "costMax": 8,
-        "costMin": 5,
-        "fa": "2",
-        "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 5
-      },
-      {
-        "min": 6,
+        "costMin": 6,
         "id": "CU05",
-        "max": 10,
         "name": "Revenant crew of the Atramentous",
-        "costMax": 9,
-        "costMin": 6,
+        "cost": 6,
+        "faction": "faction_cryx",
+        "type": "unit"
+      },
+      {
+        "name": "Revenant cannon crew",
         "fa": "2",
+        "cost": 3,
         "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 6
+        "id": "CU11",
+        "type": "unit"
       },
       {
-        "min": 6,
-        "id": "CU02",
         "max": 10,
-        "name": "Bile Thralls",
+        "min": 6,
         "costMax": 8,
-        "costMin": 5,
         "fa": "3",
+        "costMin": 5,
+        "id": "CU02",
+        "name": "Bile Thralls",
+        "cost": 5,
         "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 5
+        "type": "unit"
       },
       {
-        "min": 6,
-        "id": "CU03",
         "max": 10,
-        "name": "Mecanithralls",
-        "costMax": 5,
-        "costMin": 3,
-        "fa": "3",
+        "min": 6,
+        "costMax": 6,
+        "fa": "2",
+        "costMin": 4,
+        "id": "CU13",
+        "name": "Cephalyx mind slaver & Drudges",
+        "cost": 4,
         "faction": "faction_cryx",
-        "type": "unit",
-        "cost": 3
+        "type": "unit"
+      },
+      {
+        "name": "Cephalyx Overlords",
+        "fa": "1",
+        "cost": 4,
+        "faction": "faction_cryx",
+        "id": "CU14",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 9,
+        "fa": "C",
+        "costMin": 6,
+        "id": "CU09",
+        "name": "Blackbane's Ghost Raiders",
+        "cost": 6,
+        "faction": "faction_cryx",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 8,
+        "fa": "2",
+        "costMin": 5,
+        "id": "CU04",
+        "name": "Satyxis Raiders",
+        "cost": 5,
+        "faction": "faction_cryx",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 10,
+        "fa": "3",
+        "costMin": 6,
+        "id": "CU06",
+        "name": "Bane Knights",
+        "cost": 6,
+        "faction": "faction_cryx",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 8,
+        "fa": "2",
+        "costMin": 5,
+        "id": "CU10",
+        "name": "Bloodgorgers",
+        "cost": 5,
+        "faction": "faction_cryx",
+        "type": "unit"
+      },
+      {
+        "name": "Necrosurgeon & stitch thralls",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_cryx",
+        "id": "CU15",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 8,
+        "fa": "3",
+        "costMin": 5,
+        "id": "CU01",
+        "name": "Bane Thralls",
+        "cost": 5,
+        "faction": "faction_cryx",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 5,
+        "fa": "3",
+        "costMin": 3,
+        "id": "CU03",
+        "name": "Mecanithralls",
+        "cost": 3,
+        "faction": "faction_cryx",
+        "type": "unit"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "costMax": 6,
+        "fa": "2",
+        "costMin": 4,
+        "id": "CU07",
+        "name": "Black Ogrun boarding party",
+        "cost": 4,
+        "faction": "faction_cryx",
+        "type": "unit"
+      },
+      {
+        "max": 10,
+        "min": 6,
+        "costMax": 6,
+        "fa": "2",
+        "costMin": 4,
+        "id": "CU16",
+        "name": "Satyxis Blood witches",
+        "cost": 4,
+        "faction": "faction_cryx",
+        "type": "unit"
+      },
+      {
+        "name": "The Withershadow Combine",
+        "fa": "C",
+        "cost": 5,
+        "faction": "faction_cryx",
+        "id": "CU12",
+        "type": "unit"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "costMax": 11,
+        "fa": "1",
+        "costMin": 7,
+        "id": "CU17",
+        "name": "Bane Riders",
+        "cost": 7,
+        "faction": "faction_cryx",
+        "type": "unit"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "costMax": 9,
+        "fa": "1",
+        "costMin": 6,
+        "id": "CU08",
+        "name": "Soulhunters",
+        "cost": 6,
+        "faction": "faction_cryx",
+        "type": "unit"
       }
     ],
-    "logo": "faction_cryx",
     "label": "Units"
   },
   {
+    "logo": "faction_cryx",
     "id": "faction_cryx_WAs",
     "entries": [
       {
-        "id": "CA06",
-        "fa": "2",
-        "faction": "faction_cryx",
-        "type": "WA",
-        "cost": 1,
         "name": "Revenant crew rifleman",
-        "restricted_to": "CU05"
+        "fa": "2",
+        "cost": 1,
+        "restricted_to": "CU05",
+        "faction": "faction_cryx",
+        "id": "CA06",
+        "type": "WA"
       },
       {
-        "id": "CA02",
-        "fa": "3",
-        "faction": "faction_cryx",
-        "type": "WA",
-        "cost": 1,
         "name": "Brute Thrall",
-        "restricted_to": "CU03"
+        "fa": "3",
+        "cost": 1,
+        "restricted_to": "CU03",
+        "faction": "faction_cryx",
+        "id": "CA02",
+        "type": "WA"
       }
     ],
-    "logo": "faction_cryx",
     "label": "Weapon Attachments"
   },
   {
+    "logo": "faction_cryx",
     "id": "faction_cryx_UAs",
     "entries": [
       {
-        "id": "CA05",
-        "fa": "1",
-        "faction": "faction_cryx",
-        "type": "UA",
-        "cost": 2,
-        "name": "Satyxis Blood Hag",
-        "restricted_to": "CU16"
-      },
-      {
-        "id": "CA04",
-        "fa": "1",
-        "faction": "faction_cryx",
-        "type": "UA",
-        "cost": 3,
-        "name": "Bane Thrall Officer & Standard",
-        "restricted_to": "CU01"
-      },
-      {
-        "id": "CA03",
-        "fa": "1",
-        "faction": "faction_cryx",
-        "type": "UA",
-        "cost": 2,
         "name": "Satyxis Raider Sea Witch",
-        "restricted_to": "CU04"
+        "fa": "1",
+        "cost": 2,
+        "restricted_to": "CU04",
+        "faction": "faction_cryx",
+        "id": "CA03",
+        "type": "UA"
       },
       {
-        "id": "CS15",
-        "fa": "2",
+        "name": "Bane Thrall Officer & Standard",
+        "fa": "1",
+        "cost": 3,
+        "restricted_to": "CU01",
         "faction": "faction_cryx",
-        "type": "UA",
-        "cost": 1,
+        "id": "CA04",
+        "type": "UA"
+      },
+      {
+        "name": "Satyxis Blood Hag",
+        "fa": "1",
+        "cost": 2,
+        "restricted_to": "CU16",
+        "faction": "faction_cryx",
+        "id": "CA05",
+        "type": "UA"
+      },
+      {
+        "name": "Skarlock Commander",
+        "fa": "2",
         "restricted_to": [
           "CU02",
           "CU03"
         ],
-        "name": "Skarlock Commander"
+        "cost": 1,
+        "faction": "faction_cryx",
+        "id": "CS15",
+        "type": "UA"
       }
     ],
-    "logo": "faction_cryx",
     "label": "Unit Attachments"
   },
   {
+    "logo": "faction_cryx",
     "id": "faction_cryx_solos",
     "entries": [
       {
-        "id": "CS10",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "solo",
-        "cost": 3,
-        "name": "General Gerlak Slaughterborn"
-      },
-      {
-        "id": "CS05",
+        "name": "Soul Trapper",
         "fa": "3",
-        "faction": "faction_cryx",
-        "type": "solo",
         "cost": 1,
-        "name": "Machine Wraith"
-      },
-      {
-        "id": "CS04",
-        "fa": "3",
         "faction": "faction_cryx",
-        "type": "solo",
-        "cost": 1,
-        "name": "Scrap Thrall"
-      },
-      {
-        "id": "CS07",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "solo",
-        "cost": 4,
-        "name": "Bane Lord Tartarus"
-      },
-      {
-        "id": "CS06",
-        "fa": "2",
-        "faction": "faction_cryx",
-        "type": "solo",
-        "cost": 3,
-        "name": "Pistol Wraith"
-      },
-      {
-        "id": "CS01",
-        "fa": "1",
-        "faction": "faction_cryx",
-        "type": "soloAttachment",
-        "cost": 2,
-        "name": "Skarlock Thrall"
-      },
-      {
-        "id": "CS03",
-        "fa": "3",
-        "faction": "faction_cryx",
-        "type": "solo",
-        "cost": 1,
-        "name": "Necrotech"
-      },
-      {
-        "id": "CS02",
-        "fa": "2",
-        "faction": "faction_cryx",
-        "type": "solo",
-        "cost": 2,
-        "name": "Bloat thrall"
-      },
-      {
-        "id": "CS13",
-        "fa": "2",
-        "faction": "faction_cryx",
-        "type": "soloMarshall",
-        "cost": 3,
-        "name": "Iron Lich Overseer"
-      },
-      {
-        "id": "CS14",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "soloJourneyMan",
-        "cost": 3,
-        "name": "Aiakos(Aiakos, Scourge of meredius)"
-      },
-      {
-        "id": "CS11",
-        "fa": "2",
-        "faction": "faction_cryx",
-        "type": "solo",
-        "cost": 2,
-        "name": "Warwitch Siren"
-      },
-      {
-        "id": "CS12",
-        "fa": "2",
-        "faction": "faction_cryx",
-        "type": "solo",
-        "cost": 2,
-        "name": "Satyxis Raider Captain"
-      },
-      {
-        "id": "CS09",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "solo",
-        "cost": 4,
-        "name": "Darragh Wrathe"
-      },
-      {
-        "id": "CS08",
-        "fa": "C",
-        "faction": "faction_cryx",
-        "type": "solo",
-        "cost": 2,
-        "name": "Captain Rengrave"
-      },
-      {
         "id": "CS16",
-        "fa": "3",
+        "type": "solo"
+      },
+      {
+        "name": "Aiakos(Aiakos, Scourge of meredius)",
+        "fa": "C",
+        "cost": 3,
         "faction": "faction_cryx",
-        "type": "solo",
+        "id": "CS14",
+        "type": "soloJourneyMan"
+      },
+      {
+        "name": "Skarlock Thrall",
+        "fa": "1",
+        "cost": 2,
+        "faction": "faction_cryx",
+        "id": "CS01",
+        "type": "soloAttachment"
+      },
+      {
+        "name": "General Gerlak Slaughterborn",
+        "fa": "C",
+        "cost": 3,
+        "faction": "faction_cryx",
+        "id": "CS10",
+        "type": "solo"
+      },
+      {
+        "name": "Darragh Wrathe",
+        "fa": "C",
+        "cost": 4,
+        "faction": "faction_cryx",
+        "id": "CS09",
+        "type": "solo"
+      },
+      {
+        "name": "Bane Lord Tartarus",
+        "fa": "C",
+        "cost": 4,
+        "faction": "faction_cryx",
+        "id": "CS07",
+        "type": "solo"
+      },
+      {
+        "name": "Warwitch Siren",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_cryx",
+        "id": "CS11",
+        "type": "solo"
+      },
+      {
+        "name": "Iron Lich Overseer",
+        "fa": "2",
+        "cost": 3,
+        "faction": "faction_cryx",
+        "id": "CS13",
+        "type": "soloMarshall"
+      },
+      {
+        "name": "Scrap Thrall",
+        "fa": "3",
         "cost": 1,
-        "name": "Soul Trapper"
+        "faction": "faction_cryx",
+        "id": "CS04",
+        "type": "solo"
+      },
+      {
+        "name": "Captain Rengrave",
+        "fa": "C",
+        "cost": 2,
+        "faction": "faction_cryx",
+        "id": "CS08",
+        "type": "solo"
+      },
+      {
+        "name": "Pistol Wraith",
+        "fa": "2",
+        "cost": 3,
+        "faction": "faction_cryx",
+        "id": "CS06",
+        "type": "solo"
+      },
+      {
+        "name": "Machine Wraith",
+        "fa": "3",
+        "cost": 1,
+        "faction": "faction_cryx",
+        "id": "CS05",
+        "type": "solo"
+      },
+      {
+        "name": "Necrotech",
+        "fa": "3",
+        "cost": 1,
+        "faction": "faction_cryx",
+        "id": "CS03",
+        "type": "solo"
+      },
+      {
+        "name": "Bloat thrall",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_cryx",
+        "id": "CS02",
+        "type": "solo"
+      },
+      {
+        "name": "Satyxis Raider Captain",
+        "fa": "2",
+        "cost": 2,
+        "faction": "faction_cryx",
+        "id": "CS12",
+        "type": "solo"
       }
     ],
-    "logo": "faction_cryx",
     "label": "Solos"
   }
 ]};
 
 faction_cryx_tiers = {"tiers":[
   {
-    "availableModels": [
-      {
-        "models": "Cryx non-character warjacks, Cankerworm",
-        "type": "WARJACKS"
-      },
-      {
-        "models": "Bane Thralls, Bile Thralls, Mechanithralls, Necrosurgeon & Stitch Thralls",
-        "type": "UNITS"
-      },
-      {
-        "models": "Bloat Thralls, Machine Wraiths, Necrotech, Scrap thralls, Skarlock thrall",
-        "type": "SOLOS"
-      }
-    ],
+    "name": "Asphyxious1 - Scavengers of the Line",
+    "casterId": "Cw01",
     "faction": "faction_cryx",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Mechanithall units in this army gain Advance Deployment.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Cw01",
@@ -814,10 +805,7 @@ faction_cryx_tiers = {"tiers":[
           "CS03",
           "CS04",
           "CS01"
-        ]},
-        "level": 1,
-        "benefit": "Mechanithall units in this army gain Advance Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -831,9 +819,12 @@ faction_cryx_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": ["CS03"],
           "inBG": false
         }],
@@ -868,17 +859,17 @@ faction_cryx_tiers = {"tiers":[
           "CS03",
           "CS04",
           "CS01"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each wajack in Asphyxious' battlegroup, place one wreck marker of the corresponding size within 20\" of the back edge of Asphyxious' deployment zone after terrain has been placed but before either player deploys his army. Wreck markers cannot be placed within 3\" of a terrain feature.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CJ06"],
           "inBG": true
         }],
@@ -913,17 +904,17 @@ faction_cryx_tiers = {"tiers":[
           "CS03",
           "CS04",
           "CS01"
-        ]},
-        "level": 3,
-        "benefit": "For each wajack in Asphyxious' battlegroup, place one wreck marker of the corresponding size within 20\" of the back edge of Asphyxious' deployment zone after terrain has been placed but before either player deploys his army. Wreck markers cannot be placed within 3\" of a terrain feature.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Warjacks in the army gain +2SPD during your first turn of the game.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "CJ07",
             "CJ08",
@@ -967,35 +958,35 @@ faction_cryx_tiers = {"tiers":[
           "CS03",
           "CS04",
           "CS01"
-        ]},
-        "level": 4,
-        "benefit": "Warjacks in the army gain +2SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Cw01",
-    "name": "Asphyxious1 - Scavengers of the Line"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks, Cankerworm",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks, Cankerworm"
       },
       {
-        "models": "Bane units, Cephalyx units, Withershadow combine",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Bane Thralls, Bile Thralls, Mechanithralls, Necrosurgeon & Stitch Thralls"
       },
       {
-        "models": "Necrotech scrap thralls, Skarlock thrall, Bane solos, Cephalyx solos, Bane lord Tartarus",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Bloat Thralls, Machine Wraiths, Necrotech, Scrap thralls, Skarlock thrall"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Asphyxious2 - Dark Alliance",
+    "casterId": "Cx01",
     "faction": "faction_cryx",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Cephalyx units gain Advance Deployment.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Cx01",
@@ -1028,17 +1019,17 @@ faction_cryx_tiers = {"tiers":[
           "CS04",
           "CS01",
           "CS07"
-        ]},
-        "level": 1,
-        "benefit": "Cephalyx units gain Advance Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You can redeploy one model/unit after both players have deployed but before the first player first turn. The redeployed models must be placed on the table in a location they could have been deployed initially",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CU12"],
           "inBG": false
         }],
@@ -1073,17 +1064,17 @@ faction_cryx_tiers = {"tiers":[
           "CS04",
           "CS01",
           "CS07"
-        ]},
-        "level": 2,
-        "benefit": "You can redeploy one model/unit after both players have deployed but before the first player first turn. The redeployed models must be placed on the table in a location they could have been deployed initially",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{"id": ["CU14"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["CU13"],
           "inBG": false
         }],
@@ -1118,17 +1109,17 @@ faction_cryx_tiers = {"tiers":[
           "CS04",
           "CS01",
           "CS07"
-        ]},
-        "level": 3,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Each warjack in Asphyxious' battlegroup is automatically allocated 1 focus point at the start of your first Control Phase. This focus is in addition to any points Asphyxious allocates.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CJ12"],
           "inBG": true
         }],
@@ -1163,34 +1154,27 @@ faction_cryx_tiers = {"tiers":[
           "CS04",
           "CS01",
           "CS07"
-        ]},
-        "level": 4,
-        "benefit": "Each warjack in Asphyxious' battlegroup is automatically allocated 1 focus point at the start of your first Control Phase. This focus is in addition to any points Asphyxious allocates.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Cx01",
-    "name": "Asphyxious2 - Dark Alliance"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks, Cankerworm, Malice",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks, Cankerworm"
       },
       {
-        "models": "Bile Thralls, Mechanithralls, Necrosurgeons, Soulhunters, Withershadow Combine",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Bane units, Cephalyx units, Withershadow combine"
       },
       {
-        "models": "Warwitch Sirens, non-character undead Cryx solos",
-        "type": "SOLOS"
-      },
-      {
-        "models": "Wraith Engines",
-        "type": "BATTLE_ENGINES"
+        "type": "SOLOS",
+        "models": "Necrotech scrap thralls, Skarlock thrall, Bane solos, Cephalyx solos, Bane lord Tartarus"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Asphyxious3 - Orchestrations of Annihilation",
+    "casterId": "Cz01",
     "faction": "faction_cryx",
     "levels": [
       {
@@ -1210,6 +1194,9 @@ faction_cryx_tiers = {"tiers":[
           ]
         }],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Add a Necrotech solo free of cost for each helljack or colossal in the army. These solos ignore FA restrictions.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Cz01",
@@ -1245,17 +1232,17 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CS13"
-        ]},
-        "level": 1,
-        "benefit": "Add a Necrotech solo free of cost for each helljack or colossal in the army. These solos ignore FA restrictions.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Pistol Wraith solos gain Advance Deployment",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CS06"],
           "inBG": false
         }],
@@ -1293,17 +1280,17 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CS13"
-        ]},
-        "level": 2,
-        "benefit": "Pistol Wraith solos gain Advance Deployment",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each unit in the army, one model can begin the game with a corpse or soul token.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "CU02",
             "CU03",
@@ -1347,17 +1334,17 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CS13"
-        ]},
-        "level": 3,
-        "benefit": "For each unit in the army, one model can begin the game with a corpse or soul token.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment zone is extended 2\" forward.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CJ20"],
           "inBG": false
         }],
@@ -1395,35 +1382,52 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CS13"
-        ]},
-        "level": 4,
-        "benefit": "Your deployment zone is extended 2\" forward.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Cz01",
-    "name": "Asphyxious3 - Orchestrations of Annihilation"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks, Cankerworm, Malice"
       },
       {
-        "models": "Bile Thralls, Mechanithralls",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Bile Thralls, Mechanithralls, Necrosurgeons, Soulhunters, Withershadow Combine"
       },
       {
-        "models": "Necrotechs, Scrap Thralls, Pistol Wraiths, Skarlock Thrall, Warwitch Solos",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Warwitch Sirens, non-character undead Cryx solos"
+      },
+      {
+        "type": "BATTLE_ENGINES",
+        "models": "Wraith Engines"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Deneghra1 - Witching Hour",
+    "casterId": "Cw02",
     "faction": "faction_cryx",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [{
+          "id": "CS11",
+          "forEach": [
+            "CJ14",
+            "CJ18",
+            "CJ11",
+            "CJ21",
+            "CJ10",
+            "CJ08",
+            "CJ09",
+            "CJ07"
+          ],
+          "bonus": 1
+        }],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Cw02",
@@ -1452,30 +1456,17 @@ faction_cryx_tiers = {"tiers":[
           "CS06",
           "CS01",
           "CS11"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [{
-          "id": "CS11",
-          "forEach": [
-            "CJ14",
-            "CJ18",
-            "CJ11",
-            "CJ21",
-            "CJ10",
-            "CJ08",
-            "CJ09",
-            "CJ07"
-          ],
-          "bonus": 1
-        }]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You gain +1 on your starting roll for the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 4,
+          "inMarshal": false,
           "ids": [
             "CS03",
             "CS04",
@@ -1512,10 +1503,7 @@ faction_cryx_tiers = {"tiers":[
           "CS06",
           "CS01",
           "CS11"
-        ]},
-        "level": 2,
-        "benefit": "You gain +1 on your starting roll for the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{"id": [
@@ -1528,9 +1516,12 @@ faction_cryx_tiers = {"tiers":[
           "CJ17"
         ]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 4,
+          "inMarshal": false,
           "ids": [
             "CJ01",
             "CJ02",
@@ -1569,17 +1560,17 @@ faction_cryx_tiers = {"tiers":[
           "CS06",
           "CS01",
           "CS11"
-        ]},
-        "level": 3,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Up to one Helljack gain Advance Move for each Warwitch Siren solo in the army. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "CJ07",
             "CJ08",
@@ -1618,30 +1609,27 @@ faction_cryx_tiers = {"tiers":[
           "CS06",
           "CS01",
           "CS11"
-        ]},
-        "level": 4,
-        "benefit": "Up to one Helljack gain Advance Move for each Warwitch Siren solo in the army. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Cw02",
-    "name": "Deneghra1 - Witching Hour"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks, Deathjack, Nightmare",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks"
       },
       {
-        "models": "Bile thralls, Cephalyx Mind Slavers, Cephalyx overlords, Mechanithralls, Necrosurgeon & Stitch Thralls",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Bile Thralls, Mechanithralls"
       },
       {
-        "models": "Iron lich Overseers, Necrotechs & Scrap Thralls, Ragman, Skarlock Thrall, Warwitch Sirens",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Necrotechs, Scrap Thralls, Pistol Wraiths, Skarlock Thrall, Warwitch Solos"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Deneghra2 - Body and Soul (NQ52)",
+    "casterId": "CW09",
     "faction": "faction_cryx",
     "levels": [
       {
@@ -1656,6 +1644,18 @@ faction_cryx_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [
+          {
+            "id": "CU13",
+            "bonus": 1
+          },
+          {
+            "id": "CU14",
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Cx02",
@@ -1689,26 +1689,17 @@ faction_cryx_tiers = {"tiers":[
           "CS04",
           "CS11",
           "MS22"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "CU13",
-            "bonus": 1
-          },
-          {
-            "id": "CU14",
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Cephalyx Mind Slaver & Drudge units gain advance deployment",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CU13"],
           "inBG": false
         }],
@@ -1744,17 +1735,17 @@ faction_cryx_tiers = {"tiers":[
           "CS04",
           "CS11",
           "MS22"
-        ]},
-        "level": 2,
-        "benefit": "Cephalyx Mind Slaver & Drudge units gain advance deployment",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You gain +1 on your starting roll for the game.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CU14"],
           "inBG": false
         }],
@@ -1790,17 +1781,17 @@ faction_cryx_tiers = {"tiers":[
           "CS04",
           "CS11",
           "MS22"
-        ]},
-        "level": 3,
-        "benefit": "You gain +1 on your starting roll for the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Enemy non-warcaster/non-warlock models/units can begin the game affected by Deneghra\u2019s upkeep spells. These spells and their targets must be declared before either player sets up models. Deneghra does not pay focus to upkeep these spells during your first turn. Models/units that cannot be targeted by Deneghra\u2019s spells cannot be chosen as affected models.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "CS13",
             "CS11",
@@ -1840,35 +1831,35 @@ faction_cryx_tiers = {"tiers":[
           "CS04",
           "CS11",
           "MS22"
-        ]},
-        "level": 4,
-        "benefit": "Enemy non-warcaster/non-warlock models/units can begin the game affected by Deneghra\u2019s upkeep spells. These spells and their targets must be declared before either player sets up models. Deneghra does not pay focus to upkeep these spells during your first turn. Models/units that cannot be targeted by Deneghra\u2019s spells cannot be chosen as affected models.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "CW09",
-    "name": "Deneghra2 - Body and Soul (NQ52)"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks, Nightmare",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks, Deathjack, Nightmare"
       },
       {
-        "models": "Bane Knights, Cryx units with Incorporeal",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Bile thralls, Cephalyx Mind Slavers, Cephalyx overlords, Mechanithralls, Necrosurgeon & Stitch Thralls"
       },
       {
-        "models": "Skarlock Thrall, Cryx solos with Incorporeal, Warwitch Solos",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Iron lich Overseers, Necrotechs & Scrap Thralls, Ragman, Skarlock Thrall, Warwitch Sirens"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Deneghra2 - Shadow Play",
+    "casterId": "Cx02",
     "faction": "faction_cryx",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Solos with Incorporeal gain +2 SPD during your first turn of the game.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Cx02",
@@ -1895,17 +1886,17 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CS11"
-        ]},
-        "level": 1,
-        "benefit": "Solos with Incorporeal gain +2 SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{"id": ["CS05"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Add a machine Wraith solo free of cost for each unit in the army after the second (actually, does not work, only one Machine Wraith is free!)",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "CU06",
             "CU09"
@@ -1937,17 +1928,17 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CS11"
-        ]},
-        "level": 2,
-        "benefit": "Add a machine Wraith solo free of cost for each unit in the army after the second (actually, does not work, only one Machine Wraith is free!)",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Models in Deneghra's battlegroup gain Ghostly during your first turn of the game.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CJ13"],
           "inBG": true
         }],
@@ -1976,17 +1967,17 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CS11"
-        ]},
-        "level": 3,
-        "benefit": "Models in Deneghra's battlegroup gain Ghostly during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment zone is extended 2\" forward.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "CJ01",
             "CJ02",
@@ -2033,35 +2024,35 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CS11"
-        ]},
-        "level": 4,
-        "benefit": "Your deployment zone is extended 2\" forward.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Cx02",
-    "name": "Deneghra2 - Shadow Play"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks with Pathfinder",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks, Nightmare"
       },
       {
-        "models": "Bane Thralls, Cylena Raefyll & Nyss Hunters",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Bane Knights, Cryx units with Incorporeal"
       },
       {
-        "models": "Cryx solos with Incorporeal, Bane Lord Tartarus",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Skarlock Thrall, Cryx solos with Incorporeal, Warwitch Solos"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Goreshade1 - Seekers in Darkness",
+    "casterId": "Cw05",
     "faction": "faction_cryx",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Stalker Bonejacks gain Advance Deployment.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Cw05",
@@ -2076,17 +2067,17 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CS07"
-        ]},
-        "level": 1,
-        "benefit": "Stalker Bonejacks gain Advance Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Bane Thrall units and Bane Lord Tartarus gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["CU01"],
           "inBG": false
         }],
@@ -2103,17 +2094,17 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CS07"
-        ]},
-        "level": 2,
-        "benefit": "Bane Thrall units and Bane Lord Tartarus gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You gain +1 on your starting roll for the game.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["MU05"],
           "inBG": false
         }],
@@ -2130,17 +2121,17 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CS07"
-        ]},
-        "level": 3,
-        "benefit": "You gain +1 on your starting roll for the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [{"id": ["CJ04"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": ["CJ04"],
           "inBG": true
         }],
@@ -2157,35 +2148,38 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CS07"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Cw05",
-    "name": "Goreshade1 - Seekers in Darkness"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks with Pathfinder"
       },
       {
-        "models": "Bane units, The Withershadow combine",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Bane Thralls, Cylena Raefyll & Nyss Hunters"
       },
       {
-        "models": "Necrotechs, Scrap thralls, Pistol wraiths, Skarlock thrall, Bane solos",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Cryx solos with Incorporeal, Bane Lord Tartarus"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Goreshade2 - Heresy of Shadows",
+    "casterId": "Cx05",
     "faction": "faction_cryx",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [{
+          "id": "CU01",
+          "bonus": 512
+        }],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Cx05",
@@ -2215,20 +2209,17 @@ faction_cryx_tiers = {"tiers":[
           "CS06",
           "CS01",
           "CS07"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [{
-          "id": "CU01",
-          "bonus": 512
-        }]
+        ]}
       },
       {
         "freeModels": [{"id": ["CA04"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["CU01"],
           "inBG": false
         }],
@@ -2260,17 +2251,17 @@ faction_cryx_tiers = {"tiers":[
           "CS06",
           "CS01",
           "CS07"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You can redeploy models in Goreshade's battlegroup after both players have deployed but before the first player first turn. The redeployed models must be placed on the table in a location they could have been deployed initially",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CU12"],
           "inBG": false
         }],
@@ -2302,17 +2293,17 @@ faction_cryx_tiers = {"tiers":[
           "CS06",
           "CS01",
           "CS07"
-        ]},
-        "level": 3,
-        "benefit": "You can redeploy models in Goreshade's battlegroup after both players have deployed but before the first player first turn. The redeployed models must be placed on the table in a location they could have been deployed initially",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Friendly models/units can begin the game affected by Goreshade's upkeep spells. These spells and their targets must be declared before either player sets up models. Goreshade does not pay focus to upkeep these spells during your first turn.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "CJ01",
             "CJ02",
@@ -2349,35 +2340,38 @@ faction_cryx_tiers = {"tiers":[
           "CS06",
           "CS01",
           "CS07"
-        ]},
-        "level": 4,
-        "benefit": "Friendly models/units can begin the game affected by Goreshade's upkeep spells. These spells and their targets must be declared before either player sets up models. Goreshade does not pay focus to upkeep these spells during your first turn.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Cx05",
-    "name": "Goreshade2 - Heresy of Shadows"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks"
       },
       {
-        "models": "Bane units, Thrall units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Bane units, The Withershadow combine"
       },
       {
-        "models": "Bane solos, Thrall solos",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Necrotechs, Scrap thralls, Pistol wraiths, Skarlock thrall, Bane solos"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Goreshade3 - Chill of Death",
+    "casterId": "Cz05",
     "faction": "faction_cryx",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [{
+          "id": "CU17",
+          "bonus": 1
+        }],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Cz05",
@@ -2409,20 +2403,17 @@ faction_cryx_tiers = {"tiers":[
           "CS02",
           "CS04",
           "CS01"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [{
-          "id": "CU17",
-          "bonus": 1
-        }]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You gain +1 on your starting roll for the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CU17"],
           "inBG": false
         }],
@@ -2456,10 +2447,7 @@ faction_cryx_tiers = {"tiers":[
           "CS02",
           "CS04",
           "CS01"
-        ]},
-        "level": 2,
-        "benefit": "You gain +1 on your starting roll for the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -2477,9 +2465,12 @@ faction_cryx_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CJ18"],
           "inBG": false
         }],
@@ -2513,24 +2504,24 @@ faction_cryx_tiers = {"tiers":[
           "CS02",
           "CS04",
           "CS01"
-        ]},
-        "level": 3,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Krakens begin the game with one corpse token per Mechanithrall unit in the army.",
+        "level": 4,
         "mustHave": [
           {
-            "inMarshal": false,
             "min": 1,
+            "inMarshal": false,
             "ids": ["CU03"],
             "inBG": false
           },
           {
-            "inMarshal": false,
             "min": 1,
+            "inMarshal": false,
             "ids": ["CJ20"],
             "inBG": true
           }
@@ -2565,35 +2556,49 @@ faction_cryx_tiers = {"tiers":[
           "CS02",
           "CS04",
           "CS01"
-        ]},
-        "level": 4,
-        "benefit": "Krakens begin the game with one corpse token per Mechanithrall unit in the army.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Cz05",
-    "name": "Goreshade3 - Chill of Death"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks"
       },
       {
-        "models": "Bile Thralls, Mechanithralls, Necrosurgeon & Stitch Thralls, Soulhunters",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Bane units, Thrall units"
       },
       {
-        "models": "Bloat Thralls, Necrotechs, Scrap Thralls, Warwitch Sirens",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Bane solos, Thrall solos"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Mortenebra - Infernal Machines",
+    "casterId": "CW07",
     "faction": "faction_cryx",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [{
+          "id": "CS03",
+          "forEach": [
+            "CJ14",
+            "CJ18",
+            "CJ11",
+            "CJ21",
+            "CJ10",
+            "CJ08",
+            "CJ09",
+            "CJ07",
+            "CJ12"
+          ],
+          "bonus": 1
+        }],
+        "benefit": "Scrap Thralls solos gain Advance Deployment.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "CW07",
@@ -2624,31 +2629,17 @@ faction_cryx_tiers = {"tiers":[
           "CS03",
           "CS04",
           "CS11"
-        ]},
-        "level": 1,
-        "benefit": "Scrap Thralls solos gain Advance Deployment.",
-        "faAlterations": [{
-          "id": "CS03",
-          "forEach": [
-            "CJ14",
-            "CJ18",
-            "CJ11",
-            "CJ21",
-            "CJ10",
-            "CJ08",
-            "CJ09",
-            "CJ07",
-            "CJ12"
-          ],
-          "bonus": 1
-        }]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Helljacks gain Stealth during your first turn of the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["CS11"],
           "inBG": false
         }],
@@ -2681,10 +2672,7 @@ faction_cryx_tiers = {"tiers":[
           "CS03",
           "CS04",
           "CS11"
-        ]},
-        "level": 2,
-        "benefit": "Helljacks gain Stealth during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -2726,6 +2714,9 @@ faction_cryx_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 3,
         "mustHave": [],
         "onlyModels": {"ids": [
           "CW07",
@@ -2750,17 +2741,17 @@ faction_cryx_tiers = {"tiers":[
           "CS03",
           "CS04",
           "CS11"
-        ]},
-        "level": 3,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment zone is extended 2\" forward.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 4,
+          "inMarshal": false,
           "ids": [
             "CJ07",
             "CJ08",
@@ -2797,34 +2788,27 @@ faction_cryx_tiers = {"tiers":[
           "CS03",
           "CS04",
           "CS11"
-        ]},
-        "level": 4,
-        "benefit": "Your deployment zone is extended 2\" forward.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "CW07",
-    "name": "Mortenebra - Infernal Machines"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks, Deathjack, Erebus",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks"
       },
       {
-        "models": "Mechanithralls, Necrosurgeon & Stitch Thralls, Cryx units with Magic Ability",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Bile Thralls, Mechanithralls, Necrosurgeon & Stitch Thralls, Soulhunters"
       },
       {
-        "models": "Necrotechs , Scrap Thralls, Skarlock Thrall, Cryx solos with Magic Ability, Wraith Solos",
-        "type": "SOLOS"
-      },
-      {
-        "models": "Wraith Engines",
-        "type": "BATTLE_ENGINES"
+        "type": "SOLOS",
+        "models": "Bloat Thralls, Necrotechs, Scrap Thralls, Warwitch Sirens"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Scaverous - Funeral Rites",
+    "casterId": "CW09",
     "faction": "faction_cryx",
     "levels": [
       {
@@ -2844,6 +2828,9 @@ faction_cryx_tiers = {"tiers":[
           ]
         }],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Free Scrap Thralls are not included along with the Necrotech.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "CW09",
@@ -2880,17 +2867,17 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CE01"
-        ]},
-        "level": 1,
-        "benefit": "Free Scrap Thralls are not included along with the Necrotech.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Models in the army with Soul Taker each begin with one soul token.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CU12"],
           "inBG": false
         }],
@@ -2929,17 +2916,17 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CE01"
-        ]},
-        "level": 2,
-        "benefit": "Models in the army with Soul Taker each begin with one soul token.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Wraith solos in the army gain Advance Deployment.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CE01"],
           "inBG": false
         }],
@@ -2978,17 +2965,17 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CE01"
-        ]},
-        "level": 3,
-        "benefit": "Wraith solos in the army gain Advance Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment zone is extended 2\" forward.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CJ19"],
           "inBG": true
         }],
@@ -3027,35 +3014,39 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS06",
           "CE01"
-        ]},
-        "level": 4,
-        "benefit": "Your deployment zone is extended 2\" forward.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "CW09",
-    "name": "Scaverous - Funeral Rites"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks, Freebooter, Mariner",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks, Deathjack, Erebus"
       },
       {
-        "models": " Black Ogrun Boarding Parties, Revenant units, non-character Sea Dog units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Mechanithralls, Necrosurgeon & Stitch Thralls, Cryx units with Magic Ability"
       },
       {
-        "models": "Skarlock Thall, Warwitch Sirens, Undead solos with 'Jack Marshal ",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Necrotechs , Scrap Thralls, Skarlock Thrall, Cryx solos with Magic Ability, Wraith Solos"
+      },
+      {
+        "type": "BATTLE_ENGINES",
+        "models": "Wraith Engines"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Skarre1 - Ships in the Night (NQ37)",
+    "casterId": "Cw03",
     "faction": "faction_cryx",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "The army can include non-character Sea Dog units, Freebooter warjacks, and Mariner warjacks. These models are considered to be friendly Cryx models.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Cw03",
@@ -3089,17 +3080,17 @@ faction_cryx_tiers = {"tiers":[
           "MU14",
           "MJ12forCw03",
           "MJ13forCw03"
-        ]},
-        "level": 1,
-        "benefit": "The army can include non-character Sea Dog units, Freebooter warjacks, and Mariner warjacks. These models are considered to be friendly Cryx models.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Revenant units gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": [
             "CU05",
             "CU09",
@@ -3139,17 +3130,17 @@ faction_cryx_tiers = {"tiers":[
           "MU14",
           "MJ12forCw03",
           "MJ13forCw03"
-        ]},
-        "level": 2,
-        "benefit": "Revenant units gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Bonejacks with Pathfinder or Flight gain Advance Deployment.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "CJ04",
             "CJ17"
@@ -3188,10 +3179,7 @@ faction_cryx_tiers = {"tiers":[
           "MU14",
           "MJ12forCw03",
           "MJ13forCw03"
-        ]},
-        "level": 3,
-        "benefit": "Bonejacks with Pathfinder or Flight gain Advance Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
@@ -3209,9 +3197,12 @@ faction_cryx_tiers = {"tiers":[
             "bonus": 1
           }
         ],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "MU12",
             "MU13",
@@ -3251,35 +3242,35 @@ faction_cryx_tiers = {"tiers":[
           "MU14",
           "MJ12forCw03",
           "MJ13forCw03"
-        ]},
-        "level": 4,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Cw03",
-    "name": "Skarre1 - Ships in the Night (NQ37)"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character bonejacks, Cryx helljacks with Amphibious",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks, Freebooter, Mariner"
       },
       {
-        "models": "Black Ogruns Boarding Parties, Bloodgorgers, Revenant units, Satyxis units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": " Black Ogrun Boarding Parties, Revenant units, non-character Sea Dog units"
       },
       {
-        "models": "Necrotechs, Scrap thralls, Skarlock thrall, Satyxis solos, Capt. Rengrave, Gen. Gerlak Slaughterborn.",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Skarlock Thall, Warwitch Sirens, Undead solos with 'Jack Marshal "
       }
-    ],
+    ]
+  },
+  {
+    "name": "Skarre1 - Shore Leave",
+    "casterId": "Cw03",
     "faction": "faction_cryx",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Helljacks with Amphibious gain Advance Deployment.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Cw03",
@@ -3309,17 +3300,17 @@ faction_cryx_tiers = {"tiers":[
           "CS12",
           "CS08",
           "CS10"
-        ]},
-        "level": 1,
-        "benefit": "Helljacks with Amphibious gain Advance Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Models/units gain Pathfinder during your first turn of the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "CU04",
             "CU16"
@@ -3354,17 +3345,17 @@ faction_cryx_tiers = {"tiers":[
           "CS12",
           "CS08",
           "CS10"
-        ]},
-        "level": 2,
-        "benefit": "Models/units gain Pathfinder during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each helljack in Skarre's battlegroup, place one 4\" AOE anywhere completely within 20\" of the back edge of Skarre's deployment zone after both players have finished deploying their armies but before the first player takes his first turn. The AOE is shallow water terrain. These AOE cannot be placed within 3\" of another terrain feature.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "CJ10",
             "CJ11",
@@ -3400,17 +3391,17 @@ faction_cryx_tiers = {"tiers":[
           "CS12",
           "CS08",
           "CS10"
-        ]},
-        "level": 3,
-        "benefit": "For each helljack in Skarre's battlegroup, place one 4\" AOE anywhere completely within 20\" of the back edge of Skarre's deployment zone after both players have finished deploying their armies but before the first player takes his first turn. The AOE is shallow water terrain. These AOE cannot be placed within 3\" of another terrain feature.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "General Gerlak Slaughterborn and medium-based units gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "CU07",
             "CU10"
@@ -3445,35 +3436,45 @@ faction_cryx_tiers = {"tiers":[
           "CS12",
           "CS08",
           "CS10"
-        ]},
-        "level": 4,
-        "benefit": "General Gerlak Slaughterborn and medium-based units gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Cw03",
-    "name": "Skarre1 - Shore Leave"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character bonejacks, Cryx helljacks with Amphibious"
       },
       {
-        "models": "Satyxis units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Black Ogruns Boarding Parties, Bloodgorgers, Revenant units, Satyxis units"
       },
       {
-        "models": "Satyxis solos",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Necrotechs, Scrap thralls, Skarlock thrall, Satyxis solos, Capt. Rengrave, Gen. Gerlak Slaughterborn."
       }
-    ],
+    ]
+  },
+  {
+    "name": "Skarre2 - Merchants of Death",
+    "casterId": "Cx03",
     "faction": "faction_cryx",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "CU04",
+            "bonus": 512
+          },
+          {
+            "id": "CS12",
+            "forEach": ["CU04"],
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "Cx03",
@@ -3498,27 +3499,17 @@ faction_cryx_tiers = {"tiers":[
           "CU16",
           "CA05",
           "CS12"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "CU04",
-            "bonus": 512
-          },
-          {
-            "id": "CS12",
-            "forEach": ["CU04"],
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [{"id": ["CA03"]}],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["CU04"],
           "inBG": false
         }],
@@ -3545,17 +3536,17 @@ faction_cryx_tiers = {"tiers":[
           "CU16",
           "CA05",
           "CS12"
-        ]},
-        "level": 2,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Satyxis models/units gain Stealth during the first round of the game.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CA05"],
           "inBG": false
         }],
@@ -3582,17 +3573,17 @@ faction_cryx_tiers = {"tiers":[
           "CU16",
           "CA05",
           "CS12"
-        ]},
-        "level": 3,
-        "benefit": "Satyxis models/units gain Stealth during the first round of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Your deployment zone is extended 2\" forward.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "CJ07",
             "CJ08",
@@ -3628,30 +3619,27 @@ faction_cryx_tiers = {"tiers":[
           "CU16",
           "CA05",
           "CS12"
-        ]},
-        "level": 4,
-        "benefit": "Your deployment zone is extended 2\" forward.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "Cx03",
-    "name": "Skarre2 - Merchants of Death"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks, Deathjack",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks"
       },
       {
-        "models": "Bloodgorgers, Soulhunters, Revenant units",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Satyxis units"
       },
       {
-        "models": "Necrotechs, Scrap Thralls, Skarlock Thrall, Revenant solos, Darragh Wrathe, Gen. Gerlak Slaughterborn",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Satyxis solos"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Terminus - The Ghost Fleet",
+    "casterId": "CW04",
     "faction": "faction_cryx",
     "levels": [
       {
@@ -3660,6 +3648,9 @@ faction_cryx_tiers = {"tiers":[
           "id": "CU05",
           "bonus": 1
         }],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "CW04",
@@ -3692,17 +3683,17 @@ faction_cryx_tiers = {"tiers":[
           "CS08",
           "CS09",
           "CS10"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Capt. Rengrave and Revenant units gain +2 SPD during your first turn of the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CS08"],
           "inBG": false
         }],
@@ -3737,17 +3728,17 @@ faction_cryx_tiers = {"tiers":[
           "CS08",
           "CS09",
           "CS10"
-        ]},
-        "level": 2,
-        "benefit": "Capt. Rengrave and Revenant units gain +2 SPD during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Revenant models/units gain Incorporeal during your first turn of the game.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CU09"],
           "inBG": false
         }],
@@ -3782,17 +3773,17 @@ faction_cryx_tiers = {"tiers":[
           "CS08",
           "CS09",
           "CS10"
-        ]},
-        "level": 3,
-        "benefit": "Revenant models/units gain Incorporeal during your first turn of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Helljacks in Terminus' battlegroup with Amphibious gain Advance Deployment.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "CJ10",
             "CJ11",
@@ -3831,30 +3822,27 @@ faction_cryx_tiers = {"tiers":[
           "CS08",
           "CS09",
           "CS10"
-        ]},
-        "level": 4,
-        "benefit": "Helljacks in Terminus' battlegroup with Amphibious gain Advance Deployment.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "CW04",
-    "name": "Terminus - The Ghost Fleet"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks, Deathjack"
       },
       {
-        "models": "Black Ogrun Boarding Parties, Bloodgorgers, Mechanithralls, Necrosurgeon & Stitch Thrall",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Bloodgorgers, Soulhunters, Revenant units"
       },
       {
-        "models": "Pistol Wraiths, Skarlock Thrall, Gen. Gerlak Slaughterborn",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Necrotechs, Scrap Thralls, Skarlock Thrall, Revenant solos, Darragh Wrathe, Gen. Gerlak Slaughterborn"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Venethrax - The Dragon Slayers",
+    "casterId": "CW08",
     "faction": "faction_cryx",
     "levels": [
       {
@@ -3863,6 +3851,9 @@ faction_cryx_tiers = {"tiers":[
           "id": "CJ09",
           "bonus": 1
         }],
+        "faAlterations": [],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "CW08",
@@ -3891,17 +3882,17 @@ faction_cryx_tiers = {"tiers":[
           "CS06",
           "CS01",
           "CS10"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each  unit included in the army, place up to one 3\" AOE cloud effect in play after terrain has been placed but before either player deploys his army. These AOE must be placed within 20\" of the back edge of Venethrax's deployment zone and remain in play for one round. Cloud effects cannot be placed within 3\" of a terrain feature. Models with Eyeless Sight do not ignore these cloud effects. These cloud effects leave play after the first round of the game.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": [
             "CU07",
             "CU10",
@@ -3937,17 +3928,17 @@ faction_cryx_tiers = {"tiers":[
           "CS06",
           "CS01",
           "CS10"
-        ]},
-        "level": 2,
-        "benefit": "For each  unit included in the army, place up to one 3\" AOE cloud effect in play after terrain has been placed but before either player deploys his army. These AOE must be placed within 20\" of the back edge of Venethrax's deployment zone and remain in play for one round. Cloud effects cannot be placed within 3\" of a terrain feature. Models with Eyeless Sight do not ignore these cloud effects. These cloud effects leave play after the first round of the game.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Gerlak Slaughterborn and Bloodgorgers units gain Advance Deployment.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CS10"],
           "inBG": false
         }],
@@ -3978,17 +3969,17 @@ faction_cryx_tiers = {"tiers":[
           "CS06",
           "CS01",
           "CS10"
-        ]},
-        "level": 3,
-        "benefit": "Gerlak Slaughterborn and Bloodgorgers units gain Advance Deployment.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Seether Helljacks in Venethrax's battlegroup gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["CJ09"],
           "inBG": true
         }],
@@ -4019,35 +4010,55 @@ faction_cryx_tiers = {"tiers":[
           "CS06",
           "CS01",
           "CS10"
-        ]},
-        "level": 4,
-        "benefit": "Seether Helljacks in Venethrax's battlegroup gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "CW08",
-    "name": "Venethrax - The Dragon Slayers"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks, Deathjack",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks"
       },
       {
-        "models": "Bane Knights, Satyxis Blood Witches, Soulhunters, The Withershadow Combine",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Black Ogrun Boarding Parties, Bloodgorgers, Mechanithralls, Necrosurgeon & Stitch Thrall"
       },
       {
-        "models": "Necrotech, Scrap Thralls, Pistol Wraiths, Skarlock Thrall, Warwitch solos, Darragh Wrathe",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Pistol Wraiths, Skarlock Thrall, Gen. Gerlak Slaughterborn"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Witch Coven - Auguries of War",
+    "casterId": "CW06",
     "faction": "faction_cryx",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "CU08",
+            "bonus": 1
+          },
+          {
+            "id": "CS11",
+            "forEach": [
+              "CJ14",
+              "CJ18",
+              "CJ11",
+              "CJ21",
+              "CJ10",
+              "CJ08",
+              "CJ09",
+              "CJ07",
+              "CJ12"
+            ],
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "CW06",
@@ -4079,37 +4090,17 @@ faction_cryx_tiers = {"tiers":[
           "CS01",
           "CS11",
           "CS09"
-        ]},
-        "level": 1,
-        "benefit": "",
-        "faAlterations": [
-          {
-            "id": "CU08",
-            "bonus": 1
-          },
-          {
-            "id": "CS11",
-            "forEach": [
-              "CJ14",
-              "CJ18",
-              "CJ11",
-              "CJ21",
-              "CJ10",
-              "CJ08",
-              "CJ09",
-              "CJ07",
-              "CJ12"
-            ],
-            "bonus": 1
-          }
-        ]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Soulhunter models each begin with one soul token.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CS09"],
           "inBG": false
         }],
@@ -4143,17 +4134,17 @@ faction_cryx_tiers = {"tiers":[
           "CS01",
           "CS11",
           "CS09"
-        ]},
-        "level": 2,
-        "benefit": "Soulhunter models each begin with one soul token.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "You can redeploy one model/unit after both players have deployed but before the first player's first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 1,
+          "inMarshal": false,
           "ids": ["CU12"],
           "inBG": false
         }],
@@ -4187,17 +4178,17 @@ faction_cryx_tiers = {"tiers":[
           "CS01",
           "CS11",
           "CS09"
-        ]},
-        "level": 3,
-        "benefit": "You can redeploy one model/unit after both players have deployed but before the first player's first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Up to one helljack gains Advance Deployment for each Warwitch Siren solo in the army.",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": false,
           "min": 3,
+          "inMarshal": false,
           "ids": [
             "CJ07",
             "CJ08",
@@ -4241,35 +4232,38 @@ faction_cryx_tiers = {"tiers":[
           "CS01",
           "CS11",
           "CS09"
-        ]},
-        "level": 4,
-        "benefit": "Up to one helljack gains Advance Deployment for each Warwitch Siren solo in the army.",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "CW06",
-    "name": "Witch Coven - Auguries of War"
-  },
-  {
     "availableModels": [
       {
-        "models": "Cryx non-character warjacks, Malice",
-        "type": "WARJACKS"
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks, Deathjack"
       },
       {
-        "models": "Bile Thralls, Mechanithralls, Necrosurgeon & Stitch Thralls",
-        "type": "UNITS"
+        "type": "UNITS",
+        "models": "Bane Knights, Satyxis Blood Witches, Soulhunters, The Withershadow Combine"
       },
       {
-        "models": "Iron Lich Overseers, Machine Wraiths, Necrotechs , Scrap Thralls , Skarlock Thrall, Warwitch Sirens",
-        "type": "SOLOS"
+        "type": "SOLOS",
+        "models": "Necrotech, Scrap Thralls, Pistol Wraiths, Skarlock Thrall, Warwitch solos, Darragh Wrathe"
       }
-    ],
+    ]
+  },
+  {
+    "name": "Witch Coven - Machine Minds (NQ #45)",
+    "casterId": "CW06",
     "faction": "faction_cryx",
     "levels": [
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [{
+          "id": "CS13",
+          "bonus": 1
+        }],
+        "benefit": "Iron Lich Overseers can 'jack marshall up to 3 warjacks.",
+        "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
           "CW06",
@@ -4302,96 +4296,93 @@ faction_cryx_tiers = {"tiers":[
           "CS04",
           "CS01",
           "CS11"
-        ]},
-        "level": 1,
-        "benefit": "Iron Lich Overseers can 'jack marshall up to 3 warjacks.",
-        "faAlterations": [{
-          "id": "CS13",
-          "bonus": 1
-        }]
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [
           {
             "id": "CJ01",
-            "bonus": 1,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 1
           },
           {
             "id": "CJ02",
-            "bonus": 1,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 1
           },
           {
             "id": "CJ03",
-            "bonus": 1,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 1
           },
           {
             "id": "CJ04",
-            "bonus": 1,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 1
           },
           {
             "id": "CJ05",
-            "bonus": 1,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 1
           },
           {
             "id": "CJ07",
-            "bonus": 2,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 2
           },
           {
             "id": "CJ08",
-            "bonus": 2,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 2
           },
           {
             "id": "CJ09",
-            "bonus": 2,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 2
           },
           {
             "id": "CJ10",
-            "bonus": 2,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 2
           },
           {
             "id": "CJ11",
-            "bonus": 2,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 2
           },
           {
             "id": "CJ14",
-            "bonus": 2,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 2
           },
           {
             "id": "CJ15",
-            "bonus": 1,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 1
           },
           {
             "id": "CJ17",
-            "bonus": 1,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 1
           },
           {
             "id": "CJ18",
-            "bonus": 2,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 2
           },
           {
             "id": "CJ21",
-            "bonus": 2,
-            "restricted_to": "CS13"
+            "restricted_to": "CS13",
+            "bonus": 2
           }
         ],
+        "faAlterations": [],
+        "benefit": "Reduce the cost of Bonejacks marshaled by an Iron Lich Overseer by 1. Reduce the cost of Helljacks marshaled by an Iron Lich Overseer by 2.",
+        "level": 2,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["CS13"],
           "inBG": false
         }],
@@ -4426,17 +4417,17 @@ faction_cryx_tiers = {"tiers":[
           "CS04",
           "CS01",
           "CS11"
-        ]},
-        "level": 2,
-        "benefit": "Reduce the cost of Bonejacks marshaled by an Iron Lich Overseer by 1. Reduce the cost of Helljacks marshaled by an Iron Lich Overseer by 2.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Machine Wraiths gain Ambush.",
+        "level": 3,
         "mustHave": [{
-          "inMarshal": false,
           "min": 2,
+          "inMarshal": false,
           "ids": ["CS05"],
           "inBG": false
         }],
@@ -4471,17 +4462,17 @@ faction_cryx_tiers = {"tiers":[
           "CS04",
           "CS01",
           "CS11"
-        ]},
-        "level": 3,
-        "benefit": "Machine Wraiths gain Ambush.",
-        "faAlterations": []
+        ]}
       },
       {
         "freeModels": [],
         "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "Each model with Soul Taker starts with an extra soul. ",
+        "level": 4,
         "mustHave": [{
-          "inMarshal": true,
           "min": 2,
+          "inMarshal": true,
           "ids": [
             "CJ01",
             "CJ02",
@@ -4534,14 +4525,23 @@ faction_cryx_tiers = {"tiers":[
           "CS04",
           "CS01",
           "CS11"
-        ]},
-        "level": 4,
-        "benefit": "Each model with Soul Taker starts with an extra soul. ",
-        "faAlterations": []
+        ]}
       }
     ],
-    "casterId": "CW06",
-    "name": "Witch Coven - Machine Minds (NQ #45)"
+    "availableModels": [
+      {
+        "type": "WARJACKS",
+        "models": "Cryx non-character warjacks, Malice"
+      },
+      {
+        "type": "UNITS",
+        "models": "Bile Thralls, Mechanithralls, Necrosurgeon & Stitch Thralls"
+      },
+      {
+        "type": "SOLOS",
+        "models": "Iron Lich Overseers, Machine Wraiths, Necrotechs , Scrap Thralls , Skarlock Thrall, Warwitch Sirens"
+      }
+    ]
   }
 ]};
 

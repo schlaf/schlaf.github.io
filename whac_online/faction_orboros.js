@@ -1521,6 +1521,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU04",
           "OA05",
           "OU07",
@@ -1561,6 +1562,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU04",
           "OA05",
           "OU07",
@@ -1601,6 +1603,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU04",
           "OA05",
           "OU07",
@@ -1648,6 +1651,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU04",
           "OA05",
           "OU07",
@@ -1710,6 +1714,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU09",
           "OA04",
           "OU03",
@@ -1720,7 +1725,8 @@ faction_orboros_tiers = {"tiers":[
           "OU07",
           "OU12",
           "OS03",
-          "OS06"
+          "OS06",
+          "OS10"
         ]}
       },
       {
@@ -1756,6 +1762,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU09",
           "OA04",
           "OU03",
@@ -1766,7 +1773,8 @@ faction_orboros_tiers = {"tiers":[
           "OU07",
           "OU12",
           "OS03",
-          "OS06"
+          "OS06",
+          "OS10"
         ]}
       },
       {
@@ -1808,6 +1816,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU09",
           "OA04",
           "OU03",
@@ -1818,7 +1827,8 @@ faction_orboros_tiers = {"tiers":[
           "OU07",
           "OU12",
           "OS03",
-          "OS06"
+          "OS06",
+          "OS10"
         ]}
       },
       {
@@ -1851,7 +1861,8 @@ faction_orboros_tiers = {"tiers":[
             "OB16",
             "OB17",
             "OB19",
-            "OB20"
+            "OB20",
+            "OB22"
           ],
           "inBG": true
         }],
@@ -1876,6 +1887,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU09",
           "OA04",
           "OU03",
@@ -1886,7 +1898,8 @@ faction_orboros_tiers = {"tiers":[
           "OU07",
           "OU12",
           "OS03",
-          "OS06"
+          "OS06",
+          "OS10"
         ]}
       }
     ],
@@ -1957,6 +1970,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU03",
           "OA02",
           "OA06",
@@ -1966,7 +1980,8 @@ faction_orboros_tiers = {"tiers":[
           "OU12",
           "OA07",
           "OS02",
-          "OS03"
+          "OS03",
+          "OS10"
         ]}
       },
       {
@@ -1997,6 +2012,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU03",
           "OA02",
           "OA06",
@@ -2006,7 +2022,8 @@ faction_orboros_tiers = {"tiers":[
           "OU12",
           "OA07",
           "OS02",
-          "OS03"
+          "OS03",
+          "OS10"
         ]}
       },
       {
@@ -2037,6 +2054,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU03",
           "OA02",
           "OA06",
@@ -2046,7 +2064,8 @@ faction_orboros_tiers = {"tiers":[
           "OU12",
           "OA07",
           "OS02",
-          "OS03"
+          "OS03",
+          "OS10"
         ]}
       },
       {
@@ -2077,6 +2096,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU03",
           "OA02",
           "OA06",
@@ -2086,7 +2106,8 @@ faction_orboros_tiers = {"tiers":[
           "OU12",
           "OA07",
           "OS02",
-          "OS03"
+          "OS03",
+          "OS10"
         ]}
       }
     ],
@@ -2102,6 +2123,262 @@ faction_orboros_tiers = {"tiers":[
       {
         "type": "SOLOS",
         "models": "Tharn solos, Lord of the Feast"
+      }
+    ]
+  },
+  {
+    "name": "Kromac2 - Blood Price",
+    "casterId": "OW10",
+    "faction": "faction_orboros",
+    "levels": [
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [
+          {
+            "id": "OU03",
+            "bonus": 1
+          },
+          {
+            "id": "OU05",
+            "bonus": 1
+          },
+          {
+            "id": "OU06",
+            "bonus": 1
+          },
+          {
+            "id": "OU07",
+            "bonus": 1
+          },
+          {
+            "id": "OU12",
+            "bonus": 1
+          },
+          {
+            "id": "OS03",
+            "bonus": 1
+          },
+          {
+            "id": "OS10",
+            "bonus": 1
+          }
+        ],
+        "benefit": "",
+        "level": 1,
+        "mustHave": [],
+        "onlyModels": {"ids": [
+          "OW10",
+          "OB01",
+          "OB02",
+          "OB05",
+          "OB07",
+          "OB08",
+          "OB09",
+          "OB11",
+          "OB13",
+          "OB14",
+          "OB15",
+          "OB16",
+          "OB17",
+          "OB19",
+          "OB20",
+          "OB22",
+          "OU10",
+          "OU09",
+          "OU03",
+          "OA02",
+          "OA06",
+          "OU05",
+          "OU06",
+          "OU07",
+          "OU12",
+          "OA07",
+          "OS03",
+          "OS10"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each Bloodweaver unit or solo in the army, up to one model in the army with Heart Eater gains one corpse token at the start of the game. The same model can gain multiple corpse tokens but cannot gain more corpse tokens than it could gain normally.",
+        "level": 2,
+        "mustHave": [{
+          "min": 1,
+          "inMarshal": false,
+          "ids": [
+            "OU05",
+            "OS10"
+          ],
+          "inBG": false
+        }],
+        "onlyModels": {"ids": [
+          "OW10",
+          "OB01",
+          "OB02",
+          "OB05",
+          "OB07",
+          "OB08",
+          "OB09",
+          "OB11",
+          "OB13",
+          "OB14",
+          "OB15",
+          "OB16",
+          "OB17",
+          "OB19",
+          "OB20",
+          "OB22",
+          "OU10",
+          "OU09",
+          "OU03",
+          "OA02",
+          "OA06",
+          "OU05",
+          "OU06",
+          "OU07",
+          "OU12",
+          "OA07",
+          "OS03",
+          "OS10"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [
+          {
+            "id": "OB01",
+            "bonus": 1
+          },
+          {
+            "id": "OB02",
+            "bonus": 1
+          },
+          {
+            "id": "OB13",
+            "bonus": 1
+          },
+          {
+            "id": "OB15",
+            "bonus": 1
+          },
+          {
+            "id": "OB16",
+            "bonus": 1
+          },
+          {
+            "id": "OB19",
+            "bonus": 1
+          },
+          {
+            "id": "OB20",
+            "bonus": 1
+          }
+        ],
+        "faAlterations": [],
+        "level": 3,
+        "mustHave": [{
+          "min": 3,
+          "inMarshal": false,
+          "ids": [
+            "OB01",
+            "OB02",
+            "OB13",
+            "OB15",
+            "OB16",
+            "OB19",
+            "OB20"
+          ],
+          "inBG": false
+        }],
+        "onlyModels": {"ids": [
+          "OW10",
+          "OB01",
+          "OB02",
+          "OB05",
+          "OB07",
+          "OB08",
+          "OB09",
+          "OB11",
+          "OB13",
+          "OB14",
+          "OB15",
+          "OB16",
+          "OB17",
+          "OB19",
+          "OB20",
+          "OB22",
+          "OU10",
+          "OU09",
+          "OU03",
+          "OA02",
+          "OA06",
+          "OU05",
+          "OU06",
+          "OU07",
+          "OU12",
+          "OA07",
+          "OS03",
+          "OS10"
+        ]}
+      },
+      {
+        "freeModels": [],
+        "costAlterations": [],
+        "faAlterations": [],
+        "benefit": "For each Sentry Stone & Mannikins unit in the army, place one 3\" AOE forest template anywhere completely within 20\" of the back edge of Kromac\u2019s deployment zone after terrain has been placed but before either player deploys his army. Forest templates cannot be placed within 3\" of another terrain feature including other forest templates.",
+        "level": 4,
+        "mustHave": [{
+          "min": 1,
+          "inMarshal": false,
+          "ids": ["OU10"],
+          "inBG": false
+        }],
+        "onlyModels": {"ids": [
+          "OW10",
+          "OB01",
+          "OB02",
+          "OB05",
+          "OB07",
+          "OB08",
+          "OB09",
+          "OB11",
+          "OB13",
+          "OB14",
+          "OB15",
+          "OB16",
+          "OB17",
+          "OB19",
+          "OB20",
+          "OB22",
+          "OU10",
+          "OU09",
+          "OU03",
+          "OA02",
+          "OA06",
+          "OU05",
+          "OU06",
+          "OU07",
+          "OU12",
+          "OA07",
+          "OS03",
+          "OS10"
+        ]}
+      }
+    ],
+    "availableModels": [
+      {
+        "type": "WARBEASTS",
+        "models": "Circle non-character living warbeasts, Ghetorix"
+      },
+      {
+        "type": "UNITS",
+        "models": "Sentry Stone & Mannikins, Shifting Stones, Tharn units"
+      },
+      {
+        "type": "SOLOS",
+        "models": "Tharn solos"
       }
     ]
   },
@@ -2151,6 +2428,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU01",
           "OA01",
           "OU09",
@@ -2194,6 +2472,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU01",
           "OA01",
           "OU09",
@@ -2240,6 +2519,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU01",
           "OA01",
           "OU09",
@@ -2269,7 +2549,8 @@ faction_orboros_tiers = {"tiers":[
             "OB11",
             "OB12",
             "OB17",
-            "OB18"
+            "OB18",
+            "OB22"
           ],
           "inBG": false
         }],
@@ -2293,6 +2574,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU01",
           "OA01",
           "OU09",
@@ -2352,6 +2634,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU02",
           "OU04",
           "OA05",
@@ -2398,6 +2681,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU02",
           "OU04",
           "OA05",
@@ -2444,6 +2728,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU02",
           "OU04",
           "OA05",
@@ -2499,6 +2784,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU02",
           "OU04",
           "OA05",
@@ -2882,6 +3168,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU01",
           "OA01",
           "OU09",
@@ -2920,6 +3207,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU01",
           "OA01",
           "OU09",
@@ -2958,6 +3246,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU01",
           "OA01",
           "OU09",
@@ -3028,6 +3317,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU01",
           "OA01",
           "OU09",
@@ -3084,6 +3374,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU03",
           "OA02",
           "OA06",
@@ -3120,6 +3411,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU03",
           "OA02",
           "OA06",
@@ -3156,6 +3448,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU03",
           "OA02",
           "OA06",
@@ -3196,6 +3489,7 @@ faction_orboros_tiers = {"tiers":[
           "OB17",
           "OB19",
           "OB20",
+          "OB22",
           "OU03",
           "OA02",
           "OA06",
@@ -3217,7 +3511,7 @@ faction_orboros_tiers = {"tiers":[
       },
       {
         "type": "SOLOS",
-        "models": "Tham Ravager solos, Lord of the Feast"
+        "models": "Tharn Ravager solos, Lord of the Feast"
       }
     ]
   },
@@ -3401,6 +3695,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU01",
           "OA01",
           "OU03",
@@ -3415,6 +3710,7 @@ faction_orboros_tiers = {"tiers":[
           "OS08",
           "OS01",
           "OS03",
+          "OS10",
           "OE01"
         ]}
       },
@@ -3440,7 +3736,8 @@ faction_orboros_tiers = {"tiers":[
             "OB16",
             "OB17",
             "OB19",
-            "OB20"
+            "OB20",
+            "OB22"
           ],
           "inBG": false
         }],
@@ -3464,6 +3761,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU01",
           "OA01",
           "OU03",
@@ -3478,6 +3776,7 @@ faction_orboros_tiers = {"tiers":[
           "OS08",
           "OS01",
           "OS03",
+          "OS10",
           "OE01"
         ]}
       },
@@ -3513,6 +3812,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU01",
           "OA01",
           "OU03",
@@ -3527,6 +3827,7 @@ faction_orboros_tiers = {"tiers":[
           "OS08",
           "OS01",
           "OS03",
+          "OS10",
           "OE01"
         ]}
       },
@@ -3581,6 +3882,7 @@ faction_orboros_tiers = {"tiers":[
           "OB18",
           "OB19",
           "OB20",
+          "OB22",
           "OU01",
           "OA01",
           "OU03",
@@ -3595,6 +3897,7 @@ faction_orboros_tiers = {"tiers":[
           "OS08",
           "OS01",
           "OS03",
+          "OS10",
           "OE01"
         ]}
       }
