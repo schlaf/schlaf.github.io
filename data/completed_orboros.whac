@@ -522,7 +522,7 @@
                   <capacity title="HARD HEAD">This model can add this weapon's POW to its head-butt and slam power attack damage rolls.</capacity>
               </melee_weapon>
               <melee_weapon p_plus_s="16" pow="4" name="Bladed Gauntlet" location="L" open_fist="true">
-                  <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">If this model hits the same model with both it's initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
+                  <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">If this model hits the same model with both it's initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
               </melee_weapon>
               <melee_weapon p_plus_s="16" pow="4" name="Bladed Gauntlet" location="R" open_fist="true"></melee_weapon>
           </weapons>
@@ -924,7 +924,7 @@
               <ranged_weapon pow="13" aoe="-" rng="12" rof="1" name="Tharn Bow"></ranged_weapon>
               <melee_weapon p_plus_s="11" pow="3" name="Hunter's Blade"></melee_weapon>
           </weapons>
-          <capacity title="ASSAULT &AMP; BATTERY" type="Order">Before their normal movement, affected models can make one ranged attack. During their normal movement, affected models must charge or run. The ranged attack is made before declaring a charge target.</capacity>
+          <capacity title="ASSAULT &amp; BATTERY" type="Order">Before their normal movement, affected models can make one ranged attack. During their normal movement, affected models must charge or run. The ranged attack is made before declaring a charge target.</capacity>
           <capacity title="HEART EATER">This model gains a corpse token each time it destroys a living enemy model with a melee attack.  This model can have up to three corpse tokens at a time.  It can spend corpse tokens during its activation to boost an attack or damage roll or to make an additional melee attack at one token per boost or additional attack.</capacity>
           <capacity title="TREEWALKER">This model ignores forests when determining LOS.  While in a forest, this model gains +2 DEF against melee attack rolls and can advance through obstructions and other models if it has enough movement to move completely past them.</capacity>
         </unit>

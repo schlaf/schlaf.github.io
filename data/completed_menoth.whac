@@ -778,7 +778,7 @@
                 <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
         <melee_weapon name="Kopis " pow="4" count="2" p_plus_s="10" />                
               </weapons>
-              <capacity title="ASSAULT &AMP; BATTERY (ORDER)">Before their normal movement, affected models can make one ranged attack. During their normal movement, affected models must charge or run. The ranged attack is made before declaring a charge target.</capacity>
+              <capacity title="ASSAULT &amp; BATTERY (ORDER)">Before their normal movement, affected models can make one ranged attack. During their normal movement, affected models must charge or run. The ranged attack is made before declaring a charge target.</capacity>
               <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
               <capacity title="TACTICS: COMBINED MELEE ATTACK">Models in this unit gain Combined Melee Attack.</capacity>
               <capacity title="ATTACHMENT [IDRIAN SKIRMISHER]" type="">This attachment can be added to an Idrian Skirmsishers unit.</capacity>
