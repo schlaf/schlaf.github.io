@@ -1163,7 +1163,7 @@
           <capacity title="Journeyman Warcaster">This model is not a warcaster but has the following warcaster special rules: Battlegroup Commander, Control Area, Focus Manipulation, Power Field, and Spellcaster.</capacity>
           <capacity title="Sucker!">If this model is directly hit by an enemy ranged attack, choose a friendly living non-incorporeal warrior model within 2" of it to tbe directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
         </solo>
-        <solo id="KA09" name="Black Dragon Officer &amp; Standard" full_name="Black Dragon Officer &amp; Standard" cost="2" qualification="Khador Iron Fang Pikement Unit Attachment" fa="2" unit_attachment="true" completed="true">
+        <solo id="KA09" name="Black Dragon Officer &amp; Standard" full_name="Black Dragon Officer &amp; Standard" cost="2" qualification="Khador Iron Fang Pikemen Unit Attachment" fa="2" unit_attachment="true" completed="true">
           <basestats name="Officer" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="10" hitpoints="5" officer="true" cma="true" />
           <weapons>
             <melee_weapon p_plus_s="13" pow="7" name="Blasting Pike" reach="true">
