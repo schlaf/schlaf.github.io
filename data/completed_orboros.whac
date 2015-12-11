@@ -648,7 +648,7 @@
       </battleEngines>
       <units>
         <!--Druids and Overseer complete-->
-        <unit id="OU01" name="Druids of Orboros" full_name="Druids of Orboros" base_cost="7" baseCount="6" full_cost="-" fullCount="-" qualification="Cirlce Unit" fa="2" has_unit_attachment="true" completed="true">
+        <unit id="OU01" name="Druids of Orboros" full_name="Druids of Orboros" base_cost="7" baseCount="6" full_cost="-" fullCount="-" qualification="Circle Unit" fa="2" has_unit_attachment="true" completed="true">
           <basestats name="Grunts" spd="6" str="6" mat="5" rat="4" def="14" arm="13" cmd="9" pathfinder="true" />
           <weapons>
             <melee_weapon name="Voulge" pow="4" p_plus_s="10" magical="true" reach="true"></melee_weapon>
