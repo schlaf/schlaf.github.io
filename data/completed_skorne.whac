@@ -19,7 +19,7 @@
                             <capacity title="INFLICT PAIN">When it hits a warbeast with this weapon, this model can place 1 fury point on or remove 1 fury point from the warbeast.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Pain &amp; Suffering">While in Morghoul's control area, enemy models cannot spend focus, be forced, or have damage transferred to them. Pain &amp; Suffering lasts for one round.</feat>
+                    <feat title="PAIN &AMP; SUFFERING">While in Morghoul's control area, enemy models cannot spend focus, be forced, or have damage transferred to them. Pain &amp; Suffering lasts for one round.</feat>
                     <spell name="ABUSE" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly warbeast gains +2 SPD and STR for one round but suffers d3 damage points.</spell>
                     <spell name="ADMONITION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy model advances and ends its movement within 6" of target model in this model's battlegroup, the affected model can immediately advance up to 3", then Admonition expires. The affected model cannot be targeted by free strikes during this movement.</spell>
                     <spell name="TORMENT" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">When a model is damaged by Torment, for one round it loses Tough, cannot heal or be healed, and cannot transfer damage.</spell>
@@ -37,7 +37,7 @@
                             <capacity title="BLIND">When a model is hit by an attack with this weapon, it suffers Blind for one round. (A blind model cannot make ranged or magic attacks, suffers from –4 MAT and DEF, cannot run or charge, and must forfeit either its movement or action during its next activation.)</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Assassination Run">Whie in Morghoul's control area, friendly Faction models gain +2 DEF and Evasive. Assassination Run lasts for one round. (A model with Evasive cannot be targeted by free strikes. It can advance up to 2" immediately after an enemy ranged attack that missed it is resolved unless it was missed while advancing.)</feat>
+                    <feat title="ASSASSINATION RUN">Whie in Morghoul's control area, friendly Faction models gain +2 DEF and Evasive. Assassination Run lasts for one round. (A model with Evasive cannot be targeted by free strikes. It can advance up to 2" immediately after an enemy ranged attack that missed it is resolved unless it was missed while advancing.)</feat>
                     <spell name="FLASHING BLADE" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model immediately makes one normal melee attack with one of its melee weapons against each enemy model in its LOS that is in the weapon's melee range. These attacks are simultaneous.</spell>
                     <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
                     <spell name="SILENCE OF DEATH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit's melee weapons gain Grievous Wounds. (When a model is hit by a weapon with Grievous Wounds, for one round it loses Tough, cannot heal or be healed, and cannot transfer damage.)</spell>
@@ -53,7 +53,7 @@
                             <capacity title="COMBO STRIKE (★ATTACK)">Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model's STR plus twice the POW of this weapon.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Walking Death">For one round, friendly living Faction trooper models destroyed while in Makeda's control area return to play during your next Maintenance Phase with one unmarked damage box. Place returned models in Makeda's control area in formation and within 3" of another model in their units. Returned models forfeit their normal movement the turn they are placed.</feat>
+                    <feat title="WALKING DEATH">For one round, friendly living Faction trooper models destroyed while in Makeda's control area return to play during your next Maintenance Phase with one unmarked damage box. Place returned models in Makeda's control area in formation and within 3" of another model in their units. Returned models forfeit their normal movement the turn they are placed.</feat>
                     <spell name="CARNAGE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Friendly Faction models gain +2 to melee attack rolls against enemy models in this model's control area. Carnage lasts for one turn.</spell>
                     <spell name="DEFENDER'S WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains +2 DEF and ARM.</spell>
                     <spell name="MUZZLE" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">An enemy warbeast damaged by Muzzle cannot advance toward this model for one round.</spell>
@@ -67,7 +67,7 @@
                     <weapons>
                         <melee_weapon name="Sword of Baalash " pow="5" count="2" p_plus_s="12" magical="true" />
                     </weapons>
-                    <feat title="Instruments of War">While in Makeda's control area, friendly Faction models gain boosted melee attack rolls and cannot be knocked down or targeted by free strikes. Instruments of War lasts for one round.</feat>
+                    <feat title="INSTRUMENTS OF WAR">While in Makeda's control area, friendly Faction models gain boosted melee attack rolls and cannot be knocked down or targeted by free strikes. Instruments of War lasts for one round.</feat>
                     <spell name="ENGINE OF DESTRUCTION" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model gains +2 SPD, +4 STR and +4 MAT or one round.</spell>
                     <spell name="LEASH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Immediately after this model ends its normal movement, target warbeast in its battlegroup can advance up to 3" toward it.</spell>
                     <spell name="ROAD TO WAR" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Friendly Faction non-warlock models activating in this model's control area gain +2" movement this turn.</spell>
@@ -83,7 +83,7 @@
                             <capacity title="BLOOD BOON">Once per activation, immediately after resolving an attack in which it destroyed a living enemy model with this weapon, this model can cast a spell with COST 3 or less without spending fury.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Dance of Death">When a model in Makeda's battlegroup destroys one or more enemy models in her control area with an attack, either Makeda can gain 1 fury point or 1 fury point can be removed from a model in her battlegroup that is in her control area. Dance of Death lasts for one turn.</feat>
+                    <feat title="DANCE OF DEATH">When a model in Makeda's battlegroup destroys one or more enemy models in her control area with an attack, either Makeda can gain 1 fury point or 1 fury point can be removed from a model in her battlegroup that is in her control area. Dance of Death lasts for one turn.</feat>
                     <spell name="ELIMINATOR" cost="3" rng="8" aoe="3" pow="13" up="NO" off="YES">Immediately after this attack is resolved, this model can advance up to 2" for each enemy model destroyed by the attack.</spell>
                     <spell name="GROUND ZERO" cost="3" rng="SELF" aoe="5" pow="13" up="NO" off="NO">Center a 5" AOE on this model. Each other model in the AOE is hit and suffers a POW 13 damage roll. Each enemy model damaged by Ground Zero is pushed d6" directly away from this model in the order you choose.</spell>
                     <spell name="SUNHAMMER" cost="3" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Enemy warbeasts/warjacks that advance more than 1" and end their normal movement in this model's control area suffer d3 damage points.</spell>
@@ -114,7 +114,7 @@
                             <capacity title="LIFE DRINKER">When it destroys a living enemy model with this weapon, immediately after the attack is resolved this model heals d3 damage points.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Dark Dominion">When a living or undead enemy model is boxed by an attack while in Hexeris' control area, take control of it. The model becomes a friendly Undead model. If it is a trooper, it becomes a solo. The model can immediately advance up to 3" and can make one normal melee attack, then remove the model from play. When making this attack, ignore the effects of lost aspects on affected warbeasts. The model cannot be targeted by free strikes during this movement. Dark Dominion lasts for one turn.</feat>
+                    <feat title="DARK DOMINION">When a living or undead enemy model is boxed by an attack while in Hexeris' control area, take control of it. The model becomes a friendly Undead model. If it is a trooper, it becomes a solo. The model can immediately advance up to 3" and can make one normal melee attack, then remove the model from play. When making this attack, ignore the effects of lost aspects on affected warbeasts. The model cannot be targeted by free strikes during this movement. Dark Dominion lasts for one turn.</feat>
                     <spell name="DEATH MARCH" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly unit gains +2 MAT and Vengeance. (During your Maintenance Phase, if one or more models in a unit with Vengeance were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.)</spell>
                     <spell name="OBLITERATION" cost="4" rng="10" aoe="4" pow="15" up="NO" off="YES">The force of this attacks blasts apart the earth itself.</spell>
                     <spell name="PSYCHIC VAMPIRE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">When an enemy model casts a spell or uses an animus while in this model's control area, the enemy model suffers 1 damage point and this model heals 1 damage point.</spell>
@@ -129,7 +129,7 @@
                             <capacity title="THRESHER (★ATTACK)">This model makes one melee attack with this weapon against each model in its LOS and this weapon's melee range.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Arcane Reaver">Immediately remove any number of soul tokens, fury points, and focus points from non-warlock, non-warcaster models in Hexeris' control area. For each soul token or focus or fury point removed, place one fury point on Hexeris. Hexeris cannot exceed his current FURY in fury points as a result of Arcane Reaver.</feat>
+                    <feat title="ARCANE REAVER">Immediately remove any number of soul tokens, fury points, and focus points from non-warlock, non-warcaster models in Hexeris' control area. For each soul token or focus or fury point removed, place one fury point on Hexeris. Hexeris cannot exceed his current FURY in fury points as a result of Arcane Reaver.</feat>
                     <spell name="ARCANE RECKONING" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains Whiplash. (When an enemy model misses a model with Whiplash with a magic attack, the attacking model becomes the target and is automatically hit by the attack. AOE magic attacks that miss are centered on the attacking model. The model with Whiplash is the point of origin for all these attacks.)</spell>
                     <spell name="ASHEN VEIL" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains concealment. Living enemy models suffer –2 to attack rolls while within 2" of an affected model.</spell>
                     <spell name="ASHES TO ASHES" cost="4" rng="8" aoe="*" pow="10" up="NO" off="YES">If target model is hit, it and the d6 nearest enemy models within 5" of it suffer a POW 10 fire damage roll.</spell>
@@ -145,7 +145,7 @@
                             <capacity title="COMBO SMITE (★ACTION)">Make a melee attack. On a hit, instead of making a normal damage roll the target model is slammed d6" directly away from this model and suffers a damage roll with POW equal to the STR of this model plus twice the POW of this weapon. The POW of collateral damage is equal to this model's STR.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Total Annihilation">While in Xerxis' control area, friendly Faction models gain an additional die on their melee damage rolls. While in Xerxis' control area and B2B with another friendly Faction model, friendly Faction models gain +2 ARM. Total Annihilation lasts for one round.</feat>
+                    <feat title="TOTAL ANNIHILATION">While in Xerxis' control area, friendly Faction models gain an additional die on their melee damage rolls. While in Xerxis' control area and B2B with another friendly Faction model, friendly Faction models gain +2 ARM. Total Annihilation lasts for one round.</feat>
                     <spell name="DEFENDER'S WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains +2 DEF and ARM.</spell>
                     <spell name="FURY" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +3 to melee damage rolls but suffers –1 DEF.</spell>
                     <spell name="INHOSPITABLE GROUND" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, enemy models treat open terrain as rough terrain. Inhospitable Ground lasts for one round.</spell>
@@ -167,7 +167,7 @@
                             <capacity title="PITCH (★ATTACK)">Instead of making a normal damage roll on a hit, this model throws the model hit as if it had hit with and passed the STR check of a throw power attack. The thrown model suffers a damage roll with POW equal to the POW of this weapon. The POW of collateral damage is equal lo the POW of this weapon.</capacity>
                         </mount_weapon>
                     </weapons>
-                    <feat title="Hand of the Ancients">All models are in Xerxis' control area. Friendly Faction models/units gain an additional die on attack and damage rolls. Discard one die from each roll. Hand of the Ancients lasts for one turn.</feat>
+                    <feat title="HAND OF THE ANCIENTS">All models are in Xerxis' control area. Friendly Faction models/units gain an additional die on attack and damage rolls. Discard one die from each roll. Hand of the Ancients lasts for one turn.</feat>
                     <spell name="IGNITE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack damage rolls. Affected models gain Critical Fire on their normal melee attacks.</spell>
                     <spell name="MOBILITY" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Models in this model's battlegroup currently in its control area gain +2 SPD and Pathfinder for one turn.</spell>
                     <spell name="STRANGLEHOLD" cost="2" rng="10" aoe="-" pow="11" up="NO" off="YES">A model damaged by Stranglehold forfeits either its movement or its action during its next activation, as its controller chooses.</spell>
@@ -182,7 +182,7 @@
                         </ranged_weapon>
                         <melee_weapon name="Staff of Aarakis" pow="4" p_plus_s="9" magical="true" reach="true" />
                     </weapons>
-                    <feat title="Rage of Ancients">Zaal gains a number of ancestral rage tokens equal to the number of friendly Faction warrior models that have been destroyed and not returned to play since the start of the game. While in Zaal's control area, friendly Faction models can spend ancestral rage tokens on Zaal to boost melee attack or melee damage rolls. At the end of the turn, remove unspent ancestral rage tokens from Zaal.</feat>
+                    <feat title="RAGE OF ANCIENTS">Zaal gains a number of ancestral rage tokens equal to the number of friendly Faction warrior models that have been destroyed and not returned to play since the start of the game. While in Zaal's control area, friendly Faction models can spend ancestral rage tokens on Zaal to boost melee attack or melee damage rolls. At the end of the turn, remove unspent ancestral rage tokens from Zaal.</feat>
                     <spell name="AWAKENED SPIRIT" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target warbeast in this model's battlegroup can use its animus once during its activation without being forced. A warbeast that uses its animus as a result of Awakened Spirit cannot also be forced to use its animus that activation.</spell>
                     <spell name="HEX BLAST" cost="3" rng="10" aoe="3" pow="13" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire.</spell>
                     <spell name="INVIOLABLE RESOLVE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains +2 ARM and Fearless.</spell>
@@ -211,7 +211,7 @@
                             <capacity title="SILENCER">A model hit by this weapon cannot cast spells for one round.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Strength Eternal">Remove d6+3 damage points from each friendly Faction model with Construct currently in Zaal's control area. While in Zaal's control area, friendly Faction models with Construct gain boosted melee attack rolls and +5 ARM for one round.</feat>
+                    <feat title="STRENGTH ETERNAL">Remove d6+3 damage points from each friendly Faction model with Construct currently in Zaal's control area. While in Zaal's control area, friendly Faction models with Construct gain boosted melee attack rolls and +5 ARM for one round.</feat>
                     <spell name="ANNIHILATION" cost="4" rng="10" aoe="3" pow="10" up="NO" off="YES"> Models hit suffer a POW 10 damage roll. Models boxed by Annihilation are removed from play. This model gains a soul token for each living non-soulless enemy model removed from play this way.</spell>
                     <spell name="MAGE SIGHT" cost="2" rng="CTRL" aoe="5" pow="-" up="YES" off="NO">Place a 5'' AOE completely in this model's control area. While a model is within the AOE, models in this model's battlegroup ignore forests and cloud effects when drawing LOS to it and ignore Stealh when attacking it.</spell>
                     <spell name="SUNDER SPIRIT" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">An enemy warbeast damaged by Sunder Spirit loses its animus for one round.</spell>
@@ -231,7 +231,7 @@
                             <capacity title="LIFE DRINKER">See above.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Void Wind">While in Mordikaar's control area, friendly Faction models gain +3 DEF and Poltergeist. Void Wind lasts for one round.</feat>
+                    <feat title="VOID WIND">While in Mordikaar's control area, friendly Faction models gain +3 DEF and Poltergeist. Void Wind lasts for one round.</feat>
                     <spell name="BANISHING WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Enemy upkeep spells on target friendly model/unit expire. Affected models cannot be targeted by enemy spells or animi.</spell>
                     <spell name="ESSENCE BLAST" cost="3" rng="CTRL" aoe="*" pow="-" up="NO" off="YES">Choose a friendly living non-warlock/warcaster Faction model in this model's control area. Make a SP 6 magic attack using the chosen model as the attack's point of origin. Models hit suffer a damage roll with a POW equal to 5 + the base STR of the chosen model. After the spell is resolved, remove the chosen model from play.</spell>
                     <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
@@ -244,7 +244,7 @@
                 <warlock id="SW07" name="Dominar Rasheth" generation="P" full_name="Dominar Rasheth" qualification="Skorne Warlock" fury="8" warbeast_points="5" fa="C" completed="true">
                     <basestats name="RASHETH" spd="4" str="4" mat="1" rat="1" def="10" arm="14" cmd="8" hitpoints="20" />
                     <weapons />
-                    <feat title="Plague Wind">While in Rasheth's control area, living enemy models suffer –2 STR and ARM. When a living model is destroyed in his control area, Rasheth heals 1 damage point. Plague Wind lasts for one round.</feat>
+                    <feat title="PLAGUE WIND">While in Rasheth's control area, living enemy models suffer –2 STR and ARM. When a living model is destroyed in his control area, Rasheth heals 1 damage point. Plague Wind lasts for one round.</feat>
                     <spell name="BLOOD MARK" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target enemy model suffers –2 ARM. This model can transfer damage from an enemy attack to the affected model one time, then Blood Mark expires.</spell>
                     <spell name="BREATH OF CORRUPTION" cost="3" rng="8" aoe="3" pow="12" up="NO" off="YES">Models hit suffer a POW 12 corrosion damage roll. The AOE is a cloud effect that remains in play for one round. Models entering or ending their activation in the AOE suffer 1 point of corrosion damage.</spell>
                     <spell name="CARNIVORE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack rolls against living models. When an affected model boxes a living model with a melee attack, the boxed model is removed from play and this model heals d3 damage points.</spell>
@@ -263,7 +263,7 @@
                             <capacity title="LIFE DRINKER">When it destroys a living enemy model with this weapon, immediately after the attack is resolved this model heals d3 damage points.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Imperishable Flesh">Immedately apply up to 1 damage point to each aspect of warbeasts in Naaresh's battlegroup that are currently in his control area. Naaresh heals 1 damage point for each damage point applied. For one round, while in Naaresh's control area, warbeasts in his battlegroup gain +1 STR and ARM for each of their damaged aspects.</feat>
+                    <feat title="IMPERISHABLE FLESH">Immedately apply up to 1 damage point to each aspect of warbeasts in Naaresh's battlegroup that are currently in his control area. Naaresh heals 1 damage point for each damage point applied. For one round, while in Naaresh's control area, warbeasts in his battlegroup gain +1 STR and ARM for each of their damaged aspects.</feat>
                     <spell name="BLEED" cost="2" rng="8" aoe="-" pow="10" up="NO" off="YES">When Bleed destroys a living enemy model, this model heals d3 damage points.</spell>
                     <spell name="CYCLONE" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model immediately makes a full advance. It cannot be targeted by free strikes during this movement. At the end of this movement, this model can make one melee attack against each model in its LOS that is in its melee range. Cyclone can be cast only once per turn.</spell>
                     <spell name="IRON FLESH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly warrior model/unit gains +3 DEF but suffers –1 SPD.</spell>
@@ -358,10 +358,10 @@
                             <capacity title="HARD HEAD">This model can add this weapon's POW on its head-butt and slam power attack damage rolls.</capacity>
                         </melee_weapon>
                         <melee_weapon name="War Gauntlet" pow="4" p_plus_s="17" open_fist="true" location="L">
-                            <capacity title="CHAIN ATTACK: GRAB &amp;amp; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
+                            <capacity title="CHAIN ATTACK: GRAB &AMP;AMP; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
                         </melee_weapon>
                         <melee_weapon name="War Gauntlet" pow="4" p_plus_s="17" open_fist="true" location="R">
-                            <capacity title="CHAIN ATTACK: GRAB &amp;amp; SMASH">See above.</capacity>
+                            <capacity title="CHAIN ATTACK: GRAB &AMP;AMP; SMASH">See above.</capacity>
                         </melee_weapon>
                     </weapons>
                     <animus name="TRAIN WRECK" cost="1" rng="6" aoe="-" pow="-" up="NO" off="NO"> Target friendly warbeast's melee weapons gain Beat Back. Train Wreck lasts for one turn. (Immediately after a normal attack with a weapon with Beat Back is resolved during this model's combat action, the enemy model hit can be pushed 1" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1".)</animus>
@@ -835,7 +835,7 @@
                     <basestats name="VALGESH" spd="6" str="7" mat="7" rat="4" def="13" arm="15" cmd="10" officer="true" fearless="true" />
                     <weapons>
                         <melee_weapon name="Sword" pow="3" p_plus_s="10" count="2">
-                            <capacity title="Combo Strike" type="*Attack"> Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model’s STR plus twice the POW of this weapon.</capacity>
+                            <capacity title="COMBO STRIKE" type="*Attack"> Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model’s STR plus twice the POW of this weapon.</capacity>
                         </melee_weapon>
                     </weapons>
                     <capacity title="FLANK [ANOTHER MODEL IN THIS UNIT]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
@@ -853,7 +853,7 @@
                         <basestats name="J’DETH" spd="6" str="7" mat="7" rat="4" def="13" arm="15" cmd="10" fearless="true" />
                         <weapons>
                             <melee_weapon name="Maul" pow="4" p_plus_s="11" count="2">
-                                <capacity title="Combo Smite" type="*Attack">Make a melee attack. On a hit, instead of making a normal damage roll the target model is slammed d6" directly away from this model and suffers a damage roll with POW equal to the STR of this model plus twice the POW of this weapon. The POW of collateral damage is equal to this model’s STR.</capacity>
+                                <capacity title="COMBO SMITE" type="*Attack">Make a melee attack. On a hit, instead of making a normal damage roll the target model is slammed d6" directly away from this model and suffers a damage roll with POW equal to the STR of this model plus twice the POW of this weapon. The POW of collateral damage is equal to this model’s STR.</capacity>
                             </melee_weapon>
                         </weapons>
                         <capacity title="FLANK [ANOTHER MODEL IN THIS UNIT]">See above.</capacity>

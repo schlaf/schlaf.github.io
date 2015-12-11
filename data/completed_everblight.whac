@@ -15,7 +15,7 @@
                             <capacity title="WITCH MARK">If this attack hits an enemy model during this model's activation, this model can target and automatically hit that model with spells, ignoring RNG and LOS, until the end of this model's activation.</capacity>
                         </ranged_weapon>
                     </weapons>
-                    <feat title="Field of Slaughter"><![CDATA[While in Lylyth's control area, friendly Faction models roll an additional die on attack rolls this turn.]]></feat>
+                    <feat title="FIELD OF SLAUGHTER"><![CDATA[While in Lylyth's control area, friendly Faction models roll an additional die on attack rolls this turn.]]></feat>
                     <spell name="BAD BLOOD" cost="2" rng="10" aoe="-" pow="-" up="YES" off="YES">A warlock leaching from target warbeast suffers 1 damage point for each fury leached. The affected warbeast cannot be healed or have damage transferred to it and loses Regeneration.</spell>
                     <spell name="PARASITE" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers –3 ARM and this model gains +1 ARM.</spell>
                     <spell name="ERUPTION OF SPINES" cost="3" rng="10" aoe="-" pow="10" up="NO" off="YES">If target model is hit, d6 nearest models within 5" of it suffer a POW 10 damage roll.</spell>
@@ -26,7 +26,7 @@
                     <weapons>
                         <ranged_weapon name="Whisper" rng="12" rof="2" aoe="-" pow="12" magical="true" />
                     </weapons>
-                    <feat title="Decimation"><![CDATA[While in Lylyth's control area, friendly Faction models' ranged weapons gain Snipe. While in Lylyth's control area, models in her battlegroup can make one additional ranged attack during their activations. Attacks gained from Decimation do not count against a weapon's ROF. Decimation lasts for one turn. (Ranged weapons with Snipe gain +4 RNG).]]></feat>
+                    <feat title="DECIMATION"><![CDATA[While in Lylyth's control area, friendly Faction models' ranged weapons gain Snipe. While in Lylyth's control area, models in her battlegroup can make one additional ranged attack during their activations. Attacks gained from Decimation do not count against a weapon's ROF. Decimation lasts for one turn. (Ranged weapons with Snipe gain +4 RNG).]]></feat>
                     <spell name="PIN CUSHION" cost="2" rng="10" aoe="-" pow="-" up="YES" off="YES">Friendly Faction models gain an additional die on ranged attack and ranged attack damage rolls against target enemy model/unit. Discard the lowest die in each roll.</spell>
                     <spell name="PURSUIT" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">If target enemy model/unit advances during its normal movement, immediately after ending this movement one model in this model's battlegroup that is in its control area can make a full advance.</spell>
                     <spell name="SHADOW PACK" cost="3" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Models in this model's battlegroup gain Stealth while in its control area.</spell>
@@ -51,7 +51,7 @@
                         </ranged_weapon>
                         <mount_weapon name="Mount" pow="12" />
                     </weapons>
-                    <feat title="The Reaping"><![CDATA[When an enemy model is directly hit by a ranged attack made by a friendly Faction model while the friendly Faction model is in Lylyth's control area, the enemy model suffers Death Chill. The Reaping lasts for one turn. (A model suffering Death Chill must forfeit either its movement or action on its next activation.)]]></feat>
+                    <feat title="THE REAPING"><![CDATA[When an enemy model is directly hit by a ranged attack made by a friendly Faction model while the friendly Faction model is in Lylyth's control area, the enemy model suffers Death Chill. The Reaping lasts for one turn. (A model suffering Death Chill must forfeit either its movement or action on its next activation.)]]></feat>
                     <spell name="ESCORT" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Warbeasts in this model's battlegroup beginning their activations in its control area gain +2" movement. This model gains +2 ARM while one or more warbeasts in its battlegroup are within 3" of it.</spell>
                     <spell name="FROST HAMMER" cost="2" rng="SP8" aoe="-" pow="12" up="NO" off="YES">Frost Hammer causes cold damage. On a critical hit, a model become stationary for one round unless it has Immunity: Cold.</spell>
                     <spell name="WIND WALL" cost="3" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model cannot make ranged attacks, and non-magical ranged attacks targeting it automatically miss. While completely within 3" of this model, models cannot make ranged attacks and non-magical ranged attacks targeting them automatically miss. Wind Wall lasts for one round.</spell>
@@ -68,7 +68,7 @@
                         <melee_weapon name="Claw" pow="3" p_plus_s="12" />
                         <ranged_weapon name="Blighted Breath" rng="SP8" rof="1" aoe="-" pow="12" fire="true" />
                     </weapons>
-                    <feat title="Dark Revival"><![CDATA[Return one destroyed warbeast that was part of Thagrosh's battlegroup to play. Place it anywhere within 3" of him. The warbeast forfeits its action this turn.]]></feat>
+                    <feat title="DARK REVIVAL"><![CDATA[Return one destroyed warbeast that was part of Thagrosh's battlegroup to play. Place it anywhere within 3" of him. The warbeast forfeits its action this turn.]]></feat>
                     <spell name="BAD BLOOD" cost="2" rng="10" aoe="-" pow="-" up="YES" off="YES">A warlock leaching from target warbeast suffers 1 damage point for each fury leached. The affected warbeast cannot be healed or have damage transferred to it and loses Regeneration.</spell>
                     <spell name="DRACONIC BLESSING" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains +2 STR and Terror.</spell>
                     <spell name="FOG OF WAR" cost="3" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Models gain concealment while in this model's control area.</spell>
@@ -89,7 +89,7 @@
                             <capacity title="CRITICAL FREEZE">On a critical hit, the model hit becomes stationary for one round unless it has Immunity: Cold.</capacity>
                         </ranged_weapon>
                     </weapons>
-                    <feat title="Dragon Storm"><![CDATA[After all friendly models have completed their activations this turn, each warbeast in Thagrosh's battlegroup that is in his control area can make a full advance followed by one normal melee attack. Completely resolve each model's movement and attack before moving on to the next model.]]></feat>
+                    <feat title="DRAGON STORM"><![CDATA[After all friendly models have completed their activations this turn, each warbeast in Thagrosh's battlegroup that is in his control area can make a full advance followed by one normal melee attack. Completely resolve each model's movement and attack before moving on to the next model.]]></feat>
                     <spell name="DRAGON'S BLOOD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly non-warlock Faction model/unit gains +2 ARM. When an affected model is disabled by a melee attack, roll a d6. On a roll of 5 or 6, the attacker suffers 1 damage point.</spell>
                     <spell name="FLESH EATER" cost="3" rng="10" aoe="-" pow="13" up="NO" off="YES">When a living enemy model is boxed by Flesh Eater, it is removed from play and this model or a living warbeast in its battlegroup in its control area heals d3 damage points.</spell>
                     <spell name="MANIFEST DESTINY" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, models in its battlegroup gain an additional die on melee attack and melee damage rolls this turn. Discard the lowest die of each roll.</spell>
@@ -107,7 +107,7 @@
                             <capacity title="SPELLBOUND">This model can channel spells through a model hit by an attack made with this weapon. Spellbound lasts for one turn.</capacity>
                         </ranged_weapon>
                     </weapons>
-                    <feat title="Cat &amp; Mouse"><![CDATA[At the end of this turn after all friendly models have ended their activations, one friendly Faction model in Vayl's control area can make a full advance for each enemy model in her control area at that time. During this movement, the affected model cannot be targeted by free strikes. A model can advance only once per turn as a result of Cat &amp;amp;amp; Mouse.]]></feat>
+                    <feat title="CAT &AMP; MOUSE"><![CDATA[At the end of this turn after all friendly models have ended their activations, one friendly Faction model in Vayl's control area can make a full advance for each enemy model in her control area at that time. During this movement, the affected model cannot be targeted by free strikes. A model can advance only once per turn as a result of Cat &amp;amp;amp; Mouse.]]></feat>
                     <spell name="CHILLER" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">While within 2" of target friendly Faction model/unit, enemy models suffer –2 DEF unless they have Immunity: Cold.</spell>
                     <spell name="HOARFROST" cost="3" rng="8" aoe="3" pow="14" up="NO" off="YES">Hoarfrost causes cold damage. On a critical hit, models in the AOE become stationary for one round unless they have Immunity: Cold.</spell>
                     <spell name="INCITE" cost="3" rng="SELF" aoe="-" pow="-" up="NO" off="NO">Models in this model's battlegroup gain +2 to attack and damage rolls against enemy models while the enemy model's are in this model's command range. Incite lasts for one turn.</spell>
@@ -125,7 +125,7 @@
                             <capacity title="SPELLBOUND">This model can channel spells through a model hit by an attack made with this weapon. Spellbound lasts for one turn.</capacity>
                         </ranged_weapon>
                     </weapons>
-                    <feat title="Dark Miracles"><![CDATA[This activation Vayl can cast each of the spells on her card once without spending fury points.]]></feat>
+                    <feat title="DARK MIRACLES"><![CDATA[This activation Vayl can cast each of the spells on her card once without spending fury points.]]></feat>
                     <spell name="ADMONITION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy model advances and ends its movement within 6" of target model in this model’s battlegroup, the affected model can immediately advance up to 3", then Admonition expires. The affected model cannot be targeted by free strikes during this movement.</spell>
                     <spell name="ICY GRIP" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">Target enemy warrior model/unit without Immunity: Cold suffers –2 DEF and cannot run or make special attacks.</spell>
                     <spell name="OBLITERATION" cost="4" rng="10" aoe="4" pow="15" up="NO" off="YES">The force of this attack blasts apart the earth itself.</spell>
@@ -143,7 +143,7 @@
                             <capacity title="SPIRIT EATER">This model can reave fury points from enemy warbeasts destroyed by this weapon. Other models cannot reave fury points from enemy warbeasts destroyed by this weapon.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Tide of Blood"><![CDATA[Rhyas and friendly Legion models activating in her control area gain one additional melee attack during their activations. The first time a friendly Legion model damages an enemy model with a melee attack during its activation while in Rhyas' control area, immediately place the attacking model anywhere B2B with the damaged model. Tide of Blood lasts for one turn.]]></feat>
+                    <feat title="TIDE OF BLOOD"><![CDATA[Rhyas and friendly Legion models activating in her control area gain one additional melee attack during their activations. The first time a friendly Legion model damages an enemy model with a melee attack during its activation while in Rhyas' control area, immediately place the attacking model anywhere B2B with the damaged model. Tide of Blood lasts for one turn.]]></feat>
                     <spell name="DASH" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly Faction warrior models cannot be targeted by free strikes. This model and friendly Faction warrior models activating in its control area gain +1 SPD. Dash lasts for one turn.</spell>
                     <spell name="OCCULTATION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains Stealth.</spell>
                     <spell name="RAPPORT" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target warbeast in this model's battlegroup can use this model's current MAT and RAT in place of its own. This model can transfer damage to the warbeast even if it is not in this model's control area. This model can transfer damage to the warbeast once per turn without spending fury.</spell>
@@ -164,7 +164,7 @@
                             <capacity title="THROWN">Add this model's STR to the POW of this ranged attack.</capacity>
                         </ranged_weapon>
                     </weapons>
-                    <feat title="Foreboding"><![CDATA[While within her control area, small-, medium-, and large-based models in Saeryn’s battlegroup cannot be targeted by melee attacks for one round.]]></feat>
+                    <feat title="FOREBODING"><![CDATA[While within her control area, small-, medium-, and large-based models in Saeryn’s battlegroup cannot be targeted by melee attacks for one round.]]></feat>
                     <spell name="BANISHING WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Enemy upkeep spells on target friendly model/unit expire. Affected models cannot be targeted by enemy spells or animi.</spell>
                     <spell name="BLIGHT BRINGER" cost="4" rng="10" aoe="5" pow="12" up="NO" off="NO">Center a 5" AOE on target friendly Faction warbeast. Enemy models in the AOE when it is put in play are hit and suffer a POW 12 corrosion damage roll. An enemy model or friendly non-Faction model entering or ending its activation in the AOE suffers 1 of corrosion damage. Blight Bringer lasts for one round.</spell>
                     <spell name="BREATH STEALER" cost="2" rng="10" aoe="-" pow="-" up="NO" off="YES">Target model/unit suffers –2 SPD and DEF for one round. Breath Stealer can be cast only once per turn.</spell>
@@ -181,7 +181,7 @@
                             <capacity title="SPIRIT EATER">This model can reave fury points from enemy warbeasts destroyed by this weapon. Other models cannot reave fury points from enemy warbeasts destroyed by this weapon.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Panacea"><![CDATA[Remove all damage from Absylonia. She can then suffer 1 or more damage points. For each damage point she suffers, remove all damage from one warbeast in her battlegroup in her control area.]]></feat>
+                    <feat title="PANACEA"><![CDATA[Remove all damage from Absylonia. She can then suffer 1 or more damage points. For each damage point she suffers, remove all damage from one warbeast in her battlegroup in her control area.]]></feat>
                     <spell name="BLIGHT FIELD" cost="2" rng="CTRL" aoe="4" pow="-" up="NO" off="NO">Place the 4" AOE anywhere completely in this model's control area. While in the AOE, enemy models cannot be used to channel spells, be forced, or be allocated focus. The AOE remains in play for one round. Blight Field can be cast once per round.</spell>
                     <spell name="CARNIVORE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack rolls against living models. When an affected model boxes a living model with a melee attack, the boxed model is removed from play and this model heals d3 damage points.</spell>
                     <spell name="FORCED EVOLUTION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly living Faction warbeast gains +2 STR and DEF.</spell>
@@ -200,7 +200,7 @@
                             <capacity title="ENERGY SIPHON">When this attack hits an enemy model with 1 or more focus or fury points on it, that model loses 1 focus or fury point and this model gains 1 fury point.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Metamorphose"><![CDATA[Models in Absylonia's battlegroup that are currently in her control area gain +2 STR and Flight, and their melee weapons gain Reach. Metamorphose lasts for one round.]]></feat>
+                    <feat title="METAMORPHOSE"><![CDATA[Models in Absylonia's battlegroup that are currently in her control area gain +2 STR and Flight, and their melee weapons gain Reach. Metamorphose lasts for one round.]]></feat>
                     <spell name="FORTIFY" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target warbeast in this model's battlegroup gains +2 ARM. The affected model and any friendly model B2B with it cannot be knocked down, pushed, or moved by a slam.</spell>
                     <spell name="PSYCHO SUGERY" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Each model in this model's battlegroup currently in its control area immediately heals d3+1 damage points. This spell can only be cast once per turn.</spell>
                     <spell name="RETURN FIRE" cost="1" rng="6" aoe="-" pow="-" up="NO" off="NO">When target friendly Faction model is targeted by an enemy ranged attack, after the attack is resolved the affected model can make one normal melee or ranged attack, then Return Fire expires. Return Fire lasts for one round.</spell>
@@ -213,7 +213,7 @@
                     <weapons>
                         <melee_weapon name="Talons of Everblight" pow="5" count="2" p_plus_s="10" magical="true" continuous_corrosion="true" />
                     </weapons>
-                    <feat title="Litany of Everblight"><![CDATA[While in this model's control area, friendly Faction models gain boosted magic attack rolls and magic damage rolls, and friendly Faction warbeasts can use their animi without being forced. Litany of Everblight lasts for one turn.]]></feat>
+                    <feat title="LITANY OF EVERBLIGHT"><![CDATA[While in this model's control area, friendly Faction models gain boosted magic attack rolls and magic damage rolls, and friendly Faction warbeasts can use their animi without being forced. Litany of Everblight lasts for one turn.]]></feat>
                     <spell name="ASHEN VEIL" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains concealment. Living enemy models suffer –2 to attack rolls while within 2" of an affected model.</spell>
                     <spell name="BLOOD THORN" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit's ranged and melee weapons gain the Corrosion continuous effect.</spell>
                     <spell name="CARNIVORE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack rolls against living models. When an affected model boxes a living model with a melee attack, the boxed model is removed from play and this model heals d3 damage points.</spell>
@@ -228,7 +228,7 @@
                             <capacity title="FLAME BURST">When this model boxes an enemy model with this weapon, enemy models within 1" of the boxed model suffer the Fire continuous effect.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Host of Angels"><![CDATA[When a friendly living non-Incubus warrior model in Kallus' control area is disabled by an enemy attack, you can replace it with an Incubus model. The replaced model is removed from play. While in Kallus' control area friendly soulless warrior models gain +2 DEF. Host of Angels lasts for one round.]]></feat>
+                    <feat title="HOST OF ANGELS"><![CDATA[When a friendly living non-Incubus warrior model in Kallus' control area is disabled by an enemy attack, you can replace it with an Incubus model. The replaced model is removed from play. While in Kallus' control area friendly soulless warrior models gain +2 DEF. Host of Angels lasts for one round.]]></feat>
                     <spell name="DARK GUIDANCE" cost="4" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly Faction models gain an additional die on their melee attack rolls this turn.</spell>
                     <spell name="ERUPTION" cost="3" rng="8" aoe="3" pow="14" up="NO" off="YES">Models hit suffer a POW 14 fire damage roll. The AOE is a cloud effect that remains in play for one round. Models entering or ending their activation in the AOE suffer an unboostable POW 14 fire damage roll.</spell>
                     <spell name="FLASHING BLADE" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model immediately makes one normal melee attack with one of its melee weapons against each enemy model in its LOS that is in the weapon's melee range. These attacks are simultaneous.</spell>
@@ -244,29 +244,29 @@
                             <capacity title="DISPEL">When this weapon hits a model/ unit, upkeep spells on that model/unit immediately expire.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Conjoined Spirits"><![CDATA[This feat can be used once per game by either Saeryn or Rhyas. When this feat is used, either Saeryn and Rhyas immediately trade places or you can return one of them to play. If you choose to return Saeryn or Rhyas to play, place the returned model within 3" of the model that used this feat. The returned model comes into play with a number of fury points equal to its FURY. After using Conjoined Spirits, models in this unit cannot advance for one turn.]]></feat>
+                    <feat title="CONJOINED SPIRITS"><![CDATA[This feat can be used once per game by either Saeryn or Rhyas. When this feat is used, either Saeryn and Rhyas immediately trade places or you can return one of them to play. If you choose to return Saeryn or Rhyas to play, place the returned model within 3" of the model that used this feat. The returned model comes into play with a number of fury points equal to its FURY. After using Conjoined Spirits, models in this unit cannot advance for one turn.]]></feat>
                     <spell name="BANISHING WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Enemy upkeep spells on target friendly model/unit expire. Affected models cannot be targeted by enemy spells or animi.</spell>
                     <spell name="BLOOD RAIN" cost="3" rng="8" aoe="3" pow="12" up="NO" off="YES">Blood Rain causes corrosion damage. Models hit suffer the Corrosion continuous effect.</spell>
                     <spell name="MARKED FOR DEATH" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">Target enemy model/ unit suffers -2 DEF and loses lncorporeal and Stealth and cannot gain those abilities while affected by Marked for Death. Friendly Faction models can target an affected model regardless of LOS.</spell>
                     <spell name="PSYCHIC VAMPIRE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">When an enemy model casts a spell or uses an animus while in this model's control area, the enemy model suffers 1 damage point and this model heals 1 damage point.</spell>
                     <spell name="RAZOR WIND" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">A blade of wind slices through the target model.</spell>
-                    <capacity title="Bond of Blood [Rhyas]">This model can spend fury points to transfer damage to Rhyas.</capacity>
-                    <capacity title="Channeler [Rhyas]">While this model is not engaged and in Rhyas' control area, Rhyas can channel spells through it.</capacity>
-                    <capacity title="Twin Sister">Saeryn and Rhyas are both warlock models, but only Saeryn has the Officer advantage. Saeryn and Rhyas share a single battlegroup and count as one warlock for the purposes of army construction. Saeryn cannot make attacks against Rhyas, and Rhyas cannot make attacks against Saeryn. Saeryn and Rhyas cannot have an attached model. Your warlock is destroyed only if both Saeryn and Rhyas are destroyed or removed from play.</capacity>
+                    <capacity title="BOND OF BLOOD [RHYAS]">This model can spend fury points to transfer damage to Rhyas.</capacity>
+                    <capacity title="CHANNELER [RHYAS]">While this model is not engaged and in Rhyas' control area, Rhyas can channel spells through it.</capacity>
+                    <capacity title="TWIN SISTER">Saeryn and Rhyas are both warlock models, but only Saeryn has the Officer advantage. Saeryn and Rhyas share a single battlegroup and count as one warlock for the purposes of army construction. Saeryn cannot make attacks against Rhyas, and Rhyas cannot make attacks against Saeryn. Saeryn and Rhyas cannot have an attached model. Your warlock is destroyed only if both Saeryn and Rhyas are destroyed or removed from play.</capacity>
                     <model>
                         <basestats name="Rhyas" spd="7" str="5" mat="8" rat="6" def="16" arm="14" cmd="8" hitpoints="8" focus="5" />
                         <weapons>
                             <melee_weapon name="Antiphon" pow="7" p_plus_s="12" magical="true" reach="true" weapon_master="true">
-                                <capacity title="Critical Decapitation">On a critical hit, damage exceeding the ARM of the model hit is doubled. A model disabled by this attack cannot make a Tough roll.</capacity>
+                                <capacity title="CRITICAL DECAPITATION">On a critical hit, damage exceeding the ARM of the model hit is doubled. A model disabled by this attack cannot make a Tough roll.</capacity>
                             </melee_weapon>
                         </weapons>
                         <spell name="ONSLAUGHT" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Friendly Faction models beginning a charge in this model's control area gain Pathfinder during the charge.</spell>
                         <spell name="FLASHING BLADE" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This models immediately makes one normal melee attack with one of its melee weapons against each enemy model in its LOS that is in the weapon's melee range. These attacks are simultaneous.</spell>
                         <spell name="OCCULTATION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains Stealth.</spell>
-                        <capacity title="Acrobatics">This model can advance through other models if it has enough movement to move completely past their bases. This model cannot be targeted by free strikes. This model ignores intervening models when declaring its charge target.</capacity>
-                        <capacity title="Bond of Blood [Saeryn]"> This model can spend fury points to transfer damage to Saeryn.</capacity>
-                        <capacity title="Channeler [Saeryn]"> While this model is not engaged and in Saeryn's control area, Saeryn can channel spells through it.</capacity>
-                        <capacity title="Granted: Riposte"> While this model is in play, models in this unit gain Riposte. (When a model with Riposte is missed by an enemy melee attack, immediately after the attack is resoved it can make one normal melee attack against the attacking model.)</capacity>
+                        <capacity title="ACROBATICS">This model can advance through other models if it has enough movement to move completely past their bases. This model cannot be targeted by free strikes. This model ignores intervening models when declaring its charge target.</capacity>
+                        <capacity title="BOND OF BLOOD [SAERYN]"> This model can spend fury points to transfer damage to Saeryn.</capacity>
+                        <capacity title="CHANNELER [SAERYN]"> While this model is not engaged and in Saeryn's control area, Saeryn can channel spells through it.</capacity>
+                        <capacity title="GRANTED: RIPOSTE"> While this model is in play, models in this unit gain Riposte. (When a model with Riposte is missed by an enemy melee attack, immediately after the attack is resoved it can make one normal melee attack against the attacking model.)</capacity>
                     </model>
                 </warlock>
             </warlocks>

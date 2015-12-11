@@ -18,7 +18,7 @@
               <capacity title="SUSTAINED ATTACK">During this model's activation, when it makes an attack with this weapon against the last model hit by the weapon this activation, the attack automatically hits.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Consuming Blight"><![CDATA[Living enemy models currently in Asphyxious' control area suffer an unboostable POW 5 damage roll. Asphyxious gains up to 7 focus points. He cannot have more focus points than his current FOCUS as a result of Consuming Blight.]]></feat>
+          <feat title="CONSUMING BLIGHT"><![CDATA[Living enemy models currently in Asphyxious' control area suffer an unboostable POW 5 damage roll. Asphyxious gains up to 7 focus points. He cannot have more focus points than his current FOCUS as a result of Consuming Blight.]]></feat>
           <spell name="BREATH OF CORRUPTION" cost="3" rng="8" aoe="3" pow="12" up="NO" off="YES">Models hit suffer a POW l2 corrosion damage roll. The AOE is a cloud effect that remains in play for one round. Models entering or ending their activation in the AOE suffer 1 point of corrosion damage</spell>
           <spell name="HELLFIRE" cost="3" rng="10" aoe="-" pow="14" up="NO" off="YES">A model/unit hit by Hellfire must pass a command check or flee.</spell>
 		  <spell name="PARASITE" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers -3 ARM and this model gains +1 ARM.</spell>
@@ -36,7 +36,7 @@
               <capacity title="SOUL REAPER" type="*Action">Place a 5" AOE anywhere completely within this model's control area. The AOE remains in play for one round. When a living enemy model is destroyed in the AOE, this model gains one soul token. While the AOE is in play, this model cannot attack with Daeamortus and has no melee range.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Spectral legion"><![CDATA[Return up to ten friendly destroyed non-warcaster small- or medium-based Faction grunts to play, placing them within 3" of Asphyxious. Returned models gain Undead and Ghostly, become solos, and cannot be attacked or damaged for one turn. Returned models must charge during their activations and leave play at the end of this turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. A model with Ghostly cannot be targeted by free strikes.)]]></feat><!-- errata 12-2013 -->
+          <feat title="SPECTRAL LEGION"><![CDATA[Return up to ten friendly destroyed non-warcaster small- or medium-based Faction grunts to play, placing them within 3" of Asphyxious. Returned models gain Undead and Ghostly, become solos, and cannot be attacked or damaged for one turn. Returned models must charge during their activations and leave play at the end of this turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. A model with Ghostly cannot be targeted by free strikes.)]]></feat><!-- errata 12-2013 -->
           <spell name="CAUSTIC MIST" cost="2" rng="CTRL" aoe="3" pow="-" up="NO" off="NO">Place a 3" AOE cloud effect completely within this model's control area. A model entering or ending its activation in the AOE suffers 1 point of corrosion damage   Caustic Mist lasts for one round.</spell>
           <spell name="DEATH KNELL" cost="4" rng="8" aoe="4" pow="10" up="NO" off="YES">Before dealing damage, count the number of models in the AOE. Add the result to each Death Knell damage roll.</spell>
           <spell name="EXCARNATE" cost="3" rng="10" aoe="-" pow="13" up="NO" off="YES">When a living enemy warrior model is boxed by Excarnate, remove it from play. You can then add one Grunt to a friendly Faction small-based undead unit in this model's control area. The Grunt must be placed in formation and within 3" of this model.</spell>
@@ -52,7 +52,7 @@
               <capacity title="BLOOD BOON">Once per activation, immediately after resolving an attack in which it destroyed a living enemy model with this weapon, this model can cast a spell with COST 3 or less without spending focus.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Rites of Shadow"><![CDATA[When an enemy model is forced, casts a spell, and/or spends 1 or more focus or fury points while in Asphyxious' control area, Asphyxious heals d3 damage points and gains one soul token. Rites of Shadow lasts for one round.]]></feat>
+          <feat title="RITES OF SHADOW"><![CDATA[When an enemy model is forced, casts a spell, and/or spends 1 or more focus or fury points while in Asphyxious' control area, Asphyxious heals d3 damage points and gains one soul token. Rites of Shadow lasts for one round.]]></feat>
           <spell name="ASHEN VEIL" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model / unit gains concealment. Living enemy models suffer -2 to attack rolls while within 2" of an affected model.</spell>
           <spell name="BONE SHAKER" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">When this spell boxes a living or undead non-warcaster non-warlock enemy warrior model, you can immediately make a full advance with the enemy model followed by a normal melee attack, then the boxed model is removed from play. The boxed model cannot be targeted by free strikes during this movement.</spell>
           <spell name="CARNAGE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Friendly Faction models gain +2 to melee attack rolls against enemy models in this model's control area. Carnage lasts for one turn.</spell>
@@ -83,7 +83,7 @@
               <capacity title="SHADOW BIND">A model hit by this weapon suffers -3 DEF and when it advances it cannot move except to change facing. Shadow Bind expires after one round.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="The Withering"><![CDATA[Enemy models currently in Deneghra's control area suffer -2 to their SPD, STR, MAT, RAT, DEF, ARM, and FOCUS and cannot run or make special attacks. The Withering lasts for one round.]]></feat>
+          <feat title="THE WITHERING"><![CDATA[Enemy models currently in Deneghra's control area suffer -2 to their SPD, STR, MAT, RAT, DEF, ARM, and FOCUS and cannot run or make special attacks. The Withering lasts for one round.]]></feat>
           <spell name="CRIPPLING GRASP" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers -2 SPD, STR, DEF, and ARM and cannot run or make special attacks.</spell>
 <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
           <spell name="INFLUENCE" cost="1" rng="10" aoe="-" pow="-" up="NO" off="YES">Take control of target enemy non-warcaster, non-warlock warrior model. The model immediately makes one normal melee attack, then Influence expires.</spell>
@@ -103,7 +103,7 @@
               <capacity title="DARK BANISHMENT">When this model damages an enemy model with this weapon during its activation, after the attack is resolved you can place the enemy model anywhere completely within d6" of its current location, plus 1" for each focus point on this model.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Web of shadows"><![CDATA[Enemy models currently in Deneghra's control area suffer Shadow Bind for one round. (A model affected by Shadow Bind suffers -3 DEF and for one round when it advances it cannot move except to change facing.)]]></feat>
+          <feat title="WEB OF SHADOWS"><![CDATA[Enemy models currently in Deneghra's control area suffer Shadow Bind for one round. (A model affected by Shadow Bind suffers -3 DEF and for one round when it advances it cannot move except to change facing.)]]></feat>
           <spell name="CURSE OF SHADOWS" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers -2 ARM and cannot make free strikes. A model can advance through an affected model if it has enough movement to move completely past its base.</spell>
 		  <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
           <spell name="HELLMOUTH" cost="4" rng="8" aoe="*" pow="12" up="NO" off="YES">If this attack misses, nothing happens. If it hits, before making the damage roll, push models within 3" of the model hit 3" directly toward it in the order you choose. Then center a 3" AOE on the model hit. Models hit suffer a POW 12 damage roll. Models boxed by Hellmouth are removed from play.</spell>
@@ -125,7 +125,7 @@
               <mount_weapon name="BARBED TAIL" pow="12"></mount_weapon>
           </weapons>
 
-          <feat title="Hell Gate">Deneghra immediately gains seven soul tokens</feat>
+          <feat title="HELL GATE">Deneghra immediately gains seven soul tokens</feat>
 		  <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
           <spell name="GRAVE WIND" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model gains +2 DEF and Poltergeist. (When an enemy model misses the model with Poltergeist with an attack, immediately after the attack is resolved you can choose to push the enemy model d3" directly away from the model with Poltergeist.)</spell>
           <spell name="MORTALITY" cost="3" rng="10" aoe="-" pow="-" up="NO" off="YES">Target enemy model/unit suffers –2 DEF and ARM and cannot be healed. Mortality lasts for one round.</spell>
@@ -134,8 +134,8 @@
           <capacity title="CULL SOUL" type="">This model gains one soul token for each living enemy model destroyed within 2" of it. When this model replenishes its focus during your next Control Phase, replace each soul token on it with 1 focus point.</capacity>
           <capacity title="FLIGHT">This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movement to move completely past them. This model ignores intervening models when declaring its charge target.</capacity>
           <capacity title="SOUL MASTERY">Anytime during its activation, this model can spend soul tokens for the following effects. Each use of a Soul Mastery effect costs one soul token.</capacity>
-          <capacity title="● Arcane Spirits">This model can cast a spell with COST 3 or less without spending focus.</capacity>
-          <capacity title="● Vengeful Spirits">Choose a warjack in this model's battlegroup that is in its CMD range. The warjack is allocated up to 3 focus.</capacity>
+          <capacity title="● ARCANE SPIRITS">This model can cast a spell with COST 3 or less without spending focus.</capacity>
+          <capacity title="● VENGEFUL SPIRITS">Choose a warjack in this model's battlegroup that is in its CMD range. The warjack is allocated up to 3 focus.</capacity>
           <capacity title="SOUL WEAVER">During its activation, this model can choose a friendly model in its CMD range with Body Count, Cull Soul, Soul Collector, or Soul taker. Remove any number of soul tokens from the chosen model and place one soul token on this model for each token removed.</capacity>
         </warcaster>
 
@@ -146,7 +146,7 @@
               <capacity title="DEATHWALK">When this model boxes a living enemy warrior model  with an attack with this weapon and the Deathwalker is not in play, remove the boxed model from play and replace it with the Deathwalker.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Dark summons">Goreshade summons a unit of Bane Thralls. Place one Leader and five Grunts within 3" of Goreshade.</feat>
+          <feat title="DARK SUMMONS">Goreshade summons a unit of Bane Thralls. Place one Leader and five Grunts within 3" of Goreshade.</feat>
           <spell name="BLEED" cost="2" rng="8" aoe="-" pow="10" up="NO" off="YES">When Bleed destroys a living enemy model, this model heals d3 damage points.</spell>
           <spell name="HEX BLAST" cost="3" rng="10" aoe="3" pow="13" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire.</spell>
           <spell name="MAGE BLIGHT" cost="5" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, living enemy models cannot cast spells or use feats. Mage Blight lasts for one round.</spell>
@@ -170,7 +170,7 @@
               <capacity title="FREEZE">A model hit by this weapon becomes stationary for one round unless it has Immunity:Cold</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Reanimator"><![CDATA[Remove one or more friendly Faction warrior models currently in Goreshade's control area from play. For each model removed, return one destroyed non-character friendly Faction warrior model to play completely within Goreshade's control area. Place returned trooper models in formation with their original units. Returned models forfeit their actions the turn they return to play.]]></feat>
+          <feat title="REANIMATOR"><![CDATA[Remove one or more friendly Faction warrior models currently in Goreshade's control area from play. For each model removed, return one destroyed non-character friendly Faction warrior model to play completely within Goreshade's control area. Place returned trooper models in formation with their original units. Returned models forfeit their actions the turn they return to play.]]></feat>
           <spell name="CURSE OF SHADOWS" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers -2 ARM and cannot make free strikes. A model can advance through an affected model if it has enough movement to move completely past its base.</spell>
           <spell name="HEX BLAST" cost="3" rng="10" aoe="3" pow="13" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire.</spell>
           <spell name="OCCULTATION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains Stealth.</spell>
@@ -187,7 +187,7 @@
             </melee_weapon>
             <mount_weapon name="Mount" pow="12"></mount_weapon>
           </weapons>
-          <feat title="Winter's Grip">Center a 3" AOE on any number of friendly non-warcaster warrior models currently in Goreshade's control area. Enemy models without Immunity:Cold within one or more AOE become stationary for one round. Then the models the AOEs are centered on are destroyed.</feat>
+          <feat title="WINTER'S GRIP">Center a 3" AOE on any number of friendly non-warcaster warrior models currently in Goreshade's control area. Enemy models without Immunity:Cold within one or more AOE become stationary for one round. Then the models the AOEs are centered on are destroyed.</feat>
 
           <spell name="INFERNAL MACHINE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target warjack in this model's battlegroup gains Terror and +2 MAT and SPD.</spell>
       <spell name="MOCKERY OF LIFE" cost="2" rng="CTRL" aoe="-" pow="-" up="NO" off="NO">Return one destroyed Faction Undead grunt to play with one unmarked damage box. It must be placed in this model's control area in formation and within 3" of another model in its unit. The Grunt must forfeits its action the turn it isreturned to play.</spell>          
@@ -195,8 +195,8 @@
           <spell name="SCYTHING TOUCH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack damage rolls. Affected models gain Critical Corrosion on their normal melee attacks.</spell>
           <spell name="SIPHON BOLT" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">When this spell hits an enemy model with 1 or more focus or fury points on it, that model loses 1 focus or fury point and this model gains 1 focus point.</spell>
           
-          <capacity title="Ghostly">This model can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them.  This model cannot be targeted by free strikes.</capacity>
-          <capacity title="Spell Vortex">If a living enemy models cast a spell in this model's control area last turn, this model can cast one spell without spending focus during its activation this turn. </capacity>
+          <capacity title="GHOSTLY">This model can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them.  This model cannot be targeted by free strikes.</capacity>
+          <capacity title="SPELL VORTEX">If a living enemy models cast a spell in this model's control area last turn, this model can cast one spell without spending focus during its activation this turn. </capacity>
           
         </warcaster>
         <warcaster id="CW09" name="Scaverous" generation="P" full_name="Lord Exhumator Scaverous" qualification="Cryx Warcaster" focus="7" warjack_points="5" fa="C" completed="true">
@@ -206,7 +206,7 @@
               <capacity title="TRESHER" type="*Attack">This model makes one melee attack with this weapon against each model in its LOS and this weapon's melee range.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Black Gate"><![CDATA[While in this model's control area, friendly Faction models gain boosted magic attack rolls. When Scaverous casts a spell, reduce the COST of the spell by 1. When an enemy model casts a spell or uses an animus while in Scaverous' control area, increase the COST by 1. Black Gate lasts for one round,]]></feat>
+          <feat title="BLACK GATE"><![CDATA[While in this model's control area, friendly Faction models gain boosted magic attack rolls. When Scaverous casts a spell, reduce the COST of the spell by 1. When an enemy model casts a spell or uses an animus while in Scaverous' control area, increase the COST by 1. Black Gate lasts for one round,]]></feat>
           <spell name="DEATH WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains +2 ARM. If an affected warjack is damaged, you choose which column suffers the damage.</spell>
           <spell name="EXCARNATE" cost="3" rng="10" aoe="-" pow="13" up="NO" off="YES">When a living enemy warrior model is boxed by Excarnate, remove it from play. You can then add one Grunt to a friendly Faction small-based undead unit in this model's control area. The Grunt must be placed in formation and within 3" of this model.</spell>
           <spell name="FEAST OF WORMS" cost="4" rng="10" aoe="4" pow="12" up="YES" off="YES">While in the AOE, enemy models suffer -2 ARM. The AOE remains in play as long as upkeep is paid</spell>
@@ -231,7 +231,7 @@
               <capacity title="KNOCKDOWN">When a model is hit by an attack with this weapon, it is knocked down.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Blood Magic"><![CDATA[Skarre suffers up to 5 damage points. While in her control area, friendly Faction models gain +1 STR and ARM for each damage point she suffers as a result of Blood Magic. Blood Magic lasts for one round.]]></feat>
+          <feat title="BLOOD MAGIC"><![CDATA[Skarre suffers up to 5 damage points. While in her control area, friendly Faction models gain +1 STR and ARM for each damage point she suffers as a result of Blood Magic. Blood Magic lasts for one round.]]></feat>
           <spell name="BACKLASH" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">When target enemy warjack that is part of a battlegroup is damaged, its controller suffers l damage point</spell>
           <spell name="BLOOD RAIN" cost="3" rng="8" aoe="3" pow="12" up="NO" off="YES">Blood Rain causes corrosion damage. Models hit suffer the Corrosion continuous effect</spell>
           <spell name="DARK GUIDANCE" cost="4" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly Faction models gain an additional die on their melee attack rolls this turn.</spell>
@@ -251,7 +251,7 @@
             <melee_weapon name="Gun blade" pow="3" p_plus_s="9" />
             <ranged_weapon name="Hand canon" rng="12" rof="1" aoe="-" pow="12"/>
           </weapons>
-          <feat title="Fate Weaver"><![CDATA[Skarre suffers up to 5 damage points. For each damage point she suffers, one large-based or smaller model currently in her control area can be affected by Fate Weaver. An affected friendly model cannot be charged or targeted by enemy attacks for one round. An affected enemy model cannot make attacks for one round.]]></feat><!-- errata 12-2013 -->
+          <feat title="FATE WEAVER"><![CDATA[Skarre suffers up to 5 damage points. For each damage point she suffers, one large-based or smaller model currently in her control area can be affected by Fate Weaver. An affected friendly model cannot be charged or targeted by enemy attacks for one round. An affected enemy model cannot make attacks for one round.]]></feat><!-- errata 12-2013 -->
           <spell name="ADMONITION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy model advances and ends its movement within 6" of target model in this model's battlegroup, the affected model can immediately advance up to 3", then Admonition expires. The affected model cannot be targeted by free strikes during this movement.</spell>
           <spell name="BACKLASH" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">When target enemy warjack that is part of a battlegroup is damaged, its controller suffers l damage point</spell>
           <spell name="BLACK SPOT" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">Target enemy warrior model/unit suffers -2 DEF. When a friendly Faction model destroys one or more affected models with a melee or ranged attack during its activation, immediately after the attack is resolved it can make one additional melee or ranged attack regardless of ROF. Attacks gained from Black Spot cannot generate additional attacks from Black Spot.</spell>
@@ -270,7 +270,7 @@
           <weapons>
             <melee_weapon name="scavengers" pow="5" p_plus_s="12" magical="true" reach="true" count="2" />
           </weapons>
-          <feat title="Recalibration"><![CDATA[While in Mortenebra's control area, friendly Faction models can reroll attack and damage rolls this turn. Each roll can be rerolled only once as a result of Recalibration.]]></feat>
+          <feat title="RECALIBRATION"><![CDATA[While in Mortenebra's control area, friendly Faction models can reroll attack and damage rolls this turn. Each roll can be rerolled only once as a result of Recalibration.]]></feat>
           <spell name="DOOM SPIRAL" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">When Doom Spiral damages a warjack that is part of a battlegroup, its controller suffers d3 damage points.</spell>
           <spell name="JUMP START" cost="1" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Models in this model's battlegroup that are currently in its control area stand up and are no longer stationary. Affected models can turn to face any direction. Models that were knocked down this turn are not affected by Jump Start.</spell><!-- errata 12-2013 -->
           <spell name="OVERRUN" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">When target model in this model's battlegroup destroys one or more enemy models with an attack, immediately after the attack is resolved one model in this model's battlegroup that is in its control area can make a full advance, then Overrun expires. Overrun can be cast only once per turn and lasts for one turn</spell>
@@ -286,11 +286,11 @@
             <weapons>
               <melee_weapon name="Mechano claws" pow="4" p_plus_s="10" />
             </weapons>
-            <capacity title="Arcane extension [master necrotech mortenebra]">During your Control Phase, while this model is in Master Necrotech Mortenebra's control area Mortenebra can allocate focus to warjacks in her battlegroup that are in this model's command range.</capacity>
-            <capacity title="Attached to [master necrotech mortenebra]">This model is attached to Master Necrotech Mortenebra for the rest of the game.Each warcaster can have only one model attached to it.</capacity>
-            <capacity title="Companion [master necrotech mortenebra]">This model is included in any army that includes Master Necrotech Mortenebra.If Mortenebra is destroyed or removed from play, remove this model from play. This model is part of Mortenebra's battlegroup.</capacity>
-            <capacity title="Soul taker">This model gains one soul token when a living enemy model is destroyed within 2" of it. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
-            <capacity title="Spell slave" type="*Action">This model must be in its warcaster's control area to make the Spell Slave special action. When it does, it casts one of its warcaster's spells with a COST of 3 or less. The warcaster is considered to have cast that spell but this model is its point of origin. When making a magic attack roll, this model uses its warcaster's FOCUS. This model cannot cast spells with a RNG: of SELF or CTRL.</capacity>
+            <capacity title="ARCANE EXTENSION [MASTER NECROTECH MORTENEBRA]">During your Control Phase, while this model is in Master Necrotech Mortenebra's control area Mortenebra can allocate focus to warjacks in her battlegroup that are in this model's command range.</capacity>
+            <capacity title="ATTACHED TO [MASTER NECROTECH MORTENEBRA]">This model is attached to Master Necrotech Mortenebra for the rest of the game.Each warcaster can have only one model attached to it.</capacity>
+            <capacity title="COMPANION [MASTER NECROTECH MORTENEBRA]">This model is included in any army that includes Master Necrotech Mortenebra.If Mortenebra is destroyed or removed from play, remove this model from play. This model is part of Mortenebra's battlegroup.</capacity>
+            <capacity title="SOUL TAKER">This model gains one soul token when a living enemy model is destroyed within 2" of it. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
+            <capacity title="SPELL SLAVE" type="*Action">This model must be in its warcaster's control area to make the Spell Slave special action. When it does, it casts one of its warcaster's spells with a COST of 3 or less. The warcaster is considered to have cast that spell but this model is its point of origin. When making a magic attack roll, this model uses its warcaster's FOCUS. This model cannot cast spells with a RNG: of SELF or CTRL.</capacity>
           </model>
         </warcaster>
         <!-- ************************************************************* -->
@@ -305,7 +305,7 @@
             </melee_weapon>
             <ranged_weapon name="Dragon fire" rng="SP10" rof="1" aoe="-" pow="14" corrosion="true" continuous_corrosion="true" />
           </weapons>
-          <feat title="Dragon's call"><![CDATA[Terminus gains one soul token for each living enemy model destroyed in his control area. Terminus gains +1 ARM for each soul token on him. Dragon's Call lasts for one round.]]></feat>
+          <feat title="DRAGON'S CALL"><![CDATA[Terminus gains one soul token for each living enemy model destroyed in his control area. Terminus gains +1 ARM for each soul token on him. Dragon's Call lasts for one round.]]></feat>
           <spell name="ANNIHILATION" cost="4" rng="10" aoe="3" pow="10" up="NO" off="YES">Models hit suffer a POW 10 damage roll. Models boxed by Annihilation are removed from play. This model gains a soul token for each living non-soulless enemy model removed from play this way.</spell>
           <spell name="HELLFIRE" cost="3" rng="10" aoe="-" pow="14" up="NO" off="YES">A model/unit hit by Hellfire must pass a command check or flee.</spell>
           <spell name="MALEDICTION" cost="2" rng="SELF" aoe="*" pow="-" up="YES" off="NO">While within 2" of this model, enemy models suffer -2 DEF and ARM.</spell>
@@ -320,7 +320,7 @@
           <weapons>
             <melee_weapon name="Wyrmbane" pow="7" p_plus_s="14" magical="true" reach="true" />
           </weapons>
-          <feat title="Charnel flames"><![CDATA[When a model is destroyed in Venethrax's control area, before removing the model from the table center a  3"AOE cloud effect over it. The destroyed model does not provide a corpse token, Models with Eyeless Sight do not ignore these cloud effects, models entering a Charnel Flames AOE suffer 1 point of Fire damage. Charnel Flames lasts for one round]]></feat>
+          <feat title="CHARNEL FLAMES"><![CDATA[When a model is destroyed in Venethrax's control area, before removing the model from the table center a  3"AOE cloud effect over it. The destroyed model does not provide a corpse token, Models with Eyeless Sight do not ignore these cloud effects, models entering a Charnel Flames AOE suffer 1 point of Fire damage. Charnel Flames lasts for one round]]></feat>
           <spell name="BLOOD RAIN" cost="3" rng="8" aoe="3" pow="12" up="NO" off="YES">Blood Rain causes corrosion damage. Models hit suffer the Corrosion continuous effect</spell>
           <spell name="DRAGON SLAYER" cost="3" rng="SELF" aoe="-" pow="-" up="YES" off="NO">This model gains +2 STR and ARM. Models cannot reave fury from warbeasts destroyed by this model. When this model destroys an enemy model with fury points on it with an attack, this model gains a number of focus points equal to the fury points on the destroyed model.</spell>
           <spell name="HELLFIRE" cost="3" rng="10" aoe="-" pow="14" up="NO" off="YES">A model/unit hit by Hellfire must pass a command check or flee.</spell>
@@ -338,7 +338,7 @@
           <weapons>
             <melee_weapon name="Ritual blades" pow="3" p_plus_s="7" magical="true" />
           </weapons>
-          <feat title="Nightfall"><![CDATA[While in the Coven's control area, enemy models suffer -2 MAT and RAT and their LOS is reduced to 5". Nightfall lasts for one round.]]></feat>
+          <feat title="NIGHTFALL"><![CDATA[While in the Coven's control area, enemy models suffer -2 MAT and RAT and their LOS is reduced to 5". Nightfall lasts for one round.]]></feat>
           <spell name="CURSE OF SHADOWS" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers -2 ARM and cannot make free strikes. A model can advance through an affected model if it has enough movement to move completely past its base.</spell>
           <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
           <spell name="INFERNAL MACHINE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target warjack in this model's battlegroup gains Terror and +2 MAT and SPD.</spell>
@@ -374,15 +374,15 @@
           <basestats name="Sturgis" spd="6" str="6" mat="7" rat="5" def="15" arm="16" cmd="8" hitpoints="18" undead="true"/>
           <weapons>
               <melee_weapon p_plus_s="13" pow="7" name="Blade (Left)" magical="true" reach="true">
-                  <capacity title="Soul Eater">This model gains one soul token for each living enemy model destroyed as a result of an attack made with this weapon. When this model replenishes its focus during your next Control Phase, replace each soul token on it with 1 focus point.</capacity>
-                  <capacity title="Chain Attack: Dark Shroud"> If this model hits the same target with both its initial melee attacks, after resolving the attacks it gains Dark Shroud for one turn. (While in the melee range of a model with Dark Shroud, enemy models suffer -2 ARM.)</capacity>
+                  <capacity title="SOUL EATER">This model gains one soul token for each living enemy model destroyed as a result of an attack made with this weapon. When this model replenishes its focus during your next Control Phase, replace each soul token on it with 1 focus point.</capacity>
+                  <capacity title="CHAIN ATTACK: DARK SHROUD"> If this model hits the same target with both its initial melee attacks, after resolving the attacks it gains Dark Shroud for one turn. (While in the melee range of a model with Dark Shroud, enemy models suffer -2 ARM.)</capacity>
               </melee_weapon>
               <melee_weapon p_plus_s="13" pow="7" name="Blade (Right)" magical="true" reach="true">
-                  <capacity title="Death Strike">If this attack destroys a living model, after resolving the attack choose a model within 4" of this model. The chosen model suffers a damage roll with a POW equal to the STR of the model destroyed by the attack. </capacity>
+                  <capacity title="DEATH STRIKE">If this attack destroys a living model, after resolving the attack choose a model within 4" of this model. The chosen model suffers a damage roll with a POW equal to the STR of the model destroyed by the attack. </capacity>
               </melee_weapon>
               <ranged_weapon pow="12" aoe="-" rng="12" rof="1" name="Hand Cannon"></ranged_weapon>
           </weapons>
-          <feat title="Dead on Arrival">Enemy non-warlock, non-warcaster models in Sturgis' control area are pushed 3" directly toward Sturgis in the order you choose. Then enemy models within 3" of Sturgis suffer a POW 12 magical damage roll. For each model destroyed by Dead on Arrival, you can allocate 1 focus point to a warjack in Sturgis' battlegroup in his control area.</feat>
+          <feat title="DEAD ON ARRIVAL">Enemy non-warlock, non-warcaster models in Sturgis' control area are pushed 3" directly toward Sturgis in the order you choose. Then enemy models within 3" of Sturgis suffer a POW 12 magical damage roll. For each model destroyed by Dead on Arrival, you can allocate 1 focus point to a warjack in Sturgis' battlegroup in his control area.</feat>
           
           <spell name="BLOOD RAIN" cost="3" rng="8" aoe="3" pow="12" up="NO" off="YES">Blood Rain causes corrosion damage. Models hit suffer the Corrosion continuous effect</spell>
           <spell name="CONVECTION" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">When Convection destroys a living enemy model, allocate 1 focus point to a warjack in this model's battlegroup that is in its control area.</spell>
@@ -391,9 +391,9 @@
           <spell name="TELEPORT" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">Place this model anywhere completely within 8" of its current location, then its activation ends.</spell>
           
           
-          <capacity title="Relentless Charge">This model gains Pathfinder during activations it charges.</capacity>
-          <capacity title="Reversal">When a model misses this model with a charge or a power attack, the attacking model is knocked down.</capacity>
-          <capacity title="Snap Strike">This model can make one additional attack with each melee weapon for each focus point spent to make additional attacks.</capacity>
+          <capacity title="RELENTLESS CHARGE">This model gains Pathfinder during activations it charges.</capacity>
+          <capacity title="REVERSAL">When a model misses this model with a charge or a power attack, the attacking model is knocked down.</capacity>
+          <capacity title="SNAP STRIKE">This model can make one additional attack with each melee weapon for each focus point spent to make additional attacks.</capacity>
         </warcaster>
       </warcasters>
       <warjacks>
@@ -417,10 +417,10 @@
             <melee_weapon name="Necrojector" pow="5" p_plus_s="15" location="R" open_fist="true" />
             <ranged_weapon name="Necrosludge cannon" rng="12" rof="1" aoe="-" pow="14" location="L" />
           </weapons>
-          <capacity title="Attack Type" type="">Each time this model makes a normal melee or ranged attack, choose one of the following abilities</capacity>
-          <capacity title="Burster" type="">When this attack boxes a living model, center a 3" AOE on that model, then remove the model from play. Models in the AOE are hit and suffer an unboostable POW 1O corrosion damage roll</capacity>
-          <capacity title="Distillation" type="">When a living enemy model is destroyed by this attack while this model is in its warcaster's control area, immediately after the attack is resolved the warcaster heals d3 damage points,</capacity>
-          <capacity title="Psycho Venom" type="">When a living enemy model is boxed by this attack, it heals 1 damage point. For the rest of the turn, this model's controlling warcaster can channel spells through the enemy model as if it were a model in his battlegroup with the Arc Node ability. At the end ofthe turn, the enemy model is destroyed.</capacity>
+          <capacity title="ATTACK TYPE" type="">Each time this model makes a normal melee or ranged attack, choose one of the following abilities</capacity>
+          <capacity title="BURSTER" type="">When this attack boxes a living model, center a 3" AOE on that model, then remove the model from play. Models in the AOE are hit and suffer an unboostable POW 1O corrosion damage roll</capacity>
+          <capacity title="DISTILLATION" type="">When a living enemy model is destroyed by this attack while this model is in its warcaster's control area, immediately after the attack is resolved the warcaster heals d3 damage points,</capacity>
+          <capacity title="PSYCHO VENOM" type="">When a living enemy model is boxed by this attack, it heals 1 damage point. For the rest of the turn, this model's controlling warcaster can channel spells through the enemy model as if it were a model in his battlegroup with the Arc Node ability. At the end ofthe turn, the enemy model is destroyed.</capacity>
         </warjack>
         <warjack id="CJ12" name="Deathjack" full_name="Deathjack" qualification="Cryx Character Helljack" fa="C" cost="12" damage_grid="x....x.............L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="Deathjack" spd="6" str="12" mat="8" rat="4" def="13" arm="19" cmd="0" abomination="true" advance_deployment="true" />
@@ -459,9 +459,9 @@
               <capacity title="SCATTER">This attacks AOE remains in play for one round. Enemy models and non-Faction friendly models entering or ending their activations in the AOE suffer 1 point of corrosion damage.</capacity>
             </ranged_weapon>
           </weapons>
-          <capacity title="Accumulator [Bane]" type="">When this model begins its activation within 3" of one or more friendly Bane models, it is allocated 1 focus point.</capacity>
-          <capacity title="Amphibious" type="">This model ignores the effects of deep and shallow water and can move through them without penalty. While completely in deep water, it cannot be targeted by ranged or magic attacks and can make attacks only against other models in deep water. While completely in deep water, this model does not block LOS.</capacity>
-          <capacity title="Steady" type="">This model cannot be knocked down.</capacity>
+          <capacity title="ACCUMULATOR [BANE]" type="">When this model begins its activation within 3" of one or more friendly Bane models, it is allocated 1 focus point.</capacity>
+          <capacity title="AMPHIBIOUS" type="">This model ignores the effects of deep and shallow water and can move through them without penalty. While completely in deep water, it cannot be targeted by ranged or magic attacks and can make attacks only against other models in deep water. While completely in deep water, this model does not block LOS.</capacity>
+          <capacity title="STEADY" type="">This model cannot be knocked down.</capacity>
         </warjack>
         <warjack id="CJ19" name="Erebus" full_name="Erebus" damage_grid="xx..xxx....x.......L..R.LLMCRRxMMCCx" cost="8" qualification="Cryx Character Helljack" fa="C" completed="true">
           <basestats name="Erebus" spd="6" str="10" mat="7" rat="5" def="14" arm="18" cmd="0" />
@@ -471,15 +471,15 @@
             </melee_weapon>
             <melee_weapon name="Deathclaw" pow="6" p_plus_s="16" location="L" open_fist="true" />
           </weapons>
-          <capacity title="Affinity[Scaverous]">When this model destroys a living enemy model while in Scaverous' control area, Scaverous gains the destroyed model's soul token</capacity>
-          <capacity title="Overtake">When this model destroys one or more enemy models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1"</capacity>
-          <capacity title="Poltergeist">When an enemy model misses this model with an attack, immediately after the attack is resolved you can choose to push the enemy model d3" directly away from this model.</capacity>
+          <capacity title="AFFINITY[SCAVEROUS]">When this model destroys a living enemy model while in Scaverous' control area, Scaverous gains the destroyed model's soul token</capacity>
+          <capacity title="OVERTAKE">When this model destroys one or more enemy models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1"</capacity>
+          <capacity title="POLTERGEIST">When an enemy model misses this model with an attack, immediately after the attack is resolved you can choose to push the enemy model d3" directly away from this model.</capacity>
         </warjack>
         <warjack id="CJ11" name="Harrower" full_name="Harrower" qualification="Cryx Helljack" fa="U" cost="10" damage_grid="xx..xx.............L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="Harrower" spd="5" str="12" mat="6" rat="5" def="12" arm="18" cmd="0" pathfinder="true" />
           <weapons>
             <melee_weapon name="Perisher" pow="4" p_plus_s="16" location="R" reach="true">
-              <capacity title="Tresher" type="*Attack">This model makes one melee attack with this weapon against each model in its LOS and this weapon's melee range.</capacity>
+              <capacity title="TRESHER" type="*Attack">This model makes one melee attack with this weapon against each model in its LOS and this weapon's melee range.</capacity>
             </melee_weapon>
             <ranged_weapon name="Mortifier" location="L" rng="10" rof="1" aoe="3" pow="14">
               <capacity title="GHOST SHOT">This model ignores LOS when making attacks with this weapon. When resolving attacks with this weapon, ignore concealment and cover.</capacity>
@@ -556,8 +556,8 @@
           <basestats name="Ripjaw" spd="7" str="7" mat="6" rat="5" def="15" arm="14" cmd="0" arc_node="true"/>
           <weapons>
               <melee_weapon p_plus_s="10" pow="3" name="Bone Saw" location="H">
-                  <capacity title="Armor Piercing" type="*Attack">When calculating damage from this attack, halve the base ARM stats of models hit that have medium or larger bases. This attack gains +2 to damage rolls against models with small bases.</capacity>
-                  <capacity title="Vice Lock" type="*Attack">This attack causes no damage. The model hit suffers -2 DEF and for one round cannot advance while within this model's melee range.</capacity>
+                  <capacity title="ARMOR PIERCING" type="*Attack">When calculating damage from this attack, halve the base ARM stats of models hit that have medium or larger bases. This attack gains +2 to damage rolls against models with small bases.</capacity>
+                  <capacity title="VICE LOCK" type="*Attack">This attack causes no damage. The model hit suffers -2 DEF and for one round cannot advance while within this model's melee range.</capacity>
               </melee_weapon>
           </weapons>
         </warjack>
@@ -574,7 +574,7 @@
           <basestats name="Seether" spd="6" str="10" mat="8" rat="5" def="13" arm="17" cmd="0" terror="true" />
           <weapons>
             <melee_weapon name="Deathclaw" pow="6" p_plus_s="16" location="R" open_fist="true">
-              <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
+              <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
             </melee_weapon>
             <melee_weapon name="Deathclaw" pow="6" p_plus_s="16" location="L" open_fist="true" />
             <melee_weapon name="Tusks" pow="2" p_plus_s="12" />
@@ -610,11 +610,11 @@
           <weapons>
               <melee_weapon p_plus_s="13" pow="3" name="Shield Claw" open_fist="true" shield="true"></melee_weapon>
               <melee_weapon p_plus_s="16" pow="6" name="Stinger" reach="true">
-                  <capacity title="Critical Poison">On a critical hit, gain an additional die on this weapon's damage rolls against living models.</capacity>
+                  <capacity title="CRITICAL POISON">On a critical hit, gain an additional die on this weapon's damage rolls against living models.</capacity>
               </melee_weapon>
           </weapons>
-          <capacity title="Shield Guard">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity>
-          <capacity title="Soul Drive">This model is allocated 1 additional focus point during your Control Phase.</capacity>
+          <capacity title="SHIELD GUARD">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity>
+          <capacity title="SOUL DRIVE">This model is allocated 1 additional focus point during your Control Phase.</capacity>
         </warjack>
         <warjack id="CJ23" name="Barathrum" full_name="Barathrum" damage_grid="xx..xxx....x.......L..R.LLMCRRxMMCCx" cost="10" qualification="Cryx Heavy Character Warjack" fa="C" completed="true">
           <basestats name="Barathrum" spd="6" str="10" mat="8" rat="5" def="13" arm="17" cmd="0" advance_deployment="true" terror="true"/>
@@ -641,9 +641,9 @@
                   <capacity title="THRESHING BLADES">This model can add this weapon's POW to its trample power attack damage rolls.</capacity>
               </melee_weapon>
           </weapons>
-          <capacity title="Blade Rush">While making a trample power attack, this model ignores free strikes and does not stop when it contacts a model with a medium or larger base, an obstacle, or an obstruction. This model makes trample attacks against models regardless of their base size.</capacity>
-          <capacity title="Flight">This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movement to move completely past them. This model ignores intervening models when declaring its charge target.</capacity>
-          <capacity title="Power Attack Trample">This model can make Trample power attacks.</capacity>
+          <capacity title="BLADE RUSH">While making a trample power attack, this model ignores free strikes and does not stop when it contacts a model with a medium or larger base, an obstacle, or an obstruction. This model makes trample attacks against models regardless of their base size.</capacity>
+          <capacity title="FLIGHT">This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movement to move completely past them. This model ignores intervening models when declaring its charge target.</capacity>
+          <capacity title="POWER ATTACK TRAMPLE">This model can make Trample power attacks.</capacity>
         </warjack>
       </warjacks>
       <colossals>
@@ -722,7 +722,7 @@
           <basestats name="Leader and Grunts" spd="5" str="7" mat="6" rat="4" def="12" arm="16" cmd="8" undead="true" />
           <weapons>
             <melee_weapon name="Bane Lance" pow="4" p_plus_s="11" reach="true" weapon_master="true">
-              <capacity title="Weapon Master">When attacking with the listed weapon, this model rolls an additional die on its damage rolls</capacity>
+              <capacity title="WEAPON MASTER">When attacking with the listed weapon, this model rolls an additional die on its damage rolls</capacity>
             </melee_weapon>
           </weapons>
           <capacity title="GHOSTLY">This model can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. This model cannot be targeted by free strikes.</capacity>
@@ -739,21 +739,21 @@
               <basestats name="Officer" spd="5" str="7" mat="7" rat="4" def="12" arm="15" cmd="9" officer="true" undead="true" stealth="true" hitpoints="5" />
               <weapons>
                 <melee_weapon name="War axe" pow="4" p_plus_s="11" weapon_master="true" count="2">
-                  <capacity title="Weapon Master">When attacking with the listed weapon, this model rolls an additional die on its damage rolls</capacity>
+                  <capacity title="WEAPON MASTER">When attacking with the listed weapon, this model rolls an additional die on its damage rolls</capacity>
                 </melee_weapon>
               </weapons>
               <capacity title="DARK SHROUD">While in this model's melee range, enemy models suffer -2 ARM.</capacity>
-              <capacity title="GRANTED: Dead rise">While this model is in play, after resolving continuous effects during your maintenance phase, knocked down models in its unit stand up and stationary models it its unit are no longer stationary</capacity>
+              <capacity title="GRANTED: DEAD RISE">While this model is in play, after resolving continuous effects during your maintenance phase, knocked down models in its unit stand up and stationary models it its unit are no longer stationary</capacity>
             </model>
             <model id="standard" name="Standard Bearer" full_name="Standard Bearer">
               <basestats name="Standard Bearer" spd="5" str="7" mat="6" rat="4" def="12" arm="15" cmd="8" undead="true" standard_bearer="true" stealth="true" />
               <weapons>
                 <melee_weapon name="War axe" pow="4" p_plus_s="11" weapon_master="true">
-                  <capacity title="Weapon Master">When attacking with the listed weapon, this model rolls an additional die on its damage rolls</capacity>
+                  <capacity title="WEAPON MASTER">When attacking with the listed weapon, this model rolls an additional die on its damage rolls</capacity>
                 </melee_weapon>
               </weapons>
               <capacity title="DARK SHROUD">See above.</capacity>
-              <capacity title="GRANTED: tough">While this model is in play, models in its unit gain Tough</capacity>
+              <capacity title="GRANTED: TOUGH">While this model is in play, models in its unit gain Tough</capacity>
             </model>
           </unit_attachment>
         </unit>
@@ -761,7 +761,7 @@
           <basestats name="Leader and Grunts" spd="5" str="4" mat="2" rat="3" def="10" arm="13" cmd="7" undead="true" />
           <weapons>
             <ranged_weapon name="Bile cannon" rng="SP8" rof="1" aoe="-" pow="12" corrosion="true" continuous_corrosion="true">
-              <capacity title="Purge" type="*Attack">Each model within 6" of this model that is in its front arc is automatically hit unless this model's LOS to it is blocked by terrain. Models hit suffer a POW 12 corrosion damage roll and the Corrosion continuous effect. After this attack is resolved, remove this model from play. Purge is a ranged attack.</capacity>
+              <capacity title="PURGE" type="*Attack">Each model within 6" of this model that is in its front arc is automatically hit unless this model's LOS to it is blocked by terrain. Models hit suffer a POW 12 corrosion damage roll and the Corrosion continuous effect. After this attack is resolved, remove this model from play. Purge is a ranged attack.</capacity>
             </ranged_weapon>
           </weapons>
         </unit>
@@ -821,7 +821,7 @@
           </weapons>
           <capacity title="SELECTIVE">This unit can be included only in mercenary contract armies that list Cephalyx as possible members.</capacity>
           <capacity title="ANATOMICAL PRECISION">When this model's melee damage roll fails to exceed the ARM of the living model hit, that model suffers 1 damage point.</capacity>
-          <capacity title="DEATH TOLL [CEPHALYX MIND SLAVER &amp; DRUDGES]">When this model destroys a living enemy model with a melee attack, after the attack is resolved you can add one Grunt to a friendly Cephalyx Mind Slaver &amp; Drudges unit in this model's command range. The Grunt must be placed in formation and within 3" of this model. The destroyed model is removed from play but does not provide a soul or corpse token.</capacity>
+          <capacity title="DEATH TOLL [CEPHALYX MIND SLAVER &AMP; DRUDGES]">When this model destroys a living enemy model with a melee attack, after the attack is resolved you can add one Grunt to a friendly Cephalyx Mind Slaver &amp; Drudges unit in this model's command range. The Grunt must be placed in formation and within 3" of this model. The destroyed model is removed from play but does not provide a soul or corpse token.</capacity>
           <capacity title="MAGIC ABILITY">[7]</capacity>
           <capacity title="INFLUENCE" type="*Attack">Influence is a RNG 10 magic attack. Take control of target enemy non-warcaster, non-Warlock warrior model hit. The model immediately makes one normal melee attack, then Influence expires.</capacity>
           <capacity title="PSYCHIC ASSAULT" type="*Attack">Psychic Assault is a RNG SP8 magic attack. This attack ignores LOS. Models hit suffer a POW 12 damage roll.</capacity>
@@ -934,8 +934,8 @@
             <melee_weapon name="Horns" pow="3" p_plus_s="8" />
             <melee_weapon name="Blood razor" pow="5" p_plus_s="10" magical="true">
               <capacity title="BLOODLETTING">When this model makes an attack with this weapon during its activation, choose one of the following abilities:</capacity>
-              <capacity title="Blood Mist">If this attack boxes a living model, center a 3" AOE cloud effect on the boxed model and remove it from play. The cloud effect remains in play for one round.</capacity>
-              <capacity title="Death Strike">If this attack destroys a living model, after resolving the attack choose a model within 4" of this model. The chosen model suffers a damage roll with a POW equal to the STR of the model destroyed by the attack.</capacity>
+              <capacity title="BLOOD MIST">If this attack boxes a living model, center a 3" AOE cloud effect on the boxed model and remove it from play. The cloud effect remains in play for one round.</capacity>
+              <capacity title="DEATH STRIKE">If this attack destroys a living model, after resolving the attack choose a model within 4" of this model. The chosen model suffers a damage roll with a POW equal to the STR of the model destroyed by the attack.</capacity>
             </melee_weapon>
           </weapons>
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
@@ -946,8 +946,8 @@
                 <melee_weapon name="Horns" pow="3" p_plus_s="8" />
                 <melee_weapon name="Blood razor" pow="5" p_plus_s="10" magical="true">
                   <capacity title="BLOODLETTING">When this model makes an attack with this weapon during its activation, choose one of the following abilities:</capacity>
-                  <capacity title="*Blood Mist">If this attack boxes a living model, center a 3" AOE cloud effect on the boxed model and remove it from play. The cloud effect remains in play for one round.</capacity>
-                  <capacity title="*Death Strike">If this attack destroys a living model, after resolving the attack choose a model within 4" of this model. The chosen model suffers a damage roll with a POW equal to the STR of the model destroyed by the attack.</capacity>
+                  <capacity title="*BLOOD MIST">If this attack boxes a living model, center a 3" AOE cloud effect on the boxed model and remove it from play. The cloud effect remains in play for one round.</capacity>
+                  <capacity title="*DEATH STRIKE">If this attack destroys a living model, after resolving the attack choose a model within 4" of this model. The chosen model suffers a damage roll with a POW equal to the STR of the model destroyed by the attack.</capacity>
                   <capacity title="DISPEL">When this weapon hits a model/unit, upkeep spells on that model/unit immediately expire.</capacity>
                 </melee_weapon>
               </weapons>
@@ -1008,12 +1008,12 @@
           <basestats name="Leader and grunts" spd="7" str="7" mat="6" rat="4" def="12" arm="18" cmd="8" hitpoints="5" />
           <weapons>
               <melee_weapon p_plus_s="13" pow="5" name="Bane Blade" reach="true">
-                  <capacity title="Brutal charge">This model gains +2 to charge attack damage rolls with this weapon.</capacity>
+                  <capacity title="BRUTAL CHARGE">This model gains +2 to charge attack damage rolls with this weapon.</capacity>
               </melee_weapon>
               <mount_weapon name="Mount" pow="12"></mount_weapon>
           </weapons>
-          <capacity title="Curse [Bane Riders]">RNG CMD. Target enemy model/unit. If the model/unit is in range, it is cursed. A friendly Bane Riders model charging a cursed model gains +2" movement. Friendly Bane Riders models gain +2 to attack rolls against cursed models. Curse can be used once per activation and lasts one turn.</capacity>
-          <capacity title="Ghostly">This model can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. This model cannot be targeted by free strikes.</capacity>
+          <capacity title="CURSE [BANE RIDERS]">RNG CMD. Target enemy model/unit. If the model/unit is in range, it is cursed. A friendly Bane Riders model charging a cursed model gains +2" movement. Friendly Bane Riders models gain +2 to attack rolls against cursed models. Curse can be used once per activation and lasts one turn.</capacity>
+          <capacity title="GHOSTLY">This model can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. This model cannot be targeted by free strikes.</capacity>
         </unit>
       </units>
       <solos>
@@ -1021,7 +1021,7 @@
           <basestats name="Tartarus" spd="6" str="7" mat="7" rat="4" def="13" arm="17" cmd="9" commander="true" undead="true" terror="true" stealth="true" hitpoints="8" />
           <weapons>
             <melee_weapon name="Rivener" pow="5" p_plus_s="12" reach="true" weapon_master="true">
-              <capacity title="Tresher" type="*Attack">This model makes one melee attack with this weapon against each model in its LOS and this weapon's melee range.</capacity>
+              <capacity title="TRESHER" type="*Attack">This model makes one melee attack with this weapon against each model in its LOS and this weapon's melee range.</capacity>
             </melee_weapon>
           </weapons>
           <capacity title="CURSE [BANE]">RNG CMD. Target enemy model/unit. If the model/unit is in range, it is cursed. A friendly Bane model charging a cursed model gains +2" movement. Friendly Bane models gain +2 to attack rolls against cursed models. Curse can be used once per activation and lasts for one turn.</capacity>
@@ -1089,9 +1089,9 @@
           <weapons>
             <melee_weapon name="Fell-staff" pow="6" p_plus_s="13" magical="true" reach="true" />
           </weapons>
-          <capacity title="Circular vision">This model's front arc extends to 360°</capacity>
+          <capacity title="CIRCULAR VISION">This model's front arc extends to 360°</capacity>
           <capacity title="MAGIC ABILITY">[7]</capacity>
-          <capacity title="Cloak of Darkness" type="*Action">This model gains Stealth. While warjacks this models controls are B2B with it, they also gain Stealth. Cloak of Darkness lasts for one round.</capacity>
+          <capacity title="CLOAK OF DARKNESS" type="*Action">This model gains Stealth. While warjacks this models controls are B2B with it, they also gain Stealth. Cloak of Darkness lasts for one round.</capacity>
           <capacity title="DARK FIRE" type="*Attack">Dark Fire is a RNG 10, POW 12 magic attack. When a living enemy model is destroyed by Dark Fire, this model gains its soul token regardless of the proximity of other models.</capacity>
           <capacity title="SOUL MATRIX">While in this model's commande range during their activation, warjacks controlled by this model can spend soul tokens on this model to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
           <capacity title="SOUL TAKER">This model gains one soul token when a living enemy model is destroyed within 2" of it. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
@@ -1118,7 +1118,7 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <capacity title="CREATE SCRAP THRALL [8]" type="*Action">To use this special action, this model must be in base contact with a wreck marker. Make a skill check. If it passes, d3 Scrap Thralls are created from a light wreck marker or d6 from a heavy or colossal wreck marker.. Remove the wreck marker from play and place the Scrap Thralls within 3" of this model. Placed Scrap Thralls cannot activate this turn.</capacity><!-- errata 12-2013 -->
           <capacity title="REPAIR [8]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
           <capacity title="STEADY">This model cannot be knocked down.</capacity>
-          <capacity title="Model count">1 Necrotech + 1 scrapthrall</capacity>
+          <capacity title="MODEL COUNT">1 Necrotech + 1 scrapthrall</capacity>
           <model id="scrap_thrall_with_necrotech" name="Scrap Thrall" full_name="Scrap Thrall" qualification="CRYX SOLO">
             <basestats name="Scrap Thrall" spd="5" str="4" mat="5" rat="3" def="11" arm="12" cmd="1" undead="true" />
             <weapons>
@@ -1137,7 +1137,7 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
             </melee_weapon>
           </weapons>
           <capacity title="THRALL BOMB">When this model is disabled, center a 4" AOE on it and then remove this model from play. Models in the AOE are hit and suffer a POW 8 blast damage roll.</capacity>
-          <capacity title="Model count">3 scrapthralls</capacity>
+          <capacity title="MODEL COUNT">3 scrapthralls</capacity>
         </solo>
         <solo id="CS06" name="Pistol Wraith" full_name="Pistol Wraith" qualification="CRYX SOLO" fa="2" cost="3" completed="true">
           <basestats name="Pistol Wraith" spd="6" str="4" mat="4" rat="7" def="14" arm="12" cmd="7" undead="true" gunfighter="true" incorporeal="true" hitpoints="5" />
@@ -1153,7 +1153,7 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <weapons>
             <melee_weapon name="Horns" pow="3" p_plus_s="8" />
             <melee_weapon name="Lacerator" pow="4" p_plus_s="9" reach="true" weapon_master="true">
-              <capacity title="Weapon Master">When attacking with the listed weapon, this model rolls an additional die on its damage rolls</capacity>
+              <capacity title="WEAPON MASTER">When attacking with the listed weapon, this model rolls an additional die on its damage rolls</capacity>
               <capacity title="CHAIN WEAPON">This attack ignores the Buckler and Shield weapon qualities and Shield Wall.</capacity>
               <capacity title="CRITICAL KNOCKDOWN">On a critical hit, the model hit is knocked down.</capacity>
               <capacity title="FEEDBACK">If this weapon damages a warjack that is part of a battlegroup, its controller suffers 1 damage point.</capacity>
@@ -1171,11 +1171,11 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
               <capacity title="SHADOW BIND">A model hit by this weapon suffers -3 DEF and when it advances it cannot move except to change facing. Shadow Bind expires after one round.</capacity>
             </melee_weapon>
           </weapons>
-          <capacity title="Parry">This model cannot be targeted by free strikes.</capacity>
+          <capacity title="PARRY">This model cannot be targeted by free strikes.</capacity>
           <capacity title="MAGIC ABILITY">[7]</capacity>
-          <capacity title="Power Booster" type="*Action">RNG 5. Target friendly Faction warjack, It the target warjack is in range and has no focus points, it gains 1 focus point. It the warjack is Disrupted, it is no longer Disrupted.</capacity>
-          <capacity title="Seduction" type="*Action">Take control of a living enemy non-warcaster, non-warlock warrior model B2B with this model. You can immediately make a full advance with the enemy model followed by a normal melee attack, then Seduction expires. The enemy model cannot be targeted by free strikes during this movement.</capacity>
-          <capacity title="Venom" type="*Attack">Venom is a RNG SP 8 magic attack. Models hit suffer a POW 10 corrosion damage roll and the Corrosion continuous effect</capacity>
+          <capacity title="POWER BOOSTER" type="*Action">RNG 5. Target friendly Faction warjack, It the target warjack is in range and has no focus points, it gains 1 focus point. It the warjack is Disrupted, it is no longer Disrupted.</capacity>
+          <capacity title="SEDUCTION" type="*Action">Take control of a living enemy non-warcaster, non-warlock warrior model B2B with this model. You can immediately make a full advance with the enemy model followed by a normal melee attack, then Seduction expires. The enemy model cannot be targeted by free strikes during this movement.</capacity>
+          <capacity title="VENOM" type="*Attack">Venom is a RNG SP 8 magic attack. Models hit suffer a POW 10 corrosion damage roll and the Corrosion continuous effect</capacity>
         </solo>
         <solo id="CS01" name="Skarlock Thrall" full_name="Skarlock Thrall" qualification="CRYX SOLO" fa="1" cost="2" warcaster_attachment="true" completed="true">
           <basestats name="Skarlock Thrall" spd="6" str="4" mat="3" rat="3" def="14" arm="12" cmd="6" undead="true" hitpoints="5" />
@@ -1196,20 +1196,20 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           </weapons>
           <spell name="DEATHBRINGERS" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While within this model's control area, the melee weapons of models in this model's battlegroup gain Grievous Wounds. (When a model is hit by a weapon with Grievous Wounds, for one round it loses Tough, cannot heal or be healed, and cannot transfer damage.)</spell>
           <spell name="ESCORT" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Warjacks in this model's battlegroup beginning their activations in its control area gain +2" movement. This model gains +2 ARM while one or more warjacks in its battlegroup are within 3" of it.</spell>
-          <capacity title="Journeyman Warcaster">This model is not a warcaster but has the following warcaster special rules: Battlegroup Commander, Control Area, Focus Manipulation, Power Field, and Spellcaster.</capacity>
-          <capacity title="Jump">After using its normal movement to make a full advance but before performing an action, you can place this model anywhere completely within 5" of its current location. Any effects that prevent it from charging also prevent it from using Jump.</capacity>
+          <capacity title="JOURNEYMAN WARCASTER">This model is not a warcaster but has the following warcaster special rules: Battlegroup Commander, Control Area, Focus Manipulation, Power Field, and Spellcaster.</capacity>
+          <capacity title="JUMP">After using its normal movement to make a full advance but before performing an action, you can place this model anywhere completely within 5" of its current location. Any effects that prevent it from charging also prevent it from using Jump.</capacity>
         </solo>
         <solo id="CS15" name="Skarlock Commander" full_name="Skarlock Commander" cost="1" qualification="Cryx Thrall Unit Attachment" fa="2" unit_attachment="true" completed="true">
           <basestats name="Skarlock Commander" spd="6" str="4" mat="6" rat="3" def="14" arm="12" cmd="8" hitpoints="5" undead="true" commander="true"/>
           <weapons>
               <melee_weapon p_plus_s="10" pow="6" name="Fell Spear" magical="true" reach="true"></melee_weapon>
           </weapons>
-          <capacity title="ATTACHMENT [Mecanithrall or Bile Thrall]">This attachment can be added to a Mecanithrall or Bile Thrall unit.</capacity>
-          <capacity title="Battle Wizard">Once per turn, when this model destroys one or more enemy models with a melee attack during its activation, immediately after the attack is resolved it can make one Magic Ability special attack or special action.</capacity>
-          <capacity title="Magic Ability [6]"></capacity>
-          <capacity title="* Dark Fire" type="*Attack">Dark fire is a RNG 10, POW 12 magic attack. When a living model is destroyed by Dark Fire, this model gains its soul token regardless of the proximity of other models.</capacity>
-          <capacity title="* Disbinding" type="*Action">Enemy upkeep spells on this model and/or its unit immediately expire</capacity>
-          <capacity title="Soul Taker">This model gains one soul token when a living enemy model is destroyed within 2" of it. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
+          <capacity title="ATTACHMENT [MECANITHRALL OR BILE THRALL]">This attachment can be added to a Mecanithrall or Bile Thrall unit.</capacity>
+          <capacity title="BATTLE WIZARD">Once per turn, when this model destroys one or more enemy models with a melee attack during its activation, immediately after the attack is resolved it can make one Magic Ability special attack or special action.</capacity>
+          <capacity title="MAGIC ABILITY [6]"></capacity>
+          <capacity title="* DARK FIRE" type="*Attack">Dark fire is a RNG 10, POW 12 magic attack. When a living model is destroyed by Dark Fire, this model gains its soul token regardless of the proximity of other models.</capacity>
+          <capacity title="* DISBINDING" type="*Action">Enemy upkeep spells on this model and/or its unit immediately expire</capacity>
+          <capacity title="SOUL TAKER">This model gains one soul token when a living enemy model is destroyed within 2" of it. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
           <restricted_to id="CU02"></restricted_to>
           <restricted_to id="CU03"></restricted_to>
         </solo>
@@ -1220,7 +1220,7 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           </weapons>
           <capacity title="SOUL COLLECTOR">This model gains one soul token when a living enemy model is destroyed within 10" of it. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
           <capacity title="SOUL TRANSFER" type="*Action">RNG 5. Target Friendly Faction model with Body Count, Cull Soul, Soul Collector, or Soul Taker. If the model is in range, remove any number of soul tokens from this model and place one soul token on the friendly model for each token removed.</capacity>
-          <capacity title="Model Count">2 Soul Trappers</capacity>
+          <capacity title="MODEL COUNT">2 Soul Trappers</capacity>
         </solo>
       </solos>
     </army>

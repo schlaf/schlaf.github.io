@@ -15,7 +15,7 @@
               <capacity title="DISPEL">When this weapon hits a model/unit, upkeep spells on the model/unit hit immediately expire.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Menoth's Wrath">Enemy models currently in Kreoss's control area are knocked down.</feat>
+          <feat title="MENOTH'S WRATH">Enemy models currently in Kreoss's control area are knocked down.</feat>
           <spell name="CLEANSING FIRE" cost="3" rng="8" aoe="3" pow="14" up="NO" off="YES">Cleansing Fire causes fire damage. On a critical hit, models hit suffer the Fire continuous effect.</spell>
           <spell name="DEFENDER'S WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains +2 DEF and ARM.</spell>
           <spell name="IMMOLATION" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">Immolation causes fire damage. On a critical hit, the model hit suffers the Fire continuous effect.</spell>
@@ -30,7 +30,7 @@
               <capacity title="SMITE (★ATTACK)" type="">Instead of making a normal damage roll, the model hit is slammed d6" directly away from this model and suffers a damage roll with POW equal to this model's current STR plus the POW of this weapon. The POW of collateral damage from this slam is equal to this model's STR.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Strength of Arms">When a friendly Faction model makes a melee attack against an enemy model while the enemy model is in Kreoss' control area, the attack automatically hits. While in Kreoss' control area, friendly Faction models can make one additional melee attack during their combat actions. Strength of Arms lasts for one turn.</feat>
+          <feat title="STRENGTH OF ARMS">When a friendly Faction model makes a melee attack against an enemy model while the enemy model is in Kreoss' control area, the attack automatically hits. While in Kreoss' control area, friendly Faction models can make one additional melee attack during their combat actions. Strength of Arms lasts for one turn.</feat>
           <spell name="CASTIGATE" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">For one round, enemy models lose the Arc Node advantage while in this model's control area.</spell>
           <spell name="CHASTEN" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">Enemy upkeep spells and animi on target model/unit damaged by Chasten expire.</spell>
           <spell name="CLEANSING FIRE" cost="3" rng="8" aoe="3" pow="14" up="NO" off="YES">Cleansing Fire causes fire damage. On a critical hit, models hit suffer the Fire continuous effect.</spell>
@@ -49,7 +49,7 @@
             </melee_weapon>
             <mount_weapon name="Mount" pow="12" />
           </weapons>
-          <feat title="Invocations of the True Law">Enemy upkeep spells and animi in Kreoss' control area immediately expire. Then Kreoss can immediately cast each upkeep spells on his card without spending focus points.</feat>
+          <feat title="INVOCATIONS OF THE TRUE LAW">Enemy upkeep spells and animi in Kreoss' control area immediately expire. Then Kreoss can immediately cast each upkeep spells on his card without spending focus points.</feat>
           <spell name="CREVASSE" cost="3" rng="8" aoe="-" pow="12" up="NO" off="YES">If Crevasse boxes its original target, you can make a SP 6 attack using the boxed model as the attack's point of origin. Models hit suffer a POW 12 magic damage roll. Models boxed by Crevasse are removed from play.</spell>
           <spell name="DEATH SENTENCE" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">When a friendly Faction model misses target enemy model/unit with an attack, it can reroll the attack roll. Each attack roll can be rerolled only once as a result of Death Sentence.</spell>
           <spell name="FORCE HAMMER" cost="4" rng="10" aoe="-" pow="12" up="NO" off="YES">Instead of suffering a normal damage roll, a non-incorporeal model Force Hammer hits is slammed d6" directly away from the spell's point of origin regardless of its base size and suffers a POW 12 damage roll. Collateral damage from this slam is POW 12.</spell>
@@ -65,7 +65,7 @@
           <weapons>
             <melee_weapon name="Cremator" pow="7" p_plus_s="14" magical="true" reach="true" continuous_fire="true" />
           </weapons>
-          <feat title="Resurrection">Return d3+3 friendly destroyed Faction troopers to play. Place those models in formation in their original units completely in the High Reclaimer's control area.</feat>
+          <feat title="RESURRECTION">Return d3+3 friendly destroyed Faction troopers to play. Place those models in formation in their original units completely in the High Reclaimer's control area.</feat>
           <spell name="ASHES TO ASHES" cost="4" rng="8" aoe="*" pow="10" up="NO" off="YES">If target model is hit, it and the d6 nearest enemy models within 5" of it suffer a POW 10 fire damage roll.</spell>
           <spell name="BURNING ASH" cost="1" rng="CTRL" aoe="3" pow="-" up="NO" off="NO">Place a 3" cloud effect anywhere within this model's control area. While in the AOE, living enemy models suffer –2 to attack rolls. The AOE remains in play for one round.</spell>
           <spell name="IMMOLATION" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">Immolation causes fire damage. On a critical hit, the model hit suffers the Fire continuous effect.</spell>
@@ -79,7 +79,7 @@
           <weapons>
             <melee_weapon name="Requiem" pow="7" p_plus_s="14" magical="true" reach="true" continuous_fire="true" />
           </weapons>
-          <feat title="Essence of Dust">Friendly Faction models currently in the Testament's control area gain Incorporeal. When declaring charges and slam power attacks, an affected model can ignore other models when determining LOS. Essence of Dust lasts for one turn.</feat>
+          <feat title="ESSENCE OF DUST">Friendly Faction models currently in the Testament's control area gain Incorporeal. When declaring charges and slam power attacks, an affected model can ignore other models when determining LOS. Essence of Dust lasts for one turn.</feat>
           <spell name="ASHEN VEIL" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains concealment. Living enemy models suffer –2 to attack rolls while within 2" of an affected model.</spell>
           <spell name="DUST TO DUST" cost="3" rng="10" aoe="-" pow="13" up="NO" off="YES">When a warrior model is boxed by Dust to Dust, center a 3" AOE cloud effect on it, then remove the model from play. The AOE remains in play for one round.</spell>
           <spell name="HALLOWED AVENGER" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy attack destroys or removes from play one or more friendly Faction models within 5" of target warjack in this model's battelgroup, after the attack is resolved the affected warjack can charge an enemy model, then Hallowed Avenger expires.</spell>
@@ -94,7 +94,7 @@
           <weapons>
             <melee_weapon name="Staff of Judgment" pow="8" p_plus_s="13" magical="true" reach="true" />
           </weapons>
-          <feat title="Divine Might">For one round, enemy models cannot cast spells and lose the Arc Node advantage while in Severius' control area. While in Severius control area, enemy models with the Focus Manipulation ability do not replenish focus points during their controller's next turn.</feat>
+          <feat title="DIVINE MIGHT">For one round, enemy models cannot cast spells and lose the Arc Node advantage while in Severius' control area. While in Severius control area, enemy models with the Focus Manipulation ability do not replenish focus points during their controller's next turn.</feat>
           <spell name="ASHES TO ASHES" cost="4" rng="8" aoe="*" pow="10" up="NO" off="YES">If target model is hit, it and the d6 nearest enemy models within 5" of it suffer a POW 10 fire damage roll.</spell>
           <spell name="DEATH SENTENCE" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">When a friendly Faction model misses target enemy model/unit with an attack, it can reroll the attack roll. Each attack roll can be rerolled only once as a result of Death Sentence.</spell>
           <spell name="DEFENDER'S WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains +2 DEF and ARM.</spell>
@@ -112,7 +112,7 @@
             </ranged_weapon>
       <melee_weapon name="Staff of Authority" pow="8" p_plus_s="13" magical="true" reach="true" />            
           </weapons>
-          <feat title="Fires of Communion">Either you take control of d3+3 living enemy Grunts currently in Severius' control area, or d3 +3 undead models currently in Severius' control area suffer a POW 12 fire damage roll. Decide before rolling. You choose the models affected. Controlled models become friendly solos for one turn.</feat>
+          <feat title="FIRES OF COMMUNION">Either you take control of d3+3 living enemy Grunts currently in Severius' control area, or d3 +3 undead models currently in Severius' control area suffer a POW 12 fire damage roll. Decide before rolling. You choose the models affected. Controlled models become friendly solos for one turn.</feat>
           <spell name="AWARENESS" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, the front arcs of models in its battlegroup are extended to 360° and when determining LOS those models ignore cloud effects, forests, and intervening models. Awareness lasts for one round.</spell>
           <spell name="CREATOR'S WRATH" cost="2" rng="SELF" aoe="-" pow="-" up="YES" off="NO">This model gains an additional die on melee attack and melee damage rolls. When making a melee attack, it ignores spell effects that add to the target's DEF or ARM.</spell>
           <spell name="FEAR OF GOD" cost="2" rng="10" aoe="-" pow="-" up="YES" off="YES">Target enemy model/unit cannot give orders, receive orders, or make special attacks.</spell>
@@ -129,7 +129,7 @@
       <melee_weapon name="Truth" pow="6" p_plus_s="13" magical="true" critical_fire="true" />
             <melee_weapon name="Consequence" pow="6" p_plus_s="13" magical="true" critical_fire="true" />            
           </weapons>
-          <feat title="Scorched Earth">Enemy models currently in Feora's control area suffer the Fire continuous effect.</feat>
+          <feat title="SCORCHED EARTH">Enemy models currently in Feora's control area suffer the Fire continuous effect.</feat>
           <spell name="BLAZING EFFIGY" cost="4" rng="8" aoe="*" pow="14" up="NO" off="NO">Enemy models within 2" of target friendly Faction warjack suffer a POW 14 fire damage roll.</spell>
           <spell name="ENGINE OF DESTRUCTION" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model gains +2 SPD, +4 STR, and +4 MAT for one round.</spell>
           <spell name="HEX HAMMER" cost="3" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">When an enemy model casts a spell or uses an animus while in this model's control area, after the spell or animus has been cast or used the enemy model suffers d3 damage points.</spell>
@@ -144,7 +144,7 @@
             <ranged_weapon name="Heavy Flame Thrower" count="0" rng="SP10" rof="1" aoe="-" pow="12" fire="true" continuous_fire="true" />
       <melee_weapon name="Apocalypse" pow="7" p_plus_s="14" magical="true" reach="true" critical_fire="true" />            
           </weapons>
-          <feat title="Wild Fire">Feora gains 1 focus point for each enemy model currently in her control area suffering the Fire continuous effect and can immediately allocate that focus to warjacks in her battlegroup in her control area. Feora can then remove the Fire continuous effects from any number of models in her control area. For each Fire continuous effect Feora removes, choose one model in her control area to suffer the Fire continuous effect.</feat>
+          <feat title="WILD FIRE">Feora gains 1 focus point for each enemy model currently in her control area suffering the Fire continuous effect and can immediately allocate that focus to warjacks in her battlegroup in her control area. Feora can then remove the Fire continuous effects from any number of models in her control area. For each Fire continuous effect Feora removes, choose one model in her control area to suffer the Fire continuous effect.</feat>
           <spell name="CLEANSING FIRE" cost="3" rng="8" aoe="3" pow="14" up="NO" off="YES">Cleansing Fire causes fire damage. On a critical hit, models hit suffer the Fire continuous effect.</spell>
           <spell name="CONVECTION" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">When Convection destroys a living enemy model, allocate 1 focus point to a warjack in this model’s battlegroup that is in its control area.</spell>
           <spell name="ESCORT" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Warjacks in this model's battlegroup beginning their activations in its control area gain +2" movement. This model gains +2 ARM while one or more warjacks in its battlegroup are within 3" of it.</spell>
@@ -164,7 +164,7 @@
               <capacity title="THRESHER (★ATTACK)" type="">This model makes one melee attack with this weapon against each model in its LOS and this weapon's melee range.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Union">While in Amon's control area, warjacks in Amon's battlegroup gain Perfect Balance. For each focus point Amon spends during his activation, allocate 1 focus point to a warjack in his battlegroup that was in his control area when he spent the focus. Union lasts for one round.</feat>
+          <feat title="UNION">While in Amon's control area, warjacks in Amon's battlegroup gain Perfect Balance. For each focus point Amon spends during his activation, allocate 1 focus point to a warjack in his battlegroup that was in his control area when he spent the focus. Union lasts for one round.</feat>
           <spell name="CONVECTION" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">When Convection destroys a living enemy model, allocate 1 focus point to a warjack in this model’s battlegroup that is in its control area.</spell>
           <spell name="FLAGELLATION" cost="2" rng="SELF" aoe="-" pow="-" up="YES" off="NO">When making melee attacks, this model ignores both focus points overboosting the target's Power Field and spell effects that add to its DEF or ARM. Models damaged by this model lose Tough and cannot be healed for one round.</spell>
           <spell name="MOBILITY" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Models in this model's battlegroup currently in its control area gain +2 SPD and Pathfinder for one turn.</spell>
@@ -179,7 +179,7 @@
               <capacity title="GUIDED">Attacks made with this weapon automatically hit.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Godhead">For one round, advancing enemy models that end their movement in the Harbinger's control area closer to her than they began suffer an unboostable POW 14 fire damage roll.</feat>
+          <feat title="GODHEAD">For one round, advancing enemy models that end their movement in the Harbinger's control area closer to her than they began suffer an unboostable POW 14 fire damage roll.</feat>
           <spell name="CATACLYSM" cost="4" rng="8" aoe="5" pow="20" up="NO" off="YES">Target enemy model is automatically hit. Reduce the base POW of Cataclysm by 1 for each full inch between the target and this model. Blast damage affects only enemy models. Cataclysm has no effect if the target model is out of range.</spell>
           <spell name="CRUSADER'S CALL" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Friendly faction models beginning a charge while in this model's control area this turn gain +2" movement.</spell>
           <spell name="FEAR OF GOD" cost="2" rng="10" aoe="-" pow="-" up="YES" off="YES">Target enemy model/unit cannot give orders, receive orders, or make special attacks.</spell>
@@ -196,7 +196,7 @@
               <capacity title="PURGATION">Gain an additional die on attack and damage rolls with this weapon against models with an enemy upkeep spell on them.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Judgment Day">Enemy models currently in Reznik's control area lose all focus and fury points. While in Reznik's control area, enemy models cannot upkeep spells or be allocated focus and those casting spells suffer the Fire continuous effect. Judgment Day lasts for one round.</feat>
+          <feat title="JUDGMENT DAY">Enemy models currently in Reznik's control area lose all focus and fury points. While in Reznik's control area, enemy models cannot upkeep spells or be allocated focus and those casting spells suffer the Fire continuous effect. Judgment Day lasts for one round.</feat>
           <spell name="ENGINE OF DESTRUCTION" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model gains +2 SPD, +4 STR, and +4 MAT for one round.</spell>
           <spell name="HEX BLAST" cost="3" rng="10" aoe="3" pow="13" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire.</spell>
           <spell name="IGNITE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack damage rolls. Affected models gain Critical Fire on their normal melee attacks.</spell>
@@ -213,7 +213,7 @@
             </melee_weapon>
             <mount_weapon name="Mount" pow="12" />
           </weapons>
-          <feat title="Purge the Unbelievers">While within Reznik's control area, enemy models suffer –2 DEF. When an enemy model is boxed by a melee or ranged attack in Reznik's control area, center a 4" AOE on the boxed model, then remove that model from play. Enemy models in the AOE are hit and suffer an unboostable POW 12 fire damage roll. Purge the Unbelievers lasts for one turn.</feat>
+          <feat title="PURGE THE UNBELIEVERS">While within Reznik's control area, enemy models suffer –2 DEF. When an enemy model is boxed by a melee or ranged attack in Reznik's control area, center a 4" AOE on the boxed model, then remove that model from play. Enemy models in the AOE are hit and suffer an unboostable POW 12 fire damage roll. Purge the Unbelievers lasts for one turn.</feat>
           <spell name="CREATOR'S WRATH" cost="2" rng="SELF" aoe="-" pow="-" up="YES" off="NO">This model gains an additional die on melee attack and melee damage rolls. When making a melee attack, it ignores spell effects that add to the target's DEF or ARM.</spell>
           <spell name="DEATH MARCH" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly unit gains +2 MAT and Vengeance. (During your Maintenance Phase, if one or more models in a unit with Vengeance were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.)</spell>
           <spell name="IRON AGGRESSION" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly warjack can run, charge, or make slam or trample power attacks without spending focus and gains boosted melee attack rolls.</spell>
@@ -232,7 +232,7 @@
               <capacity title="CHAIN WEAPON">This attack ignores the Buckler and Shield weapon qualities and Shield Wall.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Penitence">When one or more friendly Faction models are damaged by an enemy attack while in Vindictus' control area, immediately after the attack is resolved the attacker suffers 1 damage point. Penitence lasts for one round.</feat>
+          <feat title="PENITENCE">When one or more friendly Faction models are damaged by an enemy attack while in Vindictus' control area, immediately after the attack is resolved the attacker suffers 1 damage point. Penitence lasts for one round.</feat>
           <spell name="DEFENDER'S WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains +2 DEF and ARM.</spell>
           <spell name="IMMOLATION" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">Immolation causes fire damage. On a critical hit, the model hit suffers the Fire continuous effect.</spell>
           <spell name="RIFT" cost="3" rng="8" aoe="4" pow="13" up="NO" off="YES">The AOE is rough terrain and remains in play for one round.</spell>
@@ -247,7 +247,7 @@
             <melee_weapon name="Grief" pow="5" p_plus_s="11" magical="true" weapon_master="true" />
             <melee_weapon name="Lament" pow="5" p_plus_s="11" magical="true" weapon_master="true" />
           </weapons>
-          <feat title="Shadows of Urcaen">Immediately place Thyra anywhere completely within 2" of her current location. When a friendly Faction model activates in Thyra's control area, at the start of its activation you can place it anywhere completely within 2" of its current location. Shadows of Urcaen lasts for one turn.</feat>
+          <feat title="SHADOWS OF URCAEN">Immediately place Thyra anywhere completely within 2" of her current location. When a friendly Faction model activates in Thyra's control area, at the start of its activation you can place it anywhere completely within 2" of its current location. Shadows of Urcaen lasts for one turn.</feat>
           <spell name="CARNAGE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Friendly Faction models gain +2 to melee attack rolls against enemy models in this model's control area. Carnage lasts for one turn.</spell>
           <spell name="OCCULTATION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains Stealth.</spell>
           <spell name="PURSUIT" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">If target enemy model/unit advances during its normal movement, immediately after ending this movement one model in this model's battlegroup that is in its control area can make a full advance.</spell>
@@ -264,7 +264,7 @@
                   <capacity title="ERUPTION OF ASH">If a model is boxed by an attack made with this weapon, center a 3" AOE cloud effect on the boxed model and then remove that model form play. The AOE remains in play for one round. Enemy models in the AOE when it was put in play are hit and suffer a POW 12 fire damage roll. Enemy models entering or ending their activation in the AOE suffer a POW 12 fire damage roll. Eruption of Ash damage rolls cannot be boosted.</capacity>
               </melee_weapon>
           </weapons>
-          <feat title="Bastion of Faith">While in Durst's control area, warjacks in Durst's battlegroup gain +5 ARM. When a friendly Faction warrior model in Durst's control area is directly hit by an attack during your opponent's turn while B2B with a warjack in Durst's battlegroup, you can choose to have the warjack directly hit instead. The warjack is automatically hit and suffers all damage and effects. Bastion of Faith lasts for one round.</feat>
+          <feat title="BASTION OF FAITH">While in Durst's control area, warjacks in Durst's battlegroup gain +5 ARM. When a friendly Faction warrior model in Durst's control area is directly hit by an attack during your opponent's turn while B2B with a warjack in Durst's battlegroup, you can choose to have the warjack directly hit instead. The warjack is automatically hit and suffers all damage and effects. Bastion of Faith lasts for one round.</feat>
             <spell name="BOUNDLESS CHARGE" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">During its activation, target friendly model can charge without spending focus or being forced and gains +2" movement and Pathfinder when it charges. Boundless Charge lasts for one turn.</spell>
             <spell name="CLEANSING FIRE" cost="3" rng="8" aoe="3" pow="14" up="NO" off="YES">Cleansing Fire causes fire damage. On a critical hit, models hit suffer the Fire continuous effect.</spell>
             <spell name="DEFLECTION" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly Faction warrior models gain +2 ARM against ranged and magic attack damage rolls. Deflection lasts for one round.</spell>
@@ -481,10 +481,10 @@
                   <ranged_weapon name="Immolator Cannon" rng="SP8" rof="1" aoe="-" pow="14" fire="true" continuous_fire="true" location="L">
                   </ranged_weapon>
               </weapons>
-              <capacity title="Affinity[Feora]" type="">While in Feora's control area, this model gains boosted ranged attack rolls.</capacity>
-              <capacity title="Blazing Wrath">This model can charge without spending focus or being forced if its charge target is suffering the Fire continuous effect. </capacity>
-              <capacity title="Fuel for the Flames">When a model suffers a Fire damage roll, while within 5" of this model, add +2 to the roll.</capacity>
-              <capacity title="Special Issue[Feora]">This model can be included in Feora's theme forces. It can also be bonded to Feora.</capacity>
+              <capacity title="AFFINITY[FEORA]" type="">While in Feora's control area, this model gains boosted ranged attack rolls.</capacity>
+              <capacity title="BLAZING WRATH">This model can charge without spending focus or being forced if its charge target is suffering the Fire continuous effect. </capacity>
+              <capacity title="FUEL FOR THE FLAMES">When a model suffers a Fire damage roll, while within 5" of this model, add +2 to the roll.</capacity>
+              <capacity title="SPECIAL ISSUE[FEORA]">This model can be included in Feora's theme forces. It can also be bonded to Feora.</capacity>
           </warjack>
           <warjack id="PJ22" name="Purifier" full_name="Purifier" qualification="Protectorate Light Warjack" fa="U" cost="5" damage_grid="xxxxxxx....x.......L..R.LLMCRRxMMCCx" completed="true">
               <basestats name="Purifier" spd="5" str="9" mat="6" rat="4" def="13" arm="16" cmd="0" immunity_fire="true"/>
@@ -498,8 +498,8 @@
                       <capacity title="CHAIN WEAPON">See above.</capacity>
                   </melee_weapon>
               </weapons>
-              <capacity title="Flametrail" type="">When this model advances into B2B contact with an enemy model during its activation, the enemy model suffers the Fire continuous effect.</capacity>
-              <capacity title="Overtake">When this model destroys one or more enemy models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1"</capacity>
+              <capacity title="FLAMETRAIL" type="">When this model advances into B2B contact with an enemy model during its activation, the enemy model suffers the Fire continuous effect.</capacity>
+              <capacity title="OVERTAKE">When this model destroys one or more enemy models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1"</capacity>
           </warjack>
       </warjacks>
       <colossals>
@@ -778,7 +778,7 @@
                 <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
         <melee_weapon name="Kopis " pow="4" count="2" p_plus_s="10" />                
               </weapons>
-              <capacity title="ASSAULT &amp; BATTERY (ORDER)">Before their normal movement, affected models can make one ranged attack. During their normal movement, affected models must charge or run. The ranged attack is made before declaring a charge target.</capacity>
+              <capacity title="ASSAULT &AMP; BATTERY (ORDER)">Before their normal movement, affected models can make one ranged attack. During their normal movement, affected models must charge or run. The ranged attack is made before declaring a charge target.</capacity>
               <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
               <capacity title="TACTICS: COMBINED MELEE ATTACK">Models in this unit gain Combined Melee Attack.</capacity>
               <capacity title="ATTACHMENT [IDRIAN SKIRMISHER]" type="">This attachment can be added to an Idrian Skirmsishers unit.</capacity>
@@ -993,7 +993,7 @@
                       <capacity title="SET DEFENSE">A model in this model front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model.</capacity>
                   </melee_weapon>
                   <melee_weapon name="Shield" pow="1" p_plus_s="8" weapon_master="true">
-                      <capacity title="Beat back">Immediately after a normal attack with this weapon is resolved during this model's combat action, the enemy model hit can be pushed 1" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1".</capacity>
+                      <capacity title="BEAT BACK">Immediately after a normal attack with this weapon is resolved during this model's combat action, the enemy model hit can be pushed 1" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1".</capacity>
                   </melee_weapon>
               </weapons>
               <capacity title="IMPENETRABLE SHIELD">While this model is B2B with one or more friendly Temple Flameguard models, it does not suffer damage from non-magical melee or ranged attacks.</capacity>
