@@ -822,7 +822,7 @@
           <capacity title="SELECTIVE">This unit can be included only in mercenary contract armies that list Cephalyx as possible members.</capacity>
           <capacity title="ANATOMICAL PRECISION">When this model's melee damage roll fails to exceed the ARM of the living model hit, that model suffers 1 damage point.</capacity>
           <capacity title="DEATH TOLL [CEPHALYX MIND SLAVER &amp; DRUDGES]">When this model destroys a living enemy model with a melee attack, after the attack is resolved you can add one Grunt to a friendly Cephalyx Mind Slaver &amp; Drudges unit in this model's command range. The Grunt must be placed in formation and within 3" of this model. The destroyed model is removed from play but does not provide a soul or corpse token.</capacity>
-          <capacity title="MAGIC ABILITY">[7]</capacity>
+          <capacity title="MAGIC ABILITY [7]" />
           <capacity title="INFLUENCE" type="*Attack">Influence is a RNG 10 magic attack. Take control of target enemy non-warcaster, non-Warlock warrior model hit. The model immediately makes one normal melee attack, then Influence expires.</capacity>
           <capacity title="PSYCHIC ASSAULT" type="*Attack">Psychic Assault is a RNG SP8 magic attack. This attack ignores LOS. Models hit suffer a POW 12 damage roll.</capacity>
           <capacity title="SACRIFICIAL PAWN [DRUDGE GRUNT]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Drudge Grunt model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
@@ -977,7 +977,7 @@
           <capacity title="DISMANTLE">When this model hits a warjack with a melee attack, roll an additional damage die.</capacity>
           <capacity title="GRANTED: DARK INDUSTRIES">While this model is in play, when a model in its unit wrecks an enemy warjack with an attack while the warjack is in melee range of all three models in this unit, instead of replacing the warjack with a wreck marker you can replace it with a friendly autonomous Cryx warjack. Remove the enemy warjack from play. If it was a light warjack, you can replace it with a non-character bonejack. If it was a heavy warjack, you can replace it with a non-character helljack.</capacity>
           <capacity title="GRANTED: STEALTH">While this model is in play, models in its unit gain Stealth.</capacity>
-          <capacity title="MAGIC ABILITY">[7]</capacity>
+          <capacity title="MAGIC ABILITY [7]" />
           <capacity title="DARK FIRE" type="*Attack">Dark Fire is a RNG l0, POW 12 magic attack. When a living enemy model is destroyed by Dark Fire, this model gains its soul token regardless of the proximity of other models.</capacity>
           <capacity title="SOUL TAKER">This model gains one soul token when a living enemy model is destroyed within 2" of it. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at tone token per attack or boost.</capacity>
           <model id="Admonia" name="Admonia" full_name="Admonia">
@@ -987,7 +987,7 @@
             </weapons>
             <capacity title="BLACK ARTS">A friendly Faction warcaster with this model in its control area can upkeep one spell without spending focus.</capacity>
             <capacity title="DISMANTLE">See above.</capacity>
-            <capacity title="MAGIC ABILITY">[7]</capacity>
+            <capacity title="MAGIC ABILITY [7]" />
             <capacity title="DARK FIRE" type="*Attack">See above.</capacity>
             <capacity title="UNBINDING" type="*Action">Enemy upkeep spells on models/units within 5" of this model expire. Models suffer d3 damage points for each of those spells they controlled.</capacity>
             <capacity title="SOUL TAKER">See above.</capacity>
@@ -998,7 +998,7 @@
               <melee_weapon name="Lich claws" pow="6" p_plus_s="13" />
             </weapons>
             <capacity title="DISMANTLE">See above.</capacity>
-            <capacity title="MAGIC ABILITY">[7]</capacity>
+            <capacity title="MAGIC ABILITY [7]" />
             <capacity title="DARK FIRE" type="*Attack">See above.</capacity>
             <capacity title="PUPPET MASTER" type="*Action or attack">Puppet Master is a RNG 10 spell. When it targets an enemy model/unit, it is a magic attack. You can have one affected model reroll one or more dice of your choice  rolled for a command check, attack, or damage roll, then Puppet Master expires. Puppet Master lasts for one round.</capacity>
             <capacity title="SOUL TAKER">See above.</capacity>
@@ -1062,7 +1062,7 @@
           <capacity title="BATTLE WIZARD">Once per turn, when this model destroys one or more enemy models with a melee attack during its activation, immediately after the attack is resolved it can make one Magic Ability special attack or special action.</capacity>
           <capacity title="DRAGOON">While mounted, this model has base SPD 8 and base ARM 17. While dismounted, it has base SPD 6 and base ARM 15.</capacity>
           <capacity title="LEADERSHIP [SOULHUNTERS]">Friendly Soulhunter models activating while in this model's command range gain Incorporeal that activation.</capacity>
-          <capacity title="MAGIC ABILITY">[7]</capacity>
+          <capacity title="MAGIC ABILITY [7]" />
           <capacity title="BEYOND DEATH" type="*Action">While in this model's command range, living enemy models suffer -2 to damage rolls. Beyond Death lasts for one round.</capacity>
           <capacity title="DEATH RIDE" type="*Action">Friendly undead Faction models currently in this model's command range can immediately advance up to 1".</capacity>
           <capacity title="HELLFIRE" type="*Attack">Hellfire is a RNG 10, POW 14 magic attack. A model/unit hit by Hellfire must pass a command check or flee.</capacity>
@@ -1090,7 +1090,7 @@
             <melee_weapon name="Fell-staff" pow="6" p_plus_s="13" magical="true" reach="true" />
           </weapons>
           <capacity title="Circular vision">This model's front arc extends to 360°</capacity>
-          <capacity title="MAGIC ABILITY">[7]</capacity>
+          <capacity title="MAGIC ABILITY [7]" />
           <capacity title="Cloak of Darkness" type="*Action">This model gains Stealth. While warjacks this models controls are B2B with it, they also gain Stealth. Cloak of Darkness lasts for one round.</capacity>
           <capacity title="DARK FIRE" type="*Attack">Dark Fire is a RNG 10, POW 12 magic attack. When a living enemy model is destroyed by Dark Fire, this model gains its soul token regardless of the proximity of other models.</capacity>
           <capacity title="SOUL MATRIX">While in this model's commande range during their activation, warjacks controlled by this model can spend soul tokens on this model to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
@@ -1172,7 +1172,7 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
             </melee_weapon>
           </weapons>
           <capacity title="Parry">This model cannot be targeted by free strikes.</capacity>
-          <capacity title="MAGIC ABILITY">[7]</capacity>
+          <capacity title="MAGIC ABILITY [7]" />
           <capacity title="Power Booster" type="*Action">RNG 5. Target friendly Faction warjack, It the target warjack is in range and has no focus points, it gains 1 focus point. It the warjack is Disrupted, it is no longer Disrupted.</capacity>
           <capacity title="Seduction" type="*Action">Take control of a living enemy non-warcaster, non-warlock warrior model B2B with this model. You can immediately make a full advance with the enemy model followed by a normal melee attack, then Seduction expires. The enemy model cannot be targeted by free strikes during this movement.</capacity>
           <capacity title="Venom" type="*Attack">Venom is a RNG SP 8 magic attack. Models hit suffer a POW 10 corrosion damage roll and the Corrosion continuous effect</capacity>

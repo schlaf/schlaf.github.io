@@ -968,7 +968,7 @@
           </weapons>
             <capacity title="BATTLE WIZARD">Once per turn, when this model destroys one or more enemy models with a melee attack during its activation, immediately after the attack is resolved it can make one Magic Ability special attack or special action.</capacity>
             <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
-            <capacity title="MAGIC ABILITY">[7]</capacity>
+            <capacity title="MAGIC ABILITY [7]" />
             <capacity title="● Blizzard" type="*Action">RNG 5. Target friendly Faction model. If the model is in range, center a 3" AOE cloud effect on it. The AOE remains centered on the model for one round. If the target model is destroyed or removed from play, remove the AOE from play.</capacity>
             <capacity title="● Shock Bolt" type="*Attack"> Shock Bolt is a RNG 8, POW 12 magical attack that causes electrical damage. On a critical hit, instead of suffering a normal damage roll, a non-incorporeal model hit is slammed d3" directly away from this model regardless of its base size and suffers a POW 12 electrical damage roll. Collateral damage from this slam is POW 12.</capacity>
         </unit>
