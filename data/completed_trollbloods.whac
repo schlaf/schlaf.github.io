@@ -18,7 +18,7 @@
 				<capacity title="CRITICAL GRIEVOUS WOUNDS">See above.</capacity>              
             </melee_weapon>            
           </weapons>
-          <feat title="Crusher">While in Ironhide's control area, friendly Faction models gain Overtake. Additionally, when a friendly Faction model destroys one or more enemy models with a melee attack while the enemy model is in Ironhide's control area, the friendly model can make an additional melee attack. Crusher lasts for one turn. (When a model with Overtake destroys one or more enemy warrior models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1".) </feat>
+          <feat title="CRUSHER">While in Ironhide's control area, friendly Faction models gain Overtake. Additionally, when a friendly Faction model destroys one or more enemy models with a melee attack while the enemy model is in Ironhide's control area, the friendly model can make an additional melee attack. Crusher lasts for one turn. (When a model with Overtake destroys one or more enemy warrior models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1".) </feat>
           <spell name="CARNAGE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Friendly Faction models gain +2 to melee attack rolls against enemy models in this model's control area. Carnage lasts for one turn.</spell>
           <spell name="STRANGLEHOLD" cost="2" rng="10" aoe="-" pow="11" up="NO" off="YES">A model damaged by Stranglehold forfeits either its movement or its action during its next activation, as its controller chooses.</spell>
           <spell name="SURE FOOT" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model gains +2 DEF and cannot be knocked down. While within 3" of the affected model, friendly Faction models also gain +2 DEF and cannot be knocked down.</spell>
@@ -39,7 +39,7 @@
 			  <capacity title="RATHROK'S AWAKENING">See above.</capacity>              
             </melee_weapon>
           </weapons>
-          <feat title="Desperater Hour">Friendly Faction models currently in Ironhide's control area can immediately make one normal melee attack against each enemy model in melee range or one normal ranged attack ignoring ROF.</feat>
+          <feat title="DESPERATER HOUR">Friendly Faction models currently in Ironhide's control area can immediately make one normal melee attack against each enemy model in melee range or one normal ranged attack ignoring ROF.</feat>
           <spell name="BLOOD FURY" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly warrior model/unit gains an additional die on melee damage rolls but suffers –2 DEF.</spell>
           <spell name="KILLING GROUND" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Friendly Faction models beginning a charge in this model's control area gain Pathfinder. Warbeasts in this model's battlegroup beginning their activations in this model's control area can charge or make slam power attacks against enemy models without being forced. Killing Ground lasts for one turn.</spell>
           <spell name="WARPATH" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">When a friendly Faction model in this model's control area destroys one or more enemy models with a melee or ranged attack during its activation, immediately after the attack is resolved, one warbeast in this model's battlegroup that is in its control area can advance up to 3". A warbeast can advance only once per turn as a result of Warpath.</spell>
@@ -51,7 +51,7 @@
           <weapons>
             <melee_weapon name="Gnarlroot" pow="6" p_plus_s="12" magical="true" reach="true" />
           </weapons>
-          <feat title="Dhunia's Wrath">Enemy models suffer d6 damage points for each focus or fury point they spend while in Doomshaper's control area. Enemy warbeasts suffer d6 damage points for each fury point they receive as a result of being forced while in Doomshaper's control area. If a model is destroyed as a result of this damage while casting a spell or using an animus, the spell or animus does not take effect. If a model is destroyed as a result of this damage while making an attack, the target model suffers no further damage or effects from the attack. Dhunia's Wrath lasts for one round.</feat>
+          <feat title="DHUNIA'S WRATH">Enemy models suffer d6 damage points for each focus or fury point they spend while in Doomshaper's control area. Enemy warbeasts suffer d6 damage points for each fury point they receive as a result of being forced while in Doomshaper's control area. If a model is destroyed as a result of this damage while casting a spell or using an animus, the spell or animus does not take effect. If a model is destroyed as a result of this damage while making an attack, the target model suffers no further damage or effects from the attack. Dhunia's Wrath lasts for one round.</feat>
           <spell name="BANISHING WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Enemy upkeep spells on target friendly model/unit expire. Affected models cannot be targeted by enemy spells or animi.</spell>
           <spell name="FORTUNE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit can reroll its missed attack rolls. Each attack roll can be rerolled only once as a result of Fortune.</spell>
           <spell name="PURIFICATION" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Continuous effects, animi, and upkeep spells in this model’s control area immediately expire.</spell>
@@ -68,7 +68,7 @@
               <capacity title="POWERFUL ATTACK">When attacking with this weapon, this model can spend 1 fury point to boost all attack and damage rolls for the attack.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Scroll of Grimmr">Doomshaper and friendly Faction warbeasts in his battlegroup beginning their activations in his control area gain +3 SPD and can charge or make slam or trample power attacks without being forced. Scroll of Grimmr lasts for one turn.</feat>
+          <feat title="SCROLL OF GRIMMR">Doomshaper and friendly Faction warbeasts in his battlegroup beginning their activations in his control area gain +3 SPD and can charge or make slam or trample power attacks without being forced. Scroll of Grimmr lasts for one turn.</feat>
           <spell name="AGITATION" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Place 1 fury point on each enemy warbeast currently in this model's control area. This spell can only be cast once per turn.	</spell>
           <spell name="PRIMAL SHOCK" cost="2" rng="CTRL" aoe="-" pow="*" up="NO" off="YES">Choose a friendly Faction warbeast in this model's control area. Target an enemy model within 8" of the chosen warbeast and make a magic attack against it. The chosen warbeast is the attack's point of origin. If the enemy model is hit, it suffers a damage roll with a POW equal to the warbeast's base STR.</spell>
           <spell name="REFUGE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When target friendly Faction model hits an enemy model with an attack during its activation, immediately after its combat action ends the affected model can make a full advance. It cannot be targeted by free strikes during this movement.</spell>
@@ -85,7 +85,7 @@
                   <capacity title="CRITICAL SMITE">On a critical hit, this model can slam the model hit instead of rolling damage normally. The model hit is slammed d6" directly away from this model and suffers a damage roll with POW equal to this model's STR plus the POW of this weapon. The POW of collateral damage is equal to this model's STR.</capacity>
               </melee_weapon>
           </weapons>
-          <feat title="Blood of Dhunia">While within Doomshaper's control area, models in its battlegroup gain an additional die on melee attack rolls. When a model in Doomshaper's control area is hit by an enemy attack, the attacker rolls one fewer die on the attack damage roll. After the attack is resolved, if the model in Doomshaper's control area was damaged by the attack, it heals d3 damage points. Blood of Dhunia lasts for one round.</feat>
+          <feat title="BLOOD OF DHUNIA">While within Doomshaper's control area, models in its battlegroup gain an additional die on melee attack rolls. When a model in Doomshaper's control area is hit by an enemy attack, the attacker rolls one fewer die on the attack damage roll. After the attack is resolved, if the model in Doomshaper's control area was damaged by the attack, it heals d3 damage points. Blood of Dhunia lasts for one round.</feat>
             <spell name="ADMONITION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy model advances and ends its movement within 6" of target model in this model's battlegroup, the affected model can immediately advance up to 3", then Admonition expires. The affected model cannot be targeted by free strikes during this movement.</spell>
             <spell name="IMPLACABILITY" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, models in it's battlegroup cannot be knocked down, placed, pushed, or moved by a slam. Implacability lasts for one round.</spell>
             <spell name="REPUDIATE" cost="2" rng="10" aoe="-" pow="-" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Repudiate immediately expire. An enemy model maintaining an upkeep spell that expired as a result of Repudiate suffers d3 damage points.</spell>
@@ -112,7 +112,7 @@
               <capacity title="CRITICAL SMITE">On a critical hit, this model can slam the model hit instead of rolling damage normally. The model hit is slammed d6" directly away from this model and suffers a damage roll with POW equal to this model's STR plus the POW of this weapon. The POW of collateral damage is equal to this model's STR.</capacity>
             </melee_weapon>            
           </weapons>
-          <feat title="Fell Chorus">Friendly Faction models currently in Bloodsong's control area gain Fearless, can make one additional melee attack during their activations this turn, and can make a full advance at the end of this turn after all friendly models have ended their activations. During this movement, affected models cannot be targeted by free strikes. While in Bloodsong's control area, enemy models/units cannot give or receive orders and cannot cast spells. Affected friendly models are considered to have been affected by a Fell Call this turn. A friendly model/unit that has already been affected by a Fell Call this turn is not affected by Fell Chorus. Fell Chorus lasts for one round.</feat>
+          <feat title="FELL CHORUS">Friendly Faction models currently in Bloodsong's control area gain Fearless, can make one additional melee attack during their activations this turn, and can make a full advance at the end of this turn after all friendly models have ended their activations. During this movement, affected models cannot be targeted by free strikes. While in Bloodsong's control area, enemy models/units cannot give or receive orders and cannot cast spells. Affected friendly models are considered to have been affected by a Fell Call this turn. A friendly model/unit that has already been affected by a Fell Call this turn is not affected by Fell Chorus. Fell Chorus lasts for one round.</feat>
           <spell name="CALAMITY" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Friendly models gain +2 to attack and damage rolls against target enemy model/unit.</spell>
           <spell name="HALLOWED AVENGER" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy attack destroys or removes from play one or more friendly Faction models within 5" of target warbeast in this model's battlegroup, after the attack is resolved the affected warbeast can charge an enemy model, then Hallowed Avenger expires.	</spell>
           <spell name="RIFT" cost="3" rng="8" aoe="4" pow="13" up="NO" off="YES">The AOE is rough terrain and remains in play for one round.	</spell>
@@ -135,7 +135,7 @@
               <capacity title="PLAY LIST">This model can use each of this weapon's ammo types only once per activation.			</capacity>
             </ranged_weapon>			            
           </weapons>
-          <feat title="Call of Valor">While within Bloodsong's control area, friendly Faction models gain Hyper Aggressive and Unyielding. Call of Valor lasts for one round. (When a model with Hyper Aggressive suffers damage from an enemy attack anytime except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model.) (While engaging an enemy model, a model with Unyielding gains +2 ARM.)</feat>
+          <feat title="CALL OF VALOR">While within Bloodsong's control area, friendly Faction models gain Hyper Aggressive and Unyielding. Call of Valor lasts for one round. (When a model with Hyper Aggressive suffers damage from an enemy attack anytime except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model.) (While engaging an enemy model, a model with Unyielding gains +2 ARM.)</feat>
           <spell name="ARCANE BOLT" cost="2" rng="12" aoe="-" pow="11" up="NO" off="YES">Magical bolts of energy streak toward the target model.</spell>
           <spell name="DASH" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly Faction warrior models cannot be targeted by free strikes. This model and friendly Faction warrior models activating in its control area gain +1 SPD. Dash lasts for one turn.</spell>
           <spell name="INHOSPITABLE GROUND" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, enemy models treat open terrain as rough terrain. Inhospitable Ground lasts for one round.</spell>
@@ -153,7 +153,7 @@
             </ranged_weapon>
 			<melee_weapon name="Gun Blade" pow="5" p_plus_s="12" />            
           </weapons>
-          <feat title="Spread the Net">While in Grim's control area, enemy models suffer –3 DEF. Enemy models beginning their activations in Grim's control area suffer –3 SPD and cannot make special attacks. Spread the Net lasts for one round.</feat>
+          <feat title="SPREAD THE NET">While in Grim's control area, enemy models suffer –3 DEF. Enemy models beginning their activations in Grim's control area suffer –3 SPD and cannot make special attacks. Spread the Net lasts for one round.</feat>
           <spell name="CROSS COUNTRY" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains Pathfinder and Hunter. (A model with Hunter ignores forests, concealment, and cover when determining LOS or making a ranged attack.)</spell>
           <spell name="LOCK THE TARGET" cost="2" rng="10" aoe="-" pow="10" up="NO" off="YES">A model damaged by Lock the Target cannot run, charge, or be placed for one round.</spell>
           <spell name="MARKED FOR DEATH" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">Target enemy model/unit suffers –2 DEF and loses Incorporeal and Stealth and cannot gain those abilities while affected by Marked for Death. Friendly Faction models can target an affected model regardless of LOS.</spell>
@@ -169,7 +169,7 @@
             </ranged_weapon>
 			<melee_weapon name="Gun Blade" pow="5" p_plus_s="12" />
           </weapons>
-          <feat title="On My Mark">While in Grim’s control area, friendly Faction models gain Mark Target and friendly Faction models' ranged weapons gain Snipe, On My Mark lasts for one turn. (Other friendly Faction models gain +2 to ranged attack rolls against enemy models within 5" of a model with Mark Target that are in its LOS.) (Ranged weapons with Snipe gain +4 RNG).</feat>
+          <feat title="ON MY MARK">While in Grim’s control area, friendly Faction models gain Mark Target and friendly Faction models' ranged weapons gain Snipe, On My Mark lasts for one turn. (Other friendly Faction models gain +2 to ranged attack rolls against enemy models within 5" of a model with Mark Target that are in its LOS.) (Ranged weapons with Snipe gain +4 RNG).</feat>
           <spell name="MAGE SIGHT" cost="2" rng="CTRL" aoe="5" pow="-" up="YES" off="NO">Place a 5“ AOE completely in this model's control area. While a model is within the AOE, models in this model's battlegroup ignore forests and cloud effects when drawing LOS to it and ignore Stealth when attacking it.</spell>
           <spell name="MIRAGE" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains Apparition. (During your Control Phase, place models with Apparition anywhere completely within 2" of their current locations. If Mirage affects a unit, only models in formation can be placed.)</spell>
           <spell name="MORTALITY" cost="3" rng="10" aoe="-" pow="-" up="NO" off="YES">Target enemy model/unit suffers –2 DEF and ARM and cannot be healed. Mortality lasts for one round.</spell>
@@ -209,7 +209,7 @@
               <capacity title="BRAIN DAMAGE">A model damaged by an attack with this weapon cannot cast spells, upkeep spells, or use an animus for one round.</capacity>
             </melee_weapon>            
           </weapons>
-          <feat title="Barroom Blitz">Friendly Faction models beginning a charge, slam power attack, or trample power attack in Kegslayer's control area gain +2" movement. Warbeasts in Kegslayer's battlegroup beginning their activations in his control area can make power attacks without being forced and roll an additional die on power attack damage rolls and collateral damage rolls. Barroom Blitz lasts lor one turn.</feat>
+          <feat title="BARROOM BLITZ">Friendly Faction models beginning a charge, slam power attack, or trample power attack in Kegslayer's control area gain +2" movement. Warbeasts in Kegslayer's battlegroup beginning their activations in his control area can make power attacks without being forced and roll an additional die on power attack damage rolls and collateral damage rolls. Barroom Blitz lasts lor one turn.</feat>
           <spell name="IRON FLESH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly warrior model/unit gains +3 DEF but suffers –1 SPD.</spell>
           <spell name="MOSH PIT" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly models gain Knockdown on their melee weapons. Mosh Pit lasts for one turn. (When a model is hit with an attack by a weapon with Knockdown, it is knocked down.)</spell>
           <spell name="WIND WALL" cost="3" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model cannot make ranged attacks, and non-magical ranged attacks targeting it automatically miss. While completely within 3" of this model, models cannot make ranged attacks and non-magical ranged attacks targeting them automatically miss. Wind Wall lasts for one round.</spell>
@@ -236,7 +236,7 @@
 					<capacity title="CRITICAL BRUTAL DAMAGE" >On a critical hit, gain an additional die on this weapon's damage roll against the model directly hit.</capacity>
 				</mount_weapon>
 			</weapons>
-			<feat title="Ice Storm">While in Borka's control area models gain Stealth. When an enemy model without Immunity: Cold hits one or more friendly models in Borka’s control area that has Immunity: Cold  with a melee attack, the enemy model becomes stationary for one round after the attack is resolved. Ice Storm lasts for one round.</feat>
+			<feat title="ICE STORM">While in Borka's control area models gain Stealth. When an enemy model without Immunity: Cold hits one or more friendly models in Borka’s control area that has Immunity: Cold  with a melee attack, the enemy model becomes stationary for one round after the attack is resolved. Ice Storm lasts for one round.</feat>
 			<spell name="BATTLE CHARGED" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">While in this model's control area, models in its battlegroup gain Counter Charge. (When an enemy model advances and ends its movement within 6" of a model with Counter Charge and in its LOS, the model with Counter Charge can immediately charge it. If it does, it cannot make another counter charge until after your next turn. A model cannot make a counter charge while engaged.)</spell>
 			<spell name="FROST HAMMER" cost="2" rng="SP8" aoe="-" pow="12" up="NO" off="YES">Frost Hammer causes cold damage. On a critical hit, a model becomes stationary for one round unless it has Immunity: Cold.</spell>
 			<spell name="SNOW SHROUD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains concealment and Immunity: Cold.</spell>
@@ -251,7 +251,7 @@
               <capacity title="MERCY KILLER">When attacking with this weapon, this model gains an additional die on damage rolls against damaged models.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Good Omens">When a friendly model rolls a 1 or 2 on an attack or damage roll while in Truthsayer's control area it can reroll the die. Each die can be rerolled once due to Good Omens. Good Omens lasts for one turn.</feat>
+          <feat title="GOOD OMENS">When a friendly model rolls a 1 or 2 on an attack or damage roll while in Truthsayer's control area it can reroll the die. Each die can be rerolled once due to Good Omens. Good Omens lasts for one turn.</feat>
           <spell name="BEFUDDLE" cost="2" rng="10" aoe="-" pow="-" up="NO" off="YES">On a hit, you can immediately advance target enemy non-warcaster/non-warlock model up to 3". Affected models cannot be targeted by free strikes during this movement. A model can move only once per turn as a result of Befuddle.</spell>
           <spell name="BULLET DODGER" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model gains +2 DEF against ranged attack rolls and Dodge. (A model with Dodge can advance up to 2" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.)</spell>
           <spell name="FORCE BLOW" cost="3" rng="10" aoe="-" pow="12" up="NO" off="YES">Models damaged by Force Blow are knocked down.</spell>
@@ -267,7 +267,7 @@
             </ranged_weapon>
 			<melee_weapon name="Axe" pow="4" p_plus_s="11" />            
           </weapons>
-          <feat title="Fortification">While in Gunnbjorn's control area, friendly Faction models gain cover, do not suffer blast damage, and cannot be knocked down. Fortification lasts for one round.</feat>
+          <feat title="FORTIFICATION">While in Gunnbjorn's control area, friendly Faction models gain cover, do not suffer blast damage, and cannot be knocked down. Fortification lasts for one round.</feat>
           <spell name="EXPLOSIVO" cost="1" rng="6" aoe="-" pow="-" up="NO" off="NO">When target friendly model makes a normal attack with a non-spray ranged weapon, the weapon gains Magical Weapon. If the weapon was AOE - it becomes AOE 3. An affected model cannot participate in a combined ranged attack. Models in the AOE other than the model that was directly hit suffer blast damage but do not suffer any other effects of the attack. Explosivo expires immediately after resolving target model's next ranged attack. Explosivo lasts for one turn.</spell>
           <spell name="GUIDED FIRE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, models in its battlegroup gain boosted ranged attack rolls for one turn.</spell>
           <spell name="ROCK WALL" cost="2" rng="CTRL" aoe="WALL" pow="-" up="YES" off="NO">Place a wall template anywhere completely in this model's control area where it does not touch a model's base, an obstruction, or an obstacle. The wall is a linear obstacle that provides cover.</spell>
@@ -281,7 +281,7 @@
             </ranged_weapon>
 			<melee_weapon name="Sword" pow="4" p_plus_s="10" />            
           </weapons>
-          <feat title="Rolling Fog">Place d3+3 4" AOE cloud effects anywhere completely in this model’s control area. These AOEs do not block friendly Faction models’ LOS. While in the AOE, friendly Faction models can advance through terrain and obstacles without penalty and can advance through obstructions and friendly models if they have enough movement to move completely past them. While in the AOE, living enemy models suffer –2 to attack rolls. Rolling Fog lasts for one round.</feat>
+          <feat title="ROLLING FOG">Place d3+3 4" AOE cloud effects anywhere completely in this model’s control area. These AOEs do not block friendly Faction models’ LOS. While in the AOE, friendly Faction models can advance through terrain and obstacles without penalty and can advance through obstructions and friendly models if they have enough movement to move completely past them. While in the AOE, living enemy models suffer –2 to attack rolls. Rolling Fog lasts for one round.</feat>
           <spell name="MAGIC BULLET" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">If target friendly Faction model’s next normal ranged attack directly hits, after resolving the attack choose a model within 4" of the model hit. The chosen model suffers an unboostable POW 12 magic damage roll. The point of origin for this damage is the model hit. After resolving this damage roll, Magic Bullet expires. Magic Bullet lasts for one turn.</spell>
           <spell name="QUICKEN" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 SPD and +2 DEF against ranged and magic attack rolls.</spell>
           <spell name="TACTICAL SUPREMACY" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit can advance up to 3" after all models have ended their activations on your turn.</spell>
@@ -382,10 +382,10 @@
           <basestats name="MAULER" spd="5" str="12" mat="6" rat="3" def="12" arm="18" cmd="5" />
           <weapons>
             <melee_weapon name="Big Meaty Fist" pow="4" p_plus_s="16" open_fist="true" location="L">
-              <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
+              <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
             </melee_weapon>
             <melee_weapon name="Big Meaty Fist" pow="4" p_plus_s="16" open_fist="true" location="R">
-              <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">See above.</capacity>
+              <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">See above.</capacity>
             </melee_weapon>
           </weapons>
           <animus name="RAGE" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly Faction model gains +3 STR. Rage lasts for one round.</animus>
@@ -536,7 +536,7 @@
                   <capacity title="FREEZE">A model hit by this weapon becomes stationary for one round unless it has Immunity:Cold</capacity>
               </melee_weapon>
               <ranged_weapon name="Wind Thrower" rng="12" rof="3" aoe="" pow="14" frost="true">
-                  <capacity title="Thunderbolt">Enemy models hit are pushed d3" directly away from the attacking model. On a critical hit, the enemy model is knocked down after being pushed.</capacity>
+                  <capacity title="THUNDERBOLT">Enemy models hit are pushed d3" directly away from the attacking model. On a critical hit, the enemy model is knocked down after being pushed.</capacity>
               </ranged_weapon>
           </weapons>
           <animus name="FROZEN GROUND" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">When an enemy model without Immunity:Cold ends its activation within 3" of this model, the enemy model is knocked down. Frozen Ground lasts for one round.</animus>
@@ -619,7 +619,7 @@
               <weapons>
                 <melee_weapon name="Hand Weapon" pow="4" p_plus_s="11" />
               </weapons>
-			  <capacity title="ATTACHMENT [KRIELSTONE BEARER &amp; STONESCRIBES]">This attachment can be added to a Krielstone Bearer &amp; Stonescribes unit.</capacity> 
+			  <capacity title="ATTACHMENT [KRIELSTONE BEARER &AMP; STONESCRIBES]">This attachment can be added to a Krielstone Bearer &amp; Stonescribes unit.</capacity> 
               <capacity title="STONE WARP">This model can use one of the following effects each turn anytime during its unit’s activation.</capacity>
               <capacity title="● COMBAT WARDING">Continuous effects on friendly Faction models affected by this units Protective Aura expire. While affected by this unit's Protective Aura, a model is immune to continuous effects. Combat Warding lasts for one round.</capacity>
               <capacity title="● SPIRIT CHASER">While within the area affected by this unit’s Protective Aura this round, enemy models lose Incorporeal and Stealth.</capacity>
@@ -652,7 +652,7 @@
                         <melee_weapon name="Hand Weapon" pow="3" p_plus_s="8" />
                     </weapons>
                     <capacity title="ATTACHMENT [PYG BUSHWACKERS]">This attachment can be added to a Pyg Bushwackers unit.</capacity>
-                    <capacity title="Granted: Combined Arms">While this model is in play, models in its unit gain Combined Arms. (When a model with Combined Arms misses an attack roll for a combined ranged attack, it can reroll that attack roll. Each attack roll can be rerolled only once as a result of Combined Arms.)</capacity>
+                    <capacity title="GRANTED: COMBINED ARMS">While this model is in play, models in its unit gain Combined Arms. (When a model with Combined Arms misses an attack roll for a combined ranged attack, it can reroll that attack roll. Each attack roll can be rerolled only once as a result of Combined Arms.)</capacity>
                     <capacity title="SLIP AWAY" type="Order">Affected models make a full advance during their normal movement this activation, can advance through other models if they have enough movement to move completely past them, and cannot be targeted by free strikes.</capacity>
                     <capacity title="TACTICS : CAMOUFLAGE">Models in this unit gain Camouflage. (Models with Camouflage gains an additional +2 DEF when benefiting from concealment or cover.)</capacity>
                 </model>
@@ -1036,7 +1036,7 @@
                 </ranged_weapon>
             </weapons>
             <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
-            <capacity title="GUN &amp; RUN">At the end of its activation, if this model destroyed one or more enemy models with ranged attacks that activation, it can make a full advance.</capacity>
+            <capacity title="GUN &AMP; RUN">At the end of its activation, if this model destroyed one or more enemy models with ranged attacks that activation, it can make a full advance.</capacity>
             <capacity title="LEADERSHIP [TROLLKIN HIGHWAYMEN]">While in this model's command range, friendly Trollkin Highwaymen models gain Opportunist. (While a model with Opportunist is completely within the back arc of an enemy model, it gains an additional die on its attack and damage rolls against that enemy model.)</capacity>
             <capacity title="OPPORTUNIST">While this model is completely within the back arc of an enemy model, this model gains an additional die on its attack and damage rolls against that enemy model.</capacity>
             <capacity title="PROWL">This model gains Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.</capacity>

@@ -16,7 +16,7 @@
                         </ranged_weapon>
                         <melee_weapon name="Hand of God" pow="7" p_plus_s="15" magical="true" reach="true" />
                     </weapons>
-                    <feat title="Hog Heaven">While in Carver's control area, friendly Farrow models gain Overtake and an additional die on melee damage rolls. Hog Heaven lasts for one turn. (When a model with Overtake destroys one or more enemy warrior models with a normal melee attack, after the attack is resolved the model can immediately advance up to 1".)</feat>
+                    <feat title="HOG HEAVEN">While in Carver's control area, friendly Farrow models gain Overtake and an additional die on melee damage rolls. Hog Heaven lasts for one turn. (When a model with Overtake destroys one or more enemy warrior models with a normal melee attack, after the attack is resolved the model can immediately advance up to 1".)</feat>
                     <spell name="BATTEN DOWN THE HATCHES" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, models in its battlegroup cannot be knocked down and gain +3 ARM but suffer –2 DEF. Batten Down the Hatches lasts for one round.</spell>
                     <spell name="MOBILITY" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Models in this model's battlegroup currently in its control area gain +2 SPD and Pathfinder for one turn.</spell>
                     <spell name="QUAGMIRE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">While B2B with target friendly Faction model/unit, enemy models suffer –2 DEF and cannot advance except to change facing.</spell>
@@ -41,7 +41,7 @@
                         </melee_weapon>
                         <melee_weapon name="Tail Strike" pow="3" p_plus_s="12" />
                     </weapons>
-                    <feat title="Black Tide">Non-amphibious enemy models currently in Barnabas' control area are knocked down.</feat>
+                    <feat title="BLACK TIDE">Non-amphibious enemy models currently in Barnabas' control area are knocked down.</feat>
                     <spell name="FLESH EATER" cost="3" rng="10" aoe="-" pow="13" up="NO" off="YES">When a living enemy model is boxed by Flesh Eater, it is removed from play and this model or a living warbeast in its battlegroup in its control area heals d3 damage points.</spell>
                     <spell name="IRON FLESH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly warrior model/unit gains +3 DEF but suffers –1 SPD.</spell>
                     <spell name="SWAMP PIT" cost="2" rng="CTRL" aoe="5" pow="-" up="NO" off="NO">Place a 5" AOE anywhere completely in this model's control area where it does not touch a model's base. The AOE is shallow water and remains in play for one round. While completely in a Swamp Pit AOE, a model with Amphibious cannot be targeted by ranged attacks.</spell>
@@ -69,7 +69,7 @@
                             <capacity title="LIFE TRADER">When an attack with this weapon hits, this model can suffer 1 damage point to gain an additional die on the damage roll against the model hit. Life Trader can be used once per attack.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Death Harvest">Each time a friendly model destroys an enemy model while the friendly model is in Calaban's control area, Calaban gains 1 fury point. Immediately after resolving an attack in which a model in Calaban's control area destroys one or more enemy models, Calaban can cast one spell. Calaban can boost attack and damage rolls on spells cast as a result of Death Harvest. Death Harvest lasts for one turn.</feat>
+                    <feat title="DEATH HARVEST">Each time a friendly model destroys an enemy model while the friendly model is in Calaban's control area, Calaban gains 1 fury point. Immediately after resolving an attack in which a model in Calaban's control area destroys one or more enemy models, Calaban can cast one spell. Calaban can boost attack and damage rolls on spells cast as a result of Death Harvest. Death Harvest lasts for one turn.</feat>
                     <spell name="BONE SHAKER" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">When this spell boxes a living or undead non-warcaster, non-warlock enemy warrior model, you can immediately make a full advance with the enemy model followed by a normal melee attack, then the boxed model is removed from play. The boxed model cannot be targeted by free strikes during this movement.</spell>
                     <spell name="CARNIVORE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack rolls against living models. When an affected model boxes a living model with a melee attack, the boxed model is removed from play and this model heals d3 damage points.</spell>
                     <spell name="HEX BLAST" cost="3" rng="10" aoe="3" pow="13" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire.</spell>
@@ -94,7 +94,7 @@
                             <capacity title="NEEDLE">Do not make damage rolls to resolve attacks made with this weapon. A living model hit by this weapon automatically suffers 1 damage point. This weapon cannot damage non-living models.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Monster Mayhem">Warbeasts in Arkadius' battlegroup can immediately frenzy. A model can frenzy even if it has already activated this turn and does not affect whether it can activate later this turn.</feat>
+                    <feat title="MONSTER MAYHEM">Warbeasts in Arkadius' battlegroup can immediately frenzy. A model can frenzy even if it has already activated this turn and does not affect whether it can activate later this turn.</feat>
                     <spell name="AGGRAVATOR" cost="3" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">While in this model's control area, friendly warbeasts gain Hyper Aggressive. (When a model with Hyper Aggressive suffers damage from an enemy attack anytime except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model.)</spell>
                     <spell name="CRIPPLING GRASP" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Target model/unit suffers –2 SPD, STR, DEF, and ARM and cannot run or make special attacks.</spell>
                     <spell name="FORCED EVOLUTION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction warbeast gains +2 STR and DEF.</spell>
@@ -115,7 +115,7 @@
                         </melee_weapon>
                         <melee_weapon name="Claw " pow="5" count="2" p_plus_s="12" magical="true" />
                     </weapons>
-                    <feat title="Spirit World">Friendly Faction models currently in Maelok's control area gain Incorporeal for one turn. While within Maelok's control area, friendly Faction undead models gain +2 ARM. Spirit World lasts for one round.</feat>
+                    <feat title="SPIRIT WORLD">Friendly Faction models currently in Maelok's control area gain Incorporeal for one turn. While within Maelok's control area, friendly Faction undead models gain +2 ARM. Spirit World lasts for one round.</feat>
                     <spell name="DEATH PACT" cost="2" rng="6" aoe="-" pow="-" off="NO" up="YES">Target friendly Faction model/unit gains + 2 ARM and Undead.</spell>
                     <spell name="MALEDICTION" cost="2" rng="SELF" aoe="*" pow="-" off="*" up="YES">While within 2" of this model, enemy models suffer –2 DEF and ARM.</spell>
                     <spell name="REVIVE" cost="3" rng="CTRL" aoe="-" pow="-" off="NO" up="NO">Return one destroyed friendly Faction Grunt to play with one unmarked damage box. It must be placed in this model's control area in formation and within 3" of another model in its unit.</spell>
@@ -137,7 +137,7 @@
                             <capacity title="CRITICAL PITCH">On a critical hit, instead of rolling damage normally you can choose to have this model throw the model hit. Treat the throw as if this model had hit with and passed the STR check of a throw power attack. The thrown model suffers a damage roll with POW equal to this model's STR plus the POW of the weapon. The POW of collateral damage is equal to this model's STR.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Psychic Apocalypse">Enemy warbeasts currently in Sturm &amp; Drang's control area have their FURY reduced to 1, and enemy warjacks currently in Sturm &amp; Drang's control area cannot be allocated more than 1 focus. While in Sturm &amp; Drang's control area, enemy models cannot be used to channel spells. Psychic Apocalypse lasts for one round.</feat>
+                    <feat title="PSYCHIC APOCALYPSE">Enemy warbeasts currently in Sturm &amp; Drang's control area have their FURY reduced to 1, and enemy warjacks currently in Sturm &amp; Drang's control area cannot be allocated more than 1 focus. While in Sturm &amp; Drang's control area, enemy models cannot be used to channel spells. Psychic Apocalypse lasts for one round.</feat>
                     <spell name="DEFLECTION (Sturm)" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly Faction warrior models gain +2 ARM against ranged and magic attack damage rolls. Deflection lasts for one round.</spell>
                     <spell name="TELEKINESIS (Sturm)" cost="2" rng="8" aoe="-" pow="-" up="NO" off="*">Place target model completely within 2" of its current location. When Telekinesis targets an enemy model, it is an offensive spell and requires a magic attack roll. A model can be affected by Telekinesis only once per turn.</spell>
                     <spell name="VISION (Sturm)" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">The next time target friendly Faction model is directly hit by an attack, it suffers no damage roll from the attack, then Vision expires.</spell>
@@ -172,7 +172,7 @@
                             <capacity title="SOUL FOOD">Immediately after resolving an attack in which it destroyed an enemy warbeast with this weapon, this model can cast a spell with COST 3 or less or cast the destroyed warbeast's animus as a spell without spending fury.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Pet Cemetery">Midas spends any number of fury points when this feat is used. Return each destroyed warbeast from Midas' battlegroup to play within 3" of him with one unmarked damage box in each aspect. For each fury point spent remove 1 damage point from each model in Midas' battlegroup that is in his control area. Returned warbeasts gain Undead. Returned warbeasts cannot be forced this turn. Returned warbeasts that were destroyed this turn cannot activate the turn they are returned.</feat>
+                    <feat title="PET CEMETERY">Midas spends any number of fury points when this feat is used. Return each destroyed warbeast from Midas' battlegroup to play within 3" of him with one unmarked damage box in each aspect. For each fury point spent remove 1 damage point from each model in Midas' battlegroup that is in his control area. Returned warbeasts gain Undead. Returned warbeasts cannot be forced this turn. Returned warbeasts that were destroyed this turn cannot activate the turn they are returned.</feat>
                     <spell name="BAD BLOOD" cost="2" rng="10" aoe="-" pow="-" up="YES" off="YES">A warlock leaching from target warbeast suffers 1 damage point for each fury leached. The affected warbeast cannot be healed or have damage transferred to it and loses Regeneration.</spell>
                     <spell name="BATTLE LUST" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly Faction warrior model/unit gains Fearless and gains an additional die on melee damage rolls for one round.</spell>
                     <spell name="CALAMITY" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Friendly models gain +2 to attack and damage rolls against target enemy model/unit.</spell>
@@ -198,7 +198,7 @@
                         </ranged_weapon>
                         <melee_weapon name="Sacral Blade" pow="4" p_plus_s="11" magical="true" />
                     </weapons>
-                    <feat title="Dark Waters">While in Rask's control area, friendly Faction models cannot be targeted by attacks or charges made by models more than 5" away from them. Dark Waters lasts for one round.</feat>
+                    <feat title="DARK WATERS">While in Rask's control area, friendly Faction models cannot be targeted by attacks or charges made by models more than 5" away from them. Dark Waters lasts for one round.</feat>
                     <spell name="ADMONITION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy model advances and ends its movement within 6" of target model in this model’s battlegroup, the affected model can immediately advance up to 3", then Admonition expires. The affected model cannot be targeted by free strikes during this movement.</spell>
                     <spell name="BOUNDLESS CHARGE" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">During its activation, target friendly model can charge without spending focus or being forced and gains +2" movement and Pathfinder when it charges. Boundless Charge lasts for one turn.</spell>
                     <spell name="FURY" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +3 to melee damage rolls but suffers –1 DEF.</spell>
@@ -221,7 +221,7 @@
                             <capacity title="SET DEFENSE">A model in this model's front arc suffers –2 on charge, slam power attack, and impact attack rolls against this model.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Grand Finale">While in Helga's control area, when a friendly Faction model hits an enemy model with a normal melee attack, the enemy model can be slammed d6" directly away from the attacking model. The POW of the slam damage roll is equal to the P+S of the attack. The POW of collateral damage is equal to the STR of the attacking model. Grand Finale lasts for one turn.</feat>
+                    <feat title="GRAND FINALE">While in Helga's control area, when a friendly Faction model hits an enemy model with a normal melee attack, the enemy model can be slammed d6" directly away from the attacking model. The POW of the slam damage roll is equal to the P+S of the attack. The POW of collateral damage is equal to the STR of the attacking model. Grand Finale lasts for one turn.</feat>
                     <spell name="CYCLONE" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model immediately makes a full advance. It cannot be targeted by free strikes during this movement. At the end of this movement, this model can make one melee attack against each model in its LOS that is in its melee range. Cyclone can be cast only once per turn.</spell>
                     <spell name="DASH" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly Faction warrior models cannot be targeted by free strikes. This model and friendly Faction warrior models activating in its control area gain +1 SPD. Dash lasts for one turn.</spell>
                     <spell name="DEFENDER'S WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains +2 DEF and ARM.</spell>
@@ -243,7 +243,7 @@
                             <capacity title="POISON">Gain an additional die on this weapon's damage rolls against living models.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="Legion of Death">When a living or undead enemy non-warlock, non-warcaster warrior model is boxed by an attack while in Jaga-Jaga's control area this turn, you can take control of it. If you do, the model becomes a friendly Faction Undead solo, gains Dark Shroud, heals 1 damage point, and can immediately make a full advance. During this movement, the model cannot be targeted by free strikes. The model cannot activate and is removed from play when Legion of Death expires. Legion of Death lasts for one round. (While in the melee range of a model with Dark Shroud, enemy models suffer –2 ARM.)</feat>
+                    <feat title="LEGION OF DEATH">When a living or undead enemy non-warlock, non-warcaster warrior model is boxed by an attack while in Jaga-Jaga's control area this turn, you can take control of it. If you do, the model becomes a friendly Faction Undead solo, gains Dark Shroud, heals 1 damage point, and can immediately make a full advance. During this movement, the model cannot be targeted by free strikes. The model cannot activate and is removed from play when Legion of Death expires. Legion of Death lasts for one round. (While in the melee range of a model with Dark Shroud, enemy models suffer –2 ARM.)</feat>
                     <spell name="DEADWEIGHT" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">When Deadweight destroys an enemy living or undead model, choose an enemy model within 2" of the destroyed model. The chosen model must forfeit either its movement or its action during its next activation, as its controller chooses.</spell>
                     <spell name="ESCORT" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Warjacks in this model's battlegroup beginning their activations in its control area gain +2" movement. This model gains +2 ARM while one or more warjacks in its battlegroup are within 3" of it.</spell>
                     <spell name="GHOST WALK" cost="3" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. An affected model cannot be targeted by free strikes.)</spell>
@@ -274,11 +274,11 @@
                     <basestats name="FREEBOOTER" spd="5" str="11" mat="6" rat="5" def="12" arm="17" cmd="0" />
                     <weapons>
                         <melee_weapon name="Clamp" pow="3" p_plus_s="14" open_fist="true" location="R">
-                            <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
+                            <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
                             <capacity title="TRASH">Gain an additional damage die againts knocked down targets.</capacity>
                         </melee_weapon>
                         <melee_weapon name="Clamp" pow="3" p_plus_s="14" open_fist="true" location="L">
-                            <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">See above.</capacity>
+                            <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">See above.</capacity>
                             <capacity title="TRASH">See above.</capacity>
                         </melee_weapon>
                     </weapons>
@@ -578,11 +578,11 @@
                     <weapons>
                         <ranged_weapon name="Alchemical Mortar" rng="12" rof="1" aoe="3" pow="*">
                             <capacity title="AMMO TYPE">Each time this weapon is used to make an attack, choose one of the following abilities:</capacity>
-                            <capacity title="● Acid Bomb">Models in the AOE are hit and suffer a POW 12 Corrosion damage roll and suffer the Corrosion continuous effect.</capacity>
-                            <capacity title="● Psychoactive Gas">This attack is a gas effect and causes no damage. Models/units hit must pass a command check or flee. Enemy warbeasts hit must pass a THR check or frenzy.</capacity>
-                            <capacity title="● Smoke Blast">The weapon’s base POW becomes 14 for this attack. This attack causes fire damage. This weapon’s AOE is a cloud effect that remains in play for one round.</capacity>
-                            <capacity title="Arcing Fire">When attacking with this weapon, this model can ignore intervening models except those within 1" of the target.</capacity>
-                            <capacity title="Inaccurate">This model suffers -4 to attack rolls with this weapon.</capacity>
+                            <capacity title="● ACID BOMB">Models in the AOE are hit and suffer a POW 12 Corrosion damage roll and suffer the Corrosion continuous effect.</capacity>
+                            <capacity title="● PSYCHOACTIVE GAS">This attack is a gas effect and causes no damage. Models/units hit must pass a command check or flee. Enemy warbeasts hit must pass a THR check or frenzy.</capacity>
+                            <capacity title="● SMOKE BLAST">The weapon’s base POW becomes 14 for this attack. This attack causes fire damage. This weapon’s AOE is a cloud effect that remains in play for one round.</capacity>
+                            <capacity title="ARCING FIRE">When attacking with this weapon, this model can ignore intervening models except those within 1" of the target.</capacity>
+                            <capacity title="INACCURATE">This model suffers -4 to attack rolls with this weapon.</capacity>
                         </ranged_weapon>
                         <melee_weapon name="Open Fist" pow="3" p_plus_s="11" open_fist="true" location="L"></melee_weapon>
                         <melee_weapon name="Open Fist" pow="3" p_plus_s="11" open_fist="true" location="R"></melee_weapon>
@@ -624,7 +624,7 @@
                         <melee_weapon name="Claw" location="R" pow="3" p_plus_s="12" open_fist="true"></melee_weapon>
                     </weapons>
                     <animus name="Primal" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly living warbeast gains +2 STR and MAT for one round and automatically frenzies during your next Control Phase.</animus>
-                    <capacity title="Pain Response">While damaged this model can charge or make power attacks without being forced.</capacity>
+                    <capacity title="PAIN RESPONSE">While damaged this model can charge or make power attacks without being forced.</capacity>
                     <restricted_to id="IW08"/>
                     <only_in_tier id="Dr. Arkadius - Nature of the Beast (NQ56)"/>
                 </warbeast>
@@ -633,10 +633,10 @@
                     <basestats name="LUG" spd="5" str="12" mat="5" rat="1" def="12" arm="18" cmd="6" immunity_frost="true" pathfinder="true" />
                     <weapons>
                         <melee_weapon name="Claw" pow="3" p_plus_s="15" open_fist="true" location="L">
-                            <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attack it can immediately make a double-handed throw, head-butt, headlock/weapon lock, push, or throw power attack against the target.</capacity>
+                            <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attack it can immediately make a double-handed throw, head-butt, headlock/weapon lock, push, or throw power attack against the target.</capacity>
                         </melee_weapon>
                         <melee_weapon name="Claw" pow="3" p_plus_s="15" open_fist="true" location="R">
-                            <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">See above.</capacity>
+                            <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">See above.</capacity>
                         </melee_weapon>
                     </weapons>
                     <animus name="BEAR HANDS" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">When this model hits an enemy model with a normal melee attack, it can choose to knock down the enemy model or push it 3" directly away. Bear Hands lasts for one turn.</animus>
@@ -804,7 +804,7 @@
                                 <ranged_weapon name="Pig Iron" rng="10" rof="1" aoe="-" pow="12" count="2"></ranged_weapon>
                                 <melee_weapon name="Battle Axe" pow="5" p_plus_s="12"></melee_weapon>
                             </weapons>
-                            <capacity title="Attachment [Farrow Brigand]">This attachment can be added to a Farrow Brigand unit.</capacity>
+                            <capacity title="ATTACHMENT [FARROW BRIGAND]">This attachment can be added to a Farrow Brigand unit.</capacity>
                             <capacity title="DIG IN" type="*Action">This model gains cover, does not suffer blast damage, and does not block LOS. This model remains dug in until it moves, is placed, or is engaged. This model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
                             <capacity title="GRANTED: GANG">While this model is in play, models in this unit gain Gang. (When making a melee attack targeting an enemy model in melee range of another model in its unit, a model with Gang gains +2 to melee attack and melee damage rolls.)</capacity>
                             <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
@@ -937,11 +937,11 @@
                         <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11"></ranged_weapon>
                         <melee_weapon name="Heavy Sword" pow="5" p_plus_s="10" reach="true"></melee_weapon>
                     </weapons>
-                    <capacity title="Mercenaries">These models will work for Cygnar.</capacity>
-                    <capacity title="Minions">These models will work for Circle and Trollbloods and the Blindwater Congregation and Thornfall Alliance pacts.</capacity>
-                    <capacity title="Animosity [Saxon Orrik]">This unit cannot be included in an army that includes one or more models of the listed type.</capacity>
-                    <capacity title="Collaboration" type="*Action">RNG CMD. Target friendly warrior model’s next attack roll this turn is boosted.</capacity>
-                    <capacity title="Granted: Applied Knowledge">While this model is in play, models in this unit gain Applied Knowledge. (If a model with Applied Knowledge makes only normal attacks during its combat action, it can make an additional combat action during its activation this turn.)</capacity>
+                    <capacity title="MERCENARIES">These models will work for Cygnar.</capacity>
+                    <capacity title="MINIONS">These models will work for Circle and Trollbloods and the Blindwater Congregation and Thornfall Alliance pacts.</capacity>
+                    <capacity title="ANIMOSITY [SAXON ORRIK]">This unit cannot be included in an army that includes one or more models of the listed type.</capacity>
+                    <capacity title="COLLABORATION" type="*Action">RNG CMD. Target friendly warrior model’s next attack roll this turn is boosted.</capacity>
+                    <capacity title="GRANTED: APPLIED KNOWLEDGE">While this model is in play, models in this unit gain Applied Knowledge. (If a model with Applied Knowledge makes only normal attacks during its combat action, it can make an additional combat action during its activation this turn.)</capacity>
 
                     <model>
                         <basestats name="EDREA" spd="6" str="4" mat="5" rat="5" def="14" arm="12" cmd="9" hitpoints="5" />
@@ -949,11 +949,11 @@
                             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11"></ranged_weapon>
                             <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
                         </weapons>
-                        <capacity title="Magic Ability [7]"></capacity>
-                        <capacity title="•	Arcane Bolt" type="*Attack">Arcane Bolt is a RNG 12, POW 11 magic attack.</capacity>
-                        <capacity title="•	Wind Barrier" type="*Action">Non-magical ranged attacks targeting this model or a model in this unit completely within 3" of this model automatically miss. Wind Barrier lasts for one round.</capacity>
-                        <capacity title="•	Zephyr" type="*Action">Models in this unit that are in formation can immediately advance up to 3". They cannot be targeted by free strikes during this movement.</capacity>
-                        <capacity title="True Sight"> This model ignores concealment, Camouflage, and Stealth.</capacity>
+                        <capacity title="MAGIC ABILITY [7]"></capacity>
+                        <capacity title="•	ARCANE BOLT" type="*Attack">Arcane Bolt is a RNG 12, POW 11 magic attack.</capacity>
+                        <capacity title="•	WIND BARRIER" type="*Action">Non-magical ranged attacks targeting this model or a model in this unit completely within 3" of this model automatically miss. Wind Barrier lasts for one round.</capacity>
+                        <capacity title="•	ZEPHYR" type="*Action">Models in this unit that are in formation can immediately advance up to 3". They cannot be targeted by free strikes during this movement.</capacity>
+                        <capacity title="TRUE SIGHT"> This model ignores concealment, Camouflage, and Stealth.</capacity>
                     </model>
                     <works_for id="faction_orboros" />
                     <works_for id="faction_trollblood" />
@@ -1392,10 +1392,10 @@
                     <basestats name="HUTCHUCK" spd="5" str="9" mat="6" rat="6" def="13" arm="16" cmd="9" hitpoints="8" fearless="true"/>
                     <weapons>
                         <ranged_weapon name="Alchemical Grenades" rng="8" rof="1" aoe="3" pow="12">
-                            <capacity title="Ammo Type">Each time this weapon is used to make an attack, choose one of the following abilities:</capacity>
-                            <capacity title="● Brain Damage"> – A model damaged by an attack with this weapon cannot cast spells, upkeep spells, or use an animus for one round.</capacity>
-                            <capacity title="● Quake"> – On a direct hit against an enemy model, all models hit are knocked down.</capacity>
-                            <capacity title="● Rust"> – This attack causes no damage. Instead, warjacks in the AOE are hit and suffer –2 ARM for one turn.</capacity>
+                            <capacity title="AMMO TYPE">Each time this weapon is used to make an attack, choose one of the following abilities:</capacity>
+                            <capacity title="● BRAIN DAMAGE"> – A model damaged by an attack with this weapon cannot cast spells, upkeep spells, or use an animus for one round.</capacity>
+                            <capacity title="● QUAKE"> – On a direct hit against an enemy model, all models hit are knocked down.</capacity>
+                            <capacity title="● RUST"> – This attack causes no damage. Instead, warjacks in the AOE are hit and suffer –2 ARM for one turn.</capacity>
                         </ranged_weapon>
                         <melee_weapon name="Mace" pow="5" p_plus_s="14" reach="true"></melee_weapon>
                     </weapons>
@@ -1403,7 +1403,7 @@
                     <capacity title="MINION">This model will work for Circle, Skorne, and Trollbloods.</capacity>
                     <capacity title="AMBUSH">You can choose not to deploy this unit at the start of the game. If it is not deployed normally, you can put it into play at the end of any of your Control Phases after your first turn. When you do, choose any table edge except the back of you opponent's deployment zone. Place this unit within 3" of the chosen table edge.</capacity>
                     <capacity title="TAKE DOWN">Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.</capacity>
-                    <capacity title="Wild Shot">This model can make one ranged attack during its activation before its normal movement. If it does, after its normal movement, the model can only make melee attacks that activation.</capacity>
+                    <capacity title="WILD SHOT">This model can make one ranged attack during its activation before its normal movement. If it does, after its normal movement, the model can only make melee attacks that activation.</capacity>
                     <works_for id="faction_orboros" />
                     <works_for id="faction_skorne" />
                     <works_for id="faction_trollblood" />
