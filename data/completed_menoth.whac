@@ -914,7 +914,7 @@
           <basestats name="VASSAL" spd="5" str="5" mat="5" rat="4" def="13" arm="13" cmd="6" hitpoints="5" />
           <weapons />
           <capacity title="IRON SENTINEL">While B2B with a friendly Faction warjack, this model gains +2 DEF and ARM and cannot be knocked down.</capacity>
-          <capacity title="MAGIC ABILITY [7] -" />
+          <capacity title="MAGIC ABILITY [7]" />
           <capacity title="● ANCILLARY ATTACK (★ACTION)" type="">RNG 5. Target friendly Faction Warjack. If the warjack is in range, it immediately makes one normal melee or ranged attack. A warjack can make an Anciliary Attack special action only once per turn.</capacity>
           <capacity title="● ARCANE BOLT (★ATTACK)" type="">Arcane Bolt is a RNG 12, POW 11 magic attack.</capacity>
           <capacity title="● ENLIVEN (★ACTION)" type="">RNG 5. Target friendly Faction warjack. If the warjack is in range, the next time it suffers damage from an enemy attack while it is not advancing, immediately after the attack is resolved the warjack can make a full advance, then Enliven expires. The warjack cannot be targeted by free strikes during this movement. Enliven lasts for one round.</capacity>
