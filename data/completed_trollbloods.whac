@@ -91,7 +91,7 @@
             <spell name="REPUDIATE" cost="2" rng="10" aoe="-" pow="-" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Repudiate immediately expire. An enemy model maintaining an upkeep spell that expired as a result of Repudiate suffers d3 damage points.</spell>
             <spell name="STRANGLEHOLD" cost="2" rng="10" aoe="-" pow="11" up="NO" off="YES">A model damaged by Stranglehold forfeits either its movement or its action during its next activation, as its controller chooses.</spell>
             <spell name="UNMINDING" cost="3" rng="10" aoe="-" pow="-" up="YES" off="YES">Target enemy warbeast suffers -2 FURY and THR and loses its animus. This model can cast an affected warbeast's animus as a spell as if the animus belonged to a warbeast in this model's battlegroup and in its control area.</spell>
-            <capacity title="FIELD MARSHALL[HYPER REGENERATION]">Models in this model's battlegroup gain Hyper Regeneration. (A model with Hyper Regeneration automatically heals d3 damage points at the start of each of its activations.)</capacity>
+            <capacity title="FIELD MARSHAL[HYPER REGENERATION]">Models in this model's battlegroup gain Hyper Regeneration. (A model with Hyper Regeneration automatically heals d3 damage points at the start of each of its activations.)</capacity>
             <capacity title="GOAD">When a warbeast in this model's battlegroup destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved this model can force the warbeast to advance up to 2".</capacity>
 
             <model>
