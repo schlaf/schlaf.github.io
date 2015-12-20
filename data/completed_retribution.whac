@@ -617,7 +617,7 @@
               <weapons>
                   <melee_weapon name="Multi Tool" pow="3" p_plus_s="8"></melee_weapon>
               </weapons>
-              <capacity title="THEME FORCE[FORCE WALL]">This model can be included only in a Force Wall theme force army list</capacity>
+              <capacity title="THEME FORCE [FORCE WALL]">This model can be included only in a Force Wall theme force army list</capacity>
               <capacity title="CONCENTRATED POWER" type="*Action">RNG 5. Target friendly Faction warjack. If the warjack is in range, it gains +2 on melee damage rolls this turn.</capacity>
               <capacity title="FORCE MULTIPLIER" type="*Action">RNG 5. Target friendly Faction warjack.  If the warjack is in range and has 1 or more focus, points, it is allocated 1 focus point.</capacity>
               <capacity title="POWER BOOSTER" type="*Action">RNG 5. Target friendly Faction warjack. If the target warjack is in range and has no focus points, it gains 1 focus point. If the warjack is Disrupted, it is no longer Disrupted.</capacity>

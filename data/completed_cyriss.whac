@@ -238,7 +238,7 @@
           <basestats name="Prime Axiom" spd="5" str="16" mat="0" rat="0" def="7" arm="20" cmd="0" />
           <weapons>
             <ranged_weapon rng="13" name="Accelespiker" aoe="-" pow="11" rof="2" location="S">
-              <capacity title="AUTO FIRE[3]">Make 3 ranged attacks targeting a primary target and any number of secondary targets within 2" of the first target. Ignore intervening models when declaring secondary targets. A secondary target cannot be targeted by more attacks than the primary target. Auto Fire counts as one attack for ROF.</capacity>
+              <capacity title="AUTO FIRE [3]">Make 3 ranged attacks targeting a primary target and any number of secondary targets within 2" of the first target. Ignore intervening models when declaring secondary targets. A secondary target cannot be targeted by more attacks than the primary target. Auto Fire counts as one attack for ROF.</capacity>
             </ranged_weapon>
             <ranged_weapon rng="11" name="Tow Cable" aoe="-" pow="-" rof="1" location="R">
               <capacity title="DRAG">If this weapon damages an enemy model with an equal or smaller base, immediately after the attack is resolved the damaged model can be pushed any distance directly toward this model. After the damaged model is moved this model can make one normal melee attack against the model pushed. After resolving this melee attack, this model can make additional melee attacks during its combat action.</capacity>
@@ -263,7 +263,7 @@
           <basestats name="Transinfinite Emergence Projector" spd="5" str="10" mat="0" rat="4" def="10" arm="19" cmd="10" hitpoints="20" construct="true" pathfinder="true"/>
           <weapons>
             <ranged_weapon rng="SP10" name="Aperture Pulse" aoe="-" pow="10" location="-" rof="1">
-              <capacity title="AUTO FIRE[2]">Make 2 ranged attacks targeting a primary target and any number of secondary targets within 2" of the first target. Ignore intervening models when declaring secondary targets. A secondary target cannot be targeted by more attacks than the primary target. Auto Fire counts as one attack for ROF.</capacity>
+              <capacity title="AUTO FIRE [2]">Make 2 ranged attacks targeting a primary target and any number of secondary targets within 2" of the first target. Ignore intervening models when declaring secondary targets. A secondary target cannot be targeted by more attacks than the primary target. Auto Fire counts as one attack for ROF.</capacity>
               <capacity title="FIRING FORMULAE">When this model makes a ranged attack with this weapon during its activation, determine the position of Permutation Servitors  this model put into play. For each completely within its left firing arc this model gains an additional die on its attack rolls. For each completely within its right firing arc, this model gains an additional die on its damage rolls. For each completely within its back arc, this model makes an additional Auto Fire attack.</capacity>
             </ranged_weapon>
           </weapons>
@@ -319,7 +319,7 @@
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
           <capacity title="REPAIRABLE">Other models can make Bodge or Repair special actions to repair this model as if it were a warjack.</capacity>
           <capacity title="SIDE STEP">When a model with Side Step hits an enemy model with an initial melee attack or a melee special attack that is not a power attack, it can advance up to 2" after the attack is resolved. This model cannot be targeted by free strikes during this movement.</capacity>
-          <capacity title="VARIABLE[MELEE]">At the start of this model's activation, choose one of the following modes for the unit's weapons. Each of this model's melee weapons gains the ability listed for one round.</capacity>
+          <capacity title="VARIABLE [MELEE]">At the start of this model's activation, choose one of the following modes for the unit's weapons. Each of this model's melee weapons gains the ability listed for one round.</capacity>
           <capacity title="● ACCURACY">This weapon gains +2 on its attack rolls.</capacity>
           <capacity title="● SHIELDS UP">This weapon gains BUCKLER.</capacity>
         </unit>
@@ -341,7 +341,7 @@
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
           <capacity title="SHIELD WALL" type="Order">For one round, each affected model gains a +4 ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           <capacity title="REPAIRABLE">Other models can make Bodge or Repair special actions to repair this model as if it were a warjack.</capacity>
-          <capacity title="VARIABLE[MELEE]">At the start of this model's activation, choose one of the following modes for the unit's weapons. Each of this model's melee weapons gains the ability listed for one round.</capacity>
+          <capacity title="VARIABLE [MELEE]">At the start of this model's activation, choose one of the following modes for the unit's weapons. Each of this model's melee weapons gains the ability listed for one round.</capacity>
           <capacity title="● EMPOWERED ATTACK">This weapon gains +2 on its damage rolls.</capacity>
           <capacity title="● SET DEFENSE">A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model .</capacity>
         </unit>
@@ -356,7 +356,7 @@
           <capacity title="ASSAULT (ORDER)">Affected models must charge or run. As part of a charge, after moving but before making its charge attack, an affected model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of the affected model's activation. Models that received this order cannot make combined ranged attacks this activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, the affected model must still make the ranged attack before its activation ends.</capacity>
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
           <capacity title="REPAIRABLE">Other models can make Bodge or Repair special actions to repair this model as if it were a warjack.</capacity>
-          <capacity title="VARIABLE[RANGED]">At the start of this model's activation, choose one of the following modes for the unit's weapons. Each of this model's melee weapons gains the ability listed for one round.</capacity>
+          <capacity title="VARIABLE [RANGED]">At the start of this model's activation, choose one of the following modes for the unit's weapons. Each of this model's melee weapons gains the ability listed for one round.</capacity>
           <capacity title="● EMPOWERED ATTACK">This weapon gains +2 on its damage rolls.</capacity>
           <capacity title="● SNIPE">This attack gains +4 RNG.</capacity>
         </unit>

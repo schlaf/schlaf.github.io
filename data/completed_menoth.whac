@@ -481,10 +481,10 @@
                   <ranged_weapon name="Immolator Cannon" rng="SP8" rof="1" aoe="-" pow="14" fire="true" continuous_fire="true" location="L">
                   </ranged_weapon>
               </weapons>
-              <capacity title="AFFINITY[FEORA]" type="">While in Feora's control area, this model gains boosted ranged attack rolls.</capacity>
+              <capacity title="AFFINITY [FEORA]" type="">While in Feora's control area, this model gains boosted ranged attack rolls.</capacity>
               <capacity title="BLAZING WRATH">This model can charge without spending focus or being forced if its charge target is suffering the Fire continuous effect. </capacity>
               <capacity title="FUEL FOR THE FLAMES">When a model suffers a Fire damage roll, while within 5" of this model, add +2 to the roll.</capacity>
-              <capacity title="SPECIAL ISSUE[FEORA]">This model can be included in Feora's theme forces. It can also be bonded to Feora.</capacity>
+              <capacity title="SPECIAL ISSUE [FEORA]">This model can be included in Feora's theme forces. It can also be bonded to Feora.</capacity>
           </warjack>
           <warjack id="PJ22" name="Purifier" full_name="Purifier" qualification="Protectorate Light Warjack" fa="U" cost="5" damage_grid="xxxxxxx....x.......L..R.LLMCRRxMMCCx" completed="true">
               <basestats name="Purifier" spd="5" str="9" mat="6" rat="4" def="13" arm="16" cmd="0" immunity_fire="true"/>
@@ -778,7 +778,7 @@
                 <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
         <melee_weapon name="Kopis " pow="4" count="2" p_plus_s="10" />                
               </weapons>
-              <capacity title="ASSAULT &AMP; BATTERY (ORDER)">Before their normal movement, affected models can make one ranged attack. During their normal movement, affected models must charge or run. The ranged attack is made before declaring a charge target.</capacity>
+              <capacity title="ASSAULT &amp; BATTERY (ORDER)">Before their normal movement, affected models can make one ranged attack. During their normal movement, affected models must charge or run. The ranged attack is made before declaring a charge target.</capacity>
               <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
               <capacity title="TACTICS: COMBINED MELEE ATTACK">Models in this unit gain Combined Melee Attack.</capacity>
               <capacity title="ATTACHMENT [IDRIAN SKIRMISHER]" type="">This attachment can be added to an Idrian Skirmsishers unit.</capacity>
@@ -997,7 +997,7 @@
                   </melee_weapon>
               </weapons>
               <capacity title="IMPENETRABLE SHIELD">While this model is B2B with one or more friendly Temple Flameguard models, it does not suffer damage from non-magical melee or ranged attacks.</capacity>
-              <capacity title="LEADERSHIP[TEMPLE FLAMEGUARD]">Friendly Temple Flameguard models activating while in this model's command range gain Relentless Charge that activation.</capacity>
+              <capacity title="LEADERSHIP [TEMPLE FLAMEGUARD]">Friendly Temple Flameguard models activating while in this model's command range gain Relentless Charge that activation.</capacity>
               <capacity title="RAPID STRIKE">This model can make one additional melee attack each combat action.</capacity>
               <capacity title="RELENTLESS CHARGE">This model gains Pathfinder during activations it charges.</capacity>
               <capacity title="UNYIELDING">While engaging an enemy model, this model gains +2 ARM.</capacity>

@@ -274,11 +274,11 @@
                     <basestats name="FREEBOOTER" spd="5" str="11" mat="6" rat="5" def="12" arm="17" cmd="0" />
                     <weapons>
                         <melee_weapon name="Clamp" pow="3" p_plus_s="14" open_fist="true" location="R">
-                            <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
+                            <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
                             <capacity title="TRASH">Gain an additional damage die againts knocked down targets.</capacity>
                         </melee_weapon>
                         <melee_weapon name="Clamp" pow="3" p_plus_s="14" open_fist="true" location="L">
-                            <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">See above.</capacity>
+                            <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">See above.</capacity>
                             <capacity title="TRASH">See above.</capacity>
                         </melee_weapon>
                     </weapons>
@@ -633,10 +633,10 @@
                     <basestats name="LUG" spd="5" str="12" mat="5" rat="1" def="12" arm="18" cmd="6" immunity_frost="true" pathfinder="true" />
                     <weapons>
                         <melee_weapon name="Claw" pow="3" p_plus_s="15" open_fist="true" location="L">
-                            <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attack it can immediately make a double-handed throw, head-butt, headlock/weapon lock, push, or throw power attack against the target.</capacity>
+                            <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attack it can immediately make a double-handed throw, head-butt, headlock/weapon lock, push, or throw power attack against the target.</capacity>
                         </melee_weapon>
                         <melee_weapon name="Claw" pow="3" p_plus_s="15" open_fist="true" location="R">
-                            <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">See above.</capacity>
+                            <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">See above.</capacity>
                         </melee_weapon>
                     </weapons>
                     <animus name="BEAR HANDS" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">When this model hits an enemy model with a normal melee attack, it can choose to knock down the enemy model or push it 3" directly away. Bear Hands lasts for one turn.</animus>

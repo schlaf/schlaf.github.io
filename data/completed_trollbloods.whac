@@ -91,7 +91,7 @@
             <spell name="REPUDIATE" cost="2" rng="10" aoe="-" pow="-" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Repudiate immediately expire. An enemy model maintaining an upkeep spell that expired as a result of Repudiate suffers d3 damage points.</spell>
             <spell name="STRANGLEHOLD" cost="2" rng="10" aoe="-" pow="11" up="NO" off="YES">A model damaged by Stranglehold forfeits either its movement or its action during its next activation, as its controller chooses.</spell>
             <spell name="UNMINDING" cost="3" rng="10" aoe="-" pow="-" up="YES" off="YES">Target enemy warbeast suffers -2 FURY and THR and loses its animus. This model can cast an affected warbeast's animus as a spell as if the animus belonged to a warbeast in this model's battlegroup and in its control area.</spell>
-            <capacity title="FIELD MARSHAL[HYPER REGENERATION]">Models in this model's battlegroup gain Hyper Regeneration. (A model with Hyper Regeneration automatically heals d3 damage points at the start of each of its activations.)</capacity>
+            <capacity title="FIELD MARSHAL [HYPER REGENERATION]">Models in this model's battlegroup gain Hyper Regeneration. (A model with Hyper Regeneration automatically heals d3 damage points at the start of each of its activations.)</capacity>
             <capacity title="GOAD">When a warbeast in this model's battlegroup destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved this model can force the warbeast to advance up to 2".</capacity>
 
             <model>
@@ -382,10 +382,10 @@
           <basestats name="MAULER" spd="5" str="12" mat="6" rat="3" def="12" arm="18" cmd="5" />
           <weapons>
             <melee_weapon name="Big Meaty Fist" pow="4" p_plus_s="16" open_fist="true" location="L">
-              <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
+              <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
             </melee_weapon>
             <melee_weapon name="Big Meaty Fist" pow="4" p_plus_s="16" open_fist="true" location="R">
-              <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">See above.</capacity>
+              <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">See above.</capacity>
             </melee_weapon>
           </weapons>
           <animus name="RAGE" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly Faction model gains +3 STR. Rage lasts for one round.</animus>
@@ -619,7 +619,7 @@
               <weapons>
                 <melee_weapon name="Hand Weapon" pow="4" p_plus_s="11" />
               </weapons>
-			  <capacity title="ATTACHMENT [KRIELSTONE BEARER &AMP; STONESCRIBES]">This attachment can be added to a Krielstone Bearer &amp; Stonescribes unit.</capacity> 
+			  <capacity title="ATTACHMENT [KRIELSTONE BEARER &amp; STONESCRIBES]">This attachment can be added to a Krielstone Bearer &amp; Stonescribes unit.</capacity> 
               <capacity title="STONE WARP">This model can use one of the following effects each turn anytime during its unit’s activation.</capacity>
               <capacity title="● COMBAT WARDING">Continuous effects on friendly Faction models affected by this units Protective Aura expire. While affected by this unit's Protective Aura, a model is immune to continuous effects. Combat Warding lasts for one round.</capacity>
               <capacity title="● SPIRIT CHASER">While within the area affected by this unit’s Protective Aura this round, enemy models lose Incorporeal and Stealth.</capacity>
@@ -885,7 +885,7 @@
           <weapons>
               <melee_weapon name="Ritual Blade" pow="2" p_plus_s="8" magical="true"/>
           </weapons>
-            <capacity title="MAGIC ABILITY[5]"/>
+            <capacity title="MAGIC ABILITY [5]"/>
             <capacity title="● HEAL" type="*Action">Choose a friendly living model B2B with this model. That model heals d3 damage points.</capacity>
             <capacity title="● PUPPET MASTER" type="*Action or attack">Puppet Master is a RNG 10 spell. When it targets an enemy model/unit, it is a magic attack. You can have one affected model reroll one or more dice of your choice  rolled for a command check, attack, or damage roll, then Puppet Master expires. Puppet Master lasts for one round.</capacity>
             <capacity title="WILD COMMUNION">When a warbeast within 3" of this model makes a Threshold check, you can have the warbeast reroll one or more dice of your choice. Dice can be rerolled only once as a result of Wild Communion.</capacity>
@@ -1036,7 +1036,7 @@
                 </ranged_weapon>
             </weapons>
             <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
-            <capacity title="GUN &AMP; RUN">At the end of its activation, if this model destroyed one or more enemy models with ranged attacks that activation, it can make a full advance.</capacity>
+            <capacity title="GUN &amp; RUN">At the end of its activation, if this model destroyed one or more enemy models with ranged attacks that activation, it can make a full advance.</capacity>
             <capacity title="LEADERSHIP [TROLLKIN HIGHWAYMEN]">While in this model's command range, friendly Trollkin Highwaymen models gain Opportunist. (While a model with Opportunist is completely within the back arc of an enemy model, it gains an additional die on its attack and damage rolls against that enemy model.)</capacity>
             <capacity title="OPPORTUNIST">While this model is completely within the back arc of an enemy model, this model gains an additional die on its attack and damage rolls against that enemy model.</capacity>
             <capacity title="PROWL">This model gains Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.</capacity>

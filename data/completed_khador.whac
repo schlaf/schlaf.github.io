@@ -407,7 +407,7 @@
           <basestats name="KODIAK" spd="4" str="12" mat="6" rat="4" def="10" arm="20" cmd="0" pathfinder="true" />
           <weapons>
             <melee_weapon p_plus_s="16" pow="4" name="Armored Fist" location="R" open_fist="true">
-              <capacity title="CHAIN ATTACK: GRAB &AMP; SMASH">If this model hits the same model with both it's initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
+              <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">If this model hits the same model with both it's initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
             </melee_weapon>
             <melee_weapon p_plus_s="16" pow="4" name="Armored Fist" location="L" open_fist="true" />
           </weapons>
@@ -452,7 +452,7 @@
             </melee_weapon>
             <melee_weapon p_plus_s="15" pow="3" name="Open Fist" open_fist="true" location="L" />
           </weapons>
-          <capacity title="AFFINITY[SORSCHA]">While in Sorscha's control area, Beast can reroll failed slam power attack and charge attack rolls. Attack rolls can be rerolled only once as a result of this affinity</capacity>
+          <capacity title="AFFINITY [SORSCHA]">While in Sorscha's control area, Beast can reroll failed slam power attack and charge attack rolls. Attack rolls can be rerolled only once as a result of this affinity</capacity>
           <capacity title="HEAVY BOILER">This model can run without spending focus.</capacity>
           <capacity title="HYPER AGGRESSIVE">When this model suffers damage from an enemy attack anytime except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model.</capacity>
           <capacity title="IMPRINT: MURDEROUS">During its activation, this model can spend 1 focus point to use Murderous. That activation, this model gains an additional die on melee attack rolls against living enemy warrior models.</capacity>
@@ -520,7 +520,7 @@
               <capacity title="ARCING FIRE">When attacking with this weapon, this model can ignore intervening models except those within 1" of the target.</capacity>
             </ranged_weapon>
           </weapons>
-          <capacity title="AFFINITY[HARKEVICH]">While in Harkevich's control area, this model gains boosted ranged attack rolls.</capacity>
+          <capacity title="AFFINITY [HARKEVICH]">While in Harkevich's control area, this model gains boosted ranged attack rolls.</capacity>
           <capacity title="BULLDOZE">When this model advances into B2B contact with an enemy model during its activation, it can push that model up to 2" directly away from it. A model can be pushed by Bulldoze only once per activation. Bulldoze has no effect when this model makes a trample power attack.</capacity>
           <capacity title="DODGE">This can advance up to 2" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.</capacity>
         </warjack>
@@ -744,7 +744,7 @@
                 <ranged_weapon rng="8" name="Blunderbuss" aoe="-" pow="12" rof="1" />
               </weapons>
               <capacity title="ATTACHMENT [WINTER GUARD INFANTRY]">This attachment can be added to a Winter Guard Infantry unit.</capacity>
-              <capacity title="BOB &AMP; WEAVE" type="Order">Affected models make a full advance during their normal movement this activation and gain +2 DEF for one round.</capacity>
+              <capacity title="BOB &amp; WEAVE" type="Order">Affected models make a full advance during their normal movement this activation and gain +2 DEF for one round.</capacity>
               <capacity title="TACTICS: COMBINED MELEE ATTACK">Models in this unit gain Combined Melee Attack</capacity>
             </model>
             <model id="Winter Guard Infantry Standard">
@@ -824,7 +824,7 @@
             </ranged_weapon>
           </weapons>
           <capacity title="ALCHEMICAL MASK">This model ignores Gas effects. When determining LOS or resolving attacks, this model ignores cloud effects</capacity>
-          <capacity title="ASSAULT &AMP; BATTERY" type="Order">Before their normal movement, affected models can make one ranged attack, after which they must charge or run. The ranged attack is made before declaring a charge target.</capacity>
+          <capacity title="ASSAULT &amp; BATTERY" type="Order">Before their normal movement, affected models can make one ranged attack, after which they must charge or run. The ranged attack is made before declaring a charge target.</capacity>
           <capacity title="SHIELD WALL" type="Order">For one round, each affected model gains a +4ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           <weapon_attachment id="KA05" name="Assault Kommando Flame Thrower" full_name="Assault Kommando Flame Thrower" fa="2" cost="1" qualification="Khador Kommando Weapon Attachment" max_wa="3" completed="true">
             <model id="Assault Kommando Flame Thrower">

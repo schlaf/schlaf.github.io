@@ -19,7 +19,7 @@
                             <capacity title="INFLICT PAIN">When it hits a warbeast with this weapon, this model can place 1 fury point on or remove 1 fury point from the warbeast.</capacity>
                         </melee_weapon>
                     </weapons>
-                    <feat title="PAIN &AMP; SUFFERING">While in Morghoul's control area, enemy models cannot spend focus, be forced, or have damage transferred to them. Pain &amp; Suffering lasts for one round.</feat>
+                    <feat title="PAIN &amp; SUFFERING">While in Morghoul's control area, enemy models cannot spend focus, be forced, or have damage transferred to them. Pain &amp; Suffering lasts for one round.</feat>
                     <spell name="ABUSE" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly warbeast gains +2 SPD and STR for one round but suffers d3 damage points.</spell>
                     <spell name="ADMONITION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy model advances and ends its movement within 6" of target model in this model's battlegroup, the affected model can immediately advance up to 3", then Admonition expires. The affected model cannot be targeted by free strikes during this movement.</spell>
                     <spell name="TORMENT" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">When a model is damaged by Torment, for one round it loses Tough, cannot heal or be healed, and cannot transfer damage.</spell>
@@ -358,10 +358,10 @@
                             <capacity title="HARD HEAD">This model can add this weapon's POW on its head-butt and slam power attack damage rolls.</capacity>
                         </melee_weapon>
                         <melee_weapon name="War Gauntlet" pow="4" p_plus_s="17" open_fist="true" location="L">
-                            <capacity title="CHAIN ATTACK: GRAB &AMP;AMP; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
+                            <capacity title="CHAIN ATTACK: GRAB &amp;AMP; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</capacity>
                         </melee_weapon>
                         <melee_weapon name="War Gauntlet" pow="4" p_plus_s="17" open_fist="true" location="R">
-                            <capacity title="CHAIN ATTACK: GRAB &AMP;AMP; SMASH">See above.</capacity>
+                            <capacity title="CHAIN ATTACK: GRAB &amp;AMP; SMASH">See above.</capacity>
                         </melee_weapon>
                     </weapons>
                     <animus name="TRAIN WRECK" cost="1" rng="6" aoe="-" pow="-" up="NO" off="NO"> Target friendly warbeast's melee weapons gain Beat Back. Train Wreck lasts for one turn. (Immediately after a normal attack with a weapon with Beat Back is resolved during this model's combat action, the enemy model hit can be pushed 1" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1".)</animus>
