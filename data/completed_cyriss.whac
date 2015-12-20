@@ -14,7 +14,7 @@
             </melee_weapon>
             <ranged_weapon rng="12" name="Polynomial Beam" aoe="-" pow="12" rof="1" magical="true" />
           </weapons>
-          <feat title="Eleventh Hour">Friendly Faction models currently within Aurora's control area gain Refuge for one round. (When a model with Refuge hits an enemy model with an attack during its activation, immediately after its combat action ends the model with Refuge can make a full advance. It cannot be targeted by free strikes during this movement.)</feat>
+          <feat title="ELEVENTH HOUR">Friendly Faction models currently within Aurora's control area gain Refuge for one round. (When a model with Refuge hits an enemy model with an attack during its activation, immediately after its combat action ends the model with Refuge can make a full advance. It cannot be targeted by free strikes during this movement.)</feat>
           <spell name="ADMONITION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy model advances and ends its movement within 6" of target model in this model's battlegroup, the affected model can immediately advance up to 3", then ADMONITION expires. The affected model cannot be targeted by free strikes during this movement.</spell>
           <spell name="BLADED GALE" cost="3" rng="SP8" aoe="-" pow="13" up="NO" off="YES">Models hit lose Flight for one round.</spell>
           <spell name="FLASHING BLADE" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model immediately makes one normal attack with one of its melee weapons against each enemy model in its LOS that is in the weapon's melee range. These attacks are simultaneous.</spell>
@@ -37,7 +37,7 @@
               <capacity title="DOUBLE STRIKE">See above.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Circumpotence">Enemy models currently within Axis' control area suffer -2 SPD and STR, and friendly Faction models currently in Axis' control area gain +2 SPD and STR. Circumpotence last for one round.</feat>
+          <feat title="CIRCUMPOTENCE">Enemy models currently within Axis' control area suffer -2 SPD and STR, and friendly Faction models currently in Axis' control area gain +2 SPD and STR. Circumpotence last for one round.</feat>
           <spell name="BATTERING RAM" cost="2" rng="6" aoe="-" pow="12" up="NO" off="YES">When an enemy model is hit by BATTERING RAM, it can be pushed 3" directly away from the spells point of origin.</spell>
           <spell name="IRON AGGRESSION" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Warjack can run, charge, or make slam or trample power attacks without spending focus and gains boosted melee attack rolls.</spell>
           <spell name="ONSLAUGHT" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Friendly Faction models beginning a charge in this model's control area gain Pathfinder during the charge.</spell>
@@ -54,7 +54,7 @@
             </melee_weapon>
             <ranged_weapon rng="11" name="Aperture Blast" aoe="4" pow="15" rof="1" />
           </weapons>
-          <feat title="Mathematical Perfection">Directrix's MAT and RAT are each equal to her FOCUS for one turn.</feat>
+          <feat title="MATHEMATICAL PERFECTION">Directrix's MAT and RAT are each equal to her FOCUS for one turn.</feat>
           <spell name="BACKLASH" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">When target enemy warjack that is part of a battlegroup is damaged, its controller suffers 1 damage point.</spell>
           <spell name="DOMINATION" cost="3" rng="8" aoe="-" pow="-" up="NO" off="YES">Take control of target enemy non-character warjack that has a functional cortex. You can make a full advance with the warjack and can then make one normal attack, then DOMINATION expires. DOMINATION can be cast only once per turn.</spell>
           <spell name="FIRE GROUP" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area the ranged weapons of models in its battlegroup gain +2 RNG. Fire Group lasts for one turn.</spell>
@@ -79,10 +79,10 @@
           <basestats name="Father Lucant, Divinity Architect" spd="6" str="9" mat="6" rat="3" def="14" arm="17" cmd="10" hitpoints="21" construct="true" pathfinder="true" />
           <weapons>
             <melee_weapon p_plus_s="16" pow="7" name="Apogee" count="1" reach="true" magical="true">
-              <capacity title="Stall">A warjack hit by this attack suffers the Stall continuous effect. While a warjack is suffering Stall, its base DEF becomes 7 and it cannot run or charge.</capacity>
+              <capacity title="STALL">A warjack hit by this attack suffers the Stall continuous effect. While a warjack is suffering Stall, its base DEF becomes 7 and it cannot run or charge.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Clockwork Reinforcement">While within Lucant's control area, friendly Faction models gain +4 ARM. When a friendly Faction model in Lucant's control area makes a Repair skill check, it automatically succeeds. Clockwork Reinforcement lasts one round.</feat>
+          <feat title="CLOCKWORK REINFORCEMENT">While within Lucant's control area, friendly Faction models gain +4 ARM. When a friendly Faction model in Lucant's control area makes a Repair skill check, it automatically succeeds. Clockwork Reinforcement lasts one round.</feat>
           <spell name="DECELERATION" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly models gain +2 DEF and ARM against ranged attacks. DECELERATION lasts one round.</spell>
           <spell name="DISSOLUTION BOLT" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">A model hit by DISSOLUTION BOLT cannot channel spells for one round.</spell>
           <spell name="POSITIVE CHARGE" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly Faction warjack gains +2 to melee attack and melee damage rolls. While within 3" of the affected warjack, friendly Faction models gain +2 on melee attack and melee damage rolls. POSITIVE CHARGE lasts for one turn.</spell>
@@ -99,7 +99,7 @@
             <melee_weapon p_plus_s="14" pow="5" name="Workshop Array" count="2" />
             <ranged_weapon rng="11" name="Static Bolt" aoe="-" pow="11" rof="1" electricity="true" />
           </weapons>
-          <feat title="Technological Superiority">When a model in Syntherion’s battlegroup begins its activation in his control area, it can charge without spending focus and gains Weapon Platform (A model with Weapon Platform can make melee and ranged attacks in the same activation, when a model with Weapon Platform makes its initial melee attacks or a power attack, it can also make its initial ranged attacks. A model with Weapon Platform can make ranged attacks even while in melee.)</feat>
+          <feat title="TECHNOLOGICAL SUPERIORITY">When a model in Syntherion’s battlegroup begins its activation in his control area, it can charge without spending focus and gains Weapon Platform (A model with Weapon Platform can make melee and ranged attacks in the same activation, when a model with Weapon Platform makes its initial melee attacks or a power attack, it can also make its initial ranged attacks. A model with Weapon Platform can make ranged attacks even while in melee.)</feat>
           <!-- errata feb 2015 -->
           <spell name="CONVECTION" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">When Convection destroys a living enemy model, allocate 1 focus point to a warjack in this model's battlegroup that is in its control area.</spell>
           <spell name="HOT SHOT" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target model in this model's battlegroup gains boosted ranged attack damage rolls.</spell>
@@ -120,7 +120,7 @@
           </weapons>
           <capacity title="ACCUMULATOR [WARCASTER]">When this model begins its activation within 3" of one or more friendly warcaster models, it is allocated 1 focus point.</capacity>
           <capacity title="ARCANE REPEATER">While this model's warcaster is within 5" ot it, that warcaster's control area is extended 2".</capacity>
-          <capacity title="ATTACHED [Controlling Warcaster]">This model is attached to its controlling warcaster for the rest of the game. Each warcaster can have only one model attached to it.</capacity>
+          <capacity title="ATTACHED [CONTROLLING WARCASTER]">This model is attached to its controlling warcaster for the rest of the game. Each warcaster can have only one model attached to it.</capacity>
           <capacity title="FOCUS BATTERY">During the Maintenance Phase, do not remove unspent focus points from this model. Focus points remaining on this model at the start of your control phase count toward its focus allocation limit.</capacity>
           <capacity title="POWER TRANSFER"  type="*Action">RNG 5. Target friendly Faction warjack. If the warjack is in range, spend up to 3 focus points to allocate it 1 focus point for each focus point spent.</capacity>
         </warjack>
@@ -191,7 +191,7 @@
             </melee_weapon>
           </weapons>
           <capacity title="HAND OF VENGEANCE">When one or more friendly faction warrior models are destroyed or removed from play by enemy attacks while within 5" of this model, this model gains +2 on attack and damage rolls for one round.</capacity>
-          <capacity title="Shield Guard">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity> <!-- errata 12-2013 -->
+          <capacity title="SHIELD GUARD">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity> <!-- errata 12-2013 -->
         </warjack>
         <warjack id="cocJ08" name="Inverter" full_name="Inverter" damage_grid="x....xx....x........LR...LLRR.MMIIMM" cost="8" qualification="Convergence Heavy Vector" fa="U" completed="true">
           <basestats name="Inverter" spd="4" str="12" mat="0" rat="0" def="10" arm="19" cmd="0" />
@@ -412,7 +412,7 @@
           </weapons>
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
           <capacity title="REPAIRABLE">Other models can make Bodge or Repair special actions to repair this model as if it were a warjack.</capacity>
-          <capacity title="Shield Guard">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity> <!-- errata 12-2013 -->
+          <capacity title="SHIELD GUARD">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity> <!-- errata 12-2013 -->
           <capacity title="DEFENSIVE STRIKE">Once per turn, when an enemy model advances into and ends its movement in this model's melee range, this model can immediately make one normal melee attack against it.</capacity>
         </solo>
         <solo id="cocS07" name="Reflex Servitors" full_name="Reflex Servitors" cost="2" qualification="Convergence Solo" fa="3" completed="true">
