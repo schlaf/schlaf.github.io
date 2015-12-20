@@ -522,7 +522,7 @@
             <capacity title="AFFINITY [GUNNBJORN]">While Dozer &amp; Smigg is in Gunnbjorn's control area, it gains boosted blast damage rolls.</capacity>
             <capacity title="REGENERATION [D3]">This model can be forced to heal d3 damage points once per activation. This model cannot use Regeneration during an activation it runs.</capacity>
             <capacity title="SNACKING">When this model boxes a living model with a melee attack, this model can heal d3 damage points. If this model heals, the boxed model is removed from play.</capacity>
-            <capacity title="SPECIAL ISSUE [GUNNBJORN)">This model can be included in Gunnbjorn's theme forces. It can also be bonded to Gunnbjorn.</capacity>
+            <capacity title="SPECIAL ISSUE [GUNNBJORN]">This model can be included in Gunnbjorn's theme forces. It can also be bonded to Gunnbjorn.</capacity>
             <capacity title="VETERAN LEADER [DIRE TROLL BLITZER]">Friendly Dire Troll Blitzer warbeasts gain +2 to attack rolls while this model is in their LOS.</capacity>
             <capacity title="VIRTUOSO">This model can make melee and ranged attacks during the same combat action. When this model makes its initial attacks, it can make both its initial ranged and melee attacks.</capacity>
 	    </warbeast>
