@@ -237,7 +237,7 @@
           <capacity title="● FOCUS SPHERE">Reduce the COST of the spell by 1</capacity>
           <capacity title="● GHOST STONE">This model's front arc extends to 360°, it ignores LOS when targeting models in its control area, and it ignores Stealth</capacity>
           <capacity title="● LENS OF TARVODH">The spell gain +3RNG</capacity>
-          <capacity title="ORGOTH SEAL">When a model targets this model with an offensive spell, the spell suffer -3RNG. If a model directly hits this model with an offensive spell, after the attack is resolved the attacking model suffer D6 damage points</capacity>
+          <capacity title="ORGOTH SEAL">When a model targets this model with an offensive spell, the spell suffer -3RNG. If a model directly hits this model with an offensive spell, after the attack is resolved the attacking model suffers D6 damage points</capacity>
         </warcaster>
     <warcaster id="Kx06" name="Zerkova2" generation="E" full_name="Obavnik Kommander Zerkova and Reaver Guard" qualification="Khador Epic Caster Unit" focus="7" warjack_points="4" fa="C" completed="true">
             <basestats name="ZERKOVA" spd="6" str="5" mat="6" rat="5" def="15" arm="15" cmd="9" hitpoints="16" officer="true" immunity_frost="true"/>
