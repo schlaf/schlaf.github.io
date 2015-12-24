@@ -719,7 +719,7 @@
       </battleEngines>
       <units>
         <unit id="CU06" name="Bane Knights" full_name="Bane Knights" qualification="CRYX UNIT" fa="3" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="false"  completed="true">
-          <basestats name="Leader and Grunts" spd="5" str="7" mat="6" rat="4" def="12" arm="16" cmd="8" undead="true" />
+          <basestats name="Leader &amp; Grunts" spd="5" str="7" mat="6" rat="4" def="12" arm="16" cmd="8" undead="true" />
           <weapons>
             <melee_weapon name="Bane Lance" pow="4" p_plus_s="11" reach="true" weapon_master="true">
               <capacity title="WEAPON MASTER">When attacking with the listed weapon, this model rolls an additional die on its damage rolls</capacity>
@@ -729,7 +729,7 @@
           <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
         </unit>
         <unit id="CU01" name="Bane Thralls" full_name="Bane Thralls" qualification="CRYX UNIT" fa="3" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
-          <basestats name="Leader and Grunts" spd="5" str="7" mat="6" rat="4" def="12" arm="15" cmd="8" undead="true" stealth="true" />
+          <basestats name="Leader &amp; Grunts" spd="5" str="7" mat="6" rat="4" def="12" arm="15" cmd="8" undead="true" stealth="true" />
           <weapons>
             <melee_weapon name="War axe" pow="4" p_plus_s="11" weapon_master="true" />
           </weapons>
@@ -758,7 +758,7 @@
           </unit_attachment>
         </unit>
         <unit id="CU02" name="Bile Thralls" full_name="Bile Thralls" qualification="CRYX UNIT" fa="3" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
-          <basestats name="Leader and Grunts" spd="5" str="4" mat="2" rat="3" def="10" arm="13" cmd="7" undead="true" />
+          <basestats name="Leader &amp; Grunts" spd="5" str="4" mat="2" rat="3" def="10" arm="13" cmd="7" undead="true" />
           <weapons>
             <ranged_weapon name="Bile cannon" rng="SP8" rof="1" aoe="-" pow="12" corrosion="true" continuous_corrosion="true">
               <capacity title="PURGE" type="*Attack">Each model within 6" of this model that is in its front arc is automatically hit unless this model's LOS to it is blocked by terrain. Models hit suffer a POW 12 corrosion damage roll and the Corrosion continuous effect. After this attack is resolved, remove this model from play. Purge is a ranged attack.</capacity>
@@ -766,7 +766,7 @@
           </weapons>
         </unit>
         <unit id="CU07" name="Black Ogrun boarding party" full_name="Black Ogrun boarding party" qualification="CRYX UNIT" fa="2" base_cost="4" full_cost="6" baseCount="3" fullCount="5" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
-          <basestats name="Leader and Grunts" spd="6" str="9" mat="7" rat="5" def="12" arm="15" cmd="9" terror="true" cra="true" hitpoints="8" />
+          <basestats name="Leader &amp; Grunts" spd="6" str="9" mat="7" rat="5" def="12" arm="15" cmd="9" terror="true" cra="true" hitpoints="8" />
           <weapons>
             <melee_weapon name="Hand Weapon" pow="4" p_plus_s="13" />
             <ranged_weapon name="Harpoon" rng="8" rof="1" aoe="-" pow="12">
@@ -788,7 +788,7 @@
           </model>
         </unit>
         <unit id="CU10" name="Bloodgorgers" full_name="Bloodgorgers" qualification="CRYX BLIGHTED TROLLKIN UNIT" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
-          <basestats name="Leader and Grunts" spd="5" str="7" mat="6" rat="4" def="12" arm="15" cmd="8" fearless="true" terror="true" tough="true" />
+          <basestats name="Leader &amp; Grunts" spd="5" str="7" mat="6" rat="4" def="12" arm="15" cmd="8" fearless="true" terror="true" tough="true" />
           <weapons>
             <melee_weapon name="Handweapon" pow="4" p_plus_s="11" count="2" />
           </weapons>
@@ -814,7 +814,7 @@
           </model>
         </unit>
         <unit id="CU14" name="Cephalyx Overlords" full_name="Cephalyx Overlords" qualification="CRYX ALLY UNIT" fa="1" base_cost="4" full_cost="-" baseCount="3" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
-          <basestats name="Leader and Grunts" spd="6" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" fearless="true" pathfinder="true" hitpoints="5" />
+          <basestats name="Leader &amp; Grunts" spd="6" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" fearless="true" pathfinder="true" hitpoints="5" />
           <weapons>
             <melee_weapon name="Prosthetic blades" pow="5" p_plus_s="11" />
           </weapons>
@@ -827,7 +827,7 @@
           <capacity title="SACRIFICIAL PAWN [DRUDGE GRUNT]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Drudge Grunt model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
         </unit>
         <unit id="CU03" name="Mecanithralls" full_name="Mecanithralls" qualification="CRYX UNIT" fa="3" base_cost="3" full_cost="5" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="true" completed="true">
-          <basestats name="Leader and Grunts" spd="6" str="7" mat="5" rat="4" def="12" arm="12" cmd="6" undead="true" />
+          <basestats name="Leader &amp; Grunts" spd="6" str="7" mat="5" rat="4" def="12" arm="12" cmd="6" undead="true" />
           <weapons>
             <melee_weapon name="Steamfist" pow="4" p_plus_s="11" count="2">
               <capacity title="COMBO STRIKE" type="*Attack">Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model's STR plus twice the POW of this weapon.</capacity>
@@ -879,7 +879,7 @@
           </model>
         </unit>
         <unit id="CU05" name="Revenant Crew of the Atramentous" full_name="Revenant Crew of the Atramentous" qualification="CRYX UNIT" fa="2" base_cost="6" full_cost="9" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="true" completed="true">
-          <basestats name="Leader and Grunts" spd="6" str="6" mat="5" rat="4" def="13" arm="12" cmd="7" undead="true" />
+          <basestats name="Leader &amp; Grunts" spd="6" str="6" mat="5" rat="4" def="13" arm="12" cmd="7" undead="true" />
           <weapons>
             <melee_weapon name="Cutlass" pow="3" p_plus_s="9" />
             <ranged_weapon name="Pistol" rng="8" rof="1" aoe="-" pow="10" />
@@ -901,7 +901,7 @@
           </weapon_attachment>
         </unit>
         <unit id="CU04" name="Satyxis Raiders" full_name="Satyxis Raiders" qualification="CRYX UNIT" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" has_weapon_attachment="false" completed="true">
-          <basestats name="Leader and Grunts" spd="7" str="5" mat="6" rat="4" def="14" arm="12" cmd="8" advance_deployment="true" cma="true" />
+          <basestats name="Leader &amp; Grunts" spd="7" str="5" mat="6" rat="4" def="14" arm="12" cmd="8" advance_deployment="true" cma="true" />
           <weapons>
             <melee_weapon name="Horns" pow="3" p_plus_s="8" />
             <melee_weapon name="Lacerator" pow="4" p_plus_s="9" reach="true">
@@ -928,7 +928,7 @@
           </unit_attachment>
         </unit>
         <unit id="CU16" name="Satyxis Blood witches" full_name="Satyxis Blood witches" qualification="CRYX UNIT" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="true" has_weapon_attachment="false" completed="true">
-          <basestats name="Leader and Grunts" spd="7" str="5" mat="6" rat="4" def="13" arm="13" cmd="8" />
+          <basestats name="Leader &amp; Grunts" spd="7" str="5" mat="6" rat="4" def="13" arm="13" cmd="8" />
           <weapons>
             <melee_weapon name="Horns" pow="3" p_plus_s="8" />
             <melee_weapon name="Blood razor" pow="5" p_plus_s="10" magical="true">
@@ -958,7 +958,7 @@
           </unit_attachment>
         </unit>
         <unit id="CU08" name="Soulhunters" full_name="Soulhunters" qualification="CRYX LIGHT CAVALRY UNIT" fa="1" base_cost="6" full_cost="9" baseCount="3" fullCount="5" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
-          <basestats name="Leader and Grunts" spd="8" str="7" mat="6" rat="4" def="14" arm="15" cmd="8" undead="true" hitpoints="5" />
+          <basestats name="Leader &amp; Grunts" spd="8" str="7" mat="6" rat="4" def="14" arm="15" cmd="8" undead="true" hitpoints="5" />
           <weapons>
             <melee_weapon name="Scythe" pow="6" p_plus_s="13" reach="true" />
             <melee_weapon name="Sickle" pow="4" p_plus_s="11">
@@ -1004,7 +1004,7 @@
           </model>
         </unit>
     <unit id="CU17" name="Bane Riders" full_name="Bane Riders" base_cost="7" baseCount="3" full_cost="11" fullCount="5" qualification="Cryx Cavalry Unit" fa="1" completed="true">
-          <basestats name="Leader and grunts" spd="7" str="7" mat="6" rat="4" def="12" arm="18" cmd="8" hitpoints="5" />
+          <basestats name="Leader &amp; Grunts" spd="7" str="7" mat="6" rat="4" def="12" arm="18" cmd="8" hitpoints="5" />
           <weapons>
               <melee_weapon p_plus_s="13" pow="5" name="Bane Blade" reach="true">
                   <capacity title="BRUTAL CHARGE">This model gains +2 to charge attack damage rolls with this weapon.</capacity>

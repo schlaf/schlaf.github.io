@@ -280,7 +280,7 @@
       </battleEngines>
       <units>
         <unit id="cocU01" name="Clockwork Angels" full_name="Clockwork Angels" base_cost="3" baseCount="3" full_cost="-" fullCount="-" qualification="Convergence Unit" fa="3" completed="true">
-          <basestats name="Leader and grunts" spd="7" str="5" mat="6" rat="5" def="14" arm="12" cmd="7" construct="true" advance_deployment="true" cra="true"/>
+          <basestats name="Leader &amp; Grunts" spd="7" str="5" mat="6" rat="5" def="14" arm="12" cmd="7" construct="true" advance_deployment="true" cra="true"/>
           <weapons>
             <ranged_weapon rng="10" name="Binomial Beam" aoe="-" rof="1" pow="10" magical="true" />
             <melee_weapon p_plus_s="10" pow="5" name="Binomial Blade" magical="true">
@@ -293,7 +293,7 @@
           <capacity title="REFORM">After all models in this unit have completed their actions, each can advance up to 3".</capacity>
         </unit>
         <unit id="cocU02" name="Obstructors" full_name="Obstructors" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Convergence Unit" fa="3" completed="true">
-          <basestats name="Leader and grunts" spd="5" str="7" mat="6" rat="5" def="12" arm="14" cmd="7" construct="true" />
+          <basestats name="Leader &amp; Grunts" spd="5" str="7" mat="6" rat="5" def="12" arm="14" cmd="7" construct="true" />
           <weapons>
             <melee_weapon p_plus_s="11" pow="4" name="Teleflail" reach="true" chain="true">
               <capacity title="CHAIN WEAPON">This weapon ignores the Buckler and Shield weapon qualities and Shield Wall.</capacity>
@@ -303,7 +303,7 @@
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
         </unit>
         <unit id="cocU03" name="Reductors" full_name="Reductors" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Convergence Unit" fa="3" completed="true">
-          <basestats name="Leader and grunts" spd="5" str="7" mat="6" rat="5" def="12" arm="14" cmd="7" construct="true" />
+          <basestats name="Leader &amp; Grunts" spd="5" str="7" mat="6" rat="5" def="12" arm="14" cmd="7" construct="true" />
           <weapons>
             <melee_weapon p_plus_s="10" pow="3" name="Retractable Blade" />
             <ranged_weapon rng="SP6" name="Swarm Projector" aoe="-" rof="1" pow="13" />
@@ -312,7 +312,7 @@
           <capacity title="CLEAR!">Ranged attacks against friendly models made by a model with Clear! automatically miss.</capacity>
         </unit>
         <unit id="cocU04" name="Eradicators" full_name="Eradicators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true">
-          <basestats name="Leader and grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="15" cmd="7" construct="true" hitpoints="8" />
+          <basestats name="Leader &amp; Grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="15" cmd="7" construct="true" hitpoints="8" />
           <weapons>
             <melee_weapon p_plus_s="12" pow="4" name="Protean Buckler" count="2" />
           </weapons>
@@ -324,7 +324,7 @@
           <capacity title="● SHIELDS UP">This weapon gains BUCKLER.</capacity>
         </unit>
         <unit id="cocU05" name="Optifex Directive" full_name="Optifex Directive" base_cost="2" baseCount="3" full_cost="-" fullCount="-" qualification="Convergence Unit" fa="U" completed="true">
-          <basestats name="Leader and grunts" spd="6" str="5" mat="5" rat="4" def="13" arm="12" cmd="8" />
+          <basestats name="Leader &amp; Grunts" spd="6" str="5" mat="5" rat="4" def="13" arm="12" cmd="8" />
           <weapons>
             <melee_weapon p_plus_s="8" pow="3" name="Tuning Kit" />
           </weapons>
@@ -334,7 +334,7 @@
           <capacity title="WEAPONS MODULATION" type="*Action">This model can make this special action only when B2B with a friendly Faction model with Construct. The construct's weapons gain Magical Weapon for one round.</capacity>
         </unit>
         <unit id="cocU06" name="Reciprocators" full_name="Reciprocators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true">
-          <basestats name="Leader and grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="16" cmd="7" construct="true" hitpoints="8"/>
+          <basestats name="Leader &amp; Grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="16" cmd="7" construct="true" hitpoints="8"/>
           <weapons>
             <melee_weapon p_plus_s="12" pow="4" name="Protean Polearm" reach="true"/>
           </weapons>
@@ -346,7 +346,7 @@
           <capacity title="● SET DEFENSE">A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model .</capacity>
         </unit>
         <unit id="cocU07" name="Perforators" full_name="Perforators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true">
-          <basestats name="Leader and grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="15" cmd="7" construct="true" hitpoints="8" />
+          <basestats name="Leader &amp; Grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="15" cmd="7" construct="true" hitpoints="8" />
           <weapons>
             <melee_weapon p_plus_s="12" pow="4" name="Gear Blade" />
             <ranged_weapon rng="6" name="Protean Javelin" aoe="-" pow="6" rof="1">

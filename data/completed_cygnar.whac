@@ -697,7 +697,7 @@
       </battleEngines>
       <units>
         <unit id="YU01" name="Arcane Tempest Gun Mage Pistoleers" full_name="Arcane Tempest Gun Mage Pistoleers" base_cost="6" baseCount="6" full_cost="-" fullCount="-" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true"> <!-- errata may 2014 -->
-          <basestats name="Leader and grunts" spd="6" str="4" mat="5" rat="7" def="15" arm="11" cmd="8" />
+          <basestats name="Leader &amp; Grunts" spd="6" str="4" mat="5" rat="7" def="15" arm="11" cmd="8" />
           <weapons>
             <ranged_weapon name="Magelock Pistol" rng="10" rof="1" aoe="-" pow="10" magical="true" />
             <melee_weapon name="Sword" pow="3" p_plus_s="7" magical="false" reach="false" />
@@ -725,7 +725,7 @@
           </unit_attachment>
         </unit>
         <unit id="YU02" name="Long Gunner Infantry" full_name="Long Gunner Infantry" base_cost="6" baseCount="6" full_cost="10" fullCount="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true">
-          <basestats name="Leader and grunts" spd="5" str="4" mat="4" rat="5" def="13" arm="12" cmd="8" cma="true" />
+          <basestats name="Leader &amp; Grunts" spd="5" str="4" mat="4" rat="5" def="13" arm="12" cmd="8" cma="true" />
           <weapons>
             <ranged_weapon name="Repeating Long Gun" rng="14" rof="2" aoe="-" pow="10" magical="true" />
             <melee_weapon name="Sword" pow="3" p_plus_s="7" magical="false" reach="false" />
@@ -768,7 +768,7 @@
           </model>
         </unit>
         <unit id="YU04" name="Stormblade Infantry" full_name="Stormblade Infantry" base_cost="5" baseCount="6" full_cost="-" fullCount="-" qualification="Cygnar Storm Knight Unit" fa="2" has_unit_attachment="true" completed="true">
-          <basestats name="Leader and grunts" spd="5" str="6" mat="7" rat="5" def="12" arm="15" cmd="9" cma="true" immunity_electricity="true" />
+          <basestats name="Leader &amp; Grunts" spd="5" str="6" mat="7" rat="5" def="12" arm="15" cmd="9" cma="true" immunity_electricity="true" />
           <weapons>
             <ranged_weapon name="Storm glaive" rng="4" rof="1" aoe="-" pow="12" electricity="true" />
             <melee_weapon name="Storm glaive" pow="7" p_plus_s="13" />
@@ -806,7 +806,7 @@
           </weapon_attachment>
         </unit>
         <unit id="YU05" name="Trencher Infantry" full_name="Trencher Infantry" base_cost="6" baseCount="6" full_cost="10" fullCount="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" has_weapon_attachment="true"  completed="true">
-          <basestats name="Leader and grunts" spd="6" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" cra="true" advance_deployment="true" />
+          <basestats name="Leader &amp; Grunts" spd="6" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" cra="true" advance_deployment="true" />
           <weapons>
             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
             <melee_weapon name="Bayonet" pow="3" p_plus_s="9" />
@@ -891,7 +891,7 @@
           </model>
         </unit>
         <unit id="YU08" name="Sword Knights" full_name="Sword Knights" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true">
-          <basestats name="Leader and grunts" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" jack_marshal="true" />
+          <basestats name="Leader &amp; Grunts" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" jack_marshal="true" />
           <weapons>
             <melee_weapon name="Battle blade" pow="4" p_plus_s="10" />
           </weapons>
@@ -918,7 +918,7 @@
           </unit_attachment>
         </unit>
         <unit id="YU09" name="Stormguard" full_name="Stormguard" base_cost="6" baseCount="6" full_cost="9" fullCount="10" qualification="Cygnar Storm Knight Unit" fa="2" completed="true">
-          <basestats name="Leader and grunts" spd="5" str="6" mat="7" rat="5" def="12" arm="15" cmd="9" cma="true" immunity_electricity="true" gunfighter="true" />
+          <basestats name="Leader &amp; Grunts" spd="5" str="6" mat="7" rat="5" def="12" arm="15" cmd="9" cma="true" immunity_electricity="true" gunfighter="true" />
           <weapons>
             <melee_weapon name="Voltaic Halberd" pow="6" p_plus_s="12" reach="true">
               <capacity title="ELECTRO LEAP">When a model is hit with this weapon, you can have lightning arc to the nearest model within 4" of the model hit, ignoring the attacking model. The model the lightning arcs to suffers an unboostable POW 10 electrical damage roll.</capacity>
@@ -929,7 +929,7 @@
           <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
         </unit>
         <unit id="YU10" name="Storm Lances" full_name="Storm Lances" base_cost="7" baseCount="3" full_cost="11" fullCount="5" qualification="Cygnar Storm Knight Cavalry Unit" fa="1"  completed="true">
-          <basestats name="Leader and grunts" spd="8" str="6" mat="7" rat="5" def="12" arm="17" cmd="9" immunity_electricity="true" hitpoints="5" />
+          <basestats name="Leader &amp; Grunts" spd="8" str="6" mat="7" rat="5" def="12" arm="17" cmd="9" immunity_electricity="true" hitpoints="5" />
           <weapons>
             <ranged_weapon name="Electrical bolt" rng="8" rof="1" aoe="-" pow="12" electricity="true">
               <capacity title="ELECTRO LEAP">When a model is hit with this weapon, you can have lightning arc to the nearest model within 4" of the model hit, ignoring the attacking model. The model the lightning arcs to suffers an unboostable POW 10 electrical damage roll.</capacity>
@@ -978,7 +978,7 @@
           </model>
         </unit>
         <unit id="YU12" name="Precursor Knights" full_name="Precursor Knights" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Cygnar Morrowan Ally Unit" fa="2" has_unit_attachment="true" completed="true">
-          <basestats name="Leader and grunts" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="9" />
+          <basestats name="Leader &amp; Grunts" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="9" />
           <weapons>
             <melee_weapon name="Blessed Mace" pow="6" p_plus_s="12" magical="true">
               <capacity title="BLESSED">When making an attack with this weapon, ignore spell effects that add to a model's ARM or DEF.</capacity>
@@ -1007,7 +1007,7 @@
           </unit_attachment>
         </unit>
         <unit id="YU13" name="Rangers" full_name="Rangers" base_cost="5" baseCount="6" full_cost="-" fullCount="-" qualification="Cygnar Unit" fa="2" completed="true">
-          <basestats name="Leader and grunts" spd="7" str="5" mat="6" rat="6" def="14" arm="11" cmd="8" advance_deployment="true" pathfinder="true" />
+          <basestats name="Leader &amp; Grunts" spd="7" str="5" mat="6" rat="6" def="14" arm="11" cmd="8" advance_deployment="true" pathfinder="true" />
           <weapons>
             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
             <melee_weapon name="Knife" pow="2" p_plus_s="7" />
@@ -1017,7 +1017,7 @@
           <capacity title="PROWL">This model gains Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.</capacity>
         </unit>
         <unit id="YU14" name="Trencher Commandos" full_name="Trencher Commandos" base_cost="6" baseCount="6" full_cost="10" fullCount="10" qualification="Cygnar Unit" fa="2" has_weapon_attachment="true" completed="true">
-          <basestats name="Leader and grunts" spd="6" str="6" mat="7" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" stealth="true" />
+          <basestats name="Leader &amp; Grunts" spd="6" str="6" mat="7" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" stealth="true" />
           <weapons>
             <ranged_weapon name="Grenade" rng="6" rof="1" aoe="3" pow="12">
               <capacity title="CUMBERSOME">If this model attacks with this weapon during its activation, it cannot attack with another ranged weapon that activation. If this model attacked with another ranged weapon this activation, it cannot attack with this weapon.</capacity>
@@ -1051,7 +1051,7 @@
           </weapons>
         </unit>
         <unit id="YU16" name="Tempest Blazers" full_name="Tempest Blazers" base_cost="6" baseCount="3" full_cost="10" fullCount="5" qualification="Cygnar Arcane Tempest Light Cavalry Unit" fa="1" completed="true">
-          <basestats name="Leader and grunts" spd="9" str="4" mat="5" rat="7" def="15" arm="13" cmd="8" hitpoints="5" pathfinder="true" gunfighter="true" />
+          <basestats name="Leader &amp; Grunts" spd="9" str="4" mat="5" rat="7" def="15" arm="13" cmd="8" hitpoints="5" pathfinder="true" gunfighter="true" />
           <weapons>
             <ranged_weapon name="Magelock Pistol" rng="10" rof="1" aoe="-" pow="10" magical="true" />
             <mount_weapon name="Mount" pow="10" />
@@ -1062,7 +1062,7 @@
           <capacity title="● ELECTRO LEAP">When a model is hit with this weapon, you can have lightning arc to the nearest model within 4" of the model hit, ignoring the attacking model. The model the lightning arcs to suffers an unboostable POW 10 electrical damage roll.</capacity>
         </unit>
         <unit  id="YU17" name="Silver Line Stormguard" full_name="Silver Line Stormguard" base_cost="6" baseCount="6" full_cost="9" fullCount="10" qualification="Cygnar Storm Knight Unit" fa="2" completed="true">
-          <basestats name="Leader and grunts" spd="5" str="6" mat="7" rat="5" def="12" arm="15" cmd="9" cma="true" immunity_electricity="true" gunfighter="true"/>
+          <basestats name="Leader &amp; Grunts" spd="5" str="6" mat="7" rat="5" def="12" arm="15" cmd="9" cma="true" immunity_electricity="true" gunfighter="true"/>
           <weapons>
             <melee_weapon p_plus_s="12" pow="6" name="Thunder Halberd" reach="true">
               <capacity title="CRITICAL KNOCKDOWN"> On a critical hit, the model hit is knocked down.</capacity>

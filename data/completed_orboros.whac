@@ -708,7 +708,7 @@
         </unit>
         <!--Ravagers, Chieftain, Shaman complete-->
         <unit id="OU03" name="Tharn Ravagers" full_name="Tharn Ravagers" base_cost="6" baseCount="4" full_cost="9" fullCount="6" qualification="Circle Unit" fa="2" has_unit_attachment="true" has_weapon_attachment="true" completed="true">
-          <basestats name="Leader and Grunts" spd="6" str="8" mat="7" rat="5" def="13" arm="14" cmd="8" hitpoints="8" fearless="true" pathfinder="true" />
+          <basestats name="Leader &amp; Grunts" spd="6" str="8" mat="7" rat="5" def="13" arm="14" cmd="8" hitpoints="8" fearless="true" pathfinder="true" />
           <weapons>
             <melee_weapon name="Tharn Axe" pow="5" p_plus_s="13" reach="true">
               <capacity title="POWERFUL CHARGE">This model gains +2 to charge attack rolls with this weapon.</capacity>
@@ -751,7 +751,7 @@
         </unit>
         <!--Reeves and Officer/Standard complete-->
         <unit id="OU04" name="Reeves of Orboros" full_name="Reeves of Orboros" base_cost="6" baseCount="6" full_cost="10" fullCount="10" qualification="Circle Unit" fa="2" has_unit_attachment="true" completed="true">
-          <basestats name="Leader and grunts" spd="6" str="5" mat="5" rat="5" def="13" arm="13" cmd="8" cra="true" pathfinder="true" />
+          <basestats name="Leader &amp; Grunts" spd="6" str="5" mat="5" rat="5" def="13" arm="13" cmd="8" cra="true" pathfinder="true" />
           <weapons>
             <ranged_weapon name="Double Crossbow" rng="12" rof="1" aoe="-" pow="10" />
             <melee_weapon name="Battle Blade" pow="3" p_plus_s="8" />
@@ -777,7 +777,7 @@
         </unit>
         <!--Tharn Bloodweavers complete-->
         <unit id="OU05" name="Tharn Bloodweavers" full_name="Tharn Bloodweavers" base_cost="5" baseCount="6" full_cost="-" fullCount="-" qualification="Circle Unit" fa="2" completed="true">
-          <basestats name="Leader and Grunts" spd="7" str="6" mat="6" rat="4" def="14" arm="11" cmd="8" pathfinder="true" stealth="true" />
+          <basestats name="Leader &amp; Grunts" spd="7" str="6" mat="6" rat="4" def="14" arm="11" cmd="8" pathfinder="true" stealth="true" />
           <weapons>
             <melee_weapon name="Sacral Blade" pow="3" p_plus_s="9" magical="true">
               <capacity title="BLOODLETTING">When this model makes an attack with this weapon during its activation, choose one of the following abilities:</capacity>
@@ -790,7 +790,7 @@
         </unit>
         <!--Tharn Wolf Riders complete.-->
         <unit id="OU06" name="Tharn Wolf Riders" full_name="Tharn Wolf Riders" base_cost="6" baseCount="3" full_cost="10" fullCount="5" qualification="Circle Light Cavalry Unit" fa="1" completed="true">
-          <basestats name="Leader and Grunts" spd="9" str="6" mat="6" rat="6" def="15" arm="14" cmd="8" hitpoints="5" pathfinder="true" />
+          <basestats name="Leader &amp; Grunts" spd="9" str="6" mat="6" rat="6" def="15" arm="14" cmd="8" hitpoints="5" pathfinder="true" />
           <weapons>
             <ranged_weapon name="Thrown Javelin" rng="7" rof="1" aoe="-" pow="3" weapon_master="true">
               <capacity title="LUCK">This model can reroll missed attack rolls with this weapon.  Each attack roll can be rerolled only once as a result of Luck.</capacity>
@@ -805,7 +805,7 @@
         </unit>
         <!--Tharn Bloodtrackers and Nuala complete-->
         <unit id="OU07" name="Tharn Bloodtrackers" full_name="Tharn Bloodtrackers" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Circle Unit" fa="1" has_unit_attachment="true" completed="true">
-          <basestats name="Leader and Grunts" spd="7" str="6" mat="6" rat="6" def="14" arm="11" cmd="8" advance_deployment="true" pathfinder="true" stealth="true" />
+          <basestats name="Leader &amp; Grunts" spd="7" str="6" mat="6" rat="6" def="14" arm="11" cmd="8" advance_deployment="true" pathfinder="true" stealth="true" />
           <weapons>
             <ranged_weapon name="Thrown Javelin" rng="7" rof="1" aoe="-" pow="3" weapon_master="true">
               <capacity title="THROWN">Add this model's STR to the POW of this ranged attack.</capacity>
@@ -830,7 +830,7 @@
         </unit>
         <!--Wolves and chieftain/standard complete-->
         <unit id="OU08" name="Wolves of Orboros" full_name="Wolves of Orboros" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Circle Unit" fa="3" has_unit_attachment="true" completed="true">
-          <basestats name="Leader and Grunts" spd="6" str="5" mat="6" rat="4" def="13" arm="13" cmd="8" cma="true" pathfinder="true" />
+          <basestats name="Leader &amp; Grunts" spd="6" str="5" mat="6" rat="4" def="13" arm="13" cmd="8" cma="true" pathfinder="true" />
           <weapons>
             <melee_weapon name="Cleft Spear" pow="4" p_plus_s="9" reach="true">
               <capacity title="POWERFUL CHARGE">This model gains +2 to charge attack rolls with this weapon.</capacity>
@@ -855,7 +855,7 @@
         </unit>
         <!--Shifting Stones and Keeper complete-->
         <unit id="OU09" name="Shifting Stones" full_name="Shifting Stones" base_cost="2" baseCount="3" full_cost="-" fullCount="-" qualification="Circle Unit" fa="2" has_unit_attachment="true" completed="true">
-          <basestats name="Leader and grunts" spd="0" str="0" mat="0" rat="0" def="5" arm="18" cmd="4" hitpoints="5" advance_deployment="true" construct="true"></basestats>
+          <basestats name="Leader &amp; Grunts" spd="0" str="0" mat="0" rat="0" def="5" arm="18" cmd="4" hitpoints="5" advance_deployment="true" construct="true"></basestats>
           <weapons />
           <capacity title="IMMOBILE">This model has no movement or action and cannot be knocked down or moved.  Its front arc extends to 360 degrees.  It has no melee range, cannot engage, and is automatically hit by melee attacks.</capacity>
           <capacity title="SERENITY">At the beginning of your Control Phase, before leaching, you can remove 1 fury point from a friendly Faction warbeast within 1" of this model.</capacity>
@@ -897,7 +897,7 @@
         </unit>
         <!--Skinwalkers and Alpha complete-->
         <unit id="OU11" name="Warpborn Skinwalkers" full_name="Warpborn Skinwalkers" base_cost="5" baseCount="3" full_cost="8" fullCount="5" qualification="Circle Unit" fa="2" has_unit_attachment="true" completed="true">
-          <basestats name="Leader and Grunts" spd="5" str="8" mat="6" rat="3" def="12" arm="16" cmd="9" hitpoints="8" cma="true" fearless="true" pathfinder="true" terror="true" />
+          <basestats name="Leader &amp; Grunts" spd="5" str="8" mat="6" rat="3" def="12" arm="16" cmd="9" hitpoints="8" cma="true" fearless="true" pathfinder="true" terror="true" />
           <weapons>
             <melee_weapon name="Pole Axe" pow="5" p_plus_s="13" reach="true"></melee_weapon>
           </weapons>
@@ -919,7 +919,7 @@
           </unit_attachment>
         </unit>
         <unit id="OU12" name="Tharn Blood Pack" full_name="Tharn Blood Pack" base_cost="7" baseCount="4" full_cost="10" fullCount="6" qualification="Circle Unit" fa="2" completed="true">
-          <basestats name="Leader and grunts" spd="6" str="8" mat="7" rat="6" def="13" arm="14" cmd="8" hitpoints="8" fearless="true" pathfinder="true"/>
+          <basestats name="Leader &amp; Grunts" spd="6" str="8" mat="7" rat="6" def="13" arm="14" cmd="8" hitpoints="8" fearless="true" pathfinder="true"/>
           <weapons>
               <ranged_weapon pow="13" aoe="-" rng="12" rof="1" name="Tharn Bow"></ranged_weapon>
               <melee_weapon p_plus_s="11" pow="3" name="Hunter's Blade"></melee_weapon>
@@ -960,7 +960,7 @@
           </model>
         </unit>
         <unit id="OU14" name="Blackclad Mist Riders" full_name="Blackclad Mist Riders" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Circle Light Cavalry Unit" fa="1" completed="true">
-          <basestats name="Leader and grunts" spd="8" str="6" mat="5" rat="4" def="14" arm="15" cmd="9" hitpoints="5" pathfinder="true"/>
+          <basestats name="Leader &amp; Grunts" spd="8" str="6" mat="5" rat="4" def="14" arm="15" cmd="9" hitpoints="5" pathfinder="true"/>
           <weapons>
               <melee_weapon p_plus_s="10" pow="4" name="Voulge" magical="true" reach="true">
                   <capacity title="BRUTAL CHARGE">This model gains +2 to charge attack damage rolls with this weapon.</capacity>
