@@ -780,7 +780,7 @@
             <melee_weapon name="Cutlass" pow="4" p_plus_s="10" magical="true" continuous_fire="true" />
           </weapons>
           <capacity title="GRANTED: REANIMATION">While this model is in play, models in its unit gain Reanimation. (When a model with Reanimation boxes a living enemy warrior model with a melee attack, add one Grunt to this unit and then remove the boxed model from play. The Grunt must be placed in formation and within 3" of this model. The Grunt cannot activate this turn.)</capacity>
-          <model id="blackbanes_ghost_raiders_grunts" name="Grunts" full_name="Grunts">
+          <model id="grunts" name="Grunts">
             <basestats name="Grunts" spd="7" str="6" mat="6" rat="4" def="13" arm="12" cmd="7" undead="true" incorporeal="true" />
             <weapons>
               <melee_weapon name="Cutlass" pow="4" p_plus_s="10" magical="true" continuous_fire="true" />
@@ -805,7 +805,7 @@
           <capacity title="GRANTED: COMBINED MELEE ATTACK">While this model is in play, models in its unit gain Combined Melee Attack</capacity>
           <capacity title="REANIMATION">When this model boxes a living enemy warrior model with a melee attack, add one Grunt to this unit and then remove the boxed model from play. The Grunt must be placed in formation and within 3" of this model. The Grunt cannot activate this turn.</capacity>
           <capacity title="SACRIFICIAL PAWN [DRUDGE GRUNT]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Drudge Grunt model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
-          <model id="Cephalyx_mind_slaver_grunts" name="Cephalyx_mind_slaver_grunts" full_name="Cephalyx_mind_slaver_grunts">
+          <model id="Grunts" name="Drudge Grunts">
             <basestats name="Drudge Grunts" spd="5" str="8" mat="5" rat="2" def="11" arm="15" cmd="4" fearless="true" tough="true" eyelesssight="true" />
             <weapons>
               <melee_weapon name="Drudge weapons" pow="5" p_plus_s="13">
@@ -845,7 +845,7 @@
             </model>
           </weapon_attachment>
         </unit>
-        <unit id="CU15" name="Necrosurgeon &amp; stitch thralls" full_name="Necrosurgeon &amp; stitch thralls" qualification="CRYX UNIT" fa="2" base_cost="2" full_cost="-" baseCount="4" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU15" name="Necrosurgeon &amp; Stitch Thralls" full_name="Necrosurgeon &amp; Stitch Thralls" qualification="CRYX UNIT" fa="2" base_cost="2" full_cost="-" baseCount="4" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="Necrosurgeon" spd="6" str="6" mat="5" rat="4" def="14" arm="12" cmd="8" officer="true" undead="true" hitpoints="5" />
           <weapons>
             <melee_weapon name="Gutsplitter" pow="5" p_plus_s="11" />
@@ -854,12 +854,12 @@
           <capacity title="NECROSURGERY" type="*Action">Remove up to three corpse tokens from this model to add one Grunt to a friendly Mechanithrall unit in this model's command range per token removed. The Grunt must be placed in formation and within 3" of this model.</capacity>
           <capacity title="SACRIFICIAL PAWN [STITCH THRALL GRUNT OR MECHANITHRALL]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Stitch Thrall Grunt or Mechanithrall model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
           <capacity title="SURGERY" type="*Action">Choose a friendly Faction warrior model B2B with this model. That model heals d6 damage points.</capacity>
-          <model id="Stitch_thrall_grunts" name="Stitch thrall grunts" full_name="Stitch thrall grunts">
-            <basestats name="Stitch thrall grunts" spd="6" str="4" mat="3" rat="4" def="14" arm="12" cmd="6" undead="true" />
+          <model id="grunts" name="Stitch Thrall Grunts">
+            <basestats name="Stitch Thrall Grunts" spd="6" str="4" mat="3" rat="4" def="14" arm="12" cmd="6" undead="true" />
             <weapons />
           </model>
         </unit>
-        <unit id="CU11" name="Revenant cannon crew" full_name="Revenant cannon crew" qualification="CRYX WEAPON CREW UNIT" fa="2" base_cost="3" full_cost="-" baseCount="3" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU11" name="Revenant Cannon Crew" full_name="Revenant Cannon Crew" qualification="CRYX WEAPON CREW UNIT" fa="2" base_cost="3" full_cost="-" baseCount="3" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="Leader" spd="4" str="6" mat="5" rat="4" def="13" arm="12" cmd="7" undead="true" />
           <weapons>
             <melee_weapon name="Cutlass" pow="3" p_plus_s="9" />
@@ -870,7 +870,7 @@
               <capacity title="RANGE FINDER">While B2B with one or more grunts in this unit, this model gains +2 to attack rolls with this weapon.</capacity>
             </ranged_weapon>
           </weapons>
-          <model id="Revenant_cannon_crew_grunts" name="Stitch Revenant_cannon_crew_grunts" full_name="Revenant_cannon_crew_grunts">
+          <model id="grunts" name="Grunts">
             <basestats name="Grunts" spd="4" str="6" mat="5" rat="4" def="13" arm="12" cmd="7" undead="true" />
             <weapons>
               <melee_weapon name="Cutlass" pow="3" p_plus_s="9" />
@@ -878,7 +878,7 @@
             </weapons>
           </model>
         </unit>
-        <unit id="CU05" name="Revenant crew of the Atramentous" full_name="Revenant crew of the Atramentous" qualification="CRYX UNIT" fa="2" base_cost="6" full_cost="9" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="true" completed="true">
+        <unit id="CU05" name="Revenant Crew of the Atramentous" full_name="Revenant Crew of the Atramentous" qualification="CRYX UNIT" fa="2" base_cost="6" full_cost="9" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="true" completed="true">
           <basestats name="Leader and Grunts" spd="6" str="6" mat="5" rat="4" def="13" arm="12" cmd="7" undead="true" />
           <weapons>
             <melee_weapon name="Cutlass" pow="3" p_plus_s="9" />
@@ -887,7 +887,7 @@
           <capacity title="DEATHBOUND">Grunts in this unit that are destroyed while in formation return to play at the beginning of your next Maintenance Phase. Place the returned Grunts within 3" of the unit commander. If the unit commander leaves play, remove from play all destroyed Grunts not yet returned to play and then choose a new unit commander.</capacity>
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
           <capacity title="POINT BLANK">During its activation, this model can make melee attacks with its ranged weapon, with a O.5" melee range. Do not add this model's STR to damage rolls made with ranged weapons. Charge attacks made with ranged weapons are not boosted.</capacity>
-          <weapon_attachment id="CA06" name="Revenant crew rifleman" full_name="Revenant crew rifleman" qualification="cryx weapon attachment" fa="2" cost="1" max_wa="3" completed="true">
+          <weapon_attachment id="CA06" name="Revenant crew rifleman" full_name="Revenant Crew rifleman" qualification="cryx weapon attachment" fa="2" cost="1" max_wa="3" completed="true">
             <model id="RIFLEMAN" full_name="RIFLEMAN" name="RIFLEMAN">
               <basestats name="Rifleman" spd="6" str="6" mat="5" rat="4" def="13" arm="12" cmd="7" undead="true" cra="true" />
               <weapons>

@@ -764,7 +764,7 @@
                     <works_for id="faction_skorne" />
                 </unit>
                 <unit id="IU02" name="Farrow Bone Grinders" full_name="Farrow Bone Grinders" qualification="Minion Unit" fa="2" base_cost="2" full_cost="3" baseCount="4" fullCount="6" completed="true">
-                    <basestats name="LEADER" spd="5" str="6" mat="5" rat="4" def="12" arm="14" cmd="8" />
+                    <basestats name="Leader" spd="5" str="6" mat="5" rat="4" def="12" arm="14" cmd="8" />
                     <weapons>
                         <melee_weapon name="Knife" pow="3" p_plus_s="9" />
                     </weapons>
@@ -849,7 +849,7 @@
                     <works_for id="faction_skorne" />
                 </unit>
                 <unit id="IU06" name="Farrow Razorback Crew" full_name="Farrow Razorback Crew" qualification="Minion Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" baseCount="2" fullCount="-" completed="true">
-                    <basestats name="LEADER" spd="4" str="6" mat="6" rat="4" def="12" arm="14" cmd="8" />
+                    <basestats name="Leader" spd="4" str="6" mat="6" rat="4" def="12" arm="14" cmd="8" />
                     <weapons>
                         <ranged_weapon name="Razorback" rng="14" rof="1" aoe="3" pow="15">
                             <capacity title="LIGHT ARTILLERY">This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking with this weapon and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapons that activation.</capacity>

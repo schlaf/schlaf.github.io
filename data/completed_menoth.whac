@@ -634,7 +634,7 @@
           </unit_attachment>
         </unit>
         <unit id="PU06" name="Deliverer Sunburst Crew" full_name="Deliverer Sunburst Crew" qualification="Protectorate Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" baseCount="3" fullCount="-" completed="true">
-          <basestats name="LEADER" spd="4" str="4" mat="4" rat="5" def="12" arm="11" cmd="7" />
+          <basestats name="Leader" spd="4" str="4" mat="4" rat="5" def="12" arm="11" cmd="7" />
           <weapons>
             <ranged_weapon name="Sunburst" rng="16" rof="1" aoe="4" pow="16">
               <capacity title="LIGHT ARTILLERY">This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking with this weapon and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapons that activation.</capacity>

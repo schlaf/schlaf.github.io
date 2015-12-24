@@ -567,7 +567,7 @@
                 <capacity title="RANGE FINDER">While B2B with the Grunt in this unit, this model gains +2 to attack rolls with this weapon.</capacity>
             </ranged_weapon>
           </weapons>
-          <model id="ru_09_grunt">
+          <model id="grunt" name="Grunt">
               <basestats name="Grunt" spd="4" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" />
               <weapons>
                 <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
