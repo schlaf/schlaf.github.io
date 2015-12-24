@@ -6,7 +6,7 @@
       <!-- 004 add devastation entries -->
       <!-- 005 correct Blight Ash pow for blight bringer -->
       <warlocks>
-        <warlock id="Ew01" name="Lylyth1" generation="P" generation_id="Lylyth" full_name="Lylyth, Herald of Everblight" qualification="Legion Blighted Nyss Warlock" fury="5" warbeast_points="6" fa="C" completed="true">
+        <warlock id="EW01" name="Lylyth1" generation="P" generation_id="Lylyth" full_name="Lylyth, Herald of Everblight" qualification="Legion Blighted Nyss Warlock" fury="5" warbeast_points="6" fa="C" completed="true">
           <basestats name="LYLYTH" spd="7" str="4" mat="5" rat="7" def="16" arm="14" cmd="8" hitpoints="15" eyelesssight="true" pathfinder="true" />
           <weapons>
             <melee_weapon name="Bow Blade" pow="3" p_plus_s="7" />
@@ -21,7 +21,7 @@
           <spell name="ERUPTION OF SPINES" cost="3" rng="10" aoe="-" pow="10" up="NO" off="YES">If target model is hit, d6 nearest models within 5" of it suffer a POW 10 damage roll.</spell>
           <capacity title="BUSHWHACK">During its activation, this model can make its combat action before its normal movement. If it does, it must make a full advance as its normal movement this activation.</capacity>
         </warlock>
-        <warlock id="Ex01" name="Lylyth2" generation="E" generation_id="Lylyth" full_name="Lylyth, Shadow of Everblight" qualification="Legion Epic Blighted Nyss Warlock" fury="5" warbeast_points="5" fa="C" completed="true">
+        <warlock id="EX01" name="Lylyth2" generation="E" generation_id="Lylyth" full_name="Lylyth, Shadow of Everblight" qualification="Legion Epic Blighted Nyss Warlock" fury="5" warbeast_points="5" fa="C" completed="true">
           <basestats name="LYLYTH" spd="7" str="4" mat="5" rat="8" def="16" arm="14" cmd="8" hitpoints="15" eyelesssight="true" pathfinder="true" />
           <weapons>
             <ranged_weapon name="Whisper" rng="12" rof="2" aoe="-" pow="12" magical="true" />
@@ -35,7 +35,7 @@
           <capacity title="SNAP FIRE">When this model destroys one or more enemy models with a ranged attack during its combat action, immediately after that attack is resolved this model can make one normal ranged attack. Attack gained from Snap Fire do not count against a weapon's ROF and cannot generate additional attacks from Snap Fire.</capacity>
           <capacity title="SWIFT HUNTER">When this model destroys an enemy model with a normal ranged attack, immediately after the attack is resolved it can advance up to 2".</capacity>
         </warlock>
-        <warlock id="Ez01" name="Lylyth3" generation="EE" generation_id="Lylyth" full_name="Lylyth, Reckoning of Everblight" qualification="Legion Epic Blighted Nyss Cavalry Warlock" fury="5" warbeast_points="5" fa="C" completed="true">
+        <warlock id="EZ01" name="Lylyth3" generation="EE" generation_id="Lylyth" full_name="Lylyth, Reckoning of Everblight" qualification="Legion Epic Blighted Nyss Cavalry Warlock" fury="5" warbeast_points="5" fa="C" completed="true">
           <basestats name="LYLYTH" spd="9" str="8" mat="6" rat="8" def="14" arm="16" cmd="8" hitpoints="18" eyelesssight="true" />
           <weapons>
             <melee_weapon name="Scything Blade" pow="4" p_plus_s="12" location="L">
@@ -59,7 +59,7 @@
           <capacity title="POWER ATTACK TRAMPLE">This model can make trample power attacks.</capacity>
           <capacity title="WEAPON PLATFORM">This model can make melee and ranged attacks in the same activation. When this model makes its initial melee attacks or a power attack, it can also make its initial ranged attacks. This model can make ranged attacks even while in melee.</capacity>
         </warlock>
-        <warlock id="Ew02" name="Thagrosh1" generation="P" full_name="Thagrosh, Prophet of Everblight" qualification="Legion Blighted Ogrun Warlock" fury="7" warbeast_points="5" fa="C" completed="true">
+        <warlock id="EW02" name="Thagrosh1" generation="P" full_name="Thagrosh, Prophet of Everblight" qualification="Legion Blighted Ogrun Warlock" fury="7" warbeast_points="5" fa="C" completed="true">
           <basestats name="THAGROSH" spd="5" str="9" mat="7" rat="5" def="14" arm="16" cmd="9" hitpoints="18" terror="true" />
           <weapons>
             <melee_weapon name="Rapture" pow="7" p_plus_s="16" magical="true" reach="true">
@@ -78,7 +78,7 @@
           <capacity title="ATHANC">Immediately after leaching, this model gains 1 fury point if it has fewer fury points than its FURY.</capacity>
           <capacity title="ATTUNED SPIRIT [LEGION]">Once per activation, this model can cast the animus of a Legion warbeast in its battlegroup as a spell without spending fury.</capacity>
         </warlock>
-        <warlock id="Ex02" name="Thagrosh2" generation="E" full_name="Thagrosh, the Messiah" qualification="Legion Epic Blighted Ogrun Warlock" fury="7" warbeast_points="3" fa="C" completed="true">
+        <warlock id="EX02" name="Thagrosh2" generation="E" full_name="Thagrosh, the Messiah" qualification="Legion Epic Blighted Ogrun Warlock" fury="7" warbeast_points="3" fa="C" completed="true">
           <basestats name="THAGROSH" spd="5" str="11" mat="7" rat="5" def="13" arm="17" cmd="10" hitpoints="20" abomination="true" />
           <weapons>
             <melee_weapon name="Rapture" pow="7" p_plus_s="18" magical="true" reach="true">
@@ -99,7 +99,7 @@
           <capacity title="BLOOD SPAWN">Once per game, when this model suffers 5 or more damage points from an enemy attack that are not transferred, after the attack is resolved you can place a non-character Faction lesser warbeast in play anywhere completely within 3" of this model. The warbeast is part of this model's battlegroup. The warbeast cannot activate this turn.</capacity>
           <capacity title="FLIGHT">This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movement to move completely past them. This model ignores intervening models when declaring its charge target.</capacity>
         </warlock>
-        <warlock id="Ew03" name="Vayl1" generation="P" full_name="Vayl, Disciple of Everblight" qualification="Legion Blighted Nyss Warlock" fury="8" warbeast_points="6" fa="C" completed="true">
+        <warlock id="EW03" name="Vayl1" generation="P" full_name="Vayl, Disciple of Everblight" qualification="Legion Blighted Nyss Warlock" fury="8" warbeast_points="6" fa="C" completed="true">
           <basestats name="VAYL" spd="6" str="5" mat="3" rat="6" def="15" arm="13" cmd="9" hitpoints="14" immunity_frost="true" />
           <weapons>
             <ranged_weapon name="Oraculus" rng="8" rof="1" aoe="-" pow="8" magical="true">
@@ -118,7 +118,7 @@
           <capacity title="SNOW-WREATHED">This model always has concealment.</capacity>
           <capacity title="TALION">Once per turn when this model suffers damage from an enemy attack, it can spend 1 fury point to transfer half the damage to an enemy warbeast in its control area but must suffer the rest of the damage itself.</capacity>
         </warlock>
-        <warlock id="Ex03" name="Vayl2" generation="E" full_name="Vayl, Consul of Everblight" qualification="Legion Epic Blighted Nyss Warlock" fury="8" warbeast_points="6" fa="C" completed="true">
+        <warlock id="EX03" name="Vayl2" generation="E" full_name="Vayl, Consul of Everblight" qualification="Legion Epic Blighted Nyss Warlock" fury="8" warbeast_points="6" fa="C" completed="true">
           <basestats name="VAYL" spd="6" str="5" mat="3" rat="7" def="15" arm="14" cmd="9" hitpoints="14" gunfighter="true" immunity_frost="true" />
           <weapons>
             <ranged_weapon name="Oraculi" rng="10" rof="3" aoe="-" pow="8" magical="true">
@@ -192,7 +192,7 @@
           <capacity title="● FLIGHT">This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movement to move completely past them. This model ignores intervening models when declaring its charge target.</capacity>
           <capacity title="● WARP STRENGTH">This model gains +2 STR.</capacity>
         </warlock>
-        <warlock id="Ex06" name="Absylonia2" generation="E" full_name="Absylonia, Daughter of Everblight" qualification="Legion Epic Blighted Nyss Warlock" fury="6" warbeast_points="5" fa="C" completed="true">
+        <warlock id="EX06" name="Absylonia2" generation="E" full_name="Absylonia, Daughter of Everblight" qualification="Legion Epic Blighted Nyss Warlock" fury="6" warbeast_points="5" fa="C" completed="true">
           <basestats name="ABSYLONIA" spd="7" str="8" mat="7" rat="6" def="15" arm="16" cmd="8" hitpoints="18" abomination="true" />
           <weapons>
             <melee_weapon name="Claw " pow="6" count="2" p_plus_s="14" magical="true" />
@@ -632,7 +632,7 @@
           </weapons>
           <capacity title="SUPPRESSING FIRE (ORDER)">This order can be issued only if two or more models with ranged weapons in this unit in formation are able to forfeit their actions. Each model in this unit in formation must forfeit its action. Other than the Standard Bearer, those models that do are participants. After all models in this unit have completed their normal movement, place an AOE completely within 12" of all participants, with its center point in LOS of all participants, ignoring intervening models The size of the AOE is based on the number of participants. If there are 2–4, the AOE is 3". If there are 5–7, the AOE is 4". If there are 8 or more, the AOE is 5". When a model enters or ends its activation within the AOE, it suffers a POW 10 damage roll. Suppressing Fire lasts for one round or until all participants have been destroyed or removed from play.</capacity>
           <unit_attachment id="EA01" name="Blighted Nyss Archer Officer &amp; Ammo Porter" full_name="Blighted Nyss Archer Officer &amp; Ammo Porter" qualification="Legion Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="Blighted Nyss Archer Officer">
+            <model id="BLIGHTED NYSS ARCHER OFFICER">
               <basestats name="OFFICER" spd="6" str="4" mat="6" rat="6" def="13" arm="11" cmd="9" hitpoints="5" cra="true" officer="true" />
               <weapons>
                 <melee_weapon name="Sword" pow="3" p_plus_s="7" />
@@ -641,7 +641,7 @@
               <capacity title="GRANTED: COMBINED ARMS">While this model is in play, models in its unit gain Combined Arms. (When a model with Combined Arms misses an attack roll for a combined ranged attack, it can reroll that attack roll. Each attack roll can be rerolled only once as a result of Combined Arms).</capacity>
               <capacity title="TACTICS: PATHFINDER">Models in this unit gain Pathfinder.</capacity>
             </model>
-            <model id="Blighted Nyss Archer Ammo Porter">
+            <model id="BLIGHTED NYSS ARCHER AMMO PORTER">
               <basestats name="AMMO PORTER" spd="6" str="4" mat="6" rat="6" def="13" arm="11" cmd="8" />
               <weapons />
               <capacity title="READY AMMO">While this model is in formation, models in its unit gain Dual Shot and their ranged weapons become ROF 2. (When a model with Dual Shot forfeits its movement to gain the aiming bonus it can also make one additional ranged attack that activation.)</capacity>
@@ -657,7 +657,7 @@
           <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM.</capacity>
           <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
           <unit_attachment id="EA05" name="Captain Farilor &amp; Standard" full_name="Captain Farilor &amp; Standard" qualification="Legion Blighted Nyss Legionnaire Character Unit Attachment" fa="C" cost="3" completed="true">
-            <model id="Captain Farilor">
+            <model id="CAPTAIN FARILOR">
               <basestats name="FARILOR" spd="5" str="6" mat="7" rat="4" def="12" arm="14" cmd="9" hitpoints="5" fearless="true" cma="true" officer="true" />
               <weapons>
                 <melee_weapon name="Great Sword" pow="4" p_plus_s="10" reach="true" weapon_master="true" />
@@ -668,7 +668,7 @@
               <capacity title="TACTICS: SET DEFENSE">Models in this unit gain Set Defense. (A model in the front arc of a model with Set Defense suffers –2 on charge, slam power attack, and impact attack rolls against the model with Set Defense.)</capacity>
               <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
             </model>
-            <model id="Blighted Nyss Standard">
+            <model id="BLIGHTED NYSS STANDARD">
               <basestats name="STANDARD BEARER" spd="5" str="6" mat="6" rat="4" def="12" arm="14" cmd="9" hitpoints="0" fearless="true" standard_bearer="true" />
               <weapons />
               <capacity title="DEFENSIVE LINE">See above.</capacity>
@@ -683,7 +683,7 @@
             <melee_weapon name="Nyss Claymore" pow="4" p_plus_s="11" weapon_master="true" />
           </weapons>
           <unit_attachment id="EA02" name="Blighted Nyss Swordsmen Abbot &amp; Champion" full_name="Blighted Nyss Swordsmen Abbot &amp; Champion" qualification="Legion Unit Attachment" fa="1" cost="3" completed="true">
-            <model id="Blighted Nyss Swordsman Abbot">
+            <model id="BLIGHTED NYSS SWORDSMAN ABBOT">
               <basestats name="ABBOT" spd="6" str="7" mat="8" rat="4" def="14" arm="13" cmd="9" hitpoints="5" fearless="true" officer="true" />
               <weapons>
                 <melee_weapon name="Nyss Claymore" pow="4" p_plus_s="11" weapon_master="true" />
@@ -691,7 +691,7 @@
               <capacity title="GRANTED: CLEAVE">While this model is in play, models in its unit gain Cleave. (When a model with Cleave destroys one or more enemy models with a melee attack during its activation, immediately after the attack is resolved the model can make one additional melee attack. A model can gain only one additional attack from Cleave per activation.)</capacity>
               <capacity title="TACTICS: OVERTAKE">Models in this unit gain Overtake. (When a model with Overtake destroys one or more enemy warrior models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1".)</capacity>
             </model>
-            <model id="Blighted Nyss Swordsman Champion">
+            <model id="BLIGHTED NYSS SWORDSMAN CHAMPION">
               <basestats name="CHAMPION" spd="6" str="7" mat="8" rat="4" def="14" arm="13" cmd="8" hitpoints="5" fearless="true" />
               <weapons>
                 <melee_weapon name="Nyss Claymore " pow="4" count="2" p_plus_s="11" weapon_master="true">
@@ -724,7 +724,7 @@
               <capacity title="SCATHER">This attacks AOE remains in play for one round. Enemy models and non-Faction friendly models entering or ending their activations in the AOE suffer 1 point of corrosion damage.</capacity>
             </ranged_weapon>
           </weapons>
-          <model id="grunt" name="Grunts">
+          <model id="GRUNT" name="Grunts">
             <basestats name="Grunts" spd="4" str="4" mat="5" rat="5" def="13" arm="11" cmd="8" />
             <weapons>
               <melee_weapon name="Sword" pow="3" p_plus_s="7" />
@@ -739,7 +739,7 @@
           <capacity title="LAST CALL">If this model is disabled by an enemy attack, it can immediately make a special action.</capacity>
           <capacity title="RECYCLE">When a living model is destroyed within 4" of this model + 1" for each Grunt in this unit that is in formation, place one corpse token on this model. This model can have up to three corpse tokens at a time.</capacity>
           <capacity title="SPAWN HORROR (★ACTION)">Remove three corpse tokens from this model to place a non-character Faction lesser warbeast into play under your control. Place the warbeast within 3" of this model and choose a friendly Faction warlock. This warbeast becomes part of that warlock's battlegroup.</capacity>
-          <model id="grunt" name="Grunts">
+          <model id="GRUNT" name="Grunts">
             <basestats name="Grunt" spd="6" str="6" mat="5" rat="4" def="13" arm="11" cmd="8" />
             <weapons>
               <melee_weapon name="Gaff" pow="3" p_plus_s="9" reach="true" />
@@ -754,7 +754,7 @@
             <ranged_weapon name="Nyss Longbow" rng="12" rof="1" aoe="-" pow="10" />
           </weapons>
           <unit_attachment id="EA03" name="Strider Rangers Officer &amp; Musician" full_name="Strider Rangers Officer &amp; Musician" qualification="Legion Blighted Nyss Unit Attachment" fa="1" cost="3" completed="true">
-            <model id="Blighted Nyss Strider Officer">
+            <model id="BLIGHTED NYSS STRIDER OFFICER">
               <basestats name="OFFICER" spd="7" str="6" mat="6" rat="7" def="15" arm="11" cmd="9" hitpoints="5" advance_deployment="true" cra="true" officer="true" pathfinder="true" stealth="true" />
               <weapons>
                 <melee_weapon name="Sword" pow="3" p_plus_s="9" />
@@ -764,7 +764,7 @@
               <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
               <capacity title="TACTICS: HUNTER">Models in this unit gain Hunter. (A model with Hunter ignores forests, concealment, and cover when determining LOS or making a ranged attack.)</capacity>
             </model>
-            <model id="Blighted Nyss Strider Musician">
+            <model id="BLIGHTED NYSS STRIDER MUSICIAN">
               <basestats name="MUSICIAN" spd="7" str="6" mat="5" rat="6" def="15" arm="11" cmd="8" hitpoints="0" advance_deployment="true" cra="true" pathfinder="true" stealth="true" />
               <weapons>
                 <melee_weapon name="Sword" pow="3" p_plus_s="9" />
@@ -794,7 +794,7 @@
           </weapons>
           <capacity title="ASSAULT (ORDER)">Affected models must charge or run. As part of a charge, after moving but before making its charge attack, an affected model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of the affected model's activation. Models that received this order cannot make combined ranged attacks this activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, the affected model must still make the ranged attack before its activation ends.</capacity>
           <unit_attachment id="EA06" name="Warspear Chieftan" full_name="Warspear Chieftan" qualification="Legion Blighted Ogrun Unit Attachment" fa="2" cost="2" completed="true">
-            <model id="Warspear Chieftan">
+            <model id="WARSPEAR CHIEFTAN">
               <basestats name="CHIEFTAIN" spd="5" str="9" mat="8" rat="6" def="12" arm="16" cmd="9" hitpoints="8" fearless="true" officer="true" terror="true" />
               <weapons>
                 <melee_weapon name="War Spear" pow="4" p_plus_s="13" reach="true">
@@ -827,7 +827,7 @@
           <capacity title="MAGIC ABILITY [6]" />
           <capacity title="● HEX BOLT (★ATTACK)">Hex Bolt is a RNG 6, POW 13 magic attack. Models hit cannot make special actions or special attacks for one round.</capacity>
           <unit_attachment id="EA04" name="Bayal, Hound of Everblight" full_name="Bayal, Hound of Everblight" qualification="Legion Character Unit Attachment" fa="C" cost="3" completed="true">
-            <model id="Bayal, Hound of Everblight">
+            <model id="BAYAL, HOUND OF EVERBLIGHT">
               <basestats name="BAYAL" spd="7" str="6" mat="8" rat="4" def="14" arm="12" cmd="9" hitpoints="5" officer="true" pathfinder="true" stealth="true" />
               <weapons>
                 <melee_weapon name="Hex Razor" pow="4" count="2" p_plus_s="10" magical="true" weapon_master="true">
@@ -853,7 +853,7 @@
           <capacity title="● DISBINDING (★ACTION)">Enemy upkeep spells on this model and/or its unit immediately expire.</capacity>
           <capacity title="● ICE BOLT (★ATTACK)">Ice Bolt is a RNG 10 magic attack. A model hit suffers a POW 12 cold damage roll. On a critical hit, the model hit becomes stationary for one round unless it has Immunity: Cold.</capacity>
           <capacity title="● ICE CAGE (★ATTACK)">Ice Cage is a RNG 10 magic attack. A model hit suffers a cumulative –2 DEF for one turn unless it has Immunity: Cold. When a model without Immunity: Cold is hit with three or more Ice Cage attacks the same turn, it becomes stationary for one round.</capacity>
-          <model id="Rhylyss" full_name="Rhylyss" qualification="model">
+          <model id="RHYLYSS" full_name="Rhylyss" qualification="model">
             <basestats name="RHYLYSS" spd="6" str="5" mat="7" rat="4" def="14" arm="12" cmd="9" hitpoints="5" immunity_frost="true" pathfinder="true" />
             <weapons>
               <melee_weapon name="Nyss Claymore" pow="4" p_plus_s="9" magical="true" weapon_master="true" />
@@ -863,7 +863,7 @@
             <capacity title="● ICE CAGE (★ATTACK)">See above.</capacity>
             <capacity title="● KISS OF LYLISS (★ATTACK)">Kiss of Lyliss is a RNG 10 magic attack. For one round, when a model/unit hit by Kiss of Lyliss suffers a damage roll add +2 to the roll.</capacity>
           </model>
-          <model id="Vysarr" full_name="Vysarr" qualification="model">
+          <model id="VYSARR" full_name="Vysarr" qualification="model">
             <basestats name="VYSARR" spd="6" str="5" mat="7" rat="4" def="14" arm="12" cmd="9" hitpoints="5" immunity_frost="true" pathfinder="true" />
             <weapons>
               <melee_weapon name="Nyss Claymore" pow="4" p_plus_s="9" magical="true" weapon_master="true" />

@@ -11,7 +11,7 @@
       <!-- 006 add devastation entries -->
       <!-- 007 correct id for legends of halaak (was overwritting praetorian keltarii) -->
       <warlocks>
-        <warlock id="Sw01" name="Morghoul1" generation="P" full_name="Master Tormentor Morghoul" qualification="Skorne Warlock" fury="5" warbeast_points="7" fa="C" completed="true">
+        <warlock id="SW01" name="Morghoul1" generation="P" full_name="Master Tormentor Morghoul" qualification="Skorne Warlock" fury="5" warbeast_points="7" fa="C" completed="true">
           <basestats name="MORGHOUL" spd="7" str="6" mat="8" rat="4" def="17" arm="13" cmd="8" hitpoints="15" pathfinder="true" />
           <weapons>
             <melee_weapon name="Ripper " pow="3" count="2" p_plus_s="9" magical="true">
@@ -29,7 +29,7 @@
           <capacity title="PERFECT BALANCE">This model cannot be targeted by combined melee attacks, combined ranged attacks, or free strikes. Models do not gain back strike bonuses against this model. When knocked down, this model can stand up during its activation without forfeiting its movement or action if it is able to forfeit its movement or action to stand up.</capacity>
           <capacity title="SPRINT">At the end of this model's activation, if it destroyed one or more enemy models with melee attacks this activation it can make a full advance.</capacity>
         </warlock>
-        <warlock id="Sx01" name="Morghoul2" generation="E" full_name="Lord Assassin Morghoul" qualification="Skorne Epic Warlock" fury="5" warbeast_points="6" fa="C" completed="true">
+        <warlock id="SX01" name="Morghoul2" generation="E" full_name="Lord Assassin Morghoul" qualification="Skorne Epic Warlock" fury="5" warbeast_points="6" fa="C" completed="true">
           <basestats name="MORGHOUL" spd="7" str="6" mat="8" rat="4" def="17" arm="13" cmd="8" hitpoints="15" pathfinder="true" stealth="true" />
           <weapons>
             <melee_weapon name="Mercy" pow="6" p_plus_s="12" magical="true" weapon_master="true" />
@@ -46,7 +46,7 @@
           <capacity title="ELITE CADRE [PAINGIVERS]">Friendly Paingiver models gain Perfect Balance.</capacity>
           <capacity title="PERFECT BALANCE">This model cannot be targeted by combined melee attacks, combined ranged attacks, or free strikes. Models do not gain back strike bonuses against this model. When knocked down, this model can stand up during its activation without forfeiting its movement or action if it is able to forfeit its movement or action to stand up.</capacity>
         </warlock>
-        <warlock id="Sw02" name="Makeda1" generation="P" full_name="Archdomina Makeda" qualification="Skorne Warlock" fury="6" warbeast_points="5" fa="C" completed="true">
+        <warlock id="SW02" name="Makeda1" generation="P" full_name="Archdomina Makeda" qualification="Skorne Warlock" fury="6" warbeast_points="5" fa="C" completed="true">
           <basestats name="MAKEDA" spd="6" str="7" mat="7" rat="4" def="15" arm="16" cmd="9" hitpoints="16" />
           <weapons>
             <melee_weapon name="Sword of Baalash " pow="5" count="2" p_plus_s="12" magical="true">
@@ -62,7 +62,7 @@
           <capacity title="INSPIRATION [SKORNE MODELS]">Friendly Skorne models/units in this model's command range never flee and immediately rally.</capacity>
           <capacity title="SIDE STEP">When this model hits an enemy model with an initial attack or a special attack that is not a power attack, it can advance up to 2" after the attack is resolved. This model cannot be targeted by free strikes during this movement.</capacity>
         </warlock>
-        <warlock id="Sx02" name="Makeda2" generation="E" full_name="Supreme Archdomina Makeda" qualification="Skorne Epic Warlock" fury="6" warbeast_points="5" fa="C" completed="true">
+        <warlock id="SX02" name="Makeda2" generation="E" full_name="Supreme Archdomina Makeda" qualification="Skorne Epic Warlock" fury="6" warbeast_points="5" fa="C" completed="true">
           <basestats name="MAKEDA" spd="6" str="7" mat="7" rat="4" def="15" arm="17" cmd="10" hitpoints="16" />
           <weapons>
             <melee_weapon name="Sword of Baalash " pow="5" count="2" p_plus_s="12" magical="true" />
@@ -76,7 +76,7 @@
           <capacity title="INSPIRATION [SKORNE MODELS]">Friendly Skorne models/units in this model's command range never flee and immediately rally.</capacity>
           <capacity title="STAY DEATH">Once per turn, when a friendly living Faction trooper model is disabled in this model's command range, this model can spend 1 fury point for the disabled model to heal 1 damage point.</capacity>
         </warlock>
-        <warlock id="Sz02" name="Makeda3" generation="EE" full_name="Makeda &amp; the Exalted Court" qualification="Skorne Epic Warlock Unit" fury="6" warbeast_points="2" fa="C" completed="true">
+        <warlock id="SZ02" name="Makeda3" generation="EE" full_name="Makeda &amp; the Exalted Court" qualification="Skorne Epic Warlock Unit" fury="6" warbeast_points="2" fa="C" completed="true">
           <basestats name="MAKEDA" spd="6" str="7" mat="8" rat="4" def="15" arm="17" cmd="10" hitpoints="16" officer="true" />
           <weapons>
             <melee_weapon name="Talon of Murzoul" pow="8" p_plus_s="15" magical="true" reach="true">
@@ -91,7 +91,7 @@
           <capacity title="WARLOCK UNIT">This unit is made up of Makeda and 2 Exalted Guardians.</capacity>
           <capacity title="INSPIRATION [SKORNE]">Friendly Skorne models/units in this model's command range never flee and immediately rally.</capacity>
           <capacity title="BATTLE-DRIVEN">When a model in this unit is damaged by an enemy attack, after the attack is resolved models in this unit gain +2 STR and ARM and Pathfinder for one round.</capacity>
-          <model id="Exalted Guardian 1">
+          <model id="EXALTED GUARDIAN 1">
             <basestats name="EXALTED GUARDIAN A" spd="6" str="7" mat="8" rat="3" def="12" arm="18" cmd="10" hitpoints="5" construct="true" />
             <weapons>
               <melee_weapon name="Sword " pow="5" count="2" p_plus_s="12" magical="true" />
@@ -99,14 +99,14 @@
             <capacity title="BATTLE-DRIVEN">When a model in this unit is damaged by an enemy attack, after the attack is resolved models in this unit gain +2 STR and ARM and Pathfinder for one round.</capacity>
             <capacity title="SHIELD GUARD">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity>
           </model>
-          <model id="Exalted Guardian 2">
+          <model id="EXALTED GUARDIAN 2">
             <basestats name="EXALTED GUARDIAN B" spd="6" str="7" mat="8" rat="3" def="12" arm="18" cmd="10" hitpoints="5" construct="true" />
             <weapons>
               <melee_weapon name="Sword " pow="5" count="2" p_plus_s="12" magical="true" />
             </weapons>
           </model>
         </warlock>
-        <warlock id="Sw03" name="Hexeris1" generation="P" full_name="Lord Tyrant Hexeris" qualification="Skorne Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
+        <warlock id="SW03" name="Hexeris1" generation="P" full_name="Lord Tyrant Hexeris" qualification="Skorne Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
           <basestats name="HEXERIS" spd="6" str="8" mat="7" rat="4" def="15" arm="16" cmd="8" hitpoints="17" />
           <weapons>
             <melee_weapon name="Gulgata" pow="6" p_plus_s="14" magical="true" reach="true">
@@ -122,7 +122,7 @@
           <spell name="SOUL SLAVE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target warbeast in this model's battlegroup automatically passes threshold checks. This model can channel spells through the affected warbeast.</spell>
           <capacity title="VAMPIRIC REAPING">This model can reave fury points from enemy warbeasts destroyed in its control area if it is closer to the warbeast than all other models that could reave its fury.</capacity>
         </warlock>
-        <warlock id="Sx03" name="Hexeris2" generation="E" full_name="Lord Arbiter Hexeris" qualification="Skorne Epic Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
+        <warlock id="SX03" name="Hexeris2" generation="E" full_name="Lord Arbiter Hexeris" qualification="Skorne Epic Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
           <basestats name="HEXERIS" spd="6" str="8" mat="7" rat="4" def="15" arm="16" cmd="8" hitpoints="17" />
           <weapons>
             <melee_weapon name="Gulgata" pow="6" p_plus_s="14" magical="true" reach="true">
@@ -155,7 +155,7 @@
           <capacity title="MARTIAL DISCIPLINE">Friendly living Faction warrior models with small or medium bases can ignore friendly Faction warrior models in this model's command range when determining LOS and can advance through friendly Faction warrior models in this model's command range if they have enough movement to move completely past them.</capacity>
           <capacity title="OVERTAKE">When this model destroys one or more enemy warrior models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1".</capacity>
         </warlock>
-        <warlock id="Sx04" name="Xerxis2" generation="E" full_name="Xerxis, Fury of Halaak" qualification="Skorne Epic Cavalry Battle Engine Warlock" fury="5" warbeast_points="5" fa="C" completed="true">
+        <warlock id="SX04" name="Xerxis2" generation="E" full_name="Xerxis, Fury of Halaak" qualification="Skorne Epic Cavalry Battle Engine Warlock" fury="5" warbeast_points="5" fa="C" completed="true">
           <basestats name="XERXIS" spd="7" str="8" mat="8" rat="4" def="13" arm="19" cmd="9" hitpoints="19" />
           <weapons>
             <melee_weapon name="Lamentor" pow="7" p_plus_s="15" magical="true" reach="true">
@@ -192,7 +192,7 @@
           <capacity title="GHOST SIGHT">This model does not require LOS in order to target friendly models with spells. This models ignores LOS when making ranged and magic attacks. This model ignores concealment and cover when resolving ranged attacks.</capacity>
           <capacity title="SOUL CONVERTER">Once per turn during its activation, this model can spend 1 fury point to give each Ancestral Guardian currently in its control area one soul token.</capacity>
           <capacity title="UNION [ANCESTRAL GUARDIANS]">This model can transfer damage to friendly Ancestral Guardians.</capacity>
-          <model id="Kovaas" qualification="Skorne Solo">
+          <model id="KOVAAS" qualification="Skorne Solo">
             <basestats name="KOVAAS" spd="6" str="0" mat="8" rat="3" def="13" arm="14" cmd="10" hitpoints="5" abomination="true" incorporeal="true" undead="true" />
             <weapons>
               <melee_weapon name="Wasting Touch" pow="14" p_plus_s="14" magical="true" reach="true">
@@ -204,7 +204,7 @@
             <capacity title="SOUL TAKER">This model gains one soul token when a living enemy model is destroyed within 2" of it. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
           </model>
         </warlock>
-        <warlock id="Sx05" name="Zaal2" generation="E" full_name="Zaal, The Ancestral Advocate" qualification="Skorne Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
+        <warlock id="SX05" name="Zaal2" generation="E" full_name="Zaal, The Ancestral Advocate" qualification="Skorne Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
           <basestats name="ZAAL" spd="4" str="8" mat="6" rat="6" def="10" arm="18" cmd="8" hitpoints="18" construct="true" />
           <weapons>
             <melee_weapon name="Obsidian Staff " pow="6" count="1" p_plus_s="14" magical="true" reach="true">
@@ -608,7 +608,7 @@
           </weapons>
           <capacity title="SHIELD WALL (ORDER)">For one round, each affected model gains a +4 ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           <unit_attachment id="SA03" name="Tyrant Vorkesh" full_name="Tyrant Vorkesh" qualification="Skorne Character Unit Attachment" fa="C" cost="3" completed="true">
-            <model id="Tyrant Vorkesh">
+            <model id="TYRANT VORKESH">
               <basestats name="VORKESH" spd="5" str="7" mat="8" rat="5" def="12" arm="16" cmd="9" hitpoints="8" fearless="true" cma="true" officer="true" />
               <weapons>
                 <melee_weapon name="Arm of Rahaal" pow="6" p_plus_s="13" magical="true" reach="true" weapon_master="true">
@@ -630,7 +630,7 @@
           <capacity title="RESONANCE [ANCESTRAL GUARDIAN]">When it begins its activation in the command range of a friendly Ancestral Guardian model, this model gains +2" movement this activation.</capacity>
           <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
           <unit_attachment id="SA04" name="Extoller Advocate" full_name="Extoller Advocate" qualification="Skorne Unit Attachment" fa="1" completed="true" cost="2">
-            <model id="advocate">
+            <model id="ADVOCATE">
               <basestats name="ADVOCATE" spd="6" str="5" mat="5" rat="5" def="14" arm="13" cmd="8" gunfighter="true" officer="true"/>
               <weapons>
                 <ranged_weapon name="Spirit Eye" rng="8" rof="1" aoe="-" pow="6" magical="true">
@@ -693,7 +693,7 @@
           </weapons>
           <capacity title="PENETRATING STRIKE">After hitting a warjack or warbeast with this model's melee attack, you can choose to have it suffer 1 damage point instead of a normal damage roll.</capacity>
           <unit_attachment id="SA01" name="Praetorian Swordsmen Officer &amp; Standard" full_name="Praetorian Swordsmen Officer &amp; Standard" qualification="Skorne Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="Officer">
+            <model id="OFFICER">
               <basestats name="OFFICER" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="10" hitpoints="5" officer="true" />
               <weapons>
                 <melee_weapon name="Sword" pow="3" count="2" p_plus_s="9">
@@ -706,8 +706,8 @@
               <capacity title="PERFECT STRIKE">Once per game during this unit's activation, this model can use Perfect Strike. During this activation, when making melee attacks, models in this unit can deal 1 damage point instead of making a damage roll.</capacity>
               <capacity title="TACTICS: RANKED ATTACKS">Models in this unit gain Ranked Attacks. (Friendly Faction models can ignore models with Ranked Attacks when determining LOS.)</capacity>
             </model>
-            <model id="Praetorian Swordsmen Standard" name="Standard Bearer" full_name="Standard Bearer">
-              <basestats name="STANDARD BEARER" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" hitpoints="0" standard_bearer="true" />
+            <model id="PRAETORIAN SWORDSMEN STANDARD" name="Standard Bearer" full_name="Standard Bearer">
+              <basestats name="Standard Bearer" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" hitpoints="0" standard_bearer="true" />
               <weapons />
             </model>
           </unit_attachment>
@@ -723,8 +723,8 @@
           <capacity title="● OVERCOME">RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains Pathfinder for one turn.</capacity>
           <capacity title="● PRESS FORWARD">RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range it gains +2 SPD when making a full advance this turn.</capacity>
           <capacity title="● REVEILLE">Knocked down friendly Faction models in this model's command range immediately stand up. Models that were knocked down this turn are not affected by Reveille.</capacity>
-          <model id="Standard">
-            <basestats name="STANDARD BEARER" spd="5" str="6" mat="6" rat="4" def="13" arm="14" cmd="8" hitpoints="5" />
+          <model id="STANDARD" name="Standard Bearer">
+            <basestats name="Standard Bearer" spd="5" str="6" mat="6" rat="4" def="13" arm="14" cmd="8" hitpoints="5" />
             <weapons>
               <melee_weapon name="Sword" pow="3" p_plus_s="9" />
             </weapons>
@@ -743,7 +743,7 @@
             </ranged_weapon>
             <melee_weapon name="Sword" pow="3" p_plus_s="8" />
           </weapons>
-          <model id="grunts" name="Grunts">
+          <model id="GRUNTS" name="Grunts">
             <basestats name="Grunts" spd="4" str="5" mat="5" rat="5" def="13" arm="13" cmd="8" />
             <weapons>
               <melee_weapon name="Sword" pow="3" p_plus_s="8" />
@@ -759,7 +759,7 @@
             <melee_weapon name="Sword" pow="3" p_plus_s="8" />
           </weapons>
           <unit_attachment id="SA02" name="Venators Reiver Officer &amp; Standard" full_name="Venators Reiver Officer &amp; Standard" qualification="Skorne Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="Venators Reiver Officer">
+            <model id="VENATORS REIVER OFFICER">
               <basestats name="OFFICER" spd="6" str="5" mat="6" rat="6" def="13" arm="13" cmd="8" hitpoints="5" cra="true" officer="true" />
               <weapons>
                 <ranged_weapon name="Reiver" rng="12" rof="1" aoe="-" pow="10">
@@ -771,7 +771,7 @@
               <capacity title="EXTENDED FIRE">Once per game while in formation, this model can use Extended Fire during its unit's activation. This activation, models in this unit gain +4 RNG to their ranged attacks.</capacity>
               <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
             </model>
-            <model id="Venators Reiver Standard">
+            <model id="VENATORS REIVER STANDARD">
               <basestats name="STANDARD BEARER" spd="6" str="5" mat="5" rat="5" def="13" arm="13" cmd="8" hitpoints="0" standard_bearer="true" />
               <weapons>
                 <melee_weapon name="Sword" pow="3" p_plus_s="8" />
@@ -797,7 +797,7 @@
             </ranged_weapon>
             <melee_weapon name="Sword" pow="3" p_plus_s="8" />
           </weapons>
-          <model id="grunts" full_name="Grunt">
+          <model id="GRUNTS" full_name="Grunt">
             <basestats name="Grunts" spd="4" str="5" mat="5" rat="5" def="13" arm="13" cmd="8" />
             <weapons>
               <melee_weapon name="Sword" pow="3" p_plus_s="8" />
@@ -840,8 +840,8 @@
           </weapons>
           <capacity title="FLANK [ANOTHER MODEL IN THIS UNIT]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
           <capacity title="GRANTED: SIDE STEP">While this model is in play, models in this unit gain Side Step. (When a model with Side Step hits an enemy model with an initial melee attack or a melee special attack that is not a power attack, it can advance up to 2"  after the attack is resolved. It cannot be targeted by free strikes during this movement.)</capacity>
-          <model id="cidaar">
-            <basestats name="CIDAAR" spd="6" str="7" mat="7" rat="4" def="13" arm="15" cmd="10" fearless="true" />
+          <model id="CIDAAR" name="Cidaar">
+            <basestats name="Cidaar" spd="6" str="7" mat="7" rat="4" def="13" arm="15" cmd="10" fearless="true" />
             <weapons>
               <melee_weapon name="Naginata" pow="5" p_plus_s="12" reach="true" />
             </weapons>
@@ -849,8 +849,8 @@
             <capacity title="FLANK [ANOTHER MODEL IN THIS UNIT]">See above.</capacity>
             <capacity title="GRANTED: SYNCHRONICITY">While this model is in play, models in its unit gain Synchronicity. (While B2B with one or more models in its unit, a model with Synchronicity gains +2 DEF.)</capacity>
           </model>
-          <model id="J’DETH">
-            <basestats name="J’DETH" spd="6" str="7" mat="7" rat="4" def="13" arm="15" cmd="10" fearless="true" />
+          <model id="J’DETH" name="J’Deth">
+            <basestats name="J’Deth" spd="6" str="7" mat="7" rat="4" def="13" arm="15" cmd="10" fearless="true" />
             <weapons>
               <melee_weapon name="Maul" pow="4" p_plus_s="11" count="2">
                 <capacity title="COMBO SMITE" type="*Attack">Make a melee attack. On a hit, instead of making a normal damage roll the target model is slammed d6" directly away from this model and suffers a damage roll with POW equal to the STR of this model plus twice the POW of this weapon. The POW of collateral damage is equal to this model’s STR.</capacity>
@@ -920,7 +920,7 @@
           <capacity title="JUMP">After using its normal movement to make a full advance but before performing an action, you can place this model anywhere completely within 5" of its current location. Any effects that prevent it from charging also prevent it from using Jump.</capacity>
           <capacity title="STEADY">This model cannot be knocked down.</capacity>
           <capacity title="VETERAN LEADER [PRAETORIAN FEROX]">Friendly Praetorian Ferox trooper models gain +2 to attack rolls while this model is in their LOS.</capacity>
-          <model id="SS05_Dismount" name="Tyrant Rhadeim (Dismount)" full_name="Tyrant Rhadeim (Dismount)">
+          <model id="SS05_DISMOUNT" name="Tyrant Rhadeim (Dismount)" full_name="Tyrant Rhadeim (Dismount)">
             <basestats name="RHADEIM (DISMOUNTED)" spd="6" str="7" mat="8" rat="4" def="14" arm="15" cmd="10" hitpoints="5" commander="true" />
             <weapons>
               <melee_weapon name="Lance of Bashek" pow="5" p_plus_s="12" magical="true" reach="true" />

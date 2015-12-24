@@ -10,7 +10,7 @@
       <!-- 005 august 2015 errata -->
       <!-- 006 gallant has a buckler + add Lynus Wesselbaum &amp; Edrea Lloryrr -->
       <warcasters>
-        <warcaster id="Mw01" name="Magnus the Traitor" generation="P" full_name="Magnus the Traitor" qualification="Mercenary Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
+        <warcaster id="MW01" name="Magnus the Traitor" generation="P" full_name="Magnus the Traitor" qualification="Mercenary Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="MAGNUS" spd="5" str="6" mat="7" rat="5" def="14" arm="17" cmd="7" hitpoints="17" />
           <weapons>
             <ranged_weapon name="Scattergun" rng="SP8" rof="1" aoe="-" pow="12" />
@@ -32,11 +32,11 @@
           <capacity title="BACKSTAB">This model gains an additional die on its back strike damage rolls.</capacity>
           <capacity title="FEIGN DEATH">This model cannot be targeted by ranged or magic attacks while knocked down.</capacity>
           <capacity title="RESOURCEFUL">This model can upkeep spells on models in its battlegroup without spending focus.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
         </warcaster>
-        <warcaster id="Mx01" name="Magnus the Warlord" generation="E" full_name="Magnus the Warlord" qualification="Mercenary Epic Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
+        <warcaster id="MX01" name="Magnus the Warlord" generation="E" full_name="Magnus the Warlord" qualification="Mercenary Epic Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="MAGNUS" spd="5" str="6" mat="7" rat="5" def="14" arm="17" cmd="8" hitpoints="17" />
           <weapons>
             <ranged_weapon name="Scattergun" rng="SP8" rof="1" aoe="-" pow="12" />
@@ -58,9 +58,9 @@
           <capacity title="BACKSTAB">This model gains an additional die on its back strike damage rolls.</capacity>
           <capacity title="MINION WARCASTER [SKORNE]">If you can have two or more warlocks in your army, this model and warjacks in its battlegroup can take the place of a Skorne warlock. This model counts toward the maximum number of warlocks allowed in an army and counts as a warlock for FA.</capacity>
           <capacity title="WARJACK BOND (EPIC MAGNUS)">One non-character warjack in Magnus's battlegroup can begin the game bonded to him. The warjack gains Backstab.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
         </warcaster>
         <warcaster id="MW02" name="Gorten Grundback" generation="P" full_name="Gorten Grundback" qualification="Mercenary Rhulic Warcaster" focus="5" warjack_points="7" fa="C" completed="true">
           <basestats name="GORTEN" spd="4" str="7" mat="7" rat="5" def="13" arm="19" cmd="8" hitpoints="18" />
@@ -81,8 +81,8 @@
           <spell name="STRENGTH OF GRANITE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target model in this model's battlegroup gains +4 STR.</spell>
           <capacity title="MERCENARY">This model will work for Cygnar and Khador.</capacity>
           <capacity title="RHULIC WARCASTER">This model can have only Mercenary Rhulic warajacks in its battlegroup and can reactivate only friendly Mercenary Rhulic warjacks.</capacity>
-          <works_for id="faction_khador" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CYGNAR" />
         </warcaster>
         <warcaster id="MW03" name="Durgen Madhammer" generation="P" full_name="Durgen Madhammer" qualification="Mercenary Rhulic Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="DURGEN" spd="5" str="7" mat="6" rat="6" def="14" arm="17" cmd="8" hitpoints="16" />
@@ -106,9 +106,9 @@
           <capacity title="MERCENARY">This model will work for Cygnar, Khador, and the Protectorate.</capacity>
           <capacity title="BLAST ARMOR">When this model would suffer a blast damage roll, it gains 1 focus point instead. It cannot gain focus points beyond its FOCUS as a result of Blast Armor.</capacity>
           <capacity title="RHULIC WARCASTER">This model can have only Mercenary Rhulic warjacks in its battlegroup and can reactivate only friendly Mercenary Rhulic warjacks.</capacity>
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_MENOTH" />
         </warcaster>
         <warcaster id="MW04" name="Ashlynn d'Elyse" generation="P" full_name="Ashlynn d'Elyse" qualification="Mercenary Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="ASHLYNN" spd="6" str="5" mat="8" rat="7" def="17" arm="15" cmd="8" hitpoints="14" gunfighter="true" />
@@ -128,8 +128,8 @@
           <capacity title="QUICK DRAW">Once during your opponent's turn, when an enemy model within 12" of this model that is in its LOS targets this model with a ranged attack, this model can make a ranged attack against the enemy model before it makes its attack roll. If this model's ranged attack hits, the enemy model suffers no damage but its attack automatically misses.</capacity>
           <capacity title="RIPOSTE">When this model is missed by an enemy melee attack, immediately after the attack is resolved it can make one normal melee attack against the attacking model.</capacity>
           <capacity title="VIRTUOSO" >This model can make melee and ranged attacks during the same combat action. When this model makes its initial attacks, it can make both its initial ranged and melee attacks.</capacity>
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_MENOTH" />
         </warcaster>
         <warcaster id="MW05" name="Fiona the Black" generation="P" full_name="Fiona the Black" qualification="Mercenary Privateer Thamarite Warcaster" focus="7" warjack_points="6" fa="C" completed="true">
           <basestats name="FIONA" spd="6" str="5" mat="6" rat="4" def="16" arm="15" cmd="8" hitpoints="15" />
@@ -150,9 +150,9 @@
           <capacity title="ANIMOSITY [MORROWAN]">This model cannot be included in an army that includes one or more models of the listed type.</capacity>
           <capacity title="CULTISTS">Choose one friendly Sea Dog unit at the beginning of the game to be Cultists. Cultists are Thamarite models and gain Fearless. During your Control Phase, after replenishing focus, this model gains 1 additional focus point if it is within 1" of one or more friendly Cultists.</capacity>
           <capacity title="WHIPLASH">When an enemy model misses this model with a magic attack, the attacking model becomes the target and is automatically hit by the attack. AOE magic attacks that miss are centered on the attacking model. This model is the point of origin for all these attacks.</capacity>
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
         </warcaster>
         <warcaster id="MW06" name="Captain Bartolo Montador" generation="P" full_name="Captain Bartolo Montador" qualification="Mercenary Privateer Warcaster" focus="6" warjack_points="5" fa="C" completed="true">
           <basestats name="MONTADOR" spd="6" str="7" mat="7" rat="5" def="15" arm="16" cmd="8" hitpoints="17" tough="true" />
@@ -169,10 +169,10 @@
           <capacity title="MERCENARY">This model will work for Cryx, Cygnar, Khador, and the Protectorate.</capacity>
           <capacity title="BLOOD-QUENCHED">This model gains a cumulative +1 STR and ARM for each living enemy model it destroys with a melee attack during its activation. This bonus lasts for one round.</capacity>
           <capacity title="OVERTAKE">When this model destroys one or more enemy warrior models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1".</capacity>
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_MENOTH" />
         </warcaster>
         <warcaster id="MW07" name="Captain Phinneus Shae" generation="P" full_name="Captain Phinneus Shae" qualification="Mercenary Privateer Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="SHAE" spd="6" str="6" mat="7" rat="6" def="17" arm="14" cmd="8" hitpoints="16" />
@@ -192,7 +192,7 @@
           <capacity title="AMPHIBIOUS">This model ignores the effects of deep and shallow water and can move through them without penalty. While completely in deep water, it cannot be targeted by ranged or magic attacks and can make attacks only against other models in deep water. While completely in deep water, this model does not block LOS.</capacity>
           <capacity title="GROUNDWORK">While knocked down, this model is not automatically hit by melee attacks and its DEF is not reduced.</capacity>
           <capacity title="SWASHBUCKLER">When this model makes a melee attack during its activation, its front arc extends to 360 degrees, and it can make one melee attack against each model in its LOS that is in its melee range.</capacity>
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_CYGNAR" />
         </warcaster>
         <warcaster id="MW08" name="Drake MacBain" generation="P" full_name="Drake MacBain" qualification="Mercenary Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="MACBAIN" spd="6" str="7" mat="6" rat="5" def="15" arm="15" cmd="8" hitpoints="17" tough="true" />
@@ -212,10 +212,10 @@
           <capacity title="MERCENARY">This model will work for Cryx, Cygnar, Khador, and the Protectorate.</capacity>
           <capacity title="GANG FIGHTER">When making a melee attack targeting an enemy model in melee range of another friendly Faction warrior model, this model gains +2 to melee attack and melee damage rolls.</capacity>
           <capacity title="UNYIELDING">While engaging an enemy model, this model gains +2 ARM.</capacity>
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_MENOTH" />
         </warcaster>
         <warcaster id="MW09" name="Captain Damiano" generation="P" full_name="Captain Damiano" qualification="Mercenary Steelhead Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="DAMIANO" spd="6" str="6" mat="7" rat="6" def="15" arm="16" cmd="9" hitpoints="16" />
@@ -236,10 +236,10 @@
           <capacity title="PAYMASTER [STEELHEAD]">During this model's activation, you can mark one or more coin boxes on its card. For each coin box you mark, you can use Paymaster once. When you do, choose one of the following incentives. Incentives are RNG CMD and can target only friendly Steelhead units. A Steelhead unit can be affected by an incentive only once per turn. When all five of its coin boxes have been marked, this model loses Paymaster for the rest of the game.</capacity>
           <capacity title="● BATTLE MANEUVERS">Affected models gains Reform this turn. (After all models in a unit with Reform have completed their actions, each can advance up to 3".)</capacity>
           <capacity title="● MONEY SHOT">Affected models gain +2 to ranged attack and damage rolls for one turn.</capacity>
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_MENOTH" />
         </warcaster>
         <warcaster id="MW10" name="General Ossrum" generation="P" full_name="General Ossrum" qualification="Mercenary Rhulic Warcaster" focus="6" warjack_points="5" fa="C" completed="true">
           <basestats name="OSSRUM" spd="4" str="6" mat="7" rat="6" def="14" arm="17" cmd="9" hitpoints="18" />
@@ -259,11 +259,11 @@
           <capacity title="MERCENARY">This model will work for Cygnar, Khador, and the Protectorate.</capacity>
           <capacity title="MARTIAL DISCIPLINE">Friendly living Faction warrior models with small or medium bases can ignore friendly Faction warrior models in this model's command range when determining LOS and can advance through friendly Faction warrior models in this model's command range if they have enough movement to move completely past them.</capacity>
           <capacity title="RHULIC WARCASTER">This model can have only Mercenary Rhulic warajacks in its battlegroup and can reactivate only friendly Mercenary Rhulic warjacks.</capacity>
-          <works_for id="faction_khador" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_MENOTH" />
         </warcaster>
-        <warcaster id="YX09_mercs" name="Constance Blaize, Knight of the Prophet" generation="P" full_name="Constance Blaize, Knight of the Prophet" qualification="Cygnar Morrowan Ally Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
+        <warcaster id="YX09_MERCS" name="Constance Blaize, Knight of the Prophet" generation="P" full_name="Constance Blaize, Knight of the Prophet" qualification="Cygnar Morrowan Ally Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="BLAIZE" spd="6" str="6" mat="7" rat="5" def="15" arm="16" cmd="9" hitpoints="16" />
           <weapons>
             <melee_weapon name="Sun Spear" pow="7" p_plus_s="13" magical="true" reach="true">
@@ -279,7 +279,7 @@
           <capacity title="ANIMOSITY [THAMARITE OR UNDEAD]">This model cannot be included in an army that includes one or more models of the listed type.</capacity>
           <capacity title="INSPIRATION [MORROWAN]">Friendly Morrowan models/units in this model's command range never flee and immediately rally.</capacity>
           <capacity title="FLANK [NON-WARCASTER MORROWAN]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of type indicated, this model gains +2 to attacks rolls and gains an additional damage die.</capacity>
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_CYGNAR" />
         </warcaster>
         <warcaster id="MW11" name="Exulon Thexus" full_name="Exulon Thexus" generation="P" qualification="Mercenary Cephalyx Warcaster" focus="8" warjack_points="5" fa="C" completed="true">
           <basestats name="THEXUS" spd="6" str="4" mat="5" rat="4" def="14" arm="14" cmd="10" hitpoints="15" pathfinder="true"/>
@@ -299,7 +299,7 @@
           <capacity title="AGGRESSIVE REACTION">While one or more enemy models are in this model's command range, models in this model's battlegroup can run or charge without spending focus.</capacity>
           <capacity title="SACRIFICIAL PAWN [MONSTROSITY]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Monstrosity model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
           <capacity title="SPELL DRIVER">When this model casts a spell, it can channel the spell through another model in its battlegroup that is in its control area. Once a spell is cast this way, the model it was channeled through suffers d3+1 damage points.</capacity>
-          <works_for id="faction_cryx" />
+          <works_for id="FACTION_CRYX" />
         </warcaster>
         <warcaster id="MW12" name="Cognifex Cyphon" full_name="Cognifex Cyphon" generation="P" qualification="Mercenary Cephalyx Warcaster" focus="7" warjack_points="6" fa="C" completed="true">
           <basestats name="Cyphon" spd="5" str="6" mat="6" rat="6" def="13" arm="17" cmd="9" hitpoints="18" pathfinder="true"/>
@@ -321,7 +321,7 @@
           <capacity title="ESSENCE AMPLIFIER">When this model casts a spell and is the point of origin for the spell, you can destroy a friendly drudge in its command range. If you do the spell gains +5 RNG.</capacity>
           <capacity title="SACRIFICIAL PAWN [MONSTROSITY]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Monstrosity model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
           <capacity title="STEADY" type="">This model cannot be knocked down.</capacity>
-          <works_for id="faction_cryx" />
+          <works_for id="FACTION_CRYX" />
         </warcaster>
 
       </warcasters>
@@ -339,17 +339,17 @@
           <restricted_to id="MW06" />
           <restricted_to id="MW09" />
           <restricted_to id="MW07" />
-          <restricted_to id="YX09_mercs" />
+          <restricted_to id="YX09_MERCS" />
           <restricted_to id="MW08" />
           <restricted_to id="MW05" />
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
           <restricted_to id="MU03" />
           <restricted_to id="MS09" />
           <restricted_to id="MS20" />
           <restricted_to id="MS25" />
           <restricted_to id="MS26" />
-          <restricted_to id="YA01_mercs" />
+          <restricted_to id="YA01_MERCS" />
         </warjack>
         <warjack id="MJ12" name="Freebooter" full_name="Freebooter" qualification="Mercenary Heavy Warjack" fa="U" cost="6" damage_grid="xx..xx.............L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="FREEBOOTER" spd="5" str="11" mat="6" rat="5" def="12" arm="17" cmd="0" />
@@ -370,19 +370,19 @@
           <restricted_to id="MW06" />
           <restricted_to id="MW09" />
           <restricted_to id="MW07" />
-          <restricted_to id="YX09_mercs" />
+          <restricted_to id="YX09_MERCS" />
           <restricted_to id="MW08" />
           <restricted_to id="MW05" />
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
           <restricted_to id="MU03" />
           <restricted_to id="MS09" />
           <restricted_to id="MS20" />
           <restricted_to id="MS25" />
           <restricted_to id="MS26" />
-          <restricted_to id="YA01_mercs" />
+          <restricted_to id="YA01_MERCS" />
         </warjack>
-        <warjack id="YJ17_mercs" name="Gallant" full_name="Gallant" qualification="Cygnar Morrowan Ally Character Heavy Warjack" fa="C" cost="9" damage_grid="xx..xx.............L..R.LLMCRRxMMCCx" completed="true">
+        <warjack id="YJ17_MERCS" name="Gallant" full_name="Gallant" qualification="Cygnar Morrowan Ally Character Heavy Warjack" fa="C" cost="9" damage_grid="xx..xx.............L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="GALLANT" spd="5" str="11" mat="7" rat="6" def="13" arm="18" cmd="0" />
           <weapons>
             <melee_weapon name="Lasting Light" pow="6" p_plus_s="17" magical="true" reach="true" location="L" />
@@ -396,7 +396,7 @@
           <restricted_to id="MW06" />
           <restricted_to id="MW08" />
           <restricted_to id="MW09" />
-          <restricted_to id="YX09_mercs" />
+          <restricted_to id="YX09_MERCS" />
         </warjack>
         <warjack id="MJ15" name="Ghordson Avalancher" full_name="Ghordson Avalancher" qualification="Mercenary Rhulic Heavy Warjack" fa="U" cost="9" damage_grid="x....x.............L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="AVALANCHER" spd="4" str="12" mat="6" rat="5" def="9" arm="19" cmd="0" />
@@ -486,17 +486,17 @@
           <restricted_to id="MW06" />
           <restricted_to id="MW09" />
           <restricted_to id="MW07" />
-          <restricted_to id="YX09_mercs" />
+          <restricted_to id="YX09_MERCS" />
           <restricted_to id="MW08" />
           <restricted_to id="MW05" />
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
           <restricted_to id="MU03" />
           <restricted_to id="MS09" />
           <restricted_to id="MS20" />
           <restricted_to id="MS25" />
           <restricted_to id="MS26" />
-          <restricted_to id="YA01_mercs" />
+          <restricted_to id="YA01_MERCS" />
         </warjack>
         <warjack id="MJ13" name="Mariner" full_name="Mariner" qualification="Mercenary Heavy Warjack" fa="U" cost="8" damage_grid="xx..xx.............L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="MARINER" spd="5" str="11" mat="6" rat="5" def="12" arm="17" cmd="0" />
@@ -514,17 +514,17 @@
           <restricted_to id="MW06" />
           <restricted_to id="MW09" />
           <restricted_to id="MW07" />
-          <restricted_to id="YX09_mercs" />
+          <restricted_to id="YX09_MERCS" />
           <restricted_to id="MW08" />
           <restricted_to id="MW05" />
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
           <restricted_to id="MU03" />
           <restricted_to id="MS09" />
           <restricted_to id="MS20" />
           <restricted_to id="MS25" />
           <restricted_to id="MS26" />
-          <restricted_to id="YA01_mercs" />
+          <restricted_to id="YA01_MERCS" />
         </warjack>
         <warjack id="MJ10" name="Mule" full_name="Mule" qualification="Mercenary Heavy Warjack" fa="U" cost="8" damage_grid="xx..xx.............L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="MULE" spd="5" str="11" mat="6" rat="5" def="10" arm="18" cmd="0" />
@@ -540,17 +540,17 @@
           <restricted_to id="MW06" />
           <restricted_to id="MW09" />
           <restricted_to id="MW07" />
-          <restricted_to id="YX09_mercs" />
+          <restricted_to id="YX09_MERCS" />
           <restricted_to id="MW08" />
           <restricted_to id="MW05" />
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
           <restricted_to id="MU03" />
           <restricted_to id="MS09" />
           <restricted_to id="MS20" />
           <restricted_to id="MS25" />
           <restricted_to id="MS26" />
-          <restricted_to id="YA01_mercs" />
+          <restricted_to id="YA01_MERCS" />
         </warjack>
         <warjack id="MJ11" name="Nomad" full_name="Nomad" qualification="Mercenary Heavy Warjack" fa="U" cost="6" damage_grid="xx..xx.............L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="NOMAD" spd="5" str="11" mat="6" rat="5" def="10" arm="18" cmd="0" />
@@ -562,17 +562,17 @@
           <restricted_to id="MW06" />
           <restricted_to id="MW09" />
           <restricted_to id="MW07" />
-          <restricted_to id="YX09_mercs" />
+          <restricted_to id="YX09_MERCS" />
           <restricted_to id="MW08" />
           <restricted_to id="MW05" />
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
           <restricted_to id="MU03" />
           <restricted_to id="MS09" />
           <restricted_to id="MS20" />
           <restricted_to id="MS25" />
           <restricted_to id="MS26" />
-          <restricted_to id="YA01_mercs" />
+          <restricted_to id="YA01_MERCS" />
         </warjack>
         <warjack id="MJ01" name="Renegade" full_name="Renegade" qualification="Mercenary Light Warjack" fa="2" cost="6" damage_grid="xx..xxx....x.......LAAR.LLMCRRxMMCCx" completed="true">
           <basestats name="RENEGADE" spd="5" str="8" mat="6" rat="6" def="11" arm="17" cmd="0" arc_node="true" />
@@ -588,8 +588,8 @@
             </melee_weapon>
           </weapons>
           <capacity title="CUSTOM WARJACK [MAGNUS]">This model can be included only in a battlegroup controlled by Magnus.</capacity>
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
         </warjack>
         <warjack id="MJ17" name="Rocinante" full_name="Rocinante" qualification="Mercenary Character Heavy Warjack" fa="C" cost="9" damage_grid="xx..xx.............L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="ROCINANTE" spd="5" str="11" mat="7" rat="6" def="10" arm="18" cmd="0" />
@@ -604,11 +604,11 @@
           <restricted_to id="MW06" />
           <restricted_to id="MW09" />
           <restricted_to id="MW07" />
-          <restricted_to id="YX09_mercs" />
+          <restricted_to id="YX09_MERCS" />
           <restricted_to id="MW08" />
           <restricted_to id="MW05" />
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
           <restricted_to id="MU03" />
           <restricted_to id="MS09" />
           <restricted_to id="MS20" />
@@ -627,17 +627,17 @@
           <restricted_to id="MW06" />
           <restricted_to id="MW09" />
           <restricted_to id="MW07" />
-          <restricted_to id="YX09_mercs" />
+          <restricted_to id="YX09_MERCS" />
           <restricted_to id="MW08" />
           <restricted_to id="MW05" />
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
           <restricted_to id="MU03" />
           <restricted_to id="MS09" />
           <restricted_to id="MS20" />
           <restricted_to id="MS25" />
           <restricted_to id="MS26" />
-          <restricted_to id="YA01_mercs" />
+          <restricted_to id="YA01_MERCS" />
         </warjack>
         <warjack id="MJ02" name="Talon" full_name="Talon" qualification="Mercenary Light Warjack" fa="U" cost="4" damage_grid="xxxxxxx....x.......L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="TALON" spd="6" str="8" mat="6" rat="4" def="12" arm="16" cmd="0" />
@@ -652,17 +652,17 @@
           <restricted_to id="MW06" />
           <restricted_to id="MW09" />
           <restricted_to id="MW07" />
-          <restricted_to id="YX09_mercs" />
+          <restricted_to id="YX09_MERCS" />
           <restricted_to id="MW08" />
           <restricted_to id="MW05" />
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
           <restricted_to id="MU03" />
           <restricted_to id="MS09" />
           <restricted_to id="MS20" />
           <restricted_to id="MS25" />
           <restricted_to id="MS26" />
-          <restricted_to id="YA01_mercs" />
+          <restricted_to id="YA01_MERCS" />
         </warjack>
         <warjack id="MJ03" name="Vanguard" full_name="Vanguard" qualification="Mercenary Light Warjack" fa="U" cost="5" damage_grid="xxxxxxx....x.......L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="VANGUARD" spd="6" str="9" mat="6" rat="6" def="13" arm="17" cmd="0" />
@@ -679,19 +679,19 @@
           <restricted_to id="MW06" />
           <restricted_to id="MW09" />
           <restricted_to id="MW07" />
-          <restricted_to id="YX09_mercs" />
+          <restricted_to id="YX09_MERCS" />
           <restricted_to id="MW08" />
           <restricted_to id="MW05" />
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
           <restricted_to id="MU03" />
           <restricted_to id="MS09" />
           <restricted_to id="MS20" />
           <restricted_to id="MS26" />
-          <restricted_to id="YA01_mercs" />
+          <restricted_to id="YA01_MERCS" />
         </warjack>
 
-        <warjack id="MJ03_forMS25" name="Vanguard" full_name="Vanguard (Gastone Crosse)" damage_grid="xxxxxxx....x.......L..R.LLMCRRxMMCCx" cost="4" qualification="Mercenary Light Warjack" fa="U" completed="true">
+        <warjack id="MJ03_FORMS25" name="Vanguard" full_name="Vanguard (Gastone Crosse)" damage_grid="xxxxxxx....x.......L..R.LLMCRRxMMCCx" cost="4" qualification="Mercenary Light Warjack" fa="U" completed="true">
           <basestats name="Vanguard" spd="6" str="9" mat="6" rat="6" def="13" arm="17" cmd="0" />
           <weapons>
             <ranged_weapon pow="12" aoe="-" rng="8" rof="1" name="Shield Gun" location="L"></ranged_weapon>
@@ -724,7 +724,7 @@
           <restricted_to id="MS17" />
         </warjack>
         <!-- gastone crosse -->
-        <warjack id="MJ03_forMS25" name="Vanguard (Gastone Crosse)" full_name="Vanguard (Gastone Crosse)" qualification="Mercenary Light Warjack" fa="U" cost="4" damage_grid="xxxxxxx....x.......L..R.LLMCRRxMMCCx" completed="true">
+        <warjack id="MJ03_FORMS25" name="Vanguard (Gastone Crosse)" full_name="Vanguard (Gastone Crosse)" qualification="Mercenary Light Warjack" fa="U" cost="4" damage_grid="xxxxxxx....x.......L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="VANGUARD" spd="6" str="9" mat="6" rat="6" def="13" arm="17" cmd="0" />
           <weapons>
             <ranged_weapon name="Shield Gun" rng="8" rof="1" aoe="-" pow="12" location="L" />
@@ -738,7 +738,7 @@
           <restricted_to id="MS25" />
         </warjack>
         <!-- magnus bad seeds -->
-        <warjack id="YJ01_mercs" name="Charger" full_name="Charger" qualification="Cygnar Light Warjack" fa="U" cost="4" damage_grid="xxxxxxx....x.......L..R.LLMCRRxMMCCx" completed="true">
+        <warjack id="YJ01_MERCS" name="Charger" full_name="Charger" qualification="Cygnar Light Warjack" fa="U" cost="4" damage_grid="xxxxxxx....x.......L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="CHARGER" spd="6" str="8" mat="6" rat="6" def="13" arm="16" cmd="0" />
           <weapons>
             <ranged_weapon name="Dual Cannon" rng="12" rof="2" aoe="-" pow="12" location="L">
@@ -746,11 +746,11 @@
             </ranged_weapon>
             <melee_weapon name="Battle Hammer" pow="4" p_plus_s="12" location="R" />
           </weapons>
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
-          <only_in_tier id="Magnus2 - Bad Seeds (NQ36)" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
+          <only_in_tier id="MAGNUS2 - BAD SEEDS (NQ36)" />
         </warjack>
-        <warjack id="YJ03_mercs" name="Sentinel" full_name="Sentinel" qualification="Cygnar Light Warjack" fa="U" cost="4" damage_grid="xxxxxxx....x.......L..R.LLMCRRxMMCCx" completed="true">
+        <warjack id="YJ03_MERCS" name="Sentinel" full_name="Sentinel" qualification="Cygnar Light Warjack" fa="U" cost="4" damage_grid="xxxxxxx....x.......L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="SENTINEL" spd="6" str="8" mat="6" rat="6" def="13" arm="16" cmd="0" />
           <weapons>
             <melee_weapon name="Assault Shield" pow="2" p_plus_s="10" shield="true" location="L" />
@@ -759,11 +759,11 @@
             </ranged_weapon>
           </weapons>
           <capacity title="SHIELD GUARD">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity> <!-- errata 12-2013 -->
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
-          <only_in_tier id="Magnus2 - Bad Seeds (NQ36)" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
+          <only_in_tier id="MAGNUS2 - BAD SEEDS (NQ36)" />
         </warjack>
-        <warjack id="YJ07_mercs" name="Defender" full_name="Defender" qualification="Cygnar Heavy Warjack" fa="1" cost="9" damage_grid="xx..xx.............L..R.LLMCRRxMMCCx" completed="true">
+        <warjack id="YJ07_MERCS" name="Defender" full_name="Defender" qualification="Cygnar Heavy Warjack" fa="1" cost="9" damage_grid="xx..xx.............L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="DEFENDER" spd="5" str="11" mat="7" rat="6" def="12" arm="18" cmd="0" />
           <weapons>
             <ranged_weapon name="Heavy Barrel" rng="16" rof="1" aoe="-" pow="15" location="L" />
@@ -771,12 +771,12 @@
               <capacity title="CORTEX DAMAGE">When a warjack is hit by this weapon, it suffers 1 damage point to its first available Cortex system box.</capacity>
             </melee_weapon>
           </weapons>
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
-          <only_in_tier id="Magnus2 - Bad Seeds (NQ36)" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
+          <only_in_tier id="MAGNUS2 - BAD SEEDS (NQ36)" />
         </warjack>
         <!-- skarre ships in the night -->
-        <warjack id="MJ12forCw03" name="Freebooter" full_name="Freebooter" qualification="Mercenary Heavy Warjack" fa="U" cost="6" damage_grid="xx..xx.............L..R.LLMCRRxMMCCx" completed="true">
+        <warjack id="MJ12FORCW03" name="Freebooter" full_name="Freebooter" qualification="Mercenary Heavy Warjack" fa="U" cost="6" damage_grid="xx..xx.............L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="FREEBOOTER" spd="5" str="11" mat="6" rat="5" def="12" arm="17" cmd="0" />
           <weapons>
             <melee_weapon name="Clamp" pow="3" p_plus_s="14" open_fist="true" location="R">
@@ -791,10 +791,10 @@
           <capacity title="AMPHIBIOUS">This model ignores the effects of deep and shallow water and can move through them without penalty. While completely within deep water, it cannot be targeted by ranged or magic attacks and can make attacks only against other models in deep water. While completely in deep water, this model does not block LOS.</capacity>
           <capacity title="JURY-RIGGED [SPD]">At the start of its activation, this model can spend 1 focus point to use Jury-Rigged. This model gains +2 SPD this activation. At the end of its activation, it suffers 1 damage point to its first available Movement system box. This model cannot use Jury-Rigged if its Movement system is crippled. Jury-Rigged can be used only once per activation.</capacity>
           <capacity title="LASH">This model and friendly warrior models B2B with it cannot be knocked down.</capacity>
-          <restricted_to id="Cw03" />
-          <only_in_tier id="Skarre1 - Ships in the Night (NQ37)" />
+          <restricted_to id="CW03" />
+          <only_in_tier id="SKARRE1 - SHIPS IN THE NIGHT (NQ37)" />
         </warjack>
-        <warjack id="MJ13forCw03" name="Mariner" full_name="Mariner" qualification="Mercenary Heavy Warjack" fa="U" cost="8" damage_grid="xx..xx.............L..R.LLMCRRxMMCCx" completed="true">
+        <warjack id="MJ13FORCW03" name="Mariner" full_name="Mariner" qualification="Mercenary Heavy Warjack" fa="U" cost="8" damage_grid="xx..xx.............L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="MARINER" spd="5" str="11" mat="6" rat="5" def="12" arm="17" cmd="0" />
           <weapons>
             <ranged_weapon name="Ship Gun" rng="15" rof="1" aoe="3" pow="14" location="L">
@@ -806,11 +806,11 @@
           </weapons>
           <capacity title="AMPHIBIOUS">This model ignores the effects of deep and shallow water and can move through them without penalty. While completely in deep water, it cannot be targeted by ranged or magic attacks and can make attacks only against other models in deep water. While completely in deep water, this model does not block LOS.</capacity>
           <capacity title="LASH">This model and friendly warrior models B2B with it cannot be knocked down.</capacity>
-          <restricted_to id="Cw03" />
-          <only_in_tier id="Skarre1 - Ships in the Night (NQ37)" />
+          <restricted_to id="CW03" />
+          <only_in_tier id="SKARRE1 - SHIPS IN THE NIGHT (NQ37)" />
         </warjack>
         <!-- zerkova hunting wolves -->
-        <warjack id="MJ03_forKW06" name="Vanguard" full_name="Vanguard" qualification="Mercenary Light Warjack" fa="U" cost="5" damage_grid="xxxxxxx....x.......L..R.LLMCRRxMMCCx" completed="true">
+        <warjack id="MJ03_FORKW06" name="Vanguard" full_name="Vanguard" qualification="Mercenary Light Warjack" fa="U" cost="5" damage_grid="xxxxxxx....x.......L..R.LLMCRRxMMCCx" completed="true">
           <basestats name="VANGUARD" spd="6" str="9" mat="6" rat="6" def="13" arm="17" cmd="0" />
           <weapons>
             <ranged_weapon name="Shield Gun" rng="8" rof="1" aoe="-" pow="12" location="L" />
@@ -822,7 +822,7 @@
           <capacity title="ASSAULT">As part of a charge, after moving but before making its charge attack, this model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of this model’s activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, this model can make the Assault ranged attack before its activation ends.</capacity>
           <capacity title="SHIELD GUARD">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model derectly hit instead.This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity>
           <restricted_to id="KW06" />
-          <only_in_tier id="Zerkova - Hunting Wolves (NQ34)" />
+          <only_in_tier id="ZERKOVA - HUNTING WOLVES (NQ34)" />
         </warjack>
         <!-- MMxx code is for monstruosities -->
         <warjack id="MM01" name="Subduer" full_name="Subduer" damage_grid="........................LLMBRRLMMBBR" cost="7" qualification="Mercenary Cephalyx Heavy Monstrosity" fa="U" completed="true">
@@ -871,7 +871,7 @@
         </warjack>
       </warjacks>
       <warbeasts>
-        <warbeast id="Lug_mercs" name="Lug" full_name="Lug" qualification="Mercenary Minion Character Heavy Warbeast" fa="C" cost="0" fury="4" threshold="9" damage_spiral="8-11-8" completed="true">
+        <warbeast id="LUG_MERCS" name="Lug" full_name="Lug" qualification="Mercenary Minion Character Heavy Warbeast" fa="C" cost="0" fury="4" threshold="9" damage_spiral="8-11-8" completed="true">
           <basestats name="LUG" spd="5" str="12" mat="5" rat="1" def="12" arm="18" cmd="6" immunity_frost="true" pathfinder="true" />
           <weapons>
             <melee_weapon name="Claw" pow="3" p_plus_s="15" open_fist="true" location="L">
@@ -885,9 +885,9 @@
           <capacity title="WARBEAST BOND [BRUN CRAGBACK]">This model is bonded to Brun Cragback. While it is within 3" of Cragback and is not stationary, Cragback cannot be targeted by free strikes and gains +2 DEF against melee attacks, and models do not gains back strike bonuses while attacking Cragback.</capacity>
           <capacity title="FLANK [BRUN CRAGBACK]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
           <capacity title="COMPANION [BRUN CRAGBACK]">This model is included in any army that includes Brun Cragback. If Brun Cragback is destroyed or removed from play, remove this model from play. This model is part of Cragback's battlegroup.</capacity>
-          <restricted_to id="IW01_mercs" />
+          <restricted_to id="IW01_MERCS" />
         </warbeast>
-        <warbeast id="Skarath_mercs" name="Skarath" full_name="Skarath" qualification="Mercenary Minion Tatzylwurm Character Heavy Warbeast" fa="C" cost="0" fury="4" threshold="9" damage_spiral="7-9-9" completed="true">
+        <warbeast id="SKARATH_MERCS" name="Skarath" full_name="Skarath" qualification="Mercenary Minion Tatzylwurm Character Heavy Warbeast" fa="C" cost="0" fury="4" threshold="9" damage_spiral="7-9-9" completed="true">
           <basestats name="SKARATH" spd="6" str="10" mat="6" rat="5" def="14" arm="16" cmd="6" />
           <weapons>
             <ranged_weapon name="Acid Spray" rng="SP10" rof="1" aoe="-" pow="12" corrosion="true" continuous_corrosion="true" location="H" />
@@ -899,9 +899,9 @@
           <capacity title="WARBEAST BOND [DAHLIA HALLYR]">This model is bonded to Dahlia Hallyr. When this model frenzies in Hallyr's control range, you choose the frenzy target.</capacity>
           <capacity title="SERPENTINE">This model cannot make slam or trample power attacks and cannot be knocked down.</capacity>
           <capacity title="COMPANION [DAHLIA HALLYR]">This model is included in any army that includes Dahlia Hallyr. If Hallyr is destroyed or removed from play, remove this model from play. This model is part of Hallyr's battlegroup.</capacity>
-          <restricted_to id="IW02_mercs" />
+          <restricted_to id="IW02_MERCS" />
         </warbeast>
-        <warbeast id="Brine_mercs" name="Brine" full_name="Brine" qualification="Mercenary Minion Farrow Character Heavy Warbeast" fa="C" cost="0" fury="4" threshold="8" damage_spiral="5-12-9" completed="true">
+        <warbeast id="BRINE_MERCS" name="Brine" full_name="Brine" qualification="Mercenary Minion Farrow Character Heavy Warbeast" fa="C" cost="0" fury="4" threshold="8" damage_spiral="5-12-9" completed="true">
           <basestats name="BRINE" spd="5" str="11" mat="6" rat="1" def="12" arm="17" cmd="6" />
           <weapons>
             <melee_weapon name="Gore" pow="4" p_plus_s="15" location="H">
@@ -916,9 +916,9 @@
           <capacity title="PAIN RESPONSE">While damaged this model can charge or make power attacks without being forced.</capacity>
           <capacity title="BACON">When this model is destroyed, each living warbeast B2B with it heals d3 damage points.</capacity>
           <capacity title="COMPANION [RORSH]">This model is included in any army that includes Rorsh. If Rorsh is destroyed or removed from play, remove this model from play. This model is part of Rorsh's battlegroup.</capacity>
-          <restricted_to id="IW03_mercs" />
+          <restricted_to id="IW03_MERCS" />
         </warbeast>
-        <warbeast id="Snapjaw_mercs" name="Snapjaw" full_name="Snapjaw" qualification="Mercenary Minion Gatorman Character Heavy Warbeast" fa="C" cost="0" fury="4" threshold="8" damage_spiral="5-14-8" completed="true">
+        <warbeast id="SNAPJAW_MERCS" name="Snapjaw" full_name="Snapjaw" qualification="Mercenary Minion Gatorman Character Heavy Warbeast" fa="C" cost="0" fury="4" threshold="8" damage_spiral="5-14-8" completed="true">
           <basestats name="SNAPJAW" spd="5" str="11" mat="6" rat="1" def="12" arm="18" cmd="6" />
           <weapons>
             <melee_weapon name="Bite" pow="6" p_plus_s="17" location="H" />
@@ -932,12 +932,12 @@
           <capacity title="COMPANION [WRONG EYE]">This model is included in any army that includes Wrong Eye. If Wrong Eye is destroyed or removed from play, remove this model from play. This model is part of Wrong Eye's battlegroup.</capacity>
           <capacity title="AMPHIBIOUS">This model ignores the effects of deep and shallow water and can move through them without penalty. While completely in deep water, it cannot be targeted by ranged or magic attacks and can make attacks only against other models in deep water. While completely in deep water, this model does not block LOS.</capacity>
           <capacity title="BLOOD THIRST">When it charges a living model, this model gains +2" movement.</capacity>
-          <restricted_to id="IW04_mercs" />
+          <restricted_to id="IW04_MERCS" />
         </warbeast>
 
         <!-- beast that come with mercenary lesser warlocks -->
 
-        <warbeast id="IB01_mercs" name="Gun Boar" full_name="Gun Boar" qualification="Minion Farrow Light Warbeast" fa="U" cost="5" fury="3" threshold="7" damage_spiral="6-10-6" completed="true">
+        <warbeast id="IB01_MERCS" name="Gun Boar" full_name="Gun Boar" qualification="Minion Farrow Light Warbeast" fa="U" cost="5" fury="3" threshold="7" damage_spiral="6-10-6" completed="true">
           <basestats name="GUN BOAR" spd="5" str="8" mat="5" rat="5" def="12" arm="17" cmd="6" />
           <weapons>
             <ranged_weapon name="Big Gun" rng="10" rof="1" aoe="3" pow="13" />
@@ -947,9 +947,9 @@
           <animus name="COUNTERBLAST" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">When an enemy model advances and ends its movement in this model's command range, this model can make one normal melee or ranged attack targeting that model, then Counterblast expires. Counterblast lasts for one round.</animus>
           <capacity title="BACON">When this model is destroyed, each living warbeast B2B with it heals d3 damage points.</capacity>
           <capacity title="FARROW WARBEAST">This model can be included only in a battlegroup controlled by a Minion Farrow warlock.</capacity>
-          <restricted_to id="IW03_mercs" />
+          <restricted_to id="IW03_MERCS" />
         </warbeast>
-        <warbeast id="IB02_mercs" name="War Hog" full_name="War Hog" qualification="Minion Farrow Heavy Warbeast" fa="U" cost="8" fury="4" threshold="8" damage_spiral="9-12-7" completed="true">
+        <warbeast id="IB02_MERCS" name="War Hog" full_name="War Hog" qualification="Minion Farrow Heavy Warbeast" fa="U" cost="8" fury="4" threshold="8" damage_spiral="9-12-7" completed="true">
           <basestats name="WAR HOG" spd="4" str="11" mat="6" rat="1" def="12" arm="18" cmd="6" />
           <weapons>
             <melee_weapon name="War Cleaver" pow="5" p_plus_s="16" location="L" />
@@ -961,9 +961,9 @@
           <animus name="MASSACRE" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model can charge without being forced. When the affected model destroys an enemy model with a charge attack, after the attack is resolved it can advance up to 1" and make an additional melee attack. Massacre lasts for one turn. </animus>
           <capacity title="AGGRESSION DIAL">This model can be forced during its activation to gain +2 STR for one turn but suffers d3 damage points.</capacity>
           <capacity title="FARROW WARBEAST">This model can be included only in a battlegroup controlled by a Minion Farrow warlock.</capacity>
-          <restricted_to id="IW03_mercs" />
+          <restricted_to id="IW03_MERCS" />
         </warbeast>
-        <warbeast id="IB03_mercs" name="Blackhide Wrastler" full_name="Blackhide Wrastler" qualification="Minion Gatorman Heavy Warbeast" fa="U" cost="9" fury="4" threshold="8" damage_spiral="5-14-8" completed="true">
+        <warbeast id="IB03_MERCS" name="Blackhide Wrastler" full_name="Blackhide Wrastler" qualification="Minion Gatorman Heavy Warbeast" fa="U" cost="9" fury="4" threshold="8" damage_spiral="5-14-8" completed="true">
           <basestats name="WRASTLER" spd="5" str="12" mat="6" rat="1" def="12" arm="19" cmd="6" />
           <weapons>
             <melee_weapon name="Bite" pow="5" p_plus_s="17" location="H">
@@ -977,9 +977,9 @@
           <capacity title="MAN EATER">This model can charge living warrior models without being forced.</capacity>
           <capacity title="WRASTLER">While knocked down, this model can make attacks, has a melee range, can engage other models, can be engaged, and can use its animus.</capacity>
           <capacity title="SNACKING">When this model boxes a living model with a melee attack, this model can heal d3 damage points. If this model heals, the boxed model is removed from play.</capacity>
-          <restricted_to id="IW04_mercs" />
+          <restricted_to id="IW04_MERCS" />
         </warbeast>
-        <warbeast id="IB04_mercs" name="Bull Snapper" full_name="Bull Snapper" qualification="Minion Gatorman Light Warbeast" fa="U" cost="3" fury="3" threshold="7" damage_spiral="4-7-5" completed="true">
+        <warbeast id="IB04_MERCS" name="Bull Snapper" full_name="Bull Snapper" qualification="Minion Gatorman Light Warbeast" fa="U" cost="3" fury="3" threshold="7" damage_spiral="4-7-5" completed="true">
           <basestats name="BULL SNAPPER" spd="6" str="7" mat="5" rat="1" def="13" arm="14" cmd="6" />
           <weapons>
             <melee_weapon name="Bite" pow="5" p_plus_s="12" location="H">
@@ -991,9 +991,9 @@
           <capacity title="BLOOD THIRST">When it charges a living model, this model gains +2" movement.</capacity>
           <capacity title="MAN EATER">This model can charge living warrior models without being forced.</capacity>
           <capacity title="TORPID">If this model destroys a living enemy model with a normal melee attack, this model's activation ends immediately after the attack is resolved and you can remove 1 fury point from this model.</capacity>
-          <restricted_to id="IW04_mercs" />
+          <restricted_to id="IW04_MERCS" />
         </warbeast>
-        <warbeast id="IB05_mercs" name="Ironback Spitter" full_name="Ironback Spitter" qualification="Minion Gatorman Heavy Warbeast" fa="U" cost="8" fury="4" threshold="9" damage_spiral="7-11-9" completed="true">
+        <warbeast id="IB05_MERCS" name="Ironback Spitter" full_name="Ironback Spitter" qualification="Minion Gatorman Heavy Warbeast" fa="U" cost="8" fury="4" threshold="9" damage_spiral="7-11-9" completed="true">
           <basestats name="SPITTER" spd="4" str="10" mat="5" rat="5" def="10" arm="18" cmd="6" />
           <weapons>
             <ranged_weapon name="Spit Blast" rng="12" rof="1" aoe="3" pow="14" corrosion="true" continuous_corrosion="true" location="H" />
@@ -1005,9 +1005,9 @@
           <capacity title="AMPHIBIOUS">This model ignores the effects of deep and shallow water and can move through them without penalty. While completely in deep water, it cannot be targeted by ranged or magic attacks and can make attacks only against other models in deep water. While completely in deep water, this model does not block LOS.</capacity>
           <capacity title="BACK PLATES">When a model hits this model with a free strike attack, immediately after the attack is resolved the attacking model suffers d6 damage points.</capacity>
           <capacity title="GIRDED">This model does not suffer blast damage. Friendly models B2B with it do not suffer blast damage.</capacity>
-          <restricted_to id="IW04_mercs" />
+          <restricted_to id="IW04_MERCS" />
         </warbeast>
-        <warbeast id="IB06_mercs" name="Road Hog" full_name="Road Hog" qualification="Minion Farrow Heavy Warbeast" fa="U" cost="9" fury="4" threshold="8" damage_spiral="9-12-9" completed="true">
+        <warbeast id="IB06_MERCS" name="Road Hog" full_name="Road Hog" qualification="Minion Farrow Heavy Warbeast" fa="U" cost="9" fury="4" threshold="8" damage_spiral="9-12-9" completed="true">
           <basestats name="ROAD HOG" spd="5" str="10" mat="6" rat="5" def="12" arm="18" cmd="6" />
           <weapons>
             <ranged_weapon name="Heavy Flamethrower" rng="SP10" pow="12" rof="1" aoe="-" fire="true" continuous_fire="true" location="L" />
@@ -1020,9 +1020,9 @@
           <capacity title="ASSAULT">As part of a charge, after moving but before making its charge attack, this model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of this model's activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, this model can make the Assault ranged attack before its activation ends.</capacity>
           <capacity title="FARROW WARBEAST">This model can be included only in a battlegroup controlled by a Minion Farrow warlock.</capacity>
           <capacity title="FULL BOAR">This model can be forced during its activation to gain +2 SPD and Pathfinder for one turn but suffers d3 damage points.</capacity>
-          <restricted_to id="IW03_mercs" />
+          <restricted_to id="IW03_MERCS" />
         </warbeast>
-        <warbeast id="IB07_mercs" name="Boneswarm" full_name="Boneswarm" qualification="Minion Gatorman Light Warbeast" fa="U" cost="4" fury="3" threshold="9" damage_spiral="5-7-6" completed="true">
+        <warbeast id="IB07_MERCS" name="Boneswarm" full_name="Boneswarm" qualification="Minion Gatorman Light Warbeast" fa="U" cost="4" fury="3" threshold="9" damage_spiral="5-7-6" completed="true">
           <basestats name="BONE SWARM" spd="5" str="8" mat="6" rat="4" def="13" arm="15" cmd="7" undead="true" terror="true" />
           <weapons>
             <melee_weapon name="Bone Strike" pow="4" p_plus_s="12" />
@@ -1032,9 +1032,9 @@
           <capacity title="BONE PICKER">This model gains a corpse token each time it destroys a living or undead enemy model with a melee attack. This model can have up to three corpse tokens at a time. For each corpse token on this model it gains +1 STR and ARM.</capacity>
           <capacity title="GATORMAN WARBEAST">This model can be included only in a battlegroup controlled by a Minion Gatorman warlock.</capacity>
           <capacity title="GROSS ANATOMY">During its activation, this model can spend corpse tokens to heal damage. For each corpse token spent, remove d3 damage from this model.</capacity>
-          <restricted_to id="IW04_mercs" />
+          <restricted_to id="IW04_MERCS" />
         </warbeast>
-        <warbeast id="IB08_mercs" name="Swamp Horror" full_name="Swamp Horror" qualification="Minion Gatorman Heavy Warbeast" fa="U" cost="8" fury="4" threshold="8" damage_spiral="8-11-8" completed="true">
+        <warbeast id="IB08_MERCS" name="Swamp Horror" full_name="Swamp Horror" qualification="Minion Gatorman Heavy Warbeast" fa="U" cost="8" fury="4" threshold="8" damage_spiral="8-11-8" completed="true">
           <basestats name="SWAMP HORROR" spd="4" str="10" mat="6" rat="1" def="10" arm="17" cmd="6" />
           <weapons>
             <melee_weapon name="Beak" pow="6" p_plus_s="16" location="H">
@@ -1054,9 +1054,9 @@
           <capacity title="AMPHIBIOUS">This model ignores the effects of deep and shallow water and can move through them without penalty. While completely in deep water, it cannot be targeted by ranged or magic attacks and can make attacks only against other models in deep water. While completely in deep water, this model does not block LOS.</capacity>
           <capacity title="IMPERVIOUS FLESH">When this model is hit by a ranged attack, the attacker rolls one less damage die.</capacity>
           <capacity title="STEADY">This model cannot be knocked down.</capacity>
-          <restricted_to id="IW04_mercs" />
+          <restricted_to id="IW04_MERCS" />
         </warbeast>
-        <warbeast id="IB09_mercs" name="Razor Boar" full_name="Razor Boar" qualification="Minion Farrow Lesser Warbeast" fa="U" cost="2" fury="2" threshold="6" damage_spiral="4-6-4" completed="true">
+        <warbeast id="IB09_MERCS" name="Razor Boar" full_name="Razor Boar" qualification="Minion Farrow Lesser Warbeast" fa="U" cost="2" fury="2" threshold="6" damage_spiral="4-6-4" completed="true">
           <basestats name="RAZOR BOAR" spd="6" str="6" mat="5" rat="3" def="13" arm="14" cmd="5" />
           <weapons>
             <melee_weapon name="Ripping Tusks" pow="4" p_plus_s="10">
@@ -1066,11 +1066,11 @@
           <animus name="VICIOUS" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly Faction warbeast gains Hyper Aggressive for one round. (When a model with Hyper Aggressive suffers damage from an enemy attack anytime except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model.)</animus>
           <capacity title="LESSER WARBEAST">This model cannot make power attacks.</capacity>
           <capacity title="BACON">When this model is destroyed, each living warbeast B2B with it heals d3 damage points.</capacity>
-          <restricted_to id="IW03_mercs" />
+          <restricted_to id="IW03_MERCS" />
         </warbeast>
 
 
-        <warbeast  id="IB10_mercs" name="Battle Boar" full_name="Battle Boar" damage_spiral="6-10-6" fury="3" threshold="7" cost="4" qualification="Minion Farrow Light Warbeast" fa="U" completed="true">
+        <warbeast  id="IB10_MERCS" name="Battle Boar" full_name="Battle Boar" damage_spiral="6-10-6" fury="3" threshold="7" cost="4" qualification="Minion Farrow Light Warbeast" fa="U" completed="true">
           <basestats name="Battle Boar" spd="5" str="8" mat="5" rat="5" def="12" arm="17" cmd="6" />
           <weapons>
             <melee_weapon name="Open Fist" pow="3" p_plus_s="11" open_fist="true" location="L"></melee_weapon>
@@ -1079,10 +1079,10 @@
           <animus name="HEIGHTENED METABOLISM" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly warbeast gains Snacking. Heightened Metabolism lasts for one turn. (When a model with Snacking boxes a living model with a melee attack, the model with Snacking can heal d3 damage points. If the model heals, the boxed model is removed from play.)</animus>
           <capacity title="BACON">When this model is destroyed, each living warbeast B2B with it heals d3 damage points.</capacity>
           <capacity title="RABID">This model can be forced during its activation to gain +2 SPD, Pathfinder, and boosted attack and damage rolls for one turn.</capacity>
-          <restricted_to id="IW03_mercs" />
+          <restricted_to id="IW03_MERCS" />
         </warbeast>
 
-        <warbeast  id="IB11_mercs" name="Splatter Boar" full_name="Splatter Boar" damage_spiral="6-10-6" fury="3" threshold="7" cost="5" qualification="Minion Farrow Light Warbeast" fa="U" completed="true">
+        <warbeast  id="IB11_MERCS" name="Splatter Boar" full_name="Splatter Boar" damage_spiral="6-10-6" fury="3" threshold="7" cost="5" qualification="Minion Farrow Light Warbeast" fa="U" completed="true">
           <basestats name="Splatter Boar" spd="5" str="8" mat="5" rat="5" def="12" arm="17" cmd="6" immunity_corrosion="true"/>
           <weapons>
             <ranged_weapon name="Alchemical Mortar" rng="12" rof="1" aoe="3" pow="*">
@@ -1099,10 +1099,10 @@
           <animus name="ACIDIC TOUCH" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly Faction model gains +2 to melee damage rolls and Immunity: Corrosion, and its melee weapons gain Critical Corrosion. Acidic Touch lasts for one round.</animus>
           <capacity title="ALCHEMICAL MASK">This model ignores Gas effects. When determining LOS or resolving attacks, this model ignores cloud effects</capacity>
           <capacity title="BACON">When this model is destroyed, each living warbeast B2B with it heals d3 damage points.</capacity>
-          <restricted_to id="IW03_mercs" />
+          <restricted_to id="IW03_MERCS" />
         </warbeast>
 
-        <warbeast  id="IB12_mercs" name="Blind Walker" full_name="Blind Walker" damage_spiral="5-14-8" fury="3" threshold="10" cost="7" qualification="Minion Gatorman Heavy Warbeast" fa="U" completed="true">
+        <warbeast  id="IB12_MERCS" name="Blind Walker" full_name="Blind Walker" damage_spiral="5-14-8" fury="3" threshold="10" cost="7" qualification="Minion Gatorman Heavy Warbeast" fa="U" completed="true">
           <basestats name="Walker" spd="5" str="11" mat="5" rat="1" def="10" arm="20" cmd="10" />
           <weapons>
             <melee_weapon name="Claw" pow="2" p_plus_s="14" open_fist="true" location="L" />
@@ -1112,7 +1112,7 @@
           <capacity title="AMPHIBIOUS">This model ignores the effects of deep and shallow water and can move through them without penalty. While completely in deep water, it cannot be targeted by ranged or magic attacks and can make attacks only against other models in deep water. While completely in deep water, this model does not block LOS.</capacity>
           <capacity title="EMPHATIC TRANSFERENCE">A friendly Faction warlock can transfer damage to this model even if this model has a number of fury points equal to its current FURY.</capacity>
           <capacity title="SHIELD GUARD">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity>
-          <restricted_to id="IW04_mercs" />
+          <restricted_to id="IW04_MERCS" />
         </warbeast>
       </warbeasts>
       <colossals>
@@ -1135,11 +1135,11 @@
           <restricted_to id="MW06" />
           <restricted_to id="MW09" />
           <restricted_to id="MW07" />
-          <restricted_to id="YX09_mercs" />
+          <restricted_to id="YX09_MERCS" />
           <restricted_to id="MW08" />
           <restricted_to id="MW05" />
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
           <restricted_to id="MS25" />
         </colossal>
         <colossal id="MJ19" name="Ghordson Earthbreaker" full_name="Ghordson Earthbreaker" qualification="Mercenary Rhulic Colossal" fa="2" cost="19" damage_grid_left="xxxx..xx.............LCC.LLCCCLLMMMM" damage_grid_right="..xxxx....xx......CCR...CCCRR.MMMMRR" completed="true">
@@ -1191,8 +1191,8 @@
           <capacity title="BULLDOZE">When this model advances into B2B contact with an enemy model during its activation, it can push that model up to 2" directly away from it. A model can be pushed by Bulldoze only once per activation. Bulldoze has no effect when this model makes a trample power attack.</capacity><!-- errata 12-2013 -->
           <capacity title="GIRDED" >This model does not suffer blast damage. Friendly models in B2B with it do not suffer blast damage.</capacity>
           <capacity title="WEAPON PLATFORM">This model can make melee and ranged attacks in the same activation. When this model makes its initial melee attacks or a power attack, it can also make its initial ranged attacks. This model can make ranged attacks even while in melee.</capacity>
-          <works_for id="faction_khador" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CYGNAR" />
         </battleEngine>
       </battleEngines>
 
@@ -1211,21 +1211,21 @@
           <capacity title="● DISBINDING (★ACTION)">Enemy upkeep spells on this model and/or its unit immediately expire.</capacity>
           <capacity title="● DOMINATE UNDEAD (★ATTACK)">Dominate Undead is a RNG 10 magic attack. Take control of target enemy non-warcaster, non-warlock undead model hit. You can immediately make a full advance with the undead model followed by a normal melee attack.</capacity>
           <capacity title="RAISE DEAD">When a living model is destroyed in this model's command range, this model gains one corpse token. At the end of your next Control Phase, remove all corpse tokens from this model and add one Risen Grunt to this unit for each corpse token removed. Risen Grunts must be placed in formation. This unit cannot have more than 20 Risen Grunts in play at a time.</capacity>
-          <model id="Risen" name="Risen Grunts" full_name="Risen Grunts">
+          <model id="RISEN" name="Risen Grunts" full_name="Risen Grunts">
             <basestats name="RISEN GRUNTS" spd="6" str="5" mat="4" rat="3" def="10" arm="11" cmd="3" cma="true" undead="true" />
             <weapons>
               <melee_weapon name="Claws" pow="2" p_plus_s="7" />
             </weapons>
           </model>
-          <model id="Thrall Warrior" name="Thrall Warrior" full_name="Thrall Warrior" qualification="Mercenary Solo">
+          <model id="THRALL WARRIOR" name="Thrall Warrior" full_name="Thrall Warrior" qualification="Mercenary Solo">
             <basestats name="THRALL WARRIOR" spd="6" str="6" mat="6" rat="3" def="11" arm="14" cmd="7" undead="true" />
             <weapons>
               <melee_weapon name="Great Sword" pow="4" p_plus_s="10" weapon_master="true" />
             </weapons>
             <capacity title="CREATED">This model does not begin the game in play.</capacity>
           </model>
-          <works_for id="faction_khador" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU04" name="Croe's Cutthroats" full_name="Croe's Cutthroats" qualification="Mercenary Character Unit" fa="C" base_cost="7" full_cost="10" baseCount="6" fullCount="10" completed="true">
           <basestats name="Leader" spd="6" str="5" mat="7" rat="6" def="13" arm="11" cmd="8" advance_deployment="true" pathfinder="true" stealth="true" />
@@ -1240,7 +1240,7 @@
           <capacity title="MERCENARIES">These models will work for Cryx, Khador, and the Protectorate.</capacity>
           <capacity title="BACKSTAB">This model gains an additional die on its back strike damage rolls.</capacity>
           <capacity title="BUSHWHACK (ORDER)">During this unit's activation, affected models make their combat actions before their normal movement. Affected models must make a full advance as their normal movement this activation.</capacity>
-          <model id="Grunts" name="Grunts" full_name="Grunts">
+          <model id="GRUNTS" name="Grunts" full_name="Grunts">
             <basestats name="GRUNTS" spd="6" str="5" mat="6" rat="5" def="13" arm="11" cmd="7" advance_deployment="true" pathfinder="true" stealth="true" />
             <weapons>
               <ranged_weapon name="Crossbow" rng="10" rof="1" aoe="-" pow="10">
@@ -1252,9 +1252,9 @@
             </weapons>
             <capacity title="BACKSTAB">See above.</capacity>
           </model>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
         </unit>
         <unit id="MU05" name="Cylena Raefyll &amp; Nyss Hunters" full_name="Cylena Raefyll &amp; Nyss Hunters" qualification="Mercenary Minion Nyss Character Unit" fa="C" base_cost="7" full_cost="10" baseCount="6" fullCount="10" completed="true">
           <basestats name="CYLENA" spd="7" str="5" mat="7" rat="7" def="15" arm="11" cmd="9" hitpoints="5" officer="true" pathfinder="true" />
@@ -1267,7 +1267,7 @@
           <capacity title="ANIMOSITY [BLIGHTED]">This model cannot be included in an army that includes one or more models of the listed type.</capacity>
           <capacity title="GRANTED: COMBINED RANGED ATTACK">While this model is in play, models in its unit gain Combined Ranged Attack.</capacity>
           <capacity title="HUNTER">This model ignores forests, concealment, and cover when determining LOS or making a ranged attack.</capacity>
-          <model id="nyss" name="Grunts" full_name="Grunts">
+          <model id="NYSS" name="Grunts" full_name="Grunts">
             <basestats name="GRUNTS" spd="7" str="5" mat="6" rat="6" def="15" arm="11" cmd="8" pathfinder="true" />
             <weapons>
               <ranged_weapon name="Nyss Bow" rng="12" rof="1" aoe="-" pow="10" />
@@ -1275,10 +1275,10 @@
             </weapons>
             <capacity title="HUNTER">See above.</capacity>
           </model>
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_retribution" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_RETRIBUTION" />
         </unit>
         <unit id="MU16" name="Dannon Blythe &amp; Bull" full_name="Dannon Blythe &amp; Bull" qualification="Mercenary Minion Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="2" fullCount="-" completed="true">
           <basestats name="BLYTHE" spd="6" str="5" mat="6" rat="6" def="15" arm="13" cmd="9" hitpoints="5" gunfighter="true" officer="true" />
@@ -1290,7 +1290,7 @@
           <capacity title="MINIONS">These models will work for the Trollbloods.</capacity>
           <capacity title="HUNTSMAN">After deployment but before the first player's turn, choose an enemy model/unit to be this unit's prey. While this model is in play, each model in its unit beginning its activation within 10" of the prey gains +2" movement that activation. Whike this model is in play, models in its unit gains +2 to attack and damage rolls against the prey. When the prey is destroyed or removed from play, choose another model/unit as the prey.</capacity>
           <capacity title="TAKE DOWN">Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.</capacity>
-          <model id="Bull" name="Bull" full_name="Bull">
+          <model id="BULL" name="Bull" full_name="Bull">
             <basestats name="BULL" spd="6" str="7" mat="6" rat="6" def="13" arm="15" cmd="9" hitpoints="8" tough="true" />
             <weapons>
               <ranged_weapon name="Demolisher" rng="10" rof="1" aoe="-" pow="12">
@@ -1304,9 +1304,9 @@
             </weapons>
             <capacity title="TAKE DOWN">See above.</capacity>
           </model>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU01" name="Greygore Boomhowler &amp; Co." full_name="Greygore Boomhowler &amp; Co." qualification="Mercenary Minion Trollkin Character Unit" fa="C" base_cost="6" full_cost="9" baseCount="6" fullCount="10" completed="true">
           <basestats name="BOOMHOWLER" spd="6" str="7" mat="7" rat="5" def="12" arm="16" cmd="9" hitpoints="8" cma="true" officer="true" tough="true" />
@@ -1320,16 +1320,16 @@
           <capacity title="● CALL OF DEFIANCE">When a model in this unit that is in formation makes a Tough roll of 4, 5 or 6, it heals 1 damage point and is knocked down. Call of Defiance lasts for one round.</capacity>
           <capacity title="● CALL TO ACTION">Knocked down models in this unit in formation immediately stand up.</capacity>
           <capacity title="● RAGE HOWLER">Enemy models/units currently in this model's command range must pass a command check or flee. Warjacks and Warbeasts currently in this model's command range suffer –2 to attack rolls for one round.</capacity>
-          <model id="grunts" name="Grunts" full_name="Grunts">
+          <model id="GRUNTS" name="Grunts" full_name="Grunts">
             <basestats name="GRUNTS" spd="6" str="7" mat="6" rat="4" def="12" arm="16" cmd="8" cma="true" tough="true" />
             <weapons>
               <ranged_weapon name="Blunderbuss" rng="8" rof="1" aoe="-" pow="12" />
               <melee_weapon name="Great Axe" pow="5" p_plus_s="12" />
             </weapons>
           </model>
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU06" name="Hammerfall High Shield Gun Corps" full_name="Hammerfall High Shield Gun Corps" qualification="Mercenary Rhulic Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="4" str="6" mat="5" rat="5" def="11" arm="15" cmd="9" cra="true" jack_marshal="true" />
@@ -1342,7 +1342,7 @@
           <capacity title="RHULIC 'JACK MARSHAL">This model can control and reactivate only friendly Mercenary Rhulic warjacks.</capacity>
           <capacity title="SHIELD WALL (ORDER)">For one round, each affected model gains a +4 ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model’s back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           <unit_attachment id="MA03" name="Hammerfall High Shield Officer &amp; Standard" full_name="Hammerfall High Shield Officer &amp; Standard" qualification="Mercenary Rhulic Unit Attachment" fa="1" cost="3" completed="true">
-            <model id="MA03_officer" name="Officer" full_name="Officer">
+            <model id="MA03_OFFICER" name="Officer" full_name="Officer">
               <basestats name="OFFICER" spd="4" str="6" mat="6" rat="6" def="11" arm="15" cmd="9" hitpoints="5" cra="true" jack_marshal="true" officer="true" />
               <weapons>
                 <melee_weapon name="Axe" pow="3" p_plus_s="9" />
@@ -1353,15 +1353,15 @@
               <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
               <capacity title="RHULIC 'JACK MARSHAL">This model can control and reactivate only friendly Mercenary Rhulic warjacks.</capacity>
             </model>
-            <model id="MA03_standard" name="Standard Bearer" full_name="Standard Bearer">
+            <model id="MA03_STANDARD" name="Standard Bearer" full_name="Standard Bearer">
               <basestats name="STANDARD BEARER" spd="4" str="6" mat="5" rat="5" def="11" arm="15" cmd="9" standard_bearer="true" />
               <weapons />
               <capacity title="RANKED ATTACKS">See above.</capacity>
               <capacity title="RHULIC 'JACK MARSHAL">See above.</capacity>
             </model>
           </unit_attachment>
-          <works_for id="faction_khador" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU02" name="Herne &amp; Jonne" full_name="Herne &amp; Jonne" qualification="Mercenary Rhulic Character Unit" fa="C" base_cost="3" full_cost="-" baseCount="2" fullCount="-" completed="true">
           <basestats name="HERNE" spd="4" str="6" mat="6" rat="6" def="12" arm="13" cmd="9" hitpoints="5" officer="true" />
@@ -1370,7 +1370,7 @@
             <melee_weapon name="Axe" pow="3" p_plus_s="9" />
           </weapons>
           <capacity title="MERCENARIES">These models will work for Cygnar, Khador, and the Protectorate.</capacity>
-          <model id="Jonne">
+          <model id="JONNE">
             <basestats name="JONNE" spd="6" str="8" mat="6" rat="4" def="12" arm="15" cmd="9" hitpoints="8" />
             <weapons>
               <ranged_weapon name="Barrage Arquebuss" rng="12" rof="1" aoe="3" pow="14">
@@ -1380,9 +1380,9 @@
               <melee_weapon name="Great Axe" pow="5" p_plus_s="13" />
             </weapons>
           </model>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU17" name="Horgenhold Artillery Corps" full_name="Horgenhold Artillery Corps" qualification="Mercenary Rhulic Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" baseCount="3" fullCount="-" completed="true">
           <basestats name="Leader" spd="3" str="5" mat="5" rat="4" def="10" arm="15" cmd="9" />
@@ -1395,14 +1395,14 @@
             <melee_weapon name="Sword" pow="3" p_plus_s="8" />
           </weapons>
           <capacity title="MERCENARIES">These models will work for Cygnar and the Protectorate.</capacity>
-          <model id="grunts" name="Grunts" full_name="Grunts">
+          <model id="GRUNTS" name="Grunts" full_name="Grunts">
             <basestats name="GRUNTS" spd="3" str="5" mat="5" rat="4" def="10" arm="15" cmd="9" />
             <weapons>
               <melee_weapon name="Sword" pow="3" p_plus_s="8" />
             </weapons>
           </model>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU07" name="Horgenhold Forge Guard" full_name="Horgenhold Forge Guard" qualification="Mercenary Rhulic Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="4" str="6" mat="7" rat="4" def="10" arm="16" cmd="9" />
@@ -1414,8 +1414,8 @@
           <capacity title="MERCENARIES">These models will work for Cygnar and the Protectorate.</capacity>
           <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM.</capacity>
           <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU11" name="Lady Aiyana &amp; Master Holt" full_name="Lady Aiyana &amp; Master Holt" qualification="Mercenary Privateer Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="2" fullCount="-" completed="true">
           <basestats name="AIYANA" spd="6" str="4" mat="4" rat="4" def="15" arm="11" cmd="9" hitpoints="5" officer="true" />
@@ -1425,7 +1425,7 @@
           <capacity title="● AYISLA'S VEIL (★ACTION)">This model gains Stealth. While Holt is B2B with her, he also gains Stealth. Ayisla's Veil lasts for one round.</capacity>
           <capacity title="● KISS OF LYLISS (★ATTACK)">Kiss of Lyliss is a RNG 10 magic attack. For one round, when a model/unit hit by Kiss of Lyliss suffers a damage roll add +2 to the roll.</capacity>
           <capacity title="● LURYNSAR'S TOUCH (★ACTION)">RNG CMD. Target friendly model/unit. If the model/unit is in range, its weapons gain Magical Weapon for one turn.</capacity>
-          <model id="Holt" name="Master Holt" full_name="Master Holt">
+          <model id="HOLT" name="Master Holt" full_name="Master Holt">
             <basestats name="HOLT" spd="6" str="5" mat="5" rat="8" def="15" arm="11" cmd="8" hitpoints="5" gunfighter="true" />
             <weapons>
               <ranged_weapon name="Hand Cannon " count="2" rng="12" rof="1" aoe="-" pow="12" />
@@ -1434,10 +1434,10 @@
             <capacity title="QUICK DRAW">Once during your opponent's turn, when an enemy model within 12" of this model this is in its LOS targets Holt or Aiyana with a ranged attack, this model can make a ranged attack against the enemy model before it makes its attack roll. If this model's ranged attack hits, the enemy model suffers no damage but its attack automatically misses.</capacity>
             <capacity title="VIRTUOSO">This model can make melee and ranged attacks during the same combat action. When this model makes its initial attacks, it can make both its initial ranged and melee attacks.</capacity>
           </model>
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_retribution" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_RETRIBUTION" />
         </unit>
         <unit id="MU19" name="Ogrun Assault Corps" full_name="Ogrun Assault Corps" qualification="Mercenary Rhulic Unit" fa="2" base_cost="6" full_cost="9" baseCount="3" fullCount="5" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="8" mat="6" rat="5" def="12" arm="15" cmd="9" hitpoints="8" cma="true" cra="true" />
@@ -1446,8 +1446,8 @@
             <melee_weapon name="Hand Axe" pow="4" p_plus_s="12" />
           </weapons>
           <capacity title="MERCENARIES">These models will work for Cygnar and the Protectorate.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU12" name="Press Gangers" full_name="Press Gangers" qualification="Mercenary Privateer Sea Dog Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" completed="true">
           <basestats name="LASS" spd="6" str="6" mat="5" rat="4" def="13" arm="12" cmd="8" advance_deployment="true" officer="true" tough="true" />
@@ -1458,18 +1458,18 @@
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
           <capacity title="SEDUCTION (★ACTION)">Take control of a living enemy non-warcaster, non-warlock warrior model B2B with this model. You can immediately make a full advance with the enemy model followed by a normal melee attack, then Seduction expires. The enemy model cannot be targeted by free strikes during this movement.</capacity>
           <capacity title="SHANGHAI">When a living enemy warrior model in the melee range of two or more models in this unit is boxed by a melee attack made by this model, remove the enemy model from play. You can add one Grunt to a friendly Sea Dog Boarding Crew unit in this model's command range. The Grunt must be placed in formation and within 3" of this model.</capacity>
-          <model id="Grunts">
-            <basestats name="GRUNTS" spd="6" str="6" mat="5" rat="4" def="13" arm="12" cmd="8" advance_deployment="true" tough="true" />
+          <model id="GRUNTS" name="Grunts">
+            <basestats name="Grunts" spd="6" str="6" mat="5" rat="4" def="13" arm="12" cmd="8" advance_deployment="true" tough="true" />
             <weapons>
               <melee_weapon name="Hand Weapon" pow="3" p_plus_s="9" />
             </weapons>
             <capacity title="GANG">See above.</capacity>
             <capacity title="SHANGHAI">See above.</capacity>
           </model>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU03" name="Captain Sam MacHorne &amp; the Devil Dogs" full_name="Captain Sam MacHorne &amp; the Devil Dogs" qualification="Mercenary Character Unit" fa="C" base_cost="5" full_cost="7" baseCount="6" fullCount="10" completed="true">
           <basestats name="SAM" spd="6" str="6" mat="7" rat="6" def="15" arm="12" cmd="9" hitpoints="5" jack_marshal="true" officer="true" />
@@ -1482,7 +1482,7 @@
           <capacity title="MERCENARIES">These models will work for Cygnar and the Protectorate.</capacity>
           <capacity title="DRIVE: PRONTO">This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack immediately makes a full advance. If the check fails, the warjack does not benefit from 'Jack Marshal this turn.</capacity>
           <capacity title="IRON WALL">This model gains +2 ARM for each warjack it controls B2B with it. When this model is directly hit by an enemy ranged or magic attack, you can choose to have one of those non-incorporeal warjacks to be directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
-          <model id="Devil dogs" name="Grunts" full_name="Grunts">
+          <model id="DEVIL DOGS" name="Grunts" full_name="Grunts">
             <basestats name="GRUNTS" spd="6" str="6" mat="6" rat="4" def="13" arm="13" cmd="8" cra="true" />
             <weapons>
               <ranged_weapon name="Slug Gun" rng="4" rof="1" aoe="-" pow="14" />
@@ -1495,8 +1495,8 @@
               </melee_weapon>
             </weapons>
           </model>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU13" name="Sea Dog Boarding Crew" full_name="Sea Dog Boarding Crew" qualification="Mercenary Privateer Unit" fa="U" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" has_weapon_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="5" mat="5" rat="4" def="13" arm="12" cmd="7" />
@@ -1536,10 +1536,10 @@
             </model>
             <!-- factions copied from main unit -->
           </weapon_attachment>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU14" name="Sea Dog Deck Gun" full_name="Sea Dog Deck Gun" qualification="Mercenary Privateer Weapon Crew Unit" fa="2" base_cost="2" full_cost="-" baseCount="2" fullCount="-" completed="true">
           <basestats name="Leader" spd="4" str="5" mat="5" rat="4" def="13" arm="12" cmd="7" />
@@ -1552,17 +1552,17 @@
           </weapons>
           <capacity title="MERCENARIES">This model will work for Cryx, Cygnar, Khador, and the Protectorate.</capacity>
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
-          <model id="grunt" name="Grunt" full_name="Grunt">
+          <model id="GRUNT" name="Grunt" full_name="Grunt">
             <basestats name="GRUNT" spd="4" str="5" mat="5" rat="4" def="13" arm="12" cmd="7" />
             <weapons>
               <melee_weapon name="Hand Weapon" pow="3" p_plus_s="8" />
             </weapons>
             <capacity title="GANG">See above.</capacity>
           </model>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU08" name="Steelhead Halberdiers" full_name="Steelhead Halberdiers" qualification="Mercenary Unit" fa="3" base_cost="4" full_cost="6" baseCount="6" fullCount="10" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="5" rat="4" def="13" arm="13" cmd="8" cma="true" />
@@ -1573,10 +1573,10 @@
             </melee_weapon>
           </weapons>
           <capacity title="MERCENARIES">This model will work for Cryx, Cygnar, Khador, and the Protectorate.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU15" name="Steelhead Heavy Cavalry" full_name="Steelhead Heavy Cavalry" qualification="Mercenary Cavalry Unit" fa="1" base_cost="6" full_cost="10" baseCount="3" fullCount="5" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="8" str="6" mat="5" rat="5" def="13" arm="16" cmd="8" hitpoints="5" />
@@ -1591,10 +1591,10 @@
           <capacity title="MERCENARIES">This model will work for Cryx, Cygnar, Khador, and the Protectorate.</capacity>
           <capacity title="ASSAULT (ORDER)">Affected models must charge or run. As part of a charge, after moving but before making its charge attack, this model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of this model's activation. Models that received this order cannot make combined ranged attacks this activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, the affected model must still make the ranged attack before its activation ends.</capacity>
           <capacity title="FLANK [STEELHEAD HALBERDIER]">When this model makes a melee attack against an enemy model within a melee range of a friendly model of type indicated, this model gains +2 to attacks rolls and gains an additional damage die.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU18" name="Steelhead Riflemen" full_name="Steelhead Riflemen" qualification="Mercenary Unit" fa="3" base_cost="5" full_cost="9" baseCount="6" fullCount="10" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="5" rat="5" def="13" arm="12" cmd="8" cra="true" />
@@ -1604,10 +1604,10 @@
           </weapons>
           <capacity title="MERCENARIES">This model will work for Cryx, Cygnar, Khador, and the Protectorate.</capacity>
           <capacity title="COMBINED ARMS">When this model misses an attack roll for a combined ranged attack, it can reroll that attack roll. Each attack roll can be rerolled only once as a result of Combined Arms.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU10" name="The Commodore Cannon &amp; Crew" full_name="The Commodore Cannon &amp; Crew" qualification="Mercenary Privateer Sea Dog Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="4" fullCount="-" completed="true">
           <basestats name="COMMODORE" spd="0" str="0" mat="0" rat="0" def="5" arm="18" cmd="0" hitpoints="10" construct="true" />
@@ -1622,7 +1622,7 @@
           <capacity title="MERCENARIES">The Commodore Cannon &amp; Crew can be included only in armies that include Captain Phinneus Shae.</capacity>
           <capacity title="FOCAL POINT">This model's unit has no unit commander. Models in this unit within 8" of this model are in formation. If a model in this model's unit is out of formation when beginning its normal movement, it must either advance toward this model and forfeit its action or run directly toward this model. If this model is destroyed or removed from play, remove the remaining models in this unit from play.</capacity>
           <capacity title="HEAVY ARTILLERY">This model is not a warrior model. It does not activate but can advance up to 1" for each crewman B2B with it at the start of its unit's activation. If this model is moved during its unit's activation, Crewmen in the unit cannot make a Fire! special attack that activation. This model is automatically hit by melee attacks. This model cannot be knocked down or made stationary.</capacity>
-          <model id="Grunts" name="Crewmen" full_name="Crewmen">
+          <model id="GRUNTS" name="Crewmen" full_name="Crewmen">
             <basestats name="CREWMEN" spd="6" str="5" mat="5" rat="4" def="13" arm="12" cmd="7" fearless="true" />
             <weapons>
               <ranged_weapon name="Pistol" rng="8" rof="1" aoe="-" pow="10" />
@@ -1646,8 +1646,8 @@
           <capacity title="● FLAME BLAST (★ATTACK)">Flame Blast is a RNG 10, AOE 3, POW 13 magic attack that causes fire damage. On a critical hit, models hit suffer the Fire continuous effect.</capacity>
           <capacity title="● SMOKE BOMBS (★ACTION)">Place a 3" AOE cloud effect in play. Its center point must be within 1" of this model. This AOE remains in play for one round.</capacity>
           <capacity title="● VORTEX OF FLAMES (★ACTION)">This model gains Righteous Flames for one round. (An enemy model that ends its activation within 2" of a model with Righteous Flames suffers the Fire continuous effect.)</capacity>
-          <works_for id="faction_khador" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU21" name="Devil's Shadow Mutineers" full_name="Devil's Shadow Mutineers" qualification="Mercenary Privateer Sea Dog Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="3" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="MAR" spd="6" str="6" mat="7" rat="4" def="14" arm="12" cmd="7" hitpoints="5" fearless="true" officer="true"/>
@@ -1658,7 +1658,7 @@
           <capacity title="MERCENARIES">These models will work for Cryx.</capacity>
           <capacity title="BLOOD BOUND">When this model destroys a living enemy model with an attack, after the attack is resolved you can return one destroyed model in this unit to play. The model returns with five damage boxes, must be placed within 3" of this model, and cannot activate the turn it returns to play. The destroyed model is removed from play but does not provide a soul or corpse token.</capacity>
           <capacity title="SWASHBUCKLER">When this model makes a melee attack during its activation, its front arc extends to 360 degrees, and it can make one melee attack against each model in its LOS that is in its melee range.</capacity>
-          <model full_name="Morland" id="morland">
+          <model full_name="Morland" id="MORLAND">
             <basestats name="MORLAND" spd="6" str="7" mat="7" rat="4" def="14" arm="12" cmd="7" hitpoints="5" fearless="true" />
             <weapons>
               <melee_weapon name="Cutlass" pow="4" p_plus_s="11" magical="true" count="2">
@@ -1668,7 +1668,7 @@
             </weapons>
             <capacity title="BLOOD BOUND">See above.</capacity>
           </model>
-          <model full_name="Zira" id="Zira">
+          <model full_name="Zira" id="ZIRA">
             <basestats name="ZIRA" spd="6" str="6" mat="4" rat="7" def="14" arm="12" cmd="7" hitpoints="5" fearless="true" eyelesssight="true" gunfighter="true" />
             <weapons>
               <ranged_weapon name="Pistol" rng="8" rof="1" aoe="-" pow="10" magical="true" weapon_master="true" count="2">
@@ -1677,12 +1677,12 @@
             </weapons>
             <capacity title="BLOOD BOUND">See above.</capacity>
           </model>
-          <works_for id="faction_cryx" />
+          <works_for id="FACTION_CRYX" />
         </unit>
 
 
 
-        <unit id="IU10_mercs" name="Lynus Wesselbaum &amp; Edrea Lloryrr" full_name="Lynus Wesselbaum &amp; Edrea Lloryrr" qualification="Mercenary Minion Character Unit" fa="C" base_cost="3" full_cost="-" baseCount="3" fullCount="-" completed="true">
+        <unit id="IU10_MERCS" name="Lynus Wesselbaum &amp; Edrea Lloryrr" full_name="Lynus Wesselbaum &amp; Edrea Lloryrr" qualification="Mercenary Minion Character Unit" fa="C" base_cost="3" full_cost="-" baseCount="3" fullCount="-" completed="true">
           <basestats name="Lynus" spd="6" str="5" mat="5" rat="5" def="14" arm="12" cmd="9" hitpoints="5" officer="true"/>
           <weapons>
             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11"></ranged_weapon>
@@ -1706,12 +1706,12 @@
             <capacity title="•  ZEPHYR" type="*Action">Models in this unit that are in formation can immediately advance up to 3". They cannot be targeted by free strikes during this movement.</capacity>
             <capacity title="TRUE SIGHT"> This model ignores concealment, Camouflage, and Stealth.</capacity>
           </model>
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_CYGNAR" />
         </unit>
 
         <!-- below, allies and other special cases... -->
         <!-- cygnar allies & mercs -->
-        <unit id="YU12_mercs" name="Precursor Knights" full_name="Precursor Knights" qualification="Cygnar Morrowan Ally Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="YU12_MERCS" name="Precursor Knights" full_name="Precursor Knights" qualification="Cygnar Morrowan Ally Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="9" />
           <weapons>
             <melee_weapon name="Blessed Mace" pow="6" p_plus_s="12" magical="true">
@@ -1721,8 +1721,8 @@
           <capacity title="ANIMOSITY [THAMARITE OR UNDEAD]">This model cannot be included in an army that includes one or more models of the listed type.</capacity>
           <capacity title="SHIELD WALL (ORDER)">For one round, each affected model gains a +4 ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           <capacity title="SPELL WARD">This model cannot be targeted by spells.</capacity>
-          <unit_attachment id="YA06_mercs" name="Precursor Knight Officer &amp; Standard" full_name="Precursor Knight Officer &amp; Standard" qualification="Cygnar Morrowan Ally Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="Precursor Knight Officer" name="Officer" full_name="Officer" qualification="Cygnar Morrowan Ally Unit Attachment">
+          <unit_attachment id="YA06_MERCS" name="Precursor Knight Officer &amp; Standard" full_name="Precursor Knight Officer &amp; Standard" qualification="Cygnar Morrowan Ally Unit Attachment" fa="1" cost="2" completed="true">
+            <model id="PRECURSOR KNIGHT OFFICER" name="Officer" full_name="Officer" qualification="Cygnar Morrowan Ally Unit Attachment">
               <basestats name="OFFICER" spd="6" str="6" mat="8" rat="4" def="13" arm="14" cmd="9" hitpoints="5" officer="true" />
               <weapons>
                 <melee_weapon name="Blessed Mace" pow="6" p_plus_s="12" magical="true">
@@ -1734,14 +1734,14 @@
               <capacity title="MORROW'S NAME">Once per game during its unit activation, this model can use Morrow's Name. Models in this unit in formation gain an additional die on melee damage rolls this activation.</capacity>
               <capacity title="TACTICS: RANKED ATTACKS">Models in this unit gain Ranked Attacks. (Friendly Faction models can ignore models with Ranked Attacks when determining LOS.)</capacity>
             </model>
-            <model id="Precursor Knight Standard" name="Standard Bearer" full_name="Standard Bearer">
+            <model id="PRECURSOR KNIGHT STANDARD" name="Standard Bearer" full_name="Standard Bearer">
               <basestats name="STANDARD BEARER" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="9" hitpoints="0" standard_bearer="true" />
               <weapons />
               <capacity title="SPELL WARD">See above.</capacity>
             </model>
           </unit_attachment>
         </unit>
-        <unit id="YU01_mercs" name="Arcane Tempest Gun Mage Pistoleers" full_name="Arcane Tempest Gun Mage Pistoleers" qualification="Mercenary Unit" fa="2" base_cost="6" full_cost="-" baseCount="6" fullCount="-" has_unit_attachment="true" completed="true">
+        <unit id="YU01_MERCS" name="Arcane Tempest Gun Mage Pistoleers" full_name="Arcane Tempest Gun Mage Pistoleers" qualification="Mercenary Unit" fa="2" base_cost="6" full_cost="-" baseCount="6" fullCount="-" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="4" mat="5" rat="7" def="15" arm="11" cmd="8" />
           <weapons>
             <ranged_weapon name="Magelock" rng="10" rof="1" aoe="-" pow="10" magical="true" />
@@ -1752,8 +1752,8 @@
           <capacity title="● CRITICAL BRUTAL DAMAGE">On a critical hit, gain an additional die on this weapon's damage roll against the model directly hit.</capacity>
           <capacity title="● SNIPE">This attack gains +4 RNG.</capacity>
           <capacity title="● THUNDERBOLT">Enemy models hit are pushed d3" directly away from the attacking model. On a critical hit, the enemy model is knocked down after being pushed.</capacity>
-          <unit_attachment id="YA01_mercs" name="Arcane Tempest Gun Mage Officer" full_name="Arcane Tempest Gun Mage Officer" qualification="Mercenary Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="Arcane Tempest Gun Mage Officer" name="Officer" full_name="Officer" qualification="Mercenary Unit Attachment">
+          <unit_attachment id="YA01_MERCS" name="Arcane Tempest Gun Mage Officer" full_name="Arcane Tempest Gun Mage Officer" qualification="Mercenary Unit Attachment" fa="1" cost="2" completed="true">
+            <model id="ARCANE TEMPEST GUN MAGE OFFICER" name="Officer" full_name="Officer" qualification="Mercenary Unit Attachment">
               <basestats name="OFFICER" spd="6" str="4" mat="6" rat="8" def="15" arm="11" cmd="9" hitpoints="5" jack_marshal="true" officer="true" />
               <weapons>
                 <ranged_weapon name="Magelock" rng="10" rof="1" aoe="-" pow="10" magical="true" />
@@ -1768,15 +1768,15 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="YU02_mercs" name="Long Gunner Infantry" full_name="Long Gunner Infantry" qualification="Mercenary Unit" fa="2" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="YU02_MERCS" name="Long Gunner Infantry" full_name="Long Gunner Infantry" qualification="Mercenary Unit" fa="2" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="4" mat="4" rat="5" def="13" arm="12" cmd="8" cra="true" />
           <weapons>
             <ranged_weapon name="Repeating Long Rifle" rng="14" rof="2" aoe="-" pow="10" />
             <melee_weapon name="Sword" pow="3" p_plus_s="7" />
           </weapons>
           <capacity title="DUAL SHOT">When this model forfeits its movement to gain the aiming bonus it can make one additional ranged attack this activation.</capacity>
-          <unit_attachment id="YA07_mercs" name="Long Gunner Infantry Officer &amp; Standard" full_name="Long Gunner Infantry Officer &amp; Standard" qualification="Cygnar Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="Long Gunner Infantry Officer" name="Officer" full_name="Officer" qualification="Mercenary Unit Attachment">
+          <unit_attachment id="YA07_MERCS" name="Long Gunner Infantry Officer &amp; Standard" full_name="Long Gunner Infantry Officer &amp; Standard" qualification="Cygnar Unit Attachment" fa="1" cost="2" completed="true">
+            <model id="LONG GUNNER INFANTRY OFFICER" name="Officer" full_name="Officer" qualification="Mercenary Unit Attachment">
               <basestats name="OFFICER" spd="5" str="4" mat="5" rat="6" def="13" arm="12" cmd="9" hitpoints="5" cra="true" officer="true" />
               <weapons>
                 <ranged_weapon name="Repeating Long Gun" rng="14" rof="2" aoe="-" pow="10" magical="true" />
@@ -1786,7 +1786,7 @@
               <capacity title="SUPPRESSING FIRE (ORDER)">This order can be issued only if two or more models with ranged weapons in this unit in formation are able to forfeit their actions. Each model in this unit in formation must forfeit its action. Other than the Standard Bearer, those models that do are participants. Place an AOE completely within 14" of all participants, with its center point in LOS of all participants ignoring intervening models. The size of the AOE is based on the number of participants. If there are 2–4, the AOE is 3". If there are 5–7, the AOE is 4". If there are 8 or more, the AOE is 5". When a model enters or ends its activation within the AOE, it suffers a POW 10 damage roll. Suppressing Fire lasts for one round or until all participants have been destroyed or removed from play.</capacity>
               <capacity title="DUAL SHOT">When this model forfeits its movement to gain the aiming bonus it can make one additional ranged attack this activation.</capacity>
             </model>
-            <model id="Long Gunner Infantry Standard" name="Standard Bearer" full_name="Standard Bearer">
+            <model id="LONG GUNNER INFANTRY STANDARD" name="Standard Bearer" full_name="Standard Bearer">
               <basestats name="STANDARD BEARER" spd="5" str="4" mat="4" rat="5" def="13" arm="12" cmd="8" hitpoints="0" standard_bearer="true" />
               <weapons>
                 <melee_weapon name="Sword" pow="3" p_plus_s="7" />
@@ -1794,7 +1794,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="YU14_mercs" name="Trencher Commandos" full_name="Trencher Commandos" qualification="Cygnar Unit" fa="2" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_weapon_attachment="true" completed="true">
+        <unit id="YU14_MERCS" name="Trencher Commandos" full_name="Trencher Commandos" qualification="Cygnar Unit" fa="2" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_weapon_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="7" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" stealth="true" />
           <weapons>
             <ranged_weapon name="Grenade" rng="6" rof="1" aoe="3" pow="12">
@@ -1804,8 +1804,8 @@
             <melee_weapon name="Trench Knife" pow="3" p_plus_s="9" />
           </weapons>
           <capacity title="ANATOMICAL PRECISION">When this model's melee damage roll fails to exceed the ARM of the living model hit, that model suffers 1 damage point.</capacity>
-          <weapon_attachment id="YA08_mercs" name="Trencher Commandos Scattergunner" full_name="Trencher Commandos Scattergunner" qualification="Cygnar Weapon Attachment" fa="2" cost="1" max_wa="3" completed="true">
-            <model id="Trencher Commandos Scattergunner" name="Trencher Commando Scatter Gunner" full_name="Trencher Commando Scatter Gunner" qualification="Cygnar Weapon Attachment">
+          <weapon_attachment id="YA08_MERCS" name="Trencher Commandos Scattergunner" full_name="Trencher Commandos Scattergunner" qualification="Cygnar Weapon Attachment" fa="2" cost="1" max_wa="3" completed="true">
+            <model id="TRENCHER COMMANDOS SCATTERGUNNER" name="Trencher Commando Scatter Gunner" full_name="Trencher Commando Scatter Gunner" qualification="Cygnar Weapon Attachment">
               <basestats name="SCATTER GUNNER" spd="6" str="6" mat="7" rat="5" def="13" arm="13" cmd="9" hitpoints="0" advance_deployment="true" stealth="true" />
               <weapons>
                 <ranged_weapon name="Scatter Gun" rng="SP8" rof="1" aoe="-" pow="12" />
@@ -1816,7 +1816,7 @@
             </model>
           </weapon_attachment>
         </unit>
-        <unit id="YU08_mercs" name="Sword Knights" full_name="Sword Knights" qualification="Cygnar Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="YU08_MERCS" name="Sword Knights" full_name="Sword Knights" qualification="Cygnar Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" jack_marshal="true" />
           <weapons>
             <melee_weapon name="Battle Blade" pow="4" p_plus_s="10" />
@@ -1824,8 +1824,8 @@
           <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM.</capacity>
           <capacity title="FLANK [FACTION WARJACK]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of type indicated, this model gains +2 to attacks rolls and gains an additional damage die.</capacity>
           <capacity title="PENETRATING STRIKE">After hitting a warjack or warbeast with this model's melee attack, you can choose to have it suffer 1 damage point instead of a normal damage roll.</capacity>
-          <unit_attachment id="YA05_mercs" name="Sword Knight Officer &amp; Standard" full_name="Sword Knight Officer &amp; Standard" qualification="Cygnar Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="Officer" name="Officer" full_name="Officer" qualification="Cygnar Unit Attachment">
+          <unit_attachment id="YA05_MERCS" name="Sword Knight Officer &amp; Standard" full_name="Sword Knight Officer &amp; Standard" qualification="Cygnar Unit Attachment" fa="1" cost="2" completed="true">
+            <model id="OFFICER" name="Officer" full_name="Officer" qualification="Cygnar Unit Attachment">
               <basestats name="OFFICER" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="9" hitpoints="5" officer="true" />
               <weapons>
                 <melee_weapon name="Battle Blade" pow="4" p_plus_s="10" />
@@ -1837,14 +1837,14 @@
               <capacity title="PENETRATING STRIKE">After hitting a warjack or warbeast with this model's melee attack, you can choose to have it suffer 1 damage point instead of a normal damage roll.</capacity>
               <capacity title="TACTICS: PRECISION STRIKE">Models in this unit gain Precision Strike. (When a model with Precision Strike damages a warjack or warbeast with a melee attack, choose which column or branch suffers the damage.)</capacity>
             </model>
-            <model id="Sword Knight Standard" name="Standard Bearer" full_name="Standard Bearer">
+            <model id="SWORD KNIGHT STANDARD" name="Standard Bearer" full_name="Standard Bearer">
               <basestats name="STANDARD BEARER" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" hitpoints="0" standard_bearer="true" />
               <weapons />
               <capacity title="DEFENSIVE LINE">See above.</capacity>
             </model>
           </unit_attachment>
         </unit>
-        <unit id="YU05_mercs" name="Trencher Infantry" full_name="Trencher Infantry" qualification="Cygnar Unit" fa="2" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_unit_attachment="true" has_weapon_attachment="true" completed="true">
+        <unit id="YU05_MERCS" name="Trencher Infantry" full_name="Trencher Infantry" qualification="Cygnar Unit" fa="2" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_unit_attachment="true" has_weapon_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" cra="true" />
           <weapons>
             <melee_weapon name="Bayonet" pow="3" p_plus_s="9" />
@@ -1853,8 +1853,8 @@
           <capacity title="ASSAULT (ORDER)">Affected models must charge or run. As part of a charge, after moving but before making its charge attack, an affected model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of the affected model's activation. Models that received this order cannot make combined ranged attacks this activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, the affected model must still make the ranged attack before its activation ends.</capacity>
           <capacity title="DIG IN (★ACTION)">This model gains cover, does not suffer blast damage, and does not block LOS. This model remains dug in until it moves, is placed, or is engaged. The model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
           <capacity title="SMOKE BOMBS (★ACTION)">Place a 3" AOE cloud effect in play. Its center point must be within 1" of this model. This AOE remains in play for one round.</capacity>
-          <unit_attachment id="YA03_mercs" name="Trencher Infantry Officer &amp; Sniper" full_name="Trencher Infantry Officer &amp; Sniper" qualification="Cygnar Unit Attachment" fa="1" cost="3" completed="true">
-            <model id="Trencher Infantry Officer" name="Officer" full_name="Officer" qualification="Cygnar Unit Attachment">
+          <unit_attachment id="YA03_MERCS" name="Trencher Infantry Officer &amp; Sniper" full_name="Trencher Infantry Officer &amp; Sniper" qualification="Cygnar Unit Attachment" fa="1" cost="3" completed="true">
+            <model id="TRENCHER INFANTRY OFFICER" name="Officer" full_name="Officer" qualification="Cygnar Unit Attachment">
               <basestats name="OFFICER" spd="6" str="6" mat="7" rat="6" def="13" arm="13" cmd="9" hitpoints="5" advance_deployment="true" cra="true" jack_marshal="true" officer="true" />
               <weapons>
                 <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -1864,7 +1864,7 @@
               <capacity title="DIG IN (★ACTION)">This model gains cover, does not suffer blast damage, and does not block LOS. This model remains dug in until it moves, is placed, or is engaged. The model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
               <capacity title="SMOKE BOMBS (★ACTION)">Place a 3" AOE cloud effect in play. Its center point must be within 1" of this model. This AOE remains in play for one round.</capacity>
             </model>
-            <model id="Trencher Infantry Sniper" name="Sniper" full_name="Sniper">
+            <model id="TRENCHER INFANTRY SNIPER" name="Sniper" full_name="Sniper">
               <basestats name="SNIPER" spd="6" str="6" mat="6" rat="7" def="13" arm="13" cmd="9" hitpoints="0" advance_deployment="true" cra="true" />
               <weapons>
                 <ranged_weapon name="Scoped Rifle" rng="14" rof="1" aoe="-" pow="11" />
@@ -1875,8 +1875,8 @@
               <capacity title="SNIPER">When damaging a warjack or warbeast with a ranged attack, choose which column or branch suffers damage. Instead of rolling damage on a ranged attack, this model can inflict 1 damage point. A model that participates in a combined ranged attack loses Sniper until the attack is resolved.</capacity>
             </model>
           </unit_attachment>
-          <weapon_attachment id="YA04_mercs" name="Trencher Infantry Grenadier" full_name="Trencher Infantry Grenadier" qualification="Cygnar Weapon Attachment" fa="2" cost="1" max_wa="3" completed="true">
-            <model id="Trencher Infantry Grenadier" name="Trencher Infantry Rifle Grenadier" qualification="Cygnar Weapon Attachment">
+          <weapon_attachment id="YA04_MERCS" name="Trencher Infantry Grenadier" full_name="Trencher Infantry Grenadier" qualification="Cygnar Weapon Attachment" fa="2" cost="1" max_wa="3" completed="true">
+            <model id="TRENCHER INFANTRY GRENADIER" name="Trencher Infantry Rifle Grenadier" qualification="Cygnar Weapon Attachment">
               <basestats name="GRENADIER" spd="6" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" hitpoints="0" advance_deployment="true" cra="true" />
               <weapons>
                 <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11">
@@ -1890,7 +1890,7 @@
             </model>
           </weapon_attachment>
         </unit>
-        <unit id="YU06_mercs" name="Trencher Chain Gun Crew" full_name="Trencher Chain Gun Crew" qualification="Cygnar Weapon Crew Unit" fa="2" base_cost="2" full_cost="-" baseCount="2" fullCount="-" completed="true">
+        <unit id="YU06_MERCS" name="Trencher Chain Gun Crew" full_name="Trencher Chain Gun Crew" qualification="Cygnar Weapon Crew Unit" fa="2" base_cost="2" full_cost="-" baseCount="2" fullCount="-" completed="true">
           <basestats name="Leader" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
           <weapons>
             <ranged_weapon name="Chain Gun" rng="10" rof="1" aoe="-" pow="10">
@@ -1902,7 +1902,7 @@
             <melee_weapon name="Trench Knife" pow="3" p_plus_s="9" />
           </weapons>
           <capacity title="DIG IN (★ACTION)">This model gains cover, does not suffer blast damage, and does not block LOS. This model remains dug in until it moves, is placed, or is engaged. The model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
-          <model id="grunts" name="Grunt" full_name="Grunt">
+          <model id="GRUNTS" name="Grunt" full_name="Grunt">
             <basestats name="GRUNTS" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
             <weapons>
               <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -1912,7 +1912,7 @@
             <capacity title="DIG IN (★ACTION)">See above.</capacity>
           </model>
         </unit>
-        <unit id="YU07_mercs" name="Trencher Cannon Crew" full_name="Trencher Cannon Crew" qualification="Cygnar Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" baseCount="2" fullCount="-" completed="true">
+        <unit id="YU07_MERCS" name="Trencher Cannon Crew" full_name="Trencher Cannon Crew" qualification="Cygnar Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" baseCount="2" fullCount="-" completed="true">
           <basestats name="Leader" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
           <weapons>
             <melee_weapon name="Trench Knife" pow="3" p_plus_s="9" />
@@ -1922,7 +1922,7 @@
             </ranged_weapon>
           </weapons>
           <capacity title="DIG IN (★ACTION)">This model gains cover, does not suffer blast damage, and does not block LOS. This model remains dug in until it moves, is placed, or is engaged. The model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
-          <model id="grunts" name="Grunts" full_name="Grunts">
+          <model id="GRUNTS" name="Grunts" full_name="Grunts">
             <basestats name="GRUNTS" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
             <weapons>
               <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -1931,7 +1931,7 @@
             <capacity title="DIG IN (★ACTION)">See above.</capacity>
           </model>
         </unit>
-        <unit id="YU13_mercs" name="Rangers" full_name="Rangers" qualification="Cygnar Unit" fa="2" base_cost="5" full_cost="-" baseCount="6" fullCount="-" completed="true">
+        <unit id="YU13_MERCS" name="Rangers" full_name="Rangers" qualification="Cygnar Unit" fa="2" base_cost="5" full_cost="-" baseCount="6" fullCount="-" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="7" str="5" mat="6" rat="6" def="14" arm="11" cmd="8" advance_deployment="true" pathfinder="true" />
           <weapons>
             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -1941,7 +1941,7 @@
           <capacity title="MARK TARGET">Other friendly Faction models gain +2 to ranged attack rolls against enemy models within 5" of this model and in its LOS.</capacity>
           <capacity title="PROWL">This model gains Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.</capacity>
         </unit>
-        <unit id="CU13_mercs" name="Cephalyx Mind Slaver &amp; Drudges" full_name="Cephalyx Mind Slaver &amp; Drudges" qualification="Cryx Ally Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU13_MERCS" name="Cephalyx Mind Slaver &amp; Drudges" full_name="Cephalyx Mind Slaver &amp; Drudges" qualification="Cryx Ally Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="MIND SLAVER" spd="5" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" hitpoints="5" fearless="true" officer="true" pathfinder="true" />
           <weapons>
             <melee_weapon name="Prosthetic Blades" pow="5" p_plus_s="11" />
@@ -1951,14 +1951,14 @@
           <capacity title="GRANTED: COMBINED MELEE ATTACK">While this model is in play, models in its unit gain Combined Melee Attack.</capacity>
           <capacity title="REANIMATION">When this model boxes a living enemy warrior model with a melee attack, add one Grunt to this unit and then remove the boxed model from play. The Grunt must be placed in formation and within 3" of this model. The Grunt cannot activate this turn.</capacity>
           <capacity title="SACRIFICIAL PAWN [DRUDGE GRUNT]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Drudge Grunt model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects. </capacity>
-          <model id="grunts" name="Drudge Grunts" full_name="Drudge Grunts">
+          <model id="GRUNTS" name="Drudge Grunts" full_name="Drudge Grunts">
             <basestats name="DRUDGE GRUNTS" spd="5" str="8" mat="5" rat="2" def="11" arm="15" cmd="4" fearless="true" eyelesssight="true" tough="true" />
             <weapons>
               <melee_weapon name="Drudge Weapons" pow="5" p_plus_s="13" />
             </weapons>
           </model>
         </unit>
-        <unit id="CU14_mercs" name="Cephalyx Overlords" full_name="Cephalyx Overlords" qualification="Cryx Ally Unit" fa="1" base_cost="4" full_cost="-" baseCount="3" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU14_MERCS" name="Cephalyx Overlords" full_name="Cephalyx Overlords" qualification="Cryx Ally Unit" fa="1" base_cost="4" full_cost="-" baseCount="3" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" hitpoints="5" fearless="true" pathfinder="true" />
           <weapons>
             <melee_weapon name="Prosthetic Blades" pow="5" p_plus_s="11" />
@@ -1971,7 +1971,7 @@
           <capacity title="● PSYCHIC ASSAULT (★ATTACK)">Psychic Assault is a RNG SP 8 magic attack. This attack ignores LOS. Models hit suffer a POW 12 damage roll.</capacity>
           <capacity title="SACRIFICIAL PAWN [DRUDGE GRUNT]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Drudge Grunt model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects. </capacity>
         </unit>
-        <unit id="CU15_mercs" name="Cephalyx Mind Bender &amp; Drudges" full_name="Cephalyx Mind Bender &amp; Drudges" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Mercenary Unit" fa="2" completed="true">
+        <unit id="CU15_MERCS" name="Cephalyx Mind Bender &amp; Drudges" full_name="Cephalyx Mind Bender &amp; Drudges" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Mercenary Unit" fa="2" completed="true">
           <basestats name="MIND BENDER" spd="5" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" hitpoints="5" fearless="true" officer="true" pathfinder="true"/>
           <weapons>
             <melee_weapon name="Prosthetic Manipulators" pow="2" p_plus_s="8" />
@@ -1982,14 +1982,14 @@
           <capacity title="● PSYCHIC ASSAULT (★ATTACK)">Psychic Assault is a RNG SP 8 magic attack. This attack ignores LOS. Models hit suffer a POW 12 damage roll.</capacity>
           <capacity title="PSYCHIC PROJECTION">This model can channel spells through grunts in this unit that are in formation. When it does, you can choose up to two more of those grunts and cast the spell once through each, even if the channeler is engaged. Grunts in this unit that channel a spell this way are then removed from play.</capacity>
           <capacity title="SACRIFICIAL PAWN [DRUDGE GRUNT]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Drudge Grunt model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
-          <model id="Drudges">
-            <basestats name="DRUDGE GRUNT" spd="5" str="8" mat="5" rat="2" def="11" arm="15" cmd="4" eyelesssight="true" fearless="true" tough="true"/>
+          <model id="GRUNTS" name="Drudge Grunts">
+            <basestats name="Drudge Grunts" spd="5" str="8" mat="5" rat="2" def="11" arm="15" cmd="4" eyelesssight="true" fearless="true" tough="true"/>
             <weapons>
               <melee_weapon name="Battering Fists" pow="4" p_plus_s="12" />
             </weapons>
           </model>
         </unit>
-        <unit id="KU15_mercs" name="Kayazy Assassins" full_name="Kayazy Assassins" qualification="Khador Ally Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="KU15_MERCS" name="Kayazy Assassins" full_name="Kayazy Assassins" qualification="Khador Ally Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="7" rat="4" def="14" arm="11" cmd="8" stealth="true" />
           <weapons>
             <melee_weapon name="Assassin Blade" pow="4" p_plus_s="10" />
@@ -1997,8 +1997,8 @@
           <capacity title="BACKSTAB">This model gains an additional die on its backstrike damage rolls.</capacity>
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
           <capacity title="PARRY">This model cannot be targeted by free strikes.</capacity>
-          <unit_attachment id="KA04_mercs" name="Kayazy Assassin Underboss" full_name="Kayazy Assassin Underboss" qualification="Khador Ally Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="KA04_mercs" name="Kayazy Assassin Underboss" full_name="Kayazy Assassin Underboss" qualification="Khador Ally Unit Attachment">
+          <unit_attachment id="KA04_MERCS" name="Kayazy Assassin Underboss" full_name="Kayazy Assassin Underboss" qualification="Khador Ally Unit Attachment" fa="1" cost="2" completed="true">
+            <model id="KA04_MERCS" name="Kayazy Assassin Underboss" full_name="Kayazy Assassin Underboss" qualification="Khador Ally Unit Attachment">
               <basestats name="UNDERBOSS" spd="6" str="6" mat="8" rat="4" def="14" arm="11" cmd="9" hitpoints="5" officer="true" stealth="true" tough="true" />
               <weapons>
                 <melee_weapon name="Assassin Blade " pow="4" count="2" p_plus_s="10" />
@@ -2013,7 +2013,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="KU18_mercs" name="Kayazy Eliminators" full_name="Kayazy Eliminators" qualification="Khador Ally Unit" fa="2" base_cost="3" full_cost="-" baseCount="2" fullCount="-" completed="true">
+        <unit id="KU18_MERCS" name="Kayazy Eliminators" full_name="Kayazy Eliminators" qualification="Khador Ally Unit" fa="2" base_cost="3" full_cost="-" baseCount="2" fullCount="-" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="7" str="5" mat="7" rat="4" def="15" arm="11" cmd="9" hitpoints="5" stealth="true" />
           <weapons>
             <melee_weapon name="Assassin Blade " pow="4" count="2" p_plus_s="9">
@@ -2025,15 +2025,15 @@
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
           <capacity title="SIDE STEP">When this model hits an enemy model with an initial attack or a special attack, it can advance 2" after the attack is resolved. This model cannot be targeted by free strikes during this movement.</capacity>
         </unit>
-        <unit id="PU13_mercs" name="Idrian Skirmishers" full_name="Idrian Skirmishers" qualification="Protectorate Idrian Ally Unit" fa="2" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="PU13_MERCS" name="Idrian Skirmishers" full_name="Idrian Skirmishers" qualification="Protectorate Idrian Ally Unit" fa="2" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="6" rat="5" def="13" arm="12" cmd="8" advance_deployment="true" cra="true" pathfinder="true" />
           <weapons>
             <melee_weapon name="Kopis" pow="4" p_plus_s="10" />
             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
           </weapons>
           <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefitting from concealment or cover.</capacity>
-          <unit_attachment id="PA03_mercs" name="Idrian Skirmishers Chieftain &amp; Guide" full_name="Idrian Skirmishers Chieftain &amp; Guide" qualification="Protectorate Ally Unit Attachment" fa="1" cost="3" completed="true">
-            <model id="Idrian Skirmisher Chieftain" name="Chieftain" full_name="Chieftain" qualification="Protectorate Ally Unit Attachment">
+          <unit_attachment id="PA03_MERCS" name="Idrian Skirmishers Chieftain &amp; Guide" full_name="Idrian Skirmishers Chieftain &amp; Guide" qualification="Protectorate Ally Unit Attachment" fa="1" cost="3" completed="true">
+            <model id="IDRIAN SKIRMISHER CHIEFTAIN" name="Chieftain" full_name="Chieftain" qualification="Protectorate Ally Unit Attachment">
               <basestats name="CHIEFTAIN" spd="6" str="6" mat="7" rat="6" def="13" arm="12" cmd="9" hitpoints="5" advance_deployment="true" cra="true" officer="true" pathfinder="true" />
               <weapons>
                 <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -2043,7 +2043,7 @@
               <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefitting from concealment or cover.</capacity>
               <capacity title="TACTICS: COMBINED MELEE ATTACK">Models in this unit gain Combined Melee Attack.</capacity>
             </model>
-            <model id="Idrian Skirmisher Guide" name="Guide" full_name="Guide">
+            <model id="IDRIAN SKIRMISHER GUIDE" name="Guide" full_name="Guide">
               <basestats name="GUIDE" spd="6" str="6" mat="6" rat="5" def="13" arm="12" cmd="8" hitpoints="5" advance_deployment="true" cra="true" pathfinder="true" />
               <weapons>
                 <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -2073,10 +2073,10 @@
           <capacity title="● GRAVE SUMMONS (★ACTION)">When this model uses Grave Summons it can spend any number of soul tokens. For each soul token spent put one friendly Thrall Warrior solo into play anywhere completely within 3" of this model.</capacity>
           <capacity title="● HELLFIRE (★ATTACK)">Hellfire is a RNG 10, POW 14 magic attack. A model/unit hit by Hellfire must pass a command check or flee.</capacity>
           <capacity title="SOUL COLLECTOR">This model gains one soul token when a living enemy model is destroyed in its command range. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
         </solo>
-        <solo id="IS01_mercs" name="Alten Ashley" full_name="Alten Ashley" qualification="Mercenary Minion Character Solo" fa="C" cost="2" completed="true">
+        <solo id="IS01_MERCS" name="Alten Ashley" full_name="Alten Ashley" qualification="Mercenary Minion Character Solo" fa="C" cost="2" completed="true">
           <basestats name="ALTEN ASHLEY" spd="6" str="6" mat="6" rat="8" def="14" arm="14" cmd="9" hitpoints="5" advance_deployment="true" pathfinder="true" />
           <weapons>
             <ranged_weapon name="Bucking Jenny" rng="14" rof="1" aoe="-" pow="12" />
@@ -2087,9 +2087,9 @@
           <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
           <capacity title="MONSTER HUNTER">When this model hits a warbeast with an attack, the warbeast suffers d6 points of damage to a branch of your choice.</capacity>
           <capacity title="SWIFT HUNTER">When this model destroys an enemy model with a normal ranged attack, immediately after the attack is resolved it can advance up to 2".</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CYGNAR" />
         </solo>
         <solo id="MS14" name="Anastasia di Bray" full_name="Anastasia di Bray" qualification="Mercenary Character Solo" fa="C" cost="2" completed="true">
           <basestats name="ANASTASIA DI BRAY" spd="7" str="5" mat="6" rat="6" def="16" arm="12" cmd="8" hitpoints="5" pathfinder="true" stealth="true" />
@@ -2104,8 +2104,8 @@
           <capacity title="ESPIONAGE (★ACTION)">RNG 5. Target enemy warcaster or warlock. If the enemy warcaster or warlock is in range, friendly models/units in this model's command range can immediately make a full advance and a normal attack.</capacity>
           <capacity title="INTELLIGENCE">You gain +1 to the starting roll determining the order of deployment and play.</capacity>
           <capacity title="PARRY">This model cannot be targeted by free strikes.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_CYGNAR" />
         </solo>
         <solo id="MS07" name="Bloody Bradigan" full_name="Bloody Bradigan" qualification="Mercenary Privateer Sea Dog Character Solo" fa="C" cost="2" completed="true">
           <basestats name="BLOODY BRADIGAN" spd="6" str="8" mat="7" rat="3" def="13" arm="14" cmd="4" hitpoints="5" fearless="true" tough="true" />
@@ -2118,10 +2118,10 @@
           <capacity title="BERSERK">When this model destroys one or more models with a melee attack during its combat action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range.</capacity>
           <capacity title="GANG FIGHTER">When making a melee attack targeting an enemy model in melee range of another friendly Faction warrior model, this model gains +2 to melee attack and melee damage rolls.</capacity>
           <capacity title="STUMBLING DRUNK">This model cannot be knocked down. If it is hit by an enemy attack anytime except while it is advancing, after the attack is resolved it is pushed d3" in a direction determined by the deviation template, then you can choose its facing.  </capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
         </solo>
         <solo id="MS08" name="Bosun Grogspar" full_name="Bosun Grogspar" qualification="Mercenary Privateer Trollkin Character Solo" fa="C" cost="2" completed="true">
           <basestats name="BOSUN GROSPAR" spd="5" str="8" mat="6" rat="5" def="13" arm="15" cmd="8" hitpoints="8" commander="true" tough="true" />
@@ -2133,12 +2133,12 @@
           </weapons>
           <capacity title="MERCENARY">This model will work for Cryx, Cygnar, Khador, and the Protectorate.</capacity>
           <capacity title="NO SLEEPING ON THE JOB [PRIVATEER]">This model and friendly Privateer models in its command range cannot be knocked down.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
         </solo>
-        <solo id="IW01_mercs" name="Brun Cragback " full_name="Brun Cragback &amp; Lug" qualification="Rhulic Mercenary Minion Character Solo" fa="C" cost="9" companionId="Lug_mercs" completed="true">
+        <solo id="IW01_MERCS" name="Brun Cragback " full_name="Brun Cragback &amp; Lug" qualification="Rhulic Mercenary Minion Character Solo" fa="C" cost="9" companionId="LUG_MERCS" completed="true">
           <basestats name="BRUN CRAGBACK" spd="5" str="6" mat="7" rat="5" def="13" arm="15" cmd="9" focus="3" hitpoints="8" fearless="true" immunity_frost="true" lesser_warlock="true" pathfinder="true" />
           <weapons>
             <ranged_weapon name="Blunderbuss" rng="8" rof="1" aoe="-" pow="12" />
@@ -2152,8 +2152,8 @@
           <capacity title="FLANK [LUG]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
           <capacity title="LESSER WARLOCK">This model is not a warlock but has the following warlock special rules: Battlegroup Commander, Control Area, Damage Transference, Forcing, Fury Manipulation, Healing, and Spellcaster.</capacity>
         </solo>
-        <solo id="IW02_mercs" name="Dahlia Hallyr " full_name="Dahlia Hallyr &amp; Skarath" qualification="Mercenary Minion Character Solo" fa="C" cost="9" companionId="Skarath_mercs" completed="true">
-          <basestats name="DAHLIA HALLYR" spd="6" str="4" mat="5" rat="4" def="16" arm="12" cmd="8" focus="4" hitpoints="8" fearless="true" lesser_warlock="true" />
+        <solo id="IW02_MERCS" name="Dahlia Hallyr " full_name="Dahlia Hallyr &amp; Skarath" qualification="Mercenary Minion Character Solo" fa="C" cost="9" companionId="SKARATH_MERCS" completed="true">
+          <basestats name="Dahlia Hallyr" spd="6" str="4" mat="5" rat="4" def="16" arm="12" cmd="8" focus="4" hitpoints="8" fearless="true" lesser_warlock="true" />
           <weapons />
           <spell name="HAUNTING MELODY" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">While in this model's control area, living enemy models cannot give or receive orders and cannot make melee or ranged attacks targeting this model.</spell>
           <spell name="MISTWALKER" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target model in this model's battlegroup gains Pathfinder and Prowl for one round. (Models with Prowl gain Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.)</spell>
@@ -2162,7 +2162,7 @@
           <capacity title="CHARMER">When a friendly warbeast frenzies in this model's control area, the warbeast can forfeit its activation.</capacity>
           <capacity title="LESSER WARLOCK">This model is not a warlock but has the following warlock special rules: Battlegroup Commander, Control Area, Damage Transference, Forcing, Fury Manipulation, Healing, and Spellcaster.</capacity>
           <capacity title="LIMITED BATTLEGROUP">The only warbeast that can be in this model's battlegroup is Skarath.</capacity>
-          <works_for id="faction_retribution" />
+          <works_for id="FACTION_RETRIBUTION" />
         </solo>
         <solo id="MS09" name="Dirty Meg" full_name="Dirty Meg" qualification="Mercenary Privateer Character Solo" fa="C" cost="2" completed="true">
           <basestats name="DIRTY MEG" spd="5" str="6" mat="6" rat="5" def="13" arm="13" cmd="8" hitpoints="5" jack_marshal="true" tough="true" />
@@ -2175,9 +2175,9 @@
           <capacity title="MERCENARY">This model will work for Cygnar, Khador, and the Protectorate.</capacity>
           <capacity title="DRIVE: OFF ROAD">This model can attempt to drive each warjack under its control in its command range. To drive a warjack, this model must make a command check at any time during its activation. If it passes, the warjack gains Pathfinder and must charge or power attack slam without spending focus during its activation this turn. If it fails, the warjack does not benefit from 'Jack Marshal this turn.</capacity>
           <capacity title="REPAIR [8] (★ACTION)">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CYGNAR" />
         </solo>
         <solo id="MS10" name="Doc Killingsworth" full_name="Doc Killingsworth" qualification="Mercenary Privateer Character Solo" fa="C" cost="2" completed="true">
           <basestats name="DOC KILLINGSWORTH" spd="5" str="7" mat="6" rat="5" def="12" arm="13" cmd="7" hitpoints="5" tough="true" />
@@ -2192,12 +2192,12 @@
           <capacity title="ANATOMICAL PRECISION">When this model's melee damage roll fails to exceed the ARM of the living model hit, that model suffers 1 damage point.</capacity>
           <capacity title="NO, I'M FINE">When another friendly Privateer model makes a Tough roll of 4, 5 or 6 while in this model's command range, that models heals 1 damage point and is knocked down.</capacity>
           <capacity title="SURGERY (★ACTION)">Choose a friendly Faction warrior model B2B with this model. That model heals d6 damage points.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
         </solo>
-        <solo id="MS01e" name="Eiryss, Angel of Retribution" full_name="Eiryss, Angel of Retribution" qualification="Mercenary Epic Mage Hunter Character Solo" fa="C" cost="3" completed="true">
+        <solo id="MS01E" name="Eiryss, Angel of Retribution" full_name="Eiryss, Angel of Retribution" qualification="Mercenary Epic Mage Hunter Character Solo" fa="C" cost="3" completed="true">
           <basestats name="EIRYSS" spd="7" str="4" mat="6" rat="9" def="16" arm="12" cmd="9" hitpoints="5" advance_deployment="true" fearless="true" pathfinder="true" stealth="true" />
           <weapons>
             <ranged_weapon name="Crossbow" rng="12" rof="1" aoe="-" pow="10" />
@@ -2211,10 +2211,10 @@
           <capacity title="SNIPER">When damaging a warjack or warbeast with a ranged attack, choose which column or branch suffers damage. Instead of rolling damage on a ranged attack, the model can inflict 1 damage point. A model that participates in a combined ranged attack loses Sniper until the attack is resolved.</capacity>
           <capacity title="TECHNOLOGICAL INTERFERENCE">While within 5" of this model, non-myrmidon warjacks cannot channel spells or be allocated focus.</capacity>
           <capacity title="WHIPLASH">When an enemy model misses this model with a magic attack, the attacking model becomes the target and is automatically hit by the attack. AOE magic attacks that miss are centered on the attacking model. This model is the point of origin for all these attacks.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_retribution" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_RETRIBUTION" />
         </solo>
         <solo id="MS01" name="Eiryss, Mage Hunter of Ios" full_name="Eiryss, Mage Hunter of Ios" qualification="Mercenary Character Solo" fa="C" cost="3" completed="true">
           <basestats name="EIRYSS" spd="7" str="4" mat="6" rat="9" def="16" arm="12" cmd="9" hitpoints="5" advance_deployment="true" fearless="true" pathfinder="true" stealth="true" />
@@ -2231,10 +2231,10 @@
           <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
           <capacity title="TECHNOLOGICAL INTOLERANCE">When this model ends its normal movement within 5" of a friendly non-myrmidon warjack, its activation ends immediately.</capacity>
           <capacity title="RETRIBUTION PARTISAN">When included in a Retribution army, this model is a Retribution model instead of a Mercenary model.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_retribution" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_RETRIBUTION" />
         </solo>
         <solo id="MS11" name="First Mate Hawk" full_name="First Mate Hawk" qualification="Mercenary Privateer Character Solo" fa="C" cost="2" completed="true">
           <basestats name="HAWK" spd="7" str="5" mat="7" rat="5" def="15" arm="13" cmd="9" hitpoints="5" commander="true" tough="true" />
@@ -2246,12 +2246,12 @@
           <capacity title="INSPIRATION [SEA DOGS]">Friendly Sea Dogs models/units in this model’s command range never flee and immediately rally.</capacity>
           <capacity title="OBJECT OF DESIRE">While in this model's command range, friendly Sea Dog models gain an additional damage die on Hand Weapon attacks against warrior models.</capacity>
           <capacity title="SUCKER!">If this model is directly hit by an enemy ranged attack, choose a friendly living non-incorporeal warrior model within 2" of it to be directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
         </solo>
-        <solo id="IS12_mercs" name="Gobber Tinker" full_name="Gobber Tinker" qualification="Mercenary Minion Solo" fa="2" cost="1" completed="true">
+        <solo id="IS12_MERCS" name="Gobber Tinker" full_name="Gobber Tinker" qualification="Mercenary Minion Solo" fa="2" cost="1" completed="true">
           <basestats name="GOBBER TINKER" spd="6" str="4" mat="4" rat="4" def="14" arm="12" cmd="7" hitpoints="5" />
           <weapons>
             <ranged_weapon name="Pistol" rng="8" rof="1" aoe="-" pow="10" />
@@ -2261,8 +2261,8 @@
           <capacity title="REPAIR [8] (★ACTION)">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
           <capacity title="POINT BLANK">During its activation, this model can make melee attacks with its ranged weapon, with a 1/2" melee range. Do not add this model's STR to damage rolls made with ranged weapons. Charge attacks made with ranged weapons are not boosted.</capacity>
           <capacity title="MECHANIKALLY ADEPT">This model can attempt to repair friendly non-Faction warjacks and battle engines.</capacity>
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
         </solo>
         <solo id="MS03" name="Gorman di Wulfe, Rogue Alchemist" full_name="Gorman di Wulfe, Rogue Alchemist" qualification="Mercenary Character Solo" fa="C" cost="2" completed="true">
           <basestats name="GORMAN" spd="6" str="4" mat="5" rat="5" def="14" arm="12" cmd="8" hitpoints="5" immunity_corrosion="true" immunity_fire="true" stealth="true" />
@@ -2277,12 +2277,12 @@
           <capacity title="● BLACK OIL">This attack causes no damage. Instead, models in the AOE are hit and suffer Blind for one round. (A Blind model cannot make ranged or magic attacks, suffers –4 MAT and DEF, cannot run or charge, and must forfeit either its movement or action during its next activation.)</capacity>
           <capacity title="● RUST">This attack causes no damage. Instead, warjacks in the AOE are hit and suffer –2 ARM for one turn. </capacity>
           <capacity title="SMOKE BOMBS (★ACTION)">Place a 3" AOE cloud effect in play. Its center point must be within 1" of this model. This AOE remains in play for one round.</capacity>
-          <works_for id="faction_menoth" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
         </solo>
-        <solo id="IS03_mercs" name="Gudrun the Wanderer" full_name="Gudrun the Wanderer" qualification="Mercenary Minion Ogrun Character Solo" fa="C" cost="3" completed="true">
+        <solo id="IS03_MERCS" name="Gudrun the Wanderer" full_name="Gudrun the Wanderer" qualification="Mercenary Minion Ogrun Character Solo" fa="C" cost="3" completed="true">
           <basestats name="GUDRUN" spd="6" str="9" mat="7" rat="4" def="13" arm="15" cmd="9" hitpoints="8" advance_deployment="true" fearless="true" pathfinder="true" />
           <weapons>
             <melee_weapon name="Battle Glaive" pow="6" p_plus_s="15" reach="true" />
@@ -2293,9 +2293,9 @@
           <capacity title="BINGE DRINKING">Once per game during its activation, this model can use Binge Drinking. This model is knocked down.</capacity>
           <capacity title="FEIGN DEATH">This model cannot be targeted by ranged or magic attacks while knocked down.</capacity>
           <capacity title="HANGOVER">The first time this model is disabled by an enemy attack, it heals all damage and is knocked down.</capacity>
-          <works_for id="faction_khador" />
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
         </solo>
         <solo id="MS18" name="Harlan Versh, Illuminated One" full_name="Harlan Versh, Illuminated One" qualification="Mercenary Morrowan Character Solo" fa="C" cost="2" completed="true">
           <basestats name="VERSH" spd="6" str="6" mat="7" rat="6" def="14" arm="13" cmd="10" hitpoints="5" fearless="true" stealth="true" />
@@ -2314,8 +2314,8 @@
           <capacity title="ANIMOSITY [THAMARITE AND UNDEAD]">This model cannot be included in an army that includes one or more models of the listed type.</capacity>
           <capacity title="SACRED WARD">This model cannot be targeted by enemy spells.</capacity>
           <capacity title="WITCH HUNTER">After an enemy model casts a spell within 10" of this model, this model can immediately make a normal ranged attack targeting that model.</capacity>
-          <works_for id="faction_khador" />
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_CYGNAR" />
         </solo>
         <solo id="MS06" name="Kell Bailoch" full_name="Kell Bailoch" qualification="Mercenary Character Solo" fa="C" cost="2" completed="true">
           <basestats name="KELL" spd="6" str="5" mat="5" rat="8" def="14" arm="12" cmd="8" hitpoints="5" advance_deployment="true" />
@@ -2327,10 +2327,10 @@
           <capacity title="DUAL SHOT">When this model forfeits its movement to gain the aiming bonus it can also make one additional ranged attack this activation.</capacity>
           <capacity title="PROWL">This model gains Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.</capacity>
           <capacity title="SNIPER">When damaging a warjack or warbeast with a ranged attack, choose which column or branch suffers damage. Instead of rolling damage on a ranged attack, the model can inflict 1 damage point. A model that participates in a combined ranged attack loses Sniper until the attack is resolved.</capacity>
-          <works_for id="faction_khador" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_MENOTH" />
         </solo>
-        <solo id="IS04_mercs" name="Lanyssa Ryssyll, Nyss Sorceress" full_name="Lanyssa Ryssyll, Nyss Sorceress" qualification="Mercenary Minion Character Solo" fa="C" cost="2" completed="true">
+        <solo id="IS04_MERCS" name="Lanyssa Ryssyll, Nyss Sorceress" full_name="Lanyssa Ryssyll, Nyss Sorceress" qualification="Mercenary Minion Character Solo" fa="C" cost="2" completed="true">
           <basestats name="LANYSSA RYSSYL" spd="6" str="5" mat="6" rat="4" def="15" arm="11" cmd="9" hitpoints="5" pathfinder="true" />
           <weapons>
             <melee_weapon name="Sorrow" pow="6" p_plus_s="11" magical="true">
@@ -2346,8 +2346,8 @@
           <capacity title="● WINTER STORM (★ACTION)">Enemy models that begin their activation in this model’s command range lose Eyeless Sight, Flight, and Pathfinder during their activations. Winter Storm lasts for one round.</capacity>
           <capacity title="PROWL">This model gains Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.</capacity>
           <capacity title="VENDETTA [LEGION OR BLIGHTED]">This model gains boosted attack and damage rolls against Legion or Blighted models.</capacity>
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_retribution" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_RETRIBUTION" />
         </solo>
         <solo id="MS12" name="Lord Rockbottom" full_name="Lord Rockbottom" qualification="Mercenary Privateer Rhulic Character Solo" fa="C" cost="2" completed="true">
           <basestats name="LORD ROCKBOTTOM" spd="4" str="6" mat="6" rat="6" def="12" arm="14" cmd="6" hitpoints="5" tough="true" />
@@ -2362,10 +2362,10 @@
           <capacity title="● MONEY SHOT">Affected models gain +2 to ranged attack and damage rolls for one turn.</capacity>
           <capacity title="● PAYDAY">Affected models' melee attack rolls are boosted. When an affected model destroys an enemy model with a normal melee attack, immediately after the attack is resolved the affected model can advance up to 1". Payday lasts for one turn.</capacity>
           <capacity title="● WALK IT OFF">Affected models gain Tough for one round.</capacity>
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_MENOTH" />
         </solo>
         <solo id="MS21" name="Madelyn Corbeau, Ordic Courtesan" full_name="Madelyn Corbeau, Ordic Courtesan" qualification="Mercenary Character Solo" fa="C" cost="2" completed="true">
           <basestats name="MADELYN" spd="6" str="4" mat="4" rat="4" def="14" arm="12" cmd="9" hitpoints="5" />
@@ -2375,11 +2375,11 @@
           <capacity title="INTRIGUE">If one or more enemy models are in this model's command range during your Maintenance Phase, one friendly warrior model in this model's command range can advance up to 3".</capacity>
           <capacity title="SEDUCTION (★ACTION)">Take control of a living enemy non-warcaster, non-warlock warrior model B2B with this model. You can immediately make a full advance with the enemy model followed by a normal melee attack, then Seduction expires. The enemy model cannot be targeted by free strikes during this movement.</capacity>
           <capacity title="SUCKER!">If this model is directly hit by an enemy ranged attack, choose a friendly living non-incorporeal warrior model within 2" of it to be directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_menoth" />
-          <works_for id="faction_retribution" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_MENOTH" />
+          <works_for id="FACTION_RETRIBUTION" />
         </solo>
         <solo id="MS13" name="Master Gunner Dougal MacNaile" full_name="Master Gunner Dougal MacNaile" qualification="Mercenary Privateer Character Solo" fa="C" cost="2" completed="true">
           <basestats name="DOUGAL MACNAILE" spd="5" str="5" mat="6" rat="7" def="14" arm="13" cmd="8" hitpoints="5" commander="true" tough="true" />
@@ -2397,10 +2397,10 @@
           <capacity title="DOUBLE POWDER RATION">Once per game during its activation, this model can use Double Powder Ration. Ranged attacks made by friendly Faction models while in this model's command range gain +2 RNG. Double Powder Ration lasts for one turn.</capacity>
           <capacity title="FIELD OFFICER [SEA DOG DECK GUN CREW]">If this model is included in an army, you can include one additional Sea Dog Deck Gun Crew unit over that unit's FA.</capacity>
           <capacity title="HIT THE DECK!">This model cannot be hit by AOE attacks. If it would be hit by an AOE attack, it is instead knocked down. While this model is knocked down, ranged attacks targeting it automatically miss.</capacity>
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_MENOTH" />
         </solo>
         <solo id="MS05" name="Ogrun Bokur" full_name="Ogrun Bokur" qualification="Mercenary Rhulic Solo" fa="2" cost="3" completed="true">
           <basestats name="BOKUR" spd="5" str="9" mat="6" rat="3" def="13" arm="17" cmd="8" hitpoints="8" />
@@ -2414,9 +2414,9 @@
           <capacity title="CLIENT">Before the start of the game, choose one friendly warcaster, solo, or unit commander to be the Bokur's client. This model cannot be the client of another Bokur or have the same client as another Bokur. If its client leaves play, the Bokur loses all client benefits even if that client is replaced by another model. While within 6" of its client this model gains +2 to attack and damage rolls and never flees. If this model's client has Advance Deployement, this model gains Advance Deployment.</capacity>
           <capacity title="POWER ATTACK SLAM">This model can make slam power attacks.</capacity>
           <capacity title="SHIELD GUARD">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity>
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
         </solo>
         <solo id="MS15" name="Orin Midwinter, Rogue Inquisitor" full_name="Orin Midwinter, Rogue Inquisitor" qualification="Mercenary Character Solo" fa="C" cost="2" completed="true">
           <basestats name="MIDWINTER" spd="6" str="4" mat="6" rat="4" def="14" arm="12" cmd="8" hitpoints="5" />
@@ -2431,9 +2431,9 @@
           <capacity title="● ARC LIGHTNING (★ATTACK)">Arc Lightning is a RNG 10 magic attack. A model hit by this spell suffers a POW 10 electrical damage roll, and lightning arcs from it to d3 consecutive additional targets. The lightning arcs to the nearest model it has not already arced to within 4" of the last model it arced to, ignoring this model. Each model the lightning arcs to suffers a POW 10 electrical damage roll.</capacity>
           <capacity title="● NULL MAGIC (★ACTION)">For one round, models cannot cast spells while within 12" of this model.</capacity>
           <capacity title="● STEALTH (★ACTION)">This model gains Stealth for one round.</capacity>
-          <works_for id="faction_cryx" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_MENOTH" />
         </solo>
         <solo id="MS22" name="Ragman" full_name="Ragman" qualification="Mercenary Thamarite Character Solo" fa="C" cost="2" completed="true">
           <basestats name="RAGMAN" spd="6" str="5" mat="6" rat="4" def="14" arm="12" cmd="9" hitpoints="5" pathfinder="true" />
@@ -2446,9 +2446,9 @@
           <capacity title="MAGIC ABILITY [7]" />
           <capacity title="BONE SHAKER (★ATTACK)">Bone Shaker is a RNG 8, POW 12 magic attack. When this spell boxes a living or undead non-warcaster, non-warlock enemy warrior model, you can immediately take control of the model and make a full advance with the enemy model followed by a normal melee attack, then the boxed model is removed from play. The boxed model cannot be targeted by free strikes during this movement.</capacity>
           <capacity title="DEATH FIELD (★ACTION)">This model gains Dark Shroud. While within 3" of this model, friendly models also gain Dark Shroud. Death Field lasts for one round. (While in the melee range of a model with Dark Shroud, enemy models suffer –2 ARM.)</capacity>
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
         </solo>
         <solo id="MS02" name="Reinholdt, Gobber Speculator" full_name="Reinholdt, Gobber Speculator" qualification="Mercenary Character Solo" fa="C" cost="1" completed="true">
           <basestats name="REINHOLDT" spd="7" str="2" mat="2" rat="2" def="16" arm="9" cmd="4" />
@@ -2458,10 +2458,10 @@
           <capacity title="● LUCKY CHARM (★ACTION)">During his activation this turn, the warcaster can gain an additional die on an attack or damage roll. Discard the lowest die.</capacity>
           <capacity title="● RELOAD (★ACTION)">During his activation this turn, the warcaster can make one additional ranged attack ignoring ROF.</capacity>
           <capacity title="● SPYGLASS (★ACTION)">Measure the distance between two models within the warcaster's LOS.</capacity>
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
         </solo>
-        <solo id="IW03_mercs" name="Rorsh " full_name="Rorsh &amp; Brine" qualification="Mercenary Minion Farrow Character Solo" fa="C" cost="9" companionId="Brine_mercs" completed="true">
+        <solo id="IW03_MERCS" name="Rorsh " full_name="Rorsh &amp; Brine" qualification="Mercenary Minion Farrow Character Solo" fa="C" cost="9" companionId="BRINE_MERCS" completed="true">
           <basestats name="RORSH" spd="6" str="7" mat="7" rat="5" def="13" arm="16" cmd="8" focus="3" hitpoints="8" fearless="true" lesser_warlock="true" tough="true" />
           <weapons>
             <ranged_weapon name="Dynomite" rng="6" rof="1" aoe="4" pow="12" />
@@ -2476,10 +2476,10 @@
           <capacity title="FARROW WARLOCK">This model can have only Minion Farrow warbeasts in its battlegroup.</capacity>
           <capacity title="LESSER WARLOCK">This model is not a warlock but has the following warlock special rules: Battlegroup Commander, Control Area, Damage Transference, Forcing, Fury Manipulation, Healing, and Spellcaster</capacity>
           <capacity title="SOUIE!">If Brine is outside this model's control area during your Control Phase, before your models leach fury Brine can make a full advance directly toward this model.</capacity>
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_MENOTH" />
         </solo>
         <solo id="MS20" name="Rutger Shaw" full_name="Rutger Shaw" qualification="Mercenary Character Solo" fa="C" cost="2" completed="true">
           <basestats name="RUTGER SHAW" spd="6" str="6" mat="7" rat="6" def="13" arm="14" cmd="9" hitpoints="5" jack_marshal="true" tough="true" />
@@ -2492,9 +2492,9 @@
           <capacity title="DRIVE: REROLL">This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack can reroll one missed attack roll during its activation this turn. If it fails, the warjack does not benefit from 'Jack Marshal this turn.</capacity>
           <capacity title="FLANK [TARYM DI LA ROVISSI]">When this model makes a melee attack against an enemy model within a melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
           <capacity title="FLANK [WARJACKS THIS MODEL CONTROLS]">When this model makes a melee attack against an enemy model within a melee range of a friendly model of the  type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_MENOTH" />
         </solo>
         <solo id="MS04" name="Rhupert Carvolo, Piper of Ord" full_name="Rhupert Carvolo, Piper of Ord" qualification="Mercenary Character Solo" fa="C" cost="2" completed="true">
           <basestats name="CARVOLO" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="8" hitpoints="5" />
@@ -2506,10 +2506,10 @@
           <capacity title="● DIRGE OF MISTS">Affected models gain +1 DEF and Terror for one round.</capacity>
           <capacity title="● HEROIC CALL">Affected models gain Fearless and Tough for one round.</capacity>
           <capacity title="● MARCH">Affected models gain Pathfinder for one turn.</capacity>
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_MENOTH" />
         </solo>
-        <solo id="IS06_mercs" name="Saxon Orrik" full_name="Saxon Orrik" qualification="Mercenary Minion Character Solo" fa="C" cost="2" completed="true">
+        <solo id="IS06_MERCS" name="Saxon Orrik" full_name="Saxon Orrik" qualification="Mercenary Minion Character Solo" fa="C" cost="2" completed="true">
           <basestats name="ORRIK" spd="6" str="6" mat="7" rat="7" def="15" arm="14" cmd="9" hitpoints="5" advance_deployment="true" fearless="true" pathfinder="true" stealth="true" />
           <weapons>
             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -2524,9 +2524,9 @@
           <capacity title="DISMEMBER">When this model hits a warbeast with a melee attack, roll an additional damage die.</capacity>
           <capacity title="RECONNAISSANCE (★ACTION)">RNG 5. Target friendly warrior model/unit. If the model/unit is in range, it gains Pathfinder for one turn.</capacity>
           <capacity title="TAKE DOWN">Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.</capacity>
-          <works_for id="faction_cryx" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_MENOTH" />
         </solo>
         <solo id="MS16" name="Stannis Brocker" full_name="Stannis Brocker" qualification="Mercenary Steelhead Cavalry Character Solo" fa="C" cost="4" completed="true">
           <basestats name="STANNIS BROCKER" spd="8" str="6" mat="7" rat="6" def="13" arm="17" cmd="9" hitpoints="10" commander="true" />
@@ -2541,10 +2541,10 @@
           <capacity title="MERCENARY">This model will work for Cryx, Cygnar, Khador, and the Protectorate.</capacity>
           <capacity title="DEFENSIVE STRIKE">Once per turn, when an enemy model advances and ends its movement in this model's melee range, this model may immediately make one normal melee attack against it.</capacity>
           <capacity title="TACTICIAN [STEELHEAD]">While in this model's command range, friendly Steelhead models ignore other friendly Steelhead models when determining LOS. Friendly Steelhead models can advance trough other friendly Steelhead models in this model's command range if they have enough movement to move completely past them.</capacity>
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_MENOTH" />
         </solo>
         <solo id="MS23" name="Sylys Wyshnalyrr, the Seeker" full_name="Sylys Wyshnalyrr, the Seeker" qualification="Mercenary Seeker Character Solo" fa="C" cost="2" warcaster_attachment="true" completed="true">
           <basestats name="SYLYS" spd="6" str="4" mat="5" rat="4" def="13" arm="13" cmd="9" hitpoints="5" />
@@ -2557,9 +2557,9 @@
           <capacity title="ARCANE SECRETS (★ACTION)">RNG 3. Target this model's warcaster. If the warcaster is in range, it gains an additional die on a magic attack and magic damage rolls for the next spell it casts. Discard the lowest die in each roll. Arcane Secrets lasts for one round.</capacity>
           <capacity title="RETRIBUTION PARTISAN">When included in a Retribution army, this model is a Retribution model instead of a Mercenary model.</capacity>
           <capacity title="SPIRITUAL CONDUIT">While its warcaster is in this model's command range, when the warcaster casts a spell and is the point of origin for the spell, the spell gains +2 RNG.</capacity>
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
-          <works_for id="faction_retribution" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
+          <works_for id="FACTION_RETRIBUTION" />
         </solo>
         <solo id="MS19" name="Taryn di la Rovissi, Llaelese Gun Mage" full_name="Taryn di la Rovissi, Llaelese Gun Mage" qualification="Llaelese Gun Mage Mercenary Character Solo" fa="C" cost="2" completed="true">
           <basestats name="TARYN DI LA ROVISSI" spd="6" str="5" mat="5" rat="7" def="15" arm="12" cmd="8" hitpoints="5" gunfighter="true" />
@@ -2572,8 +2572,8 @@
           <capacity title="● IRON ROT">When a warjack is hit by this attack, it suffer d3 points of corrosion damage to its Hull damage boxes.</capacity>
           <capacity title="● SHADOW FIRE">The model hit does not block LOS this turn.</capacity>
           <capacity title="PARTNER [RUTGER SHAW]">While in Rutger Shaw's command range, this model gains Dodge and Tough.</capacity>
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_MENOTH" />
         </solo>
         <solo id="MS17" name="Thor Steinhammer" full_name="Thor Steinhammer" qualification="Mercenary Rhulic Character Solo" fa="C" cost="2" completed="true">
           <basestats name="STEINHAMMER" spd="5" str="6" mat="6" rat="5" def="12" arm="14" cmd="9" hitpoints="5" jack_marshal="true" />
@@ -2587,10 +2587,10 @@
           <capacity title="REPAIR [9] (★ACTION)">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
           <capacity title="RHULIC 'JACK MARSHAL">This model can control an reactivate only friendly Mercenary Rhulic warjacks</capacity>
           <capacity title="TUNE UP [RHULIC] (★ACTION)">RNG 5. Target friendly Mercenary Rhulic warjack. If the warjack is in range, its attack or damage rolls are boosted this turn.</capacity>
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
         </solo>
-        <solo id="IS05_mercs" name="Viktor Pendrake" full_name="Viktor Pendrake" qualification="Cygnar Ally Minion Character Solo" fa="C" cost="2" completed="true">
+        <solo id="IS05_MERCS" name="Viktor Pendrake" full_name="Viktor Pendrake" qualification="Cygnar Ally Minion Character Solo" fa="C" cost="2" completed="true">
           <basestats name="PENDRAKE" spd="6" str="6" mat="6" rat="6" def="14" arm="14" cmd="9" hitpoints="5" fearless="true" pathfinder="true" tough="true" />
           <weapons>
             <ranged_weapon name="Chain Bola" rng="8" rof="1" aoe="-" pow="-">
@@ -2607,9 +2607,9 @@
           <capacity title="BEAST LORE (★ACTION)">RNG 3. Target friendly warrior model/unit. If the model/unit is in range, it gains boosted attack rolls against warbeasts this turn.</capacity>
           <capacity title="DISMEMBER">When this model hits a warbeast with a melee attack, roll an additional damage die.</capacity>
           <capacity title="DUCK">This model gains +4 DEF against melee and ranged attack rolls made by warbeasts. Warbeasts cannot target this model with free strikes.</capacity>
-          <works_for id="faction_cygnar" />
+          <works_for id="FACTION_CYGNAR" />
         </solo>
-        <solo id="IW04_mercs" name="Wrong Eye " full_name="Wrong Eye &amp; Snapjaw" qualification="Mercenary Minion Gatorman Character Solo" fa="C" cost="9" companionId="Snapjaw_mercs" completed="true">
+        <solo id="IW04_MERCS" name="Wrong Eye " full_name="Wrong Eye &amp; Snapjaw" qualification="Mercenary Minion Gatorman Character Solo" fa="C" cost="9" companionId="SNAPJAW_MERCS" completed="true">
           <basestats name="WRONG EYE" spd="5" str="8" mat="6" rat="3" def="12" arm="17" cmd="9" focus="4" hitpoints="8" fearless="true" lesser_warlock="true" />
           <weapons>
             <melee_weapon name="Bite" pow="5" p_plus_s="13">
@@ -2624,7 +2624,7 @@
           <capacity title="LESSER WARLOCK">This model is not a warlock but has the following warlock special rules: Battlegroup Commander, Control Area, Damage Transference, Forcing, Fury Manipulation, Healing, and Spellcaster.</capacity>
           <capacity title="GATORMAN WARLOCK">This model can have only Minion Gatorman warbeasts in its battlegroup.</capacity>
           <capacity title="AMPHIBIOUS">This model ignores the effects of deep and shallow water and can move through them without penalty. While completely in deep water, it cannot be targeted by ranged or magic attacks and can make attacks only against other models in deep water. While completely in deep water, this model does not block LOS.</capacity>
-          <works_for id="faction_cryx" />
+          <works_for id="FACTION_CRYX" />
         </solo>
         <solo id="MS25" name="Gastone Crosse" full_name="Gastone Crosse" qualification="Mercenary Character Solo" fa="C" cost="3" completed="true">
           <basestats name="CROSSE" spd="6" str="5" mat="5" rat="5" def="14" arm="14" cmd="7" hitpoints="5" focus="4" fearless="true" journeyman_warcaster="true" />
@@ -2640,8 +2640,8 @@
           <capacity title="JOURNEYMAN WARCASTER">This model is not a warcaster but has the following warcaster special rules: Battlegroup Commander, Control Area, Focus Manipulation, Power Field, and Spellcaster.</capacity>
           <capacity title="SCAVENGER [VANGUARD]">Reduce the point cost of Vanguard warjacks in this model's battlegroup by 1.</capacity>
           <capacity title="MERCENARY BATTLEGROUP">This model can control and reactivate only friendly Mercenary warjacks.</capacity>
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_menoth" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_MENOTH" />
         </solo>
         <solo id="MS26" name="Raluk Moorclaw, the Ironmonger" full_name="Raluk Moorclaw, the Ironmonger" qualification="Mercenary Minion Trollkin Character Solo" fa="C" cost="2" completed="true">
           <basestats name="MOORCLAW" spd="5" str="7" mat="6" rat="6" def="13" arm="15" cmd="9" hitpoints="8" jack_marshal="true" tough="true" />
@@ -2655,12 +2655,12 @@
           <capacity title="DRIVE: HOG WILD">This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If it passes, the warjack can make one ranged attack this activation before its normal movement. After its normal movement, the warjack can only make melee attacks that activation. If it fails, the warjack does not benefit from 'Jack Marshal this turn.</capacity>
           <capacity title="MECHANIKALLY ADEPT">This model can attempt to repair friendly non-Faction warjacks and battle engines.</capacity>
           <capacity title="REPAIR [8] (★ACTION)">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
-          <works_for id="faction_cryx" />
-          <works_for id="faction_cygnar" />
-          <works_for id="faction_khador" />
+          <works_for id="FACTION_CRYX" />
+          <works_for id="FACTION_CYGNAR" />
+          <works_for id="FACTION_KHADOR" />
         </solo>
         <!-- magnus bad seeds -->
-        <solo id="YS08_mercs" name="Trencher Master Gunner (Magnus: Bad Seeds)" full_name="Trencher Master Gunner (Magnus: Bad Seeds)" qualification="Cygnar Solo" fa="2" cost="2" completed="true">
+        <solo id="YS08_MERCS" name="Trencher Master Gunner (Magnus: Bad Seeds)" full_name="Trencher Master Gunner (Magnus: Bad Seeds)" qualification="Cygnar Solo" fa="2" cost="2" completed="true">
           <basestats name="TRENCHER MASTER GUNNER" spd="6" str="6" mat="6" rat="6" def="13" arm="13" cmd="9" hitpoints="5" advance_deployment="true" commander="true" />
           <weapons>
             <ranged_weapon name="Scatter Gun" rng="SP8" rof="1" aoe="-" pow="12" />
@@ -2669,12 +2669,12 @@
           <capacity title="DIG IN (★ACTION)">This model gains cover, does not suffer blast damage, and does not block LOS. This model remains dug in until it moves, is placed, or is engaged. The model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
           <capacity title="CLOSE FIRE (★ACTION)">RNG CMD. Target friendly Faction model. If the model is in range, friendly models do not suffer ranged blast damage from its attacks this turn.</capacity>
           <capacity title="ARTILLERIST (★ACTION)">Choose a friendly Faction model. While in this model's command range, the chosen model gains +2 to AOE ranged attack rolls. When the chosen model's AOE ranged attacks deviate, you can reroll the direction and/or distance of deviation. Each roll can be rerolled only once as a result of Artillerist. Artillerist lasts for one turn.</capacity>
-          <restricted_to id="Mw01" />
-          <restricted_to id="Mx01" />
-          <only_in_tier id="Magnus2 - Bad Seeds (NQ36)" />
+          <restricted_to id="MW01" />
+          <restricted_to id="MX01" />
+          <only_in_tier id="MAGNUS2 - BAD SEEDS (NQ36)" />
         </solo>
 
-        <solo id="YS11_mercs" name="Trench Buster (Magnus: Bad Seeds)" full_name="Trench Buster (Magnus: Bad Seeds)" cost="3" qualification="Cygnar Ogrun Trencher Solo" fa="2" completed="true">
+        <solo id="YS11_MERCS" name="Trench Buster (Magnus: Bad Seeds)" full_name="Trench Buster (Magnus: Bad Seeds)" cost="3" qualification="Cygnar Ogrun Trencher Solo" fa="2" completed="true">
           <basestats name="Trench Buster" spd="6" str="9" mat="7" rat="5" def="13" arm="17" cmd="9" hitpoints="8" advance_deployment="true" tough="true" />
           <weapons>
             <ranged_weapon name="Cinder Bomber" rng="10" rof="1" aoe="3" pow="14" fire="true" >
@@ -2687,11 +2687,11 @@
           <capacity title="ASSAULT">As part of a charge, after moving but before making its charge attack, a model with Assault can make one ranged attack targeting the model charged unless they were in melee with each other at the start of the affected model's activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, this model must still make the ranged attack before its activation ends.)</capacity>
           <capacity title="FLANK [TRENCHER]" type="">When this model makes a melee attack against an enemy model within a melee range of a friendly model of type indicated, this model gains +2 to attacks rolls and gains an additional damage die.</capacity>
           <capacity title="GIRDED" >This model does not suffer blast damage. Friendly models in B2B with it do not suffer blast damage.</capacity>
-          <only_in_tier id="Magnus2 - Bad Seeds (NQ36)" />
+          <only_in_tier id="MAGNUS2 - BAD SEEDS (NQ36)" />
         </solo>
 
         <!-- ashlynn viva la resistance -->
-        <solo id="YS02_mercs" name="Gun Mage Captain Adept (Ashlynn: Viva La Resistance)" full_name="Gun Mage Captain Adept (Ashlynn: Viva La Resistance)" qualification="Cygnar Arcane Tempest Solo" fa="2" cost="2" completed="true">
+        <solo id="YS02_MERCS" name="Gun Mage Captain Adept (Ashlynn: Viva La Resistance)" full_name="Gun Mage Captain Adept (Ashlynn: Viva La Resistance)" qualification="Cygnar Arcane Tempest Solo" fa="2" cost="2" completed="true">
           <basestats name="CAPTAIN" spd="6" str="4" mat="5" rat="8" def="15" arm="11" cmd="9" hitpoints="5" advance_deployment="true" commander="true" />
           <weapons>
             <ranged_weapon name="Magelock Pistol" rng="10" rof="1" aoe="-" pow="10" magical="true" />
@@ -2703,7 +2703,7 @@
           <capacity title="● PHANTOM SEEKER">This model ignores LOS when making ranged attacks. This model ignores concealment and cover when resolving ranged attacks.</capacity>
           <capacity title="● SNIPE">This attack gains +4 RNG.</capacity>
           <restricted_to id="MW04" />
-          <only_in_tier id="Ashlynn - Viva la resistance" />
+          <only_in_tier id="ASHLYNN - VIVA LA RESISTANCE" />
         </solo>
 
 
@@ -2722,7 +2722,7 @@
           <capacity title="LINCHPIN">When this model is destroyed or removed from play, other models in this unit lose Fearless for one round and immediately flee.</capacity>
           <capacity title="RANKING OFFICER">This model is a Ranking Officer. While this model is in play, models in its unit are Mercenary Cephalyx models instead of Mercenary models.</capacity>
           <capacity title="SACRIFICIAL PAWN [MODEL IN THIS UNIT]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal model in this unit within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
-          <works_for id="faction_cryx"/>
+          <works_for id="FACTION_CRYX"/>
           <restricted_to id="MU09"/>
           <restricted_to id="MU04"/>
           <restricted_to id="MU05"/>
@@ -2741,9 +2741,9 @@
           <restricted_to id="MU08"/>
           <restricted_to id="MU18"/>
           <restricted_to id="MU20"/>
-          <only_in_tier id="Puppet Masters"/>
-          <only_in_tier id="Exulon - Will of Darkness"/>
-          <only_in_tier id="Cyphon - Oppression Overwhelming"/>
+          <only_in_tier id="PUPPET MASTERS"/>
+          <only_in_tier id="EXULON - WILL OF DARKNESS"/>
+          <only_in_tier id="CYPHON - OPPRESSION OVERWHELMING"/>
         </solo>
         <solo id="MS27" name="Cephalyx Agitator" full_name="Cephalyx Agitator" fa="3" cost="2" qualification="Mercenary Cephalyx Solo" completed="true">
           <basestats name="AGITATOR" spd="6" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" hitpoints="5" fearless="true" pathfinder="true"/>
@@ -2756,9 +2756,9 @@
           <capacity title="● INSTIGATE (★ACTION)"> While within 5" of this model, friendly Drudge and Monstrosity models gain +2 on attack and damage rolls. Instigate lasts for one turn.</capacity>
           <capacity title="● PSYCHIC ASSAULT (★ATTACK)">Psychic Assault is a RNG SP 8 magic attack. This attack ignores LOS. Models hit suffer a POW 12 damage roll.</capacity>
           <capacity title="SACRIFICIAL PAWN [MONSTROSITY]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Monstrosity model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
-          <only_in_tier id="Puppet Masters"/>
-          <only_in_tier id="Exulon - Will of Darkness"/>
-          <only_in_tier id="Cyphon - Oppression Overwhelming"/>
+          <only_in_tier id="PUPPET MASTERS"/>
+          <only_in_tier id="EXULON - WILL OF DARKNESS"/>
+          <only_in_tier id="CYPHON - OPPRESSION OVERWHELMING"/>
         </solo>
 
 
@@ -2777,10 +2777,10 @@
           <capacity title="FLANK [ANOTHER STEELHEAD]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of type indicated, this model gains +2 to attacks rolls and gains an additional damage die.</capacity>
           <capacity title="HOLD THE LINE">While B2B with one or more Steelhead models, this model gains +2 ARM.</capacity>
           <capacity title="LEADERSHIP [STEELHEAD]">While in this model's command range, friendly Steelhead models gain Defensive Line. (While a model with Defensive line is B2B with one or more models in its unit, it gains +2 ARM)</capacity>
-          <works_for id="faction_cryx"/>
-          <works_for id="faction_cygnar"/>
-          <works_for id="faction_khador"/>
-          <works_for id="faction_menoth"/>
+          <works_for id="FACTION_CRYX"/>
+          <works_for id="FACTION_CYGNAR"/>
+          <works_for id="FACTION_KHADOR"/>
+          <works_for id="FACTION_MENOTH"/>
         </solo>
 
         <solo id="MS30" name="Swamp Gobber River Raiders" full_name="Swamp Gobber River Raiders" qualification="Mercenary Minion Privateer Sea Dog Solo" fa="3" cost="2" completed="true">
@@ -2798,7 +2798,7 @@
           <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
           <capacity title="VIRTUOSO">This model can make melee and ranged attack during the same combat action. When this model makes its initial attacks, it can make both its initial ranged and melee attacks.</capacity>
           <capacity title="MODEL COUNT">3 Raiders.</capacity>
-          <works_for id="faction_cryx" />
+          <works_for id="FACTION_CRYX" />
         </solo>
 
 
@@ -2814,12 +2814,12 @@
           <capacity title="RIPOSTE">When this model is missed by an enemy melee attack, immediately after the attack is resolved it can make one normal melee attack against the attacking model.</capacity>
           <capacity title="STEADY" type="">This model cannot be knocked down.</capacity>
           <capacity title="SWIFT VENGEANCE">If one or more friendly warrior models were destroyed or removed from play by enemy attacks while within 5" of this model during your opponent's last turn, after resolving continuous effects during your Maintenance Phase, this model in make a full advance followed by one normal melee attack.</capacity>
-          <works_for id="faction_cygnar"/>
+          <works_for id="FACTION_CYGNAR"/>
         </solo>
 
 
         <!-- cryx solos that can be taken in cephalyx contract -->
-        <solo id="CS02_mercs" name="Bloat Thrall" full_name="Bloat Thrall" cost="2" qualification="Mercenary Solo" fa="2" completed="true">
+        <solo id="CS02_MERCS" name="Bloat Thrall" full_name="Bloat Thrall" cost="2" qualification="Mercenary Solo" fa="2" completed="true">
           <basestats name="BLOAT THRALL" spd="4" str="7" mat="5" rat="4" def="10" arm="14" cmd="5" hitpoints="8" undead="true" />
           <weapons>
             <ranged_weapon name="Despoiler" rng="12" rof="1" aoe="5" pow="14" corrosion="true">
@@ -2829,17 +2829,17 @@
           </weapons>
           <capacity title="DEATH BLAST">When this model is disabled, center a 5" AOE on it, then remove this model from play. Models in the AOE suffer a POW 14 blast damage roll.</capacity>
           <capacity title="STEADY">This model cannot be knocked down.</capacity>
-          <only_in_tier id="Puppet Masters"/>
+          <only_in_tier id="PUPPET MASTERS"/>
         </solo>
-        <solo id="CS05_mercs" name="Machine Wraith" full_name="Machine Wraith" cost="1" qualification="Mercenary Solo" fa="3" completed="true">
+        <solo id="CS05_MERCS" name="Machine Wraith" full_name="Machine Wraith" cost="1" qualification="Mercenary Solo" fa="3" completed="true">
           <basestats name="MACHINE WRAITH" spd="7" str="4" mat="6" rat="0" def="14" arm="12" cmd="7" incorporeal="true" undead="true" />
           <weapons>
             <melee_weapon name="Mechano-claws" pow="4" p_plus_s="8" />
           </weapons>
           <capacity title="MACHINE MELD" type="*Action">RNG 1. Target enemy non-character warjack with a functional Cortex system or an inert non-character warjack with a functional Cortex system. If the warjack is in range, take control of it and remove this model from the table. Effects on this model when it is removed from the table expire. You cannot activate the warjack this turn. If the melded warjack was part of a battlegroup, while it is in its former controller's control area during the former controller's activation the former controller can spend focus points to attempt to regain control of it at 1 focus point per attempt. If it does so, the former controller and this model each roll a d6 and add their CMD. If the former controller's total is higher, it regains control of the warjack and this model exits the warjack. If the former controller's total is not higher, you maintain control of the warjack. After resolving an attack in which the melded warjack suffered 1 or more damage points, this model must make a command check. If it fails this check, it exits the warjack after resolving continuous effects during your next Maintenance Phase. You can choose to have this model exit the warjack after resolving continuous effects during your Maintenance Phase. If this model exits the warjack for any reason, control of the warjack returns its former controller. Place this model within 3" of the warjack. If the warjack was inert when this model melded with it, the warjack becomes autonomous. This model is destroyed if the melded warjack is destroyed before it exits the warjack.</capacity>
-          <only_in_tier id="Puppet Masters"/>
+          <only_in_tier id="PUPPET MASTERS"/>
         </solo>
-        <solo id="CS06_mercs" name="Pistol Wraith" full_name="Pistol Wraith" cost="3" qualification="Mercenary Solo" fa="2" completed="true">
+        <solo id="CS06_MERCS" name="Pistol Wraith" full_name="Pistol Wraith" cost="3" qualification="Mercenary Solo" fa="2" completed="true">
           <basestats name="PISTOL WRAITH" spd="6" str="4" mat="4" rat="7" def="14" arm="12" cmd="7" hitpoints="5" gunfighter="true" incorporeal="true" undead="true" />
           <weapons>
             <ranged_weapon name="Wraithlock Pistols " count="2" rng="10" rof="1" aoe="-" pow="12" magical="true">
@@ -2847,7 +2847,7 @@
             </ranged_weapon>
           </weapons>
           <capacity title="BODY COUNT">This model gains one soul token each time it destroys a living enemy model. It can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to boost attack or damage rolls at one token per boost.</capacity>
-          <only_in_tier id="Puppet Masters"/>
+          <only_in_tier id="PUPPET MASTERS"/>
         </solo>
       </solos>
     </army>

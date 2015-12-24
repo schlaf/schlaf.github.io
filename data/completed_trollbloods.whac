@@ -7,7 +7,7 @@
       <!--002 august 2015 errata (mountain king) -->
       <!--003 add devastation entries -->
       <warlocks>
-        <warlock id="Tw01" name="Madrak1" generation="P" full_name="Madrak Ironhide, Thornwood Chieftain" qualification="Trollblood Trollkin Warlock" fury="5" warbeast_points="6" fa="C" completed="true">
+        <warlock id="TW01" name="Madrak1" generation="P" full_name="Madrak Ironhide, Thornwood Chieftain" qualification="Trollblood Trollkin Warlock" fury="5" warbeast_points="6" fa="C" completed="true">
           <basestats name="IRONHIDE" spd="6" str="8" mat="7" rat="6" def="14" arm="16" cmd="9" hitpoints="18" tough="true" />
           <weapons>
             <ranged_weapon name="Thrown Rathrok" rng="8" rof="1" aoe="-" pow="7" magical="true">
@@ -26,7 +26,7 @@
           <capacity title="SCROLL OF GRINDAR'S PERSEVERENCE">This model can use Scroll of Grindar's Perseverance once per game, when this model is directly hit by an attack. If this model uses the scroll, it suffers no damage roll from the attack. Declare use of the scroll after this model is hit but before the damage roll is made.</capacity>
           <capacity title="TALISMAN OF SUBDUAL">This model cannot be charged or slam power attacked by a warbeast that began the charge or slam power attack in this model's front arc. If a warbeast frenzies and would normally charge or slam Ironhide, it makes a full advance toward him instead.</capacity>
         </warlock>
-        <warlock id="Tx01" name="Madrak2" generation="E" full_name="Madrak Ironhide, World Ender" qualification="Trollblood Trollkin Epic Warlock" fury="5" warbeast_points="5" fa="C" completed="true">
+        <warlock id="TX01" name="Madrak2" generation="E" full_name="Madrak Ironhide, World Ender" qualification="Trollblood Trollkin Epic Warlock" fury="5" warbeast_points="5" fa="C" completed="true">
           <basestats name="IRONHIDE" spd="6" str="8" mat="8" rat="6" def="14" arm="17" cmd="9" hitpoints="18" tough="true" />
           <weapons>
             <ranged_weapon name="Thrown Rathrok" rng="8" rof="1" aoe="-" pow="7" magical="true">
@@ -46,7 +46,7 @@
           <capacity title="GRIM SALVATION">When this model would be damaged by an enemy melee or ranged attack, it does not suffer the damage and effects triggered by taking damage from the attack. Instead, remove one friendly Trollkin warrior model within 1" of this model from play. If there is not a friendly Trollkin warrior model within 1" of this model, it suffers the damage and effects of the attack normally.</capacity>
           <capacity title="TIDE OF DEATH">When this model destroys one or more enemy models with an attack, immediately after the attack is resolved this model can spend 1 fury point to advance up to 1".</capacity>
         </warlock>
-        <warlock id="Tw02" name="Hoarluk1" generation="P" full_name="Hoarluk Doomshaper, Shaman of the Gnarls" qualification="Trollblood Trollkin Warlock" fury="7" warbeast_points="7" fa="C" completed="true">
+        <warlock id="TW02" name="Hoarluk1" generation="P" full_name="Hoarluk Doomshaper, Shaman of the Gnarls" qualification="Trollblood Trollkin Warlock" fury="7" warbeast_points="7" fa="C" completed="true">
           <basestats name="DOOMSHAPER" spd="5" str="6" mat="5" rat="4" def="13" arm="15" cmd="7" hitpoints="16" tough="true" />
           <weapons>
             <melee_weapon name="Gnarlroot" pow="6" p_plus_s="12" magical="true" reach="true" />
@@ -61,7 +61,7 @@
           <capacity title="GREAT POWER">During your Control Phase, this model can upkeep one spell without spending focus or fury.</capacity>
           <capacity title="SCROLL OF THE WILL OF BALASAR">This model can use this ability once per game when a warbeast frenzies in its control area. When Scroll of the Will of Balasar is used, choose the frenzy target of the warbeast.</capacity>
         </warlock>
-        <warlock id="Tx02" name="Hoarluk2" generation="E" full_name="Hoarluk Doomshaper, Rage of Dhunia" qualification="Trollblood Trollkin Epic Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
+        <warlock id="TX02" name="Hoarluk2" generation="E" full_name="Hoarluk Doomshaper, Rage of Dhunia" qualification="Trollblood Trollkin Epic Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
           <basestats name="DOOMSHAPER" spd="5" str="7" mat="5" rat="4" def="13" arm="15" cmd="7" hitpoints="16" tough="true" />
           <weapons>
             <melee_weapon name="Willbreaker" pow="6" p_plus_s="13" magical="true" reach="true">
@@ -78,7 +78,7 @@
           <capacity title="GOAD">When a warbeast in this model's battlegroup destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved this model can force the warbeast to advance up to 2".</capacity>
           <capacity title="HYPER REGENERATION">This model automatically heals d3 damage points at the start of each of its activations.     </capacity>
         </warlock>
-        <warlock  id="Tz02" name="Hoarluk3" full_name="Hoarluk Doomshaper, Dire Prophet" generation="E" qualification="Trollblood Epic Trollkin Warlock Unit" fury="7" warbeast_points="3" fa="C" completed="true">
+        <warlock  id="TZ02" name="Hoarluk3" full_name="Hoarluk Doomshaper, Dire Prophet" generation="E" qualification="Trollblood Epic Trollkin Warlock Unit" fury="7" warbeast_points="3" fa="C" completed="true">
           <basestats name="Hoarluk Doomshaper, Dire Prophet" spd="5" str="7" mat="5" rat="4" def="13" arm="15" cmd="8" hitpoints="16" tough="true"/>
           <weapons>
             <melee_weapon name="Kriel Staff" pow="6" p_plus_s="13" reach="true" magical="true">
@@ -104,7 +104,7 @@
             <capacity title="● TIME OF THE MOLGUR">While in Doomshaper's control area this turn, friendly Faction warrior models gain an additional die on attack rolls. Discard the lowest die in each roll.</capacity>
           </model>
         </warlock>
-        <warlock id="Tw03" name="Grissel1" generation="P" full_name="Grissel Bloodsong, Fell Caller" qualification="Trollblood Trollkin Warlock" fury="6" warbeast_points="5" fa="C" completed="true">
+        <warlock id="TW03" name="Grissel1" generation="P" full_name="Grissel Bloodsong, Fell Caller" qualification="Trollblood Trollkin Warlock" fury="6" warbeast_points="5" fa="C" completed="true">
           <basestats name="BLOODSONG" spd="6" str="7" mat="6" rat="5" def="15" arm="16" cmd="9" hitpoints="17" tough="true" />
           <weapons>
             <ranged_weapon name="Sonic Blast" rng="SP8" rof="1" aoe="-" pow="12" />
@@ -121,7 +121,7 @@
           <capacity title="● HEROIC BALLAD">RNG CMD. Target friendly non-warlock Faction model/unit. If the model/unit is in range, it gains Fearless and affected models can make one additional melee attack during their activations this turn. Heroic Ballad lasts for one round.</capacity>
           <capacity title="● HOOF IT">RNG CMD. Target friendly non-warlock Faction model/unit. If the model/unit is in range, affected models can make a full advance at the end of this turn after all friendly models have ended their activations. Affected models cannot be targeted by free strikes during this movement.</capacity>
         </warlock>
-        <warlock id="Tx03" name="Grissel2" generation="E" full_name="Grissel Bloodsong, Marshal of the Kriels" qualification="Trollblood Epic Trollkin Warlock" fury="6" warbeast_points="6" fa="C" completed="true">
+        <warlock id="TX03" name="Grissel2" generation="E" full_name="Grissel Bloodsong, Marshal of the Kriels" qualification="Trollblood Epic Trollkin Warlock" fury="6" warbeast_points="6" fa="C" completed="true">
           <basestats name="BLOODSONG" spd="6" str="7" mat="7" rat="6" def="15" arm="17" cmd="9" hitpoints="17" tough="true" />
           <weapons>
             <melee_weapon name="Resounder" pow="7" p_plus_s="14" magical="true">
@@ -141,7 +141,7 @@
           <spell name="INHOSPITABLE GROUND" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, enemy models treat open terrain as rough terrain. Inhospitable Ground lasts for one round.</spell>
           <capacity title="INSPIRATION [FACTION]">Friendly Faction models/units in this model's command range never flee and immediately rally.   </capacity>
         </warlock>
-        <warlock id="Tw04" name="Grim1" generation="P" full_name="Grim Angus" qualification="Trollblood Trollkin Warlock" fury="6" warbeast_points="6" fa="C" completed="true">
+        <warlock id="TW04" name="Grim1" generation="P" full_name="Grim Angus" qualification="Trollblood Trollkin Warlock" fury="6" warbeast_points="6" fa="C" completed="true">
           <basestats name="GRIM ANGUS" spd="6" str="7" mat="6" rat="7" def="16" arm="15" cmd="8" hitpoints="17" pathfinder="true" tough="true" />
           <weapons>
             <ranged_weapon name="Headhunter" rng="13" rof="1" aoe="-" pow="13" magical="true">
@@ -161,7 +161,7 @@
           <capacity title="TAKE DOWN">Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.</capacity>
           <capacity title="TRUE SIGHT">This model ignores concealment, Camouflage, and Stealth.</capacity>
         </warlock>
-        <warlock id="Tx04" name="Grim2" generation="E" full_name="Hunters Grim" qualification="Trollblood Epic Warlock Unit" fury="6" warbeast_points="4" fa="C" completed="true">
+        <warlock id="TX04" name="Grim2" generation="E" full_name="Hunters Grim" qualification="Trollblood Epic Warlock Unit" fury="6" warbeast_points="4" fa="C" completed="true">
           <basestats name="GRIM" spd="6" str="7" mat="6" rat="8" def="16" arm="15" cmd="8" hitpoints="17" officer="true" pathfinder="true" tough="true" />
           <weapons>
             <ranged_weapon name="Headhunter" rng="13" rof="1" aoe="-" pow="13" magical="true">
@@ -177,7 +177,7 @@
           <capacity title="WARLOCK UNIT">This unit is made up of Grim, Muggs, and Krump.</capacity>
           <capacity title="TROLLKIN"> This model is a trollkin.</capacity>
           <capacity title="TAKE DOWN">Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.</capacity>
-          <model id="Muggs">
+          <model id="MUGGS">
             <basestats name="MUGGS" spd="6" str="5" mat="5" rat="6" def="14" arm="12" cmd="7" hitpoints="5" pathfinder="true" tough="true" />
             <weapons>
               <ranged_weapon name="Snare Gun" rng="8" rof="1" aoe="-" pow="-">
@@ -189,7 +189,7 @@
             <capacity title="PYG"> This model is a pyg.</capacity>
             <capacity title="GRANTED: REFORM">While this model is in play after all models in its unit have completed their actions, each can advance up to 3".</capacity>
           </model>
-          <model id="Krump">
+          <model id="KRUMP">
             <basestats name="KRUMP" spd="6" str="5" mat="5" rat="6" def="14" arm="12" cmd="7" hitpoints="5" pathfinder="true" tough="true" />
             <weapons>
               <ranged_weapon name="Blunderbuss" rng="8" rof="1" aoe="-" pow="12" />
@@ -214,7 +214,7 @@
           <spell name="MOSH PIT" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly models gain Knockdown on their melee weapons. Mosh Pit lasts for one turn. (When a model is hit with an attack by a weapon with Knockdown, it is knocked down.)</spell>
           <spell name="WIND WALL" cost="3" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model cannot make ranged attacks, and non-magical ranged attacks targeting it automatically miss. While completely within 3" of this model, models cannot make ranged attacks and non-magical ranged attacks targeting them automatically miss. Wind Wall lasts for one round.</spell>
           <capacity title="UNYIELDING">While engaging an enemy model, this model gains +2 ARM.</capacity>
-          <model id="Pyg Keg Carrier" name="Pyg Keg carrier" qualification="Trollkin Character Solo">
+          <model id="PYG KEG CARRIER" name="Pyg Keg carrier" qualification="Trollkin Character Solo">
             <basestats name="KEG CARRIER" spd="5" str="5" mat="5" rat="4" def="13" arm="12" cmd="6" hitpoints="5" tough="true" />
             <weapons>
               <melee_weapon name="Keg Bash" pow="3" p_plus_s="8" />
@@ -574,12 +574,12 @@
           <capacity title="● FERVOR">Affected models gain +2 to attack and damage rolls this activation.</capacity>
           <capacity title="● SWIFT FOOT">Affected models gain +2 movement this activation.</capacity>
           <unit_attachment id="TA01" name="Kriel Warrior Standard Bearer &amp; Piper" full_name="Kriel Warrior Standard Bearer &amp; Piper" qualification="Trollblood Trollkin Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="Standard Bearer">
+            <model id="STANDARD BEARER">
               <basestats name="STANDARD BEARER" spd="5" str="6" mat="5" rat="4" def="12" arm="15" cmd="8" standard_bearer="true" tough="true" />
               <weapons />
               <capacity title="GRANTED: STEADY">While this model is in play, models in its unit gain Steady. (Models with Steady cannot be knocked down.)</capacity>
             </model>
-            <model id="Piper">
+            <model id="PIPER">
               <basestats name="PIPER" spd="5" str="6" mat="5" rat="4" def="12" arm="15" cmd="8" cma="true" tough="true" />
               <weapons>
                 <melee_weapon name="Hand Weapon" pow="4" p_plus_s="10" />
@@ -589,7 +589,7 @@
             </model>
           </unit_attachment>
           <weapon_attachment id="TA02" name="Kriel Warrior Caber Thrower" full_name="Kriel Warrior Caber Thrower" qualification="Trollblood Trollkin Weapon Attachment" fa="3" cost="1" max_wa="3" completed="true">
-            <model id="Thrower">
+            <model id="THROWER">
               <basestats name="CABER THROWER" spd="5" str="6" mat="5" rat="4" def="12" arm="15" cmd="8" tough="true" />
               <weapons>
                 <melee_weapon name="Caber" pow="7" p_plus_s="13" reach="true">
@@ -607,14 +607,14 @@
           <capacity title="FURY VAULT">While this model is in a friendly warlock's control area during the warlock's activation, the warlock can move fury points from himself to it. If this model is in a friendly warlock's control area, the warlock can leach fury points from it during your Control Phase. This model can have up to 1 fury point on it for each model currently in this unit. When a model in this unit is destroyed or removed from play, remove fury points from this model in excess of the number of models remaining in the unit. If this model is destroyed and replaced by a Grunt in its unit place its fury points on the new Leader.</capacity>
           <capacity title="PROTECTIVE AURA">Once at any time during its unit's activation, this model can spend 1 fury point to use Protective Aura. When it does, for one round this model and friendly Faction models gain +2 ARM while within 4" of this model +1" per fury point on this model.</capacity>
           <capacity title="SELF-SACRIFICE">If this model is disabled by an enemy attack, you can choose a non-disabled model in this unit within 3” of this model to be destroyed. If another model is destroyed as a result of Self-Sacrifice, this model heals 1 damage point.</capacity>
-          <model id="grunts" name="Stone Scribes" full_name="Stone Scribes">
+          <model id="GRUNTS" name="Stone Scribes" full_name="Stone Scribes">
             <basestats name="GRUNTS" spd="5" str="7" mat="5" rat="4" def="12" arm="13" cmd="9" fearless="true" tough="true" />
             <weapons>
               <melee_weapon name="Hand Weapon" pow="4" p_plus_s="11" />
             </weapons>
           </model>
           <unit_attachment id="TA03" name="Stone Scribe Elder" full_name="Stone Scribe Elder" qualification="Trollblood Trollkin Unit Attachment" fa="1" cost="1" completed="true">
-            <model id="Stone Scribe Elder">
+            <model id="STONE SCRIBE ELDER">
               <basestats name="ELDER" spd="5" str="7" mat="6" rat="4" def="12" arm="13" cmd="9" fearless="true" officer="true" tough="true" />
               <weapons>
                 <melee_weapon name="Hand Weapon" pow="4" p_plus_s="11" />
@@ -645,7 +645,7 @@
           <capacity title="BUSHWHACK (ORDER)">During this unit's activation, affected models make their combat actions before their normal movement. Affected models must make a full advance as their normal movement this activation.</capacity>
           <unit_attachment id="TA07" cost="2" fa="1" qualification="Trollblood unit attachment" name="Pyg Bushwhacker Officer &amp; Mortar" full_name="Pyg Bushwhacker Officer &amp; Mortar" completed="true">
 
-            <model id="pyg_officer">
+            <model id="PYG_OFFICER">
               <basestats name="Officer" spd="6" str="5" mat="5" rat="5" def="13" arm="12" cmd="8" tough="true" pathfinder="true" officer="true" cra="true" advance_deployment="true" />
               <weapons>
                 <ranged_weapon name="Rifle" rng="14" rof="1" aoe="-" pow="10" />
@@ -656,7 +656,7 @@
               <capacity title="SLIP AWAY" type="Order">Affected models make a full advance during their normal movement this activation, can advance through other models if they have enough movement to move completely past them, and cannot be targeted by free strikes.</capacity>
               <capacity title="TACTICS : CAMOUFLAGE">Models in this unit gain Camouflage. (Models with Camouflage gains an additional +2 DEF when benefiting from concealment or cover.)</capacity>
             </model>
-            <model id="pyg_mortar">
+            <model id="PYG_MORTAR">
               <basestats name="Mortar Pyg" spd="6" str="5" mat="4" rat="4" def="13" arm="12" cmd="7" tough="true" pathfinder="true" advance_deployment="true"/>
               <weapons>
                 <ranged_weapon name="Light Mortar" rng="14" rof="1" aoe="4" pow="12">
@@ -678,8 +678,8 @@
             </ranged_weapon>
             <melee_weapon name="Axe" pow="4" p_plus_s="10" />
           </weapons>
-          <model id="Grunts">
-            <basestats name="GRUNTS" spd="4" str="6" mat="5" rat="5" def="12" arm="14" cmd="8" tough="true" />
+          <model id="GRUNTS" name="Grunts">
+            <basestats name="Grunts" spd="4" str="6" mat="5" rat="5" def="12" arm="14" cmd="8" tough="true" />
             <weapons>
               <melee_weapon name="Axe" pow="4" p_plus_s="10" />
             </weapons>
@@ -692,7 +692,7 @@
           </weapons>
           <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM.</capacity>
           <unit_attachment id="TA05" name="Skaldi Bonehammer" full_name="Skaldi Bonehammer" qualification="Trollblood Trollkin Champion Character Unit Attachment" fa="C" cost="3" completed="true">
-            <model id="Skaldi Bonehammer">
+            <model id="SKALDI BONEHAMMER">
               <basestats name="SKALDI" spd="5" str="7" mat="8" rat="4" def="12" arm="16" cmd="9" hitpoints="8" fearless="true" officer="true" tough="true" />
               <weapons>
                 <melee_weapon name="Hammer" pow="4" p_plus_s="11" reach="true" weapon_master="true" />
@@ -713,7 +713,7 @@
           <capacity title="HARD">This model does not suffer damage or effects from impact attacks or collateral damage.</capacity>
           <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
           <unit_attachment id="TA04" name="Trollkin Fennblade Officer &amp; Drummer" full_name="Trollkin Fennblade Officer &amp; Drummer" qualification="Trollblood Trollkin Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="Officer">
+            <model id="OFFICER">
               <basestats name="OFFICER" spd="6" str="7" mat="7" rat="4" def="12" arm="14" cmd="9" hitpoints="5" officer="true" tough="true" />
               <weapons>
                 <melee_weapon name="Hooked Great Sword" pow="5" p_plus_s="12" reach="true" />
@@ -723,7 +723,7 @@
               <capacity title="TACTICS: SET DEFENSE">Models in this unit gain Set Defense. (A model in the front arc of a model with Set Defense suffers –2 on charge, slam power attack, and impact attack rolls against the model with Set Defense.)</capacity>
               <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
             </model>
-            <model id="Drummer">
+            <model id="DRUMMER">
               <basestats name="DRUMMER" spd="6" str="7" mat="6" rat="4" def="12" arm="14" cmd="8" hitpoints="0" tough="true" />
               <weapons />
               <capacity title="HARD">See above.</capacity>
@@ -762,7 +762,7 @@
             <melee_weapon name="Gun Blade" pow="3" p_plus_s="9" />
           </weapons>
           <unit_attachment id="TA06" name="Scattergunner Officer &amp; Standard" full_name="Scattergunner Officer &amp; Standard" qualification="Trollblood Trollkin Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="Officer">
+            <model id="OFFICER">
               <basestats name="OFFICER" spd="6" str="6" mat="6" rat="6" def="12" arm="14" cmd="9" hitpoints="5" officer="true" tough="true" />
               <weapons>
                 <ranged_weapon name="Scattergun" rng="SP8" rof="1" aoe="-" pow="12" />
@@ -772,7 +772,7 @@
               <capacity title="TACTICS: CLEAR!">Models in this unit gain Clear! (Ranged attacks against friendly models made by a model with Clear! automatically miss.)</capacity>
               <capacity title="TACTICS: COMBINED MELEE ATTACK">Models in this unit gain Combined Melee Attack.</capacity>
             </model>
-            <model id="Standard Bearer">
+            <model id="STANDARD BEARER">
               <basestats name="STANDARD BEARER" spd="6" str="6" mat="5" rat="5" def="12" arm="14" cmd="8" standard_bearer="true" tough="true" />
               <weapons />
             </model>
@@ -801,7 +801,7 @@
           </weapons>
         </unit>
         <unit id="TU13" name="Sons of Bragg" full_name="Sons of Bragg" qualification="Trollblood Trollkin Fell Caller Character Unit" fa="C" base_cost="6" full_cost="-" baseCount="3" fullCount="-" completed="true">
-          <basestats name="WRATHAR" spd="6" str="7" mat="7" rat="6" def="13" arm="15" cmd="9" hitpoints="8" fearless="true" officer="true" tough="true" />
+          <basestats name="Wrathar" spd="6" str="7" mat="7" rat="6" def="13" arm="15" cmd="9" hitpoints="8" fearless="true" officer="true" tough="true" />
           <weapons>
             <melee_weapon name="Great Sword" pow="5" p_plus_s="12" reach="true" weapon_master="true" />
           </weapons>
@@ -810,8 +810,8 @@
           <capacity title="● CALL OF DEFIANCE">When a model in this unit that is in formation makes a Tough roll of 4, 5, or 6, it heals 1 damage point and is knocked down. Call of Defiance lasts for one round.</capacity>
           <capacity title="● FERVOR">Affected models gain +2 to attack and damage rolls this activation.</capacity>
           <capacity title="THEME SONGS">Models in this unit are never affected by fell calls made by other friendly models.</capacity>
-          <model id="Tor">
-            <basestats name="TOR" spd="6" str="7" mat="7" rat="6" def="13" arm="15" cmd="9" hitpoints="8" fearless="true" tough="true" />
+          <model id="TOR">
+            <basestats name="Tor" spd="6" str="7" mat="7" rat="6" def="13" arm="15" cmd="9" hitpoints="8" fearless="true" tough="true" />
             <weapons>
               <ranged_weapon name="Sonic Blast" rng="SP8" rof="1" aoe="-" pow="12" />
               <melee_weapon name="Sword" pow="3" p_plus_s="10" weapon_master="true" />
@@ -823,8 +823,8 @@
             <capacity title="THEME SONGS">See above.</capacity>
             <capacity title="ASSAULT">As part of a charge, after moving but before making its charge attack, this model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of this model’s activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, this model can make the Assault ranged attack before its activation ends.</capacity>
           </model>
-          <model id="Rhudd">
-            <basestats name="RHUDD" spd="6" str="7" mat="7" rat="6" def="13" arm="15" cmd="9" hitpoints="8" fearless="true" tough="true" />
+          <model id="RHUDD">
+            <basestats name="Rhudd" spd="6" str="7" mat="7" rat="6" def="13" arm="15" cmd="9" hitpoints="8" fearless="true" tough="true" />
             <weapons>
               <melee_weapon name="Sword " pow="3" count="2" p_plus_s="10" weapon_master="true" />
             </weapons>
@@ -949,7 +949,7 @@
           <capacity title="ELITE CADRE [LONG RIDERS]">Friendly Long Rider models gain Follow Up and Line Breaker.</capacity>
           <capacity title="FOLLOW UP"> When this model slams an enemy model, immediately after the slam is resolved this model can advance directly toward the slammed model up to the distance the slammed model was moved.</capacity>
           <capacity title="LINE BREAKER">This model gains an additional die on impact attack rolls.</capacity>
-          <model id="Horthol_dismount">
+          <model id="HORTHOL_DISMOUNT">
             <basestats name="HORTHOL (DISMOUNTED)" spd="5" str="9" mat="8" rat="4" def="12" arm="16" cmd="9" hitpoints="8" fearless="true" tough="true" />
             <weapons>
               <melee_weapon name="Long Hammer" pow="6" p_plus_s="15" reach="true">

@@ -33,7 +33,7 @@
           <capacity title="FORCE BARRIER">This model gains +2 DEF against ranged attack rolls and does not suffer blast damage.</capacity>
         </warcaster>
         <!--Dawnlord Vyros1 complete-->
-        <warcaster id="Rw02" name="Vyros1" full_name="Dawnlord Vyros" generation="P" qualification="Retribution Warcaster" focus="6" warjack_points="6" fa="C" completed="true" generation_id="Vyros">
+        <warcaster id="RW02" name="Vyros1" full_name="Dawnlord Vyros" generation="P" qualification="Retribution Warcaster" focus="6" warjack_points="6" fa="C" completed="true" generation_id="Vyros">
           <basestats name="Dawnlord Vyros" spd="5" str="7" mat="8" rat="4" def="15" arm="17" cmd="10" hitpoints="18" />
           <weapons>
             <melee_weapon name="Justicar" pow="7" p_plus_s="14" reach="true" magical="true"></melee_weapon>
@@ -53,7 +53,7 @@
           <capacity title="FLANK [FACTION WARJACK]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
         </warcaster>
         <!--Vyros2, Incissar of the Dawnguard complete-->
-        <warcaster id="Rx02" name="Vyros2" full_name="Vyros, Incissar of the Dawnguard" generation="E" qualification="Retribution Cavalry Epic Warcaster" focus="6" warjack_points="5" fa="C" completed="true" generation_id="Vyros">
+        <warcaster id="RX02" name="Vyros2" full_name="Vyros, Incissar of the Dawnguard" generation="E" qualification="Retribution Cavalry Epic Warcaster" focus="6" warjack_points="5" fa="C" completed="true" generation_id="Vyros">
           <basestats name="Vyros, Incissar of the Dawnguard" spd="8" str="7" mat="8" rat="6" def="15" arm="18" cmd="10" hitpoints="18" />
           <weapons>
             <ranged_weapon name="Extremus Cannon" rng="10" rof="2" aoe="-" pow="12" magical="true"></ranged_weapon>
@@ -567,7 +567,7 @@
                 <capacity title="RANGE FINDER">While B2B with the Grunt in this unit, this model gains +2 to attack rolls with this weapon.</capacity>
             </ranged_weapon>
           </weapons>
-          <model id="grunt" name="Grunt">
+          <model id="GRUNT" name="Grunt">
               <basestats name="Grunt" spd="4" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" />
               <weapons>
                 <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
@@ -612,7 +612,7 @@
           <capacity title="POWER BOOSTER" type="*Action">RNG 5. Target friendly Faction warjack. If the target warjack is in range and has no focus points, it gains 1 focus point. If the warjack is Disrupted, it is no longer Disrupted.</capacity>
           <capacity title="REPAIR [8]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack.  To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
         </solo>
-          <solo id="RS01_forceWall" name="Arcanist" full_name="Arcanist (Force Wall)" cost="1" qualification="Retribution Solo" fa="2" completed="true">
+          <solo id="RS01_FORCEWALL" name="Arcanist" full_name="Arcanist (Force Wall)" cost="1" qualification="Retribution Solo" fa="2" completed="true">
               <basestats name="Arcanist" spd="6" str="5" mat="5" rat="4" def="13" arm="12" cmd="8" />
               <weapons>
                   <melee_weapon name="Multi Tool" pow="3" p_plus_s="8"></melee_weapon>
@@ -622,7 +622,7 @@
               <capacity title="FORCE MULTIPLIER" type="*Action">RNG 5. Target friendly Faction warjack.  If the warjack is in range and has 1 or more focus, points, it is allocated 1 focus point.</capacity>
               <capacity title="POWER BOOSTER" type="*Action">RNG 5. Target friendly Faction warjack. If the target warjack is in range and has no focus points, it gains 1 focus point. If the warjack is Disrupted, it is no longer Disrupted.</capacity>
               <capacity title="REPAIR [8]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack.  To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
-              <only_in_tier id="Kaelyssa - Force Wall"></only_in_tier>
+              <only_in_tier id="KAELYSSA - FORCE WALL"></only_in_tier>
           </solo>
         <!--Scyir complete-->
         <solo id="RS02" name="Dawnguard Scyir" full_name="Dawnguard Scyir" cost="2" qualification="Retribution Solo" fa="2" completed="true">
@@ -721,7 +721,7 @@
           <capacity title="DRAGOON">While mounted, this model has base SPD 8 and base ARM 17. While dismounted, it has base SPD6, base ARM15.</capacity>
           <capacity title="RAPID STRIKE">This model can make one additional melee attack each combat action.</capacity>
           <capacity title="RIGHTEOUS FURY">When one or more friendly Faction warrior models are destroyed by an enemy attack while in this model's command range, this model gains +2 STR and ARM for one round.</capacity>
-          <model id="RS10_dismount" name="Fane Knight Skeryth Issyen (dismounted)" full_name="Fane Knight Skeryth Issyen (dismounted)">
+          <model id="RS10_DISMOUNT" name="Fane Knight Skeryth Issyen (dismounted)" full_name="Fane Knight Skeryth Issyen (dismounted)">
             <basestats name="Fane Knight Skeryth Issyen (dismounted)" spd="6" str="7" mat="8" rat="4" def="13" arm="15" cmd="9" hitpoints="5" />
             <weapons>
               <melee_weapon name="Needle of Lacyr" pow="6" p_plus_s="13" weapon_master="true" reach="true" magical="true">
@@ -795,7 +795,7 @@
           <capacity title="EXTENDED FIRE">Once per game while in formation, this model can use Extended Fire during its unit's activation. This activation, models in this unit gain +4 RNG to their ranged attacks.</capacity>
           <capacity title="FLANK [FACTION WARJACK]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
           <capacity title="GRANTED: COMBINED ARMS">While this model is in play, models in its unit gain Combined Arms. (When a model with Combined Arms misses an attack roll for a combined ranged attack, it can reroll that attack roll. Each attack roll can be rerolled only once as a result of Combined Arms.)</capacity>
-          <model id="Dawnguard Invictor Standard">
+          <model id="DAWNGUARD INVICTOR STANDARD">
             <basestats name="Dawnguard Invictor Standard" spd="5" str="6" mat="7" rat="6" def="12" arm="15" cmd="9" standard_bearer="true"></basestats>
             <weapons></weapons>
             <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2ARM.</capacity>
@@ -813,7 +813,7 @@
           <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM</capacity>
           <capacity title="DRIVE: PRONTO">This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack immediately makes a full advance. If the check fails, the warjack does not benefit from 'Jack Marshal' this turn.</capacity>
           <capacity title="GRANTED: VENGEANCE">While this model is in play, models in its unit gain Vengeance. (During your Maintenance Phase, if one or more models in a unit with Vengeance were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.)</capacity>
-          <model id="Dawnguard Sentinel Standard">
+          <model id="DAWNGUARD SENTINEL STANDARD">
             <basestats name="Dawnguard Sentinel Standard" spd="5" str="6" mat="7" rat="4" def="12" arm="15" cmd="9" hitpoints="0" standard_bearer="true" />
             <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM</capacity>
           </model>
@@ -822,7 +822,7 @@
           </restricted_to>
         </solo>
         <solo id="RA06" name="Riflemen Officer &amp; Standard" full_name="Riflemen Officer &amp; Standard" fa="1" cost="2" qualification="Retribution Unit Attachment" unit_attachment="true" completed="true">
-          <basestats name="Houseguard Rifleman Officer" spd="6" str="4" mat="6" rat="6" def="13" arm="13" cmd="9" hitpoints="5" officer="true" cra="true" />
+          <basestats name="Officer" spd="6" str="4" mat="6" rat="6" def="13" arm="13" cmd="9" hitpoints="5" officer="true" cra="true" />
           <weapons>
             <ranged_weapon rng="14" name="Long Rifle" aoe="-" pow="10" rof="1"></ranged_weapon>
             <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
@@ -830,8 +830,8 @@
           <capacity title="GRANTED: WAR TEMPERED">While this model is in play, models in its unit can make combined ranged attacks targeting models in melee.</capacity>
           <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
           <capacity title="WHITES OF THEIR EYES">Once per game while in formation, this model can use this ability during its unit's activation. This activation, models in this unit gain an additional die on ranged attack rolls against models within 8" of the attacking model.<!--Errata: Dec 2013--></capacity>
-          <model id="Houseguard Rifleman Standard">
-            <basestats name="Houseguard Rifleman Standard" spd="6" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" hitpoints="0" standard_bearer="true" />
+          <model id="STANDARD" name="Standard">
+            <basestats name="Standard" spd="6" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" hitpoints="0" standard_bearer="true" />
             <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
           </model>
           <restricted_to id="RU04">
@@ -864,7 +864,7 @@
           <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
           <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
           <capacity title="TEAM EFFORT">Once per game while in formation, this model can use this ability during its unit's activation. This activation, models in this unit gain +2 to attack and damage rolls when making a melee attack targeting an enemy model in melee range of another model in this unit.</capacity>
-          <model id="Houseguard Halberdier Standard">
+          <model id="HOUSEGUARD HALBERDIER STANDARD">
             <basestats name="Houseguard Halberdier Standard" spd="6" str="5" mat="6" rat="4" def="13" arm="14" cmd="8" hitpoints="0" standard_bearer="true" />
           </model>
           <restricted_to id="RU07">

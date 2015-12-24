@@ -6,7 +6,7 @@
     <army faction="faction_cyriss" name="cyriss" version="forum_cyriss_002">
         <!-- 002 some typo corrections -->
       <warcasters>
-        <warcaster id="cocW01" name="Aurora" full_name="Aurora, Numen of Aerogenesis" generation="P" qualification="Convergence Warcaster" focus="7" warjack_points="6" fa="C" completed="true">
+        <warcaster id="COCW01" name="Aurora" full_name="Aurora, Numen of Aerogenesis" generation="P" qualification="Convergence Warcaster" focus="7" warjack_points="6" fa="C" completed="true">
           <basestats name="Aurora, Numen of Aerogenesis" spd="7" str="5" mat="6" rat="4" def="16" arm="15" cmd="9" hitpoints="16" />
           <weapons>
             <melee_weapon p_plus_s="12" pow="7" name="Polynomial Staff" count="1" reach="true" magical="true">
@@ -25,7 +25,7 @@
           <capacity title="FLANK [CLOCKWORK ANGELS]">When this model makes a melee attack against an enemy model within a melee range of a friendly model of type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
           <capacity title="FLIGHT">This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movement to move completely past them. This model ignores intervening models when declaring its charge target.</capacity>
         </warcaster>
-        <warcaster id="cocW02" name="Axis" full_name="Axis, the Harmonic Enforcer" generation="P" qualification="Convergence Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
+        <warcaster id="COCW02" name="Axis" full_name="Axis, the Harmonic Enforcer" generation="P" qualification="Convergence Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="Axis, the Harmonic Enforcer" spd="5" str="7" mat="7" rat="2" def="14" arm="17" cmd="8" hitpoints="18" />
           <weapons>
             <melee_weapon p_plus_s="14" pow="7" name="ACTION">
@@ -46,7 +46,7 @@
           <spell name="UNSTOPPABLE FORCE" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">While in this model's control area, models in its battlegroup gain Bulldoze. Unstoppable Force lasts for one turn. (When a model with Bulldoze advances into B2B contact with an enemy model during its activation, it can push that model up to 2" directly away from it. A model can be pushed by Bulldoze only once per activation. Bulldoze has no effect when a model makes a trample power attack.)</spell>
           <capacity title="FIELD MARSHAL [COUNTER CHARGE]">Models in this model's battlegroup gain Counter Charge. (When an enemy model advances and ends its movement within 6" of a model with Counter Charge and in its LOS, the model with Counter Charge can immediately charge it. If it does it cannot make another Counter Charge until after your next turn. A model cannot make a counter charge while engaged.)</capacity>
         </warcaster>
-        <warcaster id="cocW03" name="Iron Mother Directrix" full_name="Iron Mother Directrix &amp; Exponent Servitors" generation="P" qualification="Convergence Warcaster Unit" focus="8" warjack_points="4" fa="C" completed="true">
+        <warcaster id="COCW03" name="Iron Mother Directrix" full_name="Iron Mother Directrix &amp; Exponent Servitors" generation="P" qualification="Convergence Warcaster Unit" focus="8" warjack_points="4" fa="C" completed="true">
           <basestats name="Iron Mother Directrix" spd="6" str="7" mat="5" rat="5" def="15" arm="16" cmd="10" hitpoints="18" construct="true" officer="true" />
           <weapons>
             <melee_weapon p_plus_s="11" pow="4" name="Cloak of Blades" count="1" reach="true">
@@ -65,7 +65,7 @@
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
           <capacity title="REPAIRABLE">Other models can make Bodge or Repair special actions to repair this model as if it were a warjack.</capacity>
           <capacity title="WARCASTER UNIT">This unit is made up of Iron Mother Directrix and two Exponent Servitors.</capacity>
-          <model id="Exponent Servitor" name="Exponent Servitor" full_name="Exponent Servitor">
+          <model id="EXPONENT SERVITOR" name="Exponent Servitor" full_name="Exponent Servitor">
               <basestats name="Exponent Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true"/>
               <weapons>
                   <ranged_weapon rng="10" name="Aperture Beam" aoe="-" pow="-" rof="1">
@@ -75,7 +75,7 @@
               <capacity title="STEADY" >This model cannot be knocked down.</capacity>
           </model>
         </warcaster>
-        <warcaster id="cocW04" name="Lucant" full_name="Father Lucant, Divinity Architect" generation="P" qualification="Convergence Warcaster" focus="7" warjack_points="5" fa="C" completed="true">
+        <warcaster id="COCW04" name="Lucant" full_name="Father Lucant, Divinity Architect" generation="P" qualification="Convergence Warcaster" focus="7" warjack_points="5" fa="C" completed="true">
           <basestats name="Father Lucant, Divinity Architect" spd="6" str="9" mat="6" rat="3" def="14" arm="17" cmd="10" hitpoints="21" construct="true" pathfinder="true" />
           <weapons>
             <melee_weapon p_plus_s="16" pow="7" name="Apogee" count="1" reach="true" magical="true">
@@ -93,7 +93,7 @@
           <capacity title="REPAIRABLE">Other models can make Bodge or Repair special actions to repair this model as if it were a warjack.</capacity>
           <capacity title="STEADY">This model cannot be knocked down.</capacity>
         </warcaster>
-        <warcaster id="cocW05" name="Syntherion" full_name="Forge Master Syntherion" generation="P" qualification="Convergence Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
+        <warcaster id="COCW05" name="Syntherion" full_name="Forge Master Syntherion" generation="P" qualification="Convergence Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="Forge Master Syntherion" spd="5" str="9" mat="6" rat="5" def="13" arm="18" cmd="10" hitpoints="20" construct="true" pathfinder="true" />
           <weapons>
             <melee_weapon p_plus_s="14" pow="5" name="Workshop Array" count="2" />
@@ -113,7 +113,7 @@
         </warcaster>
       </warcasters>
       <warjacks>
-        <warjack id="cocJ01" name="Corollary" full_name="Corollary" damage_grid="xxxxxxxx..xxx....xM....MxMHHMxxxIIxx" cost="3" qualification="Convergence Light Vector" fa="1" completed="true">
+        <warjack id="COCJ01" name="Corollary" full_name="Corollary" damage_grid="xxxxxxxx..xxx....xM....MxMHHMxxxIIxx" cost="3" qualification="Convergence Light Vector" fa="1" completed="true">
           <basestats name="Corollary" spd="6" str="6" mat="0" rat="0" def="12" arm="15" cmd="0" pathfinder="true" />
           <weapons>
             <melee_weapon p_plus_s="6" pow="0" name="Bash" />
@@ -124,7 +124,7 @@
           <capacity title="FOCUS BATTERY">During the Maintenance Phase, do not remove unspent focus points from this model. Focus points remaining on this model at the start of your control phase count toward its focus allocation limit.</capacity>
           <capacity title="POWER TRANSFER"  type="*Action">RNG 5. Target friendly Faction warjack. If the warjack is in range, spend up to 3 focus points to allocate it 1 focus point for each focus point spent.</capacity>
         </warjack>
-        <warjack id="cocJ02" name="Diffuser" full_name="Diffuser" damage_grid="xx..xxxx..xxxx..xxx....xxHHHHxMMIIMM" cost="3" qualification="Convergence Light Vector" fa="U" completed="true">
+        <warjack id="COCJ02" name="Diffuser" full_name="Diffuser" damage_grid="xx..xxxx..xxxx..xxx....xxHHHHxMMIIMM" cost="3" qualification="Convergence Light Vector" fa="U" completed="true">
           <basestats name="Diffuser" spd="5" str="7" mat="0" rat="0" def="12" arm="16" cmd="0" />
           <weapons>
             <melee_weapon p_plus_s="7" pow="0" name="Bash"/>
@@ -135,7 +135,7 @@
           </weapons>
           <capacity title="CIRCULAR VISION">This model's front arc extends to 360°</capacity>
         </warjack>
-        <warjack id="cocJ03" name="Galvanizer" full_name="Galvanizer" damage_grid="xx..xxxx..xxxx..xxx....xxHHHHxMMIIMM" cost="3" qualification="Convergence Light Vector" fa="U" completed="true">
+        <warjack id="COCJ03" name="Galvanizer" full_name="Galvanizer" damage_grid="xx..xxxx..xxxx..xxx....xxHHHHxMMIIMM" cost="3" qualification="Convergence Light Vector" fa="U" completed="true">
           <basestats name="Galvanizer" spd="5" str="7" mat="0" rat="0" def="12" arm="16" cmd="0" />
           <weapons>
             <melee_weapon p_plus_s="12" pow="5" name="Metal Saw">
@@ -145,7 +145,7 @@
           <capacity title="CIRCULAR VISION">This model's front arc extends to 360°</capacity>
           <capacity title="REPAIR [9]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
         </warjack>
-        <warjack id="cocJ04" name="Mitigator" full_name="Mitigator" damage_grid="xx..xxxx..xxxx..xxx....xxHHHHxMMIIMM" cost="4" qualification="Convergence Light Vector" fa="U" completed="true">
+        <warjack id="COCJ04" name="Mitigator" full_name="Mitigator" damage_grid="xx..xxxx..xxxx..xxx....xxHHHHxMMIIMM" cost="4" qualification="Convergence Light Vector" fa="U" completed="true">
           <basestats name="Mitigator" spd="5" str="7" mat="0" rat="0" def="12" arm="16" cmd="0" />
           <weapons>
             <melee_weapon p_plus_s="7" pow="0" name="Bash" />
@@ -156,7 +156,7 @@
           </weapons>
           <capacity title="CIRCULAR VISION">This model's front arc extends to 360°</capacity>
         </warjack>
-        <warjack id="cocJ05" name="Assimilator" full_name="Assimilator" damage_grid="xx..xxx....x........LR..MLLRRMxMIIRx" cost="8" qualification="Convergence Heavy Vector" fa="U" completed="true">
+        <warjack id="COCJ05" name="Assimilator" full_name="Assimilator" damage_grid="xx..xxx....x........LR..MLLRRMxMIIRx" cost="8" qualification="Convergence Heavy Vector" fa="U" completed="true">
           <basestats name="Assimilator" spd="5" str="10" mat="0" rat="0" def="11" arm="18" cmd="0" pathfinder="true"/>
           <weapons>
             <melee_weapon p_plus_s="14" pow="4" name="Rending Claw" open_fist="true" weapon_master="true">
@@ -167,7 +167,7 @@
             </ranged_weapon>
           </weapons>
         </warjack>
-        <warjack id="cocJ06" name="Cipher" full_name="Cipher" damage_grid="x....xx....x........LR...LLRR.MMIIMM" cost="9" qualification="Convergence Heavy Vector" fa="U" completed="true">
+        <warjack id="COCJ06" name="Cipher" full_name="Cipher" damage_grid="x....xx....x........LR...LLRR.MMIIMM" cost="9" qualification="Convergence Heavy Vector" fa="U" completed="true">
           <basestats name="Cipher" spd="4" str="12" mat="0" rat="0" def="10" arm="19" cmd="0" />
           <weapons>
             <melee_weapon p_plus_s="18" pow="6" name="Piston Spike" location="R" />
@@ -182,7 +182,7 @@
           <capacity title="● FLARE">Models hit by this attack suffer -2 DEF for one round.</capacity>
           <capacity title="STEADY">This model cannot be knocked down.</capacity>
         </warjack>
-        <warjack id="cocJ07" name="Conservator" full_name="Conservator" damage_grid="xx..xxx....x........LR..MLLRRMxMIIRx" cost="7" qualification="Convergence Heavy Vector" fa="U" completed="true">
+        <warjack id="COCJ07" name="Conservator" full_name="Conservator" damage_grid="xx..xxx....x........LR..MLLRRMxMIIRx" cost="7" qualification="Convergence Heavy Vector" fa="U" completed="true">
           <basestats name="Conservator" spd="5" str="10" mat="0" rat="0" def="11" arm="18" cmd="0" pathfinder="true" />
           <weapons>
             <melee_weapon p_plus_s="15" pow="5" name="Balator Blade" location="R" buckler="true" open_fist="true">
@@ -193,7 +193,7 @@
           <capacity title="HAND OF VENGEANCE">When one or more friendly faction warrior models are destroyed or removed from play by enemy attacks while within 5" of this model, this model gains +2 on attack and damage rolls for one round.</capacity>
           <capacity title="SHIELD GUARD">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity> <!-- errata 12-2013 -->
         </warjack>
-        <warjack id="cocJ08" name="Inverter" full_name="Inverter" damage_grid="x....xx....x........LR...LLRR.MMIIMM" cost="8" qualification="Convergence Heavy Vector" fa="U" completed="true">
+        <warjack id="COCJ08" name="Inverter" full_name="Inverter" damage_grid="x....xx....x........LR...LLRR.MMIIMM" cost="8" qualification="Convergence Heavy Vector" fa="U" completed="true">
           <basestats name="Inverter" spd="4" str="12" mat="0" rat="0" def="10" arm="19" cmd="0" />
           <weapons>
             <melee_weapon p_plus_s="17" pow="5" name="Meteor Hammer" location="L" reach="true" chain="true">
@@ -205,7 +205,7 @@
             </melee_weapon>
           </weapons>
         </warjack>
-        <warjack id="cocJ09" name="Modulator" full_name="Modulator" damage_grid="xx..xxx....x........LR..MLLRRMxMIIRx" cost="6" qualification="Convergence Heavy Vector" fa="U" completed="true">
+        <warjack id="COCJ09" name="Modulator" full_name="Modulator" damage_grid="xx..xxx....x........LR..MLLRRMxMIIRx" cost="6" qualification="Convergence Heavy Vector" fa="U" completed="true">
           <basestats name="Modulator" spd="5" str="10" mat="0" rat="0" def="11" arm="18" cmd="0" pathfinder="true" immunity_electricity="true"/>
           <weapons>
             <ranged_weapon rng="11" name="Emitter Surge" aoe="-" pow="10" rof="1" electricity="true" location="R">
@@ -219,7 +219,7 @@
           </weapons>
           <capacity title="PLASMA NIMBUS">If this model is hit by a melee attack, immediately after the attack is resolved the attacking model suffers a POW 10 electrical damage roll unless this model was destroyed or removed from play by the attack.</capacity>
         </warjack>
-        <warjack id="cocJ10" name="Monitor" full_name="Monitor" damage_grid="x....xx....x........LR...LLRR.MMIIMM" cost="8" qualification="Convergence Heavy Vector" fa="U" completed="true">
+        <warjack id="COCJ10" name="Monitor" full_name="Monitor" damage_grid="x....xx....x........LR...LLRR.MMIIMM" cost="8" qualification="Convergence Heavy Vector" fa="U" completed="true">
           <basestats name="Monitor" spd="4" str="12" mat="0" rat="0" def="10" arm="19" cmd="0" />
           <weapons>
             <ranged_weapon rng="13" name="Ellipsaw Flinger" aoe="-" pow="13" rof="1" location="R">
@@ -234,7 +234,7 @@
         </warjack>
       </warjacks>
       <colossals>
-        <colossal id="cocJ11" name="Prime Axiom" full_name="Prime Axiom" damage_grid_left="xx....xx....xx..SSX.LLSILLIIIIMMMMMI" damage_grid_right="....xx....xxSS..xxISRR.xIIIIRRIMMMMM" cost="19" qualification="Convergence Colossal" fa="2" completed="true">
+        <colossal id="COCJ11" name="Prime Axiom" full_name="Prime Axiom" damage_grid_left="xx....xx....xx..SSX.LLSILLIIIIMMMMMI" damage_grid_right="....xx....xxSS..xxISRR.xIIIIRRIMMMMM" cost="19" qualification="Convergence Colossal" fa="2" completed="true">
           <basestats name="Prime Axiom" spd="5" str="16" mat="0" rat="0" def="7" arm="20" cmd="0" />
           <weapons>
             <ranged_weapon rng="13" name="Accelespiker" aoe="-" pow="11" rof="2" location="S">
@@ -259,7 +259,7 @@
         </colossal>
       </colossals>
       <battleEngines>
-        <battleEngine id="cocE01" name="Transinfinite Emergence Projector &amp; Permutation Servitors" full_name="Transinfinite Emergence Projector &amp; Permutation Servitors" cost="9" qualification="Convergence Battle engine" fa="2" completed="true">
+        <battleEngine id="COCE01" name="Transinfinite Emergence Projector &amp; Permutation Servitors" full_name="Transinfinite Emergence Projector &amp; Permutation Servitors" cost="9" qualification="Convergence Battle engine" fa="2" completed="true">
           <basestats name="Transinfinite Emergence Projector" spd="5" str="10" mat="0" rat="4" def="10" arm="19" cmd="10" hitpoints="20" construct="true" pathfinder="true"/>
           <weapons>
             <ranged_weapon rng="SP10" name="Aperture Pulse" aoe="-" pow="10" location="-" rof="1">
@@ -271,7 +271,7 @@
           <capacity title="SACRIFICIAL PAWN [PERMUTATION SERVITORS]">When this model is directly hit by a ranged attack, you can choose to have one friendly, non-incorporeal Permutation model within 3" of this model be directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
           <capacity title="SERVITOR SATELLITES">At the start of this model's activation, remove any permutation Servitors this model put into play from the table. Once per activation, after its normal movement, this model can place up to 3 Permutation Servitors anywhere within 1" of this model.</capacity>
           <capacity title="STEADY">This model cannot be knocked down.</capacity>
-          <model id="Permutation Servitors" name="Permutation Servitors" full_name="Permutation Servitors">
+          <model id="PERMUTATION SERVITORS" name="Permutation Servitors" full_name="Permutation Servitors">
             <basestats name="Permutation Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true"/>
               <capacity title="ORBIT">This model does not begin the game in play and does not activate. This model cannot be hit by attacks made by the model that put it into play. If the model that put this model into play is destroyed or removed from play, remove this model from play.</capacity>
               <capacity title="STEADY">This model cannot be knocked down.</capacity>
@@ -279,7 +279,7 @@
         </battleEngine>
       </battleEngines>
       <units>
-        <unit id="cocU01" name="Clockwork Angels" full_name="Clockwork Angels" base_cost="3" baseCount="3" full_cost="-" fullCount="-" qualification="Convergence Unit" fa="3" completed="true">
+        <unit id="COCU01" name="Clockwork Angels" full_name="Clockwork Angels" base_cost="3" baseCount="3" full_cost="-" fullCount="-" qualification="Convergence Unit" fa="3" completed="true">
           <basestats name="Leader &amp; Grunts" spd="7" str="5" mat="6" rat="5" def="14" arm="12" cmd="7" construct="true" advance_deployment="true" cra="true"/>
           <weapons>
             <ranged_weapon rng="10" name="Binomial Beam" aoe="-" rof="1" pow="10" magical="true" />
@@ -292,7 +292,7 @@
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
           <capacity title="REFORM">After all models in this unit have completed their actions, each can advance up to 3".</capacity>
         </unit>
-        <unit id="cocU02" name="Obstructors" full_name="Obstructors" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Convergence Unit" fa="3" completed="true">
+        <unit id="COCU02" name="Obstructors" full_name="Obstructors" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Convergence Unit" fa="3" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="7" mat="6" rat="5" def="12" arm="14" cmd="7" construct="true" />
           <weapons>
             <melee_weapon p_plus_s="11" pow="4" name="Teleflail" reach="true" chain="true">
@@ -302,7 +302,7 @@
           <capacity title="SHIELD WALL" type="Order">For one round, each affected model gains a +4 ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
         </unit>
-        <unit id="cocU03" name="Reductors" full_name="Reductors" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Convergence Unit" fa="3" completed="true">
+        <unit id="COCU03" name="Reductors" full_name="Reductors" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Convergence Unit" fa="3" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="7" mat="6" rat="5" def="12" arm="14" cmd="7" construct="true" />
           <weapons>
             <melee_weapon p_plus_s="10" pow="3" name="Retractable Blade" />
@@ -311,7 +311,7 @@
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
           <capacity title="CLEAR!">Ranged attacks against friendly models made by a model with Clear! automatically miss.</capacity>
         </unit>
-        <unit id="cocU04" name="Eradicators" full_name="Eradicators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true">
+        <unit id="COCU04" name="Eradicators" full_name="Eradicators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="15" cmd="7" construct="true" hitpoints="8" />
           <weapons>
             <melee_weapon p_plus_s="12" pow="4" name="Protean Buckler" count="2" />
@@ -323,7 +323,7 @@
           <capacity title="● ACCURACY">This weapon gains +2 on its attack rolls.</capacity>
           <capacity title="● SHIELDS UP">This weapon gains BUCKLER.</capacity>
         </unit>
-        <unit id="cocU05" name="Optifex Directive" full_name="Optifex Directive" base_cost="2" baseCount="3" full_cost="-" fullCount="-" qualification="Convergence Unit" fa="U" completed="true">
+        <unit id="COCU05" name="Optifex Directive" full_name="Optifex Directive" base_cost="2" baseCount="3" full_cost="-" fullCount="-" qualification="Convergence Unit" fa="U" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="5" mat="5" rat="4" def="13" arm="12" cmd="8" />
           <weapons>
             <melee_weapon p_plus_s="8" pow="3" name="Tuning Kit" />
@@ -333,7 +333,7 @@
           <capacity title="REPAIR [8]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
           <capacity title="WEAPONS MODULATION" type="*Action">This model can make this special action only when B2B with a friendly Faction model with Construct. The construct's weapons gain Magical Weapon for one round.</capacity>
         </unit>
-        <unit id="cocU06" name="Reciprocators" full_name="Reciprocators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true">
+        <unit id="COCU06" name="Reciprocators" full_name="Reciprocators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="16" cmd="7" construct="true" hitpoints="8"/>
           <weapons>
             <melee_weapon p_plus_s="12" pow="4" name="Protean Polearm" reach="true"/>
@@ -345,7 +345,7 @@
           <capacity title="● EMPOWERED ATTACK">This weapon gains +2 on its damage rolls.</capacity>
           <capacity title="● SET DEFENSE">A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model .</capacity>
         </unit>
-        <unit id="cocU07" name="Perforators" full_name="Perforators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true">
+        <unit id="COCU07" name="Perforators" full_name="Perforators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="15" cmd="7" construct="true" hitpoints="8" />
           <weapons>
             <melee_weapon p_plus_s="12" pow="4" name="Gear Blade" />
@@ -362,7 +362,7 @@
         </unit>
       </units>
       <solos>
-        <solo id="cocS01" name="Accretion Servitors" full_name="Accretion Servitors" cost="1" qualification="Convergence Solo" fa="3" completed="true">
+        <solo id="COCS01" name="Accretion Servitors" full_name="Accretion Servitors" cost="1" qualification="Convergence Solo" fa="3" completed="true">
           <basestats name="Accretion Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true" />
           <weapons />
           <capacity title="BODGE" type="*Action">This model performs minor repairs to one damaged friendly Faction warjack with which it is B2B. Remove 1 damage point from the warjack.</capacity>
@@ -370,13 +370,13 @@
           <capacity title="STRIP" type="*Action">This model can make this special action when B2B with an enemy Warjack. The warjack suffers 1 damage to the column of your choice.</capacity>
           <capacity title="MODEL COUNT">3 models</capacity>
         </solo>
-        <solo id="cocS02" name="Algorithmic Dispersion Optifex" full_name="Algorithmic Dispersion Optifex" cost="1" qualification="Convergence Solo" fa="4" completed="true">
+        <solo id="COCS02" name="Algorithmic Dispersion Optifex" full_name="Algorithmic Dispersion Optifex" cost="1" qualification="Convergence Solo" fa="4" completed="true">
           <basestats name="Algorithmic Dispersion Optifex" spd="5" str="5" mat="5" rat="4" def="13" arm="12" cmd="8" hitpoints="5" />
           <weapons />
           <capacity title="IRON SENTINEL">While B2B with a friendly Faction warjack, this model gains +2 DEF and ARM and cannot be knocked down.</capacity>
           <capacity title="SUBHARMONIC TUNING">While this model is within 6" of a friendly Faction warjack, and is in a friendly Faction warcaster's control area, the warcaster can channel spells through this model.</capacity>
         </solo>
-        <solo id="cocS03" name="Attunement Servitors" full_name="Attunement Servitors" cost="2" qualification="Convergence Solo" fa="3" completed="true">
+        <solo id="COCS03" name="Attunement Servitors" full_name="Attunement Servitors" cost="2" qualification="Convergence Solo" fa="3" completed="true">
           <basestats name="Attunement Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true" />
           <weapons>
             <ranged_weapon rng="7" name="Lumichem Ampule" aoe="4" rof="1" pow="-">
@@ -386,7 +386,7 @@
           <capacity title="STEADY">This model cannot be knocked down.</capacity>
           <capacity title="MODEL COUNT">3 models</capacity>
         </solo>
-        <solo id="cocS04" name="Elimination Servitors" full_name="Elimination Servitors" cost="2" qualification="Convergence Solo" fa="3" completed="true">
+        <solo id="COCS04" name="Elimination Servitors" full_name="Elimination Servitors" cost="2" qualification="Convergence Solo" fa="3" completed="true">
           <basestats name="Elimination Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true" gunfighter="true"/>
           <weapons>
             <ranged_weapon rng="9" name="Spike Ejector" aoe="-" rof="1" pow="-">
@@ -396,7 +396,7 @@
           <capacity title="STEADY">This model cannot be knocked down.</capacity>
           <capacity title="MODEL COUNT">3 models</capacity>
         </solo>
-        <solo id="cocS05" name="Enigma Foundry" full_name="Enigma Foundry" cost="3" qualification="Convergence Solo" fa="2" completed="true">
+        <solo id="COCS05" name="Enigma Foundry" full_name="Enigma Foundry" cost="3" qualification="Convergence Solo" fa="2" completed="true">
           <basestats name="Enigma Foundry" spd="5" str="8" mat="0" rat="0" def="10" arm="18" cmd="10" construct="true" pathfinder="true" hitpoints="10" />
           <weapons />
           <capacity title="CONVOCATION">This model gains one soul token for each friendly living Faction warrior model destroyed in its command range by a continuous effect, an enemy attack, or collateral damage of an enemy attack. This model can have up to three soul tokens at a time.</capacity>
@@ -405,7 +405,7 @@
           <capacity title="REPAIR [10]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
           <capacity title="RECONSTRUCTION" type="*Action">Remove one soul token from this model to retuen one destroyed medium-based friendly Faction Clockwork Vessel Grunt to play or remove up tp three soul tokens from this model to returnone destroyed small-based friendly Faction Clockwork Vessel Grunt to play per token removed. Each Grunt must be placed within 1" of this model, in formation and within 3" of another model in its unit.</capacity>
         </solo>
-        <solo id="cocS06" name="Steelsoul Protector" full_name="Steelsoul Protector" cost="2" qualification="Convergence Solo" fa="3" completed="true">
+        <solo id="COCS06" name="Steelsoul Protector" full_name="Steelsoul Protector" cost="2" qualification="Convergence Solo" fa="3" completed="true">
           <basestats name="Steelsoul Protector" spd="5" str="8" mat="6" rat="5" def="12" arm="17" cmd="7" construct="true" hitpoints="8" />
           <weapons>
             <melee_weapon p_plus_s="12" pow="4" name="Iron Glaive" reach="true" />
@@ -415,7 +415,7 @@
           <capacity title="SHIELD GUARD">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity> <!-- errata 12-2013 -->
           <capacity title="DEFENSIVE STRIKE">Once per turn, when an enemy model advances into and ends its movement in this model's melee range, this model can immediately make one normal melee attack against it.</capacity>
         </solo>
-        <solo id="cocS07" name="Reflex Servitors" full_name="Reflex Servitors" cost="2" qualification="Convergence Solo" fa="3" completed="true">
+        <solo id="COCS07" name="Reflex Servitors" full_name="Reflex Servitors" cost="2" qualification="Convergence Solo" fa="3" completed="true">
           <basestats name="Reflex Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true" advance_deployment="true"/>
           <weapons>
             <melee_weapon p_plus_s="0" pow="0" name="Probability Mine">
@@ -427,7 +427,7 @@
           <capacity title="COUNTER CHARGE">When an enemy model advances and ends its movement within 6" of this model and in its LOS, this model can immediately charge it. If it does, it cannot make another Counter Charge until after your next turn. This model cannot make a counter charge while engaged</capacity>
           <capacity title="MODEL COUNT">3 models</capacity>
         </solo>
-        <solo id="cocA01" name="Transverse Enumerator" full_name="Transverse Enumerator" fa="3" cost="2" qualification="Convergence Unit attachment" unit_attachment="true" completed="true">
+        <solo id="COCA01" name="Transverse Enumerator" full_name="Transverse Enumerator" fa="3" cost="2" qualification="Convergence Unit attachment" unit_attachment="true" completed="true">
           <basestats name="Transverse Enumerator" spd="6" str="5" mat="6" rat="5" def="13" arm="13" cmd="9" hitpoints="5" fearless="true" officer="true" />
           <weapons>
             <melee_weapon p_plus_s="10" pow="5" name="Tuning Staff" reach="true" />
@@ -440,13 +440,13 @@
           <capacity title="REALIGNMENT">Once per game during its unit's activation, this model can use Realignment. Models in the unit can reroll failed attack rolls and skill checks this turn. Each roll can be rerolled only once as a result of Realignment.</capacity>
           <capacity title="REPAIR [9]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
           <capacity title="TACTICS: RANKED ATTACKS">Models in this unit gain Ranked Attacks.(Friendly Faction models can ignore models with Ranked Attacks when determining LOS.)</capacity>
-          <restricted_to id="cocU01" />
-          <restricted_to id="cocU02" />
-          <restricted_to id="cocU03" />
-          <restricted_to id="cocU04" />
-          <restricted_to id="cocU05" />
-          <restricted_to id="cocU06" />
-          <restricted_to id="cocU07" />
+          <restricted_to id="COCU01" />
+          <restricted_to id="COCU02" />
+          <restricted_to id="COCU03" />
+          <restricted_to id="COCU04" />
+          <restricted_to id="COCU05" />
+          <restricted_to id="COCU06" />
+          <restricted_to id="COCU07" />
         </solo>
       </solos>
     </army>
