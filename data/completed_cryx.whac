@@ -826,15 +826,15 @@
           <capacity title="PSYCHIC ASSAULT" type="*Attack">Psychic Assault is a RNG SP8 magic attack. This attack ignores LOS. Models hit suffer a POW 12 damage roll.</capacity>
           <capacity title="SACRIFICIAL PAWN [DRUDGE GRUNT]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Drudge Grunt model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
         </unit>
-        <unit id="CU03" name="Mecanithralls" full_name="Mecanithralls" qualification="CRYX UNIT" fa="3" base_cost="3" full_cost="5" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="true" completed="true">
+        <unit id="CU03" name="Mechanithralls" full_name="Mechanithralls" qualification="CRYX UNIT" fa="3" base_cost="3" full_cost="5" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="true" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="7" mat="5" rat="4" def="12" arm="12" cmd="6" undead="true" />
           <weapons>
             <melee_weapon name="Steamfist" pow="4" p_plus_s="11" count="2">
               <capacity title="COMBO STRIKE" type="*Attack">Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model's STR plus twice the POW of this weapon.</capacity>
             </melee_weapon>
           </weapons>
-          <weapon_attachment id="CA02" name="Brute Thrall" full_name="Brute Thrall" qualification="CRYX MECANITHRALL UNIT ATTACHMENT" fa="3" cost="1" max_wa="3" completed="true">
-            <model id="BRUTE_THRALL" name="Brute Thrall" full_name="Brute Thrall" qualification="CRYX MECANITHRALL UNIT ATTACHMENT">
+          <weapon_attachment id="CA02" name="Brute Thrall" full_name="Brute Thrall" qualification="CRYX MECHANITHRALL UNIT ATTACHMENT" fa="3" cost="1" max_wa="3" completed="true">
+            <model id="BRUTE_THRALL" name="Brute Thrall" full_name="Brute Thrall" qualification="CRYX MECHANITHRALL UNIT ATTACHMENT">
               <basestats name="Brute Thrall" spd="6" str="9" mat="6" rat="4" def="12" arm="14" cmd="5" undead="true" hitpoints="8" />
               <weapons>
                 <melee_weapon name="Heavy Steamfist" pow="5" p_plus_s="14" count="2">
@@ -1203,7 +1203,7 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <weapons>
               <melee_weapon p_plus_s="10" pow="6" name="Fell Spear" magical="true" reach="true"></melee_weapon>
           </weapons>
-          <capacity title="ATTACHMENT [MECANITHRALL OR BILE THRALL]">This attachment can be added to a Mecanithrall or Bile Thrall unit.</capacity>
+          <capacity title="ATTACHMENT [MECHANITHRALL OR BILE THRALL]">This attachment can be added to a Mechanithrall or Bile Thrall unit.</capacity>
           <capacity title="BATTLE WIZARD">Once per turn, when this model destroys one or more enemy models with a melee attack during its activation, immediately after the attack is resolved it can make one Magic Ability special attack or special action.</capacity>
           <capacity title="MAGIC ABILITY [6]"></capacity>
           <capacity title="* DARK FIRE" type="*Attack">Dark fire is a RNG 10, POW 12 magic attack. When a living model is destroyed by Dark Fire, this model gains its soul token regardless of the proximity of other models.</capacity>
