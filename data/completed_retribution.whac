@@ -4,9 +4,9 @@
          xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
   <armies>
     <army faction="faction_retribution" name="retribution" version="forum_retribution_004">
-        <!-- 002 thyron, helios, electromancers, arcanist (force wall) -->
-        <!-- 003 august 2015 errata (thyron blades of vengeance) -->
-        <!-- 004 ground zero for thyron -->
+      <!-- 002 thyron, helios, electromancers, arcanist (force wall) -->
+      <!-- 003 august 2015 errata (thyron blades of vengeance) -->
+      <!-- 004 ground zero for thyron -->
       <warcasters>
         <!--Adeptis Rahn1 complete-->
         <warcaster id="RW01" name="Rahn1" full_name="Adeptis Rahn" generation="P" qualification="Retribution Warcaster" focus="8" warjack_points="6" fa="C" completed="true" generation_id="Rahn">
@@ -190,16 +190,16 @@
         <warcaster id="RW08" name="Thyron" full_name="Thyron, Sword of Truth" generation="P" qualification="Retribution Warcaster" focus="6" warjack_points="5" fa="C" completed="true">
           <basestats name="Thyron" spd="6" str="7" mat="7" rat="5" def="15" arm="16" cmd="9" hitpoints="18" />
           <weapons>
-              <melee_weapon name="Remembrance" pow="6" p_plus_s="13" magical="true" reach="true" weapon_master="true">
-              </melee_weapon>
+            <melee_weapon name="Remembrance" pow="6" p_plus_s="13" magical="true" reach="true" weapon_master="true">
+            </melee_weapon>
           </weapons>
           <feat title="BLADES OF VENGEANCE">Thyron and friendly Faction models beginning their activations in Thyron's control area gain an additional die on melee attack rolls and Side Step. (When a model with Side Step hits an enemy model with an initial melee attack or a melee special attack that is not a power attack, it can advance up to 2" after the attack is resolved. A model with Side Step cannot be targeted by free strikes during this movement.) Blades of Vengeance lasts for one turn.</feat>
 
           <spell name="ASSAIL" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction warjack can charge or make slam or trample power attacks without spending focus. The warjack gains +2" movement when it charges or makes a slam or trample power attack. Models slammed by the warjack are moved +2".</spell>
           <spell name="GROUND ZERO" cost="3" rng="SELF" aoe="5" pow="13" up="NO" off="NO">Center a 5" AOE on this model. Each other model in the AOE is hit and suffers a POW 13 damage roll. Each enemy model damaged by Ground Zero is pushed d6" directly away from this model in the order you choose.</spell>
-            <spell name="ONSLAUGHT" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Friendly Faction models beginning a charge in this model's control area gain Pathfinder during the charge.</spell>
-            <spell name="SPELLPIERCER" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While within this model's control area, friendly Faction model/units' weapons gain Magical Weapon and Blessed. Spellpiercer lasts for one round. (When making an attack with a weapon with Blessed, ignore spell effects that add to a model's ARM or DEF.)</spell>
-            <spell name="STORM RAGER" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly warrior model gains +2 STR, MAT, and ARM and cannot be targeted by combined ranged attacks or combined melee attacks.</spell>
+          <spell name="ONSLAUGHT" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Friendly Faction models beginning a charge in this model's control area gain Pathfinder during the charge.</spell>
+          <spell name="SPELLPIERCER" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While within this model's control area, friendly Faction model/units' weapons gain Magical Weapon and Blessed. Spellpiercer lasts for one round. (When making an attack with a weapon with Blessed, ignore spell effects that add to a model's ARM or DEF.)</spell>
+          <spell name="STORM RAGER" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly warrior model gains +2 STR, MAT, and ARM and cannot be targeted by combined ranged attacks or combined melee attacks.</spell>
 
           <capacity title="BLADE SHIELD">This model gains +2 DEF against ranged attack rolls.</capacity>
           <capacity title="FIELD MARSHAL [CLEAVE]">Models in this model's battlegroup gain Cleave. (When a model with Cleave destroys one or more enemy models with a melee attack during its activation, immediately after the attack is resolved the model can make one additional melee attack. The model can gain only one additional attack from Cleave each activation.)</capacity>
@@ -382,9 +382,9 @@
         <warjack id="RJ14" name="Imperatus" full_name="Imperatus" damage_grid="12-xxxxxxxx..xxx....x.L..R.LLMCRRxMMCCx" cost="12" qualification="Retribution Heavy Character Warjack" is_myrmidon="true" fa="C" completed="true">
           <basestats name="Imperatus" spd="6" str="10" mat="7" rat="6" def="13" arm="18" cmd="0" />
           <weapons>
-              <melee_weapon p_plus_s="17" pow="7" name="Thermal Blade" location="R"></melee_weapon>
-              <melee_weapon p_plus_s="17" pow="7" name="Thermal Blade" location="L"></melee_weapon>
-              <ranged_weapon pow="14" aoe="-" rng="10" rof="1" name="Halation Cannon"></ranged_weapon>
+            <melee_weapon p_plus_s="17" pow="7" name="Thermal Blade" location="R"></melee_weapon>
+            <melee_weapon p_plus_s="17" pow="7" name="Thermal Blade" location="L"></melee_weapon>
+            <ranged_weapon pow="14" aoe="-" rng="10" rof="1" name="Halation Cannon"></ranged_weapon>
           </weapons>
           <capacity title="FIELD DEPENDENT">While its Field Generator system is crippled, this model loses the Phoenix Field Ability and cannot attack with the Halation Cannon</capacity>
           <capacity title="PHOENIX FIELD">Remove d6 damage points from this model's force field after resolving continuous effects during your Maintenance Phase.</capacity>
@@ -394,15 +394,15 @@
         <warjack id="RJ15" name="Moros" full_name="Moros" damage_grid="6-xxxxxxxxxxxxx....x.LGGR.LLMCRRxMMCCx" cost="6" qualification="Retribution Character Light Myrmidon" fa="C" is_myrmidon="true" completed="true">
           <basestats name="Moros" spd="6" str="8" mat="7" rat="6" def="12" arm="16" cmd="0" stealth="true"/>
           <weapons>
-              <melee_weapon p_plus_s="13" pow="5" name="Blade" location="R">
-                  <capacity title="GRIEVOUS WOUNDS">When a model is hit by this weapon, for one round it loses Tough, cannot heal or be healed, and cannot transfer damage.</capacity>
-              </melee_weapon>
-              <melee_weapon p_plus_s="13" pow="5" name="Blade" location="L">
-                  <capacity title="GRIEVOUS WOUNDS">See above.</capacity>
-              </melee_weapon>
-              <ranged_weapon pow="12" aoe="-" rng="8" rof="1" name="Death Shadow" magical="true">
-                  <capacity title="PARALYSIS">A living model hit by this weapon has its base DEF reduced to 7 and cannot run or charge. Paralysis lasts for one round.</capacity>
-              </ranged_weapon>
+            <melee_weapon p_plus_s="13" pow="5" name="Blade" location="R">
+              <capacity title="GRIEVOUS WOUNDS">When a model is hit by this weapon, for one round it loses Tough, cannot heal or be healed, and cannot transfer damage.</capacity>
+            </melee_weapon>
+            <melee_weapon p_plus_s="13" pow="5" name="Blade" location="L">
+              <capacity title="GRIEVOUS WOUNDS">See above.</capacity>
+            </melee_weapon>
+            <ranged_weapon pow="12" aoe="-" rng="8" rof="1" name="Death Shadow" magical="true">
+              <capacity title="PARALYSIS">A living model hit by this weapon has its base DEF reduced to 7 and cannot run or charge. Paralysis lasts for one round.</capacity>
+            </ranged_weapon>
           </weapons>
           <capacity title="AFFINITY [GARRYTH]">While Moros is in Garryth's control area, it gains Apparition. (During your Control Phase, place models with Apparition anywhere completely within 2" of their current location. Only models in formation can be placed.)</capacity>
           <capacity title="DUELIST">This model gains +2DEF against melee attack rolls.</capacity>
@@ -431,25 +431,25 @@
         </colossal>
         <colossal id="RJ16" name="Helios" full_name="Helios" damage_grid_left="xxxxxxxxx...x..GGG.LLGCCLLCCCCLCMMMM" damage_grid_right="xxxxxx...xxxGGG..xCCGRR.CCCCRRMMMMCR" cost="17" qualification="Heavy Warjack" fa="2" is_myrmidon="true" force_field="12" completed="true">
           <basestats name="Helios" spd="5" str="16" mat="6" rat="5" def="10" arm="19" cmd="0" immunity_fire="true"/>
-            <weapons>
-                <melee_weapon p_plus_s="20" pow="4" name="Inferno Fist" location="L" open_fist="true" continuous_fire="true">
-                    <capacity title="FLAME BURST">When this model boxes an enemy model with this weapon, enemy models within 1" of the boxed model suffer the Fire continuous effect.</capacity>
-                </melee_weapon>
-                <melee_weapon p_plus_s="20" pow="4" name="Inferno Fist" location="R" open_fist="true" continuous_fire="true">
-                    <capacity title="FLAME BURST">When this model boxes an enemy model with this weapon, enemy models within 1" of the boxed model suffer the Fire continuous effect.</capacity>
-                </melee_weapon>
-                <ranged_weapon rng="12" name="Tractor Beam" aoe="-" pow="-" rof="1">
-                    <capacity title="FORCE GRIP">An enemy model hit by this weapon can be pushed up to 3" in any direction</capacity>
-                    <capacity title="RAPID SHOT [3]">This model can make 3 initial attacks with this weapon during its combat action, ignoring ROF.</capacity>
-                </ranged_weapon>
-            </weapons>
-            <capacity title="FIELD DEPENDENT">While its Field Generator system is crippled, this model loses Force Barrier and Force Gate and cannot make Tractor Beam attacks.</capacity>
-            <capacity title="FORCE BARRIER">This model gains +2 DEF against ranged attack rolls and does not suffer blast damage.</capacity>
-            <capacity title="FORCE GATE">During its activation, this model can spend focus to gain abilities. It gains one ability per focus point spent. Force Gate abilities last for one round.</capacity>
-            <capacity title="● BROADCAST POWER">Allocate 1 focus point to each friendly myrmidon within 3" of this model. A myrmidon can be allocated only 1 focus point per round as a result of Broadcast Power.</capacity>
-            <capacity title="● DISTORTION FIELD">This model gains +2 DEF and Poltergeist. (When an enemy model misses a model with Poltergeist with an attack, immediately after the attack is resolved you can choose to push the enemy model d3" directly away from the model with Poltergeist.)</capacity>
-            <capacity title="● REPULSOR FIELD">When this model is hit with a melee attack, after the attack is resolved the attacking model is pushed 1" directly away from this model.</capacity>
-            <capacity title="VIRTUOSO">This model can make melee and ranged attack during the same combat action. When this model makes its initial attacks, it can make both its initial ranged and melee attacks.</capacity>
+          <weapons>
+            <melee_weapon p_plus_s="20" pow="4" name="Inferno Fist" location="L" open_fist="true" continuous_fire="true">
+              <capacity title="FLAME BURST">When this model boxes an enemy model with this weapon, enemy models within 1" of the boxed model suffer the Fire continuous effect.</capacity>
+            </melee_weapon>
+            <melee_weapon p_plus_s="20" pow="4" name="Inferno Fist" location="R" open_fist="true" continuous_fire="true">
+              <capacity title="FLAME BURST">When this model boxes an enemy model with this weapon, enemy models within 1" of the boxed model suffer the Fire continuous effect.</capacity>
+            </melee_weapon>
+            <ranged_weapon rng="12" name="Tractor Beam" aoe="-" pow="-" rof="1">
+              <capacity title="FORCE GRIP">An enemy model hit by this weapon can be pushed up to 3" in any direction</capacity>
+              <capacity title="RAPID SHOT [3]">This model can make 3 initial attacks with this weapon during its combat action, ignoring ROF.</capacity>
+            </ranged_weapon>
+          </weapons>
+          <capacity title="FIELD DEPENDENT">While its Field Generator system is crippled, this model loses Force Barrier and Force Gate and cannot make Tractor Beam attacks.</capacity>
+          <capacity title="FORCE BARRIER">This model gains +2 DEF against ranged attack rolls and does not suffer blast damage.</capacity>
+          <capacity title="FORCE GATE">During its activation, this model can spend focus to gain abilities. It gains one ability per focus point spent. Force Gate abilities last for one round.</capacity>
+          <capacity title="● BROADCAST POWER">Allocate 1 focus point to each friendly myrmidon within 3" of this model. A myrmidon can be allocated only 1 focus point per round as a result of Broadcast Power.</capacity>
+          <capacity title="● DISTORTION FIELD">This model gains +2 DEF and Poltergeist. (When an enemy model misses a model with Poltergeist with an attack, immediately after the attack is resolved you can choose to push the enemy model d3" directly away from the model with Poltergeist.)</capacity>
+          <capacity title="● REPULSOR FIELD">When this model is hit with a melee attack, after the attack is resolved the attacking model is pushed 1" directly away from this model.</capacity>
+          <capacity title="VIRTUOSO">This model can make melee and ranged attack during the same combat action. When this model makes its initial attacks, it can make both its initial ranged and melee attacks.</capacity>
         </colossal>
 
 
@@ -479,6 +479,22 @@
           </weapons>
           <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM.</capacity>
           <capacity title="FLANK [FACTION WARJACK]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
+          <unit_attachment id="RA01" name="Dawnguard Invictor Officer &amp; Standard" full_name="Dawnguard Invictor Officer &amp; Standard" fa="1" cost="2" qualification="Retribution Dawnguard Unit Attachment" unit_attachment="true" completed="true">
+            <basestats name="Dawnguard Invictor Officer" spd="5" str="6" mat="8" rat="7" def="12" arm="15" cmd="10" hitpoints="5" officer="true" cra="true" />
+            <weapons>
+              <ranged_weapon rng="10" name="Sword Cannon" aoe="-" pow="12" rof="1"></ranged_weapon>
+              <melee_weapon name="Blade" pow="4" p_plus_s="10"></melee_weapon>
+            </weapons>
+            <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2ARM.</capacity>
+            <capacity title="EXTENDED FIRE">Once per game while in formation, this model can use Extended Fire during its unit's activation. This activation, models in this unit gain +4 RNG to their ranged attacks.</capacity>
+            <capacity title="FLANK [FACTION WARJACK]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
+            <capacity title="GRANTED: COMBINED ARMS">While this model is in play, models in its unit gain Combined Arms. (When a model with Combined Arms misses an attack roll for a combined ranged attack, it can reroll that attack roll. Each attack roll can be rerolled only once as a result of Combined Arms.)</capacity>
+            <model id="STANDARD" name="Dawnguard Invictor Standard">
+              <basestats name="Dawnguard Invictor Standard" spd="5" str="6" mat="7" rat="6" def="12" arm="15" cmd="9" standard_bearer="true"></basestats>
+              <weapons></weapons>
+              <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2ARM.</capacity>
+            </model>
+          </unit_attachment>
         </unit>
         <!--Dawnguard Sentinels complete-->
         <unit id="RU02" name="Dawnguard Sentinels" full_name="Dawnguard Sentinels" base_cost="6" baseCount="6" full_cost="9" fullCount="10" qualification="Retribution Unit" fa="2" has_unit_attachment="true" completed="true">
@@ -499,6 +515,19 @@
           <capacity title="FORCE BARRIER">This model gains +2 DEF against ranged attack rolls and does not suffer blast damage.</capacity>
           <capacity title="MAGIC ABILITY [6]"></capacity>
           <capacity title="● FORCE BOLT" type="*Attack">Force Bolt is a RNG 10, POW 10 magic attack. An enemy model hit by this attack can be pushed d3" directly toward or away from this model. Choose the direction before rolling the distance. On a critical hit, the enemy model is knocked down after being pushed.</capacity>
+          <unit_attachment id="RA02" name="Dawnguard Sentinel Officer &amp; Standard" full_name="Dawnguard Sentinel Officer &amp; Standard" fa="1" cost="2" qualification="Retribution Dawnguard Unit Attachment" unit_attachment="true" completed="true">
+            <basestats name="Dawnguard Sentinel Officer" spd="5" str="6" mat="8" rat="4" def="12" arm="15" cmd="10" hitpoints="5" officer="true" />
+            <weapons>
+              <melee_weapon name="Great Sword" pow="6" p_plus_s="12" reach="true" weapon_master="true"></melee_weapon>
+            </weapons>
+            <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM</capacity>
+            <capacity title="DRIVE: PRONTO">This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack immediately makes a full advance. If the check fails, the warjack does not benefit from 'Jack Marshal' this turn.</capacity>
+            <capacity title="GRANTED: VENGEANCE">While this model is in play, models in its unit gain Vengeance. (During your Maintenance Phase, if one or more models in a unit with Vengeance were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.)</capacity>
+            <model id="STANDARD" name="Dawnguard Sentinel Standard">
+              <basestats name="Dawnguard Sentinel Standard" spd="5" str="6" mat="7" rat="4" def="12" arm="15" cmd="9" hitpoints="0" standard_bearer="true" />
+              <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM</capacity>
+            </model>
+          </unit_attachment>
         </unit>
         <!--Houseguard Riflemen complete-->
         <unit id="RU04" name="Houseguard Riflemen" full_name="Houseguard Riflemen" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Retribution Unit" fa="3" has_unit_attachment="true" completed="true">
@@ -508,6 +537,20 @@
             <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
           </weapons>
           <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
+          <unit_attachment id="RA06" name="Riflemen Officer &amp; Standard" full_name="Riflemen Officer &amp; Standard" fa="1" cost="2" qualification="Retribution Unit Attachment" unit_attachment="true" completed="true">
+            <basestats name="Officer" spd="6" str="4" mat="6" rat="6" def="13" arm="13" cmd="9" hitpoints="5" officer="true" cra="true" />
+            <weapons>
+              <ranged_weapon rng="14" name="Long Rifle" aoe="-" pow="10" rof="1"></ranged_weapon>
+              <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
+            </weapons>
+            <capacity title="GRANTED: WAR TEMPERED">While this model is in play, models in its unit can make combined ranged attacks targeting models in melee.</capacity>
+            <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
+            <capacity title="WHITES OF THEIR EYES">Once per game while in formation, this model can use this ability during its unit's activation. This activation, models in this unit gain an additional die on ranged attack rolls against models within 8" of the attacking model.<!--Errata: Dec 2013--></capacity>
+            <model id="STANDARD" name="Standard">
+              <basestats name="Standard" spd="6" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" hitpoints="0" standard_bearer="true" />
+              <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
+            </model>
+          </unit_attachment>
         </unit>
         <!--Mage Hunter Strike Force complete-->
         <unit id="RU05" name="Mage Hunter Strike Force" full_name="Mage Hunter Strike Force" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Retribution Unit" fa="2" has_unit_attachment="true" completed="true">
@@ -518,6 +561,17 @@
           </weapons>
           <capacity title="ARCANE ASSASSIN">When making attacks, ignore focus points overboosting the target's Power Field and spell effects adding to its ARM or DEF</capacity>
           <capacity title="'JACK HUNTER">This model gains an additional die to its melee and ranged damage rolls against warjacks.</capacity>
+          <unit_attachment id="RA03" name="Strike Force Commander" full_name="Strike Force Commander" fa="1" cost="2" qualification="Retribution Mage Hunter Unit Attachment" unit_attachment="true" completed="true">
+            <basestats name="Strike Force Commander" spd="6" str="5" mat="7" rat="7" def="14" arm="11" cmd="9" stealth="true" pathfinder="true" cma="true" hitpoints="5"/>
+            <weapons>
+              <ranged_weapon rng="12" name="Crossbow" aoe="-" pow="10" rof="1"></ranged_weapon>
+              <melee_weapon name="Saber" pow="4" p_plus_s="9"></melee_weapon>
+            </weapons>
+            <capacity title="ARCANE ASSASSIN">When making attacks, ignore focus points overboosting the target's Power Field and spell effects adding to its ARM or DEF.</capacity>
+            <capacity title="'JACK HUNTER">This model gains an additional die to its melee and ranged damage rolls against warjacks.</capacity>
+            <capacity title="TACTICS: ADVANCE DEPLOYMENT">Models in this unit gain Advance Deployment.</capacity>
+            <capacity title="TACTICS: PHANTOM SEEKER">Models in this unit gain Phantom Seeker. (A model with Phantom Seeker ignore LOS when making ranged attacks. That model ignores concealment and cover when resolving ranged attacks.)</capacity>
+          </unit_attachment>
         </unit>
         <!--Dawnguard Destors complete-->
         <unit id="RU06" name="Dawnguard Destors" full_name="Dawnguard Destors" base_cost="7" baseCount="3" full_cost="11" fullCount="5" qualification="Retribution Cavalry Unit" fa="1" completed="true">
@@ -543,6 +597,21 @@
           </weapons>
           <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
           <capacity title="SHIELD WALL" type="Order">For one round, each affected model gains a +4 ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
+          <unit_attachment id="RA05" name="Houseguard Halberdiers Officer &amp; Standard" full_name="Houseguard Halberdiers Officer &amp; Standard" fa="1" cost="2" qualification="Retribution Unit Attachment" unit_attachment="true" completed="true">
+            <basestats name="Houseguard Halberdier Officer" spd="6" str="5" mat="7" rat="4" def="13" arm="14" cmd="9" hitpoints="5" officer="true" cma="true" />
+            <weapons>
+              <melee_weapon name="Halberd" pow="5" p_plus_s="10" reach="true">
+                <capacity title="BRUTAL CHARGE">This model gains +2 to charge attack damage rolls with this weapon.</capacity>
+                <capacity title="SET DEFENSE">A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model.</capacity>
+              </melee_weapon>
+            </weapons>
+            <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
+            <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
+            <capacity title="TEAM EFFORT">Once per game while in formation, this model can use this ability during its unit's activation. This activation, models in this unit gain +2 to attack and damage rolls when making a melee attack targeting an enemy model in melee range of another model in this unit.</capacity>
+            <model id="STANDARD" name="Houseguard Halberdier Standard">
+              <basestats name="Houseguard Halberdier Standard" spd="6" str="5" mat="6" rat="4" def="13" arm="14" cmd="8" hitpoints="0" standard_bearer="true" />
+            </model>
+          </unit_attachment>
         </unit>
         <!--Stormfall Archers complete-->
         <unit id="RU08" name="Stormfall Archers" full_name="Stormfall Archers" base_cost="5" baseCount="4" qualification="Retribution Unit" fa="2" completed="true" full_cost="-" fullCount="-">
@@ -562,17 +631,17 @@
           <weapons>
             <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
             <ranged_weapon rng="14" name="Heavy Rifle" aoe="-" pow="7" rof="1">
-                <capacity title="ARMOR PIERCING">When calculating damage from this weapon, halve the base ARM stats of models hit that have medium or larger bases. This weapon gains +2 to damage rolls against models with small bases.</capacity>
-                <capacity title="LIGHT ARTILLERY">This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking with this weapon and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapon that activation.</capacity>
-                <capacity title="RANGE FINDER">While B2B with the Grunt in this unit, this model gains +2 to attack rolls with this weapon.</capacity>
+              <capacity title="ARMOR PIERCING">When calculating damage from this weapon, halve the base ARM stats of models hit that have medium or larger bases. This weapon gains +2 to damage rolls against models with small bases.</capacity>
+              <capacity title="LIGHT ARTILLERY">This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking with this weapon and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapon that activation.</capacity>
+              <capacity title="RANGE FINDER">While B2B with the Grunt in this unit, this model gains +2 to attack rolls with this weapon.</capacity>
             </ranged_weapon>
           </weapons>
           <model id="GRUNT" name="Grunt">
-              <basestats name="Grunt" spd="4" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" />
-              <weapons>
-                <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
-              </weapons>
-              </model>
+            <basestats name="Grunt" spd="4" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" />
+            <weapons>
+              <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
+            </weapons>
+          </model>
         </unit>
         <!--Mage Hunter Infiltrators complete-->
         <unit id="RU10" name="Mage Hunter Infiltrators" full_name="Mage Hunter Infiltrators" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Retribution Unit" fa="2" completed="true">
@@ -588,11 +657,11 @@
         <unit id="RU11" name="House Vyre Electromancers" full_name="House Vyre Electromancers" base_cost="4" baseCount="3" full_cost="-" fullCount="-" qualification="Retribution Unit" fa="2" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="5" mat="6" rat="6" def="13" arm="12" cmd="9" immunity_electricity="true"/>
           <weapons>
-              <melee_weapon name="Storm Inducer" pow="6" p_plus_s="11" magical="true" reach="true">
-                  <capacity title="CORTEX DAMAGE">When a warjack is hit by this weapon, it suffer 1 damage point to its first available Cortex system box.</capacity>
-              </melee_weapon>
-              <ranged_weapon name="Inducer Bolt" rng="10" rof="1" aoe="-" pow="12" magical="true" electricity="true">
-              </ranged_weapon>
+            <melee_weapon name="Storm Inducer" pow="6" p_plus_s="11" magical="true" reach="true">
+              <capacity title="CORTEX DAMAGE">When a warjack is hit by this weapon, it suffer 1 damage point to its first available Cortex system box.</capacity>
+            </melee_weapon>
+            <ranged_weapon name="Inducer Bolt" rng="10" rof="1" aoe="-" pow="12" magical="true" electricity="true">
+            </ranged_weapon>
           </weapons>
           <capacity title="ATTACK TYPE">Each time this model makes a ranged attack, choose one of the following abilities</capacity>
           <capacity title="● ENERGY LEAK">When a warjack is hit with this weapon, it suffers a cumulative -1 penalty to its focus allocation limit for one round. Models that are immune to Disruption are immune to Energy Leak.</capacity>
@@ -612,18 +681,18 @@
           <capacity title="POWER BOOSTER" type="*Action">RNG 5. Target friendly Faction warjack. If the target warjack is in range and has no focus points, it gains 1 focus point. If the warjack is Disrupted, it is no longer Disrupted.</capacity>
           <capacity title="REPAIR [8]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack.  To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
         </solo>
-          <solo id="RS01_FORCEWALL" name="Arcanist" full_name="Arcanist (Force Wall)" cost="1" qualification="Retribution Solo" fa="2" completed="true">
-              <basestats name="Arcanist" spd="6" str="5" mat="5" rat="4" def="13" arm="12" cmd="8" />
-              <weapons>
-                  <melee_weapon name="Multi Tool" pow="3" p_plus_s="8"></melee_weapon>
-              </weapons>
-              <capacity title="THEME FORCE [FORCE WALL]">This model can be included only in a Force Wall theme force army list</capacity>
-              <capacity title="CONCENTRATED POWER" type="*Action">RNG 5. Target friendly Faction warjack. If the warjack is in range, it gains +2 on melee damage rolls this turn.</capacity>
-              <capacity title="FORCE MULTIPLIER" type="*Action">RNG 5. Target friendly Faction warjack.  If the warjack is in range and has 1 or more focus, points, it is allocated 1 focus point.</capacity>
-              <capacity title="POWER BOOSTER" type="*Action">RNG 5. Target friendly Faction warjack. If the target warjack is in range and has no focus points, it gains 1 focus point. If the warjack is Disrupted, it is no longer Disrupted.</capacity>
-              <capacity title="REPAIR [8]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack.  To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
-              <only_in_tier id="KAELYSSA - FORCE WALL"></only_in_tier>
-          </solo>
+        <solo id="RS01_FORCEWALL" name="Arcanist" full_name="Arcanist (Force Wall)" cost="1" qualification="Retribution Solo" fa="2" completed="true">
+          <basestats name="Arcanist" spd="6" str="5" mat="5" rat="4" def="13" arm="12" cmd="8" />
+          <weapons>
+            <melee_weapon name="Multi Tool" pow="3" p_plus_s="8"></melee_weapon>
+          </weapons>
+          <capacity title="THEME FORCE [FORCE WALL]">This model can be included only in a Force Wall theme force army list</capacity>
+          <capacity title="CONCENTRATED POWER" type="*Action">RNG 5. Target friendly Faction warjack. If the warjack is in range, it gains +2 on melee damage rolls this turn.</capacity>
+          <capacity title="FORCE MULTIPLIER" type="*Action">RNG 5. Target friendly Faction warjack.  If the warjack is in range and has 1 or more focus, points, it is allocated 1 focus point.</capacity>
+          <capacity title="POWER BOOSTER" type="*Action">RNG 5. Target friendly Faction warjack. If the target warjack is in range and has no focus points, it gains 1 focus point. If the warjack is Disrupted, it is no longer Disrupted.</capacity>
+          <capacity title="REPAIR [8]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack.  To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
+          <only_in_tier id="KAELYSSA - FORCE WALL"></only_in_tier>
+        </solo>
         <!--Scyir complete-->
         <solo id="RS02" name="Dawnguard Scyir" full_name="Dawnguard Scyir" cost="2" qualification="Retribution Solo" fa="2" completed="true">
           <basestats name="Dawnguard Scyir" spd="6" str="6" mat="8" rat="4" def="13" arm="15" cmd="10" hitpoints="5" jack_marshal="true" commander="true" />
@@ -770,107 +839,16 @@
           <capacity title="INSPIRATION [HOUSEGUARD]">Friendly Houseguard models/units in this model's command range never flee and immediately rally.</capacity>
         </solo>
 
-
         <solo id="RS14" name="Soulless Voidtracer" full_name="Soulless Voidtracer" cost="1" qualification="Retribution Mage Hunter Solo" fa="2" completed="true">
           <basestats name="Voidtracer" spd="6" str="6" mat="6" rat="3" def="13" arm="13" cmd="5" fearless="true" stealth="true"/>
           <weapons>
-              <melee_weapon name="Two-Handed Sword" pow="6" p_plus_s="12" magical="true" reach="true"/>
+            <melee_weapon name="Two-Handed Sword" pow="6" p_plus_s="12" magical="true" reach="true"/>
           </weapons>
-            <capacity title="ARCANE VACUUM">When a model in this model's command range is targeted by an enemy spell, before the spell is resolved the enemy spellcaster takes d3 damages points.</capacity>
-            <capacity title="SOULLESS">This model does not generate a soul token when it is destroyed.</capacity>
-            <capacity title="SPELL WARD">This model cannot be targeted by spells.</capacity>
+          <capacity title="ARCANE VACUUM">When a model in this model's command range is targeted by an enemy spell, before the spell is resolved the enemy spellcaster takes d3 damages points.</capacity>
+          <capacity title="SOULLESS">This model does not generate a soul token when it is destroyed.</capacity>
+          <capacity title="SPELL WARD">This model cannot be targeted by spells.</capacity>
         </solo>
 
-        <!--**************************-->
-        <!--*****Unit attachments*****-->
-        <!--**************************-->
-        <!--Dawnguard Invictor Officer/Standard complete-->
-        <solo id="RA01" name="Dawnguard Invictor Officer &amp; Standard" full_name="Dawnguard Invictor Officer &amp; Standard" fa="1" cost="2" qualification="Retribution Dawnguard Unit Attachment" unit_attachment="true" completed="true">
-          <basestats name="Dawnguard Invictor Officer" spd="5" str="6" mat="8" rat="7" def="12" arm="15" cmd="10" hitpoints="5" officer="true" cra="true" />
-          <weapons>
-            <ranged_weapon rng="10" name="Sword Cannon" aoe="-" pow="12" rof="1"></ranged_weapon>
-            <melee_weapon name="Blade" pow="4" p_plus_s="10"></melee_weapon>
-          </weapons>
-          <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2ARM.</capacity>
-          <capacity title="EXTENDED FIRE">Once per game while in formation, this model can use Extended Fire during its unit's activation. This activation, models in this unit gain +4 RNG to their ranged attacks.</capacity>
-          <capacity title="FLANK [FACTION WARJACK]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
-          <capacity title="GRANTED: COMBINED ARMS">While this model is in play, models in its unit gain Combined Arms. (When a model with Combined Arms misses an attack roll for a combined ranged attack, it can reroll that attack roll. Each attack roll can be rerolled only once as a result of Combined Arms.)</capacity>
-          <model id="DAWNGUARD INVICTOR STANDARD">
-            <basestats name="Dawnguard Invictor Standard" spd="5" str="6" mat="7" rat="6" def="12" arm="15" cmd="9" standard_bearer="true"></basestats>
-            <weapons></weapons>
-            <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2ARM.</capacity>
-          </model>
-          <restricted_to id="RU01">
-            <!--Dawnguard Invictors-->
-          </restricted_to>
-        </solo>
-        <!--Dawnguard Sentinel Officer/Standard complete-->
-        <solo id="RA02" name="Dawnguard Sentinel Officer &amp; Standard" full_name="Dawnguard Sentinel Officer &amp; Standard" fa="1" cost="2" qualification="Retribution Dawnguard Unit Attachment" unit_attachment="true" completed="true">
-          <basestats name="Dawnguard Sentinel Officer" spd="5" str="6" mat="8" rat="4" def="12" arm="15" cmd="10" hitpoints="5" officer="true" />
-          <weapons>
-            <melee_weapon name="Great Sword" pow="6" p_plus_s="12" reach="true" weapon_master="true"></melee_weapon>
-          </weapons>
-          <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM</capacity>
-          <capacity title="DRIVE: PRONTO">This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack immediately makes a full advance. If the check fails, the warjack does not benefit from 'Jack Marshal' this turn.</capacity>
-          <capacity title="GRANTED: VENGEANCE">While this model is in play, models in its unit gain Vengeance. (During your Maintenance Phase, if one or more models in a unit with Vengeance were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.)</capacity>
-          <model id="DAWNGUARD SENTINEL STANDARD">
-            <basestats name="Dawnguard Sentinel Standard" spd="5" str="6" mat="7" rat="4" def="12" arm="15" cmd="9" hitpoints="0" standard_bearer="true" />
-            <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM</capacity>
-          </model>
-          <restricted_to id="RU02">
-            <!--Dawnguard Sentinels-->
-          </restricted_to>
-        </solo>
-        <solo id="RA06" name="Riflemen Officer &amp; Standard" full_name="Riflemen Officer &amp; Standard" fa="1" cost="2" qualification="Retribution Unit Attachment" unit_attachment="true" completed="true">
-          <basestats name="Officer" spd="6" str="4" mat="6" rat="6" def="13" arm="13" cmd="9" hitpoints="5" officer="true" cra="true" />
-          <weapons>
-            <ranged_weapon rng="14" name="Long Rifle" aoe="-" pow="10" rof="1"></ranged_weapon>
-            <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
-          </weapons>
-          <capacity title="GRANTED: WAR TEMPERED">While this model is in play, models in its unit can make combined ranged attacks targeting models in melee.</capacity>
-          <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
-          <capacity title="WHITES OF THEIR EYES">Once per game while in formation, this model can use this ability during its unit's activation. This activation, models in this unit gain an additional die on ranged attack rolls against models within 8" of the attacking model.<!--Errata: Dec 2013--></capacity>
-          <model id="STANDARD" name="Standard">
-            <basestats name="Standard" spd="6" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" hitpoints="0" standard_bearer="true" />
-            <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
-          </model>
-          <restricted_to id="RU04">
-            <!--Houseguard Riflemen-->
-          </restricted_to>
-        </solo>
-        <!--Strike Force Commander complete-->
-        <solo id="RA03" name="Strike Force Commander" full_name="Strike Force Commander" fa="1" cost="2" qualification="Retribution Mage Hunter Unit Attachment" unit_attachment="true" completed="true">
-          <basestats name="Strike Force Commander" spd="6" str="5" mat="7" rat="7" def="14" arm="11" cmd="9" stealth="true" pathfinder="true" cma="true" hitpoints="5"/>
-          <weapons>
-            <ranged_weapon rng="12" name="Crossbow" aoe="-" pow="10" rof="1"></ranged_weapon>
-            <melee_weapon name="Saber" pow="4" p_plus_s="9"></melee_weapon>
-          </weapons>
-          <capacity title="ARCANE ASSASSIN">When making attacks, ignore focus points overboosting the target's Power Field and spell effects adding to its ARM or DEF.</capacity>
-          <capacity title="'JACK HUNTER">This model gains an additional die to its melee and ranged damage rolls against warjacks.</capacity>
-          <capacity title="TACTICS: ADVANCE DEPLOYMENT">Models in this unit gain Advance Deployment.</capacity>
-          <capacity title="TACTICS: PHANTOM SEEKER">Models in this unit gain Phantom Seeker. (A model with Phantom Seeker ignore LOS when making ranged attacks. That model ignores concealment and cover when resolving ranged attacks.)</capacity>
-          <restricted_to id="RU05">
-            <!--Mage Hunter Strike Force-->
-          </restricted_to>
-        </solo>
-        <solo id="RA05" name="Houseguard Halberdiers Officer &amp; Standard" full_name="Houseguard Halberdiers Officer &amp; Standard" fa="1" cost="2" qualification="Retribution Unit Attachment" unit_attachment="true" completed="true">
-          <basestats name="Houseguard Halberdier Officer" spd="6" str="5" mat="7" rat="4" def="13" arm="14" cmd="9" hitpoints="5" officer="true" cma="true" />
-          <weapons>
-            <melee_weapon name="Halberd" pow="5" p_plus_s="10" reach="true">
-              <capacity title="BRUTAL CHARGE">This model gains +2 to charge attack damage rolls with this weapon.</capacity>
-              <capacity title="SET DEFENSE">A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model.</capacity>
-            </melee_weapon>
-          </weapons>
-          <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
-          <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
-          <capacity title="TEAM EFFORT">Once per game while in formation, this model can use this ability during its unit's activation. This activation, models in this unit gain +2 to attack and damage rolls when making a melee attack targeting an enemy model in melee range of another model in this unit.</capacity>
-          <model id="HOUSEGUARD HALBERDIER STANDARD">
-            <basestats name="Houseguard Halberdier Standard" spd="6" str="5" mat="6" rat="4" def="13" arm="14" cmd="8" hitpoints="0" standard_bearer="true" />
-          </model>
-          <restricted_to id="RU07">
-            <!--Houseguard Halberdiers-->
-          </restricted_to>
-        </solo>
         <!--Eiryss3 (Mage Hunter Commander) complete-->
         <solo id="RA07" name="Eiryss3" full_name="Eiryss, Mage Hunter Commander" fa="C" cost="3" qualification="Retribution Epic Character Unit Attachment" unit_attachment="true" completed="true">
           <basestats name="Eiryss" spd="7" str="4" mat="7" rat="9" def="16" arm="12" cmd="9" officer="true" pathfinder="true" stealth="true" hitpoints="5" />
@@ -934,14 +912,11 @@
           </restricted_to>
           <!--Heavy Rifle Team (Check if it's possible.) no! weapon crew can not have attachments-->
           <!-- <restricted_to id="RU09">
-          </restricted_to>  -->
+               </restricted_to>  -->
           <restricted_to id="RU10">
             <!--Mage Hunter Infiltrators-->
           </restricted_to>
         </solo>
-
-
-
       </solos>
     </army>
   </armies>
