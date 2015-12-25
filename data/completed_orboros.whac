@@ -160,7 +160,7 @@
           <spell name="WILD AGGRESSION" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly living warbeast in this model's battlegroup can run, charge, or make slam or trample power attacks without being forced and gains boosted melee attack rolls.</spell>
           <capacity title="ALTERED STATES">At the start of your Maintenance Phase, choose a form for this model to take: human or beast.  If it changes form, replace the model in play with its alternate form.  Effects on the replaced model are applied to the alternate form.  You decide which form this model starts the game in.</capacity>
           <capacity title="BEAST OUT">When this model suffers damage from an enemy attack during an opponent's turn while in human form, immediately after the attack is resolved this model can spend 1 fury point to take beast form.  Replace its human model with the beast model.  Effects on the replaced model are applied to the beast model.</capacity>
-          <model id="KROMAC">
+          <model id="BEASTFORM" name="Kromac: Beast Form">
             <basestats name="Beast Form" spd="6" str="9" mat="8" rat="4" def="15" arm="17" cmd="3" pathfinder="true" terror="true" />
             <weapons>
               <melee_weapon name="Dusk and Dawn" count="2" pow="5" p_plus_s="14" magical="true" reach="true"></melee_weapon>
@@ -221,7 +221,7 @@
           <spell name="UNSEEN PATH" cost="2" rng="Ctrl" aoe="-" pow="-" up="NO" off="NO">Unseen Path can be cast only while Wurmwood, Tree of Fate is in this model's control area.  When Unseen Path is cast, immediately place this model within 2" or Wurmwood or place Wurmwood within 2" of this model.  A model cannot advance this turn after being placed by Unseen Path.</spell>
           <capacity title="BLACK ROOTS">This model ignores the firing into melee penalty when making magic attacks against models in Wurmwood's command range.</capacity>
           <capacity title="TREEWALKER">This model ignores forests when determining LOS.  While in a forest, this model gains +2 DEF against melee attack rolls and can advance through obstructions and other models if it has enough movement to move completely past them.</capacity>
-          <model id="WURMWOOD" qualification="Circle Character Solo">
+          <model id="WURMWOOD" name="Wurmwood" qualification="Circle Character Solo">
             <basestats name="Wurmwood" spd="0" str="0" mat="0" rat="0" def="5" arm="16" cmd="10" advance_deployment="true" />
             <capacity title="ALTAR OF SACRIFICE">This model gains one soul token for each living model destroyed in its command range.  This model can have up to five soul tokens at a time.  If this model is in Cassius the Oathkeeper's control area at the start of his activation, at that time, Cassius can remove soul tokens from it to put fury on himself at 1 fury point per soul token removed.</capacity>
             <capacity title="COMPANION [CASSIUS THE OATHKEEPER]">This model is included in any army that includes Cassius the Oathkeeper.  If Cassius is destroyed or removed from play, remove this model from play.  This model is part of Cassius' battlegroup.</capacity>
@@ -671,21 +671,19 @@
             <capacity title="● SUMMON VORTEX" type="*Action">Center a 3" AOE cloud effect on this model.  Enemy models suffer -2 to attack rolls while in the AOE.  Summon Vortex lasts for one round.</capacity>
           </model>
           <unit_attachment id="OA01" name="Druids of Orboros Overseer" full_name="Druids of Orboros Overseer" fa="1" cost="2" qualification="Circle Unit attachment" completed="true">
-            <model id="DRUID OF ORBOROS OVERSEER">
-              <basestats name="Overseer" spd="6" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" hitpoints="5" officer="true" pathfinder="true" />
-              <weapons>
-                <melee_weapon name="Voulge" pow="4" p_plus_s="10" magical="true" reach="true"></melee_weapon>
-              </weapons>
-              <capacity title="ATTACHMENT [DRUIDS OF ORBOROS]">This attachment can be added to a Druids of Orboros unit.</capacity>
-              <capacity title="BEAST MASTER">This model can force friendly Faction warbeasts in its command range as if it were their controlling warlock.</capacity>
-              <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
-              <capacity title="MAGIC ABILITY [8]"></capacity>
-              <capacity title="● ELEMENTAL PROTECTION" type="*Action">Models in this unit gain Immunity: Cold, Immunity: Electricity, and Immunity: Fire for one round.</capacity>
-              <capacity title="● MEDICATE" type="*Action">RNG 3.  Target friendly Faction warbeast.  If the warbeast is in range, it heals d3 damage points.  warbeast can be affected by Medicate only once per turn.</capacity>
-              <capacity title="● SUMMON VORTEX" type="*Action">Center a 3" AOE cloud effect on this model.  Enemy models suffer -2 to attack rolls while in the AOE.  Summon Vortex lasts for one round.</capacity>
-              <capacity title="● THE DEVOURING" type="*Attack">The Devouring is a RNG 10, AOE 4, POW 8 magic attack.  Add 1 to the POW of the attack for each model in this unit.</capacity>
-              <capacity title="TACTICS: ADVANCE DEPLOYMENT">Models in this unit gain Advance Deployment.</capacity>
-            </model>
+            <basestats name="Overseer" spd="6" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" hitpoints="5" officer="true" pathfinder="true" />
+            <weapons>
+              <melee_weapon name="Voulge" pow="4" p_plus_s="10" magical="true" reach="true"></melee_weapon>
+            </weapons>
+            <capacity title="ATTACHMENT [DRUIDS OF ORBOROS]">This attachment can be added to a Druids of Orboros unit.</capacity>
+            <capacity title="BEAST MASTER">This model can force friendly Faction warbeasts in its command range as if it were their controlling warlock.</capacity>
+            <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
+            <capacity title="MAGIC ABILITY [8]"></capacity>
+            <capacity title="● ELEMENTAL PROTECTION" type="*Action">Models in this unit gain Immunity: Cold, Immunity: Electricity, and Immunity: Fire for one round.</capacity>
+            <capacity title="● MEDICATE" type="*Action">RNG 3.  Target friendly Faction warbeast.  If the warbeast is in range, it heals d3 damage points.  warbeast can be affected by Medicate only once per turn.</capacity>
+            <capacity title="● SUMMON VORTEX" type="*Action">Center a 3" AOE cloud effect on this model.  Enemy models suffer -2 to attack rolls while in the AOE.  Summon Vortex lasts for one round.</capacity>
+            <capacity title="● THE DEVOURING" type="*Attack">The Devouring is a RNG 10, AOE 4, POW 8 magic attack.  Add 1 to the POW of the attack for each model in this unit.</capacity>
+            <capacity title="TACTICS: ADVANCE DEPLOYMENT">Models in this unit gain Advance Deployment.</capacity>
           </unit_attachment>
         </unit>
         <!--Stoneward and Woldstalkers complete-->

@@ -59,7 +59,7 @@
           <capacity title="REITERATION" type="">This model can cast any spell cast by another model in its own unit this activation as if that spell were one of its own.</capacity>
           <capacity title="TIME WALKER" type="">At any time during its unit's activation, this model can spend 2 focus points to add either Haley Past or Haley Future to this unit if that model is not already in play. Place that model within 2" of Haley Prime. The placed model enters play with a number of focus points equal to its FOCUS. The placed model cannot activate this turn. When this model replenishes its focus points, this model can receive 2 fewer focus points for Haley Past and/or 2 fewer focus points for Haley Future. If this model does not receive 2 fewer focus points for another model in this unit, remove that model from play.</capacity>
           <capacity title="WARCASTER UNIT" type="">This unit is made up of Haley Prime, Haley Past and Haley Future. However, only Haley Prime begins the game in play.</capacity>
-          <model id="YZ01_PAST" name="HALEY PAST" full_name="Haley Past">
+          <model id="PAST" name="Haley Past" full_name="Haley Past">
             <basestats name="Haley Past" spd="6" str="5" mat="6" rat="5" def="16" arm="14" cmd="8" hitpoints="5" incorporeal="true" focus="4" />
             <weapons>
               <melee_weapon name="Telekenetic Strike" pow="5" p_plus_s="10" magical="true" reach="true">
@@ -70,7 +70,7 @@
             <capacity title="RAW TALENT" type="">This model gains an additional die on its damage rolls</capacity>
             <capacity title="TIME PROJECTION" type="">This model is not a warcaster but has the following warcaster special rules: Control Area, Focus Manipulation, Power Field, and Spellcaster. During your Control Phase, this model can allocate focus points to warjacks in Haley Prime's battlegroup that are in this model's control area. This model can channel spells through warjacks in Haley Prime's battlegroup with the arc node advantage that are in this model's control area.</capacity>
           </model>
-          <model id="YZ01_FUTURE" name="HALEY FUTURE" full_name="Haley Future">
+          <model id="FUTURE" name="Haley Future" full_name="Haley Future">
             <basestats name="Haley Future" spd="6" str="5" mat="6" rat="5" def="16" arm="14" cmd="8" hitpoints="5" incorporeal="true" focus="4" />
             <weapons>
               <ranged_weapon name="Phase Bolt" rng="10" rof="3" aoe="-" pow="13" magical="true" />

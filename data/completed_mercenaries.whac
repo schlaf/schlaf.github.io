@@ -1370,8 +1370,8 @@
             <melee_weapon name="Axe" pow="3" p_plus_s="9" />
           </weapons>
           <capacity title="MERCENARIES">These models will work for Cygnar, Khador, and the Protectorate.</capacity>
-          <model id="JONNE">
-            <basestats name="JONNE" spd="6" str="8" mat="6" rat="4" def="12" arm="15" cmd="9" hitpoints="8" />
+          <model id="JONNE" name="Jonne">
+            <basestats name="Jonne" spd="6" str="8" mat="6" rat="4" def="12" arm="15" cmd="9" hitpoints="8" />
             <weapons>
               <ranged_weapon name="Barrage Arquebuss" rng="12" rof="1" aoe="3" pow="14">
                 <capacity title="RANGE FINDER">While B2B with Herne, thius model gains +2 to attack rolls with this weapon.</capacity>

@@ -827,7 +827,7 @@
           <capacity title="ASSAULT &amp; BATTERY" type="Order">Before their normal movement, affected models can make one ranged attack, after which they must charge or run. The ranged attack is made before declaring a charge target.</capacity>
           <capacity title="SHIELD WALL" type="Order">For one round, each affected model gains a +4ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           <weapon_attachment id="KA05" name="Assault Kommando Flame Thrower" full_name="Assault Kommando Flame Thrower" fa="2" cost="1" qualification="Khador Kommando Weapon Attachment" max_wa="3" completed="true">
-            <model id="ASSAULT KOMMANDO FLAME THROWER">
+            <model id="FLAMETHROWER" name="Assault Kommando Flame Thrower">
               <basestats name="Assault Kommando Flame Thrower" spd="6" str="6" mat="6" rat="5" def="12" arm="14" cmd="9" immunity_corrosion="true" immunity_fire="true" />
               <weapons>
                 <melee_weapon p_plus_s="8" pow="2" name="Combat Shield" />

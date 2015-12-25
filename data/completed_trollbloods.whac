@@ -589,16 +589,14 @@
             </model>
           </unit_attachment>
           <weapon_attachment id="TA02" name="Kriel Warrior Caber Thrower" full_name="Kriel Warrior Caber Thrower" qualification="Trollblood Trollkin Weapon Attachment" fa="3" cost="1" max_wa="3" completed="true">
-            <model id="THROWER">
-              <basestats name="CABER THROWER" spd="5" str="6" mat="5" rat="4" def="12" arm="15" cmd="8" tough="true" />
-              <weapons>
-                <melee_weapon name="Caber" pow="7" p_plus_s="13" reach="true">
-                  <capacity title="MOMENTUM">Instead of suffering a normal damage roll, a small- or medium-based, non-incorporeal model hit by this attack is slammed d3" directly away from this model. The POW of the slam damage roll is equal to this model's STR plus the POW of this weapon. The POW of collateral damage is equal to the STR of this model. In addition to suffering a normal damage roll, large-based models hit by this attack are knocked down.</capacity>
-                </melee_weapon>
-              </weapons>
-              <capacity title="ATTACHMENT [KRIEL WARRIOR]">This attachment can be added to a Kriel Warrior unit.</capacity>
-              <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a Grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damage boxes as the chosen Grunt.</capacity>
-            </model>
+            <basestats name="CABER THROWER" spd="5" str="6" mat="5" rat="4" def="12" arm="15" cmd="8" tough="true" />
+            <weapons>
+              <melee_weapon name="Caber" pow="7" p_plus_s="13" reach="true">
+                <capacity title="MOMENTUM">Instead of suffering a normal damage roll, a small- or medium-based, non-incorporeal model hit by this attack is slammed d3" directly away from this model. The POW of the slam damage roll is equal to this model's STR plus the POW of this weapon. The POW of collateral damage is equal to the STR of this model. In addition to suffering a normal damage roll, large-based models hit by this attack are knocked down.</capacity>
+              </melee_weapon>
+            </weapons>
+            <capacity title="ATTACHMENT [KRIEL WARRIOR]">This attachment can be added to a Kriel Warrior unit.</capacity>
+            <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a Grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damage boxes as the chosen Grunt.</capacity>
           </weapon_attachment>
         </unit>
         <unit id="TU02" name="Krielstone Bearer &amp; Stone Scribes" full_name="Krielstone Bearer &amp; Stone Scribes" qualification="Trollblood Trollkin Unit" fa="1" base_cost="3" full_cost="4" baseCount="4" fullCount="6" has_unit_attachment="true" completed="true">
@@ -614,17 +612,15 @@
             </weapons>
           </model>
           <unit_attachment id="TA03" name="Stone Scribe Elder" full_name="Stone Scribe Elder" qualification="Trollblood Trollkin Unit Attachment" fa="1" cost="1" completed="true">
-            <model id="STONE SCRIBE ELDER">
-              <basestats name="ELDER" spd="5" str="7" mat="6" rat="4" def="12" arm="13" cmd="9" fearless="true" officer="true" tough="true" />
-              <weapons>
-                <melee_weapon name="Hand Weapon" pow="4" p_plus_s="11" />
-              </weapons>
-              <capacity title="ATTACHMENT [KRIELSTONE BEARER &amp; STONESCRIBES]">This attachment can be added to a Krielstone Bearer &amp; Stonescribes unit.</capacity>
-              <capacity title="STONE WARP">This model can use one of the following effects each turn anytime during its unit’s activation.</capacity>
-              <capacity title="● COMBAT WARDING">Continuous effects on friendly Faction models affected by this units Protective Aura expire. While affected by this unit's Protective Aura, a model is immune to continuous effects. Combat Warding lasts for one round.</capacity>
-              <capacity title="● SPIRIT CHASER">While within the area affected by this unit’s Protective Aura this round, enemy models lose Incorporeal and Stealth.</capacity>
-              <capacity title="● STONE STRENGTH">While within the area affected by this unit’s Protective Aura this round, friendly Faction models gain +1 STR.</capacity>
-            </model>
+            <basestats name="Stone Scribe Elder" spd="5" str="7" mat="6" rat="4" def="12" arm="13" cmd="9" fearless="true" officer="true" tough="true" />
+            <weapons>
+              <melee_weapon name="Hand Weapon" pow="4" p_plus_s="11" />
+            </weapons>
+            <capacity title="ATTACHMENT [KRIELSTONE BEARER &amp; STONESCRIBES]">This attachment can be added to a Krielstone Bearer &amp; Stonescribes unit.</capacity>
+            <capacity title="STONE WARP">This model can use one of the following effects each turn anytime during its unit’s activation.</capacity>
+            <capacity title="● COMBAT WARDING">Continuous effects on friendly Faction models affected by this units Protective Aura expire. While affected by this unit's Protective Aura, a model is immune to continuous effects. Combat Warding lasts for one round.</capacity>
+            <capacity title="● SPIRIT CHASER">While within the area affected by this unit’s Protective Aura this round, enemy models lose Incorporeal and Stealth.</capacity>
+            <capacity title="● STONE STRENGTH">While within the area affected by this unit’s Protective Aura this round, friendly Faction models gain +1 STR.</capacity>
           </unit_attachment>
         </unit>
         <unit id="TU03" name="Pyg Burrowers" full_name="Pyg Burrowers" qualification="Trollblood Unit" fa="1" base_cost="4" full_cost="6" baseCount="6" fullCount="10" completed="true">
@@ -692,17 +688,15 @@
           </weapons>
           <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM.</capacity>
           <unit_attachment id="TA05" name="Skaldi Bonehammer" full_name="Skaldi Bonehammer" qualification="Trollblood Trollkin Champion Character Unit Attachment" fa="C" cost="3" completed="true">
-            <model id="SKALDI BONEHAMMER">
-              <basestats name="SKALDI" spd="5" str="7" mat="8" rat="4" def="12" arm="16" cmd="9" hitpoints="8" fearless="true" officer="true" tough="true" />
-              <weapons>
-                <melee_weapon name="Hammer" pow="4" p_plus_s="11" reach="true" weapon_master="true" />
-              </weapons>
-              <capacity title="RAPID STRIKE">This model can make one additional melee attack each combat action.</capacity>
-              <capacity title="TACTICS: RELENTLESS CHARGE">Models in this unit gain Relentless Charge. (Models with Relentless Charge gain Pathfinder during activations they charge.)</capacity>
-              <capacity title="GRANTED: OVERTAKE">While this model is in play, models in its unit gain Overtake. (When a model with Overtake destroys one or more enemy warrior models with an normal melee attack, after the attack is resolved this model can immediately advance up to 1".)</capacity>
-              <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM.</capacity>
-              <capacity title="COUNTER CHARGE">When an enemy model advances and ends its movement within 6" of this model and in its LOS, this model can immediately charge it. If it does, it cannot make another counter charge until after your next turn. This model cannot make a counter charge while engaged.</capacity>
-            </model>
+            <basestats name="Skaldi" spd="5" str="7" mat="8" rat="4" def="12" arm="16" cmd="9" hitpoints="8" fearless="true" officer="true" tough="true" />
+            <weapons>
+              <melee_weapon name="Hammer" pow="4" p_plus_s="11" reach="true" weapon_master="true" />
+            </weapons>
+            <capacity title="RAPID STRIKE">This model can make one additional melee attack each combat action.</capacity>
+            <capacity title="TACTICS: RELENTLESS CHARGE">Models in this unit gain Relentless Charge. (Models with Relentless Charge gain Pathfinder during activations they charge.)</capacity>
+            <capacity title="GRANTED: OVERTAKE">While this model is in play, models in its unit gain Overtake. (When a model with Overtake destroys one or more enemy warrior models with an normal melee attack, after the attack is resolved this model can immediately advance up to 1".)</capacity>
+            <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM.</capacity>
+            <capacity title="COUNTER CHARGE">When an enemy model advances and ends its movement within 6" of this model and in its LOS, this model can immediately charge it. If it does, it cannot make another counter charge until after your next turn. This model cannot make a counter charge while engaged.</capacity>
           </unit_attachment>
         </unit>
         <unit id="TU07" name="Trollkin Fennblades" full_name="Trollkin Fennblades" qualification="Trollblood Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
@@ -713,18 +707,16 @@
           <capacity title="HARD">This model does not suffer damage or effects from impact attacks or collateral damage.</capacity>
           <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
           <unit_attachment id="TA04" name="Trollkin Fennblade Officer &amp; Drummer" full_name="Trollkin Fennblade Officer &amp; Drummer" qualification="Trollblood Trollkin Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="OFFICER">
-              <basestats name="OFFICER" spd="6" str="7" mat="7" rat="4" def="12" arm="14" cmd="9" hitpoints="5" officer="true" tough="true" />
-              <weapons>
-                <melee_weapon name="Hooked Great Sword" pow="5" p_plus_s="12" reach="true" />
-              </weapons>
-              <capacity title="HARD">This model does not suffer damage or effects from impact attacks or collateral damage.</capacity>
-              <capacity title="NO QUARTER">Once per game during its unit’s activation, this model can use No Quarter. Models in this unit gain Fearless, Pathfinder, and Terror. A model in this unit that charges gains +2" movement. No Quarter lasts for one round.</capacity>
-              <capacity title="TACTICS: SET DEFENSE">Models in this unit gain Set Defense. (A model in the front arc of a model with Set Defense suffers –2 on charge, slam power attack, and impact attack rolls against the model with Set Defense.)</capacity>
-              <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
-            </model>
-            <model id="DRUMMER">
-              <basestats name="DRUMMER" spd="6" str="7" mat="6" rat="4" def="12" arm="14" cmd="8" hitpoints="0" tough="true" />
+            <basestats name="Officer" spd="6" str="7" mat="7" rat="4" def="12" arm="14" cmd="9" hitpoints="5" officer="true" tough="true" />
+            <weapons>
+              <melee_weapon name="Hooked Great Sword" pow="5" p_plus_s="12" reach="true" />
+            </weapons>
+            <capacity title="HARD">This model does not suffer damage or effects from impact attacks or collateral damage.</capacity>
+            <capacity title="NO QUARTER">Once per game during its unit’s activation, this model can use No Quarter. Models in this unit gain Fearless, Pathfinder, and Terror. A model in this unit that charges gains +2" movement. No Quarter lasts for one round.</capacity>
+            <capacity title="TACTICS: SET DEFENSE">Models in this unit gain Set Defense. (A model in the front arc of a model with Set Defense suffers –2 on charge, slam power attack, and impact attack rolls against the model with Set Defense.)</capacity>
+            <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
+            <model id="DRUMMER" name="Drummer">
+              <basestats name="Drummer" spd="6" str="7" mat="6" rat="4" def="12" arm="14" cmd="8" hitpoints="0" tough="true" />
               <weapons />
               <capacity title="HARD">See above.</capacity>
               <capacity title="IN STEP">While this model is within 3" of it, the unit commander gains +3" to its command range.</capacity>
@@ -762,18 +754,16 @@
             <melee_weapon name="Gun Blade" pow="3" p_plus_s="9" />
           </weapons>
           <unit_attachment id="TA06" name="Scattergunner Officer &amp; Standard" full_name="Scattergunner Officer &amp; Standard" qualification="Trollblood Trollkin Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="OFFICER">
-              <basestats name="OFFICER" spd="6" str="6" mat="6" rat="6" def="12" arm="14" cmd="9" hitpoints="5" officer="true" tough="true" />
-              <weapons>
-                <ranged_weapon name="Scattergun" rng="SP8" rof="1" aoe="-" pow="12" />
-                <melee_weapon name="Gun Blade" pow="3" p_plus_s="9" />
-              </weapons>
-              <capacity title="GRANTED: QUICK WORK"> While this model is in play, models in its unit gain Quick Work. (When a model with Quick Work destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved it can make one normal ranged attack. Attacks gained from Quick Work do not count against a weapon's ROF.)</capacity>
-              <capacity title="TACTICS: CLEAR!">Models in this unit gain Clear! (Ranged attacks against friendly models made by a model with Clear! automatically miss.)</capacity>
-              <capacity title="TACTICS: COMBINED MELEE ATTACK">Models in this unit gain Combined Melee Attack.</capacity>
-            </model>
-            <model id="STANDARD BEARER">
-              <basestats name="STANDARD BEARER" spd="6" str="6" mat="5" rat="5" def="12" arm="14" cmd="8" standard_bearer="true" tough="true" />
+            <basestats name="Officer" spd="6" str="6" mat="6" rat="6" def="12" arm="14" cmd="9" hitpoints="5" officer="true" tough="true" />
+            <weapons>
+              <ranged_weapon name="Scattergun" rng="SP8" rof="1" aoe="-" pow="12" />
+              <melee_weapon name="Gun Blade" pow="3" p_plus_s="9" />
+            </weapons>
+            <capacity title="GRANTED: QUICK WORK"> While this model is in play, models in its unit gain Quick Work. (When a model with Quick Work destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved it can make one normal ranged attack. Attacks gained from Quick Work do not count against a weapon's ROF.)</capacity>
+            <capacity title="TACTICS: CLEAR!">Models in this unit gain Clear! (Ranged attacks against friendly models made by a model with Clear! automatically miss.)</capacity>
+            <capacity title="TACTICS: COMBINED MELEE ATTACK">Models in this unit gain Combined Melee Attack.</capacity>
+            <model id="STANDARD" name="Standard Bearer">
+              <basestats name="Standard Bearer" spd="6" str="6" mat="5" rat="5" def="12" arm="14" cmd="8" standard_bearer="true" tough="true" />
               <weapons />
             </model>
           </unit_attachment>
@@ -810,7 +800,7 @@
           <capacity title="● CALL OF DEFIANCE">When a model in this unit that is in formation makes a Tough roll of 4, 5, or 6, it heals 1 damage point and is knocked down. Call of Defiance lasts for one round.</capacity>
           <capacity title="● FERVOR">Affected models gain +2 to attack and damage rolls this activation.</capacity>
           <capacity title="THEME SONGS">Models in this unit are never affected by fell calls made by other friendly models.</capacity>
-          <model id="TOR">
+          <model id="TOR" name="Tor">
             <basestats name="Tor" spd="6" str="7" mat="7" rat="6" def="13" arm="15" cmd="9" hitpoints="8" fearless="true" tough="true" />
             <weapons>
               <ranged_weapon name="Sonic Blast" rng="SP8" rof="1" aoe="-" pow="12" />
@@ -823,7 +813,7 @@
             <capacity title="THEME SONGS">See above.</capacity>
             <capacity title="ASSAULT">As part of a charge, after moving but before making its charge attack, this model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of this model’s activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, this model can make the Assault ranged attack before its activation ends.</capacity>
           </model>
-          <model id="RHUDD">
+          <model id="RHUDD" name="Rhudd">
             <basestats name="Rhudd" spd="6" str="7" mat="7" rat="6" def="13" arm="15" cmd="9" hitpoints="8" fearless="true" tough="true" />
             <weapons>
               <melee_weapon name="Sword " pow="3" count="2" p_plus_s="10" weapon_master="true" />
@@ -890,7 +880,6 @@
           <capacity title="● PUPPET MASTER" type="*Action or attack">Puppet Master is a RNG 10 spell. When it targets an enemy model/unit, it is a magic attack. You can have one affected model reroll one or more dice of your choice  rolled for a command check, attack, or damage roll, then Puppet Master expires. Puppet Master lasts for one round.</capacity>
           <capacity title="WILD COMMUNION">When a warbeast within 3" of this model makes a Threshold check, you can have the warbeast reroll one or more dice of your choice. Dice can be rerolled only once as a result of Wild Communion.</capacity>
         </unit>
-
       </units>
       <solos>
         <solo id="TS01" name="Fell Caller Hero" full_name="Fell Caller Hero" qualification="Trollblood Trollkin Solo" fa="2" cost="3" completed="true">
@@ -935,7 +924,7 @@
           <capacity title="TACTICIAN [TROLLKIN CHAMPION]">While in this model’s command range, friendly Trollkin Champion models ignore other friendly Trollkin Champion models when determining LOS. Friendly Trollkin Champion models can advance through other friendly Trollkin Champion models in this model’s command range without effect if they have enough movement to move completely past them.</capacity>
         </solo>
         <solo id="TS05" name="Horthol, Long Rider Hero" full_name="Horthol, Long Rider Hero" qualification="Trollblood Trollkin Dragoon Character Solo" fa="C" cost="5" completed="true">
-          <basestats name="HORTHOL" spd="7" str="9" mat="8" rat="4" def="12" arm="18" cmd="9" hitpoints="10" fearless="true" tough="true" />
+          <basestats name="Horthol" spd="7" str="9" mat="8" rat="4" def="12" arm="18" cmd="9" hitpoints="10" fearless="true" tough="true" />
           <weapons>
             <melee_weapon name="Long Hammer" pow="6" p_plus_s="15" reach="true">
               <capacity title="CRITICAL STAGGER">On a critical hit, the model hit loses its initial attacks and cannot make special attack for one round.</capacity>
@@ -949,8 +938,8 @@
           <capacity title="ELITE CADRE [LONG RIDERS]">Friendly Long Rider models gain Follow Up and Line Breaker.</capacity>
           <capacity title="FOLLOW UP"> When this model slams an enemy model, immediately after the slam is resolved this model can advance directly toward the slammed model up to the distance the slammed model was moved.</capacity>
           <capacity title="LINE BREAKER">This model gains an additional die on impact attack rolls.</capacity>
-          <model id="HORTHOL_DISMOUNT">
-            <basestats name="HORTHOL (DISMOUNTED)" spd="5" str="9" mat="8" rat="4" def="12" arm="16" cmd="9" hitpoints="8" fearless="true" tough="true" />
+          <model id="DISMOUNT" name="Horthol (dismounted)">
+            <basestats name="Horthol (dismounted)" spd="5" str="9" mat="8" rat="4" def="12" arm="16" cmd="9" hitpoints="8" fearless="true" tough="true" />
             <weapons>
               <melee_weapon name="Long Hammer" pow="6" p_plus_s="15" reach="true">
                 <capacity title="CRITICAL STAGGER">See above.</capacity>

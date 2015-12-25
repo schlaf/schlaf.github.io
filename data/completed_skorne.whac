@@ -91,16 +91,16 @@
           <capacity title="WARLOCK UNIT">This unit is made up of Makeda and 2 Exalted Guardians.</capacity>
           <capacity title="INSPIRATION [SKORNE]">Friendly Skorne models/units in this model's command range never flee and immediately rally.</capacity>
           <capacity title="BATTLE-DRIVEN">When a model in this unit is damaged by an enemy attack, after the attack is resolved models in this unit gain +2 STR and ARM and Pathfinder for one round.</capacity>
-          <model id="EXALTED GUARDIAN 1">
-            <basestats name="EXALTED GUARDIAN A" spd="6" str="7" mat="8" rat="3" def="12" arm="18" cmd="10" hitpoints="5" construct="true" />
+          <model id="GRUNT1" name="Exalted Guardian">
+            <basestats name="Exalted Guardian" spd="6" str="7" mat="8" rat="3" def="12" arm="18" cmd="10" hitpoints="5" construct="true" />
             <weapons>
               <melee_weapon name="Sword " pow="5" count="2" p_plus_s="12" magical="true" />
             </weapons>
             <capacity title="BATTLE-DRIVEN">When a model in this unit is damaged by an enemy attack, after the attack is resolved models in this unit gain +2 STR and ARM and Pathfinder for one round.</capacity>
             <capacity title="SHIELD GUARD">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity>
           </model>
-          <model id="EXALTED GUARDIAN 2">
-            <basestats name="EXALTED GUARDIAN B" spd="6" str="7" mat="8" rat="3" def="12" arm="18" cmd="10" hitpoints="5" construct="true" />
+          <model id="GRUNT2" name="Exalted Guardian">
+            <basestats name="Exalted Guardian" spd="6" str="7" mat="8" rat="3" def="12" arm="18" cmd="10" hitpoints="5" construct="true" />
             <weapons>
               <melee_weapon name="Sword " pow="5" count="2" p_plus_s="12" magical="true" />
             </weapons>
@@ -192,8 +192,8 @@
           <capacity title="GHOST SIGHT">This model does not require LOS in order to target friendly models with spells. This models ignores LOS when making ranged and magic attacks. This model ignores concealment and cover when resolving ranged attacks.</capacity>
           <capacity title="SOUL CONVERTER">Once per turn during its activation, this model can spend 1 fury point to give each Ancestral Guardian currently in its control area one soul token.</capacity>
           <capacity title="UNION [ANCESTRAL GUARDIANS]">This model can transfer damage to friendly Ancestral Guardians.</capacity>
-          <model id="KOVAAS" qualification="Skorne Solo">
-            <basestats name="KOVAAS" spd="6" str="0" mat="8" rat="3" def="13" arm="14" cmd="10" hitpoints="5" abomination="true" incorporeal="true" undead="true" />
+          <model id="KOVAAS" name="Kovaas" qualification="Skorne Solo">
+            <basestats name="Kovaas" spd="6" str="0" mat="8" rat="3" def="13" arm="14" cmd="10" hitpoints="5" abomination="true" incorporeal="true" undead="true" />
             <weapons>
               <melee_weapon name="Wasting Touch" pow="14" p_plus_s="14" magical="true" reach="true">
                 <capacity title="THRESHER (★ATTACK)">This model makes one melee attack with this weapon against each model in its LOS and this weapon's melee range.</capacity>
