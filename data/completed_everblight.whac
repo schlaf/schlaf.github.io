@@ -253,7 +253,7 @@
           <capacity title="BOND OF BLOOD [RHYAS]">This model can spend fury points to transfer damage to Rhyas.</capacity>
           <capacity title="CHANNELER [RHYAS]">While this model is not engaged and in Rhyas' control area, Rhyas can channel spells through it.</capacity>
           <capacity title="TWIN SISTER">Saeryn and Rhyas are both warlock models, but only Saeryn has the Officer advantage. Saeryn and Rhyas share a single battlegroup and count as one warlock for the purposes of army construction. Saeryn cannot make attacks against Rhyas, and Rhyas cannot make attacks against Saeryn. Saeryn and Rhyas cannot have an attached model. Your warlock is destroyed only if both Saeryn and Rhyas are destroyed or removed from play.</capacity>
-          <model>
+          <model id="RHYAS" name="Rhyas">
             <basestats name="Rhyas" spd="7" str="5" mat="8" rat="6" def="16" arm="14" cmd="8" hitpoints="8" focus="5" />
             <weapons>
               <melee_weapon name="Antiphon" pow="7" p_plus_s="12" magical="true" reach="true" weapon_master="true">

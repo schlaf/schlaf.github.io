@@ -94,7 +94,7 @@
           <capacity title="FIELD MARSHAL [HYPER REGENERATION]">Models in this model's battlegroup gain Hyper Regeneration. (A model with Hyper Regeneration automatically heals d3 damage points at the start of each of its activations.)</capacity>
           <capacity title="GOAD">When a warbeast in this model's battlegroup destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved this model can force the warbeast to advance up to 2".</capacity>
 
-          <model>
+          <model id="BEARER" name="Scroll Bearer">
             <basestats name="Scroll Bearer" spd="5" str="6" mat="5" rat="4" def="13" arm="13" cmd="8" hitpoints="5" tough="true"/>
             <weapons/>
             <capacity title="ATTACHED TO [DOOMSHAPER]">This model is attached to Doomshaper for the rest of the game. Each warlock can have only one model attached to it.</capacity>

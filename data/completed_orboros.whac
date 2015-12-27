@@ -862,18 +862,16 @@
           <capacity title="● SHIFTING">Place each model in this unit that is in formation anywhere within 8" of its current location.</capacity>
           <capacity title="● TELEPORTATION">If all three Shifting Stone models in this unit are in formation, place one friendly Faction model whose base is within the triangular area between them anywhere within 8" of its current location.  The placed model must forfeit its movement after being placed this turn.</capacity>
           <unit_attachment id="OA04" name="Stone Keeper" full_name="Stone Keeper" fa="1" cost="1" qualification="Circle Unit attachment" completed="true">
-            <model>
-              <basestats name="Keeper" spd="6" str="6" mat="5" rat="4" def="14" arm="13" cmd="8" hitpoints="5" advance_deployment="true" officer="true" pathfinder="true" />
-              <weapons>
-                <melee_weapon name="Voulge" pow="4" p_plus_s="10" magical="true" reach="true"></melee_weapon>
-              </weapons>
-              <capacity title="DISORIENTATION">This model cannot advance this turn after being placed by Shifting.</capacity>
-              <capacity title="GRANTED: STEALTH">While this model is in play, models in its unit gain Stealth.</capacity>
-              <capacity title="MAGIC ABILITY [6]"></capacity>
-              <capacity title="● ROCK HAMMER" type="*Attack">Rock Hammer is a RNG 8, AOE 3, POW 14 magic attack.  On a critical hit, models hit are knocked down.</capacity>
-              <capacity title="● STONE FORM" type="*Action">For one round or until it advances, this model gains +4 ARM, its base DEF is reduced to 5, and it is automatically hit by melee attacks.</capacity>
-              <capacity title="STONE HEART">This model never flees and automatically passes command checks.</capacity>
-            </model>
+            <basestats name="Keeper" spd="6" str="6" mat="5" rat="4" def="14" arm="13" cmd="8" hitpoints="5" advance_deployment="true" officer="true" pathfinder="true" />
+            <weapons>
+              <melee_weapon name="Voulge" pow="4" p_plus_s="10" magical="true" reach="true"></melee_weapon>
+            </weapons>
+            <capacity title="DISORIENTATION">This model cannot advance this turn after being placed by Shifting.</capacity>
+            <capacity title="GRANTED: STEALTH">While this model is in play, models in its unit gain Stealth.</capacity>
+            <capacity title="MAGIC ABILITY [6]"></capacity>
+            <capacity title="● ROCK HAMMER" type="*Attack">Rock Hammer is a RNG 8, AOE 3, POW 14 magic attack.  On a critical hit, models hit are knocked down.</capacity>
+            <capacity title="● STONE FORM" type="*Action">For one round or until it advances, this model gains +4 ARM, its base DEF is reduced to 5, and it is automatically hit by melee attacks.</capacity>
+            <capacity title="STONE HEART">This model never flees and automatically passes command checks.</capacity>
           </unit_attachment>
         </unit>
         <!--Sentry Stone and Mannikins complete-->
