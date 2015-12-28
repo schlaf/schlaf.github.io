@@ -1822,7 +1822,7 @@
           <capacity title="FLANK [FACTION WARJACK]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of type indicated, this model gains +2 to attacks rolls and gains an additional damage die.</capacity>
           <capacity title="PENETRATING STRIKE">After hitting a warjack or warbeast with this model's melee attack, you can choose to have it suffer 1 damage point instead of a normal damage roll.</capacity>
           <unit_attachment id="YA05_MERCS" name="Sword Knight Officer &amp; Standard" full_name="Sword Knight Officer &amp; Standard" qualification="Cygnar Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="OFFICER" name="Officer" full_name="Officer" qualification="Cygnar Unit Attachment">
+            <model id="OFFICER" name="Officer" full_name="Sword Knight Officer" qualification="Cygnar Unit Attachment">
               <basestats name="OFFICER" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="9" hitpoints="5" officer="true" />
               <weapons>
                 <melee_weapon name="Battle Blade" pow="4" p_plus_s="10" />
@@ -1834,7 +1834,7 @@
               <capacity title="PENETRATING STRIKE">After hitting a warjack or warbeast with this model's melee attack, you can choose to have it suffer 1 damage point instead of a normal damage roll.</capacity>
               <capacity title="TACTICS: PRECISION STRIKE">Models in this unit gain Precision Strike. (When a model with Precision Strike damages a warjack or warbeast with a melee attack, choose which column or branch suffers the damage.)</capacity>
             </model>
-            <model id="SWORD KNIGHT STANDARD" name="Standard Bearer" full_name="Standard Bearer">
+            <model id="STANDARD" name="Standard Bearer" full_name="Sword Knight Standard Bearer">
               <basestats name="STANDARD BEARER" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" hitpoints="0" standard_bearer="true" />
               <weapons />
               <capacity title="DEFENSIVE LINE">See above.</capacity>
