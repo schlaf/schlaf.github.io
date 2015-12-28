@@ -47,7 +47,7 @@
           <capacity title="FIELD MARSHAL [COUNTER CHARGE]">Models in this model's battlegroup gain Counter Charge. (When an enemy model advances and ends its movement within 6" of a model with Counter Charge and in its LOS, the model with Counter Charge can immediately charge it. If it does it cannot make another Counter Charge until after your next turn. A model cannot make a counter charge while engaged.)</capacity>
         </warcaster>
         <unit id="COCW03" full_name="Iron Mother Directrix &amp; Exponent Servitors">
-          <warcaster id="DIRECTRIX" name="Iron Mother Directrix" generation="P" qualification="Convergence Warcaster Unit" focus="8" warjack_points="4" fa="C" completed="true">
+          <warcaster id="DIRECTRIX" name="Iron Mother Directrix" full_name="Iron Mother Directrix" generation="P" qualification="Convergence Warcaster Unit" focus="8" warjack_points="4" fa="C" completed="true">
             <basestats name="Iron Mother Directrix" spd="6" str="7" mat="5" rat="5" def="15" arm="16" cmd="10" hitpoints="18" construct="true" officer="true" />
             <weapons>
               <melee_weapon p_plus_s="11" pow="4" name="Cloak of Blades" count="1" reach="true">
