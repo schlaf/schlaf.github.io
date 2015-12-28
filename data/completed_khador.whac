@@ -920,18 +920,16 @@
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
           <capacity title="PARRY">This model cannot be targeted by free strikes.</capacity>
           <unit_attachment id="KA04" name="Kayazy Assassin Underboss" full_name="Kayazy Assassin Underboss" qualification="khador ally unit attachment" fa="1" cost="2" completed="true">
-            <model id="KA04" name="Kayazy Assassin Underboss" full_name="Kayazy Assassin Underboss">
-              <basestats name="Underboss" spd="6" str="6" mat="8" rat="4" def="14" arm="11" cmd="9" hitpoints="5" officer="true" stealth="true" tough="true" />
-              <weapons>
-                <melee_weapon p_plus_s="10" pow="4" name="Assassin Blade" count="2" />
-              </weapons>
-              <capacity title="ATTACHMENT [KAYAZY ASSASSINS]">This attachment can be added to a Kayazy Assassins unit.</capacity>
-              <capacity title="BACKSTAB">This model gains an additional die on its back strike damage rolls.</capacity>
-              <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
-              <capacity title="KILL STROKE">Once per game during its unit's activation, this model can use Kill Stroke. This activation, models in this unit currently in formation can advance trough other models if they have enough movement to move completely past them, ignore intervening models when declaring a charge, and cannot be targeted by free strikes.</capacity>
-              <capacity title="PARRY">This model cannot be targeted by free strikes.</capacity>
-              <capacity title="TACTICS: DUELIST">Models in this unit gain +2 DEF against melee attack rolls.</capacity>
-            </model>
+            <basestats name="Underboss" spd="6" str="6" mat="8" rat="4" def="14" arm="11" cmd="9" hitpoints="5" officer="true" stealth="true" tough="true" />
+            <weapons>
+              <melee_weapon p_plus_s="10" pow="4" name="Assassin Blade" count="2" />
+            </weapons>
+            <capacity title="ATTACHMENT [KAYAZY ASSASSINS]">This attachment can be added to a Kayazy Assassins unit.</capacity>
+            <capacity title="BACKSTAB">This model gains an additional die on its back strike damage rolls.</capacity>
+            <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
+            <capacity title="KILL STROKE">Once per game during its unit's activation, this model can use Kill Stroke. This activation, models in this unit currently in formation can advance trough other models if they have enough movement to move completely past them, ignore intervening models when declaring a charge, and cannot be targeted by free strikes.</capacity>
+            <capacity title="PARRY">This model cannot be targeted by free strikes.</capacity>
+            <capacity title="TACTICS: DUELIST">Models in this unit gain +2 DEF against melee attack rolls.</capacity>
           </unit_attachment>
         </unit>
         <unit id="KU16" name="Man-o-war Bombardiers" full_name="Man-o-war Bombardiers" base_cost="7" baseCount="3" full_cost="11" fullCount="5" qualification="Khador Unit" fa="1" completed="true">
