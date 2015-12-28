@@ -1775,7 +1775,7 @@
           </weapons>
           <capacity title="DUAL SHOT">When this model forfeits its movement to gain the aiming bonus it can make one additional ranged attack this activation.</capacity>
           <unit_attachment id="YA07_MERCS" name="Long Gunner Infantry Officer &amp; Standard" full_name="Long Gunner Infantry Officer &amp; Standard" qualification="Cygnar Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="LONG GUNNER INFANTRY OFFICER" name="Officer" full_name="Officer" qualification="Mercenary Unit Attachment">
+            <model id="OFFICER" name="Officer" full_name="Long Gunner Infantry Officer" qualification="Mercenary Unit Attachment">
               <basestats name="OFFICER" spd="5" str="4" mat="5" rat="6" def="13" arm="12" cmd="9" hitpoints="5" cra="true" officer="true" />
               <weapons>
                 <ranged_weapon name="Repeating Long Gun" rng="14" rof="2" aoe="-" pow="10" magical="true" />
@@ -1785,7 +1785,7 @@
               <capacity title="SUPPRESSING FIRE (ORDER)">This order can be issued only if two or more models with ranged weapons in this unit in formation are able to forfeit their actions. Each model in this unit in formation must forfeit its action. Other than the Standard Bearer, those models that do are participants. Place an AOE completely within 14" of all participants, with its center point in LOS of all participants ignoring intervening models. The size of the AOE is based on the number of participants. If there are 2–4, the AOE is 3". If there are 5–7, the AOE is 4". If there are 8 or more, the AOE is 5". When a model enters or ends its activation within the AOE, it suffers a POW 10 damage roll. Suppressing Fire lasts for one round or until all participants have been destroyed or removed from play.</capacity>
               <capacity title="DUAL SHOT">When this model forfeits its movement to gain the aiming bonus it can make one additional ranged attack this activation.</capacity>
             </model>
-            <model id="LONG GUNNER INFANTRY STANDARD" name="Standard Bearer" full_name="Standard Bearer">
+            <model id="STANDARD" name="Standard Bearer" full_name="Long Gunner Infantry Standard Bearer">
               <basestats name="STANDARD BEARER" spd="5" str="4" mat="4" rat="5" def="13" arm="12" cmd="8" hitpoints="0" standard_bearer="true" />
               <weapons>
                 <melee_weapon name="Sword" pow="3" p_plus_s="7" />
