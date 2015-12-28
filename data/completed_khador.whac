@@ -753,19 +753,17 @@
             </model>
           </unit_attachment>
           <weapon_attachment id="KA03" name="Winter Guard Infantry Rocketeer" full_name="Winter Guard Infantry Rocketeer" fa="2" cost="1" qualification="Khador Winter Guard Weapon Attachment" max_wa="3" completed="true">
-            <model id="WINTER GUARD INFANTRY ROCKETEER">
-              <basestats name="Winter Guard Infantry Rocketeer" spd="6" str="5" mat="5" rat="5" def="12" arm="13" cmd="8" cra="true" />
-              <weapons>
-                <melee_weapon p_plus_s="8" pow="3" name="Axe" />
-                <ranged_weapon rng="14" name="Rocket" aoe="3" pow="12" rof="1">
-                  <capacity title="CUMBERSOME">If this model attacks with this weapon during its activation, it cannot attack with another ranged weapon that activation. If this model attacked with another ranged weapon this activation, it cannot attack with this weapon.</capacity>
-                  <capacity title="SUPPORT WEAPON">When attacking with this weapon, this model cannot participate in a combined ranged attack.</capacity>
-                </ranged_weapon>
-                <ranged_weapon rng="8" name="Blunderbuss" aoe="-" pow="12" rof="1" />
-              </weapons>
-              <capacity title="ATTACHMENT [WINTER GUARD INFANTRY]">This attachment can be added to a Winter Guard Infantry unit.</capacity>
-              <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damagge boxes as the chosen Grunt.</capacity>
-            </model>
+            <basestats name="Winter Guard Infantry Rocketeer" spd="6" str="5" mat="5" rat="5" def="12" arm="13" cmd="8" cra="true" />
+            <weapons>
+              <melee_weapon p_plus_s="8" pow="3" name="Axe" />
+              <ranged_weapon rng="14" name="Rocket" aoe="3" pow="12" rof="1">
+                <capacity title="CUMBERSOME">If this model attacks with this weapon during its activation, it cannot attack with another ranged weapon that activation. If this model attacked with another ranged weapon this activation, it cannot attack with this weapon.</capacity>
+                <capacity title="SUPPORT WEAPON">When attacking with this weapon, this model cannot participate in a combined ranged attack.</capacity>
+              </ranged_weapon>
+              <ranged_weapon rng="8" name="Blunderbuss" aoe="-" pow="12" rof="1" />
+            </weapons>
+            <capacity title="ATTACHMENT [WINTER GUARD INFANTRY]">This attachment can be added to a Winter Guard Infantry unit.</capacity>
+            <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damagge boxes as the chosen Grunt.</capacity>
           </weapon_attachment>
         </unit>
         <unit id="KU07" name="Greylord Ternion" full_name="Greylord Ternion" base_cost="4" baseCount="3" full_cost="-" fullCount="-" qualification="Khador Unit" fa="3" completed="true">
