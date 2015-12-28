@@ -829,8 +829,8 @@
             </melee_weapon>
           </weapons>
           <unit_attachment id="OA03" name="Wolf of Orboros Officer &amp; Standard" full_name="Wolf of Orboros Officer &amp; Standard" fa="1" cost="2" qualification="Circle Unit attachment" completed="true">
-            <model id="WOLF OF ORBOROS OFFICER">
-              <basestats name="Chieftain" spd="6" str="5" mat="7" rat="4" def="13" arm="13" cmd="8" hitpoints="5" cma="true" officer="true" pathfinder="true" />
+            <model id="OFFICER" name="Officer" full_name="Wolf of Orboros Officer">
+              <basestats name="Officer" spd="6" str="5" mat="7" rat="4" def="13" arm="13" cmd="8" hitpoints="5" cma="true" officer="true" pathfinder="true" />
               <weapons>
                 <melee_weapon name="Cleft Spear" pow="4" p_plus_s="9" reach="true">
                   <capacity title="POWERFUL CHARGE">This model gains +2 to charge attack rolls with this weapon.</capacity>
@@ -840,7 +840,7 @@
               <capacity title="POWER SWELL">Once per game during its unit's activation, this model can use Power Swell.  During this activation, models in this unit gain an additional die on melee damage rolls.</capacity>
               <capacity title="TACTICS: RANKED ATTACKS">Models in this unit gain Ranked Attacks.  (Friendly Faction models can ignore models with Ranked Attacks when determining LOS.)</capacity>
             </model>
-            <model id="WOLF OF ORBOROS STANDARD">
+            <model id="STANDARD" name="Standard Bearer" full_name="Wolves of Orboros Standard Bearer">
               <basestats name="Standard Bearer" spd="6" str="5" mat="6" rat="4" def="13" arm="13" cmd="8" pathfinder="true" standard_bearer="true" />
             </model>
           </unit_attachment>
