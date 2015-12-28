@@ -811,7 +811,7 @@
           <capacity title="DIG IN" type="*Action">This model gains cover, does not suffer blast damage, and does not block LOS. This model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
           <capacity title="SMOKE BOMBS" type="*Action">Place a 3" AOE cloud effect in play. Its center point must be within 1" of this model. This AOE remains in play for one round.</capacity>
           <unit_attachment id="YA03" name="Trencher Infantry Officer &amp; Sniper" full_name="Trencher Infantry Officer &amp; Sniper" fa="1" cost="3" qualification="Cygnar Unit attachment"  completed="true">
-            <model id="TRENCHER INFANTRY OFFICER">
+            <model id="OFFICER" name="Officer" full_name="Trencher Infantry Officer">
               <basestats name="Officer" spd="6" str="6" mat="7" rat="6" def="13" arm="13" cmd="9" cra="true" advance_deployment="true" hitpoints="5" officer="true" jack_marshal="true" />
               <weapons>
                 <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -821,7 +821,7 @@
               <capacity title="DIG IN" type="*Action">This model gains cover, does not suffer blast damage, and does not block LOS. This model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
               <capacity title="SMOKE BOMBS" type="*Action">Place a 3" AOE cloud effect in play. Its center point must be within 1" of this model. This AOE remains in play for one round.</capacity>
             </model>
-            <model id="TRENCHER INFANTRY SNIPER">
+            <model id="SNIPER" name="Sniper" full_name="Trencher Infantry Sniper">
               <basestats name="Sniper" spd="6" str="6" mat="6" rat="7" def="13" arm="13" cmd="9" cra="true" advance_deployment="true" hitpoints="0" />
               <weapons>
                 <ranged_weapon name="Scoped Rifle" rng="14" rof="1" aoe="-" pow="11" />
