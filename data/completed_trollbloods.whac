@@ -214,7 +214,7 @@
           <spell name="MOSH PIT" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly models gain Knockdown on their melee weapons. Mosh Pit lasts for one turn. (When a model is hit with an attack by a weapon with Knockdown, it is knocked down.)</spell>
           <spell name="WIND WALL" cost="3" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model cannot make ranged attacks, and non-magical ranged attacks targeting it automatically miss. While completely within 3" of this model, models cannot make ranged attacks and non-magical ranged attacks targeting them automatically miss. Wind Wall lasts for one round.</spell>
           <capacity title="UNYIELDING">While engaging an enemy model, this model gains +2 ARM.</capacity>
-          <model id="PYG KEG CARRIER" name="Pyg Keg carrier" qualification="Trollkin Character Solo">
+          <model id="CARRIER" name="Pyg Keg carrier" qualification="Trollkin Character Solo">
             <basestats name="KEG CARRIER" spd="5" str="5" mat="5" rat="4" def="13" arm="12" cmd="6" hitpoints="5" tough="true" />
             <weapons>
               <melee_weapon name="Keg Bash" pow="3" p_plus_s="8" />
@@ -574,7 +574,7 @@
           <capacity title="● FERVOR">Affected models gain +2 to attack and damage rolls this activation.</capacity>
           <capacity title="● SWIFT FOOT">Affected models gain +2 movement this activation.</capacity>
           <unit_attachment id="TA01" name="Kriel Warrior Standard Bearer &amp; Piper" full_name="Kriel Warrior Standard Bearer &amp; Piper" qualification="Trollblood Trollkin Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="STANDARD BEARER">
+            <model id="BEARER" name="Standard Bearer">
               <basestats name="STANDARD BEARER" spd="5" str="6" mat="5" rat="4" def="12" arm="15" cmd="8" standard_bearer="true" tough="true" />
               <weapons />
               <capacity title="GRANTED: STEADY">While this model is in play, models in its unit gain Steady. (Models with Steady cannot be knocked down.)</capacity>
