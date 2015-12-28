@@ -757,8 +757,8 @@
             <melee_weapon name="Sword" pow="3" p_plus_s="8" />
           </weapons>
           <unit_attachment id="SA02" name="Venators Reiver Officer &amp; Standard" full_name="Venators Reiver Officer &amp; Standard" qualification="Skorne Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="VENATORS REIVER OFFICER">
-              <basestats name="OFFICER" spd="6" str="5" mat="6" rat="6" def="13" arm="13" cmd="8" hitpoints="5" cra="true" officer="true" />
+            <model id="OFFICER" name="Officer">
+              <basestats name="Officer" spd="6" str="5" mat="6" rat="6" def="13" arm="13" cmd="8" hitpoints="5" cra="true" officer="true" />
               <weapons>
                 <ranged_weapon name="Reiver" rng="12" rof="1" aoe="-" pow="10">
                   <capacity title="BURST FIRE">Gain +1 to damage rolls with this weapon against models with medium bases and +2 to damage rolls against models with large or huge bases.</capacity>
@@ -769,7 +769,7 @@
               <capacity title="EXTENDED FIRE">Once per game while in formation, this model can use Extended Fire during its unit's activation. This activation, models in this unit gain +4 RNG to their ranged attacks.</capacity>
               <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
             </model>
-            <model id="VENATORS REIVER STANDARD">
+            <model id="STANDARD" name="Standard Bearer">
               <basestats name="STANDARD BEARER" spd="6" str="5" mat="5" rat="5" def="13" arm="13" cmd="8" hitpoints="0" standard_bearer="true" />
               <weapons>
                 <melee_weapon name="Sword" pow="3" p_plus_s="8" />
