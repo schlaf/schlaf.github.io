@@ -753,7 +753,7 @@
           <capacity title="HUNTER">This model ignores forests, concealment, and cover when determining LOS or making a ranged attack.</capacity>
           <capacity title="SNAP FIRE">When this model destroys one or more enemy models with a ranged attack during its combat action, immediately after that attack is resolved this model can make one normal ranged attack.  Attacks gained from Snap Fire do not count against a weapon's ROF and cannot generate additional attacks from Snap Fire.</capacity>
           <unit_attachment id="OA05" name="Reeves of Orboros Chieftain &amp; Standard" full_name="Reeves of Orboros Chieftain &amp; Standard" fa="1" cost="2" qualification="Circle Unit Attachment" completed="true">
-            <model id="REEVES OF ORBOROS CHIEFTAIN">
+            <model id="CHIEFTAIN" name="Chieftain" full_name="Reeves of Orboros Chieftain">
               <basestats name="Chieftain" spd="6" str="5" mat="6" rat="6" def="13" arm="13" cmd="9" hitpoints="5" cra="true" officer="true" pathfinder="true" />
               <weapons>
                 <ranged_weapon name="Double Crossbow" rng="12" rof="1" aoe="-" pow="10" />
@@ -764,7 +764,7 @@
               <capacity title="SNAP FIRE">When this model destroys one or more enemy models with a ranged attack during its combat action, immediately after that attack is resolved this model can make one normal ranged attack.  Attacks gained from Snap Fire do not count against a weapon's ROF and cannot generate additional attacks from Snap Fire.</capacity>
               <capacity title="TACTICS: RANKED ATTACKS">Models in this unit gain Ranked Attacks.  (Friendly Faction models can ignore models with Ranked Attacks when determining LOS.)</capacity>
             </model>
-            <model id="REEVES OF ORBOROS STANDARD">
+            <model id="STANDARD" name="Standard Bearer" full_name="Reeves of Orboros Standard Bearer">
               <basestats name="Standard Bearer" spd="6" str="5" mat="5" rat="5" def="13" arm="13" cmd="8" pathfinder="true" standard_bearer="true" />
             </model>
           </unit_attachment>
