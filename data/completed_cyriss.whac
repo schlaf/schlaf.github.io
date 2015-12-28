@@ -261,24 +261,26 @@
         </colossal>
       </colossals>
       <battleEngines>
-        <battleEngine id="COCE01" name="Transfinite Emergence Projector &amp; Permutation Servitors" full_name="Transfinite Emergence Projector &amp; Permutation Servitors" cost="9" qualification="Convergence Battle engine" fa="2" completed="true">
-          <basestats name="Transfinite Emergence Projector" spd="5" str="10" mat="0" rat="4" def="10" arm="19" cmd="10" hitpoints="20" construct="true" pathfinder="true"/>
-          <weapons>
-            <ranged_weapon rng="SP10" name="Aperture Pulse" aoe="-" pow="10" location="-" rof="1">
-              <capacity title="AUTO FIRE [2]">Make 2 ranged attacks targeting a primary target and any number of secondary targets within 2" of the first target. Ignore intervening models when declaring secondary targets. A secondary target cannot be targeted by more attacks than the primary target. Auto Fire counts as one attack for ROF.</capacity>
-              <capacity title="FIRING FORMULAE">When this model makes a ranged attack with this weapon during its activation, determine the position of Permutation Servitors  this model put into play. For each completely within its left firing arc this model gains an additional die on its attack rolls. For each completely within its right firing arc, this model gains an additional die on its damage rolls. For each completely within its back arc, this model makes an additional Auto Fire attack.</capacity>
-            </ranged_weapon>
-          </weapons>
-          <capacity title="GUN PLATFORM">This model can make ranged attacks even while in melee.</capacity>
-          <capacity title="SACRIFICIAL PAWN [PERMUTATION SERVITORS]">When this model is directly hit by a ranged attack, you can choose to have one friendly, non-incorporeal Permutation model within 3" of this model be directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
-          <capacity title="SERVITOR SATELLITES">At the start of this model's activation, remove any permutation Servitors this model put into play from the table. Once per activation, after its normal movement, this model can place up to 3 Permutation Servitors anywhere within 1" of this model.</capacity>
-          <capacity title="STEADY">This model cannot be knocked down.</capacity>
+        <unit id="COCE01" name="Transfinite Emergence Projector &amp; Permutation Servitors" completed="true">
+          <battleEngine id="TEP" name="Transfinite Emergence Projector" cost="9" qualification="Convergence Battle engine" fa="2" completed="true">
+            <basestats name="Transfinite Emergence Projector" spd="5" str="10" mat="0" rat="4" def="10" arm="19" cmd="10" hitpoints="20" construct="true" pathfinder="true"/>
+            <weapons>
+              <ranged_weapon rng="SP10" name="Aperture Pulse" aoe="-" pow="10" location="-" rof="1">
+                <capacity title="AUTO FIRE [2]">Make 2 ranged attacks targeting a primary target and any number of secondary targets within 2" of the first target. Ignore intervening models when declaring secondary targets. A secondary target cannot be targeted by more attacks than the primary target. Auto Fire counts as one attack for ROF.</capacity>
+                <capacity title="FIRING FORMULAE">When this model makes a ranged attack with this weapon during its activation, determine the position of Permutation Servitors  this model put into play. For each completely within its left firing arc this model gains an additional die on its attack rolls. For each completely within its right firing arc, this model gains an additional die on its damage rolls. For each completely within its back arc, this model makes an additional Auto Fire attack.</capacity>
+              </ranged_weapon>
+            </weapons>
+            <capacity title="GUN PLATFORM">This model can make ranged attacks even while in melee.</capacity>
+            <capacity title="SACRIFICIAL PAWN [PERMUTATION SERVITORS]">When this model is directly hit by a ranged attack, you can choose to have one friendly, non-incorporeal Permutation model within 3" of this model be directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
+            <capacity title="SERVITOR SATELLITES">At the start of this model's activation, remove any permutation Servitors this model put into play from the table. Once per activation, after its normal movement, this model can place up to 3 Permutation Servitors anywhere within 1" of this model.</capacity>
+            <capacity title="STEADY">This model cannot be knocked down.</capacity>
+          </battleEngine>
           <model id="SERVITORS" name="Permutation Servitors" full_name="Permutation Servitors">
             <basestats name="Permutation Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true"/>
-              <capacity title="ORBIT">This model does not begin the game in play and does not activate. This model cannot be hit by attacks made by the model that put it into play. If the model that put this model into play is destroyed or removed from play, remove this model from play.</capacity>
-              <capacity title="STEADY">This model cannot be knocked down.</capacity>
+            <capacity title="ORBIT">This model does not begin the game in play and does not activate. This model cannot be hit by attacks made by the model that put it into play. If the model that put this model into play is destroyed or removed from play, remove this model from play.</capacity>
+            <capacity title="STEADY">This model cannot be knocked down.</capacity>
           </model>
-        </battleEngine>
+        </unit>
       </battleEngines>
       <units>
         <unit id="COCU01" name="Clockwork Angels" full_name="Clockwork Angels" base_cost="3" baseCount="3" full_cost="-" fullCount="-" qualification="Convergence Unit" fa="3" completed="true">
