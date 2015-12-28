@@ -1281,15 +1281,17 @@
           <works_for id="FACTION_RETRIBUTION" />
         </unit>
         <unit id="MU16" name="Dannon Blythe &amp; Bull" full_name="Dannon Blythe &amp; Bull" qualification="Mercenary Minion Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="2" fullCount="-" completed="true">
-          <basestats name="BLYTHE" spd="6" str="5" mat="6" rat="6" def="15" arm="13" cmd="9" hitpoints="5" gunfighter="true" officer="true" />
-          <weapons>
-            <ranged_weapon name="Pistol" rng="8" rof="1" aoe="-" pow="10" />
-            <melee_weapon name="Sword" pow="3" p_plus_s="8" />
-          </weapons>
-          <capacity title="MERCENARIES">These models will work for Cygnar, Khador, and the Protectorate.</capacity>
-          <capacity title="MINIONS">These models will work for the Trollbloods.</capacity>
-          <capacity title="HUNTSMAN">After deployment but before the first player's turn, choose an enemy model/unit to be this unit's prey. While this model is in play, each model in its unit beginning its activation within 10" of the prey gains +2" movement that activation. Whike this model is in play, models in its unit gains +2 to attack and damage rolls against the prey. When the prey is destroyed or removed from play, choose another model/unit as the prey.</capacity>
-          <capacity title="TAKE DOWN">Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.</capacity>
+          <model id="BLYTHE" name="Blythe" full_name="Dannon Blythe">
+            <basestats name="BLYTHE" spd="6" str="5" mat="6" rat="6" def="15" arm="13" cmd="9" hitpoints="5" gunfighter="true" officer="true" />
+            <weapons>
+              <ranged_weapon name="Pistol" rng="8" rof="1" aoe="-" pow="10" />
+              <melee_weapon name="Sword" pow="3" p_plus_s="8" />
+            </weapons>
+            <capacity title="MERCENARIES">These models will work for Cygnar, Khador, and the Protectorate.</capacity>
+            <capacity title="MINIONS">These models will work for the Trollbloods.</capacity>
+            <capacity title="HUNTSMAN">After deployment but before the first player's turn, choose an enemy model/unit to be this unit's prey. While this model is in play, each model in its unit beginning its activation within 10" of the prey gains +2" movement that activation. Whike this model is in play, models in its unit gains +2 to attack and damage rolls against the prey. When the prey is destroyed or removed from play, choose another model/unit as the prey.</capacity>
+            <capacity title="TAKE DOWN">Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.</capacity>
+          </model>
           <model id="BULL" name="Bull" full_name="Bull">
             <basestats name="BULL" spd="6" str="7" mat="6" rat="6" def="13" arm="15" cmd="9" hitpoints="8" tough="true" />
             <weapons>
