@@ -653,7 +653,7 @@
             <ranged_weapon name="Big gun" location="R" rng="14" rof="1" aoe="-" pow="15" />
           </weapons>
           <capacity title="ACTIVATE LIGHTNING POD">Once per activation, after its normal movement, this model can place one Lightning Pod anywhere completely within 10" of this model if there are fewer than three Lightning Pods placed currently in play. At the time a Lightning Pod is placed, enemy models whose bases are intersected by a line drawn between the center of the Lightning Pod and the center of this model suffer a POW 10 electrical damage roll. Warjacks damaged by a Lightning Pod damage roll suffer Disruption. The S boxes of this model's damage grid represent its Lightning Pod system. While its Lightning Pod system is crippled, this model cannot use Activate Lightning Pod.(A warjack suffering Disruption loses its focus points and cannot be allocated focus or channel spells for one round.)</capacity>
-          <model id="LIGHTNING POD" full_name="Lightning Pod" qualification="cygnar solo">
+          <model id="POD" full_name="Lightning Pod" qualification="Cygnar Solo">
             <basestats name="Lightning Pod" spd="0" str="0" mat="0" rat="0" def="5" arm="15" cmd="0" construct="true" immunity_electricity="true" />
             <capacity title="IMMOBILE">This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360. It has no melee range, cannot engage, and its automatically hits by melee attacks.</capacity>
             <capacity title="CONDUCTOR">When a friendly Stormsmith Stormcaller makes a Surge or Triangulation Stormcall, this model is considered to be another friendly Stormsmith Stormcaller.</capacity>
