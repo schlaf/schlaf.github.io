@@ -684,7 +684,7 @@
           </weapons>
           <capacity title="SELF-SACRIFICE">If this model is disabled by an enemy attack, you can choose a non-disabled model in this unit within 3" of this model to be destroyed. If another model is destroyed as a result of Self-Sacrifice, this model heals 1 damage point.</capacity>
           <unit_attachment id="PA04" name="Exemplar Errant Officer &amp; Standard Bearer" full_name="Exemplar Errant Officer &amp; Standard Bearer" qualification="Protectorate Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="EXEMPLAR ERRANT OFFICER">
+            <model id="OFFICER" name="Officer" full_name="Exemplar Errant Officer">
               <basestats name="OFFICER" spd="5" str="6" mat="8" rat="7" def="12" arm="16" cmd="9" hitpoints="5" advance_deployment="true" fearless="true" officer="true" />
               <weapons>
                 <ranged_weapon name="Heavy Crossbow" rng="10" rof="1" aoe="-" pow="10" magical="true">
@@ -697,8 +697,8 @@
               <capacity title="TACTICS: QUICK WORK">Models in this unit gain Quick Work. (When a model with Quick Work destroys one or more enemy models with a melee attack during its combat action, immediately after that attack is resolved it can make one normal ranged attack. Attacks gained from Quick Work do not count against a weapon's ROF.)</capacity>
               <capacity title="ATTACHMENT [EXEMPLAR ERRANTS]" type="">This attachment can be added to an Exemplar Errant unit.</capacity>
             </model>
-            <model id="EXEMPLAR ERRANT STANDARD BEARER">
-              <basestats name="STANDARD BEARER" spd="5" str="6" mat="7" rat="6" def="12" arm="16" cmd="9" advance_deployment="true" fearless="true" standard_bearer="true" />
+            <model id="STANDARD" name="Standard Bearer" full_name="Exemplar Errant Standard Bearer">
+              <basestats name="Standard Bearer" spd="5" str="6" mat="7" rat="6" def="12" arm="16" cmd="9" advance_deployment="true" fearless="true" standard_bearer="true" />
               <weapons />
               <capacity title="PURITY" type="">While this model is in formation, models in its unit cannot be targeted by enemy spells.</capacity>
               <capacity title="SELF-SACRIFICE">See above.</capacity>
