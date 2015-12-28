@@ -1873,18 +1873,16 @@
             </model>
           </unit_attachment>
           <weapon_attachment id="YA04_MERCS" name="Trencher Infantry Grenadier" full_name="Trencher Infantry Grenadier" qualification="Cygnar Weapon Attachment" fa="2" cost="1" max_wa="3" completed="true">
-            <model id="TRENCHER INFANTRY GRENADIER" name="Trencher Infantry Rifle Grenadier" qualification="Cygnar Weapon Attachment">
-              <basestats name="GRENADIER" spd="6" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" hitpoints="0" advance_deployment="true" cra="true" />
-              <weapons>
-                <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11">
-                  <capacity title="RIFLE GRENADE (★ATTACK)">Make a ranged attack with this weapon with AOE 3". When making a Rifle Grenade special attack, this model cannot participate in a combined ranged attack.</capacity>
-                </ranged_weapon>
-                <melee_weapon name="Bayonet" pow="3" p_plus_s="9" />
-              </weapons>
-              <capacity title="DIG IN (★ACTION)">This model gains cover, does not suffer blast damage, and does not block LOS. This model remains dug in until it moves, is placed, or is engaged. The model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
-              <capacity title="SMOKE BOMBS (★ACTION)">Place a 3" AOE cloud effect in play. Its center point must be within 1" of this model. This AOE remains in play for one round.</capacity>
-              <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damagge boxes as the chosen Grunt.</capacity>
-            </model>
+            <basestats name="GRENADIER" spd="6" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" hitpoints="0" advance_deployment="true" cra="true" />
+            <weapons>
+              <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11">
+                <capacity title="RIFLE GRENADE (★ATTACK)">Make a ranged attack with this weapon with AOE 3". When making a Rifle Grenade special attack, this model cannot participate in a combined ranged attack.</capacity>
+              </ranged_weapon>
+              <melee_weapon name="Bayonet" pow="3" p_plus_s="9" />
+            </weapons>
+            <capacity title="DIG IN (★ACTION)">This model gains cover, does not suffer blast damage, and does not block LOS. This model remains dug in until it moves, is placed, or is engaged. The model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
+            <capacity title="SMOKE BOMBS (★ACTION)">Place a 3" AOE cloud effect in play. Its center point must be within 1" of this model. This AOE remains in play for one round.</capacity>
+            <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damagge boxes as the chosen Grunt.</capacity>
           </weapon_attachment>
         </unit>
         <unit id="YU06_MERCS" name="Trencher Chain Gun Crew" full_name="Trencher Chain Gun Crew" qualification="Cygnar Weapon Crew Unit" fa="2" base_cost="2" full_cost="-" baseCount="2" fullCount="-" completed="true">
