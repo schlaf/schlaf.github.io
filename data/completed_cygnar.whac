@@ -653,7 +653,7 @@
             <ranged_weapon name="Big gun" location="R" rng="14" rof="1" aoe="-" pow="15" />
           </weapons>
           <capacity title="ACTIVATE LIGHTNING POD">Once per activation, after its normal movement, this model can place one Lightning Pod anywhere completely within 10" of this model if there are fewer than three Lightning Pods placed currently in play. At the time a Lightning Pod is placed, enemy models whose bases are intersected by a line drawn between the center of the Lightning Pod and the center of this model suffer a POW 10 electrical damage roll. Warjacks damaged by a Lightning Pod damage roll suffer Disruption. The S boxes of this model's damage grid represent its Lightning Pod system. While its Lightning Pod system is crippled, this model cannot use Activate Lightning Pod.(A warjack suffering Disruption loses its focus points and cannot be allocated focus or channel spells for one round.)</capacity>
-          <model id="POD" full_name="Lightning Pod" qualification="Cygnar Solo">
+          <model id="YJ20:POD" full_name="Lightning Pod" qualification="Cygnar Solo" completed="true">
             <basestats name="Lightning Pod" spd="0" str="0" mat="0" rat="0" def="5" arm="15" cmd="0" construct="true" immunity_electricity="true" />
             <capacity title="IMMOBILE">This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360. It has no melee range, cannot engage, and its automatically hits by melee attacks.</capacity>
             <capacity title="CONDUCTOR">When a friendly Stormsmith Stormcaller makes a Surge or Triangulation Stormcall, this model is considered to be another friendly Stormsmith Stormcaller.</capacity>
@@ -749,13 +749,15 @@
           </unit_attachment>
         </unit>
         <unit id="YU03" name="Field Mechaniks" full_name="Field Mechaniks" base_cost="2" baseCount="3" full_cost="3" fullCount="6" qualification="Cygnar Unit" fa="3"  completed="true">
-          <basestats name="Crew chief" spd="5" str="4" mat="3" rat="4" def="12" arm="11" cmd="7" jack_marshal="true" officer="true" />
-          <weapons>
-            <melee_weapon name="Monkey Wrench" pow="2" p_plus_s="6" />
-            <ranged_weapon name="Rivet gun" rng="4" rof="1" aoe="-" pow="10" />
-          </weapons>
-          <capacity title="IRON SENTINEL">While B2B with a friendly Faction warjack, this model gains +2 DEF and ARM and cannot be knocked down.</capacity>
-          <capacity title="REPAIR [9]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjacks damage grid.</capacity>
+          <model id="CHIEF" name="Crew Chief">
+            <basestats name="Crew Chief" spd="5" str="4" mat="3" rat="4" def="12" arm="11" cmd="7" jack_marshal="true" officer="true" />
+            <weapons>
+              <melee_weapon name="Monkey Wrench" pow="2" p_plus_s="6" />
+              <ranged_weapon name="Rivet gun" rng="4" rof="1" aoe="-" pow="10" />
+            </weapons>
+            <capacity title="IRON SENTINEL">While B2B with a friendly Faction warjack, this model gains +2 DEF and ARM and cannot be knocked down.</capacity>
+            <capacity title="REPAIR [9]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjacks damage grid.</capacity>
+          </model>
           <model id="GRUNTS" name="Gobber Grunts">
             <basestats name="Gobber grunts" spd="6" str="4" mat="2" rat="2" def="14" arm="9" cmd="4" />
             <weapons>

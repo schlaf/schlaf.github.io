@@ -764,21 +764,18 @@
           <capacity title="● HEROIC CALL">Affected models gain Fearless and Tough for one round.</capacity>
           <capacity title="● HOG WILD">Affected models can make one ranged attack this activation before this unit makes its normal movement. After their normal movement, models in this unit that make combat actions can only make melee attacks this activation.</capacity>
           <capacity title="● MARCH">Affected models gain Pathfinder for one turn.</capacity>
-          <unit_attachment id="UA_FOR_IU03" name="Farrow Brigand Warlord" full_name="Farrow Brigand Warlord" qualification="Minion Unit Attachment" fa="1" cost="3" completed="true">
-            <model name="Farrow Brigand Warlord" full_name="Farrow Brigand Warlord" qualification="Minion Unit Attachment">
-              <basestats name="WARLORD" spd="5" str="7" mat="7" rat="6" def="12" arm="16" cmd="9" gunfighter="true" officer="true" hitpoints="5"/>
-              <weapons>
-                <ranged_weapon name="Pig Iron" rng="10" rof="1" aoe="-" pow="12" count="2"></ranged_weapon>
-                <melee_weapon name="Battle Axe" pow="5" p_plus_s="12"></melee_weapon>
-              </weapons>
-              <capacity title="ATTACHMENT [FARROW BRIGAND]">This attachment can be added to a Farrow Brigand unit.</capacity>
-              <capacity title="DIG IN" type="*Action">This model gains cover, does not suffer blast damage, and does not block LOS. This model remains dug in until it moves, is placed, or is engaged. This model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
-              <capacity title="GRANTED: GANG">While this model is in play, models in this unit gain Gang. (When making a melee attack targeting an enemy model in melee range of another model in its unit, a model with Gang gains +2 to melee attack and melee damage rolls.)</capacity>
-              <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
-              <capacity title="TACTICS : PROWL">Models in this unit gain Prowl. (Models with Prowl gain Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.)</capacity>
-            </model>
+          <unit_attachment id="UA03" name="Farrow Brigand Warlord" full_name="Farrow Brigand Warlord" qualification="Minion Unit Attachment" fa="1" cost="3" completed="true">
+            <basestats name="WARLORD" spd="5" str="7" mat="7" rat="6" def="12" arm="16" cmd="9" gunfighter="true" officer="true" hitpoints="5"/>
+            <weapons>
+              <ranged_weapon name="Pig Iron" rng="10" rof="1" aoe="-" pow="12" count="2"></ranged_weapon>
+              <melee_weapon name="Battle Axe" pow="5" p_plus_s="12"></melee_weapon>
+            </weapons>
+            <capacity title="ATTACHMENT [FARROW BRIGAND]">This attachment can be added to a Farrow Brigand unit.</capacity>
+            <capacity title="DIG IN" type="*Action">This model gains cover, does not suffer blast damage, and does not block LOS. This model remains dug in until it moves, is placed, or is engaged. This model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
+            <capacity title="GRANTED: GANG">While this model is in play, models in this unit gain Gang. (When making a melee attack targeting an enemy model in melee range of another model in its unit, a model with Gang gains +2 to melee attack and melee damage rolls.)</capacity>
+            <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
+            <capacity title="TACTICS : PROWL">Models in this unit gain Prowl. (Models with Prowl gain Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.)</capacity>
           </unit_attachment>
-
           <works_for id="FACTION_ORBOROS" />
           <works_for id="FACTION_EVERBLIGHT" />
           <works_for id="FACTION_TROLLBLOOD" />

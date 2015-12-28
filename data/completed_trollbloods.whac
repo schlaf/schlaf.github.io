@@ -80,20 +80,20 @@
         </warlock>
         <unit id="TZ02" name="Hoarluk Doomshaper, Dire Prophet">
           <warlock id="HOARLUK3" name="Hoarluk3" full_name="Hoarluk Doomshaper, Dire Prophet" generation="E" qualification="Trollblood Epic Trollkin Warlock Unit" fury="7" warbeast_points="3" fa="C" completed="true">
-          <basestats name="Hoarluk Doomshaper, Dire Prophet" spd="5" str="7" mat="5" rat="4" def="13" arm="15" cmd="8" hitpoints="16" tough="true"/>
-          <weapons>
-            <melee_weapon name="Kriel Staff" pow="6" p_plus_s="13" reach="true" magical="true">
-              <capacity title="CRITICAL SMITE">On a critical hit, this model can slam the model hit instead of rolling damage normally. The model hit is slammed d6" directly away from this model and suffers a damage roll with POW equal to this model's STR plus the POW of this weapon. The POW of collateral damage is equal to this model's STR.</capacity>
-            </melee_weapon>
-          </weapons>
-          <feat title="BLOOD OF DHUNIA">While within Doomshaper's control area, models in its battlegroup gain an additional die on melee attack rolls. When a model in Doomshaper's control area is hit by an enemy attack, the attacker rolls one fewer die on the attack damage roll. After the attack is resolved, if the model in Doomshaper's control area was damaged by the attack, it heals d3 damage points. Blood of Dhunia lasts for one round.</feat>
-          <spell name="ADMONITION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy model advances and ends its movement within 6" of target model in this model's battlegroup, the affected model can immediately advance up to 3", then Admonition expires. The affected model cannot be targeted by free strikes during this movement.</spell>
-          <spell name="IMPLACABILITY" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, models in it's battlegroup cannot be knocked down, placed, pushed, or moved by a slam. Implacability lasts for one round.</spell>
-          <spell name="REPUDIATE" cost="2" rng="10" aoe="-" pow="-" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Repudiate immediately expire. An enemy model maintaining an upkeep spell that expired as a result of Repudiate suffers d3 damage points.</spell>
-          <spell name="STRANGLEHOLD" cost="2" rng="10" aoe="-" pow="11" up="NO" off="YES">A model damaged by Stranglehold forfeits either its movement or its action during its next activation, as its controller chooses.</spell>
-          <spell name="UNMINDING" cost="3" rng="10" aoe="-" pow="-" up="YES" off="YES">Target enemy warbeast suffers -2 FURY and THR and loses its animus. This model can cast an affected warbeast's animus as a spell as if the animus belonged to a warbeast in this model's battlegroup and in its control area.</spell>
-          <capacity title="FIELD MARSHAL [HYPER REGENERATION]">Models in this model's battlegroup gain Hyper Regeneration. (A model with Hyper Regeneration automatically heals d3 damage points at the start of each of its activations.)</capacity>
-          <capacity title="GOAD">When a warbeast in this model's battlegroup destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved this model can force the warbeast to advance up to 2".</capacity>
+            <basestats name="Hoarluk Doomshaper, Dire Prophet" spd="5" str="7" mat="5" rat="4" def="13" arm="15" cmd="8" hitpoints="16" tough="true"/>
+            <weapons>
+              <melee_weapon name="Kriel Staff" pow="6" p_plus_s="13" reach="true" magical="true">
+                <capacity title="CRITICAL SMITE">On a critical hit, this model can slam the model hit instead of rolling damage normally. The model hit is slammed d6" directly away from this model and suffers a damage roll with POW equal to this model's STR plus the POW of this weapon. The POW of collateral damage is equal to this model's STR.</capacity>
+              </melee_weapon>
+            </weapons>
+            <feat title="BLOOD OF DHUNIA">While within Doomshaper's control area, models in its battlegroup gain an additional die on melee attack rolls. When a model in Doomshaper's control area is hit by an enemy attack, the attacker rolls one fewer die on the attack damage roll. After the attack is resolved, if the model in Doomshaper's control area was damaged by the attack, it heals d3 damage points. Blood of Dhunia lasts for one round.</feat>
+            <spell name="ADMONITION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy model advances and ends its movement within 6" of target model in this model's battlegroup, the affected model can immediately advance up to 3", then Admonition expires. The affected model cannot be targeted by free strikes during this movement.</spell>
+            <spell name="IMPLACABILITY" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, models in it's battlegroup cannot be knocked down, placed, pushed, or moved by a slam. Implacability lasts for one round.</spell>
+            <spell name="REPUDIATE" cost="2" rng="10" aoe="-" pow="-" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Repudiate immediately expire. An enemy model maintaining an upkeep spell that expired as a result of Repudiate suffers d3 damage points.</spell>
+            <spell name="STRANGLEHOLD" cost="2" rng="10" aoe="-" pow="11" up="NO" off="YES">A model damaged by Stranglehold forfeits either its movement or its action during its next activation, as its controller chooses.</spell>
+            <spell name="UNMINDING" cost="3" rng="10" aoe="-" pow="-" up="YES" off="YES">Target enemy warbeast suffers -2 FURY and THR and loses its animus. This model can cast an affected warbeast's animus as a spell as if the animus belonged to a warbeast in this model's battlegroup and in its control area.</spell>
+            <capacity title="FIELD MARSHAL [HYPER REGENERATION]">Models in this model's battlegroup gain Hyper Regeneration. (A model with Hyper Regeneration automatically heals d3 damage points at the start of each of its activations.)</capacity>
+            <capacity title="GOAD">When a warbeast in this model's battlegroup destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved this model can force the warbeast to advance up to 2".</capacity>
           </warlock>
           <model id="BEARERS" name="Scroll Bearers">
             <basestats name="Scroll Bearer" spd="5" str="6" mat="5" rat="4" def="13" arm="13" cmd="8" hitpoints="5" tough="true"/>
@@ -162,23 +162,25 @@
           <capacity title="TAKE DOWN">Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.</capacity>
           <capacity title="TRUE SIGHT">This model ignores concealment, Camouflage, and Stealth.</capacity>
         </warlock>
-        <warlock id="TX04" name="Grim2" generation="E" full_name="Hunters Grim" qualification="Trollblood Epic Warlock Unit" fury="6" warbeast_points="4" fa="C" completed="true">
-          <basestats name="GRIM" spd="6" str="7" mat="6" rat="8" def="16" arm="15" cmd="8" hitpoints="17" officer="true" pathfinder="true" tough="true" />
-          <weapons>
-            <ranged_weapon name="Headhunter" rng="13" rof="1" aoe="-" pow="13" magical="true">
-              <capacity title="BLOOD LURE">Warbeasts in this model’s battlegroup can charge enemy models hit by this weapon this turn without being forced.</capacity>
-            </ranged_weapon>
-            <melee_weapon name="Gun Blade" pow="5" p_plus_s="12" />
-          </weapons>
-          <feat title="ON MY MARK">While in Grim’s control area, friendly Faction models gain Mark Target and friendly Faction models' ranged weapons gain Snipe, On My Mark lasts for one turn. (Other friendly Faction models gain +2 to ranged attack rolls against enemy models within 5" of a model with Mark Target that are in its LOS.) (Ranged weapons with Snipe gain +4 RNG).</feat>
-          <spell name="MAGE SIGHT" cost="2" rng="CTRL" aoe="5" pow="-" up="YES" off="NO">Place a 5“ AOE completely in this model's control area. While a model is within the AOE, models in this model's battlegroup ignore forests and cloud effects when drawing LOS to it and ignore Stealth when attacking it.</spell>
-          <spell name="MIRAGE" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains Apparition. (During your Control Phase, place models with Apparition anywhere completely within 2" of their current locations. If Mirage affects a unit, only models in formation can be placed.)</spell>
-          <spell name="MORTALITY" cost="3" rng="10" aoe="-" pow="-" up="NO" off="YES">Target enemy model/unit suffers –2 DEF and ARM and cannot be healed. Mortality lasts for one round.</spell>
-          <spell name="PURSUIT" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">If target enemy model/unit advances during its normal movement, immediately after ending this movement one model in this model's battlegroup that is in its control area can make a full advance.</spell>
-          <capacity title="WARLOCK UNIT">This unit is made up of Grim, Muggs, and Krump.</capacity>
-          <capacity title="TROLLKIN"> This model is a trollkin.</capacity>
-          <capacity title="TAKE DOWN">Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.</capacity>
-          <model id="MUGGS">
+        <unit id="TX04" name="Grim2" full_name="Hunters Grim" fa="C" completed="true">
+          <warlock id="GRIM" name="Grim" generation="E" qualification="Trollblood Epic Warlock Unit" fury="6" warbeast_points="4">
+            <basestats name="GRIM" spd="6" str="7" mat="6" rat="8" def="16" arm="15" cmd="8" hitpoints="17" officer="true" pathfinder="true" tough="true" />
+            <weapons>
+              <ranged_weapon name="Headhunter" rng="13" rof="1" aoe="-" pow="13" magical="true">
+                <capacity title="BLOOD LURE">Warbeasts in this model’s battlegroup can charge enemy models hit by this weapon this turn without being forced.</capacity>
+              </ranged_weapon>
+              <melee_weapon name="Gun Blade" pow="5" p_plus_s="12" />
+            </weapons>
+            <feat title="ON MY MARK">While in Grim’s control area, friendly Faction models gain Mark Target and friendly Faction models' ranged weapons gain Snipe, On My Mark lasts for one turn. (Other friendly Faction models gain +2 to ranged attack rolls against enemy models within 5" of a model with Mark Target that are in its LOS.) (Ranged weapons with Snipe gain +4 RNG).</feat>
+            <spell name="MAGE SIGHT" cost="2" rng="CTRL" aoe="5" pow="-" up="YES" off="NO">Place a 5“ AOE completely in this model's control area. While a model is within the AOE, models in this model's battlegroup ignore forests and cloud effects when drawing LOS to it and ignore Stealth when attacking it.</spell>
+            <spell name="MIRAGE" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly Faction model/unit gains Apparition. (During your Control Phase, place models with Apparition anywhere completely within 2" of their current locations. If Mirage affects a unit, only models in formation can be placed.)</spell>
+            <spell name="MORTALITY" cost="3" rng="10" aoe="-" pow="-" up="NO" off="YES">Target enemy model/unit suffers –2 DEF and ARM and cannot be healed. Mortality lasts for one round.</spell>
+            <spell name="PURSUIT" cost="2" rng="8" aoe="-" pow="-" up="YES" off="YES">If target enemy model/unit advances during its normal movement, immediately after ending this movement one model in this model's battlegroup that is in its control area can make a full advance.</spell>
+            <capacity title="WARLOCK UNIT">This unit is made up of Grim, Muggs, and Krump.</capacity>
+            <capacity title="TROLLKIN"> This model is a trollkin.</capacity>
+            <capacity title="TAKE DOWN">Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.</capacity>
+          </warlock>
+          <model id="MUGGS" name="Muggs">
             <basestats name="MUGGS" spd="6" str="5" mat="5" rat="6" def="14" arm="12" cmd="7" hitpoints="5" pathfinder="true" tough="true" />
             <weapons>
               <ranged_weapon name="Snare Gun" rng="8" rof="1" aoe="-" pow="-">
@@ -190,7 +192,7 @@
             <capacity title="PYG"> This model is a pyg.</capacity>
             <capacity title="GRANTED: REFORM">While this model is in play after all models in its unit have completed their actions, each can advance up to 3".</capacity>
           </model>
-          <model id="KRUMP">
+          <model id="KRUMP" name="Krump">
             <basestats name="KRUMP" spd="6" str="5" mat="5" rat="6" def="14" arm="12" cmd="7" hitpoints="5" pathfinder="true" tough="true" />
             <weapons>
               <ranged_weapon name="Blunderbuss" rng="8" rof="1" aoe="-" pow="12" />
@@ -201,7 +203,7 @@
             <capacity title="GRANTED: CIRCULAR VISION"> While this model is in play models in this unit gain Circular Vision. (The front arc of a model with Circular Vision extends to 360 degrees.)</capacity>
             <capacity title="PYG"> This model is a pyg.</capacity>
           </model>
-        </warlock>
+        </unit>
         <warlock id="TW05" name="Borka1" generation="P" full_name="Borka Kegslayer &amp; Pyg Keg Carrier" qualification="Trollblood Trollkin Warlock &amp; Character Solo" fury="5" warbeast_points="5" fa="C" completed="true">
           <basestats name="KEGSLAYER" spd="6" str="9" mat="7" rat="5" def="14" arm="17" cmd="8" hitpoints="18" immunity_frost="true" tough="true" />
           <weapons>
