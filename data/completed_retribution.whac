@@ -613,7 +613,7 @@
               <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
               <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
               <capacity title="TEAM EFFORT">Once per game while in formation, this model can use this ability during its unit's activation. This activation, models in this unit gain +2 to attack and damage rolls when making a melee attack targeting an enemy model in melee range of another model in this unit.</capacity>
-            </mode>
+            </model>
             <model id="STANDARD" name="Standard Bearer" full_name="Houseguard Halberdier Standard Bearer">
               <basestats name="Standard Bearer" spd="6" str="5" mat="6" rat="4" def="13" arm="14" cmd="8" hitpoints="0" standard_bearer="true" />
             </model>
