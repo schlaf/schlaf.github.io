@@ -1164,8 +1164,8 @@
           </weapons>
           <capacity title="TACTICS: PRECISION STRIKE">Models in this unit gain Precision Strike. (When a model with Precision Strike damages a warjack or warbeast with a melee attack, choose which column or branch suffers the damage.)</capacity>
           <capacity title="IRON ZEAL">Once per game during its unit's activation, this model can use Iron Zeal. For one round, while in formation models in this unit gain +4 ARM and cannot become stationary or be knocked down.</capacity>
-          <model id="BLACK_DRAGON_STANDARD" name="Standard" full_name="Standard">
-            <basestats name="Standard" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" standard_bearer="true" />
+          <model id="STANDARD" name="Standard Bearer" full_name="Black Dragoon Standard Bearer">
+            <basestats name="Standard Bearer" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" standard_bearer="true" />
             <capacity title="GRANTED: FEARLESS">While this model is in play, models in its unit gain Fearless.</capacity>
           </model>
           <restricted_to id="KU03" />

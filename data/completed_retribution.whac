@@ -480,15 +480,17 @@
           <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM.</capacity>
           <capacity title="FLANK [FACTION WARJACK]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
           <unit_attachment id="RA01" name="Dawnguard Invictor Officer &amp; Standard" full_name="Dawnguard Invictor Officer &amp; Standard" fa="1" cost="2" qualification="Retribution Dawnguard Unit Attachment" unit_attachment="true" completed="true">
-            <basestats name="Dawnguard Invictor Officer" spd="5" str="6" mat="8" rat="7" def="12" arm="15" cmd="10" hitpoints="5" officer="true" cra="true" />
-            <weapons>
-              <ranged_weapon rng="10" name="Sword Cannon" aoe="-" pow="12" rof="1"></ranged_weapon>
-              <melee_weapon name="Blade" pow="4" p_plus_s="10"></melee_weapon>
-            </weapons>
-            <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2ARM.</capacity>
-            <capacity title="EXTENDED FIRE">Once per game while in formation, this model can use Extended Fire during its unit's activation. This activation, models in this unit gain +4 RNG to their ranged attacks.</capacity>
-            <capacity title="FLANK [FACTION WARJACK]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
-            <capacity title="GRANTED: COMBINED ARMS">While this model is in play, models in its unit gain Combined Arms. (When a model with Combined Arms misses an attack roll for a combined ranged attack, it can reroll that attack roll. Each attack roll can be rerolled only once as a result of Combined Arms.)</capacity>
+            <model id="OFFICER" name="Officer" full_name="Dawnguard Invictor Officer">
+              <basestats name="Officer" spd="5" str="6" mat="8" rat="7" def="12" arm="15" cmd="10" hitpoints="5" officer="true" cra="true" />
+              <weapons>
+                <ranged_weapon rng="10" name="Sword Cannon" aoe="-" pow="12" rof="1"></ranged_weapon>
+                <melee_weapon name="Blade" pow="4" p_plus_s="10"></melee_weapon>
+              </weapons>
+              <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2ARM.</capacity>
+              <capacity title="EXTENDED FIRE">Once per game while in formation, this model can use Extended Fire during its unit's activation. This activation, models in this unit gain +4 RNG to their ranged attacks.</capacity>
+              <capacity title="FLANK [FACTION WARJACK]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
+              <capacity title="GRANTED: COMBINED ARMS">While this model is in play, models in its unit gain Combined Arms. (When a model with Combined Arms misses an attack roll for a combined ranged attack, it can reroll that attack roll. Each attack roll can be rerolled only once as a result of Combined Arms.)</capacity>
+            </model>
             <model id="STANDARD" name="Dawnguard Invictor Standard">
               <basestats name="Dawnguard Invictor Standard" spd="5" str="6" mat="7" rat="6" def="12" arm="15" cmd="9" standard_bearer="true"></basestats>
               <weapons></weapons>
@@ -516,15 +518,17 @@
           <capacity title="MAGIC ABILITY [6]"></capacity>
           <capacity title="● FORCE BOLT" type="*Attack">Force Bolt is a RNG 10, POW 10 magic attack. An enemy model hit by this attack can be pushed d3" directly toward or away from this model. Choose the direction before rolling the distance. On a critical hit, the enemy model is knocked down after being pushed.</capacity>
           <unit_attachment id="RA02" name="Dawnguard Sentinel Officer &amp; Standard" full_name="Dawnguard Sentinel Officer &amp; Standard" fa="1" cost="2" qualification="Retribution Dawnguard Unit Attachment" unit_attachment="true" completed="true">
-            <basestats name="Dawnguard Sentinel Officer" spd="5" str="6" mat="8" rat="4" def="12" arm="15" cmd="10" hitpoints="5" officer="true" />
-            <weapons>
-              <melee_weapon name="Great Sword" pow="6" p_plus_s="12" reach="true" weapon_master="true"></melee_weapon>
-            </weapons>
-            <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM</capacity>
-            <capacity title="DRIVE: PRONTO">This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack immediately makes a full advance. If the check fails, the warjack does not benefit from 'Jack Marshal' this turn.</capacity>
-            <capacity title="GRANTED: VENGEANCE">While this model is in play, models in its unit gain Vengeance. (During your Maintenance Phase, if one or more models in a unit with Vengeance were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.)</capacity>
-            <model id="STANDARD" name="Dawnguard Sentinel Standard">
-              <basestats name="Dawnguard Sentinel Standard" spd="5" str="6" mat="7" rat="4" def="12" arm="15" cmd="9" hitpoints="0" standard_bearer="true" />
+            <model id="OFFICER" name="Officer" full_name="Dawnguard Sentinel Officer">
+              <basestats name="Dawnguard Sentinel Officer" spd="5" str="6" mat="8" rat="4" def="12" arm="15" cmd="10" hitpoints="5" officer="true" />
+              <weapons>
+                <melee_weapon name="Great Sword" pow="6" p_plus_s="12" reach="true" weapon_master="true"></melee_weapon>
+              </weapons>
+              <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM</capacity>
+              <capacity title="DRIVE: PRONTO">This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack immediately makes a full advance. If the check fails, the warjack does not benefit from 'Jack Marshal' this turn.</capacity>
+              <capacity title="GRANTED: VENGEANCE">While this model is in play, models in its unit gain Vengeance. (During your Maintenance Phase, if one or more models in a unit with Vengeance were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.)</capacity>
+            </model>
+            <model id="STANDARD" name="Standard Bearer" full_name="Dawnguard Sentinel Standard Bearer">
+              <basestats name="Standard Bearer" spd="5" str="6" mat="7" rat="4" def="12" arm="15" cmd="9" hitpoints="0" standard_bearer="true" />
               <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM</capacity>
             </model>
           </unit_attachment>
@@ -598,18 +602,20 @@
           <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
           <capacity title="SHIELD WALL" type="Order">For one round, each affected model gains a +4 ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           <unit_attachment id="RA05" name="Houseguard Halberdiers Officer &amp; Standard" full_name="Houseguard Halberdiers Officer &amp; Standard" fa="1" cost="2" qualification="Retribution Unit Attachment" unit_attachment="true" completed="true">
-            <basestats name="Houseguard Halberdier Officer" spd="6" str="5" mat="7" rat="4" def="13" arm="14" cmd="9" hitpoints="5" officer="true" cma="true" />
-            <weapons>
-              <melee_weapon name="Halberd" pow="5" p_plus_s="10" reach="true">
-                <capacity title="BRUTAL CHARGE">This model gains +2 to charge attack damage rolls with this weapon.</capacity>
-                <capacity title="SET DEFENSE">A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model.</capacity>
-              </melee_weapon>
-            </weapons>
-            <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
-            <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
-            <capacity title="TEAM EFFORT">Once per game while in formation, this model can use this ability during its unit's activation. This activation, models in this unit gain +2 to attack and damage rolls when making a melee attack targeting an enemy model in melee range of another model in this unit.</capacity>
-            <model id="STANDARD" name="Houseguard Halberdier Standard">
-              <basestats name="Houseguard Halberdier Standard" spd="6" str="5" mat="6" rat="4" def="13" arm="14" cmd="8" hitpoints="0" standard_bearer="true" />
+            <model id="OFFICER" name="Officer" full_name="Houseguard Halberdier Officer">
+              <basestats name="Officer" spd="6" str="5" mat="7" rat="4" def="13" arm="14" cmd="9" hitpoints="5" officer="true" cma="true" />
+              <weapons>
+                <melee_weapon name="Halberd" pow="5" p_plus_s="10" reach="true">
+                  <capacity title="BRUTAL CHARGE">This model gains +2 to charge attack damage rolls with this weapon.</capacity>
+                  <capacity title="SET DEFENSE">A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model.</capacity>
+                </melee_weapon>
+              </weapons>
+              <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
+              <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
+              <capacity title="TEAM EFFORT">Once per game while in formation, this model can use this ability during its unit's activation. This activation, models in this unit gain +2 to attack and damage rolls when making a melee attack targeting an enemy model in melee range of another model in this unit.</capacity>
+            </mode>
+            <model id="STANDARD" name="Standard Bearer" full_name="Houseguard Halberdier Standard Bearer">
+              <basestats name="Standard Bearer" spd="6" str="5" mat="6" rat="4" def="13" arm="14" cmd="8" hitpoints="0" standard_bearer="true" />
             </model>
           </unit_attachment>
         </unit>
@@ -780,17 +786,19 @@
         </solo>
         <!--Fane Knight complete-->
         <solo id="RS10" name="Fane Knight Skeryth Issyen" full_name="Fane Knight Skeryth Issyen" cost="5" qualification="Retribution Dragoon Character Solo" fa="C" dragoon="true" completed="true">
-          <basestats name="Fane Knight Skeryth Issyen (mounted)" spd="8" str="7" mat="8" rat="4" def="13" arm="17" cmd="9" hitpoints="10" />
-          <weapons>
-            <melee_weapon name="Needle of Lacyr" pow="6" p_plus_s="13" weapon_master="true" reach="true" magical="true">
-              <capacity title="BLESSED">When making an attack with this weapon, ignore spell effects that add to a model's ARM or DEF.</capacity>
-            </melee_weapon>
-            <mount_weapon name="Mount" pow="10"></mount_weapon>
-          </weapons>
-          <capacity title="DRAGOON">While mounted, this model has base SPD 8 and base ARM 17. While dismounted, it has base SPD6, base ARM15.</capacity>
-          <capacity title="RAPID STRIKE">This model can make one additional melee attack each combat action.</capacity>
-          <capacity title="RIGHTEOUS FURY">When one or more friendly Faction warrior models are destroyed by an enemy attack while in this model's command range, this model gains +2 STR and ARM for one round.</capacity>
-          <model id="RS10_DISMOUNT" name="Fane Knight Skeryth Issyen (dismounted)" full_name="Fane Knight Skeryth Issyen (dismounted)">
+          <model id="MOUNTED" name="Fane Knight Skeryth Issyen (mounted)">
+            <basestats name="Fane Knight Skeryth Issyen (mounted)" spd="8" str="7" mat="8" rat="4" def="13" arm="17" cmd="9" hitpoints="10" />
+            <weapons>
+              <melee_weapon name="Needle of Lacyr" pow="6" p_plus_s="13" weapon_master="true" reach="true" magical="true">
+                <capacity title="BLESSED">When making an attack with this weapon, ignore spell effects that add to a model's ARM or DEF.</capacity>
+              </melee_weapon>
+              <mount_weapon name="Mount" pow="10"></mount_weapon>
+            </weapons>
+            <capacity title="DRAGOON">While mounted, this model has base SPD 8 and base ARM 17. While dismounted, it has base SPD6, base ARM15.</capacity>
+            <capacity title="RAPID STRIKE">This model can make one additional melee attack each combat action.</capacity>
+            <capacity title="RIGHTEOUS FURY">When one or more friendly Faction warrior models are destroyed by an enemy attack while in this model's command range, this model gains +2 STR and ARM for one round.</capacity>
+          </model>
+          <model id="DISMOUNT" name="Fane Knight Skeryth Issyen (dismounted)" full_name="Fane Knight Skeryth Issyen (dismounted)">
             <basestats name="Fane Knight Skeryth Issyen (dismounted)" spd="6" str="7" mat="8" rat="4" def="13" arm="15" cmd="9" hitpoints="5" />
             <weapons>
               <melee_weapon name="Needle of Lacyr" pow="6" p_plus_s="13" weapon_master="true" reach="true" magical="true">

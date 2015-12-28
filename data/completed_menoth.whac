@@ -729,15 +729,17 @@
           <capacity title="SANGUINE BOND">When this model would suffer damage from an enemy attack, you can choose one or more models in this unit to suffer any number of those damage points instead, divided as you choose. If you do, this model does not suffer that damage. A model cannot suffer more damage as a result of Sanguine Bond than it has unmarked damage boxes</capacity>
         </unit>
         <unit id="PU12" name="Visgoth Juviah Rhoven &amp; Honor Guard" full_name="Visgoth Juviah Rhoven &amp; Honor Guard" qualification="Protectorate Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="3" fullCount="-" completed="true">
-          <basestats name="Visgoth Juviah Rhoven" spd="5" str="6" mat="8" rat="4" def="12" arm="16" cmd="10" hitpoints="5" fearless="true" commander="true" officer="true" />
-          <weapons>
-            <melee_weapon name="Staff Of Sulon" pow="6" p_plus_s="12" magical="true" reach="true" continuous_fire="true" />
-          </weapons>
-          <capacity title="BATTLE-DRIVEN">When a model in this unit is damaged by an enemy attack, after the attack is resolved models in this unit gain +2 STR and ARM and Pathfinder for one round.</capacity>
-          <capacity title="CLEANSE (★ACTION)" type="">Animi and continuous effects on models/units in this model's command range immediately expire.</capacity>
-          <capacity title="MENOTH'S SIGHT (★ACTION)" type="">Choose a friendly Faction model. While in this model's command range, for one round the chosen model ignores Stealth and ignores cloud effects when determining LOS.</capacity>
-          <capacity title="NEGATION (★ACTION)" type="">Remove 1 focus point or fury point from enemy models currently in this model's command range.</capacity>
-          <model id="GIUS" full_name="Gius">
+          <model id="RHOVEN" full_name="Visgoth Juviah Rhoven">
+            <basestats name="Visgoth Juviah Rhoven" spd="5" str="6" mat="8" rat="4" def="12" arm="16" cmd="10" hitpoints="5" fearless="true" commander="true" officer="true" />
+            <weapons>
+              <melee_weapon name="Staff Of Sulon" pow="6" p_plus_s="12" magical="true" reach="true" continuous_fire="true" />
+            </weapons>
+            <capacity title="BATTLE-DRIVEN">When a model in this unit is damaged by an enemy attack, after the attack is resolved models in this unit gain +2 STR and ARM and Pathfinder for one round.</capacity>
+            <capacity title="CLEANSE (★ACTION)" type="">Animi and continuous effects on models/units in this model's command range immediately expire.</capacity>
+            <capacity title="MENOTH'S SIGHT (★ACTION)" type="">Choose a friendly Faction model. While in this model's command range, for one round the chosen model ignores Stealth and ignores cloud effects when determining LOS.</capacity>
+            <capacity title="NEGATION (★ACTION)" type="">Remove 1 focus point or fury point from enemy models currently in this model's command range.</capacity>
+          </model>
+          <model id="GIUS" name="Gius">
             <basestats name="Gius" spd="5" str="6" mat="8" rat="4" def="12" arm="16" cmd="9" hitpoints="5" fearless="true" />
             <weapons>
               <melee_weapon name="Consecrated Halberd" pow="5" p_plus_s="11" magical="true" reach="true" weapon_master="true">
@@ -885,7 +887,8 @@
           <capacity title="ATTACHED">Before the start of the game, attach this model to a friendly Faction warcaster for the rest of the game. Each warcaster can have only one model attached to it.</capacity>
         </solo>
         <solo id="PS09" name="High Exemplar Gravus" full_name="High Exemplar Gravus" qualification="Protectorate Dragoon Character Solo" fa="C" cost="5" completed="true">
-          <basestats name="HIGH EXEMPLAR GRAVUS" spd="8" str="5" mat="8" rat="4" def="12" arm="17" cmd="9" hitpoints="10" fearless="true" commander="true" />
+          <model id="MOUNTED" full_name="High Exemplar Gravus (mounted)">
+          <basestats name="High Exemplar Gravus" spd="8" str="5" mat="8" rat="4" def="12" arm="17" cmd="9" hitpoints="10" fearless="true" commander="true" />
           <weapons>
             <melee_weapon name="Reverence" pow="6" p_plus_s="11" magical="true" reach="true" weapon_master="true">
               <capacity title="CHAIN WEAPON">This attack ignores the Buckler and Shield weapon qualities and Shield Wall.</capacity>
@@ -896,7 +899,8 @@
           <capacity title="BROTHER'S KEEPER">While in this model's command range, friendly Exemplar models cannot be knocked down or made stationary.</capacity>
           <capacity title="CRUSADER'S REQUIEM">This model gains one soul token for each friendly living Exemplar model destroyed in its command range by a continous effect, an enemy attack, or collateral damage of an enemy attack. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
           <capacity title="DRAGOON">While mounted, this model has a base SPD 8 and base ARM 17. While dismounted, it has a base SPD 5, base ARM 15.</capacity>
-          <model id="PS09_DISMOUNT" name="High Exemplar Gravus (dismounted)" full_name="High Exemplar Gravus (dismounted)">
+          </model>
+          <model id="DISMOUNTED" name="High Exemplar Gravus (dismounted)" full_name="High Exemplar Gravus (dismounted)">
             <basestats name="GRAVUS (DISMOUNTED)" spd="5" str="5" mat="8" rat="4" def="12" arm="15" cmd="9" hitpoints="5" fearless="true" commander="true" />
             <weapons>
               <melee_weapon name="Reverence" pow="6" p_plus_s="11" magical="true" reach="true" weapon_master="true">

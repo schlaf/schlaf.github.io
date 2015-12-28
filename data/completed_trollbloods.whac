@@ -78,7 +78,8 @@
           <capacity title="GOAD">When a warbeast in this model's battlegroup destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved this model can force the warbeast to advance up to 2".</capacity>
           <capacity title="HYPER REGENERATION">This model automatically heals d3 damage points at the start of each of its activations.     </capacity>
         </warlock>
-        <warlock  id="TZ02" name="Hoarluk3" full_name="Hoarluk Doomshaper, Dire Prophet" generation="E" qualification="Trollblood Epic Trollkin Warlock Unit" fury="7" warbeast_points="3" fa="C" completed="true">
+        <unit id="TZ02" name="Hoarluk Doomshaper, Dire Prophet">
+          <warlock id="HOARLUK3" name="Hoarluk3" full_name="Hoarluk Doomshaper, Dire Prophet" generation="E" qualification="Trollblood Epic Trollkin Warlock Unit" fury="7" warbeast_points="3" fa="C" completed="true">
           <basestats name="Hoarluk Doomshaper, Dire Prophet" spd="5" str="7" mat="5" rat="4" def="13" arm="15" cmd="8" hitpoints="16" tough="true"/>
           <weapons>
             <melee_weapon name="Kriel Staff" pow="6" p_plus_s="13" reach="true" magical="true">
@@ -93,8 +94,8 @@
           <spell name="UNMINDING" cost="3" rng="10" aoe="-" pow="-" up="YES" off="YES">Target enemy warbeast suffers -2 FURY and THR and loses its animus. This model can cast an affected warbeast's animus as a spell as if the animus belonged to a warbeast in this model's battlegroup and in its control area.</spell>
           <capacity title="FIELD MARSHAL [HYPER REGENERATION]">Models in this model's battlegroup gain Hyper Regeneration. (A model with Hyper Regeneration automatically heals d3 damage points at the start of each of its activations.)</capacity>
           <capacity title="GOAD">When a warbeast in this model's battlegroup destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved this model can force the warbeast to advance up to 2".</capacity>
-
-          <model id="BEARER" name="Scroll Bearer">
+          </warlock>
+          <model id="BEARERS" name="Scroll Bearers">
             <basestats name="Scroll Bearer" spd="5" str="6" mat="5" rat="4" def="13" arm="13" cmd="8" hitpoints="5" tough="true"/>
             <weapons/>
             <capacity title="ATTACHED TO [DOOMSHAPER]">This model is attached to Doomshaper for the rest of the game. Each warlock can have only one model attached to it.</capacity>
@@ -103,7 +104,7 @@
             <capacity title="● SCROLL OF HAND OF YOLANDI">Enemy models pay double the focus or fury point cost to cast or upkeep spells in Doomshaper's control area for one round. </capacity>
             <capacity title="● TIME OF THE MOLGUR">While in Doomshaper's control area this turn, friendly Faction warrior models gain an additional die on attack rolls. Discard the lowest die in each roll.</capacity>
           </model>
-        </warlock>
+        </unit>
         <warlock id="TW03" name="Grissel1" generation="P" full_name="Grissel Bloodsong, Fell Caller" qualification="Trollblood Trollkin Warlock" fury="6" warbeast_points="5" fa="C" completed="true">
           <basestats name="BLOODSONG" spd="6" str="7" mat="6" rat="5" def="15" arm="16" cmd="9" hitpoints="17" tough="true" />
           <weapons>
@@ -508,7 +509,7 @@
           <capacity title="SNACKING">When this model boxes a living model with a melee attack, this model can heal d3 damage points. It this model heals, the boxed model is removed from play.</capacity>
           <capacity title="WHELP SHEDDING">When this model suffers damage from an enemy attack anytime except during its activation, immediately after the attack has been resolved you can place a Troll Whelp model into play B2B with this model. Do not place a Whelp in play if there is not room for its base.</capacity>
         </warbeast>
-        <warbeast id="TB17" name="Dozer &amp; Smigg" full_name="Dozer &amp; Smigg" qualification="Trollblood Dire Troll Character Heavy Warbeast" fa="C" cost="9" fury="4" threshold="10" damage_spiral="9-10-9" completed="true">
+        <warbeast id="TB17" name="Dozer &amp; Smigg" full_name="Dozer &amp; Smigg" qualification="Trollblood Dire Troll Character Heavy Warbeast" fa="C" cost="9" fury="4" threshold="10" damage_spiral="9-10-9" completed="true" split="false">
           <basestats name="DOZER &amp; SMIGG" spd="5" str="12" mat="5" rat="6" def="12" arm="19" cmd="6" gunfighter="true" />
           <weapons>
             <ranged_weapon name="Bombard" rng="14" rof="1" aoe="3" pow="14" location="-">
@@ -640,8 +641,7 @@
           </weapons>
           <capacity title="BUSHWHACK (ORDER)">During this unit's activation, affected models make their combat actions before their normal movement. Affected models must make a full advance as their normal movement this activation.</capacity>
           <unit_attachment id="TA07" cost="2" fa="1" qualification="Trollblood unit attachment" name="Pyg Bushwhacker Officer &amp; Mortar" full_name="Pyg Bushwhacker Officer &amp; Mortar" completed="true">
-
-            <model id="PYG_OFFICER">
+            <model id="OFFICER" name="Officer">
               <basestats name="Officer" spd="6" str="5" mat="5" rat="5" def="13" arm="12" cmd="8" tough="true" pathfinder="true" officer="true" cra="true" advance_deployment="true" />
               <weapons>
                 <ranged_weapon name="Rifle" rng="14" rof="1" aoe="-" pow="10" />
@@ -652,7 +652,7 @@
               <capacity title="SLIP AWAY" type="Order">Affected models make a full advance during their normal movement this activation, can advance through other models if they have enough movement to move completely past them, and cannot be targeted by free strikes.</capacity>
               <capacity title="TACTICS : CAMOUFLAGE">Models in this unit gain Camouflage. (Models with Camouflage gains an additional +2 DEF when benefiting from concealment or cover.)</capacity>
             </model>
-            <model id="PYG_MORTAR">
+            <model id="MORTAR" name="Mortar Pyg">
               <basestats name="Mortar Pyg" spd="6" str="5" mat="4" rat="4" def="13" arm="12" cmd="7" tough="true" pathfinder="true" advance_deployment="true"/>
               <weapons>
                 <ranged_weapon name="Light Mortar" rng="14" rof="1" aoe="4" pow="12">
