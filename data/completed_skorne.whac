@@ -704,7 +704,7 @@
               <capacity title="PERFECT STRIKE">Once per game during this unit's activation, this model can use Perfect Strike. During this activation, when making melee attacks, models in this unit can deal 1 damage point instead of making a damage roll.</capacity>
               <capacity title="TACTICS: RANKED ATTACKS">Models in this unit gain Ranked Attacks. (Friendly Faction models can ignore models with Ranked Attacks when determining LOS.)</capacity>
             </model>
-            <model id="PRAETORIAN SWORDSMEN STANDARD" name="Standard Bearer" full_name="Standard Bearer">
+            <model id="STANDARD" name="Standard Bearer" full_name="Standard Bearer">
               <basestats name="Standard Bearer" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" hitpoints="0" standard_bearer="true" />
               <weapons />
             </model>
