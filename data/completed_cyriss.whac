@@ -261,8 +261,8 @@
         </colossal>
       </colossals>
       <battleEngines>
-        <battleEngine id="COCE01" name="Transinfinite Emergence Projector &amp; Permutation Servitors" full_name="Transinfinite Emergence Projector &amp; Permutation Servitors" cost="9" qualification="Convergence Battle engine" fa="2" completed="true">
-          <basestats name="Transinfinite Emergence Projector" spd="5" str="10" mat="0" rat="4" def="10" arm="19" cmd="10" hitpoints="20" construct="true" pathfinder="true"/>
+        <battleEngine id="COCE01" name="Transfinite Emergence Projector &amp; Permutation Servitors" full_name="Transfinite Emergence Projector &amp; Permutation Servitors" cost="9" qualification="Convergence Battle engine" fa="2" completed="true">
+          <basestats name="Transfinite Emergence Projector" spd="5" str="10" mat="0" rat="4" def="10" arm="19" cmd="10" hitpoints="20" construct="true" pathfinder="true"/>
           <weapons>
             <ranged_weapon rng="SP10" name="Aperture Pulse" aoe="-" pow="10" location="-" rof="1">
               <capacity title="AUTO FIRE [2]">Make 2 ranged attacks targeting a primary target and any number of secondary targets within 2" of the first target. Ignore intervening models when declaring secondary targets. A secondary target cannot be targeted by more attacks than the primary target. Auto Fire counts as one attack for ROF.</capacity>
