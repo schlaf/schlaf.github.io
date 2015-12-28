@@ -733,8 +733,8 @@
             <ranged_weapon rng="8" name="Blunderbuss" aoe="-" pow="12" rof="1" />
           </weapons>
           <unit_attachment id="KA02" name="Winter Guard Inf. Officer &amp; Standard" full_name="Winter Guard Inf. Officer &amp; Standard" fa="1" cost="2" qualification="Khador Winter Guard Unit attachment" completed="true">
-            <model id="WINTER GUARD INFANTRY OFFICER">
-              <basestats name="Winter Guard Infantry Officer" spd="6" str="5" mat="6" rat="6" def="12" arm="13" cmd="9" hitpoints="5" cra="true" officer="true" />
+            <model id="OFFICER" name="Officer" full_name="Winter Guard Infantry Officer">
+              <basestats name="Officer" spd="6" str="5" mat="6" rat="6" def="12" arm="13" cmd="9" hitpoints="5" cra="true" officer="true" />
               <weapons>
                 <melee_weapon p_plus_s="8" pow="3" name="Axe" />
                 <ranged_weapon rng="8" name="Blunderbuss" aoe="-" pow="12" rof="1" />
@@ -743,8 +743,8 @@
               <capacity title="BOB &amp; WEAVE" type="Order">Affected models make a full advance during their normal movement this activation and gain +2 DEF for one round.</capacity>
               <capacity title="TACTICS: COMBINED MELEE ATTACK">Models in this unit gain Combined Melee Attack</capacity>
             </model>
-            <model id="WINTER GUARD INFANTRY STANDARD">
-              <basestats name="Winter Guard Infantry Standard" spd="6" str="5" mat="5" rat="5" def="12" arm="13" cmd="8" cra="true" standard_bearer="true" />
+            <model id="STANDARD" name="Standard Bearer" full_name="Winter Guard Infantry Standard Bearer">
+              <basestats name="Standard Bearer" spd="6" str="5" mat="5" rat="5" def="12" arm="13" cmd="8" cra="true" standard_bearer="true" />
               <weapons>
                 <melee_weapon p_plus_s="8" pow="3" name="Axe" />
                 <ranged_weapon rng="8" name="Blunderbuss" aoe="-" pow="12" rof="1" />
