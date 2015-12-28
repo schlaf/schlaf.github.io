@@ -230,7 +230,7 @@
           <spell name="LIGHTNING SHROUD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target warjack in this model's battlegroup gains +2 STR and its melee weapons gain Electro Leap. (When a model is hit by a weapon with Electro Leap, you can choose to have lightning arc the nearest model within 4" of the model hit, ignoring the attacking model. The model the lightning arcs to suffers an unboostable POW 10 electrical damage roll.)</spell>
           <capacity title="OVERPOWER" type="">During your Control Phase, after this model replenishes its focus but before it allocates focus, this model can spend focus to increase its control area for one round at 1 focus point for each 1" increase.</capacity>
           <capacity title="LIGHTNING FIELD" type="">When lightning arcs as a result of an attack made by a friendly model in this model's control area, ignore models with Immunity : Electricity when determining which model the lightning arcs to.</capacity>
-          <model id="STORM CHASER ADEPT CAITLIN FINCH" full_name="Storm Chaser Adept Caitlin Finch" qualification="cygnar solo">
+          <model id="FINCH" name="Caitlin Finch" full_name="Storm Chaser Adept Caitlin Finch" qualification="Cygnar Solo">
             <basestats name="Finch" spd="6" str="5" mat="5" rat="5" def="14" arm="12" cmd="8" hitpoints="5" immunity_electricity="true" />
             <weapons>
               <melee_weapon name="Tuning Fork" pow="5" p_plus_s="10" magical="false" reach="true">
