@@ -715,19 +715,17 @@
           <capacity title="HEART EATER">This model gains a corpse token each time it destroys a living enemy model with a melee attack.  This model can have up to three corpse tokens at a time.  It can spend corpse tokens during its activation to boost an attack or damage roll or to make an additional melee attack at one token per boost or additional attack.</capacity>
           <capacity title="TREEWALKER">This model ignores forests when determining LOS.  While in a forest, this model gains +2 DEF against melee attack rolls and can advance through obstructions and other models if it has enough movement to move completely past them.</capacity>
           <unit_attachment id="OA06" name="Tharn Ravager Chieftain" full_name="Tharn Ravager Chieftain" fa="1" cost="2" qualification="Circle Unit attachment" completed="true">
-            <model id="THARN RAVAGER CHIEFTAIN">
-              <basestats name="Chieftain" spd="6" str="8" mat="8" rat="5" def="13" arm="14" cmd="9" hitpoints="8" fearless="true" officer="true" pathfinder="true" />
-              <weapons>
-                <melee_weapon name="Tharn Axe" pow="5" p_plus_s="13" reach="true">
-                  <capacity title="POWERFUL CHARGE">This model gains +2 to charge attack rolls with this weapon.</capacity>
-                </melee_weapon>
-              </weapons>
-              <capacity title="ATTACHMENT [THARN RAVAGERS]">This attachment can be added to a Tharn Ravagers unit.</capacity>
-              <capacity title="HEART EATER">This model gains a corpse token each time it destroys a living enemy model with a melee attack.  This model can have up to three corpse tokens at a time.  It can spend corpse tokens during its activation to boost an attack or damage roll or to make an additional melee attack at one token per boost or additional attack.</capacity>
-              <capacity title="GRANTED: BRUTAL CHARGE">While this model is in play, the melee weapons of model in its unit gain Brutal Charge.  (A model gains +2 to charge attack damage rolls when attacking with a weapon with Brutal Charge.)</capacity>
-              <capacity title="TACTICS: ADVANCE DEPLOYMENT">Models in this unit gain Advance Deployment.</capacity>
-              <capacity title="TREEWALKER">This model ignores forests when determining LOS.  While in a forest, this model gains +2 DEF against melee attack rolls and can advance through obstructions and other models if it has enough movement to move completely past them.</capacity>
-            </model>
+            <basestats name="Chieftain" spd="6" str="8" mat="8" rat="5" def="13" arm="14" cmd="9" hitpoints="8" fearless="true" officer="true" pathfinder="true" />
+            <weapons>
+              <melee_weapon name="Tharn Axe" pow="5" p_plus_s="13" reach="true">
+                <capacity title="POWERFUL CHARGE">This model gains +2 to charge attack rolls with this weapon.</capacity>
+              </melee_weapon>
+            </weapons>
+            <capacity title="ATTACHMENT [THARN RAVAGERS]">This attachment can be added to a Tharn Ravagers unit.</capacity>
+            <capacity title="HEART EATER">This model gains a corpse token each time it destroys a living enemy model with a melee attack.  This model can have up to three corpse tokens at a time.  It can spend corpse tokens during its activation to boost an attack or damage roll or to make an additional melee attack at one token per boost or additional attack.</capacity>
+            <capacity title="GRANTED: BRUTAL CHARGE">While this model is in play, the melee weapons of model in its unit gain Brutal Charge.  (A model gains +2 to charge attack damage rolls when attacking with a weapon with Brutal Charge.)</capacity>
+            <capacity title="TACTICS: ADVANCE DEPLOYMENT">Models in this unit gain Advance Deployment.</capacity>
+            <capacity title="TREEWALKER">This model ignores forests when determining LOS.  While in a forest, this model gains +2 DEF against melee attack rolls and can advance through obstructions and other models if it has enough movement to move completely past them.</capacity>
           </unit_attachment>
           <weapon_attachment id="OA02" name="Tharn Ravager Shaman" full_name="Tharn Ravager Shaman" fa="1" cost="2" qualification="Circle Weapon attachment" max_wa="1" completed="true">
             <model id="THARN RAVAGER SHAMAN">
