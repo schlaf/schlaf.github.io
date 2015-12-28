@@ -655,17 +655,15 @@
           </weapons>
           <capacity title="INCINERATE (ORDER)" type="">Models that receive this order can participate in a combined range attack. The unit commander must be the primary attacker. This attack has RNG 8, AOE 4" and POW 12. This attack causes fire damage. The AOE remains in play for one round and is a cloud effect. Models entering or ending their activations in the AOE suffer a POW 12 fire damage roll. A unit can make only one Incinerate attack per activation.</capacity>
           <unit_attachment id="PA06" name="Flameguard Cleanser Officer" full_name="Flameguard Cleanser Officer" qualification="Protectorate Unit attachment" fa="1" cost="2" completed="true">
-            <model id="FLAMEGUARD CLEANSER OFFICER">
-              <basestats name="OFFICER" spd="5" str="5" mat="6" rat="6" def="12" arm="14" cmd="8" hitpoints="5" immunity_fire="true" officer="true" />
-              <weapons>
-                <melee_weapon name="Purifier Blade" pow="3" p_plus_s="8" />
-                <ranged_weapon name="Purifier" rng="SP8" rof="1" aoe="-" pow="12" fire="true" continuous_fire="true" />
-              </weapons>
-              <capacity title="BUSHWHACK (ORDER)" type="">During this unit's activation, affected models make their combat action before their normal movement. Affected models must make a full advance as their normal movement this activation.</capacity>
-              <capacity title="SCOURING FLAMES">Once per game during its unit's activation, this model can use Scouring Flames. This activation, the base RNG of Purifier weapons in this unit becomes SP10 and the base POW becomes 10.</capacity>
-              <capacity title="SHEET OF FIRE (★ACTION)" type="">Place a wall template anywhere completely within 5" of this model where it does not touch a model's base, an obstruction, or an obstacle. When a model enters or ends its activation in the wall area, it suffers an unboostable POW 12 fire damage roll and the Fire continuous effect. Models within the wall template gain concealment. Sheet of Fire lasts for one round.</capacity>
-              <capacity title="ATTACHMENT [FLAMEGUARD CLEANSER]" type="">This attachment can be added to a Flameguard Cleanser unit.</capacity>
-            </model>
+            <basestats name="OFFICER" spd="5" str="5" mat="6" rat="6" def="12" arm="14" cmd="8" hitpoints="5" immunity_fire="true" officer="true" />
+            <weapons>
+              <melee_weapon name="Purifier Blade" pow="3" p_plus_s="8" />
+              <ranged_weapon name="Purifier" rng="SP8" rof="1" aoe="-" pow="12" fire="true" continuous_fire="true" />
+            </weapons>
+            <capacity title="BUSHWHACK (ORDER)" type="">During this unit's activation, affected models make their combat action before their normal movement. Affected models must make a full advance as their normal movement this activation.</capacity>
+            <capacity title="SCOURING FLAMES">Once per game during its unit's activation, this model can use Scouring Flames. This activation, the base RNG of Purifier weapons in this unit becomes SP10 and the base POW becomes 10.</capacity>
+            <capacity title="SHEET OF FIRE (★ACTION)" type="">Place a wall template anywhere completely within 5" of this model where it does not touch a model's base, an obstruction, or an obstacle. When a model enters or ends its activation in the wall area, it suffers an unboostable POW 12 fire damage roll and the Fire continuous effect. Models within the wall template gain concealment. Sheet of Fire lasts for one round.</capacity>
+            <capacity title="ATTACHMENT [FLAMEGUARD CLEANSER]" type="">This attachment can be added to a Flameguard Cleanser unit.</capacity>
           </unit_attachment>
         </unit>
         <unit id="PU08" name="Daughters of the Flame" full_name="Daughters of the Flame" qualification="Protectorate Flameguard Unit" fa="2" base_cost="5" full_cost="-" baseCount="6" fullCount="-" completed="true">
