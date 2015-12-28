@@ -654,16 +654,14 @@
           <capacity title="IRON SENTINEL">While B2B with a friendly Faction warjack, this model gains +2 DEF and ARM and cannot be knocked down.</capacity>
           <capacity title="REPAIR [7]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjacks damage grid.</capacity>
           <unit_attachment id="KA08" name="Battle Mechanik Officer" full_name="Battle Mechanik Officer" fa="2" cost="2" qualification="Khador Unit attachment" completed="true">
-            <model id="BATTLE MECHANIK OFFICER">
-              <basestats name="Battle Mechanik Officer" spd="4" str="9" mat="6" rat="4" def="11" arm="16" cmd="9" hitpoints="8" officer="true" />
-              <weapons>
-                <melee_weapon p_plus_s="13" pow="4" name="Wrench" />
-              </weapons>
-              <capacity title="ATTACHMENT [BATTLE MECHANIKS]">This attachment can be added to a Battle Mechanik unit.</capacity>
-              <capacity title="GRANTED: MAN-O-WAR MECHANIK">While this model is in play, models in its unit can make a Repair special action to attempt to repair damaged Man-O-War models as if they were warjacks. Models in this model's unit with Assist Repair can make an Assist Repair special action to assist in the Repair of Man-O-War models.</capacity>
-              <capacity title="LASH">This model and friendly warrior models B2B with it cannot be knocked down.</capacity>
-              <capacity title="REPAIR [9]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjacks damage grid.</capacity>
-            </model>
+            <basestats name="Battle Mechanik Officer" spd="4" str="9" mat="6" rat="4" def="11" arm="16" cmd="9" hitpoints="8" officer="true" />
+            <weapons>
+              <melee_weapon p_plus_s="13" pow="4" name="Wrench" />
+            </weapons>
+            <capacity title="ATTACHMENT [BATTLE MECHANIKS]">This attachment can be added to a Battle Mechanik unit.</capacity>
+            <capacity title="GRANTED: MAN-O-WAR MECHANIK">While this model is in play, models in its unit can make a Repair special action to attempt to repair damaged Man-O-War models as if they were warjacks. Models in this model's unit with Assist Repair can make an Assist Repair special action to assist in the Repair of Man-O-War models.</capacity>
+            <capacity title="LASH">This model and friendly warrior models B2B with it cannot be knocked down.</capacity>
+            <capacity title="REPAIR [9]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjacks damage grid.</capacity>
           </unit_attachment>
         </unit>
         <unit id="KU02" name="Doom Reavers" full_name="Doom Reavers" base_cost="6" baseCount="6" full_cost="-" fullCount="-" qualification="Khador Unit" fa="2" has_unit_attachment="true" completed="true">
