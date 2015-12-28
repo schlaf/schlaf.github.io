@@ -808,18 +808,16 @@
           </weapons>
           <capacity title="PREY">After deployment but before the first player's turn, choose an enemy model/unit to be this model/unit's prey.  This model gains +2 to attack and damage rolls against its prey.  When this model begins its activation within 10" of its prey, it gains +2" movement that activation.  When they prey is destroyed or removed from play, choose another model/unit to be the prey.</capacity>
           <unit_attachment id="OA07" name="Nuala the Huntress" full_name="Nuala the Huntress" fa="C" cost="2" qualification="Circle Character Unit attachment" completed="true">
-            <model id="NUALA THE HUNTRESS">
-              <basestats name="Nuala" spd="7" str="6" mat="8" rat="7" def="14" arm="11" cmd="9" hitpoints="5" advance_deployment="true" officer="true" pathfinder="true" stealth="true" />
-              <weapons>
-                <ranged_weapon name="Thrown Javelin" rng="7" rof="1" aoe="-" pow="3" weapon_master="true">
-                  <capacity title="THROWN">Add this model's STR to the POW of this ranged attack.</capacity>
-                </ranged_weapon>
-                <melee_weapon name="Fighting Claw" pow="3" p_plus_s="9" />
-              </weapons>
-              <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
-              <capacity title="PREY">After deployment but before the first player's turn, choose an enemy model/unit to be this model/unit's prey.  This model gains +2 to attack and damage rolls against its prey.  When this model begins its activation within 10" of its prey, it gains +2" movement that activation.  When they prey is destroyed or removed from play, choose another model/unit to be the prey.</capacity>
-              <capacity title="TACTICS: QUICK WORK">Models in this unit gain Quick Work.  (When a model with Quick Work destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved it can make one normal ranged attack.  Attacks gained from Quick Work do not count against a weapon's ROF.)</capacity>
-            </model>
+            <basestats name="Nuala" spd="7" str="6" mat="8" rat="7" def="14" arm="11" cmd="9" hitpoints="5" advance_deployment="true" officer="true" pathfinder="true" stealth="true" />
+            <weapons>
+              <ranged_weapon name="Thrown Javelin" rng="7" rof="1" aoe="-" pow="3" weapon_master="true">
+                <capacity title="THROWN">Add this model's STR to the POW of this ranged attack.</capacity>
+              </ranged_weapon>
+              <melee_weapon name="Fighting Claw" pow="3" p_plus_s="9" />
+            </weapons>
+            <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
+            <capacity title="PREY">After deployment but before the first player's turn, choose an enemy model/unit to be this model/unit's prey.  This model gains +2 to attack and damage rolls against its prey.  When this model begins its activation within 10" of its prey, it gains +2" movement that activation.  When they prey is destroyed or removed from play, choose another model/unit to be the prey.</capacity>
+            <capacity title="TACTICS: QUICK WORK">Models in this unit gain Quick Work.  (When a model with Quick Work destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved it can make one normal ranged attack.  Attacks gained from Quick Work do not count against a weapon's ROF.)</capacity>
           </unit_attachment>
         </unit>
         <!--Wolves and chieftain/standard complete-->
