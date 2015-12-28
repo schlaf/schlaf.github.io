@@ -632,7 +632,7 @@
           </weapons>
           <capacity title="SUPPRESSING FIRE (ORDER)">This order can be issued only if two or more models with ranged weapons in this unit in formation are able to forfeit their actions. Each model in this unit in formation must forfeit its action. Other than the Standard Bearer, those models that do are participants. After all models in this unit have completed their normal movement, place an AOE completely within 12" of all participants, with its center point in LOS of all participants, ignoring intervening models The size of the AOE is based on the number of participants. If there are 2–4, the AOE is 3". If there are 5–7, the AOE is 4". If there are 8 or more, the AOE is 5". When a model enters or ends its activation within the AOE, it suffers a POW 10 damage roll. Suppressing Fire lasts for one round or until all participants have been destroyed or removed from play.</capacity>
           <unit_attachment id="EA01" name="Blighted Nyss Archer Officer &amp; Ammo Porter" full_name="Blighted Nyss Archer Officer &amp; Ammo Porter" qualification="Legion Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="BLIGHTED NYSS ARCHER OFFICER">
+            <model id="OFFICER" name="Officer" full_name="Blighted Nyss Archer Officer">
               <basestats name="OFFICER" spd="6" str="4" mat="6" rat="6" def="13" arm="11" cmd="9" hitpoints="5" cra="true" officer="true" />
               <weapons>
                 <melee_weapon name="Sword" pow="3" p_plus_s="7" />
@@ -641,8 +641,8 @@
               <capacity title="GRANTED: COMBINED ARMS">While this model is in play, models in its unit gain Combined Arms. (When a model with Combined Arms misses an attack roll for a combined ranged attack, it can reroll that attack roll. Each attack roll can be rerolled only once as a result of Combined Arms).</capacity>
               <capacity title="TACTICS: PATHFINDER">Models in this unit gain Pathfinder.</capacity>
             </model>
-            <model id="BLIGHTED NYSS ARCHER AMMO PORTER">
-              <basestats name="AMMO PORTER" spd="6" str="4" mat="6" rat="6" def="13" arm="11" cmd="8" />
+            <model id="PORTER" name="Ammo Porter" full_name="Blighted Nyss Archer Ammo Porter" >
+              <basestats name="Ammo Porter" spd="6" str="4" mat="6" rat="6" def="13" arm="11" cmd="8" />
               <weapons />
               <capacity title="READY AMMO">While this model is in formation, models in its unit gain Dual Shot and their ranged weapons become ROF 2. (When a model with Dual Shot forfeits its movement to gain the aiming bonus it can also make one additional ranged attack that activation.)</capacity>
               <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a Grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damage boxes as the chosen Grunt.</capacity>
