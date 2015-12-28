@@ -693,8 +693,8 @@
           </weapons>
           <capacity title="SHIELD WALL" type="Order">For one round, each affected model gains a +4ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           <unit_attachment id="KA01" name="Iron Fang Pikemen Officer &amp; Standard" full_name="Iron Fang Pikemen Officer &amp; Standard" fa="1" cost="2" qualification="Khador Unit attachment" completed="true">
-            <model id="IRON FANG PIKEMEN OFFICER">
-              <basestats name="Iron Fang Pikemen Officer" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="10" hitpoints="5" officer="true" cma="true" />
+            <model id="OFFICER" name="Officer" full_name="Iron Fang Pikemen Officer">
+              <basestats name="Officer" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="10" hitpoints="5" officer="true" cma="true" />
               <weapons>
                 <melee_weapon p_plus_s="13" pow="7" name="Blasting Pike" reach="true">
                   <capacity title="CRITICAL KNOCKDOWN">On a critical hit, the model hit is knocked down.</capacity>
@@ -704,8 +704,8 @@
               <capacity title="DEFENSIVE FORMATION">Once per game during it's unit activation, this model can use Defensive Formation. Immediately after models in this unit complete their actions this turn, models in this unit other than this one can make a full advance, any previous orders this unit was issued expire, and this unit is affected by the Shield Wall order.</capacity><!-- errata 12-2013 -->
               <capacity title="TACTICS: RELENTLESS CHARGE">Models in this unit gain Relentless Charge. (Models with Relentless Charge gain Pathfinder during activations they charge.)</capacity>
             </model>
-            <model id="IRON FANG PIKEMEN STANDARD">
-              <basestats name="Iron Fang Pikemen Standard" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" standard_bearer="true" />
+            <model id="STANDARD" name="Standard Bearer" full_name="Iron Fang Pikemen Standard Bearer">
+              <basestats name="Standard Bearer" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" standard_bearer="true" />
             </model>
           </unit_attachment>
         </unit>
