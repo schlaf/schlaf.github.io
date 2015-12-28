@@ -825,21 +825,19 @@
           <capacity title="MAGIC ABILITY [6]" />
           <capacity title="● HEX BOLT (★ATTACK)">Hex Bolt is a RNG 6, POW 13 magic attack. Models hit cannot make special actions or special attacks for one round.</capacity>
           <unit_attachment id="EA04" name="Bayal, Hound of Everblight" full_name="Bayal, Hound of Everblight" qualification="Legion Character Unit Attachment" fa="C" cost="3" completed="true">
-            <model id="BAYAL, HOUND OF EVERBLIGHT">
-              <basestats name="BAYAL" spd="7" str="6" mat="8" rat="4" def="14" arm="12" cmd="9" hitpoints="5" officer="true" pathfinder="true" stealth="true" />
-              <weapons>
-                <melee_weapon name="Hex Razor" pow="4" count="2" p_plus_s="10" magical="true" weapon_master="true">
-                  <capacity title="SHADOW BIND">A model hit by this weapon suffers –3 DEF and when it advances it cannot move except to change facing. Shadow Bind expires after one round.</capacity>
-                </melee_weapon>
-              </weapons>
-              <capacity title="ATTACHMENT [HEX HUNTERS]">This attachment can be added to a Hex Hunters unit.</capacity>
-              <capacity title="BATTLE WIZARD">Once per turn, when this model destroys one or more enemy models with a melee attack during its activation, immediately after the attack is resolved it can make one Magic Ability special attack or special action.</capacity>
-              <capacity title="GRANTED: HUNTER">While this model is in play, models in this unit gain Hunter. (A model with Hunter ignores forests, concealment, and cover when determining LOS or making a ranged attack.)</capacity>
-              <capacity title="MAGIC ABILITY [7]" />
-              <capacity title="● FROSTBITE (★ATTACK)">Frostbite is a RNG SP 8 magic attack. Models hit suffer a POW 12 cold damage roll.</capacity>
-              <capacity title="● HEX BOLT (★ATTACK)">Hex Bolt is a RNG 6, POW 13 magic attack. Models hit cannot make special actions or special attacks for one round.</capacity>
-              <capacity title="TACTICS: ADVANCE DEPLOYMENT">Models in this unit gain Advance Deployment.</capacity>
-            </model>
+            <basestats name="BAYAL" spd="7" str="6" mat="8" rat="4" def="14" arm="12" cmd="9" hitpoints="5" officer="true" pathfinder="true" stealth="true" />
+            <weapons>
+              <melee_weapon name="Hex Razor" pow="4" count="2" p_plus_s="10" magical="true" weapon_master="true">
+                <capacity title="SHADOW BIND">A model hit by this weapon suffers –3 DEF and when it advances it cannot move except to change facing. Shadow Bind expires after one round.</capacity>
+              </melee_weapon>
+            </weapons>
+            <capacity title="ATTACHMENT [HEX HUNTERS]">This attachment can be added to a Hex Hunters unit.</capacity>
+            <capacity title="BATTLE WIZARD">Once per turn, when this model destroys one or more enemy models with a melee attack during its activation, immediately after the attack is resolved it can make one Magic Ability special attack or special action.</capacity>
+            <capacity title="GRANTED: HUNTER">While this model is in play, models in this unit gain Hunter. (A model with Hunter ignores forests, concealment, and cover when determining LOS or making a ranged attack.)</capacity>
+            <capacity title="MAGIC ABILITY [7]" />
+            <capacity title="● FROSTBITE (★ATTACK)">Frostbite is a RNG SP 8 magic attack. Models hit suffer a POW 12 cold damage roll.</capacity>
+            <capacity title="● HEX BOLT (★ATTACK)">Hex Bolt is a RNG 6, POW 13 magic attack. Models hit cannot make special actions or special attacks for one round.</capacity>
+            <capacity title="TACTICS: ADVANCE DEPLOYMENT">Models in this unit gain Advance Deployment.</capacity>
           </unit_attachment>
         </unit>
         <unit id="EU12" name="Blackfrost Shard" full_name="Blackfrost Shard" qualification="Legion Blighted Nyss Character Unit" fa="C" base_cost="5" full_cost="-" baseCount="3" fullCount="-" completed="true">
