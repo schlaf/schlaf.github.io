@@ -1472,17 +1472,19 @@
           <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU03" name="Captain Sam MacHorne &amp; the Devil Dogs" full_name="Captain Sam MacHorne &amp; the Devil Dogs" qualification="Mercenary Character Unit" fa="C" base_cost="5" full_cost="7" baseCount="6" fullCount="10" completed="true">
-          <basestats name="SAM" spd="6" str="6" mat="7" rat="6" def="15" arm="12" cmd="9" hitpoints="5" jack_marshal="true" officer="true" />
-          <weapons>
-            <ranged_weapon name="Hand Cannon" rng="12" rof="1" aoe="-" pow="12" />
-            <melee_weapon name="Stun Sword" pow="4" p_plus_s="10">
-              <capacity title="STALL">A warjack hit by this attack suffers the Stall continuous effect. While a warjack is suffering Stall, its base DEF becomes 7 and it cannot run or charge.</capacity>
-            </melee_weapon>
-          </weapons>
-          <capacity title="MERCENARIES">These models will work for Cygnar and the Protectorate.</capacity>
-          <capacity title="DRIVE: PRONTO">This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack immediately makes a full advance. If the check fails, the warjack does not benefit from 'Jack Marshal this turn.</capacity>
-          <capacity title="IRON WALL">This model gains +2 ARM for each warjack it controls B2B with it. When this model is directly hit by an enemy ranged or magic attack, you can choose to have one of those non-incorporeal warjacks to be directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
-          <model id="DEVIL DOGS" name="Grunts" full_name="Grunts">
+          <model id="SAM" name="Sam MacHorne" full_name="Captain Sam MacHorne">
+            <basestats name="SAM" spd="6" str="6" mat="7" rat="6" def="15" arm="12" cmd="9" hitpoints="5" jack_marshal="true" officer="true" />
+            <weapons>
+              <ranged_weapon name="Hand Cannon" rng="12" rof="1" aoe="-" pow="12" />
+              <melee_weapon name="Stun Sword" pow="4" p_plus_s="10">
+                <capacity title="STALL">A warjack hit by this attack suffers the Stall continuous effect. While a warjack is suffering Stall, its base DEF becomes 7 and it cannot run or charge.</capacity>
+              </melee_weapon>
+            </weapons>
+            <capacity title="MERCENARIES">These models will work for Cygnar and the Protectorate.</capacity>
+            <capacity title="DRIVE: PRONTO">This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack immediately makes a full advance. If the check fails, the warjack does not benefit from 'Jack Marshal this turn.</capacity>
+            <capacity title="IRON WALL">This model gains +2 ARM for each warjack it controls B2B with it. When this model is directly hit by an enemy ranged or magic attack, you can choose to have one of those non-incorporeal warjacks to be directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
+          </model>
+          <model id="GRUNTS" name="Grunts" full_name="Grunts">
             <basestats name="GRUNTS" spd="6" str="6" mat="6" rat="4" def="13" arm="13" cmd="8" cra="true" />
             <weapons>
               <ranged_weapon name="Slug Gun" rng="4" rof="1" aoe="-" pow="14" />
