@@ -4,7 +4,7 @@
          xsi:schemaLocation="www.whac.com/Sample warmachine.xsd" >
   <armies>
     <army faction="faction_cyriss" name="cyriss" version="forum_cyriss_002">
-        <!-- 002 some typo corrections -->
+      <!-- 002 some typo corrections -->
       <warcasters>
         <warcaster id="COCW01" name="Aurora" full_name="Aurora, Numen of Aerogenesis" generation="P" qualification="Convergence Warcaster" focus="7" warjack_points="6" fa="C" completed="true">
           <basestats name="Aurora, Numen of Aerogenesis" spd="7" str="5" mat="6" rat="4" def="16" arm="15" cmd="9" hitpoints="16" />
