@@ -691,7 +691,7 @@
           </weapons>
           <capacity title="PENETRATING STRIKE">After hitting a warjack or warbeast with this model's melee attack, you can choose to have it suffer 1 damage point instead of a normal damage roll.</capacity>
           <unit_attachment id="SA01" name="Praetorian Swordsmen Officer &amp; Standard" full_name="Praetorian Swordsmen Officer &amp; Standard" qualification="Skorne Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="OFFICER">
+            <model id="OFFICER" name="Officer" full_name="Praetorian Swordsmen Officer">
               <basestats name="OFFICER" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="10" hitpoints="5" officer="true" />
               <weapons>
                 <melee_weapon name="Sword" pow="3" count="2" p_plus_s="9">
@@ -704,7 +704,7 @@
               <capacity title="PERFECT STRIKE">Once per game during this unit's activation, this model can use Perfect Strike. During this activation, when making melee attacks, models in this unit can deal 1 damage point instead of making a damage roll.</capacity>
               <capacity title="TACTICS: RANKED ATTACKS">Models in this unit gain Ranked Attacks. (Friendly Faction models can ignore models with Ranked Attacks when determining LOS.)</capacity>
             </model>
-            <model id="STANDARD" name="Standard Bearer" full_name="Standard Bearer">
+            <model id="STANDARD" name="Standard Bearer" full_name="Praetorian Swordsmen Standard Bearer">
               <basestats name="Standard Bearer" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" hitpoints="0" standard_bearer="true" />
               <weapons />
             </model>
