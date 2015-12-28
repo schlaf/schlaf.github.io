@@ -657,8 +657,8 @@
           <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM.</capacity>
           <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
           <unit_attachment id="EA05" name="Captain Farilor &amp; Standard" full_name="Captain Farilor &amp; Standard" qualification="Legion Blighted Nyss Legionnaire Character Unit Attachment" fa="C" cost="3" completed="true">
-            <model id="CAPTAIN FARILOR">
-              <basestats name="FARILOR" spd="5" str="6" mat="7" rat="4" def="12" arm="14" cmd="9" hitpoints="5" fearless="true" cma="true" officer="true" />
+            <model id="FARILOR" name="Farilor" full_name="Captain Farilor">
+              <basestats name="Farilor" spd="5" str="6" mat="7" rat="4" def="12" arm="14" cmd="9" hitpoints="5" fearless="true" cma="true" officer="true" />
               <weapons>
                 <melee_weapon name="Great Sword" pow="4" p_plus_s="10" reach="true" weapon_master="true" />
               </weapons>
@@ -668,8 +668,8 @@
               <capacity title="TACTICS: SET DEFENSE">Models in this unit gain Set Defense. (A model in the front arc of a model with Set Defense suffers –2 on charge, slam power attack, and impact attack rolls against the model with Set Defense.)</capacity>
               <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
             </model>
-            <model id="BLIGHTED NYSS STANDARD">
-              <basestats name="STANDARD BEARER" spd="5" str="6" mat="6" rat="4" def="12" arm="14" cmd="9" hitpoints="0" fearless="true" standard_bearer="true" />
+            <model id="STANDARD" name="Standard Bearer" full_name="Blighted Nyss Legionnaires Standard Bearer">
+              <basestats name="Standard Bearer" spd="5" str="6" mat="6" rat="4" def="12" arm="14" cmd="9" hitpoints="0" fearless="true" standard_bearer="true" />
               <weapons />
               <capacity title="DEFENSIVE LINE">See above.</capacity>
               <capacity title="MAGE STATIC">While this model is in formation, enemy magic attacks targeting a model in this model's unit suffer –5 RNG.</capacity>
