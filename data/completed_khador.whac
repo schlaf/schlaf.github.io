@@ -672,18 +672,16 @@
           <capacity title="BERSERK">When this model destroys one or more models with a melee attack during its combat action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range.</capacity>
           <capacity title="SPELL WARD">This model can not be targeted by spells.</capacity>
           <unit_attachment id="KA06" name="Greylord Escort" full_name="Greylord Escort" fa="1" cost="2" qualification="Khador Unit attachment" completed="true">
-            <model id="GREYLORD ESCORT">
-              <basestats name="Greylord Escort" spd="6" str="5" mat="5" rat="4" def="13" arm="13" cmd="9" hitpoints="5" advance_deployment="true" fearless="true" officer="true" />
-              <weapons>
-                <melee_weapon p_plus_s="10" pow="5" name="Orgoth Staff" magical="true" reach="true" />
-              </weapons>
-              <capacity title="ATTACHMENT [DOOM REAVERS]">This attachment can be added to a Doom Reavers unit.</capacity>
-              <capacity title="GRANTED: SILENCE">While this model is in play, models in this unit do not have to make Berserk attacks</capacity>
-              <capacity title="GRANTED: TOUGH">While this model is in play, models in this unit gain Tough</capacity>
-              <capacity title="MAGIC ABILITY [7]" />
-              <capacity title="● FROSTBITE" type="*Attack">Frostbite is a RNG SP8 magic attack. Models hit suffer a POW12 cold damage roll.</capacity>
-              <capacity title="SPELL WARD">This model can not be targeted by spells.</capacity>
-            </model>
+            <basestats name="Greylord Escort" spd="6" str="5" mat="5" rat="4" def="13" arm="13" cmd="9" hitpoints="5" advance_deployment="true" fearless="true" officer="true" />
+            <weapons>
+              <melee_weapon p_plus_s="10" pow="5" name="Orgoth Staff" magical="true" reach="true" />
+            </weapons>
+            <capacity title="ATTACHMENT [DOOM REAVERS]">This attachment can be added to a Doom Reavers unit.</capacity>
+            <capacity title="GRANTED: SILENCE">While this model is in play, models in this unit do not have to make Berserk attacks</capacity>
+            <capacity title="GRANTED: TOUGH">While this model is in play, models in this unit gain Tough</capacity>
+            <capacity title="MAGIC ABILITY [7]" />
+            <capacity title="● FROSTBITE" type="*Attack">Frostbite is a RNG SP8 magic attack. Models hit suffer a POW12 cold damage roll.</capacity>
+            <capacity title="SPELL WARD">This model can not be targeted by spells.</capacity>
           </unit_attachment>
         </unit>
         <unit id="KU03" name="Iron Fang Pikemen" full_name="Iron Fang Pikemen" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Khador Unit" fa="2" has_unit_attachment="true" completed="true">
