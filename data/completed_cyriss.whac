@@ -46,35 +46,37 @@
           <spell name="UNSTOPPABLE FORCE" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">While in this model's control area, models in its battlegroup gain Bulldoze. Unstoppable Force lasts for one turn. (When a model with Bulldoze advances into B2B contact with an enemy model during its activation, it can push that model up to 2" directly away from it. A model can be pushed by Bulldoze only once per activation. Bulldoze has no effect when a model makes a trample power attack.)</spell>
           <capacity title="FIELD MARSHAL [COUNTER CHARGE]">Models in this model's battlegroup gain Counter Charge. (When an enemy model advances and ends its movement within 6" of a model with Counter Charge and in its LOS, the model with Counter Charge can immediately charge it. If it does it cannot make another Counter Charge until after your next turn. A model cannot make a counter charge while engaged.)</capacity>
         </warcaster>
-        <warcaster id="COCW03" name="Iron Mother Directrix" full_name="Iron Mother Directrix &amp; Exponent Servitors" generation="P" qualification="Convergence Warcaster Unit" focus="8" warjack_points="4" fa="C" completed="true">
-          <basestats name="Iron Mother Directrix" spd="6" str="7" mat="5" rat="5" def="15" arm="16" cmd="10" hitpoints="18" construct="true" officer="true" />
-          <weapons>
-            <melee_weapon p_plus_s="11" pow="4" name="Cloak of Blades" count="1" reach="true">
-              <capacity title="THRESHER" type="*Attack">This model makes one melee attack with this weapon against each model in its LOS and this weapon's melee range.</capacity>
-            </melee_weapon>
-            <ranged_weapon rng="11" name="Aperture Blast" aoe="4" pow="15" rof="1" />
-          </weapons>
-          <feat title="MATHEMATICAL PERFECTION">Directrix's MAT and RAT are each equal to her FOCUS for one turn.</feat>
-          <spell name="BACKLASH" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">When target enemy warjack that is part of a battlegroup is damaged, its controller suffers 1 damage point.</spell>
-          <spell name="DOMINATION" cost="3" rng="8" aoe="-" pow="-" up="NO" off="YES">Take control of target enemy non-character warjack that has a functional cortex. You can make a full advance with the warjack and can then make one normal attack, then DOMINATION expires. DOMINATION can be cast only once per turn.</spell>
-          <spell name="FIRE GROUP" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area the ranged weapons of models in its battlegroup gain +2 RNG. Fire Group lasts for one turn.</spell>
-          <spell name="SHRAPNEL SWARM" cost="3" rng="8" aoe="*" pow="13" up="NO" off="YES">On a direct hit against an enemy model, center a 4" AOE on the model hit. After resolving the damage roll, models in the AOE are hit and suffer 1 point of damage.</spell>
-          <spell name="TACTICAL SUPREMACY" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit can advance 3" after all models have ended their activations on your turn.</spell>
-          <capacity title="FIELD MARSHAL [ARC NODE]">Models in this model's battlegroup gain Arc Node.</capacity>
-          <capacity title="ACTIVATE EXPONENT SERVITOR">At the end of your Control Phase, you can put one Exponent Servitor into play within 1" of this model if there are fewer than 2 Exponent Servitors in play in Directrix's battlegroup.</capacity>
-          <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
-          <capacity title="REPAIRABLE">Other models can make Bodge or Repair special actions to repair this model as if it were a warjack.</capacity>
-          <capacity title="WARCASTER UNIT">This unit is made up of Iron Mother Directrix and two Exponent Servitors.</capacity>
+        <unit id="COCW03" full_name="Iron Mother Directrix &amp; Exponent Servitors">
+          <warcaster id="DIRECTRIX" name="Iron Mother Directrix" generation="P" qualification="Convergence Warcaster Unit" focus="8" warjack_points="4" fa="C" completed="true">
+            <basestats name="Iron Mother Directrix" spd="6" str="7" mat="5" rat="5" def="15" arm="16" cmd="10" hitpoints="18" construct="true" officer="true" />
+            <weapons>
+              <melee_weapon p_plus_s="11" pow="4" name="Cloak of Blades" count="1" reach="true">
+                <capacity title="THRESHER" type="*Attack">This model makes one melee attack with this weapon against each model in its LOS and this weapon's melee range.</capacity>
+              </melee_weapon>
+              <ranged_weapon rng="11" name="Aperture Blast" aoe="4" pow="15" rof="1" />
+            </weapons>
+            <feat title="MATHEMATICAL PERFECTION">Directrix's MAT and RAT are each equal to her FOCUS for one turn.</feat>
+            <spell name="BACKLASH" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">When target enemy warjack that is part of a battlegroup is damaged, its controller suffers 1 damage point.</spell>
+            <spell name="DOMINATION" cost="3" rng="8" aoe="-" pow="-" up="NO" off="YES">Take control of target enemy non-character warjack that has a functional cortex. You can make a full advance with the warjack and can then make one normal attack, then DOMINATION expires. DOMINATION can be cast only once per turn.</spell>
+            <spell name="FIRE GROUP" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area the ranged weapons of models in its battlegroup gain +2 RNG. Fire Group lasts for one turn.</spell>
+            <spell name="SHRAPNEL SWARM" cost="3" rng="8" aoe="*" pow="13" up="NO" off="YES">On a direct hit against an enemy model, center a 4" AOE on the model hit. After resolving the damage roll, models in the AOE are hit and suffer 1 point of damage.</spell>
+            <spell name="TACTICAL SUPREMACY" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit can advance 3" after all models have ended their activations on your turn.</spell>
+            <capacity title="FIELD MARSHAL [ARC NODE]">Models in this model's battlegroup gain Arc Node.</capacity>
+            <capacity title="ACTIVATE EXPONENT SERVITOR">At the end of your Control Phase, you can put one Exponent Servitor into play within 1" of this model if there are fewer than 2 Exponent Servitors in play in Directrix's battlegroup.</capacity>
+            <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
+            <capacity title="REPAIRABLE">Other models can make Bodge or Repair special actions to repair this model as if it were a warjack.</capacity>
+            <capacity title="WARCASTER UNIT">This unit is made up of Iron Mother Directrix and two Exponent Servitors.</capacity>
+          </warcaster>
           <model id="SERVITOR" name="Exponent Servitor" full_name="Exponent Servitor">
-              <basestats name="Exponent Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true"/>
-              <weapons>
-                  <ranged_weapon rng="10" name="Aperture Beam" aoe="-" pow="-" rof="1">
+            <basestats name="Exponent Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true"/>
+            <weapons>
+              <ranged_weapon rng="10" name="Aperture Beam" aoe="-" pow="-" rof="1">
                 <capacity title="IMPERIL">For one round when a model/unit is hit by this attack suffers a damage roll add +2 to the roll.</capacity>
-                </ranged_weapon>
-              </weapons>
-              <capacity title="STEADY" >This model cannot be knocked down.</capacity>
+              </ranged_weapon>
+            </weapons>
+            <capacity title="STEADY" >This model cannot be knocked down.</capacity>
           </model>
-        </warcaster>
+        </unit>
         <warcaster id="COCW04" name="Lucant" full_name="Father Lucant, Divinity Architect" generation="P" qualification="Convergence Warcaster" focus="7" warjack_points="5" fa="C" completed="true">
           <basestats name="Father Lucant, Divinity Architect" spd="6" str="9" mat="6" rat="3" def="14" arm="17" cmd="10" hitpoints="21" construct="true" pathfinder="true" />
           <weapons>
