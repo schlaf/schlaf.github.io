@@ -65,7 +65,7 @@
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
           <capacity title="REPAIRABLE">Other models can make Bodge or Repair special actions to repair this model as if it were a warjack.</capacity>
           <capacity title="WARCASTER UNIT">This unit is made up of Iron Mother Directrix and two Exponent Servitors.</capacity>
-          <model id="EXPONENT SERVITOR" name="Exponent Servitor" full_name="Exponent Servitor">
+          <model id="SERVITOR" name="Exponent Servitor" full_name="Exponent Servitor">
               <basestats name="Exponent Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true"/>
               <weapons>
                   <ranged_weapon rng="10" name="Aperture Beam" aoe="-" pow="-" rof="1">
@@ -271,7 +271,7 @@
           <capacity title="SACRIFICIAL PAWN [PERMUTATION SERVITORS]">When this model is directly hit by a ranged attack, you can choose to have one friendly, non-incorporeal Permutation model within 3" of this model be directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
           <capacity title="SERVITOR SATELLITES">At the start of this model's activation, remove any permutation Servitors this model put into play from the table. Once per activation, after its normal movement, this model can place up to 3 Permutation Servitors anywhere within 1" of this model.</capacity>
           <capacity title="STEADY">This model cannot be knocked down.</capacity>
-          <model id="PERMUTATION SERVITORS" name="Permutation Servitors" full_name="Permutation Servitors">
+          <model id="SERVITORS" name="Permutation Servitors" full_name="Permutation Servitors">
             <basestats name="Permutation Servitors" spd="6" str="3" mat="5" rat="5" def="12" arm="13" cmd="0" construct="true" pathfinder="true"/>
               <capacity title="ORBIT">This model does not begin the game in play and does not activate. This model cannot be hit by attacks made by the model that put it into play. If the model that put this model into play is destroyed or removed from play, remove this model from play.</capacity>
               <capacity title="STEADY">This model cannot be knocked down.</capacity>
