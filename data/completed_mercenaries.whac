@@ -1939,15 +1939,17 @@
           <capacity title="PROWL">This model gains Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.</capacity>
         </unit>
         <unit id="CU13_MERCS" name="Cephalyx Mind Slaver &amp; Drudges" full_name="Cephalyx Mind Slaver &amp; Drudges" qualification="Cryx Ally Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
-          <basestats name="MIND SLAVER" spd="5" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" hitpoints="5" fearless="true" officer="true" pathfinder="true" />
-          <weapons>
-            <melee_weapon name="Prosthetic Blades" pow="5" p_plus_s="11" />
-          </weapons>
-          <capacity title="SELECTIVE">This unit can be included only in mercenary contract armies that list Cephalyx as possible members.</capacity>
-          <capacity title="ANATOMICAL PRECISION">When this model’s melee damage roll fails to exceed the ARM of the living model hit, that model suffers 1 damage point.</capacity>
-          <capacity title="GRANTED: COMBINED MELEE ATTACK">While this model is in play, models in its unit gain Combined Melee Attack.</capacity>
-          <capacity title="REANIMATION">When this model boxes a living enemy warrior model with a melee attack, add one Grunt to this unit and then remove the boxed model from play. The Grunt must be placed in formation and within 3" of this model. The Grunt cannot activate this turn.</capacity>
-          <capacity title="SACRIFICIAL PAWN [DRUDGE GRUNT]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Drudge Grunt model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects. </capacity>
+          <model id="MINDSLAVER" name="Mind Slaver" full_name="Mind Slaver">
+            <basestats name="Mind Slaver" spd="5" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" hitpoints="5" fearless="true" officer="true" pathfinder="true" />
+            <weapons>
+              <melee_weapon name="Prosthetic Blades" pow="5" p_plus_s="11" />
+            </weapons>
+            <capacity title="SELECTIVE">This unit can be included only in mercenary contract armies that list Cephalyx as possible members.</capacity>
+            <capacity title="ANATOMICAL PRECISION">When this model’s melee damage roll fails to exceed the ARM of the living model hit, that model suffers 1 damage point.</capacity>
+            <capacity title="GRANTED: COMBINED MELEE ATTACK">While this model is in play, models in its unit gain Combined Melee Attack.</capacity>
+            <capacity title="REANIMATION">When this model boxes a living enemy warrior model with a melee attack, add one Grunt to this unit and then remove the boxed model from play. The Grunt must be placed in formation and within 3" of this model. The Grunt cannot activate this turn.</capacity>
+            <capacity title="SACRIFICIAL PAWN [DRUDGE GRUNT]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Drudge Grunt model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects. </capacity>
+          </model>
           <model id="GRUNTS" name="Drudge Grunts" full_name="Drudge Grunts">
             <basestats name="DRUDGE GRUNTS" spd="5" str="8" mat="5" rat="2" def="11" arm="15" cmd="4" fearless="true" eyelesssight="true" tough="true" />
             <weapons>
