@@ -1217,7 +1217,7 @@
               <melee_weapon name="Claws" pow="2" p_plus_s="7" />
             </weapons>
           </model>
-          <model id="THRALL WARRIOR" name="Thrall Warrior" full_name="Thrall Warrior" qualification="Mercenary Solo">
+          <model id="THRALL" name="Thrall Warrior" full_name="Thrall Warrior" qualification="Mercenary Solo">
             <basestats name="THRALL WARRIOR" spd="6" str="6" mat="6" rat="3" def="11" arm="14" cmd="7" undead="true" />
             <weapons>
               <melee_weapon name="Great Sword" pow="4" p_plus_s="10" weapon_master="true" />
