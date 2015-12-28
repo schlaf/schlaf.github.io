@@ -1021,15 +1021,13 @@
           </weapons>
           <capacity title="ANATOMICAL PRECISION">When this models melee damage roll fails to exceed the ARM of the living model hit, that model suffers 1 damage point.</capacity>
           <weapon_attachment id="YA08" name="Trencher Commandos Scattergunner" full_name="Trencher Commandos Scattergunner" fa="2" cost="1" qualification="Cygnar Weapon attachment" max_wa="3"  completed="true">
-            <model id="TRENCHER COMMANDOS SCATTERGUNNER">
-              <basestats name="Trencher Commandos Scattergunner" spd="6" str="6" mat="7" rat="5" def="13" arm="13" cmd="9" hitpoints="0" advance_deployment="true" stealth="true" />
-              <weapons>
-                <ranged_weapon name="Scatter gun" rng="SP8" rof="1" aoe="-" pow="12" />
-                <melee_weapon name="Trench knife" pow="3" p_plus_s="9" />
-              </weapons>
-              <capacity title="ANATOMICAL PRECISION">When this models melee damage roll fails to exceed the ARM of the living model hit, that model suffers 1 damage point.</capacity>
-              <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damagge boxes as the chosen Grunt.</capacity>
-            </model>
+            <basestats name="Trencher Commandos Scattergunner" spd="6" str="6" mat="7" rat="5" def="13" arm="13" cmd="9" hitpoints="0" advance_deployment="true" stealth="true" />
+            <weapons>
+              <ranged_weapon name="Scatter gun" rng="SP8" rof="1" aoe="-" pow="12" />
+              <melee_weapon name="Trench knife" pow="3" p_plus_s="9" />
+            </weapons>
+            <capacity title="ANATOMICAL PRECISION">When this models melee damage roll fails to exceed the ARM of the living model hit, that model suffers 1 damage point.</capacity>
+            <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damagge boxes as the chosen Grunt.</capacity>
           </weapon_attachment>
         </unit>
         <unit id="YU15" name="Stormsmith Storm Tower" full_name="Stormsmith Storm Tower" fa="2" base_cost="2" baseCount="2" full_cost="-" fullCount="-" qualification="Cygnar Weapon Crew Unit" completed="true">
