@@ -708,20 +708,18 @@
           <capacity title="● SNIPE">This attack gains +4 RNG.</capacity>
           <capacity title="● THUNDERBOLT">Enemy models hit are pushed d3" directly away from the attacking model. On a critical hit, the enemy model is knocked down after being pushed.</capacity>
           <unit_attachment id="YA01" name="Arcane Tempest Gun Mage Officer" full_name="Arcane Tempest Gun Mage Officer" fa="1" cost="2" qualification="Cygnar Unit attachment"  completed="true"> <!-- errata may 2014 -->
-            <model id="ARCANE TEMPEST GUN MAGE OFFICER">
-              <basestats name="Officer" spd="6" str="4" mat="5" rat="8" def="15" arm="11" cmd="9" hitpoints="5" jack_marshal="true" officer="true" />
-              <weapons>
-                <ranged_weapon name="Magelock Pistol" rng="10" rof="1" aoe="-" pow="10" magical="true" />
-                <melee_weapon name="Sword" pow="3" p_plus_s="7" magical="false" reach="false" />
-              </weapons>
-              <capacity title="ATTACHMENT [ARCANE TEMPEST GUN MAGE PISTOLEERS]">This attachment can be added to an Arcane Tempest Gun Mage Pistoleers unit.</capacity>
-              <capacity title="ATTACK TYPE">Each time this model makes a normal ranged attack, choose one of the following abilities:</capacity>
-              <capacity title="● CRITICAL BRUTAL DAMAGE">On a critical hit, gain an additional die on this weapon's damage roll against the model directly hit.</capacity>
-              <capacity title="● SNIPE">This attack gains +4 RNG.</capacity>
-              <capacity title="● THUNDERBOLT">Enemy models hit are pushed d3" directly away from the attacking model. On a critical hit, the enemy model is knocked down after being pushed.</capacity>
-              <capacity title="RUNE SHOT">When a warjack controlled by this model makes a normal ranged attack during its activation, you can choose one attack type available to this unit to apply to the attack.</capacity>
-              <capacity title="TACTICS: TRUE SIGHT">Models in this unit gain True Sight. (A model with True Sight ignores concealment, Camouflage, and Stealth.)</capacity>
-            </model>
+            <basestats name="Officer" spd="6" str="4" mat="5" rat="8" def="15" arm="11" cmd="9" hitpoints="5" jack_marshal="true" officer="true" />
+            <weapons>
+              <ranged_weapon name="Magelock Pistol" rng="10" rof="1" aoe="-" pow="10" magical="true" />
+              <melee_weapon name="Sword" pow="3" p_plus_s="7" magical="false" reach="false" />
+            </weapons>
+            <capacity title="ATTACHMENT [ARCANE TEMPEST GUN MAGE PISTOLEERS]">This attachment can be added to an Arcane Tempest Gun Mage Pistoleers unit.</capacity>
+            <capacity title="ATTACK TYPE">Each time this model makes a normal ranged attack, choose one of the following abilities:</capacity>
+            <capacity title="● CRITICAL BRUTAL DAMAGE">On a critical hit, gain an additional die on this weapon's damage roll against the model directly hit.</capacity>
+            <capacity title="● SNIPE">This attack gains +4 RNG.</capacity>
+            <capacity title="● THUNDERBOLT">Enemy models hit are pushed d3" directly away from the attacking model. On a critical hit, the enemy model is knocked down after being pushed.</capacity>
+            <capacity title="RUNE SHOT">When a warjack controlled by this model makes a normal ranged attack during its activation, you can choose one attack type available to this unit to apply to the attack.</capacity>
+            <capacity title="TACTICS: TRUE SIGHT">Models in this unit gain True Sight. (A model with True Sight ignores concealment, Camouflage, and Stealth.)</capacity>
           </unit_attachment>
         </unit>
         <unit id="YU02" name="Long Gunner Infantry" full_name="Long Gunner Infantry" base_cost="6" baseCount="6" full_cost="10" fullCount="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true">
