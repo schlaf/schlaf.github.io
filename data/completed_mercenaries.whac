@@ -1484,7 +1484,7 @@
             <capacity title="DRIVE: PRONTO">This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack immediately makes a full advance. If the check fails, the warjack does not benefit from 'Jack Marshal this turn.</capacity>
             <capacity title="IRON WALL">This model gains +2 ARM for each warjack it controls B2B with it. When this model is directly hit by an enemy ranged or magic attack, you can choose to have one of those non-incorporeal warjacks to be directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
           </model>
-          <model id="GRUNTS" name="Grunts" full_name="Grunts">
+          <model id="GRUNTS" name="Devil Dogs" full_name="Devil Dogs">
             <basestats name="GRUNTS" spd="6" str="6" mat="6" rat="4" def="13" arm="13" cmd="8" cra="true" />
             <weapons>
               <ranged_weapon name="Slug Gun" rng="4" rof="1" aoe="-" pow="14" />
