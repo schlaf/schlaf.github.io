@@ -1723,8 +1723,8 @@
           <capacity title="SHIELD WALL (ORDER)">For one round, each affected model gains a +4 ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           <capacity title="SPELL WARD">This model cannot be targeted by spells.</capacity>
           <unit_attachment id="YA06_MERCS" name="Precursor Knight Officer &amp; Standard" full_name="Precursor Knight Officer &amp; Standard" qualification="Cygnar Morrowan Ally Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="PRECURSOR KNIGHT OFFICER" name="Officer" full_name="Officer" qualification="Cygnar Morrowan Ally Unit Attachment">
-              <basestats name="OFFICER" spd="6" str="6" mat="8" rat="4" def="13" arm="14" cmd="9" hitpoints="5" officer="true" />
+            <model id="OFFICER" name="Officer" full_name="Precursor Knight Officer" qualification="Cygnar Morrowan Ally Unit Attachment">
+              <basestats name="Officer" spd="6" str="6" mat="8" rat="4" def="13" arm="14" cmd="9" hitpoints="5" officer="true" />
               <weapons>
                 <melee_weapon name="Blessed Mace" pow="6" p_plus_s="12" magical="true">
                   <capacity title="BLESSED">When making an attack with this weapon, ignore spell effects that add to a model's ARM or DEF.</capacity>
@@ -1735,7 +1735,7 @@
               <capacity title="MORROW'S NAME">Once per game during its unit activation, this model can use Morrow's Name. Models in this unit in formation gain an additional die on melee damage rolls this activation.</capacity>
               <capacity title="TACTICS: RANKED ATTACKS">Models in this unit gain Ranked Attacks. (Friendly Faction models can ignore models with Ranked Attacks when determining LOS.)</capacity>
             </model>
-            <model id="PRECURSOR KNIGHT STANDARD" name="Standard Bearer" full_name="Standard Bearer">
+            <model id="STANDARD" name="Standard Bearer" full_name="Precursor Knight Standard Bearer">
               <basestats name="STANDARD BEARER" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="9" hitpoints="0" standard_bearer="true" />
               <weapons />
               <capacity title="SPELL WARD">See above.</capacity>
