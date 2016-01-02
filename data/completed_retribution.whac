@@ -542,15 +542,17 @@
           </weapons>
           <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
           <unit_attachment id="RA06" name="Riflemen Officer &amp; Standard" full_name="Riflemen Officer &amp; Standard" fa="1" cost="2" qualification="Retribution Unit Attachment" unit_attachment="true" completed="true">
-            <basestats name="Officer" spd="6" str="4" mat="6" rat="6" def="13" arm="13" cmd="9" hitpoints="5" officer="true" cra="true" />
-            <weapons>
-              <ranged_weapon rng="14" name="Long Rifle" aoe="-" pow="10" rof="1"></ranged_weapon>
-              <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
-            </weapons>
-            <capacity title="GRANTED: WAR TEMPERED">While this model is in play, models in its unit can make combined ranged attacks targeting models in melee.</capacity>
-            <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
-            <capacity title="WHITES OF THEIR EYES">Once per game while in formation, this model can use this ability during its unit's activation. This activation, models in this unit gain an additional die on ranged attack rolls against models within 8" of the attacking model.<!--Errata: Dec 2013--></capacity>
-            <model id="STANDARD" name="Standard">
+            <model id="OFFICER" name="Officer" full_name="Houseguard Riflemen Officer">
+              <basestats name="Officer" spd="6" str="4" mat="6" rat="6" def="13" arm="13" cmd="9" hitpoints="5" officer="true" cra="true" />
+              <weapons>
+                <ranged_weapon rng="14" name="Long Rifle" aoe="-" pow="10" rof="1"></ranged_weapon>
+                <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
+              </weapons>
+              <capacity title="GRANTED: WAR TEMPERED">While this model is in play, models in its unit can make combined ranged attacks targeting models in melee.</capacity>
+              <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
+              <capacity title="WHITES OF THEIR EYES">Once per game while in formation, this model can use this ability during its unit's activation. This activation, models in this unit gain an additional die on ranged attack rolls against models within 8" of the attacking model.<!--Errata: Dec 2013--></capacity>
+            </model>
+            <model id="STANDARD" name="Standard" full_name="Houseguard Riflemen Standard">
               <basestats name="Standard" spd="6" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" hitpoints="0" standard_bearer="true" />
               <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
             </model>
@@ -921,9 +923,9 @@
           <!--Heavy Rifle Team (Check if it's possible.) no! weapon crew can not have attachments-->
           <!-- <restricted_to id="RU09">
                </restricted_to>  -->
-          <restricted_to id="RU10">
-            <!--Mage Hunter Infiltrators-->
-          </restricted_to>
+               <restricted_to id="RU10">
+                 <!--Mage Hunter Infiltrators-->
+               </restricted_to>
         </solo>
       </solos>
     </army>

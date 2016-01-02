@@ -915,20 +915,18 @@
             </melee_weapon>
           </weapons>
           <unit_attachment id="CA03" name="Satyxis Raider Sea Witch" full_name="Satyxis Raider Sea Witch" fa="1" cost="2" qualification="cryx unit attachment" completed="true">
-            <model id="SATYXIS_RAIDER_SEA_WITCH">
-              <basestats name="Sea Witch" spd="7" str="5" mat="7" rat="5" def="14" arm="12" cmd="9" hitpoints="5" advance_deployment="true" officer="true" cma="true" />
-              <weapons>
-                <melee_weapon name="Horns" pow="3" p_plus_s="8" />
-                <melee_weapon name="Piercer" pow="4" p_plus_s="9" reach="true">
-                  <capacity title="FEEDBACK">If this weapon damages a warjack that is part of a battlegroup, its controller suffers 1 damage point.</capacity>
-                </melee_weapon>
-                <ranged_weapon name="Hand cannon" rng="12" rof="1" aoe="-" pow="12" />
-              </weapons>
-              <capacity title="ATTACHMENT [SATYXIS RAIDERS]">This attachment can be added to a Satyxis Raiders unit.</capacity>
-              <capacity title="GRANTED: FORCE BARRIER">While this model is in play, models in its unit gain Force Barrier. (A model with Force Barrier gains +2 DEF against ranged attack rolls and does not suffer blast damage.)</capacity>
-              <capacity title="POWER SWELL">Once per game during its unit's activation, this model can use Power Swell. During this activation, models in this unit gain an additional die on melee damage rolls.</capacity>
-              <capacity title="TACTICS: PATHFINDER">Models in this unit gain Pathfinder.</capacity>
-            </model>
+            <basestats name="Sea Witch" spd="7" str="5" mat="7" rat="5" def="14" arm="12" cmd="9" hitpoints="5" advance_deployment="true" officer="true" cma="true" />
+            <weapons>
+              <melee_weapon name="Horns" pow="3" p_plus_s="8" />
+              <melee_weapon name="Piercer" pow="4" p_plus_s="9" reach="true">
+                <capacity title="FEEDBACK">If this weapon damages a warjack that is part of a battlegroup, its controller suffers 1 damage point.</capacity>
+              </melee_weapon>
+              <ranged_weapon name="Hand cannon" rng="12" rof="1" aoe="-" pow="12" />
+            </weapons>
+            <capacity title="ATTACHMENT [SATYXIS RAIDERS]">This attachment can be added to a Satyxis Raiders unit.</capacity>
+            <capacity title="GRANTED: FORCE BARRIER">While this model is in play, models in its unit gain Force Barrier. (A model with Force Barrier gains +2 DEF against ranged attack rolls and does not suffer blast damage.)</capacity>
+            <capacity title="POWER SWELL">Once per game during its unit's activation, this model can use Power Swell. During this activation, models in this unit gain an additional die on melee damage rolls.</capacity>
+            <capacity title="TACTICS: PATHFINDER">Models in this unit gain Pathfinder.</capacity>
           </unit_attachment>
         </unit>
         <unit id="CU16" name="Satyxis Blood witches" full_name="Satyxis Blood witches" qualification="CRYX UNIT" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="true" has_weapon_attachment="false" completed="true">
@@ -943,22 +941,20 @@
           </weapons>
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
           <unit_attachment id="CA05" name="Satyxis Blood Hag" full_name="Satyxis Blood Hag" fa="1" cost="2" qualification="cryx unit attachment" completed="true">
-            <model id="SATYXIS_RAIDER_SEA_WITCH">
-              <basestats name="Blood Hag" spd="5" str="5" mat="7" rat="4" def="13" arm="13" cmd="9" hitpoints="5" officer="true" stealth="true" />
-              <weapons>
-                <melee_weapon name="Horns" pow="3" p_plus_s="8" />
-                <melee_weapon name="Blood razor" pow="5" p_plus_s="10" magical="true">
-                  <capacity title="BLOODLETTING">When this model makes an attack with this weapon during its activation, choose one of the following abilities:</capacity>
-                  <capacity title="*BLOOD MIST">If this attack boxes a living model, center a 3" AOE cloud effect on the boxed model and remove it from play. The cloud effect remains in play for one round.</capacity>
-                  <capacity title="*DEATH STRIKE">If this attack destroys a living model, after resolving the attack choose a model within 4" of this model. The chosen model suffers a damage roll with a POW equal to the STR of the model destroyed by the attack.</capacity>
-                  <capacity title="DISPEL">When this weapon hits a model/unit, upkeep spells on that model/unit immediately expire.</capacity>
-                </melee_weapon>
-              </weapons>
-              <capacity title="ATTACHMENT [SATYXIS BLOOD WITCHES]">This attachment can be added to a Satyxis Blood Witches unit.</capacity>
-              <capacity title="BLOOD SHADOW">Once per game during its unit's activation, this model can use Blood Shadow. At the end of this activation, models in this unit gain Incorporeal for one round.</capacity>
-              <capacity title="ENTROPIC FORCE">While in this model's command range, enemy models lose Tough and cannot heal or be healed.</capacity><!-- errata 12-2013 -->
-              <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
-            </model>
+            <basestats name="Blood Hag" spd="5" str="5" mat="7" rat="4" def="13" arm="13" cmd="9" hitpoints="5" officer="true" stealth="true" />
+            <weapons>
+              <melee_weapon name="Horns" pow="3" p_plus_s="8" />
+              <melee_weapon name="Blood razor" pow="5" p_plus_s="10" magical="true">
+                <capacity title="BLOODLETTING">When this model makes an attack with this weapon during its activation, choose one of the following abilities:</capacity>
+                <capacity title="*BLOOD MIST">If this attack boxes a living model, center a 3" AOE cloud effect on the boxed model and remove it from play. The cloud effect remains in play for one round.</capacity>
+                <capacity title="*DEATH STRIKE">If this attack destroys a living model, after resolving the attack choose a model within 4" of this model. The chosen model suffers a damage roll with a POW equal to the STR of the model destroyed by the attack.</capacity>
+                <capacity title="DISPEL">When this weapon hits a model/unit, upkeep spells on that model/unit immediately expire.</capacity>
+              </melee_weapon>
+            </weapons>
+            <capacity title="ATTACHMENT [SATYXIS BLOOD WITCHES]">This attachment can be added to a Satyxis Blood Witches unit.</capacity>
+            <capacity title="BLOOD SHADOW">Once per game during its unit's activation, this model can use Blood Shadow. At the end of this activation, models in this unit gain Incorporeal for one round.</capacity>
+            <capacity title="ENTROPIC FORCE">While in this model's command range, enemy models lose Tough and cannot heal or be healed.</capacity><!-- errata 12-2013 -->
+            <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
           </unit_attachment>
         </unit>
         <unit id="CU08" name="Soulhunters" full_name="Soulhunters" qualification="CRYX LIGHT CAVALRY UNIT" fa="1" base_cost="6" full_cost="9" baseCount="3" fullCount="5" has_unit_attachment="false" has_weapon_attachment="false" completed="true">

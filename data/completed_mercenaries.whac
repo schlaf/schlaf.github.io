@@ -1198,20 +1198,22 @@
 
       <units>
         <unit id="MU09" name="Alexia Ciannor &amp; the Risen &amp; Thrall Warrior" full_name="Alexia Ciannor &amp; the Risen &amp; Thrall Warrior" qualification="Mercenary Character Unit" fa="C" base_cost="5" full_cost="-" baseCount="10" fullCount="-" completed="true">
-          <basestats name="ALEXIA" spd="6" str="4" mat="6" rat="5" def="15" arm="14" cmd="9" hitpoints="5" fearless="true" officer="true" />
-          <weapons>
-            <ranged_weapon name="Hand Cannon" rng="12" rof="1" aoe="-" pow="12" />
-            <melee_weapon name="Witchfire" pow="8" p_plus_s="12" magical="true" />
-          </weapons>
-          <capacity title="MERCENARIES">These models will work for Cygnar and Khador.</capacity>
-          <capacity title="ARCANE DISJUNCTION">While in this model's command range, enemy models pay double the focus or fury point cost to cast or upkeep spells.</capacity>
-          <capacity title="DEATH MAGIC">This model can remove friendly Risen in its command range from play to make an additional attack or to boost an attack or damage roll for each Risen model removed. When this model would suffer damage, you can choose one or more models in this unit that are in this model's command to suffer any number of those damage points instead, divided as you choose. If you do, this model does not suffer that damage. A model cannot suffer more damage as a result of Death Magic than it has unmarked damage boxes.</capacity>
-          <capacity title="MAGIC ABILITY [8]" />
-          <capacity title="● CRAFT THRALL RUNE (★ACTION)">Choose a Risen Grunt in this unit in formation and replace it with a Thrall Warrior solo. Remove the Risen Grunt model from play.</capacity>
-          <capacity title="● DISBINDING (★ACTION)">Enemy upkeep spells on this model and/or its unit immediately expire.</capacity>
-          <capacity title="● DOMINATE UNDEAD (★ATTACK)">Dominate Undead is a RNG 10 magic attack. Take control of target enemy non-warcaster, non-warlock undead model hit. You can immediately make a full advance with the undead model followed by a normal melee attack.</capacity>
-          <capacity title="RAISE DEAD">When a living model is destroyed in this model's command range, this model gains one corpse token. At the end of your next Control Phase, remove all corpse tokens from this model and add one Risen Grunt to this unit for each corpse token removed. Risen Grunts must be placed in formation. This unit cannot have more than 20 Risen Grunts in play at a time.</capacity>
-          <model id="RISEN" name="Risen Grunts" full_name="Risen Grunts">
+          <model id="ALEXIA" name="Alexia Ciannor" full_name="Alexia Ciannor">
+            <basestats name="ALEXIA" spd="6" str="4" mat="6" rat="5" def="15" arm="14" cmd="9" hitpoints="5" fearless="true" officer="true" />
+            <weapons>
+              <ranged_weapon name="Hand Cannon" rng="12" rof="1" aoe="-" pow="12" />
+              <melee_weapon name="Witchfire" pow="8" p_plus_s="12" magical="true" />
+            </weapons>
+            <capacity title="MERCENARIES">These models will work for Cygnar and Khador.</capacity>
+            <capacity title="ARCANE DISJUNCTION">While in this model's command range, enemy models pay double the focus or fury point cost to cast or upkeep spells.</capacity>
+            <capacity title="DEATH MAGIC">This model can remove friendly Risen in its command range from play to make an additional attack or to boost an attack or damage roll for each Risen model removed. When this model would suffer damage, you can choose one or more models in this unit that are in this model's command to suffer any number of those damage points instead, divided as you choose. If you do, this model does not suffer that damage. A model cannot suffer more damage as a result of Death Magic than it has unmarked damage boxes.</capacity>
+            <capacity title="MAGIC ABILITY [8]" />
+            <capacity title="● CRAFT THRALL RUNE (★ACTION)">Choose a Risen Grunt in this unit in formation and replace it with a Thrall Warrior solo. Remove the Risen Grunt model from play.</capacity>
+            <capacity title="● DISBINDING (★ACTION)">Enemy upkeep spells on this model and/or its unit immediately expire.</capacity>
+            <capacity title="● DOMINATE UNDEAD (★ATTACK)">Dominate Undead is a RNG 10 magic attack. Take control of target enemy non-warcaster, non-warlock undead model hit. You can immediately make a full advance with the undead model followed by a normal melee attack.</capacity>
+            <capacity title="RAISE DEAD">When a living model is destroyed in this model's command range, this model gains one corpse token. At the end of your next Control Phase, remove all corpse tokens from this model and add one Risen Grunt to this unit for each corpse token removed. Risen Grunts must be placed in formation. This unit cannot have more than 20 Risen Grunts in play at a time.</capacity>
+          </model>
+          <model id="GRUNTS" name="Risen Grunts" full_name="Risen Grunts">
             <basestats name="RISEN GRUNTS" spd="6" str="5" mat="4" rat="3" def="10" arm="11" cmd="3" cma="true" undead="true" />
             <weapons>
               <melee_weapon name="Claws" pow="2" p_plus_s="7" />
@@ -1366,12 +1368,14 @@
           <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU02" name="Herne &amp; Jonne" full_name="Herne &amp; Jonne" qualification="Mercenary Rhulic Character Unit" fa="C" base_cost="3" full_cost="-" baseCount="2" fullCount="-" completed="true">
-          <basestats name="HERNE" spd="4" str="6" mat="6" rat="6" def="12" arm="13" cmd="9" hitpoints="5" officer="true" />
-          <weapons>
-            <ranged_weapon name="Pistol" rng="8" rof="1" aoe="-" pow="10" />
-            <melee_weapon name="Axe" pow="3" p_plus_s="9" />
-          </weapons>
-          <capacity title="MERCENARIES">These models will work for Cygnar, Khador, and the Protectorate.</capacity>
+          <model id="HERNE" name="Herne" full_name="Herne">
+            <basestats name="HERNE" spd="4" str="6" mat="6" rat="6" def="12" arm="13" cmd="9" hitpoints="5" officer="true" />
+            <weapons>
+              <ranged_weapon name="Pistol" rng="8" rof="1" aoe="-" pow="10" />
+              <melee_weapon name="Axe" pow="3" p_plus_s="9" />
+            </weapons>
+            <capacity title="MERCENARIES">These models will work for Cygnar, Khador, and the Protectorate.</capacity>
+          </model>
           <model id="JONNE" name="Jonne">
             <basestats name="Jonne" spd="6" str="8" mat="6" rat="4" def="12" arm="15" cmd="9" hitpoints="8" />
             <weapons>

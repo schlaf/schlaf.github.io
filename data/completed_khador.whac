@@ -824,7 +824,7 @@
               <capacity title="RANGE FINDER">While B2B with one or more grunts in this unit, the leader gains +2 to attack rolls with this weapon.</capacity>
             </ranged_weapon>
           </weapons>
-          <model id="GRUNT" full_name="Grunt">
+          <model id="GRUNT" name="Grunt" full_name="Winter Guard Mortar Crew Grunt">
             <basestats name="Grunt" spd="4" str="5" mat="5" rat="5" def="12" arm="13" cmd="8" />
             <weapons>
               <melee_weapon p_plus_s="8" pow="3" name="Axe" />
@@ -896,7 +896,7 @@
               <capacity title="RANGE FINDER">While B2B with one or more grunts in this unit, the leader gains +2 to attack rolls with this weapon.</capacity>
             </ranged_weapon>
           </weapons>
-          <model id="GRUNT" name="Grunts">
+          <model id="GRUNT" name="Grunts" full_name="Winter Guard Field Gun Grunt">
             <basestats name="Grunts" spd="4" str="5" mat="5" rat="5" def="12" arm="13" cmd="8" />
             <weapons>
               <melee_weapon p_plus_s="8" pow="3" name="Axe" />

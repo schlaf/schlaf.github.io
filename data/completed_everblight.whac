@@ -586,7 +586,7 @@
           <capacity title="SPECIAL ISSUE [RHYAS OR SAERYN]">This model can be included in Rhyas' or Saeryn's theme forces. It can also be bonded to Rhyas or Saeryn.</capacity>
         </warbeast>
         <warbeast id="EB24" name="Blight Bringer" full_name="Blight Bringer" qualification="Legion Gargantuan" fa="2" cost="18" fury="5" threshold="7" damage_spiral="15-24-13" completed="true">
-          <basestats spd="4" str="15" mat="5" rat="5" def="9" arm="19" cmd="7" eyelesssight="true" />
+          <basestats name="Blight Bringer" spd="4" str="15" mat="5" rat="5" def="9" arm="19" cmd="7" eyelesssight="true" />
           <weapons>
             <melee_weapon name="Bite" pow="3" count="0" p_plus_s="18" location="H" />
             <melee_weapon name="Tail Strike" pow="3" count="0" p_plus_s="18" location="-">
@@ -811,7 +811,7 @@
           </unit_attachment>
         </unit>
         <unit id="EU10" name="Grotesque Raiders" full_name="Grotesque Raiders" qualification="Legion Blighted Nyss Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" completed="true" split="true">
-          <basestats name="LEADER &amp; GRUNTS" spd="5" str="7" mat="5" rat="4" def="13" arm="13" cmd="6" fearless="true" />
+          <basestats name="leader &amp; grunts" spd="5" str="7" mat="5" rat="4" def="13" arm="13" cmd="6" fearless="true" />
           <weapons>
             <melee_weapon name="Claws" pow="3" p_plus_s="10" />
           </weapons>
@@ -882,7 +882,7 @@
           <capacity title="AMBUSH">You can choose not to deploy this unit at the start of the game. If it is not deployed normally, you can put it into play at the end of any of your Control Phases after your first turn. When you do, choose any table edge except the back of your opponent's deployment zone. Place all models in this unit in formation within 3" of the chosen table edge.</capacity>
         </unit>
         <unit id="EU14" name="Grotesque Banshees" full_name="Grotesque Banshees" qualification="Legion Blighted Nyss Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true">
-          <basestats spd="5" str="7" mat="5" rat="5" def="13" arm="13" cmd="6" fearless="true" gunfighter="true" />
+          <basestats name="Leader &amp; Grunts" spd="5" str="7" mat="5" rat="5" def="13" arm="13" cmd="6" fearless="true" gunfighter="true" />
           <weapons>
             <ranged_weapon name="Piercing Screech" count="0" rng="SP6" rof="1" aoe="-" pow="12" location="">
               <capacity title="SILENCER" type="">A model directly hit by this weapon cannot cast spells for one round. </capacity>
@@ -1016,7 +1016,7 @@
           <capacity title="RAPID STRIKE">This model can make one additional melee attack each combat action.</capacity>
         </solo>
         <solo id="ES12" name="Grotesque Assassin" full_name="Grotesque Assassin" qualification="Legion Blighted Nyss Solo" fa="2" cost="2" completed="true">
-          <basestats spd="7" str="7" mat="7" rat="5" def="14" arm="13" cmd="7" fearless="true" stealth="true" />
+          <basestats name="Grotesque Assassin" spd="7" str="7" mat="7" rat="5" def="14" arm="13" cmd="7" fearless="true" stealth="true" />
           <weapons>
             <melee_weapon name="Assassin Blades" pow="4" count="0" p_plus_s="11" location="H">
               <capacity title="COMBO STRIKE" type="*Attack">Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model’s STR plus twice the POW of this weapon.</capacity>
