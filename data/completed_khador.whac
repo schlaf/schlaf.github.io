@@ -239,27 +239,28 @@
           <capacity title="● LENS OF TARVODH">The spell gain +3RNG</capacity>
           <capacity title="ORGOTH SEAL">When a model targets this model with an offensive spell, the spell suffer -3RNG. If a model directly hits this model with an offensive spell, after the attack is resolved the attacking model suffers D6 damage points</capacity>
         </warcaster>
-        <warcaster id="KX06" name="Zerkova2" generation="E" full_name="Obavnik Kommander Zerkova and Reaver Guard" qualification="Khador Epic Caster Unit" focus="7" warjack_points="4" fa="C" completed="true">
-          <basestats name="ZERKOVA" spd="6" str="5" mat="6" rat="5" def="15" arm="15" cmd="9" hitpoints="16" officer="true" immunity_frost="true"/>
-          <weapons>
-            <melee_weapon name="ORGOTH BLADE" pow="7" p_plus_s="12" magical="true">
-              <capacity title="BLESSED">When making an attack with this weapon, ignore spell effects that add to a model's ARM or DEF.</capacity>
-            </melee_weapon>
-          </weapons>
-          <feat title="ARCANE CONVERGENCE">Each friendly faction model currently in Zerkova's control area can immediately cast one spell without spending focus, performing a special action, or performing a special attack.</feat>
-          <spell name="BANISHING WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Enemy upkeep spells on target friendly model/unit expire. Affected models cannot be targeted by enemy spells or animi.</spell>
-          <spell name="DISSOLUTION BOLT" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">A model hit by Dissolution Bolt cannot channel spells for one round.</spell>
-          <spell name="HOARFROST" cost="3" rng="8" aoe="3" pow="14" up="NO" off="YES">Hoarfrost causes cold damage. On a critical hit, models in the AOE become stationary for one round unless they have Immunity: Cold.</spell>
-          <spell name="OCCULT WHISPERS" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly Faction models gain an additional die on their magic attack rolls this turn.</spell>
-          <spell name="SACRIFICIAL LAMB" cost="1" rng="CTRL" aoe="-" pow="-" up="NO" off="NO">Remove one friendly living Faction model in this model's control area from play to allocate 1 focus point to each warjack in this model's battlegroup that is currently in its control area. Sacrificial Lamb can only be cast once per turn.</spell>
-          <spell  name="TELGESH MARK" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">This model can channel spells through target friendly model as if it were a model in this model's battlegroup with Arc Node.</spell>
-          <capacity title="GREYLORD">This model is a Greylord model.</capacity>
-          <capacity title="INSPIRATION [GREYLORD]">Friendly Greylord models/units in this model's command range never flee and immediately rally.</capacity>
-          <capacity title="SACRED WARD">This model cannot be targeted by enemy spells.</capacity>
-          <capacity title="SELF-SACRIFICE">If this model is disabled by an enemy attack, you may choose a non-disabled model in this unit within 3" of this model to be destroyed. If another model is destroyed as a result of Self-Sacrifice, this model heals 1 damage point.</capacity>
-          <capacity title="WARCASTER UNIT">This unit is made up of Zerkova and two Reaver Guards.</capacity>
-
-          <model id="KX06_GUARD1" name="Reaver Guard" full_name="Reaver Guard">
+        <unit id="KX06" name="Obavnik Kommander Zerkova and Reaver Guard" fa="C" completed="true">
+          <warcaster id="ZERKOVA" name="Zerkova" full_name="Obavnik Kommander Zerkova" qualification="Khador Epic Caster Unit" focus="7" warjack_points="4" generation="E" >
+            <basestats name="ZERKOVA" spd="6" str="5" mat="6" rat="5" def="15" arm="15" cmd="9" hitpoints="16" officer="true" immunity_frost="true"/>
+            <weapons>
+              <melee_weapon name="ORGOTH BLADE" pow="7" p_plus_s="12" magical="true">
+                <capacity title="BLESSED">When making an attack with this weapon, ignore spell effects that add to a model's ARM or DEF.</capacity>
+              </melee_weapon>
+            </weapons>
+            <feat title="ARCANE CONVERGENCE">Each friendly faction model currently in Zerkova's control area can immediately cast one spell without spending focus, performing a special action, or performing a special attack.</feat>
+            <spell name="BANISHING WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Enemy upkeep spells on target friendly model/unit expire. Affected models cannot be targeted by enemy spells or animi.</spell>
+            <spell name="DISSOLUTION BOLT" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">A model hit by Dissolution Bolt cannot channel spells for one round.</spell>
+            <spell name="HOARFROST" cost="3" rng="8" aoe="3" pow="14" up="NO" off="YES">Hoarfrost causes cold damage. On a critical hit, models in the AOE become stationary for one round unless they have Immunity: Cold.</spell>
+            <spell name="OCCULT WHISPERS" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly Faction models gain an additional die on their magic attack rolls this turn.</spell>
+            <spell name="SACRIFICIAL LAMB" cost="1" rng="CTRL" aoe="-" pow="-" up="NO" off="NO">Remove one friendly living Faction model in this model's control area from play to allocate 1 focus point to each warjack in this model's battlegroup that is currently in its control area. Sacrificial Lamb can only be cast once per turn.</spell>
+            <spell  name="TELGESH MARK" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">This model can channel spells through target friendly model as if it were a model in this model's battlegroup with Arc Node.</spell>
+            <capacity title="GREYLORD">This model is a Greylord model.</capacity>
+            <capacity title="INSPIRATION [GREYLORD]">Friendly Greylord models/units in this model's command range never flee and immediately rally.</capacity>
+            <capacity title="SACRED WARD">This model cannot be targeted by enemy spells.</capacity>
+            <capacity title="SELF-SACRIFICE">If this model is disabled by an enemy attack, you may choose a non-disabled model in this unit within 3" of this model to be destroyed. If another model is destroyed as a result of Self-Sacrifice, this model heals 1 damage point.</capacity>
+            <capacity title="WARCASTER UNIT">This unit is made up of Zerkova and two Reaver Guards.</capacity>
+          </warcaster>
+          <model id="GUARD1" name="Reaver Guard" full_name="Zerkova Reaver Guard1">
             <basestats name="REAVER GUARD A" spd="6" str="7" mat="7" rat="4" def="13" arm="15" cmd="7" hitpoints="5" abomination="true" fearless="true"/>
             <weapons>
               <melee_weapon name="FELL AXE" pow="5" p_plus_s="12" magical="true" reach="true" weapon_master="true"/>
@@ -270,7 +271,7 @@
             <capacity title="SACRED WARD">This model cannot be targeted by enemy spells.</capacity>
             <capacity title="SILENCE">This models does not have to make Berserk attacks.</capacity>
           </model>
-          <model id="KX06_GUARD2" name="Reaver Guard" full_name="Reaver Guard">
+          <model id="GUARD2" name="Reaver Guard" full_name="Zerkova Reaver Guard2">
             <basestats name="REAVER GUARD B" spd="6" str="7" mat="7" rat="4" def="13" arm="15" cmd="7" hitpoints="5" abomination="true" fearless="true"/>
             <weapons>
               <melee_weapon name="FELL AXE" pow="5" p_plus_s="12" magical="true" reach="true" weapon_master="true"/>
@@ -281,7 +282,7 @@
             <capacity title="SACRED WARD">See above.</capacity>
             <capacity title="SILENCE">See above.</capacity>
           </model>
-        </warcaster>
+        </unit>
         <warcaster id="KW07" name="Old Witch" full_name="Old Witch of Khador" generation="P" qualification="Khador Warcaster" focus="7" warjack_points="3" fa="C" companionId="SCRAPJACK"  completed="true">
           <basestats name="OLD WITCH" spd="5" str="7" mat="6" rat="3" def="15" arm="14" cmd="8" hitpoints="16" pathfinder="true" terror="true" />
           <weapons>
@@ -709,6 +710,31 @@
             </model>
           </unit_attachment>
         </unit>
+        <unit id="KU03B" name="Black Dragon Iron Fang Pikemen" full_name="Black Dragon Iron Fang Pikemen" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Khador Unit" fa="2" has_unit_attachment="true" completed="true">
+          <basestats name="Leader &amp; grunts" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" cma="true" />
+          <weapons>
+            <melee_weapon p_plus_s="13" pow="7" name="Blasting Pike" reach="true">
+              <capacity title="CRITICAL KNOCKDOWN">On a critical hit, the model hit is knocked down.</capacity>
+            </melee_weapon>
+          </weapons>
+          <capacity title="SHIELD WALL" type="Order">For one round, each affected model gains a +4ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
+          <unit_attachment id="KA09" name="Black Dragon Officer &amp; Standard" full_name="Black Dragon Officer &amp; Standard" cost="2" qualification="Khador Iron Fang Pikemen Unit Attachment" fa="2" unit_attachment="true" completed="true">
+            <model id="OFFICER" name="Officer" full_name="Black Dragoon Officer">
+              <basestats name="Officer" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="10" hitpoints="5" officer="true" cma="true" />
+              <weapons>
+                <melee_weapon p_plus_s="13" pow="7" name="Blasting Pike" reach="true">
+                  <capacity title="CRITICAL KNOCKDOWN">On a critical hit, the model hit is knocked down.</capacity>
+                </melee_weapon>
+              </weapons>
+              <capacity title="TACTICS: PRECISION STRIKE">Models in this unit gain Precision Strike. (When a model with Precision Strike damages a warjack or warbeast with a melee attack, choose which column or branch suffers the damage.)</capacity>
+              <capacity title="IRON ZEAL">Once per game during its unit's activation, this model can use Iron Zeal. For one round, while in formation models in this unit gain +4 ARM and cannot become stationary or be knocked down.</capacity>
+            </model>
+            <model id="STANDARD" name="Standard Bearer" full_name="Black Dragoon Standard Bearer">
+              <basestats name="Standard Bearer" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" standard_bearer="true" />
+              <capacity title="GRANTED: FEARLESS">While this model is in play, models in its unit gain Fearless.</capacity>
+            </model>
+          </unit_attachment>
+        </unit>
         <unit id="KU04" name="Man-o-war Shocktroopers" full_name="Man-o-war Shocktroopers" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Khador Unit" fa="3" completed="true">
           <basestats name="Leader &amp; grunts" spd="4" str="9" mat="7" rat="5" def="11" arm="17" cmd="9" hitpoints="8" fearless="true" cma="true" />
           <weapons>
@@ -726,14 +752,14 @@
           <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
           <capacity title="SNIPER">When damaging a Warbeast or Warjack with a ranged attack, choose which column or branch suffers damage. Instead of rolling damage on a ranged attack, the model can inflict 1 damage point. A model that participate in a combined ranged attack loses Sniper until the attack is resolved.</capacity>
         </unit>
-        <unit id="KU06" name="Winter Guard Infantry" full_name="Winter Guard Infantry" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Khador Unit" fa="3" has_unit_attachment="true" has_weapon_attachment="true" completed="true">
+        <unit id="KU06" name="Winter Guard" full_name="Winter Guard Infantry" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Khador Unit" fa="3" has_unit_attachment="true" has_weapon_attachment="true" completed="true">
           <basestats name="Leader &amp; grunts" spd="6" str="5" mat="5" rat="5" def="12" arm="13" cmd="8" cra="true" />
           <weapons>
             <melee_weapon p_plus_s="8" pow="3" name="Axe" />
             <ranged_weapon rng="8" name="Blunderbuss" aoe="-" pow="12" rof="1" />
           </weapons>
-          <unit_attachment id="KA02" name="Winter Guard Inf. Officer &amp; Standard" full_name="Winter Guard Inf. Officer &amp; Standard" fa="1" cost="2" qualification="Khador Winter Guard Unit attachment" completed="true">
-            <model id="OFFICER" name="Officer" full_name="Winter Guard Infantry Officer">
+          <unit_attachment id="KA02" name="Winter Guard Officer &amp; Standard" full_name="Winter Guard Infantry Officer &amp; Standard" fa="1" cost="2" qualification="Khador Winter Guard Unit attachment" completed="true">
+            <model id="OFFICER" name="Officer" full_name="Winter Guard Officer">
               <basestats name="Officer" spd="6" str="5" mat="6" rat="6" def="12" arm="13" cmd="9" hitpoints="5" cra="true" officer="true" />
               <weapons>
                 <melee_weapon p_plus_s="8" pow="3" name="Axe" />
@@ -743,7 +769,7 @@
               <capacity title="BOB &amp; WEAVE" type="Order">Affected models make a full advance during their normal movement this activation and gain +2 DEF for one round.</capacity>
               <capacity title="TACTICS: COMBINED MELEE ATTACK">Models in this unit gain Combined Melee Attack</capacity>
             </model>
-            <model id="STANDARD" name="Standard Bearer" full_name="Winter Guard Infantry Standard Bearer">
+            <model id="STANDARD" name="Standard Bearer" full_name="Winter Guard Standard Bearer">
               <basestats name="Standard Bearer" spd="6" str="5" mat="5" rat="5" def="12" arm="13" cmd="8" cra="true" standard_bearer="true" />
               <weapons>
                 <melee_weapon p_plus_s="8" pow="3" name="Axe" />
@@ -752,7 +778,7 @@
               <capacity title="GRAPE SHOT">While this model is in formation, models in its unit can make a Grape Shot special attack. A Grape Shot special attack is a ranged attack with RNG SP8, AOE - and POW 10. When making a Grape Shot special attack, models cannot participate in combined ranged attacks.</capacity>
             </model>
           </unit_attachment>
-          <weapon_attachment id="KA03" name="Winter Guard Infantry Rocketeer" full_name="Winter Guard Infantry Rocketeer" fa="2" cost="1" qualification="Khador Winter Guard Weapon Attachment" max_wa="3" completed="true">
+          <weapon_attachment id="KA03" name="Winter Guard Infantry Rocketeer" full_name="Winter Guard Rocketeer" fa="2" cost="1" qualification="Khador Winter Guard Weapon Attachment" max_wa="3" completed="true">
             <basestats name="Winter Guard Infantry Rocketeer" spd="6" str="5" mat="5" rat="5" def="12" arm="13" cmd="8" cra="true" />
             <weapons>
               <melee_weapon p_plus_s="8" pow="3" name="Axe" />
@@ -1154,21 +1180,6 @@
           <spell name="Redline" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target warjack in this model's battlegroup gains +2 STR and SPD and can run, charge, or make power attack slams or tramples without spending focus. When it ends its activation, it suffers d3 damage points.</spell>
           <capacity title="JOURNEYMAN WARCASTER">This model is not a warcaster but has the following warcaster special rules: Battlegroup Commander, Control Area, Focus Manipulation, Power Field, and Spellcaster.</capacity>
           <capacity title="SUCKER!">If this model is directly hit by an enemy ranged attack, choose a friendly living non-incorporeal warrior model within 2" of it to tbe directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
-        </solo>
-        <solo id="KA09" name="Black Dragon Officer &amp; Standard" full_name="Black Dragon Officer &amp; Standard" cost="2" qualification="Khador Iron Fang Pikemen Unit Attachment" fa="2" unit_attachment="true" completed="true">
-          <basestats name="Officer" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="10" hitpoints="5" officer="true" cma="true" />
-          <weapons>
-            <melee_weapon p_plus_s="13" pow="7" name="Blasting Pike" reach="true">
-              <capacity title="CRITICAL KNOCKDOWN">On a critical hit, the model hit is knocked down.</capacity>
-            </melee_weapon>
-          </weapons>
-          <capacity title="TACTICS: PRECISION STRIKE">Models in this unit gain Precision Strike. (When a model with Precision Strike damages a warjack or warbeast with a melee attack, choose which column or branch suffers the damage.)</capacity>
-          <capacity title="IRON ZEAL">Once per game during its unit's activation, this model can use Iron Zeal. For one round, while in formation models in this unit gain +4 ARM and cannot become stationary or be knocked down.</capacity>
-          <model id="STANDARD" name="Standard Bearer" full_name="Black Dragoon Standard Bearer">
-            <basestats name="Standard Bearer" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" standard_bearer="true" />
-            <capacity title="GRANTED: FEARLESS">While this model is in play, models in its unit gain Fearless.</capacity>
-          </model>
-          <restricted_to id="KU03" />
         </solo>
       </solos>
     </army>

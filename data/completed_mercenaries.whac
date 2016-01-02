@@ -1280,7 +1280,7 @@
           <works_for id="FACTION_CYGNAR" />
           <works_for id="FACTION_RETRIBUTION" />
         </unit>
-        <unit id="MU16" name="Dannon Blythe &amp; Bull" full_name="Dannon Blythe &amp; Bull" qualification="Mercenary Minion Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="2" fullCount="-" completed="true">
+        <unit id="MU16" name="Dannon Blythe &amp; Bull" qualification="Mercenary Minion Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="2" fullCount="-" completed="true">
           <model id="BLYTHE" name="Blythe" full_name="Dannon Blythe">
             <basestats name="BLYTHE" spd="6" str="5" mat="6" rat="6" def="15" arm="13" cmd="9" hitpoints="5" gunfighter="true" officer="true" />
             <weapons>
@@ -1322,7 +1322,7 @@
           <capacity title="● CALL OF DEFIANCE">When a model in this unit that is in formation makes a Tough roll of 4, 5 or 6, it heals 1 damage point and is knocked down. Call of Defiance lasts for one round.</capacity>
           <capacity title="● CALL TO ACTION">Knocked down models in this unit in formation immediately stand up.</capacity>
           <capacity title="● RAGE HOWLER">Enemy models/units currently in this model's command range must pass a command check or flee. Warjacks and Warbeasts currently in this model's command range suffer –2 to attack rolls for one round.</capacity>
-          <model id="GRUNTS" name="Grunts" full_name="Grunts">
+          <model id="GRUNTS" name="Trollkin" full_name="Trollkin">
             <basestats name="GRUNTS" spd="6" str="7" mat="6" rat="4" def="12" arm="16" cmd="8" cma="true" tough="true" />
             <weapons>
               <ranged_weapon name="Blunderbuss" rng="8" rof="1" aoe="-" pow="12" />
@@ -1344,7 +1344,7 @@
           <capacity title="RHULIC 'JACK MARSHAL">This model can control and reactivate only friendly Mercenary Rhulic warjacks.</capacity>
           <capacity title="SHIELD WALL (ORDER)">For one round, each affected model gains a +4 ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model’s back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           <unit_attachment id="MA03" name="Hammerfall High Shield Officer &amp; Standard" full_name="Hammerfall High Shield Officer &amp; Standard" qualification="Mercenary Rhulic Unit Attachment" fa="1" cost="3" completed="true">
-            <model id="OFFICER" name="Officer" full_name="Officer">
+            <model id="OFFICER" name="Officer" full_name="Hammerfall High Shield Officer">
               <basestats name="OFFICER" spd="4" str="6" mat="6" rat="6" def="11" arm="15" cmd="9" hitpoints="5" cra="true" jack_marshal="true" officer="true" />
               <weapons>
                 <melee_weapon name="Axe" pow="3" p_plus_s="9" />
@@ -1355,7 +1355,7 @@
               <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
               <capacity title="RHULIC 'JACK MARSHAL">This model can control and reactivate only friendly Mercenary Rhulic warjacks.</capacity>
             </model>
-            <model id="STANDARD" name="Standard Bearer" full_name="Standard Bearer">
+            <model id="STANDARD" name="Standard Bearer" full_name="Hammerfall High Shield Standard Bearer">
               <basestats name="STANDARD BEARER" spd="4" str="6" mat="5" rat="5" def="11" arm="15" cmd="9" standard_bearer="true" />
               <weapons />
               <capacity title="RANKED ATTACKS">See above.</capacity>
@@ -1473,7 +1473,7 @@
           <works_for id="FACTION_CRYX" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU03" name="Captain Sam MacHorne &amp; the Devil Dogs" full_name="Captain Sam MacHorne &amp; the Devil Dogs" qualification="Mercenary Character Unit" fa="C" base_cost="5" full_cost="7" baseCount="6" fullCount="10" completed="true">
+        <unit id="MU03" name="Captain Sam MacHorne &amp; the Devil Dogs" full_name="Captain Sam MacHorne &amp; the Devil Dogs" qualification="Mercenary Character Unit" fa="C" base_cost="5" full_cost="7" baseCount="6" fullCount="10" completed="true" split="false">
           <model id="SAM" name="Sam MacHorne" full_name="Captain Sam MacHorne">
             <basestats name="SAM" spd="6" str="6" mat="7" rat="6" def="15" arm="12" cmd="9" hitpoints="5" jack_marshal="true" officer="true" />
             <weapons>
@@ -1512,18 +1512,16 @@
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
           <capacity title="POINT BLANK">During its activation, this model can make melee attacks with its ranged weapon, with a 1/2" melee range. Do not add this model’s STR to damage rolls made with ranged weapons. Charge attacks made with ranged weapons are not boosted.</capacity>
           <unit_attachment id="MA01" name="Mr. Walls, the Quartermaster" full_name="Mr. Walls, the Quartermaster" qualification="Mercenary Character Unit Attachment" fa="C" cost="2" completed="true">
-            <model id="MA01" name="Mr. Walls, the Quartermaster" full_name="Mr. Walls, the Quartermaster" qualification="Mercenary Privateer Character Unit Attachment">
-              <basestats name="MR. WALLS" spd="6" str="6" mat="6" rat="4" def="13" arm="12" cmd="8" hitpoints="5" officer="true" tough="true" />
-              <weapons>
-                <ranged_weapon name="Heavy Pistol " count="2" rng="8" rof="1" aoe="-" pow="12" />
-              </weapons>
-              <capacity title="ATTACHMENT [SEA DOG BOARDING CREW]">This attachment can be added to a Sea Dog Boarding Crew Unit.</capacity>
-              <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
-              <capacity title="MONKEY BITE">Living enemy models suffer –2 to melee attack rolls while in melee with this model.</capacity>
-              <capacity title="NO QUARTER">Once per game during its unit's activation, this model can use No Quarter. Models in this unit gain Fearless, Pathfinder, and Terror. A model in this unit that charges gain +2" movemement. No Quarter lasts for one round.</capacity>
-              <capacity title="POINT BLANK">During its activation, this model can make melee attacks with its ranged weapon, with a 1/2" melee range. Do not add this model’s STR to damage rolls made with ranged weapons. Charge attacks made with ranged weapons are not boosted.</capacity>
-              <capacity title="TACTICS: ADVANCE DEPLOYMENT">Models in this unit gain Advance Deployment.</capacity>
-            </model>
+            <basestats name="MR. WALLS" spd="6" str="6" mat="6" rat="4" def="13" arm="12" cmd="8" hitpoints="5" officer="true" tough="true" />
+            <weapons>
+              <ranged_weapon name="Heavy Pistol " count="2" rng="8" rof="1" aoe="-" pow="12" />
+            </weapons>
+            <capacity title="ATTACHMENT [SEA DOG BOARDING CREW]">This attachment can be added to a Sea Dog Boarding Crew Unit.</capacity>
+            <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
+            <capacity title="MONKEY BITE">Living enemy models suffer –2 to melee attack rolls while in melee with this model.</capacity>
+            <capacity title="NO QUARTER">Once per game during its unit's activation, this model can use No Quarter. Models in this unit gain Fearless, Pathfinder, and Terror. A model in this unit that charges gain +2" movemement. No Quarter lasts for one round.</capacity>
+            <capacity title="POINT BLANK">During its activation, this model can make melee attacks with its ranged weapon, with a 1/2" melee range. Do not add this model’s STR to damage rolls made with ranged weapons. Charge attacks made with ranged weapons are not boosted.</capacity>
+            <capacity title="TACTICS: ADVANCE DEPLOYMENT">Models in this unit gain Advance Deployment.</capacity>
             <!-- factions copied from main unit -->
           </unit_attachment>
           <weapon_attachment id="MA02" name="Sea Dog Crew Riflemen" full_name="Sea Dog Crew Riflemen" qualification="Mercenary Sea Dog Weapon Attachment" fa="3" cost="1" max_wa="3" completed="true">
@@ -1600,7 +1598,7 @@
           <works_for id="FACTION_CRYX" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU18" name="Steelhead Riflemen" full_name="Steelhead Riflemen" qualification="Mercenary Unit" fa="3" base_cost="5" full_cost="9" baseCount="6" fullCount="10" completed="true">
+        <unit id="MU18" name="Steelhead Riflemen" full_name="Steelhead Riflemen" qualification="Mercenary Unit" fa="3" base_cost="5" full_cost="9" baseCount="6" fullCount="10" completed="true" split="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="5" rat="5" def="13" arm="12" cmd="8" cra="true" />
           <weapons>
             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -1684,19 +1682,19 @@
           <works_for id="FACTION_CRYX" />
         </unit>
 
-
-
-        <unit id="IU10_MERCS" name="Lynus Wesselbaum &amp; Edrea Lloryrr" full_name="Lynus Wesselbaum &amp; Edrea Lloryrr" qualification="Mercenary Minion Character Unit" fa="C" base_cost="3" full_cost="-" baseCount="3" fullCount="-" completed="true">
-          <basestats name="Lynus" spd="6" str="5" mat="5" rat="5" def="14" arm="12" cmd="9" hitpoints="5" officer="true"/>
-          <weapons>
-            <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11"></ranged_weapon>
-            <melee_weapon name="Heavy Sword" pow="5" p_plus_s="10" reach="true"></melee_weapon>
-          </weapons>
-          <capacity title="MERCENARIES">These models will work for Cygnar.</capacity>
-          <capacity title="MINIONS">These models will work for Circle and Trollbloods and the Blindwater Congregation and Thornfall Alliance pacts.</capacity>
-          <capacity title="ANIMOSITY [SAXON ORRIK]">This unit cannot be included in an army that includes one or more models of the listed type.</capacity>
-          <capacity title="COLLABORATION" type="*Action">RNG CMD. Target friendly warrior model’s next attack roll this turn is boosted.</capacity>
-          <capacity title="GRANTED: APPLIED KNOWLEDGE">While this model is in play, models in this unit gain Applied Knowledge. (If a model with Applied Knowledge makes only normal attacks during its combat action, it can make an additional combat action during its activation this turn.)</capacity>
+        <unit id="IU10_MERCS" name="Lynus Wesselbaum &amp; Edrea Lloryrr" qualification="Mercenary Minion Character Unit" fa="C" base_cost="3" full_cost="-" baseCount="3" fullCount="-" completed="true">
+          <model id="LYNUS" name="Lynus" full_name="Lynus Wesselbaum">
+            <basestats name="Lynus" spd="6" str="5" mat="5" rat="5" def="14" arm="12" cmd="9" hitpoints="5" officer="true"/>
+            <weapons>
+              <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11"></ranged_weapon>
+              <melee_weapon name="Heavy Sword" pow="5" p_plus_s="10" reach="true"></melee_weapon>
+            </weapons>
+            <capacity title="MERCENARIES">These models will work for Cygnar.</capacity>
+            <capacity title="MINIONS">These models will work for Circle and Trollbloods and the Blindwater Congregation and Thornfall Alliance pacts.</capacity>
+            <capacity title="ANIMOSITY [SAXON ORRIK]">This unit cannot be included in an army that includes one or more models of the listed type.</capacity>
+            <capacity title="COLLABORATION" type="*Action">RNG CMD. Target friendly warrior model’s next attack roll this turn is boosted.</capacity>
+            <capacity title="GRANTED: APPLIED KNOWLEDGE">While this model is in play, models in this unit gain Applied Knowledge. (If a model with Applied Knowledge makes only normal attacks during its combat action, it can make an additional combat action during its activation this turn.)</capacity>
+          </model>
           <model id="EDRA" name="Edra" full_name="Edra Lloryrr">
             <basestats name="EDREA" spd="6" str="4" mat="5" rat="5" def="14" arm="12" cmd="9" hitpoints="5" />
             <weapons>
@@ -2591,7 +2589,7 @@
           <works_for id="FACTION_CYGNAR" />
           <works_for id="FACTION_KHADOR" />
         </solo>
-        <solo id="IS05_MERCS" name="Viktor Pendrake" full_name="Viktor Pendrake" qualification="Cygnar Ally Minion Character Solo" fa="C" cost="2" completed="true">
+        <solo id="IS05_MERCS" name="Viktor Pendrake" full_name="Professor Viktor Pendrake" qualification="Cygnar Ally Minion Character Solo" fa="C" cost="2" completed="true">
           <basestats name="PENDRAKE" spd="6" str="6" mat="6" rat="6" def="14" arm="14" cmd="9" hitpoints="5" fearless="true" pathfinder="true" tough="true" />
           <weapons>
             <ranged_weapon name="Chain Bola" rng="8" rof="1" aoe="-" pow="-">

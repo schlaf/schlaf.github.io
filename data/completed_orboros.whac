@@ -440,8 +440,8 @@
           <capacity title="REGENERATION [D3]">This model can be forced to heal d3 damage points once per activation.  This model cannot use Regeneration during an activation it runs.</capacity>
         </warbeast>
         <!--Wold Guardian complete-->
-        <warbeast id="OB12" name="Woldguardian" full_name="Woldguardian" damage_spiral="8-14-8" fury="3" threshold="0" cost="9" qualification="Circle Heavy Warbeast" fa="U" completed="true">
-          <basestats name="Woldguardian" spd="4" str="12" mat="6" rat="1" def="9" arm="20" cmd="0" construct="true" pathfinder="true" />
+        <warbeast id="OB12" name="Wold Guardian" full_name="Wold Guardian" damage_spiral="8-14-8" fury="3" threshold="0" cost="9" qualification="Circle Heavy Warbeast" fa="U" completed="true">
+          <basestats name="Wold Guardian" spd="4" str="12" mat="6" rat="1" def="9" arm="20" cmd="0" construct="true" pathfinder="true" />
           <weapons>
             <melee_weapon name="Ram Fist" location="L" pow="5" p_plus_s="17" magical="true">
               <capacity title="RAM">When an enemy model is hit by this weapon, it is knocked down and can be pushed 1" directly away from this model.  If it is pushed, this model can immediately advance directly toward the pushed model up to the distance that model was moved.</capacity>
@@ -649,16 +649,18 @@
       <units>
         <!--Druids and Overseer complete-->
         <unit id="OU01" name="Druids of Orboros" full_name="Druids of Orboros" base_cost="7" baseCount="6" full_cost="-" fullCount="-" qualification="Circle Unit" fa="2" has_unit_attachment="true" completed="true">
-          <basestats name="Grunts" spd="6" str="6" mat="5" rat="4" def="14" arm="13" cmd="9" pathfinder="true" />
-          <weapons>
-            <melee_weapon name="Voulge" pow="4" p_plus_s="10" magical="true" reach="true"></melee_weapon>
-          </weapons>
-          <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
-          <capacity title="MAGIC ABILITY [7]"></capacity>
-          <capacity title="● FORCE BOLT" type="*Attack"> Force Bolt is a RNG 10, POW 10 magic attack.  An enemy model hit by this attack can be pushed d3" directly toward or away from this model.  Choose the direction before rolling the distance.  On a critical hit, the enemy model is knocked down after being pushed.</capacity>
-          <capacity title="● MEDICATE" type="*Action">RNG 3.  Target friendly Faction warbeast.  If the warbeast is in range, it heals d3 damage points.  warbeast can be affected by Medicate only once per turn.</capacity>
-          <capacity title="● SUMMON VORTEX" type="*Action">Center a 3" AOE cloud effect on this model.  Enemy models suffer -2 to attack rolls while in the AOE.  Summon Vortex lasts for one round.</capacity>
-          <model name="Leader">
+          <model id="GRUNTS" name="Grunts">
+            <basestats name="Grunts" spd="6" str="6" mat="5" rat="4" def="14" arm="13" cmd="9" pathfinder="true" />
+            <weapons>
+              <melee_weapon name="Voulge" pow="4" p_plus_s="10" magical="true" reach="true"></melee_weapon>
+            </weapons>
+            <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
+            <capacity title="MAGIC ABILITY [7]"></capacity>
+            <capacity title="● FORCE BOLT" type="*Attack"> Force Bolt is a RNG 10, POW 10 magic attack.  An enemy model hit by this attack can be pushed d3" directly toward or away from this model.  Choose the direction before rolling the distance.  On a critical hit, the enemy model is knocked down after being pushed.</capacity>
+            <capacity title="● MEDICATE" type="*Action">RNG 3.  Target friendly Faction warbeast.  If the warbeast is in range, it heals d3 damage points.  warbeast can be affected by Medicate only once per turn.</capacity>
+            <capacity title="● SUMMON VORTEX" type="*Action">Center a 3" AOE cloud effect on this model.  Enemy models suffer -2 to attack rolls while in the AOE.  Summon Vortex lasts for one round.</capacity>
+          </model>
+          <model id="LEADER" name="Leader">
             <basestats name="Leader" spd="6" str="6" mat="5" rat="4" def="14" arm="13" cmd="9" pathfinder="true" />
             <weapons>
               <melee_weapon name="Voulge" pow="4" p_plus_s="10" magical="true" reach="true"></melee_weapon>
@@ -870,14 +872,16 @@
         </unit>
         <!--Sentry Stone and Mannikins complete-->
         <unit id="OU10" name="Sentry Stone &amp; Mannikins" full_name="Sentry Stone &amp; Mannikins" base_cost="3" baseCount="4" full_cost="-" fullCount="-" qualification="Circle Unit" fa="2" completed="true">
-          <basestats name="Mannikin Grunt" spd="6" str="7" mat="5" rat="4" def="12" arm="12" cmd="0" advance_deployment="true" construct="true" pathfinder="true" />
-          <weapons>
-            <ranged_weapon name="Splinter Burst" rng="SP8" rof="1" aoe="-" pow="10" magical="true"></ranged_weapon>
-            <melee_weapon name="Claw" count="2" pow="4" p_plus_s="11" />
-          </weapons>
-          <capacity title="FOREST GROWTH" type="*Action">Center a 3" AOE on this model, then remove the model from play.  This AOE is a forest that remains in play for one round.</capacity>
-          <capacity title="FURY LINKED">While in formation, this model can spend fury on its commander during its unit's activation to boost attack or damage rolls.</capacity>
-          <model name="Sentry Stone">
+          <model id="GRUNT" name="Grunt" full_name="Mannikin Grunt">
+            <basestats name="Mannikin Grunt" spd="6" str="7" mat="5" rat="4" def="12" arm="12" cmd="0" advance_deployment="true" construct="true" pathfinder="true" />
+            <weapons>
+              <ranged_weapon name="Splinter Burst" rng="SP8" rof="1" aoe="-" pow="10" magical="true"></ranged_weapon>
+              <melee_weapon name="Claw" count="2" pow="4" p_plus_s="11" />
+            </weapons>
+            <capacity title="FOREST GROWTH" type="*Action">Center a 3" AOE on this model, then remove the model from play.  This AOE is a forest that remains in play for one round.</capacity>
+            <capacity title="FURY LINKED">While in formation, this model can spend fury on its commander during its unit's activation to boost attack or damage rolls.</capacity>
+          </model>
+          <model name="Sentry Stone" id="STONE">
             <basestats name="Sentry Stone" spd="0" str="0" mat="0" rat="0" def="5" arm="18" cmd="6" advance_deployment="true" construct="true" officer="true" stealth="true" />
             <capacity title="DEVOUR MAGIC">Once per turn at any time during its unit's activation, this model can use Devour Magic.  When it does, you can remove up to 1 focus or fury point from each enemy model in its command range.  For each focus or fury point removed, place 1 fury point on this model.  A model can have focus or fury removed from it only once per turn as a result of Devour Magic.  This model can have up to 5 fury points at a time.</capacity>
             <capacity title="IMMOBILE">This model has no movement or action and cannot be knocked down or moved.  Its front arc extends to 360 degrees.  It has no melee range, cannot engage, and is automatically hit by melee attacks.</capacity>

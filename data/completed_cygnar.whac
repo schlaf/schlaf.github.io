@@ -281,32 +281,34 @@
           <capacity title="PARRY" type="">This model cannot be targeted by free strikes.</capacity>
           <capacity title="STEADY">This model cannot be knocked down.</capacity>
         </warcaster>
-        <warcaster id="YW07" name="Darius" full_name="Captain E. Dominic Darius &amp; Halfjacks" generation="P" qualification="Cygnar Warcaster" focus="6" warjack_points="5" fa="C" completed="true">
-          <basestats name="Darius" spd="5" str="8" mat="6" rat="5" def="13" arm="18" cmd="8" hitpoints="22" />
-          <weapons>
-            <melee_weapon name="Quake Hammer" pow="7" p_plus_s="15" magical="false" reach="false">
-              <capacity title="CRITICAL KNOCKDOWN">On a critical hit, the model hit is knocked down.</capacity>
-              <capacity title="TREMOR" type="*Attack">Tremor affects every model within 2" of this model and does not require a target. Make one melee attack roll. If the roll equals or exceeds the DEF of an affected model, it is knocked down. This attack roll cannot be rerolled. This model can make a Tremor special attack if it charges.</capacity>
-            </melee_weapon>
-            <melee_weapon name="Wrench" pow="3" p_plus_s="11" magical="false" reach="false" />
-            <ranged_weapon name="Steam Cannon" rng="12" rof="1" aoe="4" pow="13" magical="false" />
-          </weapons>
-          <feat title="PIT STOP"><![CDATA[Darius and the Halfjacks in his battlegroup currently in his control area can each completely repair one friendly Faction warjack with which he or it is B2B. Remove all damage from those warjacks.]]></feat>
-          <spell name="ARCANTRIK BOLT" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">A warjack damaged by this attack becomes stationary for one round.</spell>
-          <spell name="FORTIFY" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target warjack in this model's battlegroup gains +2 ARM. The affected model and any friendly model B2B with it cannot be knocked down, pushed, or slammed.</spell>
-          <spell name="FULL THROTTLE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Warjacks in this model's battlegroup beginning their activations in its control area can run, charge, or make slam or trample power attacks without spending focus that activation. While in this model's control area, models in its battlegroup gain boosted melee attack rolls. Full Throttle lasts for one turn.</spell>
-          <spell name="JACKHAMMER" cost="1" rng="6" aoe="-" pow="-" up="NO" off="NO">Target model in this model's battlegroup immediately makes one normal melee attack.</spell>
-          <capacity title="ACTIVATE HALFJACK">At the end of your Control Phase, you can put one Halfjack into play within 1" of this model if there are fewer than three Halfjacks in play in Darius' battlegroup.</capacity>
-          <capacity title="CRANE" type="*Action">Knocked down friendly models within 2" of this model immediately stand up and can activate normally this turn. Additionally, you can choose one friendly model within 2" of this model and place that model anywhere within 1" of its current location.</capacity>
-          <capacity title="DETONATE">After resolving continuous effects during your Maintenance Phase, you can detonate any number of friendly mine markers anywhere on the table. Center a 4" AOE template on each detonated mine and remove the mine marker from the table. Models in the AOE are hit and suffer an unboostable POW 14 blast damage roll.</capacity>
-          <capacity title="REPAIR [9]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjacks damage grid.</capacity>
+        <unit id="YW07">
+          <warcaster id="DARIUS" name="Darius" full_name="Captain E. Dominic Darius &amp; Halfjacks" generation="P" qualification="Cygnar Warcaster" focus="6" warjack_points="5" fa="C" completed="true">
+            <basestats name="Darius" spd="5" str="8" mat="6" rat="5" def="13" arm="18" cmd="8" hitpoints="22" />
+            <weapons>
+              <melee_weapon name="Quake Hammer" pow="7" p_plus_s="15" magical="false" reach="false">
+                <capacity title="CRITICAL KNOCKDOWN">On a critical hit, the model hit is knocked down.</capacity>
+                <capacity title="TREMOR" type="*Attack">Tremor affects every model within 2" of this model and does not require a target. Make one melee attack roll. If the roll equals or exceeds the DEF of an affected model, it is knocked down. This attack roll cannot be rerolled. This model can make a Tremor special attack if it charges.</capacity>
+              </melee_weapon>
+              <melee_weapon name="Wrench" pow="3" p_plus_s="11" magical="false" reach="false" />
+              <ranged_weapon name="Steam Cannon" rng="12" rof="1" aoe="4" pow="13" magical="false" />
+            </weapons>
+            <feat title="PIT STOP"><![CDATA[Darius and the Halfjacks in his battlegroup currently in his control area can each completely repair one friendly Faction warjack with which he or it is B2B. Remove all damage from those warjacks.]]></feat>
+            <spell name="ARCANTRIK BOLT" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">A warjack damaged by this attack becomes stationary for one round.</spell>
+            <spell name="FORTIFY" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target warjack in this model's battlegroup gains +2 ARM. The affected model and any friendly model B2B with it cannot be knocked down, pushed, or slammed.</spell>
+            <spell name="FULL THROTTLE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Warjacks in this model's battlegroup beginning their activations in its control area can run, charge, or make slam or trample power attacks without spending focus that activation. While in this model's control area, models in its battlegroup gain boosted melee attack rolls. Full Throttle lasts for one turn.</spell>
+            <spell name="JACKHAMMER" cost="1" rng="6" aoe="-" pow="-" up="NO" off="NO">Target model in this model's battlegroup immediately makes one normal melee attack.</spell>
+            <capacity title="ACTIVATE HALFJACK">At the end of your Control Phase, you can put one Halfjack into play within 1" of this model if there are fewer than three Halfjacks in play in Darius' battlegroup.</capacity>
+            <capacity title="CRANE" type="*Action">Knocked down friendly models within 2" of this model immediately stand up and can activate normally this turn. Additionally, you can choose one friendly model within 2" of this model and place that model anywhere within 1" of its current location.</capacity>
+            <capacity title="DETONATE">After resolving continuous effects during your Maintenance Phase, you can detonate any number of friendly mine markers anywhere on the table. Center a 4" AOE template on each detonated mine and remove the mine marker from the table. Models in the AOE are hit and suffer an unboostable POW 14 blast damage roll.</capacity>
+            <capacity title="REPAIR [9]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjacks damage grid.</capacity>
+          </warcaster>
           <model id="HALFJACK" full_name="Halfjack" qualification="cygnar solo">
             <basestats name="Halfjack" spd="6" str="2" mat="3" rat="1" def="14" arm="14" cmd="0" construct="true" />
             <capacity title="BODGE" type="*Action">This model performs minor repairs to one damaged friendly Faction warjack with which it is B2B. Remove 1 damage point from the warjack.</capacity>
             <capacity title="COMPANION [CAPTAIN E. DOMINIC DARIUS]">This model is included in any army that includes Captain E. Dominic Darius. If Captain E. Dominic Darius is destroyed or removed from play, remove this model from play. Place all three Halfjacks in play at the start of the game.</capacity>
             <capacity title="PRIME MINE" type="*Action">Replace this model with a mine marker. You can have up to three mine markers in play at a time.</capacity>
           </model>
-        </warcaster>
+        </unit>
         <warcaster id="YW08" name="Kara Sloan" full_name="Captain Kara Sloan" generation="P" qualification="Cygnar Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="Sloan" spd="6" str="5" mat="5" rat="8" def="16" arm="14" cmd="8" hitpoints="16" />
           <weapons>
@@ -696,7 +698,7 @@
         </battleEngine>
       </battleEngines>
       <units>
-        <unit id="YU01" name="Arcane Tempest Gun Mage Pistoleers" full_name="Arcane Tempest Gun Mage Pistoleers" base_cost="6" baseCount="6" full_cost="-" fullCount="-" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true"> <!-- errata may 2014 -->
+        <unit id="YU01" name="Arcane Tempest Gun Mage Pistoleers" full_name="Arcane Tempest Gun Mage Pistoleers" base_cost="6" baseCount="6" full_cost="-" fullCount="-" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true" split="true"> <!-- errata may 2014 -->
           <basestats name="Leader &amp; Grunts" spd="6" str="4" mat="5" rat="7" def="15" arm="11" cmd="8" />
           <weapons>
             <ranged_weapon name="Magelock Pistol" rng="10" rof="1" aoe="-" pow="10" magical="true" />
@@ -722,7 +724,7 @@
             <capacity title="TACTICS: TRUE SIGHT">Models in this unit gain True Sight. (A model with True Sight ignores concealment, Camouflage, and Stealth.)</capacity>
           </unit_attachment>
         </unit>
-        <unit id="YU02" name="Long Gunner Infantry" full_name="Long Gunner Infantry" base_cost="6" baseCount="6" full_cost="10" fullCount="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true">
+        <unit id="YU02" name="Long Gunner Infantry" full_name="Long Gunner Infantry" base_cost="6" baseCount="6" full_cost="10" fullCount="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="4" mat="4" rat="5" def="13" arm="12" cmd="8" cma="true" />
           <weapons>
             <ranged_weapon name="Repeating Long Gun" rng="14" rof="2" aoe="-" pow="10" magical="true" />
@@ -767,7 +769,7 @@
             <capacity title="REPAIR [6]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjacks damage grid.</capacity>
           </model>
         </unit>
-        <unit id="YU04" name="Stormblade Infantry" full_name="Stormblade Infantry" base_cost="5" baseCount="6" full_cost="-" fullCount="-" qualification="Cygnar Storm Knight Unit" fa="2" has_unit_attachment="true" completed="true">
+        <unit id="YU04" name="Stormblade Infantry" full_name="Stormblade Infantry" base_cost="5" baseCount="6" full_cost="-" fullCount="-" qualification="Cygnar Storm Knight Unit" fa="2" has_unit_attachment="true" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="6" mat="7" rat="5" def="12" arm="15" cmd="9" cma="true" immunity_electricity="true" />
           <weapons>
             <ranged_weapon name="Storm glaive" rng="4" rof="1" aoe="-" pow="12" electricity="true" />
@@ -803,7 +805,7 @@
             <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damagge boxes as the chosen Grunt.</capacity>
           </weapon_attachment>
         </unit>
-        <unit id="YU05" name="Trencher Infantry" full_name="Trencher Infantry" base_cost="6" baseCount="6" full_cost="10" fullCount="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" has_weapon_attachment="true"  completed="true">
+        <unit id="YU05" name="Trencher Infantry" full_name="Trencher Infantry" base_cost="6" baseCount="6" full_cost="10" fullCount="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" has_weapon_attachment="true" split="true" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" cra="true" advance_deployment="true" />
           <weapons>
             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -847,16 +849,18 @@
           </weapon_attachment>
         </unit>
         <unit id="YU06" name="Trencher Chaingun Crew" full_name="Trencher Chaingun Crew" base_cost="2" baseCount="2" full_cost="-" fullCount="-" qualification="Cygnar Weapon Crew Unit" fa="2" completed="true">
-          <basestats name="Leader" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
-          <weapons>
-            <ranged_weapon name="Chain gun" rng="10" rof="1" aoe="-" pow="11">
-              <capacity title="COVERING FIRE" type="*Action">Place a 3" AOE anywhere completely within this weapon's RNG, centered on points in this model's LOS, ignoring intervening model. A model entering or ending its activation in the AOE suffer a damage roll with POW equal to POW of this weapon. The AOE remains in play for one round. If this model is destroyed or removed from play, immediately remove the AOE from play.</capacity>
-              <capacity title="LIGHT ARTILLERY">This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking with this weapon and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapons that activation.</capacity>
-              <capacity title="STRAFE [D3]" type="*Attack">Make D3 ranged attacks targeting a primary target and any number of secondary targets within 2" of the first target. Ignore intervening models when declaring secondary targets. A secondary target cannot be targeted by more atacks than the primary target. Strafe counts as one attacks for ROF.</capacity>
-            </ranged_weapon>
-            <melee_weapon name="Trench knife" pow="3" p_plus_s="9" />
-          </weapons>
-          <capacity title="DIG IN" type="*Action">This model gains cover, does not suffer blast damage, and does not block LOS. This model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
+          <model id="LEADER" name="Leader" full_name="Trencher Chaingun">
+            <basestats name="Leader" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
+            <weapons>
+              <ranged_weapon name="Chain gun" rng="10" rof="1" aoe="-" pow="11">
+                <capacity title="COVERING FIRE" type="*Action">Place a 3" AOE anywhere completely within this weapon's RNG, centered on points in this model's LOS, ignoring intervening model. A model entering or ending its activation in the AOE suffer a damage roll with POW equal to POW of this weapon. The AOE remains in play for one round. If this model is destroyed or removed from play, immediately remove the AOE from play.</capacity>
+                <capacity title="LIGHT ARTILLERY">This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking with this weapon and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapons that activation.</capacity>
+                <capacity title="STRAFE [D3]" type="*Attack">Make D3 ranged attacks targeting a primary target and any number of secondary targets within 2" of the first target. Ignore intervening models when declaring secondary targets. A secondary target cannot be targeted by more atacks than the primary target. Strafe counts as one attacks for ROF.</capacity>
+              </ranged_weapon>
+              <melee_weapon name="Trench knife" pow="3" p_plus_s="9" />
+            </weapons>
+            <capacity title="DIG IN" type="*Action">This model gains cover, does not suffer blast damage, and does not block LOS. This model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
+          </model>
           <model id="GRUNTS" name="Grunts">
             <basestats name="Grunts" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
             <weapons>
@@ -868,17 +872,19 @@
           </model>
         </unit>
         <unit id="YU07" name="Trencher Cannon Crew" full_name="Trencher Cannon Crew" base_cost="3" baseCount="2" full_cost="-" fullCount="-" qualification="Cygnar Weapon Crew Unit" fa="2" completed="true">
-          <basestats name="Leader" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
-          <weapons>
-            <ranged_weapon name="Cannon" rng="15" rof="1" aoe="3" pow="13">
-              <capacity title="LIGHT ARTILLERY">This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking with this weapon and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapons that activation.</capacity>
-              <capacity title="RANGE FINDER">While B2B with one or more grunts in this unit, the leader gains +2 to attack rolls with this weapon.</capacity>
-            </ranged_weapon>
-            <melee_weapon name="Trench knife" pow="3" p_plus_s="9" />
-          </weapons>
-          <capacity title="DIG IN" type="*Action">This model gains cover, does not suffer blast damage, and does not block LOS. This model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
-          <model id="GRUNTS" name="Grunts">
-            <basestats name="Grunts" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
+          <model id="LEADER" name="Trencher Cannon" full_name="Trencher Cannon">
+            <basestats name="Leader" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
+            <weapons>
+              <ranged_weapon name="Cannon" rng="15" rof="1" aoe="3" pow="13">
+                <capacity title="LIGHT ARTILLERY">This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking with this weapon and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapons that activation.</capacity>
+                <capacity title="RANGE FINDER">While B2B with one or more grunts in this unit, the leader gains +2 to attack rolls with this weapon.</capacity>
+              </ranged_weapon>
+              <melee_weapon name="Trench knife" pow="3" p_plus_s="9" />
+            </weapons>
+            <capacity title="DIG IN" type="*Action">This model gains cover, does not suffer blast damage, and does not block LOS. This model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
+          </model>
+          <model id="GRUNTS" name="Crew">
+            <basestats name="Crew" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
             <weapons>
               <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
               <melee_weapon name="Trench knife" pow="3" p_plus_s="9" />
@@ -886,7 +892,7 @@
             <capacity title="DIG IN" type="*Action">This model gains cover, does not suffer blast damage, and does not block LOS. This model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
           </model>
         </unit>
-        <unit id="YU08" name="Sword Knights" full_name="Sword Knights" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true">
+        <unit id="YU08" name="Sword Knights" full_name="Sword Knights" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" jack_marshal="true" />
           <weapons>
             <melee_weapon name="Battle blade" pow="4" p_plus_s="10" />
@@ -913,7 +919,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="YU09" name="Stormguard" full_name="Stormguard" base_cost="6" baseCount="6" full_cost="9" fullCount="10" qualification="Cygnar Storm Knight Unit" fa="2" completed="true">
+        <unit id="YU09" name="Stormguard" full_name="Stormguard" base_cost="6" baseCount="6" full_cost="9" fullCount="10" qualification="Cygnar Storm Knight Unit" fa="2" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="6" mat="7" rat="5" def="12" arm="15" cmd="9" cma="true" immunity_electricity="true" gunfighter="true" />
           <weapons>
             <melee_weapon name="Voltaic Halberd" pow="6" p_plus_s="12" reach="true">
@@ -1002,7 +1008,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="YU13" name="Rangers" full_name="Rangers" base_cost="5" baseCount="6" full_cost="-" fullCount="-" qualification="Cygnar Unit" fa="2" completed="true">
+        <unit id="YU13" name="Rangers" full_name="Rangers" base_cost="5" baseCount="6" full_cost="-" fullCount="-" qualification="Cygnar Unit" fa="2" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="7" str="5" mat="6" rat="6" def="14" arm="11" cmd="8" advance_deployment="true" pathfinder="true" />
           <weapons>
             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -1055,7 +1061,7 @@
           <capacity title="● BLESSED">When making an attack with this weapon, ignore spell effects that add to a model's ARM or DEF.</capacity>
           <capacity title="● ELECTRO LEAP">When a model is hit with this weapon, you can have lightning arc to the nearest model within 4" of the model hit, ignoring the attacking model. The model the lightning arcs to suffers an unboostable POW 10 electrical damage roll.</capacity>
         </unit>
-        <unit  id="YU17" name="Silver Line Stormguard" full_name="Silver Line Stormguard" base_cost="6" baseCount="6" full_cost="9" fullCount="10" qualification="Cygnar Storm Knight Unit" fa="2" completed="true">
+        <unit  id="YU17" name="Silver Line Stormguard" full_name="Silver Line Stormguard" base_cost="6" baseCount="6" full_cost="9" fullCount="10" qualification="Cygnar Storm Knight Unit" fa="2" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="6" mat="7" rat="5" def="12" arm="15" cmd="9" cma="true" immunity_electricity="true" gunfighter="true"/>
           <weapons>
             <melee_weapon p_plus_s="12" pow="6" name="Thunder Halberd" reach="true">

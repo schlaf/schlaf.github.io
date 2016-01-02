@@ -628,20 +628,6 @@
           <restricted_to id="IW08"/>
           <only_in_tier id="DR. ARKADIUS - NATURE OF THE BEAST (NQ56)"/>
         </warbeast>
-        <warbeast id="SKARATH_MINION" name="Skarath" full_name="Skarath" qualification="Mercenary Minion Tatzylwurm Character Heavy Warbeast" fa="C" cost="0" fury="4" threshold="9" damage_spiral="7-9-9" completed="true">
-          <basestats name="SKARATH" spd="6" str="10" mat="6" rat="5" def="14" arm="16" cmd="6" />
-          <weapons>
-            <ranged_weapon name="Acid Spray" rng="SP10" rof="1" aoe="-" pow="12" location="H" corrosion="true" continuous_corrosion="true" />
-            <melee_weapon name="Bite" pow="6" p_plus_s="16" reach="true" location="H">
-              <capacity title="CRITICAL CONSUME">On a critical hit, if the attack hit a small-based non-warlock/warcaster model the model hit is removed from play.</capacity>
-            </melee_weapon>
-          </weapons>
-          <animus name="SERPENT STRIKE" cost="1" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model gains Riposte. Serpent Strike lasts for one round. After the affected model makes a Riposte attack, Serpent Strike expires. (When a model with Riposte is missed by an enemy melee attack, immediately after the attack is resoved it can make one normal melee attack against the attacking model.)</animus>
-          <capacity title="WARBEAST BOND [DAHLIA HALLYR]">This model is bonded to Dahlia Hallyr. When this model frenzies in Hallyr's control range, you choose the frenzy target.</capacity>
-          <capacity title="SERPENTINE">This model cannot make slam or trample power attacks and cannot be knocked down.</capacity>
-          <capacity title="COMPANION [DAHLIA HALLYR]">This model is included in any army that includes Dahlia Hallyr. If Hallyr is destroyed or removed from play, remove this model from play. This model is part of Hallyr's battlegroup.</capacity>
-          <restricted_to id="IW02_MINION" />
-        </warbeast>
         <warbeast id="BRINE_MINION" name="Brine" full_name="Brine" qualification="Mercenary Minion Farrow Character Heavy Warbeast" fa="C" cost="0" fury="4" threshold="8" damage_spiral="5-12-9" completed="true">
           <basestats name="BRINE" spd="5" str="11" mat="6" rat="1" def="12" arm="17" cmd="6" />
           <weapons>
@@ -823,7 +809,7 @@
           </weapons>
           <capacity title="MINIONS">These models will work for Circle, Legion, Skorne, and Trollbloods.</capacity>
           <capacity title="DIG IN (★ACTION)">This model gains cover, does not suffer blast damage, and does not block LOS. This model remains dug in until it moves, is placed, or is engaged. This model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
-          <model name="Grunt" full_name="Grunt">
+          <model id="GRUNT" name="Grunt" full_name="Grunt">
             <basestats name="GRUNT" spd="4" str="6" mat="6" rat="4" def="12" arm="14" cmd="8" />
             <weapons>
               <ranged_weapon name="Pig Iron" rng="10" rof="1" aoe="-" pow="12" />
@@ -1054,7 +1040,7 @@
           <works_for id="FACTION_ORBOROS" />
           <works_for id="FACTION_TROLLBLOOD" />
         </solo>
-        <solo id="IS05_MINION" name="Viktor Pendrake" full_name="Viktor Pendrake" qualification="Cygnar Ally Minion Character Solo" fa="C" cost="2" completed="true">
+        <solo id="IS05_MINION" name="Viktor Pendrake" full_name="Professor Viktor Pendrake" qualification="Cygnar Ally Minion Character Solo" fa="C" cost="2" completed="true">
           <basestats name="PENDRAKE" spd="6" str="6" mat="6" rat="6" def="14" arm="14" cmd="9" hitpoints="5" fearless="true" pathfinder="true" tough="true" />
           <weapons>
             <ranged_weapon name="Chain Bola" rng="8" rof="1" aoe="-" pow="-">
@@ -1273,19 +1259,35 @@
           <works_for id="FACTION_ORBOROS" />
           <works_for id="FACTION_TROLLBLOOD" />
         </unit>
-        <solo id="IW02_MINION" name="Dahlia Hallyr " full_name="Dahlia Hallyr &amp; Skarath" qualification="Mercenary Minion Character Solo" fa="C" cost="9" companionId="SKARATH_MINION" completed="true">
-          <basestats name="DAHLIA HALLYR" spd="6" str="4" mat="5" rat="4" def="16" arm="12" cmd="8" focus="4" hitpoints="8" fearless="true" lesser_warlock="true" />
-          <weapons />
-          <spell name="HAUNTING MELODY" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">While in this model's control area, living enemy models cannot give or receive orders and cannot make melee or ranged attacks targeting this model.</spell>
-          <spell name="MISTWALKER" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target model in this model's battlegroup gains Pathfinder and Prowl for one round. (Models with Prowl gain Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.)</spell>
-          <capacity title="MERCENARIES">These models will work for Retribution.</capacity>
-          <capacity title="MINIONS">These models will work for Circle and Trollbloods.</capacity>
-          <capacity title="CHARMER">When a friendly warbeast frenzies in this model's control area, the warbeast can forfeit its activation.</capacity>
-          <capacity title="LESSER WARLOCK">This model is not a warlock but has the following warlock special rules: Battlegroup Commander, Control Area, Damage Transference, Forcing, Fury Manipulation, Healing, and Spellcaster.</capacity>
-          <capacity title="LIMITED BATTLEGROUP">The only warbeast that can be in this model's battlegroup is Skarath.</capacity>
+        <unit id="IW02_MINION" name="Dahlia Hallyr &amp; Skarath" fa="C" cost="9">
+          <model id="DAHLIA" name="Dahlia Hallyr" qualification="Mercenary Minion Character Solo" completed="true">
+            <basestats name="DAHLIA HALLYR" spd="6" str="4" mat="5" rat="4" def="16" arm="12" cmd="8" focus="4" hitpoints="8" fearless="true" lesser_warlock="true" />
+            <weapons />
+            <spell name="HAUNTING MELODY" cost="2" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">While in this model's control area, living enemy models cannot give or receive orders and cannot make melee or ranged attacks targeting this model.</spell>
+            <spell name="MISTWALKER" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target model in this model's battlegroup gains Pathfinder and Prowl for one round. (Models with Prowl gain Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.)</spell>
+            <capacity title="MERCENARIES">These models will work for Retribution.</capacity>
+            <capacity title="MINIONS">These models will work for Circle and Trollbloods.</capacity>
+            <capacity title="CHARMER">When a friendly warbeast frenzies in this model's control area, the warbeast can forfeit its activation.</capacity>
+            <capacity title="LESSER WARLOCK">This model is not a warlock but has the following warlock special rules: Battlegroup Commander, Control Area, Damage Transference, Forcing, Fury Manipulation, Healing, and Spellcaster.</capacity>
+            <capacity title="LIMITED BATTLEGROUP">The only warbeast that can be in this model's battlegroup is Skarath.</capacity>
+          </model>
+          <warbeast id="SKARATH_MINION" name="Skarath" full_name="Skarath" qualification="Mercenary Minion Tatzylwurm Character Heavy Warbeast" fa="C" cost="0" fury="4" threshold="9" damage_spiral="7-9-9" completed="true">
+            <basestats name="SKARATH" spd="6" str="10" mat="6" rat="5" def="14" arm="16" cmd="6" />
+            <weapons>
+              <ranged_weapon name="Acid Spray" rng="SP10" rof="1" aoe="-" pow="12" location="H" corrosion="true" continuous_corrosion="true" />
+              <melee_weapon name="Bite" pow="6" p_plus_s="16" reach="true" location="H">
+                <capacity title="CRITICAL CONSUME">On a critical hit, if the attack hit a small-based non-warlock/warcaster model the model hit is removed from play.</capacity>
+              </melee_weapon>
+            </weapons>
+            <animus name="SERPENT STRIKE" cost="1" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model gains Riposte. Serpent Strike lasts for one round. After the affected model makes a Riposte attack, Serpent Strike expires. (When a model with Riposte is missed by an enemy melee attack, immediately after the attack is resoved it can make one normal melee attack against the attacking model.)</animus>
+            <capacity title="WARBEAST BOND [DAHLIA HALLYR]">This model is bonded to Dahlia Hallyr. When this model frenzies in Hallyr's control range, you choose the frenzy target.</capacity>
+            <capacity title="SERPENTINE">This model cannot make slam or trample power attacks and cannot be knocked down.</capacity>
+            <capacity title="COMPANION [DAHLIA HALLYR]">This model is included in any army that includes Dahlia Hallyr. If Hallyr is destroyed or removed from play, remove this model from play. This model is part of Hallyr's battlegroup.</capacity>
+            <restricted_to id="IW02_MINION" />
+          </warbeast>
           <works_for id="FACTION_ORBOROS" />
           <works_for id="FACTION_TROLLBLOOD" />
-        </solo>
+        </unit>
         <solo id="IW03_MINION" name="Rorsh " full_name="Rorsh &amp; Brine" qualification="Mercenary Minion Farrow Character Solo" fa="C" cost="9" companionId="BRINE_MINION" completed="true">
           <basestats name="RORSH" spd="6" str="7" mat="7" rat="5" def="13" arm="16" cmd="8" focus="3" hitpoints="8" fearless="true" lesser_warlock="true" tough="true" />
           <weapons>

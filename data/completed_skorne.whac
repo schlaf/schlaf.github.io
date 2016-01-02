@@ -76,21 +76,23 @@
           <capacity title="INSPIRATION [SKORNE MODELS]">Friendly Skorne models/units in this model's command range never flee and immediately rally.</capacity>
           <capacity title="STAY DEATH">Once per turn, when a friendly living Faction trooper model is disabled in this model's command range, this model can spend 1 fury point for the disabled model to heal 1 damage point.</capacity>
         </warlock>
-        <warlock id="SZ02" name="Makeda3" generation="EE" full_name="Makeda &amp; the Exalted Court" qualification="Skorne Epic Warlock Unit" fury="6" warbeast_points="2" fa="C" completed="true">
-          <basestats name="MAKEDA" spd="6" str="7" mat="8" rat="4" def="15" arm="17" cmd="10" hitpoints="16" officer="true" />
-          <weapons>
-            <melee_weapon name="Talon of Murzoul" pow="8" p_plus_s="15" magical="true" reach="true">
-              <capacity title="BLOOD BOON">Once per activation, immediately after resolving an attack in which it destroyed a living enemy model with this weapon, this model can cast a spell with COST 3 or less without spending fury.</capacity>
-            </melee_weapon>
-          </weapons>
-          <feat title="DANCE OF DEATH">When a model in Makeda's battlegroup destroys one or more enemy models in her control area with an attack, either Makeda can gain 1 fury point or 1 fury point can be removed from a model in her battlegroup that is in her control area. Dance of Death lasts for one turn.</feat>
-          <spell name="ELIMINATOR" cost="3" rng="8" aoe="3" pow="13" up="NO" off="YES">Immediately after this attack is resolved, this model can advance up to 2" for each enemy model destroyed by the attack.</spell>
-          <spell name="GROUND ZERO" cost="3" rng="SELF" aoe="5" pow="13" up="NO" off="NO">Center a 5" AOE on this model. Each other model in the AOE is hit and suffers a POW 13 damage roll. Each enemy model damaged by Ground Zero is pushed d6" directly away from this model in the order you choose.</spell>
-          <spell name="SUNHAMMER" cost="3" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Enemy warbeasts/warjacks that advance more than 1" and end their normal movement in this model's control area suffer d3 damage points.</spell>
-          <spell name="VORTEX OF DESTRUCTION" cost="2" rng="SELF" aoe="-" pow="-" up="YES" off="NO">Damage rolls against enemy models in this model's melee range are automatically boosted.</spell>
-          <capacity title="WARLOCK UNIT">This unit is made up of Makeda and 2 Exalted Guardians.</capacity>
-          <capacity title="INSPIRATION [SKORNE]">Friendly Skorne models/units in this model's command range never flee and immediately rally.</capacity>
-          <capacity title="BATTLE-DRIVEN">When a model in this unit is damaged by an enemy attack, after the attack is resolved models in this unit gain +2 STR and ARM and Pathfinder for one round.</capacity>
+        <unit id="SZ02" full_name="Makeda &amp; the Exalted Court">
+          <warlock name="Makeda" full_name="Makeda" generation="EE" qualification="Skorne Epic Warlock Unit" fury="6" warbeast_points="2" fa="C" completed="true">
+            <basestats name="MAKEDA" spd="6" str="7" mat="8" rat="4" def="15" arm="17" cmd="10" hitpoints="16" officer="true" />
+            <weapons>
+              <melee_weapon name="Talon of Murzoul" pow="8" p_plus_s="15" magical="true" reach="true">
+                <capacity title="BLOOD BOON">Once per activation, immediately after resolving an attack in which it destroyed a living enemy model with this weapon, this model can cast a spell with COST 3 or less without spending fury.</capacity>
+              </melee_weapon>
+            </weapons>
+            <feat title="DANCE OF DEATH">When a model in Makeda's battlegroup destroys one or more enemy models in her control area with an attack, either Makeda can gain 1 fury point or 1 fury point can be removed from a model in her battlegroup that is in her control area. Dance of Death lasts for one turn.</feat>
+            <spell name="ELIMINATOR" cost="3" rng="8" aoe="3" pow="13" up="NO" off="YES">Immediately after this attack is resolved, this model can advance up to 2" for each enemy model destroyed by the attack.</spell>
+            <spell name="GROUND ZERO" cost="3" rng="SELF" aoe="5" pow="13" up="NO" off="NO">Center a 5" AOE on this model. Each other model in the AOE is hit and suffers a POW 13 damage roll. Each enemy model damaged by Ground Zero is pushed d6" directly away from this model in the order you choose.</spell>
+            <spell name="SUNHAMMER" cost="3" rng="SELF" aoe="CTRL" pow="-" up="YES" off="NO">Enemy warbeasts/warjacks that advance more than 1" and end their normal movement in this model's control area suffer d3 damage points.</spell>
+            <spell name="VORTEX OF DESTRUCTION" cost="2" rng="SELF" aoe="-" pow="-" up="YES" off="NO">Damage rolls against enemy models in this model's melee range are automatically boosted.</spell>
+            <capacity title="WARLOCK UNIT">This unit is made up of Makeda and 2 Exalted Guardians.</capacity>
+            <capacity title="INSPIRATION [SKORNE]">Friendly Skorne models/units in this model's command range never flee and immediately rally.</capacity>
+            <capacity title="BATTLE-DRIVEN">When a model in this unit is damaged by an enemy attack, after the attack is resolved models in this unit gain +2 STR and ARM and Pathfinder for one round.</capacity>
+          </warlock>
           <model id="GRUNT1" name="Exalted Guardian">
             <basestats name="Exalted Guardian" spd="6" str="7" mat="8" rat="3" def="12" arm="18" cmd="10" hitpoints="5" construct="true" />
             <weapons>
@@ -105,7 +107,7 @@
               <melee_weapon name="Sword " pow="5" count="2" p_plus_s="12" magical="true" />
             </weapons>
           </model>
-        </warlock>
+        </unit>
         <warlock id="SW03" name="Hexeris1" generation="P" full_name="Lord Tyrant Hexeris" qualification="Skorne Warlock" fury="7" warbeast_points="6" fa="C" completed="true">
           <basestats name="HEXERIS" spd="6" str="8" mat="7" rat="4" def="15" arm="16" cmd="8" hitpoints="17" />
           <weapons>
@@ -628,24 +630,22 @@
           <capacity title="RESONANCE [ANCESTRAL GUARDIAN]">When it begins its activation in the command range of a friendly Ancestral Guardian model, this model gains +2" movement this activation.</capacity>
           <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
           <unit_attachment id="SA04" name="Extoller Advocate" full_name="Extoller Advocate" qualification="Skorne Unit Attachment" fa="1" completed="true" cost="2">
-            <model id="ADVOCATE">
-              <basestats name="ADVOCATE" spd="6" str="5" mat="5" rat="5" def="14" arm="13" cmd="8" gunfighter="true" officer="true"/>
-              <weapons>
-                <ranged_weapon name="Spirit Eye" rng="8" rof="1" aoe="-" pow="6" magical="true">
-                  <capacity title="ANNIHILATING GAZE">When a living model is hit by this attack, add its current STR to the damage roll.</capacity>
-                  <capacity title="GHOST SHOT">This model ignores LOS when making attacks with this weapon. When resolving attacks with this weapon, ignore concealment and cover.</capacity>
-                </ranged_weapon>
-                <melee_weapon name="Staff of Ancients" pow="4" p_plus_s="9" magical="true" reach="true"></melee_weapon>
-              </weapons>
-              <capacity title="ATTACHMENT [IMMORTALS]">This attachment can be added to an Immortals unit.</capacity>
-              <capacity title="DEATH BOON"> When a model in this unit makes an attack or damage roll during its activation, this model can spend one soul token to cause that model to reroll that roll. Each roll can be rerolled only once due to Death Boon.</capacity>
-              <capacity title="SACRIFICIAL PAWN [IMMORTAL]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Immortal model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
-              <capacity title="SHEPHERD">This model gains one soul token for each model in this unit in formation destroyed by a continuous effect, an enemy attack, or collateral damage from an enemy attack. This model can have up to five soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
-              <capacity title="SOUL MASTERY">Anytime during its activation, this model can spend soul tokens for the following effects. Each use of a Soul Mastery effect costs one soul token.</capacity>
-              <capacity title="● GRAVE MIST">Models in this unit gain concealment and +2 DEF against melee attacks for one round.</capacity>
-              <capacity title="● SPIRIT WALKER">Models in this unit in formation gain Incorporeal for one turn.</capacity>
-              <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent’s last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
-            </model>
+            <basestats name="ADVOCATE" spd="6" str="5" mat="5" rat="5" def="14" arm="13" cmd="8" gunfighter="true" officer="true"/>
+            <weapons>
+              <ranged_weapon name="Spirit Eye" rng="8" rof="1" aoe="-" pow="6" magical="true">
+                <capacity title="ANNIHILATING GAZE">When a living model is hit by this attack, add its current STR to the damage roll.</capacity>
+                <capacity title="GHOST SHOT">This model ignores LOS when making attacks with this weapon. When resolving attacks with this weapon, ignore concealment and cover.</capacity>
+              </ranged_weapon>
+              <melee_weapon name="Staff of Ancients" pow="4" p_plus_s="9" magical="true" reach="true"></melee_weapon>
+            </weapons>
+            <capacity title="ATTACHMENT [IMMORTALS]">This attachment can be added to an Immortals unit.</capacity>
+            <capacity title="DEATH BOON"> When a model in this unit makes an attack or damage roll during its activation, this model can spend one soul token to cause that model to reroll that roll. Each roll can be rerolled only once due to Death Boon.</capacity>
+            <capacity title="SACRIFICIAL PAWN [IMMORTAL]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Immortal model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
+            <capacity title="SHEPHERD">This model gains one soul token for each model in this unit in formation destroyed by a continuous effect, an enemy attack, or collateral damage from an enemy attack. This model can have up to five soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
+            <capacity title="SOUL MASTERY">Anytime during its activation, this model can spend soul tokens for the following effects. Each use of a Soul Mastery effect costs one soul token.</capacity>
+            <capacity title="● GRAVE MIST">Models in this unit gain concealment and +2 DEF against melee attacks for one round.</capacity>
+            <capacity title="● SPIRIT WALKER">Models in this unit in formation gain Incorporeal for one turn.</capacity>
+            <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent’s last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
           </unit_attachment>
         </unit>
         <unit id="SU05" name="Paingiver Beast Handlers" full_name="Paingiver Beast Handlers" qualification="Skorne Unit" fa="2" base_cost="2" full_cost="3" baseCount="4" fullCount="6" completed="true">

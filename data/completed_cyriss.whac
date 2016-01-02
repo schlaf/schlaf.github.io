@@ -327,7 +327,7 @@
           <capacity title="● ACCURACY">This weapon gains +2 on its attack rolls.</capacity>
           <capacity title="● SHIELDS UP">This weapon gains BUCKLER.</capacity>
         </unit>
-        <unit id="COCU05" name="Optifex Directive" full_name="Optifex Directive" base_cost="2" baseCount="3" full_cost="-" fullCount="-" qualification="Convergence Unit" fa="U" completed="true">
+        <unit id="COCU05" name="Optifex Directive" full_name="Optifex Directive" base_cost="2" baseCount="3" full_cost="-" fullCount="-" qualification="Convergence Unit" fa="U" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="5" mat="5" rat="4" def="13" arm="12" cmd="8" />
           <weapons>
             <melee_weapon p_plus_s="8" pow="3" name="Tuning Kit" />
@@ -337,7 +337,7 @@
           <capacity title="REPAIR [8]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
           <capacity title="WEAPONS MODULATION" type="*Action">This model can make this special action only when B2B with a friendly Faction model with Construct. The construct's weapons gain Magical Weapon for one round.</capacity>
         </unit>
-        <unit id="COCU06" name="Reciprocators" full_name="Reciprocators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true">
+        <unit id="COCU06" name="Reciprocators" full_name="Reciprocators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="16" cmd="7" construct="true" hitpoints="8"/>
           <weapons>
             <melee_weapon p_plus_s="12" pow="4" name="Protean Polearm" reach="true"/>

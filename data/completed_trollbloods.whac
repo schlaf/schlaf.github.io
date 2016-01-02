@@ -95,7 +95,7 @@
             <capacity title="FIELD MARSHAL [HYPER REGENERATION]">Models in this model's battlegroup gain Hyper Regeneration. (A model with Hyper Regeneration automatically heals d3 damage points at the start of each of its activations.)</capacity>
             <capacity title="GOAD">When a warbeast in this model's battlegroup destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved this model can force the warbeast to advance up to 2".</capacity>
           </warlock>
-          <model id="BEARERS" name="Scroll Bearers">
+          <model id="BEARER" name="Scroll Bearer">
             <basestats name="Scroll Bearer" spd="5" str="6" mat="5" rat="4" def="13" arm="13" cmd="8" hitpoints="5" tough="true"/>
             <weapons/>
             <capacity title="ATTACHED TO [DOOMSHAPER]">This model is attached to Doomshaper for the rest of the game. Each warlock can have only one model attached to it.</capacity>
@@ -204,19 +204,21 @@
             <capacity title="PYG"> This model is a pyg.</capacity>
           </model>
         </unit>
-        <warlock id="TW05" name="Borka1" generation="P" full_name="Borka Kegslayer &amp; Pyg Keg Carrier" qualification="Trollblood Trollkin Warlock &amp; Character Solo" fury="5" warbeast_points="5" fa="C" completed="true">
-          <basestats name="KEGSLAYER" spd="6" str="9" mat="7" rat="5" def="14" arm="17" cmd="8" hitpoints="18" immunity_frost="true" tough="true" />
-          <weapons>
-            <ranged_weapon name="Bomb" rng="8" rof="1" aoe="3" pow="12" />
-            <melee_weapon name="Trauma" pow="6" p_plus_s="15" magical="true" reach="true">
-              <capacity title="BRAIN DAMAGE">A model damaged by an attack with this weapon cannot cast spells, upkeep spells, or use an animus for one round.</capacity>
-            </melee_weapon>
-          </weapons>
-          <feat title="BARROOM BLITZ">Friendly Faction models beginning a charge, slam power attack, or trample power attack in Kegslayer's control area gain +2" movement. Warbeasts in Kegslayer's battlegroup beginning their activations in his control area can make power attacks without being forced and roll an additional die on power attack damage rolls and collateral damage rolls. Barroom Blitz lasts lor one turn.</feat>
-          <spell name="IRON FLESH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly warrior model/unit gains +3 DEF but suffers –1 SPD.</spell>
-          <spell name="MOSH PIT" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly models gain Knockdown on their melee weapons. Mosh Pit lasts for one turn. (When a model is hit with an attack by a weapon with Knockdown, it is knocked down.)</spell>
-          <spell name="WIND WALL" cost="3" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model cannot make ranged attacks, and non-magical ranged attacks targeting it automatically miss. While completely within 3" of this model, models cannot make ranged attacks and non-magical ranged attacks targeting them automatically miss. Wind Wall lasts for one round.</spell>
-          <capacity title="UNYIELDING">While engaging an enemy model, this model gains +2 ARM.</capacity>
+        <unit id="TW05" name="Borka Kegslayer &amp; Pyg Keg Carrier" completed="true">
+          <warlock id="BORKA" name="Borka Kegslayer" full_name="Borka Kegslayer" generation="P" qualification="Trollblood Trollkin Warlock &amp; Character Solo" fury="5" warbeast_points="5" fa="C">
+            <basestats name="Borka Kegslayer" spd="6" str="9" mat="7" rat="5" def="14" arm="17" cmd="8" hitpoints="18" immunity_frost="true" tough="true" />
+            <weapons>
+              <ranged_weapon name="Bomb" rng="8" rof="1" aoe="3" pow="12" />
+              <melee_weapon name="Trauma" pow="6" p_plus_s="15" magical="true" reach="true">
+                <capacity title="BRAIN DAMAGE">A model damaged by an attack with this weapon cannot cast spells, upkeep spells, or use an animus for one round.</capacity>
+              </melee_weapon>
+            </weapons>
+            <feat title="BARROOM BLITZ">Friendly Faction models beginning a charge, slam power attack, or trample power attack in Kegslayer's control area gain +2" movement. Warbeasts in Kegslayer's battlegroup beginning their activations in his control area can make power attacks without being forced and roll an additional die on power attack damage rolls and collateral damage rolls. Barroom Blitz lasts lor one turn.</feat>
+            <spell name="IRON FLESH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly warrior model/unit gains +3 DEF but suffers –1 SPD.</spell>
+            <spell name="MOSH PIT" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, friendly models gain Knockdown on their melee weapons. Mosh Pit lasts for one turn. (When a model is hit with an attack by a weapon with Knockdown, it is knocked down.)</spell>
+            <spell name="WIND WALL" cost="3" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model cannot make ranged attacks, and non-magical ranged attacks targeting it automatically miss. While completely within 3" of this model, models cannot make ranged attacks and non-magical ranged attacks targeting them automatically miss. Wind Wall lasts for one round.</spell>
+            <capacity title="UNYIELDING">While engaging an enemy model, this model gains +2 ARM.</capacity>
+          </warlock>
           <model id="CARRIER" name="Pyg Keg carrier" qualification="Trollkin Character Solo">
             <basestats name="KEG CARRIER" spd="5" str="5" mat="5" rat="4" def="13" arm="12" cmd="6" hitpoints="5" tough="true" />
             <weapons>
@@ -227,7 +229,7 @@
             <capacity title="PARTY FOUL">If this model is destroyed by an enemy attack, during your next Maintenance Phase one friendly Faction model/unit can advance and make one normal melee attack.</capacity>
             <capacity title="TOP OFF (★ACTION)">If this model is B2B with Borka Kegslayer, Borka Kegslayer gains 2 fury points and Stumbling Drunk. Stumbling Drunk lasts for one round. (A model with Stumbling Drunk cannot be knocked down. If it is hit by an enemy attack anytime except while it is advancing, after the attack is resolved it is pushed d3" in a direction determined by the deviation template, then you can choose its facing.)</capacity>
           </model>
-        </warlock>
+        </unit>
         <warlock id="TX05" name="Borka2" generation="E" full_name="Borka, Vengeance of the Rimeshaws" qualification="Trollblood Epic Trollkin Cavalry Warlock" fury="5" warbeast_points="6" fa="C" completed="true">
           <basestats name="BORKA" spd="7" str="9" mat="8" rat="5" def="14" arm="18" cmd="9" hitpoints="18" pathfinder="true" tough="true" />
           <weapons>
@@ -582,7 +584,7 @@
               <weapons />
               <capacity title="GRANTED: STEADY">While this model is in play, models in its unit gain Steady. (Models with Steady cannot be knocked down.)</capacity>
             </model>
-            <model id="PIPER">
+            <model id="PIPER" name="Piper">
               <basestats name="PIPER" spd="5" str="6" mat="5" rat="4" def="12" arm="15" cmd="8" cma="true" tough="true" />
               <weapons>
                 <melee_weapon name="Hand Weapon" pow="4" p_plus_s="10" />
@@ -709,14 +711,16 @@
           <capacity title="HARD">This model does not suffer damage or effects from impact attacks or collateral damage.</capacity>
           <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
           <unit_attachment id="TA04" name="Trollkin Fennblade Officer &amp; Drummer" full_name="Trollkin Fennblade Officer &amp; Drummer" qualification="Trollblood Trollkin Unit Attachment" fa="1" cost="2" completed="true">
-            <basestats name="Officer" spd="6" str="7" mat="7" rat="4" def="12" arm="14" cmd="9" hitpoints="5" officer="true" tough="true" />
-            <weapons>
-              <melee_weapon name="Hooked Great Sword" pow="5" p_plus_s="12" reach="true" />
-            </weapons>
-            <capacity title="HARD">This model does not suffer damage or effects from impact attacks or collateral damage.</capacity>
-            <capacity title="NO QUARTER">Once per game during its unit’s activation, this model can use No Quarter. Models in this unit gain Fearless, Pathfinder, and Terror. A model in this unit that charges gains +2" movement. No Quarter lasts for one round.</capacity>
-            <capacity title="TACTICS: SET DEFENSE">Models in this unit gain Set Defense. (A model in the front arc of a model with Set Defense suffers –2 on charge, slam power attack, and impact attack rolls against the model with Set Defense.)</capacity>
-            <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
+            <model id="OFFICER" name="Officer">
+              <basestats name="Officer" spd="6" str="7" mat="7" rat="4" def="12" arm="14" cmd="9" hitpoints="5" officer="true" tough="true" />
+              <weapons>
+                <melee_weapon name="Hooked Great Sword" pow="5" p_plus_s="12" reach="true" />
+              </weapons>
+              <capacity title="HARD">This model does not suffer damage or effects from impact attacks or collateral damage.</capacity>
+              <capacity title="NO QUARTER">Once per game during its unit’s activation, this model can use No Quarter. Models in this unit gain Fearless, Pathfinder, and Terror. A model in this unit that charges gains +2" movement. No Quarter lasts for one round.</capacity>
+              <capacity title="TACTICS: SET DEFENSE">Models in this unit gain Set Defense. (A model in the front arc of a model with Set Defense suffers –2 on charge, slam power attack, and impact attack rolls against the model with Set Defense.)</capacity>
+              <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
+            </model>
             <model id="DRUMMER" name="Drummer">
               <basestats name="Drummer" spd="6" str="7" mat="6" rat="4" def="12" arm="14" cmd="8" hitpoints="0" tough="true" />
               <weapons />
