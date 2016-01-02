@@ -711,7 +711,7 @@
           <capacity title="HARD">This model does not suffer damage or effects from impact attacks or collateral damage.</capacity>
           <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
           <unit_attachment id="TA04" name="Trollkin Fennblade Officer &amp; Drummer" full_name="Trollkin Fennblade Officer &amp; Drummer" qualification="Trollblood Trollkin Unit Attachment" fa="1" cost="2" completed="true">
-            <model id="OFFICER" name="Officer">
+            <model id="OFFICER" name="Officer" full_name="Trollkin Fennblade Officer">
               <basestats name="Officer" spd="6" str="7" mat="7" rat="4" def="12" arm="14" cmd="9" hitpoints="5" officer="true" tough="true" />
               <weapons>
                 <melee_weapon name="Hooked Great Sword" pow="5" p_plus_s="12" reach="true" />
@@ -721,7 +721,7 @@
               <capacity title="TACTICS: SET DEFENSE">Models in this unit gain Set Defense. (A model in the front arc of a model with Set Defense suffers –2 on charge, slam power attack, and impact attack rolls against the model with Set Defense.)</capacity>
               <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
             </model>
-            <model id="DRUMMER" name="Drummer">
+            <model id="DRUMMER" name="Drummer" full_name="Trollkin Fennblade Drummer">
               <basestats name="Drummer" spd="6" str="7" mat="6" rat="4" def="12" arm="14" cmd="8" hitpoints="0" tough="true" />
               <weapons />
               <capacity title="HARD">See above.</capacity>

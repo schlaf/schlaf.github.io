@@ -8,7 +8,7 @@
       <!-- 003 vlad3 foc, kovnik axe P+S, irusk2 tactical supremacy -->
       <!-- 004 fixed spell typos -->
       <warcasters>
-        <warcaster id="KW01" name="Butcher1" full_name="The Butcher of Khardov" generation="P" qualification="Khador Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
+        <warcaster id="KW01" name="Butcher1" full_name="Orsus Zoktavir, The Butcher of Khardov" generation="P" qualification="Khador Warcaster" focus="6" warjack_points="6" fa="C" completed="true">
           <basestats name="BUTCHER" spd="5" str="8" mat="9" rat="5" def="14" arm="18" cmd="7" hitpoints="20" terror="true"/>
           <weapons>
             <melee_weapon name="Lola" pow="8" p_plus_s="16" magical="true" reach="true" weapon_master="true" />

@@ -871,22 +871,6 @@
         </warjack>
       </warjacks>
       <warbeasts>
-        <warbeast id="LUG_MERCS" name="Lug" full_name="Lug" qualification="Mercenary Minion Character Heavy Warbeast" fa="C" cost="0" fury="4" threshold="9" damage_spiral="8-11-8" completed="true">
-          <basestats name="LUG" spd="5" str="12" mat="5" rat="1" def="12" arm="18" cmd="6" immunity_frost="true" pathfinder="true" />
-          <weapons>
-            <melee_weapon name="Claw" pow="3" p_plus_s="15" open_fist="true" location="L">
-              <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">If this model hits the same model with both its initial attacks with this weapon, after resolving the attack it can immediately make a double-handed throw, head-butt, headlock/weapon lock, push, or throw power attack against the target.</capacity>
-            </melee_weapon>
-            <melee_weapon name="Claw" pow="3" p_plus_s="15" open_fist="true" location="R">
-              <capacity title="CHAIN ATTACK: GRAB &amp; SMASH">See above.</capacity>
-            </melee_weapon>
-          </weapons>
-          <animus name="BEAR HANDS" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">When this model hits an enemy model with a normal melee attack, it can choose to knock down the enemy model or push it 3" directly away. Bear Hands lasts for one turn.</animus>
-          <capacity title="WARBEAST BOND [BRUN CRAGBACK]">This model is bonded to Brun Cragback. While it is within 3" of Cragback and is not stationary, Cragback cannot be targeted by free strikes and gains +2 DEF against melee attacks, and models do not gains back strike bonuses while attacking Cragback.</capacity>
-          <capacity title="FLANK [BRUN CRAGBACK]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
-          <capacity title="COMPANION [BRUN CRAGBACK]">This model is included in any army that includes Brun Cragback. If Brun Cragback is destroyed or removed from play, remove this model from play. This model is part of Cragback's battlegroup.</capacity>
-          <restricted_to id="IW01_MERCS" />
-        </warbeast>
         <warbeast id="SKARATH_MERCS" name="Skarath" full_name="Skarath" qualification="Mercenary Minion Tatzylwurm Character Heavy Warbeast" fa="C" cost="0" fury="4" threshold="9" damage_spiral="7-9-9" completed="true">
           <basestats name="SKARATH" spd="6" str="10" mat="6" rat="5" def="14" arm="16" cmd="6" />
           <weapons>
@@ -1424,13 +1408,15 @@
           <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU11" name="Lady Aiyana &amp; Master Holt" full_name="Lady Aiyana &amp; Master Holt" qualification="Mercenary Privateer Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="2" fullCount="-" completed="true">
-          <basestats name="AIYANA" spd="6" str="4" mat="4" rat="4" def="15" arm="11" cmd="9" hitpoints="5" officer="true" />
-          <weapons />
-          <capacity title="MERCENARIES">These models will work for Cygnar, Khador, the Protectorate, and the Retribution.</capacity>
-          <capacity title="MAGIC ABILITY [8]" />
-          <capacity title="● AYISLA'S VEIL (★ACTION)">This model gains Stealth. While Holt is B2B with her, he also gains Stealth. Ayisla's Veil lasts for one round.</capacity>
-          <capacity title="● KISS OF LYLISS (★ATTACK)">Kiss of Lyliss is a RNG 10 magic attack. For one round, when a model/unit hit by Kiss of Lyliss suffers a damage roll add +2 to the roll.</capacity>
-          <capacity title="● LURYNSAR'S TOUCH (★ACTION)">RNG CMD. Target friendly model/unit. If the model/unit is in range, its weapons gain Magical Weapon for one turn.</capacity>
+          <model id="AIYANA" name="Aiyana" full_name="Lady Aiyana">
+            <basestats name="Aiyana" spd="6" str="4" mat="4" rat="4" def="15" arm="11" cmd="9" hitpoints="5" officer="true" />
+            <weapons />
+            <capacity title="MERCENARIES">These models will work for Cygnar, Khador, the Protectorate, and the Retribution.</capacity>
+            <capacity title="MAGIC ABILITY [8]" />
+            <capacity title="● AYISLA'S VEIL (★ACTION)">This model gains Stealth. While Holt is B2B with her, he also gains Stealth. Ayisla's Veil lasts for one round.</capacity>
+            <capacity title="● KISS OF LYLISS (★ATTACK)">Kiss of Lyliss is a RNG 10 magic attack. For one round, when a model/unit hit by Kiss of Lyliss suffers a damage roll add +2 to the roll.</capacity>
+            <capacity title="● LURYNSAR'S TOUCH (★ACTION)">RNG CMD. Target friendly model/unit. If the model/unit is in range, its weapons gain Magical Weapon for one turn.</capacity>
+          </model>
           <model id="HOLT" name="Master Holt" full_name="Master Holt">
             <basestats name="HOLT" spd="6" str="5" mat="5" rat="8" def="15" arm="11" cmd="8" hitpoints="5" gunfighter="true" />
             <weapons>
@@ -1456,15 +1442,17 @@
           <works_for id="FACTION_CYGNAR" />
         </unit>
         <unit id="MU12" name="Press Gangers" full_name="Press Gangers" qualification="Mercenary Privateer Sea Dog Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" completed="true">
-          <basestats name="LASS" spd="6" str="6" mat="5" rat="4" def="13" arm="12" cmd="8" advance_deployment="true" officer="true" tough="true" />
-          <weapons>
-            <melee_weapon name="Hand Weapon" pow="3" p_plus_s="9" />
-          </weapons>
-          <capacity title="MERCENARIES">This model will work for Cryx, Cygnar, Khador, and the Protectorate.</capacity>
-          <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
-          <capacity title="SEDUCTION (★ACTION)">Take control of a living enemy non-warcaster, non-warlock warrior model B2B with this model. You can immediately make a full advance with the enemy model followed by a normal melee attack, then Seduction expires. The enemy model cannot be targeted by free strikes during this movement.</capacity>
-          <capacity title="SHANGHAI">When a living enemy warrior model in the melee range of two or more models in this unit is boxed by a melee attack made by this model, remove the enemy model from play. You can add one Grunt to a friendly Sea Dog Boarding Crew unit in this model's command range. The Grunt must be placed in formation and within 3" of this model.</capacity>
-          <model id="GRUNTS" name="Grunts">
+          <model id="LASS" name="Lass" full_name="Press Ganger Lass">
+            <basestats name="LASS" spd="6" str="6" mat="5" rat="4" def="13" arm="12" cmd="8" advance_deployment="true" officer="true" tough="true" />
+            <weapons>
+              <melee_weapon name="Hand Weapon" pow="3" p_plus_s="9" />
+            </weapons>
+            <capacity title="MERCENARIES">This model will work for Cryx, Cygnar, Khador, and the Protectorate.</capacity>
+            <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
+            <capacity title="SEDUCTION (★ACTION)">Take control of a living enemy non-warcaster, non-warlock warrior model B2B with this model. You can immediately make a full advance with the enemy model followed by a normal melee attack, then Seduction expires. The enemy model cannot be targeted by free strikes during this movement.</capacity>
+            <capacity title="SHANGHAI">When a living enemy warrior model in the melee range of two or more models in this unit is boxed by a melee attack made by this model, remove the enemy model from play. You can add one Grunt to a friendly Sea Dog Boarding Crew unit in this model's command range. The Grunt must be placed in formation and within 3" of this model.</capacity>
+          </model>
+          <model id="GRUNTS" name="Grunts" full_name="Press Ganger Grunts">
             <basestats name="Grunts" spd="6" str="6" mat="5" rat="4" def="13" arm="12" cmd="8" advance_deployment="true" tough="true" />
             <weapons>
               <melee_weapon name="Hand Weapon" pow="3" p_plus_s="9" />
@@ -2046,7 +2034,7 @@
               <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefitting from concealment or cover.</capacity>
               <capacity title="TACTICS: COMBINED MELEE ATTACK">Models in this unit gain Combined Melee Attack.</capacity>
             </model>
-            <model id="GUIDE" name="Guide" full_name="Idrian Skirmisher Guide">
+            <model id="GUIDE" name="Guide" full_name="Idrian Skirmishers Guide">
               <basestats name="GUIDE" spd="6" str="6" mat="6" rat="5" def="13" arm="12" cmd="8" hitpoints="5" advance_deployment="true" cra="true" pathfinder="true" />
               <weapons>
                 <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -2140,20 +2128,6 @@
           <works_for id="FACTION_KHADOR" />
           <works_for id="FACTION_CRYX" />
           <works_for id="FACTION_CYGNAR" />
-        </solo>
-        <solo id="IW01_MERCS" name="Brun Cragback " full_name="Brun Cragback &amp; Lug" qualification="Rhulic Mercenary Minion Character Solo" fa="C" cost="9" companionId="LUG_MERCS" completed="true">
-          <basestats name="BRUN CRAGBACK" spd="5" str="6" mat="7" rat="5" def="13" arm="15" cmd="9" focus="3" hitpoints="8" fearless="true" immunity_frost="true" lesser_warlock="true" pathfinder="true" />
-          <weapons>
-            <ranged_weapon name="Blunderbuss" rng="8" rof="1" aoe="-" pow="12" />
-            <melee_weapon name="Axe" pow="4" p_plus_s="10" />
-          </weapons>
-          <spell name="STONEHOLD" cost="2" rng="SELF" aoe="-" pow="-" up="YES" off="NO">Enemy models roll one less die on attack damage rolls against this model. This model and friendly models B2B with it cannot be knocked down.</spell>
-          <capacity title="MERCENARIES">These models will work for Searforge Commission.</capacity>
-          <capacity title="MINIONS">These models will work for Circle and Trollbloods.</capacity>
-          <capacity title="LIFEBOND [LUG]">While B2B with Lug, this model can transfer damage to Lug without spending fury.</capacity>
-          <capacity title="LIMITED BATTLEGROUP">The only warbeast that can be in this model's battlegroup is Lug.</capacity>
-          <capacity title="FLANK [LUG]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</capacity>
-          <capacity title="LESSER WARLOCK">This model is not a warlock but has the following warlock special rules: Battlegroup Commander, Control Area, Damage Transference, Forcing, Fury Manipulation, Healing, and Spellcaster.</capacity>
         </solo>
         <solo id="IW02_MERCS" name="Dahlia Hallyr " full_name="Dahlia Hallyr &amp; Skarath" qualification="Mercenary Minion Character Solo" fa="C" cost="9" companionId="SKARATH_MERCS" completed="true">
           <basestats name="Dahlia Hallyr" spd="6" str="4" mat="5" rat="4" def="16" arm="12" cmd="8" focus="4" hitpoints="8" fearless="true" lesser_warlock="true" />

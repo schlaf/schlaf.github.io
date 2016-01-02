@@ -208,19 +208,34 @@
           <capacity title="CONFERRED RAGE">Warbeasts in this model's battlegroup beginning their activations in its control area can charge or make power attacks without being forced. When this model destroys one or more enemy models during its activation, warbeasts in its battlegroup beginning their activations in its control area gain +2 SPD and MAT for one turn.</capacity>
           <capacity title="FLIGHT">This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movement to move completely past them. This model ignores intervening models when declaring its charge target.</capacity>
         </warlock>
-        <warlock id="EW07" name="Bethayne, Voice of Everblight &amp; Belphagor" generation="E" full_name="Bethayne, Voice of Everblight &amp; Belphagor" qualification="Legion Blighted Nyss Warlock" fury="7" warbeast_points="3" fa="C" companionId="EB20" completed="true">
-          <basestats name="BETHAYNE" spd="6" str="5" mat="6" rat="4" def="16" arm="12" cmd="9" hitpoints="14" />
-          <weapons>
-            <melee_weapon name="Talons of Everblight" pow="5" count="2" p_plus_s="10" magical="true" continuous_corrosion="true" />
-          </weapons>
-          <feat title="LITANY OF EVERBLIGHT"><![CDATA[While in this model's control area, friendly Faction models gain boosted magic attack rolls and magic damage rolls, and friendly Faction warbeasts can use their animi without being forced. Litany of Everblight lasts for one turn.]]></feat>
-          <spell name="ASHEN VEIL" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains concealment. Living enemy models suffer –2 to attack rolls while within 2" of an affected model.</spell>
-          <spell name="BLOOD THORN" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit's ranged and melee weapons gain the Corrosion continuous effect.</spell>
-          <spell name="CARNIVORE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack rolls against living models. When an affected model boxes a living model with a melee attack, the boxed model is removed from play and this model heals d3 damage points.</spell>
-          <spell name="ERUPTION OF SPINES" cost="3" rng="10" aoe="-" pow="10" up="NO" off="YES">If target model is hit, d6 nearest models within 5" of it suffer a POW 10 damage roll.</spell>
-          <spell name="GALLOWS" cost="3" rng="10" aoe="-" pow="13" up="NO" off="YES">When an enemy model is hit by this attack, it can be pushed d6" directly toward Gallows' point of origin.</spell>
-          <capacity title="FLESH MELD">This model can use Flesh Meld at any time during its activation while B2B with Belphagor in its battlegroup. Remove this model from the table. Belphagor becomes a warlock warrior model and loses Blood Creation and Soulless. Belphagor cannot activate after this model uses Flesh Meld during the turn it used Flesh Meld. While melded, Belphagor takes control of this model's battlegroup, its base CMD becomes 9, and its base FURY becomes 7. Any effects on this model when it melds are applied to Belphagor. Remove the fury points currently on Belphagor. If there are any fury points on this model when it melds, place them on Belphagor. While melded, Belphagor can cast this model's spells and use its feat, is not considered to be a warbeast, and loses its animus. While melded, Belphagor can make slam, throw, two-handed throw, headlock/weapon lock, and push power attacks without being forced. While melded, Belphagor suffers damage like a warbeast but does not suffer the effects of crippled aspects. Effects modifying the amount of damage to or the manner in which damage is applied to a warbeast also apply to Belphagor. This model can separate from Belphagor during your Maintenance Phase. If it does, place it B2B with Belphagor. If Belphagor is destroyed or removed from play while this model is melded with it, this model is destroyed. When Bethayne leaves the table, upkeep spells she cast do not immediately expire and warbeasts in her battlegroup do not go wild. While melded, Belphagor can upkeep spells cast by Bethayne. When Bethayne returns to play, she retains any damage she had suffered before leaving the table. Bethayne can upkeep spells cast by Belphagor.</capacity>
-        </warlock>
+        <unit id="EW07" name="Bethayne, Voice of Everblight &amp; Belphagor">
+          <warlock id="BETHAYNE" name="Bethayne" generation="E" full_name="Bethayne, Voice of Everblight" qualification="Legion Blighted Nyss Warlock" fury="7" warbeast_points="3" fa="C" completed="true">
+            <basestats name="BETHAYNE" spd="6" str="5" mat="6" rat="4" def="16" arm="12" cmd="9" hitpoints="14" />
+            <weapons>
+              <melee_weapon name="Talons of Everblight" pow="5" count="2" p_plus_s="10" magical="true" continuous_corrosion="true" />
+            </weapons>
+            <feat title="LITANY OF EVERBLIGHT"><![CDATA[While in this model's control area, friendly Faction models gain boosted magic attack rolls and magic damage rolls, and friendly Faction warbeasts can use their animi without being forced. Litany of Everblight lasts for one turn.]]></feat>
+            <spell name="ASHEN VEIL" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains concealment. Living enemy models suffer –2 to attack rolls while within 2" of an affected model.</spell>
+            <spell name="BLOOD THORN" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit's ranged and melee weapons gain the Corrosion continuous effect.</spell>
+            <spell name="CARNIVORE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack rolls against living models. When an affected model boxes a living model with a melee attack, the boxed model is removed from play and this model heals d3 damage points.</spell>
+            <spell name="ERUPTION OF SPINES" cost="3" rng="10" aoe="-" pow="10" up="NO" off="YES">If target model is hit, d6 nearest models within 5" of it suffer a POW 10 damage roll.</spell>
+            <spell name="GALLOWS" cost="3" rng="10" aoe="-" pow="13" up="NO" off="YES">When an enemy model is hit by this attack, it can be pushed d6" directly toward Gallows' point of origin.</spell>
+            <capacity title="FLESH MELD">This model can use Flesh Meld at any time during its activation while B2B with Belphagor in its battlegroup. Remove this model from the table. Belphagor becomes a warlock warrior model and loses Blood Creation and Soulless. Belphagor cannot activate after this model uses Flesh Meld during the turn it used Flesh Meld. While melded, Belphagor takes control of this model's battlegroup, its base CMD becomes 9, and its base FURY becomes 7. Any effects on this model when it melds are applied to Belphagor. Remove the fury points currently on Belphagor. If there are any fury points on this model when it melds, place them on Belphagor. While melded, Belphagor can cast this model's spells and use its feat, is not considered to be a warbeast, and loses its animus. While melded, Belphagor can make slam, throw, two-handed throw, headlock/weapon lock, and push power attacks without being forced. While melded, Belphagor suffers damage like a warbeast but does not suffer the effects of crippled aspects. Effects modifying the amount of damage to or the manner in which damage is applied to a warbeast also apply to Belphagor. This model can separate from Belphagor during your Maintenance Phase. If it does, place it B2B with Belphagor. If Belphagor is destroyed or removed from play while this model is melded with it, this model is destroyed. When Bethayne leaves the table, upkeep spells she cast do not immediately expire and warbeasts in her battlegroup do not go wild. While melded, Belphagor can upkeep spells cast by Bethayne. When Bethayne returns to play, she retains any damage she had suffered before leaving the table. Bethayne can upkeep spells cast by Belphagor.</capacity>
+          </warlock>
+          <warbeast id="EB20" name="Belphagor" full_name="Belphagor" qualification="Legion Character Light Warbeast" fa="C" cost="0" fury="3" threshold="9" damage_spiral="6-6-12" completed="true">
+            <basestats name="BELPHAGOR" spd="5" str="9" mat="6" rat="4" def="12" arm="19" cmd="6" eyelesssight="true" immunity_corrosion="true" immunity_electricity="true" immunity_fire="true" immunity_frost="true" />
+            <weapons>
+              <melee_weapon name="Claw" pow="4" p_plus_s="13" open_fist="true" location="L" />
+              <melee_weapon name="Claw" pow="4" p_plus_s="13" open_fist="true" location="R" />
+            </weapons>
+            <animus name="DESPOILER" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">Center a 5" AOE cloud effect on this model. The AOE remains centered on the model. Enemy models entering or ending their activations in the AOE suffer 1 damage point. Despoiler lasts for one round.</animus>
+            <capacity title="COMPANION [BETHAYNE, VOICE OF EVERBLIGHT]">This model is included in any army that includes Bethayne, Voice of Everblight. If Bethayne is destroyed or removed from play, remove this model from play. This model is part of Bethayne's battlegroup.</capacity>
+            <capacity title="BLOOD CREATION">This model never attacks friendly Faction warlocks and cannot choose them as its frenzy target.</capacity>
+            <capacity title="CHANNELER [BETHAYNE]">While this model is not engaged and is in Bethayne's control area, she can channel spells through it.</capacity>
+            <capacity title="SOULLESS">This model does not generate a soul token when it is destroyed.</capacity>
+            <restricted_to id="EW07" />
+          </warbeast>
+        </unit>
         <warlock id="EW08" name="Kallus, Wrath of Everblight" generation="P" full_name="Kallus, Wrath of Everblight" qualification="Legion Warlock" fury="6" warbeast_points="5" fa="C" completed="true">
           <basestats name="KALLUS" spd="6" str="7" mat="7" rat="4" def="14" arm="16" cmd="8" hitpoints="18" />
           <weapons>
@@ -527,19 +542,6 @@
           <capacity title="INSCRUTABLE">Opponents cannot take control of this model.</capacity>
           <capacity title="SOULLESS">This model does not generate a soul token when it is destroyed.</capacity>
         </warbeast>
-        <warbeast id="EB20" name="Belphagor" full_name="Belphagor" qualification="Legion Character Light Warbeast" fa="C" cost="0" fury="3" threshold="9" damage_spiral="6-6-12" completed="true">
-          <basestats name="BELPHAGOR" spd="5" str="9" mat="6" rat="4" def="12" arm="19" cmd="6" eyelesssight="true" immunity_corrosion="true" immunity_electricity="true" immunity_fire="true" immunity_frost="true" />
-          <weapons>
-            <melee_weapon name="Claw" pow="4" p_plus_s="13" open_fist="true" location="L" />
-            <melee_weapon name="Claw" pow="4" p_plus_s="13" open_fist="true" location="R" />
-          </weapons>
-          <animus name="DESPOILER" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">Center a 5" AOE cloud effect on this model. The AOE remains centered on the model. Enemy models entering or ending their activations in the AOE suffer 1 damage point. Despoiler lasts for one round.</animus>
-          <capacity title="COMPANION [BETHAYNE, VOICE OF EVERBLIGHT]">This model is included in any army that includes Bethayne, Voice of Everblight. If Bethayne is destroyed or removed from play, remove this model from play. This model is part of Bethayne's battlegroup.</capacity>
-          <capacity title="BLOOD CREATION">This model never attacks friendly Faction warlocks and cannot choose them as its frenzy target.</capacity>
-          <capacity title="CHANNELER [BETHAYNE]">While this model is not engaged and is in Bethayne's control area, she can channel spells through it.</capacity>
-          <capacity title="SOULLESS">This model does not generate a soul token when it is destroyed.</capacity>
-          <restricted_to id="EW07" />
-        </warbeast>
         <warbeast id="EB21" name="Neraph" full_name="Neraph" qualification="Legion Heavy Warbeast" fa="U" cost="7" fury="4" threshold="9" damage_spiral="8-9-8" completed="true">
           <basestats name="NERAPH" spd="6" str="10" mat="6" rat="5" def="14" arm="16" cmd="7" eyelesssight="true" />
           <weapons>
@@ -756,7 +758,7 @@
             <ranged_weapon name="Nyss Longbow" rng="12" rof="1" aoe="-" pow="10" />
           </weapons>
           <unit_attachment id="EA03" name="Strider Rangers Officer &amp; Musician" full_name="Strider Rangers Officer &amp; Musician" qualification="Legion Blighted Nyss Unit Attachment" fa="1" cost="3" completed="true">
-            <model id="OFFICER" name="Officer" full_name="Blighted Nyss Strider Officer">
+            <model id="OFFICER" name="Officer" full_name="Strider Rangers Officer">
               <basestats name="Officer" spd="7" str="6" mat="6" rat="7" def="15" arm="11" cmd="9" hitpoints="5" advance_deployment="true" cra="true" officer="true" pathfinder="true" stealth="true" />
               <weapons>
                 <melee_weapon name="Sword" pow="3" p_plus_s="9" />
@@ -766,7 +768,7 @@
               <capacity title="GRANTED: REFORM">While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</capacity>
               <capacity title="TACTICS: HUNTER">Models in this unit gain Hunter. (A model with Hunter ignores forests, concealment, and cover when determining LOS or making a ranged attack.)</capacity>
             </model>
-            <model id="MUSICIAN" name="Musician" full_name="Blighted Nyss Strider Musician">
+            <model id="MUSICIAN" name="Musician" full_name="Strider Rangers Musician">
               <basestats name="Musician" spd="7" str="6" mat="5" rat="6" def="15" arm="11" cmd="8" hitpoints="0" advance_deployment="true" cra="true" pathfinder="true" stealth="true" />
               <weapons>
                 <melee_weapon name="Sword" pow="3" p_plus_s="9" />
@@ -906,7 +908,7 @@
           <capacity title="● FROSTBITE (★ATTACK)">Frostbite is a RNG SP 8 magic attack. Models hit suffer a POW 12 cold damage roll.</capacity>
           <capacity title="● WIND RAVAGER (★ACTION)">While in this model's command range, enemy models cannot make ranged attacks for one round.</capacity>
         </solo>
-        <solo id="ES02" name="Incubus" full_name="Incubus" qualification="Legion Solo" fa="2" cost="5" completed="true">
+        <unit id="ES02" name="Incubi" full_name="Incubi" qualification="Legion Solo" fa="2" cost="5" baseCount="5" fullCount="-" completed="true">
           <basestats name="INCUBUS" spd="6" str="8" mat="7" rat="3" def="12" arm="15" cmd="6" fearless="true" />
           <weapons>
             <melee_weapon name="Claws " pow="3" count="2" p_plus_s="11">
@@ -915,7 +917,7 @@
           </weapons>
           <capacity title="HOST">Incubi models do not begin the game in play. When a friendly living non-Incubus, non-warlock, small-based Faction warrior model is destroyed, you can mark its center point and remove that model from play. You can only mark up to one point for each Incubus you have that has not been put into play or removed from play. During your next Maintenance Phase, put one Incubus model into play within 2" of each point marked. If there is not room to place an Incubus model, remove the marker from the table and remove from play one Incubi that has not been put into play.</capacity>
           <capacity title="SOULLESS">This model does not generate a soul token when it is destroyed.</capacity>
-        </solo>
+        </unit>
         <solo id="ES03" name="Blighted Nyss Shepherd" full_name="Blighted Nyss Shepherd" qualification="Legion Solo" fa="2" cost="1" completed="true">
           <basestats name="SHEPHERD" spd="6" str="5" mat="5" rat="4" def="14" arm="12" cmd="8" />
           <weapons>

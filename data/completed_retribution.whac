@@ -635,16 +635,18 @@
           </weapons>
         </unit>
         <unit id="RU09" name="Heavy Rifle Team" full_name="Heavy Rifle Team" base_cost="2" baseCount="2" qualification="Retribution Houseguard Weapon Crew Unit" fa="2" has_unit_attachment="true" full_cost="-" fullCount="-" completed="true">
-          <basestats name="Leader" spd="4" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" />
-          <weapons>
-            <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
-            <ranged_weapon rng="14" name="Heavy Rifle" aoe="-" pow="7" rof="1">
-              <capacity title="ARMOR PIERCING">When calculating damage from this weapon, halve the base ARM stats of models hit that have medium or larger bases. This weapon gains +2 to damage rolls against models with small bases.</capacity>
-              <capacity title="LIGHT ARTILLERY">This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking with this weapon and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapon that activation.</capacity>
-              <capacity title="RANGE FINDER">While B2B with the Grunt in this unit, this model gains +2 to attack rolls with this weapon.</capacity>
-            </ranged_weapon>
-          </weapons>
-          <model id="GRUNT" name="Grunt">
+          <model id="LEADER" name="Leader" full_name="Heavy Rifle Team Leader">
+            <basestats name="Leader" spd="4" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" />
+            <weapons>
+              <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
+              <ranged_weapon rng="14" name="Heavy Rifle" aoe="-" pow="7" rof="1">
+                <capacity title="ARMOR PIERCING">When calculating damage from this weapon, halve the base ARM stats of models hit that have medium or larger bases. This weapon gains +2 to damage rolls against models with small bases.</capacity>
+                <capacity title="LIGHT ARTILLERY">This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking with this weapon and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapon that activation.</capacity>
+                <capacity title="RANGE FINDER">While B2B with the Grunt in this unit, this model gains +2 to attack rolls with this weapon.</capacity>
+              </ranged_weapon>
+            </weapons>
+          </model>
+          <model id="GRUNT" name="Grunt" full_name="Heavy Rifle Team Grunt">
             <basestats name="Grunt" spd="4" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" />
             <weapons>
               <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
@@ -923,9 +925,9 @@
           <!--Heavy Rifle Team (Check if it's possible.) no! weapon crew can not have attachments-->
           <!-- <restricted_to id="RU09">
                </restricted_to>  -->
-               <restricted_to id="RU10">
-                 <!--Mage Hunter Infiltrators-->
-               </restricted_to>
+          <restricted_to id="RU10">
+            <!--Mage Hunter Infiltrators-->
+          </restricted_to>
         </solo>
       </solos>
     </army>

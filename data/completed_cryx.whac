@@ -45,21 +45,23 @@
           <spell name="TELEPORT" cost="2" rng="SELF" aoe="-" pow="-" up="NO" off="NO">Place this model anywhere completely within 8" of its current location, then its activation ends.</spell>
           <capacity title="CULL SOUL" type="">This model gains one soul token for each living enemy model destroyed within 2" of it. When this model replenishes its focus during your next Control Phase, replace each soul token on it with 1 focus point.</capacity>
         </warcaster>
-        <warcaster id="CZ01" name="Asphyxious3" generation="EE" full_name="Asphyxious the Hellbringer &amp; Vociferon" qualification="Cryx Epic Warcaster &amp; Character Solo" focus="7" warjack_points="4" fa="C" completed="true">
-          <basestats name="Asphyxious" spd="6" str="8" mat="6" rat="3" def="15" arm="17" cmd="9" undead="true" terror="true" hitpoints="18" />
-          <weapons>
-            <melee_weapon name="Daimonion" pow="8" p_plus_s="16" magical="true" reach="true">
-              <capacity title="BLOOD BOON">Once per activation, immediately after resolving an attack in which it destroyed a living enemy model with this weapon, this model can cast a spell with COST 3 or less without spending focus.</capacity>
-            </melee_weapon>
-          </weapons>
-          <feat title="RITES OF SHADOW"><![CDATA[When an enemy model is forced, casts a spell, and/or spends 1 or more focus or fury points while in Asphyxious' control area, Asphyxious heals d3 damage points and gains one soul token. Rites of Shadow lasts for one round.]]></feat>
-          <spell name="ASHEN VEIL" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model / unit gains concealment. Living enemy models suffer -2 to attack rolls while within 2" of an affected model.</spell>
-          <spell name="BONE SHAKER" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">When this spell boxes a living or undead non-warcaster non-warlock enemy warrior model, you can immediately make a full advance with the enemy model followed by a normal melee attack, then the boxed model is removed from play. The boxed model cannot be targeted by free strikes during this movement.</spell>
-          <spell name="CARNAGE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Friendly Faction models gain +2 to melee attack rolls against enemy models in this model's control area. Carnage lasts for one turn.</spell>
-          <spell name="HEX BLAST" cost="3" rng="10" aoe="3" pow="13" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire.</spell>
-          <spell name="MOBILITY" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Models in this model's battlegroup currently in its control area gain +2 SPD and Pathfinder for one turn.</spell>
-          <spell name="SCYTHING TOUCH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack damage rolls. Affected models gain Critical Corrosion on their normal melee attacks.</spell>
-          <capacity title="CULL SOUL" type="">This model gains one soul token for each living enemy model destroyed within 2" of it. When this model replenishes its focus during your next Control Phase, replace each soul token on it with 1 focus point.</capacity>
+        <unit id="CZ01" name="Asphyxious the Hellbringer &amp; Vociferon" fa="C" completed="true">
+          <warcaster id="ASPHYXIOUS" name="Asphyxious" full_name="Asphyxious the Hellbringer" generation="EE" qualification="Cryx Epic Warcaster &amp; Character Solo" focus="7" warjack_points="4">
+            <basestats name="Asphyxious" spd="6" str="8" mat="6" rat="3" def="15" arm="17" cmd="9" undead="true" terror="true" hitpoints="18" />
+            <weapons>
+              <melee_weapon name="Daimonion" pow="8" p_plus_s="16" magical="true" reach="true">
+                <capacity title="BLOOD BOON">Once per activation, immediately after resolving an attack in which it destroyed a living enemy model with this weapon, this model can cast a spell with COST 3 or less without spending focus.</capacity>
+              </melee_weapon>
+            </weapons>
+            <feat title="RITES OF SHADOW"><![CDATA[When an enemy model is forced, casts a spell, and/or spends 1 or more focus or fury points while in Asphyxious' control area, Asphyxious heals d3 damage points and gains one soul token. Rites of Shadow lasts for one round.]]></feat>
+            <spell name="ASHEN VEIL" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model / unit gains concealment. Living enemy models suffer -2 to attack rolls while within 2" of an affected model.</spell>
+            <spell name="BONE SHAKER" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">When this spell boxes a living or undead non-warcaster non-warlock enemy warrior model, you can immediately make a full advance with the enemy model followed by a normal melee attack, then the boxed model is removed from play. The boxed model cannot be targeted by free strikes during this movement.</spell>
+            <spell name="CARNAGE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Friendly Faction models gain +2 to melee attack rolls against enemy models in this model's control area. Carnage lasts for one turn.</spell>
+            <spell name="HEX BLAST" cost="3" rng="10" aoe="3" pow="13" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire.</spell>
+            <spell name="MOBILITY" cost="2" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Models in this model's battlegroup currently in its control area gain +2 SPD and Pathfinder for one turn.</spell>
+            <spell name="SCYTHING TOUCH" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +2 to melee attack damage rolls. Affected models gain Critical Corrosion on their normal melee attacks.</spell>
+            <capacity title="CULL SOUL" type="">This model gains one soul token for each living enemy model destroyed within 2" of it. When this model replenishes its focus during your next Control Phase, replace each soul token on it with 1 focus point.</capacity>
+          </warcaster>
           <model id="VOCIFERON" name="Vociferon" full_name="Vociferon" qualification="Cryx SOLO">
             <basestats name="Vociferon" spd="6" str="5" mat="5" rat="3" def="13" arm="16" cmd="9" undead="true" arc_node="true" commander="true" hitpoints="5" />
             <weapons>
@@ -72,7 +74,7 @@
             <capacity title="GHOST SHIELD">This model gains +1 ARM for each soul token currently on it.</capacity>
             <capacity title="SOUL COLLECTOR">This model gains one soul token when a living enemy model is destroyed in its command range. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</capacity>
           </model>
-        </warcaster>
+        </unit>
         <!-- ************************************************************* -->
         <!-- ***************** warwitch deneghra ************************* -->
         <!-- ************************************************************* -->
@@ -891,17 +893,15 @@
           <capacity title="DEATHBOUND">Grunts in this unit that are destroyed while in formation return to play at the beginning of your next Maintenance Phase. Place the returned Grunts within 3" of the unit commander. If the unit commander leaves play, remove from play all destroyed Grunts not yet returned to play and then choose a new unit commander.</capacity>
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
           <capacity title="POINT BLANK">During its activation, this model can make melee attacks with its ranged weapon, with a O.5" melee range. Do not add this model's STR to damage rolls made with ranged weapons. Charge attacks made with ranged weapons are not boosted.</capacity>
-          <weapon_attachment id="CA06" name="Revenant crew rifleman" full_name="Revenant Crew rifleman" qualification="cryx weapon attachment" fa="2" cost="1" max_wa="3" completed="true">
-            <model id="RIFLEMAN" full_name="RIFLEMAN" name="RIFLEMAN">
-              <basestats name="Rifleman" spd="6" str="6" mat="5" rat="4" def="13" arm="12" cmd="7" undead="true" cra="true" />
-              <weapons>
-                <melee_weapon name="Cutlass" pow="3" p_plus_s="9" />
-                <ranged_weapon name="Long rifle" rng="14" rof="1" aoe="-" pow="10" />
-              </weapons>
-              <capacity title="DEATH TIES">If this model is destroyed while in formation, return it to play at the beginning of your next Maintenance Phase. Place it within 3" of its unit commander. If the unit commander leaves play before this model returns to play, remove this model from play before choosing a new unit commander.</capacity>
-              <capacity title="GANG">See above.When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
-              <capacity title="POINT BLANK">During its activation, this model can make melee attacks with its ranged weapon, with a O.5" melee range. Do not add this model's STR to damage rolls made with ranged weapons. Charge attacks made with ranged weapons are not boosted.</capacity>
-            </model>
+          <weapon_attachment id="CA06" name="Revenant Crew Rifleman" full_name="Revenant Crew rifleman" qualification="cryx weapon attachment" fa="2" cost="1" max_wa="3" completed="true">
+            <basestats name="Rifleman" spd="6" str="6" mat="5" rat="4" def="13" arm="12" cmd="7" undead="true" cra="true" />
+            <weapons>
+              <melee_weapon name="Cutlass" pow="3" p_plus_s="9" />
+              <ranged_weapon name="Long rifle" rng="14" rof="1" aoe="-" pow="10" />
+            </weapons>
+            <capacity title="DEATH TIES">If this model is destroyed while in formation, return it to play at the beginning of your next Maintenance Phase. Place it within 3" of its unit commander. If the unit commander leaves play before this model returns to play, remove this model from play before choosing a new unit commander.</capacity>
+            <capacity title="GANG">See above.When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
+            <capacity title="POINT BLANK">During its activation, this model can make melee attacks with its ranged weapon, with a O.5" melee range. Do not add this model's STR to damage rolls made with ranged weapons. Charge attacks made with ranged weapons are not boosted.</capacity>
           </weapon_attachment>
         </unit>
         <unit id="CU04" name="Satyxis Raiders" full_name="Satyxis Raiders" qualification="CRYX UNIT" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" has_weapon_attachment="false" completed="true">

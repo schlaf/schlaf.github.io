@@ -649,7 +649,7 @@
       <units>
         <!--Druids and Overseer complete-->
         <unit id="OU01" name="Druids of Orboros" full_name="Druids of Orboros" base_cost="7" baseCount="6" full_cost="-" fullCount="-" qualification="Circle Unit" fa="2" has_unit_attachment="true" completed="true">
-          <model id="GRUNTS" name="Grunts">
+          <model id="GRUNTS" name="Grunts" full_name="Druids of Orboros Grunts">
             <basestats name="Grunts" spd="6" str="6" mat="5" rat="4" def="14" arm="13" cmd="9" pathfinder="true" />
             <weapons>
               <melee_weapon name="Voulge" pow="4" p_plus_s="10" magical="true" reach="true"></melee_weapon>
@@ -660,7 +660,7 @@
             <capacity title="● MEDICATE" type="*Action">RNG 3.  Target friendly Faction warbeast.  If the warbeast is in range, it heals d3 damage points.  warbeast can be affected by Medicate only once per turn.</capacity>
             <capacity title="● SUMMON VORTEX" type="*Action">Center a 3" AOE cloud effect on this model.  Enemy models suffer -2 to attack rolls while in the AOE.  Summon Vortex lasts for one round.</capacity>
           </model>
-          <model id="LEADER" name="Leader">
+          <model id="LEADER" name="Leader" full_name="Druids of Orboros Leader">
             <basestats name="Leader" spd="6" str="6" mat="5" rat="4" def="14" arm="13" cmd="9" pathfinder="true" />
             <weapons>
               <melee_weapon name="Voulge" pow="4" p_plus_s="10" magical="true" reach="true"></melee_weapon>
