@@ -628,7 +628,7 @@
 
       </warbeasts>
       <battleEngines>
-        <battleEngine id="OE01" name="Celestal Fulcrum" full_name="Celestal Fulcrum" cost="9" qualification="Circle Battle engine" fa="2" completed="true">
+        <battleEngine id="OE01" name="Celestial Fulcrum" full_name="Celestial Fulcrum" cost="9" qualification="Circle Battle engine" fa="2" completed="true">
           <basestats name="Celestal Fulcrum" spd="5" str="10" mat="0" rat="6" def="10" arm="18" cmd="10" hitpoints="20" construct="true" gunfighter="true" immunity_frost="true" immunity_electricity="true" immunity_fire="true"/>
           <weapons>
             <ranged_weapon pow="15" aoe="4" rng="8" rof="1" name="Flame Blast" fire="true" continuous_fire="true" magical="true">
