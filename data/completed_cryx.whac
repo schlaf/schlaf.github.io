@@ -837,7 +837,7 @@
               <capacity title="COMBO STRIKE" type="*Attack">Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model's STR plus twice the POW of this weapon.</capacity>
             </melee_weapon>
           </weapons>
-          <weapon_attachment id="CA02" name="Brute Thrall" full_name="Brute Thrall" qualification="CRYX MECHANITHRALL UNIT ATTACHMENT" fa="3" cost="1" max_wa="3" completed="true">
+          <weapon_attachment id="CA02" name="Brute Thrall" full_name="Brute Thrall" qualification="CRYX MECHANITHRALL UNIT ATTACHMENT" fa="3" cost="1" max_wa="3" hitpoints="8" completed="true">
             <model id="BRUTE_THRALL" name="Brute Thrall" full_name="Brute Thrall" qualification="CRYX MECHANITHRALL UNIT ATTACHMENT">
               <basestats name="Brute Thrall" spd="6" str="9" mat="6" rat="4" def="12" arm="14" cmd="5" undead="true" hitpoints="8" />
               <weapons>
