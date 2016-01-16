@@ -838,15 +838,13 @@
             </melee_weapon>
           </weapons>
           <weapon_attachment id="CA02" name="Brute Thrall" full_name="Brute Thrall" qualification="CRYX MECHANITHRALL UNIT ATTACHMENT" fa="3" cost="1" max_wa="3" hitpoints="8" completed="true">
-            <model id="BRUTE_THRALL" name="Brute Thrall" full_name="Brute Thrall" qualification="CRYX MECHANITHRALL UNIT ATTACHMENT">
-              <basestats name="Brute Thrall" spd="6" str="9" mat="6" rat="4" def="12" arm="14" cmd="5" undead="true" hitpoints="8" />
-              <weapons>
-                <melee_weapon name="Heavy Steamfist" pow="5" p_plus_s="14" count="2">
-                  <capacity title="COMBO STRIKE" type="*Attack">Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model's STR plus twice the POW of this weapon.</capacity>
-                </melee_weapon>
-              </weapons>
-              <capacity title="ATTACHMENT [MECHANITHRALL]">This attachment can be added to a Mechanithrall unit.</capacity>
-            </model>
+            <basestats name="Brute Thrall" spd="6" str="9" mat="6" rat="4" def="12" arm="14" cmd="5" undead="true" hitpoints="8" />
+            <weapons>
+              <melee_weapon name="Heavy Steamfist" pow="5" p_plus_s="14" count="2">
+                <capacity title="COMBO STRIKE" type="*Attack">Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model's STR plus twice the POW of this weapon.</capacity>
+              </melee_weapon>
+            </weapons>
+            <capacity title="ATTACHMENT [MECHANITHRALL]">This attachment can be added to a Mechanithrall unit.</capacity>
           </weapon_attachment>
         </unit>
         <unit id="CU15" name="Necrosurgeon &amp; Stitch Thralls" full_name="Necrosurgeon &amp; Stitch Thralls" qualification="CRYX UNIT" fa="2" base_cost="2" full_cost="-" base_count="4" full_count="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
