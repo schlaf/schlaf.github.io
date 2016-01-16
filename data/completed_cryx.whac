@@ -722,7 +722,7 @@
         </battleEngine>
       </battleEngines>
       <units>
-        <unit id="CU06" name="Bane Knights" full_name="Bane Knights" qualification="CRYX UNIT" fa="3" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="false"  completed="true">
+        <unit id="CU06" name="Bane Knights" full_name="Bane Knights" qualification="CRYX UNIT" fa="3" base_cost="6" full_cost="10" base_count="6" full_count="10" has_unit_attachment="false" has_weapon_attachment="false"  completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="7" mat="6" rat="4" def="12" arm="16" cmd="8" undead="true" />
           <weapons>
             <melee_weapon name="Bane Lance" pow="4" p_plus_s="11" reach="true" weapon_master="true">
@@ -732,7 +732,7 @@
           <capacity title="GHOSTLY">This model can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. This model cannot be targeted by free strikes.</capacity>
           <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
         </unit>
-        <unit id="CU01" name="Bane Thralls" full_name="Bane Thralls" qualification="CRYX UNIT" fa="3" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU01" name="Bane Thralls" full_name="Bane Thralls" qualification="CRYX UNIT" fa="3" base_cost="5" full_cost="8" base_count="6" full_count="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="7" mat="6" rat="4" def="12" arm="15" cmd="8" undead="true" stealth="true" />
           <weapons>
             <melee_weapon name="War axe" pow="4" p_plus_s="11" weapon_master="true" />
@@ -761,7 +761,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="CU02" name="Bile Thralls" full_name="Bile Thralls" qualification="CRYX UNIT" fa="3" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU02" name="Bile Thralls" full_name="Bile Thralls" qualification="CRYX UNIT" fa="3" base_cost="5" full_cost="8" base_count="6" full_count="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="4" mat="2" rat="3" def="10" arm="13" cmd="7" undead="true" />
           <weapons>
             <ranged_weapon name="Bile cannon" rng="SP8" rof="1" aoe="-" pow="12" corrosion="true" continuous_corrosion="true">
@@ -769,7 +769,7 @@
             </ranged_weapon>
           </weapons>
         </unit>
-        <unit id="CU07" name="Black Ogrun boarding party" full_name="Black Ogrun boarding party" qualification="CRYX UNIT" fa="2" base_cost="4" full_cost="6" baseCount="3" fullCount="5" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU07" name="Black Ogrun boarding party" full_name="Black Ogrun boarding party" qualification="CRYX UNIT" fa="2" base_cost="4" full_cost="6" base_count="3" full_count="5" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="9" mat="7" rat="5" def="12" arm="15" cmd="9" terror="true" cra="true" hitpoints="8" />
           <weapons>
             <melee_weapon name="Hand Weapon" pow="4" p_plus_s="13" />
@@ -778,7 +778,7 @@
             </ranged_weapon>
           </weapons>
         </unit>
-        <unit id="CU09" name="Blackbane's Ghost Raiders" full_name="Blackbane's Ghost Raiders" qualification="CRYX REVENANT CHARACTER UNIT" fa="C" base_cost="6" full_cost="9" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU09" name="Blackbane's Ghost Raiders" full_name="Blackbane's Ghost Raiders" qualification="CRYX REVENANT CHARACTER UNIT" fa="C" base_cost="6" full_cost="9" base_count="6" full_count="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="Blackbane" spd="7" str="6" mat="7" rat="4" def="13" arm="12" cmd="8" incorporeal="true" undead="true" officer="true" hitpoints="5" />
           <weapons>
             <melee_weapon name="Cutlass" pow="4" p_plus_s="10" magical="true" continuous_fire="true" />
@@ -791,7 +791,7 @@
             </weapons>
           </model>
         </unit>
-        <unit id="CU10" name="Bloodgorgers" full_name="Bloodgorgers" qualification="CRYX BLIGHTED TROLLKIN UNIT" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU10" name="Bloodgorgers" full_name="Bloodgorgers" qualification="CRYX BLIGHTED TROLLKIN UNIT" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="7" mat="6" rat="4" def="12" arm="15" cmd="8" fearless="true" terror="true" tough="true" />
           <weapons>
             <melee_weapon name="Handweapon" pow="4" p_plus_s="11" count="2" />
@@ -799,7 +799,7 @@
           <capacity title="BLOOD THIRST">When it charges a living model, this model gains +2" movement.</capacity>
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
         </unit>
-        <unit id="CU13" name="Cephalyx mind slaver &amp; Drudges" full_name="Cephalyx mind slaver &amp; Drudges" qualification="CRYX ALLY UNIT" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU13" name="Cephalyx mind slaver &amp; Drudges" full_name="Cephalyx mind slaver &amp; Drudges" qualification="CRYX ALLY UNIT" fa="2" base_cost="4" full_cost="6" base_count="6" full_count="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="Mind slaver" spd="5" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" fearless="true" officer="true" pathfinder="true" hitpoints="5" />
           <weapons>
             <melee_weapon name="Prosthetic blades" pow="5" p_plus_s="11" />
@@ -817,7 +817,7 @@
             </weapons>
           </model>
         </unit>
-        <unit id="CU14" name="Cephalyx Overlords" full_name="Cephalyx Overlords" qualification="CRYX ALLY UNIT" fa="1" base_cost="4" full_cost="-" baseCount="3" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU14" name="Cephalyx Overlords" full_name="Cephalyx Overlords" qualification="CRYX ALLY UNIT" fa="1" base_cost="4" full_cost="-" base_count="3" full_count="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" fearless="true" pathfinder="true" hitpoints="5" />
           <weapons>
             <melee_weapon name="Prosthetic blades" pow="5" p_plus_s="11" />
@@ -830,7 +830,7 @@
           <capacity title="PSYCHIC ASSAULT" type="*Attack">Psychic Assault is a RNG SP8 magic attack. This attack ignores LOS. Models hit suffer a POW 12 damage roll.</capacity>
           <capacity title="SACRIFICIAL PAWN [DRUDGE GRUNT]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Drudge Grunt model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects.</capacity>
         </unit>
-        <unit id="CU03" name="Mechanithralls" full_name="Mechanithralls" qualification="CRYX UNIT" fa="3" base_cost="3" full_cost="5" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="true" completed="true">
+        <unit id="CU03" name="Mechanithralls" full_name="Mechanithralls" qualification="CRYX UNIT" fa="3" base_cost="3" full_cost="5" base_count="6" full_count="10" has_unit_attachment="false" has_weapon_attachment="true" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="7" mat="5" rat="4" def="12" arm="12" cmd="6" undead="true" />
           <weapons>
             <melee_weapon name="Steamfist" pow="4" p_plus_s="11" count="2">
@@ -849,7 +849,7 @@
             </model>
           </weapon_attachment>
         </unit>
-        <unit id="CU15" name="Necrosurgeon &amp; Stitch Thralls" full_name="Necrosurgeon &amp; Stitch Thralls" qualification="CRYX UNIT" fa="2" base_cost="2" full_cost="-" baseCount="4" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU15" name="Necrosurgeon &amp; Stitch Thralls" full_name="Necrosurgeon &amp; Stitch Thralls" qualification="CRYX UNIT" fa="2" base_cost="2" full_cost="-" base_count="4" full_count="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <model id="NECROSURGEON" name="Necrosurgeon" full_name="Necrosurgeon">
             <basestats name="Necrosurgeon" spd="6" str="6" mat="5" rat="4" def="14" arm="12" cmd="8" officer="true" undead="true" hitpoints="5" />
             <weapons>
@@ -865,7 +865,7 @@
             <weapons />
           </model>
         </unit>
-        <unit id="CU11" name="Revenant Cannon Crew" full_name="Revenant Cannon Crew" qualification="CRYX WEAPON CREW UNIT" fa="2" base_cost="3" full_cost="-" baseCount="3" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU11" name="Revenant Cannon Crew" full_name="Revenant Cannon Crew" qualification="CRYX WEAPON CREW UNIT" fa="2" base_cost="3" full_cost="-" base_count="3" full_count="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <model id="LEADER" name="Revenant Cannon" full_name="Revenant Cannon">
             <basestats name="Leader" spd="4" str="6" mat="5" rat="4" def="13" arm="12" cmd="7" undead="true" />
             <weapons>
@@ -886,7 +886,7 @@
             </weapons>
           </model>
         </unit>
-        <unit id="CU05" name="Revenant Crew of the Atramentous" full_name="Revenant Crew of the Atramentous" qualification="CRYX UNIT" fa="2" base_cost="6" full_cost="9" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="true" completed="true">
+        <unit id="CU05" name="Revenant Crew of the Atramentous" full_name="Revenant Crew of the Atramentous" qualification="CRYX UNIT" fa="2" base_cost="6" full_cost="9" base_count="6" full_count="10" has_unit_attachment="false" has_weapon_attachment="true" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="6" mat="5" rat="4" def="13" arm="12" cmd="7" undead="true" />
           <weapons>
             <melee_weapon name="Cutlass" pow="3" p_plus_s="9" />
@@ -906,7 +906,7 @@
             <capacity title="POINT BLANK">During its activation, this model can make melee attacks with its ranged weapon, with a O.5" melee range. Do not add this model's STR to damage rolls made with ranged weapons. Charge attacks made with ranged weapons are not boosted.</capacity>
           </weapon_attachment>
         </unit>
-        <unit id="CU04" name="Satyxis Raiders" full_name="Satyxis Raiders" qualification="CRYX UNIT" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" has_weapon_attachment="false" completed="true">
+        <unit id="CU04" name="Satyxis Raiders" full_name="Satyxis Raiders" qualification="CRYX UNIT" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" has_unit_attachment="true" has_weapon_attachment="false" completed="true">
           <basestats name="Leader &amp; Grunts" spd="7" str="5" mat="6" rat="4" def="14" arm="12" cmd="8" advance_deployment="true" cma="true" />
           <weapons>
             <melee_weapon name="Horns" pow="3" p_plus_s="8" />
@@ -931,7 +931,7 @@
             <capacity title="TACTICS: PATHFINDER">Models in this unit gain Pathfinder.</capacity>
           </unit_attachment>
         </unit>
-        <unit id="CU16" name="Satyxis Blood witches" full_name="Satyxis Blood witches" qualification="CRYX UNIT" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="true" has_weapon_attachment="false" completed="true">
+        <unit id="CU16" name="Satyxis Blood witches" full_name="Satyxis Blood witches" qualification="CRYX UNIT" fa="2" base_cost="4" full_cost="6" base_count="6" full_count="10" has_unit_attachment="true" has_weapon_attachment="false" completed="true">
           <basestats name="Leader &amp; Grunts" spd="7" str="5" mat="6" rat="4" def="13" arm="13" cmd="8" />
           <weapons>
             <melee_weapon name="Horns" pow="3" p_plus_s="8" />
@@ -959,7 +959,7 @@
             <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
           </unit_attachment>
         </unit>
-        <unit id="CU08" name="Soulhunters" full_name="Soulhunters" qualification="CRYX LIGHT CAVALRY UNIT" fa="1" base_cost="6" full_cost="9" baseCount="3" fullCount="5" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU08" name="Soulhunters" full_name="Soulhunters" qualification="CRYX LIGHT CAVALRY UNIT" fa="1" base_cost="6" full_cost="9" base_count="3" full_count="5" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="Leader &amp; Grunts" spd="8" str="7" mat="6" rat="4" def="14" arm="15" cmd="8" undead="true" hitpoints="5" />
           <weapons>
             <melee_weapon name="Scythe" pow="6" p_plus_s="13" reach="true" />
@@ -970,7 +970,7 @@
           </weapons>
           <capacity title="BODY COUNT">This model gains one soul token each time it destroys a living enemy model. It can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to boost attack or damage rolls at one token per boost.</capacity>
         </unit>
-        <unit id="CU12" name="The Withershadow Combine" full_name="The Withershadow Combine" qualification="CRYX CHARACTER UNIT" fa="C" base_cost="5" full_cost="-" baseCount="3" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU12" name="The Withershadow Combine" full_name="The Withershadow Combine" qualification="CRYX CHARACTER UNIT" fa="C" base_cost="5" full_cost="-" base_count="3" full_count="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="Maelovus" spd="6" str="7" mat="7" rat="4" def="14" arm="16" cmd="9" undead="true" terror="true" officer="true" hitpoints="5" />
           <weapons>
             <melee_weapon name="Lich claws" pow="6" p_plus_s="13" />
@@ -1005,7 +1005,7 @@
             <capacity title="SOUL TAKER">See above.</capacity>
           </model>
         </unit>
-        <unit id="CU17" name="Bane Riders" full_name="Bane Riders" base_cost="7" baseCount="3" full_cost="11" fullCount="5" qualification="Cryx Cavalry Unit" fa="1" completed="true">
+        <unit id="CU17" name="Bane Riders" full_name="Bane Riders" base_cost="7" base_count="3" full_cost="11" full_count="5" qualification="Cryx Cavalry Unit" fa="1" completed="true">
           <basestats name="Leader &amp; Grunts" spd="7" str="7" mat="6" rat="4" def="12" arm="18" cmd="8" hitpoints="5" />
           <weapons>
             <melee_weapon p_plus_s="13" pow="5" name="Bane Blade" reach="true">

@@ -557,7 +557,7 @@
         </battleEngine>
       </battleEngines>
       <units>
-        <unit id="PU01" name="Choir of Menoth" full_name="Choir of Menoth" qualification="Protectorate Unit" fa="3" base_cost="2" full_cost="3" baseCount="4" fullCount="6" completed="true">
+        <unit id="PU01" name="Choir of Menoth" full_name="Choir of Menoth" qualification="Protectorate Unit" fa="3" base_cost="2" full_cost="3" base_count="4" full_count="6" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="4" mat="4" rat="4" def="12" arm="12" cmd="8" />
           <weapons>
             <melee_weapon name="Battle Staff" pow="2" p_plus_s="6" reach="true" />
@@ -567,7 +567,7 @@
           <capacity title="● PASSAGE (★ACTION)" type="">The warjack cannot be targeted by non-magical ranged attacks. Passage lasts for one round.</capacity>
           <capacity title="● SHIELDING (★ACTION)" type="">The warjack cannot be targeted by enemy spells. Shielding lasts for one round.</capacity>
         </unit>
-        <unit id="PU02" name="Deliverers" full_name="Deliverers" qualification="Protectorate Unit" fa="1" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true">
+        <unit id="PU02" name="Deliverers" full_name="Deliverers" qualification="Protectorate Unit" fa="1" base_cost="5" full_cost="8" base_count="6" full_count="10" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="4" mat="4" rat="5" def="12" arm="11" cmd="7" />
           <weapons>
             <ranged_weapon name="Skyhammer" rng="16" rof="1" aoe="3" pow="12">
@@ -577,7 +577,7 @@
           </weapons>
           <capacity title="ROCKET VOLLEY">Instead of making ranged attack separately, two or more models in this unit can make a combined ranged attack. Do not add a damage bonus for the number of models participating in the combined ranged attack. If 3–5 models participate in the attack, it has base AOE 4" and base POW 14. If 6 or more models particpate in the attack, it has base AOE 5" and base POW 16.</capacity>
         </unit>
-        <unit id="PU03" name="Holy Zealots" full_name="Holy Zealots" qualification="Protectorate Unit" fa="3" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="PU03" name="Holy Zealots" full_name="Holy Zealots" qualification="Protectorate Unit" fa="3" base_cost="4" full_cost="6" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="4" mat="4" rat="4" def="12" arm="12" cmd="8" />
           <weapons>
             <ranged_weapon name="Fire Bomb" rng="5" rof="1" aoe="3" pow="12" fire="true" critical_fire="true" />
@@ -597,14 +597,14 @@
             <capacity title="ATTACHMENT [HOLY ZEALOTS]">This attachment can be added to a Holy Zealots unit.</capacity>
           </unit_attachment>
         </unit>
-        <unit id="PU04" name="Knights Exemplar" full_name="Knights Exemplar" qualification="Protectorate Unit" fa="3" base_cost="5" full_cost="-" baseCount="6" fullCount="-" completed="true">
+        <unit id="PU04" name="Knights Exemplar" full_name="Knights Exemplar" qualification="Protectorate Unit" fa="3" base_cost="5" full_cost="-" base_count="6" full_count="-" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="6" mat="7" rat="4" def="12" arm="15" cmd="9" fearless="true" />
           <weapons>
             <melee_weapon name="Relic Blade" pow="5" p_plus_s="11" magical="true" weapon_master="true" />
           </weapons>
           <capacity title="BOND OF BROTHERHOOD">Model in this unit gain +1 STR and ARM for each model in this unit that has been destroyed or removed from play. The bonuses for a model are lost if it returns to play.</capacity>
         </unit>
-        <unit id="PU05" name="Temple Flameguard" full_name="Temple Flameguard" qualification="Protectorate Unit" fa="3" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="PU05" name="Temple Flameguard" full_name="Temple Flameguard" qualification="Protectorate Unit" fa="3" base_cost="4" full_cost="6" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="5" mat="6" rat="4" def="13" arm="13" cmd="8" cma="true" />
           <weapons>
             <melee_weapon name="Flame Spear" pow="5" p_plus_s="10" reach="true">
@@ -631,7 +631,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="PU06" name="Deliverer Sunburst Crew" full_name="Deliverer Sunburst Crew" qualification="Protectorate Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" baseCount="3" fullCount="-" completed="true">
+        <unit id="PU06" name="Deliverer Sunburst Crew" full_name="Deliverer Sunburst Crew" qualification="Protectorate Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" base_count="3" full_count="-" completed="true">
           <basestats name="Leader" spd="4" str="4" mat="4" rat="5" def="12" arm="11" cmd="7" />
           <weapons>
             <ranged_weapon name="Sunburst" rng="16" rof="1" aoe="4" pow="16">
@@ -647,7 +647,7 @@
             </weapons>
           </model>
         </unit>
-        <unit id="PU07" name="Flameguard Cleansers" full_name="Flameguard Cleansers" qualification="Protectorate Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="PU07" name="Flameguard Cleansers" full_name="Flameguard Cleansers" qualification="Protectorate Unit" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="5" mat="5" rat="5" def="12" arm="14" cmd="8" immunity_fire="true" />
           <weapons>
             <ranged_weapon name="Purifier" rng="SP8" rof="1" aoe="-" pow="12" fire="true" continuous_fire="true" />
@@ -666,7 +666,7 @@
             <capacity title="ATTACHMENT [FLAMEGUARD CLEANSER]" type="">This attachment can be added to a Flameguard Cleanser unit.</capacity>
           </unit_attachment>
         </unit>
-        <unit id="PU08" name="Daughters of the Flame" full_name="Daughters of the Flame" qualification="Protectorate Flameguard Unit" fa="2" base_cost="5" full_cost="-" baseCount="6" fullCount="-" completed="true">
+        <unit id="PU08" name="Daughters of the Flame" full_name="Daughters of the Flame" qualification="Protectorate Flameguard Unit" fa="2" base_cost="5" full_cost="-" base_count="6" full_count="-" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="7" str="5" mat="6" rat="4" def="15" arm="12" cmd="8" advance_deployment="true" cma="true" />
           <weapons>
             <melee_weapon name="Sword " count="2" pow="4" p_plus_s="9" />
@@ -674,7 +674,7 @@
           <capacity title="ACROBATICS">This model can advance through other models if it has enough movement to move completely past their bases. This model cannot be targeted by free strikes. This model ignores intervening models when declaring its charge target.</capacity>
           <capacity title="ANATOMICAL PRECISION">When this model's melee damage roll fails to exceed the ARM of the living model hit, that model suffers 1 damage point.</capacity>
         </unit>
-        <unit id="PU09" name="Exemplar Errants" full_name="Exemplar Errants" qualification="Protectorate Unit" fa="3" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="PU09" name="Exemplar Errants" full_name="Exemplar Errants" qualification="Protectorate Unit" fa="3" base_cost="5" full_cost="8" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="6" mat="7" rat="6" def="12" arm="16" cmd="9" advance_deployment="true" fearless="true" />
           <weapons>
             <ranged_weapon name="Heavy Crossbow" rng="10" rof="1" aoe="-" pow="10" magical="true">
@@ -705,7 +705,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="PU10" name="Exemplar Vengers" full_name="Exemplar Vengers" qualification="Protectorate Cavalry Unit" fa="1" base_cost="7" full_cost="11" baseCount="3" fullCount="5" completed="true">
+        <unit id="PU10" name="Exemplar Vengers" full_name="Exemplar Vengers" qualification="Protectorate Cavalry Unit" fa="1" base_cost="7" full_cost="11" base_count="3" full_count="5" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="8" str="6" mat="7" rat="4" def="12" arm="17" cmd="9" hitpoints="5" fearless="true" />
           <weapons>
             <melee_weapon name="Blessed Lance" pow="8" p_plus_s="14" magical="true">
@@ -719,7 +719,7 @@
           </weapons>
           <capacity title="BATTLE-DRIVEN">When a model in this unit is damaged by an enemy attack, after the attack is resolved models in this unit gain +2 STR and ARM and Pathfinder for one round.</capacity>
         </unit>
-        <unit id="PU11" name="Exemplar Bastions" full_name="Exemplar Bastions" qualification="Protectorate Unit" fa="2" base_cost="5" full_cost="8" baseCount="3" fullCount="5" completed="true">
+        <unit id="PU11" name="Exemplar Bastions" full_name="Exemplar Bastions" qualification="Protectorate Unit" fa="2" base_cost="5" full_cost="8" base_count="3" full_count="5" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="4" str="7" mat="7" rat="4" def="11" arm="16" cmd="9" hitpoints="8" fearless="true" />
           <weapons>
             <melee_weapon name="Consecrated Halberd" pow="5" p_plus_s="12" magical="true" reach="true" weapon_master="true">
@@ -728,7 +728,7 @@
           </weapons>
           <capacity title="SANGUINE BOND">When this model would suffer damage from an enemy attack, you can choose one or more models in this unit to suffer any number of those damage points instead, divided as you choose. If you do, this model does not suffer that damage. A model cannot suffer more damage as a result of Sanguine Bond than it has unmarked damage boxes</capacity>
         </unit>
-        <unit id="PU12" name="Visgoth Juviah Rhoven &amp; Honor Guard" full_name="Visgoth Juviah Rhoven &amp; Honor Guard" qualification="Protectorate Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="3" fullCount="-" completed="true">
+        <unit id="PU12" name="Visgoth Juviah Rhoven &amp; Honor Guard" full_name="Visgoth Juviah Rhoven &amp; Honor Guard" qualification="Protectorate Character Unit" fa="C" base_cost="4" full_cost="-" base_count="3" full_count="-" completed="true">
           <model id="RHOVEN" full_name="Visgoth Juviah Rhoven">
             <basestats name="Visgoth Juviah Rhoven" spd="5" str="6" mat="8" rat="4" def="12" arm="16" cmd="10" hitpoints="5" fearless="true" commander="true" officer="true" />
             <weapons>
@@ -762,7 +762,7 @@
             <capacity title="EXEMPLAR">Gius and Cassian are Exemplar models.</capacity>
           </model>
         </unit>
-        <unit id="PU13" name="Idrian Skirmishers" full_name="Idrian Skirmishers" qualification="Protectorate Idrian Ally Unit" fa="2" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="PU13" name="Idrian Skirmishers" full_name="Idrian Skirmishers" qualification="Protectorate Idrian Ally Unit" fa="2" base_cost="6" full_cost="10" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="6" rat="5" def="13" arm="12" cmd="8" advance_deployment="true" cra="true" pathfinder="true" />
           <weapons>
             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -793,7 +793,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="PU14" name="Exemplar Cinerators" full_name="Exemplar Cinerators" qualification="Protectorate Unit" fa="2" base_cost="5" full_cost="8" baseCount="3" fullCount="5" completed="true">
+        <unit id="PU14" name="Exemplar Cinerators" full_name="Exemplar Cinerators" qualification="Protectorate Unit" fa="2" base_cost="5" full_cost="8" base_count="3" full_count="5" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="4" str="7" mat="7" rat="4" def="11" arm="17" cmd="9" hitpoints="8" fearless="true" />
           <weapons>
             <melee_weapon name="Blazing Sword" pow="5" p_plus_s="12" magical="true" weapon_master="true">
@@ -802,7 +802,7 @@
           </weapons>
           <capacity title="RELENTLESS ADVANCE">When a model in this unit is damaged by an enemy attack, models in this unit gain +2 SPD for one round.</capacity>
         </unit>
-        <unit id="PU15" name="Flame Bringers" full_name="Flame Bringers" qualification="Protectorate Flameguard Light Cavalry Unit" fa="1" base_cost="6" full_cost="10" baseCount="3" fullCount="5" completed="true">
+        <unit id="PU15" name="Flame Bringers" full_name="Flame Bringers" qualification="Protectorate Flameguard Light Cavalry Unit" fa="1" base_cost="6" full_cost="10" base_count="3" full_count="5" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="9" str="5" mat="6" rat="4" def="14" arm="15" cmd="9" hitpoints="5" pathfinder="true" />
           <weapons>
             <melee_weapon name="Sword " count="2" pow="4" p_plus_s="9" weapon_master="true">

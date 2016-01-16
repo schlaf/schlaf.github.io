@@ -1181,7 +1181,7 @@
       </battleEngines>
 
       <units>
-        <unit id="MU09" name="Alexia Ciannor &amp; the Risen &amp; Thrall Warrior" full_name="Alexia Ciannor &amp; the Risen &amp; Thrall Warrior" qualification="Mercenary Character Unit" fa="C" base_cost="5" full_cost="-" baseCount="10" fullCount="-" completed="true">
+        <unit id="MU09" name="Alexia Ciannor &amp; the Risen &amp; Thrall Warrior" full_name="Alexia Ciannor &amp; the Risen &amp; Thrall Warrior" qualification="Mercenary Character Unit" fa="C" base_cost="5" full_cost="-" base_count="10" full_count="-" completed="true">
           <model id="ALEXIA" name="Alexia Ciannor" full_name="Alexia Ciannor">
             <basestats name="ALEXIA" spd="6" str="4" mat="6" rat="5" def="15" arm="14" cmd="9" hitpoints="5" fearless="true" officer="true" />
             <weapons>
@@ -1213,7 +1213,7 @@
           <works_for id="FACTION_KHADOR" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU04" name="Croe's Cutthroats" full_name="Croe's Cutthroats" qualification="Mercenary Character Unit" fa="C" base_cost="7" full_cost="10" baseCount="6" fullCount="10" completed="true">
+        <unit id="MU04" name="Croe's Cutthroats" full_name="Croe's Cutthroats" qualification="Mercenary Character Unit" fa="C" base_cost="7" full_cost="10" base_count="6" full_count="10" completed="true">
           <basestats name="Leader" spd="6" str="5" mat="7" rat="6" def="13" arm="11" cmd="8" advance_deployment="true" pathfinder="true" stealth="true" />
           <weapons>
             <ranged_weapon name="Hiss" rng="10" rof="1" aoe="-" pow="10" magical="true">
@@ -1242,7 +1242,7 @@
           <works_for id="FACTION_KHADOR" />
           <works_for id="FACTION_CRYX" />
         </unit>
-        <unit id="MU05" name="Cylena Raefyll &amp; Nyss Hunters" full_name="Cylena Raefyll &amp; Nyss Hunters" qualification="Mercenary Minion Nyss Character Unit" fa="C" base_cost="7" full_cost="10" baseCount="6" fullCount="10" completed="true">
+        <unit id="MU05" name="Cylena Raefyll &amp; Nyss Hunters" full_name="Cylena Raefyll &amp; Nyss Hunters" qualification="Mercenary Minion Nyss Character Unit" fa="C" base_cost="7" full_cost="10" base_count="6" full_count="10" completed="true">
           <basestats name="CYLENA" spd="7" str="5" mat="7" rat="7" def="15" arm="11" cmd="9" hitpoints="5" officer="true" pathfinder="true" />
           <weapons>
             <ranged_weapon name="Nyss Bow" rng="12" rof="1" aoe="-" pow="10" />
@@ -1266,7 +1266,7 @@
           <works_for id="FACTION_CYGNAR" />
           <works_for id="FACTION_RETRIBUTION" />
         </unit>
-        <unit id="MU16" name="Dannon Blythe &amp; Bull" qualification="Mercenary Minion Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="2" fullCount="-" completed="true">
+        <unit id="MU16" name="Dannon Blythe &amp; Bull" qualification="Mercenary Minion Character Unit" fa="C" base_cost="4" full_cost="-" base_count="2" full_count="-" completed="true">
           <model id="BLYTHE" name="Blythe" full_name="Dannon Blythe">
             <basestats name="BLYTHE" spd="6" str="5" mat="6" rat="6" def="15" arm="13" cmd="9" hitpoints="5" gunfighter="true" officer="true" />
             <weapons>
@@ -1296,7 +1296,7 @@
           <works_for id="FACTION_KHADOR" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU01" name="Greygore Boomhowler &amp; Co." full_name="Greygore Boomhowler &amp; Co." qualification="Mercenary Minion Trollkin Character Unit" fa="C" base_cost="6" full_cost="9" baseCount="6" fullCount="10" completed="true">
+        <unit id="MU01" name="Greygore Boomhowler &amp; Co." full_name="Greygore Boomhowler &amp; Co." qualification="Mercenary Minion Trollkin Character Unit" fa="C" base_cost="6" full_cost="9" base_count="6" full_count="10" completed="true">
           <basestats name="BOOMHOWLER" spd="6" str="7" mat="7" rat="5" def="12" arm="16" cmd="9" hitpoints="8" cma="true" officer="true" tough="true" />
           <weapons>
             <ranged_weapon name="Blunderbuss" rng="8" rof="1" aoe="-" pow="12" />
@@ -1319,7 +1319,7 @@
           <works_for id="FACTION_CRYX" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU06" name="Hammerfall High Shield Gun Corps" full_name="Hammerfall High Shield Gun Corps" qualification="Mercenary Rhulic Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true">
+        <unit id="MU06" name="Hammerfall High Shield Gun Corps" full_name="Hammerfall High Shield Gun Corps" qualification="Mercenary Rhulic Unit" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="4" str="6" mat="5" rat="5" def="11" arm="15" cmd="9" cra="true" jack_marshal="true" />
           <weapons>
             <ranged_weapon name="Carbine" rng="10" rof="1" aoe="-" pow="10" />
@@ -1351,7 +1351,7 @@
           <works_for id="FACTION_KHADOR" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU02" name="Herne &amp; Jonne" full_name="Herne &amp; Jonne" qualification="Mercenary Rhulic Character Unit" fa="C" base_cost="3" full_cost="-" baseCount="2" fullCount="-" completed="true">
+        <unit id="MU02" name="Herne &amp; Jonne" full_name="Herne &amp; Jonne" qualification="Mercenary Rhulic Character Unit" fa="C" base_cost="3" full_cost="-" base_count="2" full_count="-" completed="true">
           <model id="HERNE" name="Herne" full_name="Herne">
             <basestats name="HERNE" spd="4" str="6" mat="6" rat="6" def="12" arm="13" cmd="9" hitpoints="5" officer="true" />
             <weapons>
@@ -1374,7 +1374,7 @@
           <works_for id="FACTION_KHADOR" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU17" name="Horgenhold Artillery Corps" full_name="Horgenhold Artillery Corps" qualification="Mercenary Rhulic Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" baseCount="3" fullCount="-" completed="true">
+        <unit id="MU17" name="Horgenhold Artillery Corps" full_name="Horgenhold Artillery Corps" qualification="Mercenary Rhulic Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" base_count="3" full_count="-" completed="true">
           <basestats name="Leader" spd="3" str="5" mat="5" rat="4" def="10" arm="15" cmd="9" />
           <weapons>
             <ranged_weapon name="Siege Cannon" rng="16" rof="1" aoe="3" pow="14">
@@ -1394,7 +1394,7 @@
           <works_for id="FACTION_MENOTH" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU07" name="Horgenhold Forge Guard" full_name="Horgenhold Forge Guard" qualification="Mercenary Rhulic Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true">
+        <unit id="MU07" name="Horgenhold Forge Guard" full_name="Horgenhold Forge Guard" qualification="Mercenary Rhulic Unit" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="4" str="6" mat="7" rat="4" def="10" arm="16" cmd="9" />
           <weapons>
             <melee_weapon name="Mechanikal Hammer" pow="5" p_plus_s="11" reach="true" weapon_master="true">
@@ -1407,7 +1407,7 @@
           <works_for id="FACTION_MENOTH" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU11" name="Lady Aiyana &amp; Master Holt" full_name="Lady Aiyana &amp; Master Holt" qualification="Mercenary Privateer Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="2" fullCount="-" completed="true">
+        <unit id="MU11" name="Lady Aiyana &amp; Master Holt" full_name="Lady Aiyana &amp; Master Holt" qualification="Mercenary Privateer Character Unit" fa="C" base_cost="4" full_cost="-" base_count="2" full_count="-" completed="true">
           <model id="AIYANA" name="Aiyana" full_name="Lady Aiyana">
             <basestats name="Aiyana" spd="6" str="4" mat="4" rat="4" def="15" arm="11" cmd="9" hitpoints="5" officer="true" />
             <weapons />
@@ -1431,7 +1431,7 @@
           <works_for id="FACTION_KHADOR" />
           <works_for id="FACTION_RETRIBUTION" />
         </unit>
-        <unit id="MU19" name="Ogrun Assault Corps" full_name="Ogrun Assault Corps" qualification="Mercenary Rhulic Unit" fa="2" base_cost="6" full_cost="9" baseCount="3" fullCount="5" completed="true">
+        <unit id="MU19" name="Ogrun Assault Corps" full_name="Ogrun Assault Corps" qualification="Mercenary Rhulic Unit" fa="2" base_cost="6" full_cost="9" base_count="3" full_count="5" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="8" mat="6" rat="5" def="12" arm="15" cmd="9" hitpoints="8" cma="true" cra="true" />
           <weapons>
             <ranged_weapon name="Battlecannon" rng="12" rof="1" aoe="3" pow="12" />
@@ -1441,7 +1441,7 @@
           <works_for id="FACTION_MENOTH" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU12" name="Press Gangers" full_name="Press Gangers" qualification="Mercenary Privateer Sea Dog Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" completed="true">
+        <unit id="MU12" name="Press Gangers" full_name="Press Gangers" qualification="Mercenary Privateer Sea Dog Unit" fa="2" base_cost="4" full_cost="6" base_count="6" full_count="10" completed="true">
           <model id="LASS" name="Lass" full_name="Press Ganger Lass">
             <basestats name="LASS" spd="6" str="6" mat="5" rat="4" def="13" arm="12" cmd="8" advance_deployment="true" officer="true" tough="true" />
             <weapons>
@@ -1465,7 +1465,7 @@
           <works_for id="FACTION_CRYX" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU03" name="Captain Sam MacHorne &amp; the Devil Dogs" full_name="Captain Sam MacHorne &amp; the Devil Dogs" qualification="Mercenary Character Unit" fa="C" base_cost="5" full_cost="7" baseCount="6" fullCount="10" completed="true" split="false">
+        <unit id="MU03" name="Captain Sam MacHorne &amp; the Devil Dogs" full_name="Captain Sam MacHorne &amp; the Devil Dogs" qualification="Mercenary Character Unit" fa="C" base_cost="5" full_cost="7" base_count="6" full_count="10" completed="true" split="false">
           <model id="SAM" name="Sam MacHorne" full_name="Captain Sam MacHorne">
             <basestats name="SAM" spd="6" str="6" mat="7" rat="6" def="15" arm="12" cmd="9" hitpoints="5" jack_marshal="true" officer="true" />
             <weapons>
@@ -1494,7 +1494,7 @@
           <works_for id="FACTION_MENOTH" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU13" name="Sea Dog Boarding Crew" full_name="Sea Dog Boarding Crew" qualification="Mercenary Privateer Unit" fa="U" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" has_weapon_attachment="true" completed="true">
+        <unit id="MU13" name="Sea Dog Boarding Crew" full_name="Sea Dog Boarding Crew" qualification="Mercenary Privateer Unit" fa="U" base_cost="5" full_cost="8" base_count="6" full_count="10" has_unit_attachment="true" has_weapon_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="5" mat="5" rat="4" def="13" arm="12" cmd="7" />
           <weapons>
             <ranged_weapon name="Pistol" rng="8" rof="1" aoe="-" pow="10" />
@@ -1535,7 +1535,7 @@
           <works_for id="FACTION_CRYX" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU14" name="Sea Dog Deck Gun" full_name="Sea Dog Deck Gun" qualification="Mercenary Privateer Weapon Crew Unit" fa="2" base_cost="2" full_cost="-" baseCount="2" fullCount="-" completed="true">
+        <unit id="MU14" name="Sea Dog Deck Gun" full_name="Sea Dog Deck Gun" qualification="Mercenary Privateer Weapon Crew Unit" fa="2" base_cost="2" full_cost="-" base_count="2" full_count="-" completed="true">
           <basestats name="Leader" spd="4" str="5" mat="5" rat="4" def="13" arm="12" cmd="7" />
           <weapons>
             <ranged_weapon name="Deck Gun" rng="14" rof="1" aoe="3" pow="13">
@@ -1558,7 +1558,7 @@
           <works_for id="FACTION_CRYX" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU08" name="Steelhead Halberdiers" full_name="Steelhead Halberdiers" qualification="Mercenary Unit" fa="3" base_cost="4" full_cost="6" baseCount="6" fullCount="10" completed="true">
+        <unit id="MU08" name="Steelhead Halberdiers" full_name="Steelhead Halberdiers" qualification="Mercenary Unit" fa="3" base_cost="4" full_cost="6" base_count="6" full_count="10" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="5" rat="4" def="13" arm="13" cmd="8" cma="true" />
           <weapons>
             <melee_weapon name="Halberd" pow="5" p_plus_s="11" reach="true">
@@ -1572,7 +1572,7 @@
           <works_for id="FACTION_CRYX" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU15" name="Steelhead Heavy Cavalry" full_name="Steelhead Heavy Cavalry" qualification="Mercenary Cavalry Unit" fa="1" base_cost="6" full_cost="10" baseCount="3" fullCount="5" completed="true">
+        <unit id="MU15" name="Steelhead Heavy Cavalry" full_name="Steelhead Heavy Cavalry" qualification="Mercenary Cavalry Unit" fa="1" base_cost="6" full_cost="10" base_count="3" full_count="5" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="8" str="6" mat="5" rat="5" def="13" arm="16" cmd="8" hitpoints="5" />
           <weapons>
             <ranged_weapon name="Blunderbuss" rng="8" rof="1" aoe="-" pow="12" />
@@ -1590,7 +1590,7 @@
           <works_for id="FACTION_CRYX" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU18" name="Steelhead Riflemen" full_name="Steelhead Riflemen" qualification="Mercenary Unit" fa="3" base_cost="5" full_cost="9" baseCount="6" fullCount="10" completed="true" split="true">
+        <unit id="MU18" name="Steelhead Riflemen" full_name="Steelhead Riflemen" qualification="Mercenary Unit" fa="3" base_cost="5" full_cost="9" base_count="6" full_count="10" completed="true" split="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="5" rat="5" def="13" arm="12" cmd="8" cra="true" />
           <weapons>
             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -1603,7 +1603,7 @@
           <works_for id="FACTION_CRYX" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU10" name="The Commodore Cannon &amp; Crew" full_name="The Commodore Cannon &amp; Crew" qualification="Mercenary Privateer Sea Dog Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="4" fullCount="-" completed="true">
+        <unit id="MU10" name="The Commodore Cannon &amp; Crew" full_name="The Commodore Cannon &amp; Crew" qualification="Mercenary Privateer Sea Dog Character Unit" fa="C" base_cost="4" full_cost="-" base_count="4" full_count="-" completed="true">
           <basestats name="COMMODORE" spd="0" str="0" mat="0" rat="0" def="5" arm="18" cmd="0" hitpoints="10" construct="true" />
           <weapons>
             <ranged_weapon name="Cannon" rng="*" rof="1" aoe="*" pow="*">
@@ -1627,7 +1627,7 @@
             <capacity title="GUNNERY (★ACTION)">RNG 2. Target Commodore. If the Commodore is in range, a model with the Commodore this activation gains a cumulative +2 to its attack roll.</capacity>
           </model>
         </unit>
-        <unit id="MU20" name="Tactical Arcanist Corps" full_name="Tactical Arcanist Corps" qualification="Mercenary Rhulic Unit" fa="2" base_cost="4" full_cost="-" baseCount="3" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="MU20" name="Tactical Arcanist Corps" full_name="Tactical Arcanist Corps" qualification="Mercenary Rhulic Unit" fa="2" base_cost="4" full_cost="-" base_count="3" full_count="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="4" str="6" mat="6" rat="4" def="11" arm="16" cmd="9" hitpoints="5" immunity_fire="true" />
           <weapons>
             <melee_weapon name="Thermo Mace" pow="7" p_plus_s="13">
@@ -1643,7 +1643,7 @@
           <works_for id="FACTION_KHADOR" />
           <works_for id="FACTION_CYGNAR" />
         </unit>
-        <unit id="MU21" name="Devil's Shadow Mutineers" full_name="Devil's Shadow Mutineers" qualification="Mercenary Privateer Sea Dog Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="3" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="MU21" name="Devil's Shadow Mutineers" full_name="Devil's Shadow Mutineers" qualification="Mercenary Privateer Sea Dog Character Unit" fa="C" base_cost="4" full_cost="-" base_count="3" full_count="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="MAR" spd="6" str="6" mat="7" rat="4" def="14" arm="12" cmd="7" hitpoints="5" fearless="true" officer="true"/>
           <weapons>
             <melee_weapon name="Saber" pow="3" p_plus_s="9" magical="true" weapon_master="true">
@@ -1674,7 +1674,7 @@
           <works_for id="FACTION_CRYX" />
         </unit>
 
-        <unit id="IU10_MERCS" name="Lynus Wesselbaum &amp; Edrea Lloryrr" qualification="Mercenary Minion Character Unit" fa="C" base_cost="3" full_cost="-" baseCount="3" fullCount="-" completed="true">
+        <unit id="IU10_MERCS" name="Lynus Wesselbaum &amp; Edrea Lloryrr" qualification="Mercenary Minion Character Unit" fa="C" base_cost="3" full_cost="-" base_count="3" full_count="-" completed="true">
           <model id="LYNUS" name="Lynus" full_name="Lynus Wesselbaum">
             <basestats name="Lynus" spd="6" str="5" mat="5" rat="5" def="14" arm="12" cmd="9" hitpoints="5" officer="true"/>
             <weapons>
@@ -1704,7 +1704,7 @@
 
         <!-- below, allies and other special cases... -->
         <!-- cygnar allies & mercs -->
-        <unit id="YU12_MERCS" name="Precursor Knights" full_name="Precursor Knights" qualification="Cygnar Morrowan Ally Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="YU12_MERCS" name="Precursor Knights" full_name="Precursor Knights" qualification="Cygnar Morrowan Ally Unit" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="9" />
           <weapons>
             <melee_weapon name="Blessed Mace" pow="6" p_plus_s="12" magical="true">
@@ -1734,7 +1734,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="YU01_MERCS" name="Arcane Tempest Gun Mage Pistoleers" full_name="Arcane Tempest Gun Mage Pistoleers" qualification="Mercenary Unit" fa="2" base_cost="6" full_cost="-" baseCount="6" fullCount="-" has_unit_attachment="true" completed="true">
+        <unit id="YU01_MERCS" name="Arcane Tempest Gun Mage Pistoleers" full_name="Arcane Tempest Gun Mage Pistoleers" qualification="Mercenary Unit" fa="2" base_cost="6" full_cost="-" base_count="6" full_count="-" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="4" mat="5" rat="7" def="15" arm="11" cmd="8" />
           <weapons>
             <ranged_weapon name="Magelock" rng="10" rof="1" aoe="-" pow="10" magical="true" />
@@ -1759,7 +1759,7 @@
             <capacity title="TACTICS: TRUE SIGHT">Models in this unit gain True Sight. (A model with True Sight ignores concealment, Camouflage, and Stealth.)</capacity>
           </unit_attachment>
         </unit>
-        <unit id="YU02_MERCS" name="Long Gunner Infantry" full_name="Long Gunner Infantry" qualification="Mercenary Unit" fa="2" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="YU02_MERCS" name="Long Gunner Infantry" full_name="Long Gunner Infantry" qualification="Mercenary Unit" fa="2" base_cost="6" full_cost="10" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="4" mat="4" rat="5" def="13" arm="12" cmd="8" cra="true" />
           <weapons>
             <ranged_weapon name="Repeating Long Rifle" rng="14" rof="2" aoe="-" pow="10" />
@@ -1785,7 +1785,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="YU14_MERCS" name="Trencher Commandos" full_name="Trencher Commandos" qualification="Cygnar Unit" fa="2" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_weapon_attachment="true" completed="true">
+        <unit id="YU14_MERCS" name="Trencher Commandos" full_name="Trencher Commandos" qualification="Cygnar Unit" fa="2" base_cost="6" full_cost="10" base_count="6" full_count="10" has_weapon_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="7" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" stealth="true" />
           <weapons>
             <ranged_weapon name="Grenade" rng="6" rof="1" aoe="3" pow="12">
@@ -1805,7 +1805,7 @@
             <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a Grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damagge boxes as the chosen Grunt.</capacity>
           </weapon_attachment>
         </unit>
-        <unit id="YU08_MERCS" name="Sword Knights" full_name="Sword Knights" qualification="Cygnar Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="YU08_MERCS" name="Sword Knights" full_name="Sword Knights" qualification="Cygnar Unit" fa="2" base_cost="4" full_cost="6" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" jack_marshal="true" />
           <weapons>
             <melee_weapon name="Battle Blade" pow="4" p_plus_s="10" />
@@ -1833,7 +1833,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="YU05_MERCS" name="Trencher Infantry" full_name="Trencher Infantry" qualification="Cygnar Unit" fa="2" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_unit_attachment="true" has_weapon_attachment="true" completed="true">
+        <unit id="YU05_MERCS" name="Trencher Infantry" full_name="Trencher Infantry" qualification="Cygnar Unit" fa="2" base_cost="6" full_cost="10" base_count="6" full_count="10" has_unit_attachment="true" has_weapon_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" cra="true" />
           <weapons>
             <melee_weapon name="Bayonet" pow="3" p_plus_s="9" />
@@ -1877,7 +1877,7 @@
             <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damagge boxes as the chosen Grunt.</capacity>
           </weapon_attachment>
         </unit>
-        <unit id="YU06_MERCS" name="Trencher Chain Gun Crew" full_name="Trencher Chain Gun Crew" qualification="Cygnar Weapon Crew Unit" fa="2" base_cost="2" full_cost="-" baseCount="2" fullCount="-" completed="true">
+        <unit id="YU06_MERCS" name="Trencher Chain Gun Crew" full_name="Trencher Chain Gun Crew" qualification="Cygnar Weapon Crew Unit" fa="2" base_cost="2" full_cost="-" base_count="2" full_count="-" completed="true">
           <basestats name="Leader" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
           <weapons>
             <ranged_weapon name="Chain Gun" rng="10" rof="1" aoe="-" pow="10">
@@ -1899,7 +1899,7 @@
             <capacity title="DIG IN (★ACTION)">See above.</capacity>
           </model>
         </unit>
-        <unit id="YU07_MERCS" name="Trencher Cannon Crew" full_name="Trencher Cannon Crew" qualification="Cygnar Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" baseCount="2" fullCount="-" completed="true">
+        <unit id="YU07_MERCS" name="Trencher Cannon Crew" full_name="Trencher Cannon Crew" qualification="Cygnar Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" base_count="2" full_count="-" completed="true">
           <basestats name="Leader" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
           <weapons>
             <melee_weapon name="Trench Knife" pow="3" p_plus_s="9" />
@@ -1918,7 +1918,7 @@
             <capacity title="DIG IN (★ACTION)">See above.</capacity>
           </model>
         </unit>
-        <unit id="YU13_MERCS" name="Rangers" full_name="Rangers" qualification="Cygnar Unit" fa="2" base_cost="5" full_cost="-" baseCount="6" fullCount="-" completed="true">
+        <unit id="YU13_MERCS" name="Rangers" full_name="Rangers" qualification="Cygnar Unit" fa="2" base_cost="5" full_cost="-" base_count="6" full_count="-" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="7" str="5" mat="6" rat="6" def="14" arm="11" cmd="8" advance_deployment="true" pathfinder="true" />
           <weapons>
             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -1928,7 +1928,7 @@
           <capacity title="MARK TARGET">Other friendly Faction models gain +2 to ranged attack rolls against enemy models within 5" of this model and in its LOS.</capacity>
           <capacity title="PROWL">This model gains Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.</capacity>
         </unit>
-        <unit id="CU13_MERCS" name="Cephalyx Mind Slaver &amp; Drudges" full_name="Cephalyx Mind Slaver &amp; Drudges" qualification="Cryx Ally Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU13_MERCS" name="Cephalyx Mind Slaver &amp; Drudges" full_name="Cephalyx Mind Slaver &amp; Drudges" qualification="Cryx Ally Unit" fa="2" base_cost="4" full_cost="6" base_count="6" full_count="10" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <model id="MINDSLAVER" name="Mind Slaver" full_name="Mind Slaver">
             <basestats name="Mind Slaver" spd="5" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" hitpoints="5" fearless="true" officer="true" pathfinder="true" />
             <weapons>
@@ -1947,7 +1947,7 @@
             </weapons>
           </model>
         </unit>
-        <unit id="CU14_MERCS" name="Cephalyx Overlords" full_name="Cephalyx Overlords" qualification="Cryx Ally Unit" fa="1" base_cost="4" full_cost="-" baseCount="3" fullCount="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
+        <unit id="CU14_MERCS" name="Cephalyx Overlords" full_name="Cephalyx Overlords" qualification="Cryx Ally Unit" fa="1" base_cost="4" full_cost="-" base_count="3" full_count="-" has_unit_attachment="false" has_weapon_attachment="false" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" hitpoints="5" fearless="true" pathfinder="true" />
           <weapons>
             <melee_weapon name="Prosthetic Blades" pow="5" p_plus_s="11" />
@@ -1960,7 +1960,7 @@
           <capacity title="● PSYCHIC ASSAULT (★ATTACK)">Psychic Assault is a RNG SP 8 magic attack. This attack ignores LOS. Models hit suffer a POW 12 damage roll.</capacity>
           <capacity title="SACRIFICIAL PAWN [DRUDGE GRUNT]">When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal Drudge Grunt model within 3" of this model directly hit instead. That model is automatically hit and suffers all damage and effects. </capacity>
         </unit>
-        <unit id="CU15_MERCS" name="Cephalyx Mind Bender &amp; Drudges" full_name="Cephalyx Mind Bender &amp; Drudges" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Mercenary Unit" fa="2" completed="true">
+        <unit id="CU15_MERCS" name="Cephalyx Mind Bender &amp; Drudges" full_name="Cephalyx Mind Bender &amp; Drudges" base_cost="4" base_count="6" full_cost="6" full_count="10" qualification="Mercenary Unit" fa="2" completed="true">
           <model id="MINDBENDER" name="Mind Bender" full_name="Mind Bender">
             <basestats name="MIND BENDER" spd="5" str="6" mat="6" rat="4" def="14" arm="13" cmd="9" hitpoints="5" fearless="true" officer="true" pathfinder="true"/>
             <weapons>
@@ -1980,7 +1980,7 @@
             </weapons>
           </model>
         </unit>
-        <unit id="KU15_MERCS" name="Kayazy Assassins" full_name="Kayazy Assassins" qualification="Khador Ally Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="KU15_MERCS" name="Kayazy Assassins" full_name="Kayazy Assassins" qualification="Khador Ally Unit" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="7" rat="4" def="14" arm="11" cmd="8" stealth="true" />
           <weapons>
             <melee_weapon name="Assassin Blade" pow="4" p_plus_s="10" />
@@ -2004,7 +2004,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="KU18_MERCS" name="Kayazy Eliminators" full_name="Kayazy Eliminators" qualification="Khador Ally Unit" fa="2" base_cost="3" full_cost="-" baseCount="2" fullCount="-" completed="true">
+        <unit id="KU18_MERCS" name="Kayazy Eliminators" full_name="Kayazy Eliminators" qualification="Khador Ally Unit" fa="2" base_cost="3" full_cost="-" base_count="2" full_count="-" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="7" str="5" mat="7" rat="4" def="15" arm="11" cmd="9" hitpoints="5" stealth="true" />
           <weapons>
             <melee_weapon name="Assassin Blade " pow="4" count="2" p_plus_s="9">
@@ -2016,7 +2016,7 @@
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
           <capacity title="SIDE STEP">When this model hits an enemy model with an initial attack or a special attack, it can advance 2" after the attack is resolved. This model cannot be targeted by free strikes during this movement.</capacity>
         </unit>
-        <unit id="PU13_MERCS" name="Idrian Skirmishers" full_name="Idrian Skirmishers" qualification="Protectorate Idrian Ally Unit" fa="2" base_cost="6" full_cost="10" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="PU13_MERCS" name="Idrian Skirmishers" full_name="Idrian Skirmishers" qualification="Protectorate Idrian Ally Unit" fa="2" base_cost="6" full_cost="10" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="6" rat="5" def="13" arm="12" cmd="8" advance_deployment="true" cra="true" pathfinder="true" />
           <weapons>
             <melee_weapon name="Kopis" pow="4" p_plus_s="10" />

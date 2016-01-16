@@ -588,7 +588,7 @@
           </battleEngine>
         </battleEngines>
         <units>
-          <unit id="SU01" name="Paingiver Bloodrunners" full_name="Paingiver Bloodrunners" qualification="Skorne Unit" fa="2" base_cost="5" full_cost="-" baseCount="6" fullCount="-" completed="true">
+          <unit id="SU01" name="Paingiver Bloodrunners" full_name="Paingiver Bloodrunners" qualification="Skorne Unit" fa="2" base_cost="5" full_cost="-" base_count="6" full_count="-" completed="true">
             <basestats name="LEADER &amp; GRUNTS" spd="6" str="5" mat="7" rat="4" def="14" arm="11" cmd="8" advance_deployment="true" pathfinder="true" stealth="true" />
             <weapons>
               <melee_weapon name="Assassin's Blade" pow="3" p_plus_s="8" />
@@ -596,7 +596,7 @@
             <capacity title="ANATOMICAL PRECISION">When this model's melee damage roll fails to exceed the ARM of the living model hit, that model suffers 1 damage point.</capacity>
             <capacity title="SHADOW PLAY">If a model in this unit damages one or more enemy models with a melee attack during its combat action, at the end of its combat action you can place one model in the unit in formation anywhere within 1" of another model in this unit.</capacity>
           </unit>
-          <unit id="SU02" name="Cataphract Arcuarii" full_name="Cataphract Arcuarii" qualification="Skorne Unit" fa="2" base_cost="6" full_cost="9" baseCount="4" fullCount="6" completed="true">
+          <unit id="SU02" name="Cataphract Arcuarii" full_name="Cataphract Arcuarii" qualification="Skorne Unit" fa="2" base_cost="6" full_cost="9" base_count="4" full_count="6" completed="true">
             <basestats name="LEADER &amp; GRUNTS" spd="5" str="7" mat="7" rat="6" def="12" arm="15" cmd="9" hitpoints="8" fearless="true" cra="true" />
             <weapons>
               <ranged_weapon name="Harpoon" rng="8" rof="1" aoe="-" pow="12">
@@ -605,7 +605,7 @@
               <melee_weapon name="Arcus" pow="5" p_plus_s="12" reach="true" weapon_master="true" />
             </weapons>
           </unit>
-          <unit id="SU03" name="Cataphract Cetrati" full_name="Cataphract Cetrati" qualification="Skorne Unit" fa="2" base_cost="8" full_cost="11" baseCount="4" fullCount="6" has_unit_attachment="true" completed="true">
+          <unit id="SU03" name="Cataphract Cetrati" full_name="Cataphract Cetrati" qualification="Skorne Unit" fa="2" base_cost="8" full_cost="11" base_count="4" full_count="6" has_unit_attachment="true" completed="true">
             <basestats name="LEADER &amp; GRUNTS" spd="5" str="7" mat="7" rat="5" def="12" arm="16" cmd="9" hitpoints="8" fearless="true" cma="true" />
             <weapons>
               <melee_weapon name="War Spear" pow="4" p_plus_s="11" reach="true" weapon_master="true" />
@@ -624,7 +624,7 @@
               <capacity title="TACTICS: PRECISION STRIKE">Models in this unit gain Precision Strike. (When a model with Precision Strike damages a warjack or warbeast with a melee attack, choose which column or branch suffers the damage.)</capacity>
             </unit_attachment>
           </unit>
-          <unit id="SU04" name="Immortals" full_name="Immortals" qualification="Skorne Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true" has_unit_attachment="true">
+          <unit id="SU04" name="Immortals" full_name="Immortals" qualification="Skorne Unit" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" completed="true" has_unit_attachment="true">
             <basestats name="LEADER &amp; GRUNTS" spd="4" str="7" mat="6" rat="3" def="12" arm="17" cmd="8" construct="true"/>
             <weapons>
               <melee_weapon name="Great Sword" pow="6" p_plus_s="13" magical="true" reach="true" />
@@ -650,7 +650,7 @@
               <capacity title="VENGEANCE">During your Maintenance Phase, if one or more models in this unit were destroyed or removed from play by enemy attacks during your opponent’s last turn, each model in the unit can advance 3" and make one normal melee attack.</capacity>
             </unit_attachment>
           </unit>
-          <unit id="SU05" name="Paingiver Beast Handlers" full_name="Paingiver Beast Handlers" qualification="Skorne Unit" fa="2" base_cost="2" full_cost="3" baseCount="4" fullCount="6" completed="true">
+          <unit id="SU05" name="Paingiver Beast Handlers" full_name="Paingiver Beast Handlers" qualification="Skorne Unit" fa="2" base_cost="2" full_cost="3" base_count="4" full_count="6" completed="true">
             <basestats name="LEADER &amp; GRUNTS" spd="6" str="5" mat="5" rat="4" def="13" arm="11" cmd="8" />
             <weapons>
               <melee_weapon name="Barbed Whip" pow="3" p_plus_s="8" reach="true">
@@ -663,7 +663,7 @@
             <capacity title="● ENRAGE (★ACTION)">RNG 3. Target friendly Faction warbeast. If the warbeast is in range, it gains +2 STR and must charge or make a slam or a trample power attack without being forced during its next activation. Enrage lasts for one turn.</capacity>
             <capacity title="● MEDICATE (★ACTION)" type="*Action">RNG 3. Target friendly Faction warbeast. If the warbeast is in range, it heals d3 damage points. A warbeast can be affected by Medicate only once per turn.</capacity>
           </unit>
-          <unit id="SU06" name="Praetorian Ferox" full_name="Praetorian Ferox" qualification="Skorne Cavalry Unit" fa="1" base_cost="7" full_cost="11" baseCount="3" fullCount="5" completed="true">
+          <unit id="SU06" name="Praetorian Ferox" full_name="Praetorian Ferox" qualification="Skorne Cavalry Unit" fa="1" base_cost="7" full_cost="11" base_count="3" full_count="5" completed="true">
             <basestats name="LEADER &amp; GRUNTS" spd="8" str="7" mat="6" rat="4" def="13" arm="17" cmd="9" hitpoints="5" pathfinder="true" />
             <weapons>
               <melee_weapon name="Cavalry Spear" pow="5" p_plus_s="12" reach="true">
@@ -675,7 +675,7 @@
             <capacity title="JUMP">After using its normal movement to make a full advance but before performing an action, you can place this model anywhere completely within 5" of its current location. Any effects that prevent it from charging also prevent it from using Jump.</capacity>
             <capacity title="STEADY">This model cannot be knocked down.</capacity>
           </unit>
-          <unit id="SU07" name="Praetorian Karax" full_name="Praetorian Karax" qualification="Skorne Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" completed="true">
+          <unit id="SU07" name="Praetorian Karax" full_name="Praetorian Karax" qualification="Skorne Unit" fa="2" base_cost="4" full_cost="6" base_count="6" full_count="10" completed="true">
             <basestats name="LEADER &amp; GRUNTS" spd="5" str="6" mat="5" rat="4" def="12" arm="14" cmd="9" cma="true" />
             <weapons>
               <melee_weapon name="Pike" pow="4" p_plus_s="10" reach="true" />
@@ -684,7 +684,7 @@
             <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
             <capacity title="SHIELD WALL (ORDER)">For one round, each affected model gains a +4 ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           </unit>
-          <unit id="SU08" name="Praetorian Swordsmen" full_name="Praetorian Swordsmen" qualification="Skorne Unit" fa="3" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+          <unit id="SU08" name="Praetorian Swordsmen" full_name="Praetorian Swordsmen" qualification="Skorne Unit" fa="3" base_cost="4" full_cost="6" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
             <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" />
             <weapons>
               <melee_weapon name="Sword " pow="3" count="2" p_plus_s="9">
@@ -712,7 +712,7 @@
               </model>
             </unit_attachment>
           </unit>
-          <unit id="SU09" name="Tyrant Commander &amp; Standard Bearer" full_name="Tyrant Commander &amp; Standard Bearer" qualification="Skorne Unit" fa="2" base_cost="3" full_cost="-" baseCount="2" fullCount="-" completed="true">
+          <unit id="SU09" name="Tyrant Commander &amp; Standard Bearer" full_name="Tyrant Commander &amp; Standard Bearer" qualification="Skorne Unit" fa="2" base_cost="3" full_cost="-" base_count="2" full_count="-" completed="true">
             <basestats name="TYRANT" spd="5" str="7" mat="8" rat="4" def="12" arm="16" cmd="10" hitpoints="8" fearless="true" commander="true" officer="true" />
             <weapons>
               <melee_weapon name="Halberd" pow="5" p_plus_s="12" reach="true" weapon_master="true">
@@ -731,7 +731,7 @@
               <capacity title="INSPIRATION [SKORNE]">Friendly Skorne models/units in this model's command range never flee and immediately rally.</capacity>
             </model>
           </unit>
-          <unit id="SU10" name="Venator Catapult Crew" full_name="Venator Catapult Crew" qualification="Skorne Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" baseCount="3" fullCount="-" completed="true">
+          <unit id="SU10" name="Venator Catapult Crew" full_name="Venator Catapult Crew" qualification="Skorne Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" base_count="3" full_count="-" completed="true">
             <basestats name="Leader" spd="4" str="5" mat="5" rat="5" def="13" arm="13" cmd="8" />
             <weapons>
               <ranged_weapon name="Catapult" rng="18" rof="1" aoe="4" pow="15">
@@ -750,7 +750,7 @@
               </weapons>
             </model>
           </unit>
-          <unit id="SU11" name="Venators Reivers" full_name="Venators Reivers" qualification="Skorne Unit" fa="3" base_cost="5" full_cost="9" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+          <unit id="SU11" name="Venators Reivers" full_name="Venators Reivers" qualification="Skorne Unit" fa="3" base_cost="5" full_cost="9" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
             <basestats name="LEADER &amp; GRUNTS" spd="6" str="5" mat="5" rat="5" def="13" arm="13" cmd="8" cra="true" />
             <weapons>
               <ranged_weapon name="Reiver" rng="12" rof="1" aoe="-" pow="10">
@@ -779,14 +779,14 @@
               </model>
             </unit_attachment>
           </unit>
-          <unit id="SU12" name="Nihilators" full_name="Nihilators" qualification="Skorne Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true">
+          <unit id="SU12" name="Nihilators" full_name="Nihilators" qualification="Skorne Unit" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" completed="true">
             <basestats name="LEADER &amp; GRUNTS" spd="6" str="7" mat="7" rat="4" def="13" arm="13" cmd="7" fearless="true" tough="true" />
             <weapons>
               <melee_weapon name="Great Sword" pow="5" p_plus_s="12" reach="true" />
             </weapons>
             <capacity title="BERSERK">When this model destroys one or more models with a melee attack during its combat action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range.</capacity>
           </unit>
-          <unit id="SU13" name="Venator Flayer Cannon Crew" full_name="Venator Flayer Cannon Crew" qualification="Skorne Weapon Crew Unit" fa="2" base_cost="2" full_cost="-" baseCount="2" fullCount="-" completed="true">
+          <unit id="SU13" name="Venator Flayer Cannon Crew" full_name="Venator Flayer Cannon Crew" qualification="Skorne Weapon Crew Unit" fa="2" base_cost="2" full_cost="-" base_count="2" full_count="-" completed="true">
             <basestats name="Leader" spd="4" str="5" mat="5" rat="5" def="13" arm="13" cmd="8" />
             <weapons>
               <ranged_weapon name="Flayer Cannon" rng="14" rof="1" aoe="-" pow="12">
@@ -804,7 +804,7 @@
               </weapons>
             </model>
           </unit>
-          <unit id="SU14" name="Venators Slingers" full_name="Venators Slingers" qualification="Skorne Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" completed="true">
+          <unit id="SU14" name="Venators Slingers" full_name="Venators Slingers" qualification="Skorne Unit" fa="2" base_cost="4" full_cost="6" base_count="6" full_count="10" completed="true">
             <basestats name="LEADER &amp; GRUNTS" spd="6" str="5" mat="5" rat="5" def="12" arm="12" cmd="8" />
             <weapons>
               <ranged_weapon name="Sling" rng="10" rof="1" aoe="-" pow="10" corrosion="true">
@@ -815,14 +815,14 @@
               <melee_weapon name="Sword" pow="3" p_plus_s="8" />
             </weapons>
           </unit>
-          <unit id="SU15" name="Cataphract Incindiarii" full_name="Cataphract Incindiarii" qualification="Skorne Unit" fa="2" base_cost="6" full_cost="9" baseCount="4" fullCount="6" completed="true">
+          <unit id="SU15" name="Cataphract Incindiarii" full_name="Cataphract Incindiarii" qualification="Skorne Unit" fa="2" base_cost="6" full_cost="9" base_count="4" full_count="6" completed="true">
             <basestats name="LEADER &amp; GRUNTS" spd="5" str="7" mat="7" rat="6" def="12" arm="15" cmd="9" hitpoints="8" fearless="true" cra="true" />
             <weapons>
               <ranged_weapon name="Incindus" rng="10" rof="1" aoe="3" pow="12" fire="true" continuous_fire="true" />
               <melee_weapon name="Incindus Blade" pow="4" p_plus_s="11" />
             </weapons>
           </unit>
-          <unit id="SU16" name="Praetorian Keltarii" full_name="Praetorian Keltarii" qualification="Skorne Unit" fa="3" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true">
+          <unit id="SU16" name="Praetorian Keltarii" full_name="Praetorian Keltarii" qualification="Skorne Unit" fa="3" base_cost="5" full_cost="8" base_count="6" full_count="10" completed="true">
             <basestats name="LEADER &amp; GRUNTS" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" cma="true" />
             <weapons>
               <melee_weapon name="Double-Bladed Glaive" pow="4" p_plus_s="10" reach="true" />
@@ -831,7 +831,7 @@
             <capacity title="PARRY">This model cannot be targeted by free strikes.</capacity>
             <capacity title="REFORM">After all models in this unit have completed their actions, each can advance up to 3".</capacity>
           </unit>
-          <unit id="SU17" name="Legends of Halaak" full_name="Legends of Halaak" qualification="Skorne Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="3" fullCount="-" completed="true">
+          <unit id="SU17" name="Legends of Halaak" full_name="Legends of Halaak" qualification="Skorne Character Unit" fa="C" base_cost="4" full_cost="-" base_count="3" full_count="-" completed="true">
             <basestats name="VALGESH" spd="6" str="7" mat="7" rat="4" def="13" arm="15" cmd="10" officer="true" fearless="true" />
             <weapons>
               <melee_weapon name="Sword" pow="3" p_plus_s="10" count="2">

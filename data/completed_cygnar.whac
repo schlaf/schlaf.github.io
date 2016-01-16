@@ -698,7 +698,7 @@
         </battleEngine>
       </battleEngines>
       <units>
-        <unit id="YU01" name="Arcane Tempest Gun Mage Pistoleers" full_name="Arcane Tempest Gun Mage Pistoleers" base_cost="6" baseCount="6" full_cost="-" fullCount="-" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true" split="true"> <!-- errata may 2014 -->
+        <unit id="YU01" name="Arcane Tempest Gun Mage Pistoleers" full_name="Arcane Tempest Gun Mage Pistoleers" base_cost="6" base_count="6" full_cost="-" full_count="-" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true" split="true"> <!-- errata may 2014 -->
           <basestats name="Leader &amp; Grunts" spd="6" str="4" mat="5" rat="7" def="15" arm="11" cmd="8" />
           <weapons>
             <ranged_weapon name="Magelock Pistol" rng="10" rof="1" aoe="-" pow="10" magical="true" />
@@ -724,7 +724,7 @@
             <capacity title="TACTICS: TRUE SIGHT">Models in this unit gain True Sight. (A model with True Sight ignores concealment, Camouflage, and Stealth.)</capacity>
           </unit_attachment>
         </unit>
-        <unit id="YU02" name="Long Gunner Infantry" full_name="Long Gunner Infantry" base_cost="6" baseCount="6" full_cost="10" fullCount="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true" split="true">
+        <unit id="YU02" name="Long Gunner Infantry" full_name="Long Gunner Infantry" base_cost="6" base_count="6" full_cost="10" full_count="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="4" mat="4" rat="5" def="13" arm="12" cmd="8" cma="true" />
           <weapons>
             <ranged_weapon name="Repeating Long Gun" rng="14" rof="2" aoe="-" pow="10" magical="true" />
@@ -750,7 +750,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="YU03" name="Field Mechaniks" full_name="Field Mechaniks" base_cost="2" baseCount="3" full_cost="3" fullCount="6" qualification="Cygnar Unit" fa="3"  completed="true">
+        <unit id="YU03" name="Field Mechaniks" full_name="Field Mechaniks" base_cost="2" base_count="3" full_cost="3" full_count="6" qualification="Cygnar Unit" fa="3"  completed="true">
           <model id="CHIEF" name="Crew Chief">
             <basestats name="Crew Chief" spd="5" str="4" mat="3" rat="4" def="12" arm="11" cmd="7" jack_marshal="true" officer="true" />
             <weapons>
@@ -769,7 +769,7 @@
             <capacity title="REPAIR [6]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjacks damage grid.</capacity>
           </model>
         </unit>
-        <unit id="YU04" name="Stormblade Infantry" full_name="Stormblade Infantry" base_cost="5" baseCount="6" full_cost="-" fullCount="-" qualification="Cygnar Storm Knight Unit" fa="2" has_unit_attachment="true" completed="true" split="true">
+        <unit id="YU04" name="Stormblade Infantry" full_name="Stormblade Infantry" base_cost="5" base_count="6" full_cost="-" full_count="-" qualification="Cygnar Storm Knight Unit" fa="2" has_unit_attachment="true" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="6" mat="7" rat="5" def="12" arm="15" cmd="9" cma="true" immunity_electricity="true" />
           <weapons>
             <ranged_weapon name="Storm glaive" rng="4" rof="1" aoe="-" pow="12" electricity="true" />
@@ -805,7 +805,7 @@
             <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damagge boxes as the chosen Grunt.</capacity>
           </weapon_attachment>
         </unit>
-        <unit id="YU05" name="Trencher Infantry" full_name="Trencher Infantry" base_cost="6" baseCount="6" full_cost="10" fullCount="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" has_weapon_attachment="true" split="true" completed="true">
+        <unit id="YU05" name="Trencher Infantry" full_name="Trencher Infantry" base_cost="6" base_count="6" full_cost="10" full_count="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" has_weapon_attachment="true" split="true" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" cra="true" advance_deployment="true" />
           <weapons>
             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -848,7 +848,7 @@
             <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damagge boxes as the chosen Grunt.</capacity>
           </weapon_attachment>
         </unit>
-        <unit id="YU06" name="Trencher Chaingun Crew" full_name="Trencher Chaingun Crew" base_cost="2" baseCount="2" full_cost="-" fullCount="-" qualification="Cygnar Weapon Crew Unit" fa="2" completed="true">
+        <unit id="YU06" name="Trencher Chaingun Crew" full_name="Trencher Chaingun Crew" base_cost="2" base_count="2" full_cost="-" full_count="-" qualification="Cygnar Weapon Crew Unit" fa="2" completed="true">
           <model id="LEADER" name="Leader" full_name="Trencher Chaingun">
             <basestats name="Leader" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
             <weapons>
@@ -871,7 +871,7 @@
             <capacity title="DIG IN" type="*Action">This model gains cover, does not suffer blast damage, and does not block LOS. This model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
           </model>
         </unit>
-        <unit id="YU07" name="Trencher Cannon Crew" full_name="Trencher Cannon Crew" base_cost="3" baseCount="2" full_cost="-" fullCount="-" qualification="Cygnar Weapon Crew Unit" fa="2" completed="true">
+        <unit id="YU07" name="Trencher Cannon Crew" full_name="Trencher Cannon Crew" base_cost="3" base_count="2" full_cost="-" full_count="-" qualification="Cygnar Weapon Crew Unit" fa="2" completed="true">
           <model id="LEADER" name="Trencher Cannon" full_name="Trencher Cannon">
             <basestats name="Leader" spd="4" str="6" mat="6" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" />
             <weapons>
@@ -892,7 +892,7 @@
             <capacity title="DIG IN" type="*Action">This model gains cover, does not suffer blast damage, and does not block LOS. This model cannot dig into solid rock or man-made constructions. This model can begin the game dug in.</capacity>
           </model>
         </unit>
-        <unit id="YU08" name="Sword Knights" full_name="Sword Knights" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true" split="true">
+        <unit id="YU08" name="Sword Knights" full_name="Sword Knights" base_cost="4" base_count="6" full_cost="6" full_count="10" qualification="Cygnar Unit" fa="2" has_unit_attachment="true" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" jack_marshal="true" />
           <weapons>
             <melee_weapon name="Battle blade" pow="4" p_plus_s="10" />
@@ -919,7 +919,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="YU09" name="Stormguard" full_name="Stormguard" base_cost="6" baseCount="6" full_cost="9" fullCount="10" qualification="Cygnar Storm Knight Unit" fa="2" completed="true" split="true">
+        <unit id="YU09" name="Stormguard" full_name="Stormguard" base_cost="6" base_count="6" full_cost="9" full_count="10" qualification="Cygnar Storm Knight Unit" fa="2" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="6" mat="7" rat="5" def="12" arm="15" cmd="9" cma="true" immunity_electricity="true" gunfighter="true" />
           <weapons>
             <melee_weapon name="Voltaic Halberd" pow="6" p_plus_s="12" reach="true">
@@ -930,7 +930,7 @@
           <capacity title="ELECTRICAL DISCHARGE">After all models in this unit have completed their actions, its Leader can make one ranged attack. The attack has base RNG 10, AOE 3, and POW 6. It gains +1 POW for each model in this unit that hit an enemy model with a melee attack this activation. Damage from this attack is electrical.</capacity>
           <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
         </unit>
-        <unit id="YU10" name="Storm Lances" full_name="Storm Lances" base_cost="7" baseCount="3" full_cost="11" fullCount="5" qualification="Cygnar Storm Knight Cavalry Unit" fa="1"  completed="true">
+        <unit id="YU10" name="Storm Lances" full_name="Storm Lances" base_cost="7" base_count="3" full_cost="11" full_count="5" qualification="Cygnar Storm Knight Cavalry Unit" fa="1"  completed="true">
           <basestats name="Leader &amp; Grunts" spd="8" str="6" mat="7" rat="5" def="12" arm="17" cmd="9" immunity_electricity="true" hitpoints="5" />
           <weapons>
             <ranged_weapon name="Electrical bolt" rng="8" rof="1" aoe="-" pow="12" electricity="true">
@@ -944,7 +944,7 @@
           </weapons>
           <capacity title="ASSAULT" type="Order">Affected models must charge or run. As part of a charge, after moving but before making its charge attack, an affected model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of the affected model's activation. Models that received this order cannot make combined ranged attacks this activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, the affected model must still make the ranged attack before its activation ends.</capacity>
         </unit>
-        <unit id="YU11" name="Black 13th Gun Mage Strike Team" full_name="Black 13th Gun Mage Strike Team" base_cost="4" baseCount="3" full_cost="-" fullCount="-" qualification="Cygnar Arcane Tempest Character Unit" fa="C" completed="true">
+        <unit id="YU11" name="Black 13th Gun Mage Strike Team" full_name="Black 13th Gun Mage Strike Team" base_cost="4" base_count="3" full_cost="-" full_count="-" qualification="Cygnar Arcane Tempest Character Unit" fa="C" completed="true">
           <basestats name="Lynch" spd="6" str="4" mat="5" rat="8" def="15" arm="11" cmd="9" hitpoints="5" gunfighter="true" officer="true" />
           <weapons>
             <ranged_weapon name="Magelock Pistol" rng="10" rof="1" aoe="-" pow="10" magical="true" />
@@ -979,7 +979,7 @@
             <capacity title="GRANTED: PROWL">While this model is in play, models in its unit gain Prowl. (Models with Prowl gain Stealth ICON while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.)</capacity>
           </model>
         </unit>
-        <unit id="YU12" name="Precursor Knights" full_name="Precursor Knights" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Cygnar Morrowan Ally Unit" fa="2" has_unit_attachment="true" completed="true">
+        <unit id="YU12" name="Precursor Knights" full_name="Precursor Knights" base_cost="5" base_count="6" full_cost="8" full_count="10" qualification="Cygnar Morrowan Ally Unit" fa="2" has_unit_attachment="true" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="6" mat="7" rat="4" def="13" arm="14" cmd="9" />
           <weapons>
             <melee_weapon name="Blessed Mace" pow="6" p_plus_s="12" magical="true">
@@ -1008,7 +1008,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="YU13" name="Rangers" full_name="Rangers" base_cost="5" baseCount="6" full_cost="-" fullCount="-" qualification="Cygnar Unit" fa="2" completed="true" split="true">
+        <unit id="YU13" name="Rangers" full_name="Rangers" base_cost="5" base_count="6" full_cost="-" full_count="-" qualification="Cygnar Unit" fa="2" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="7" str="5" mat="6" rat="6" def="14" arm="11" cmd="8" advance_deployment="true" pathfinder="true" />
           <weapons>
             <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11" />
@@ -1018,7 +1018,7 @@
           <capacity title="MARK TARGET">Other friendly Faction models gain +2 to ranged attack rolls against enemy models within 5" of this model and in its LOS.</capacity>
           <capacity title="PROWL">This model gains Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.</capacity>
         </unit>
-        <unit id="YU14" name="Trencher Commandos" full_name="Trencher Commandos" base_cost="6" baseCount="6" full_cost="10" fullCount="10" qualification="Cygnar Unit" fa="2" has_weapon_attachment="true" completed="true">
+        <unit id="YU14" name="Trencher Commandos" full_name="Trencher Commandos" base_cost="6" base_count="6" full_cost="10" full_count="10" qualification="Cygnar Unit" fa="2" has_weapon_attachment="true" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="6" mat="7" rat="5" def="13" arm="13" cmd="9" advance_deployment="true" stealth="true" />
           <weapons>
             <ranged_weapon name="Grenade" rng="6" rof="1" aoe="3" pow="12">
@@ -1038,7 +1038,7 @@
             <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damagge boxes as the chosen Grunt.</capacity>
           </weapon_attachment>
         </unit>
-        <unit id="YU15" name="Stormsmith Storm Tower" full_name="Stormsmith Storm Tower" fa="2" base_cost="2" baseCount="2" full_cost="-" fullCount="-" qualification="Cygnar Weapon Crew Unit" completed="true">
+        <unit id="YU15" name="Stormsmith Storm Tower" full_name="Stormsmith Storm Tower" fa="2" base_cost="2" base_count="2" full_cost="-" full_count="-" qualification="Cygnar Weapon Crew Unit" completed="true">
           <basestats name="Leader" spd="4" str="4" mat="5" rat="5" def="13" arm="14" cmd="7" immunity_electricity="true" />
           <weapons>
             <ranged_weapon name="Storm tower" rng="14" rof="1" aoe="-" pow="14" electricity="true">
@@ -1050,7 +1050,7 @@
             <melee_weapon name="Sword" pow="3" p_plus_s="7" />
           </weapons>
         </unit>
-        <unit id="YU16" name="Tempest Blazers" full_name="Tempest Blazers" base_cost="6" baseCount="3" full_cost="10" fullCount="5" qualification="Cygnar Arcane Tempest Light Cavalry Unit" fa="1" completed="true">
+        <unit id="YU16" name="Tempest Blazers" full_name="Tempest Blazers" base_cost="6" base_count="3" full_cost="10" full_count="5" qualification="Cygnar Arcane Tempest Light Cavalry Unit" fa="1" completed="true">
           <basestats name="Leader &amp; Grunts" spd="9" str="4" mat="5" rat="7" def="15" arm="13" cmd="8" hitpoints="5" pathfinder="true" gunfighter="true" />
           <weapons>
             <ranged_weapon name="Magelock Pistol" rng="10" rof="1" aoe="-" pow="10" magical="true" />
@@ -1061,7 +1061,7 @@
           <capacity title="● BLESSED">When making an attack with this weapon, ignore spell effects that add to a model's ARM or DEF.</capacity>
           <capacity title="● ELECTRO LEAP">When a model is hit with this weapon, you can have lightning arc to the nearest model within 4" of the model hit, ignoring the attacking model. The model the lightning arcs to suffers an unboostable POW 10 electrical damage roll.</capacity>
         </unit>
-        <unit  id="YU17" name="Silver Line Stormguard" full_name="Silver Line Stormguard" base_cost="6" baseCount="6" full_cost="9" fullCount="10" qualification="Cygnar Storm Knight Unit" fa="2" completed="true" split="true">
+        <unit  id="YU17" name="Silver Line Stormguard" full_name="Silver Line Stormguard" base_cost="6" base_count="6" full_cost="9" full_count="10" qualification="Cygnar Storm Knight Unit" fa="2" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="6" mat="7" rat="5" def="12" arm="15" cmd="9" cma="true" immunity_electricity="true" gunfighter="true"/>
           <weapons>
             <melee_weapon p_plus_s="12" pow="6" name="Thunder Halberd" reach="true">

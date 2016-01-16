@@ -700,7 +700,7 @@
         </battleEngine>
       </battleEngines>
       <units>
-        <unit id="IU01" name="Bog Trog Ambushers" full_name="Bog Trog Ambushers" qualification="Minion Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true">
+        <unit id="IU01" name="Bog Trog Ambushers" full_name="Bog Trog Ambushers" qualification="Minion Unit" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="6" mat="6" rat="3" def="12" arm="14" cmd="8" cma="true" pathfinder="true" />
           <weapons>
             <melee_weapon name="Fish Hook" pow="5" p_plus_s="11" reach="true">
@@ -716,7 +716,7 @@
           <works_for id="FACTION_TROLLBLOOD" />
           <works_for id="FACTION_SKORNE" />
         </unit>
-        <unit id="IU02" name="Farrow Bone Grinders" full_name="Farrow Bone Grinders" qualification="Minion Unit" fa="2" base_cost="2" full_cost="3" baseCount="4" fullCount="6" completed="true">
+        <unit id="IU02" name="Farrow Bone Grinders" full_name="Farrow Bone Grinders" qualification="Minion Unit" fa="2" base_cost="2" full_cost="3" base_count="4" full_count="6" completed="true">
           <basestats name="Leader" spd="5" str="6" mat="5" rat="4" def="12" arm="14" cmd="8" />
           <weapons>
             <melee_weapon name="Knife" pow="3" p_plus_s="9" />
@@ -738,7 +738,7 @@
           <works_for id="FACTION_TROLLBLOOD" />
           <works_for id="FACTION_SKORNE" />
         </unit>
-        <unit id="IU03" name="Farrow Brigands" full_name="Farrow Brigands" qualification="Minion Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true" has_unit_attachment="true">
+        <unit id="IU03" name="Farrow Brigands" full_name="Farrow Brigands" qualification="Minion Unit" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" completed="true" has_unit_attachment="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="6" mat="6" rat="5" def="12" arm="14" cmd="8" />
           <weapons>
             <ranged_weapon name="Pig Iron" rng="10" rof="1" aoe="-" pow="12" />
@@ -767,7 +767,7 @@
           <works_for id="FACTION_TROLLBLOOD" />
           <works_for id="FACTION_SKORNE" />
         </unit>
-        <unit id="IU04" name="Gatorman Posse" full_name="Gatorman Posse" qualification="Minion Unit" fa="2" base_cost="6" full_cost="9" baseCount="3" fullCount="5" completed="true">
+        <unit id="IU04" name="Gatorman Posse" full_name="Gatorman Posse" qualification="Minion Unit" fa="2" base_cost="6" full_cost="9" base_count="3" full_count="5" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="8" mat="7" rat="3" def="12" arm="16" cmd="8" hitpoints="8" fearless="true" />
           <weapons>
             <melee_weapon name="Bite" pow="5" p_plus_s="13" />
@@ -785,7 +785,7 @@
           <works_for id="FACTION_TROLLBLOOD" />
           <works_for id="FACTION_SKORNE" />
         </unit>
-        <unit id="IU05" name="Swamp Gobber Bellows Crew" full_name="Swamp Gobber Bellows Crew" qualification="Minion Unit" fa="1" base_cost="1" full_cost="-" baseCount="2" fullCount="-" completed="true">
+        <unit id="IU05" name="Swamp Gobber Bellows Crew" full_name="Swamp Gobber Bellows Crew" qualification="Minion Unit" fa="1" base_cost="1" full_cost="-" base_count="2" full_count="-" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="3" mat="3" rat="3" def="15" arm="11" cmd="7" />
           <weapons>
             <melee_weapon name="Hand Weapon" pow="2" p_plus_s="5" />
@@ -798,7 +798,7 @@
           <works_for id="FACTION_TROLLBLOOD" />
           <works_for id="FACTION_SKORNE" />
         </unit>
-        <unit id="IU06" name="Farrow Razorback Crew" full_name="Farrow Razorback Crew" qualification="Minion Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" baseCount="2" fullCount="-" completed="true">
+        <unit id="IU06" name="Farrow Razorback Crew" full_name="Farrow Razorback Crew" qualification="Minion Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" base_count="2" full_count="-" completed="true">
           <basestats name="Leader" spd="4" str="6" mat="6" rat="4" def="12" arm="14" cmd="8" />
           <weapons>
             <ranged_weapon name="Razorback" rng="14" rof="1" aoe="3" pow="15">
@@ -822,7 +822,7 @@
           <works_for id="FACTION_TROLLBLOOD" />
           <works_for id="FACTION_SKORNE" />
         </unit>
-        <unit id="IU07" name="Farrow Slaughterhousers" full_name="Farrow Slaughterhousers" qualification="Minion Unit" fa="2" base_cost="6" full_cost="-" baseCount="6" fullCount="-" completed="true">
+        <unit id="IU07" name="Farrow Slaughterhousers" full_name="Farrow Slaughterhousers" qualification="Minion Unit" fa="2" base_cost="6" full_cost="-" base_count="6" full_count="-" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="7" mat="6" rat="4" def="12" arm="15" cmd="8" fearless="true" tough="true" />
           <weapons>
             <melee_weapon name="Pole Cleaver" pow="4" p_plus_s="11" reach="true">
@@ -837,7 +837,7 @@
           <works_for id="FACTION_TROLLBLOOD" />
           <works_for id="FACTION_SKORNE" />
         </unit>
-        <unit id="IU08" name="Gatorman Bokor and Bog Trog Swamp Shamblers" full_name="Gatorman Bokor and Bog Trog Swamp Shamblers" qualification="Minion Unit" fa="1" base_cost="6" full_cost="-" baseCount="10" fullCount="-" completed="true">
+        <unit id="IU08" name="Gatorman Bokor and Bog Trog Swamp Shamblers" full_name="Gatorman Bokor and Bog Trog Swamp Shamblers" qualification="Minion Unit" fa="1" base_cost="6" full_cost="-" base_count="10" full_count="-" completed="true">
           <basestats name="BOKOR" spd="5" str="7" mat="6" rat="3" def="12" arm="16" cmd="8" hitpoints="8" fearless="true" officer="true" />
           <weapons>
             <melee_weapon name="Bite" pow="5" p_plus_s="12" />
@@ -861,7 +861,7 @@
           <works_for id="FACTION_TROLLBLOOD" />
           <works_for id="FACTION_SKORNE" />
         </unit>
-        <unit id="IU09" name="Croak Raiders" full_name="Croak Raiders" qualification="Minion Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true">
+        <unit id="IU09" name="Croak Raiders" full_name="Croak Raiders" qualification="Minion Unit" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="5" mat="5" rat="6" def="13" arm="14" cmd="8" advance_deployment="true" immunity_corrosion="true"/>
           <weapons>
             <melee_weapon name="Hand Weapon" pow="3" p_plus_s="8" />
@@ -881,7 +881,7 @@
           <works_for id="FACTION_SKORNE" />
         </unit>
 
-        <unit id="IU10" name="Lynus Wesselbaum &amp; Edrea Lloryrr" full_name="Lynus Wesselbaum &amp; Edrea Lloryrr" qualification="Mercenary Minion Character Unit" fa="C" base_cost="3" full_cost="-" baseCount="3" fullCount="-" completed="true">
+        <unit id="IU10" name="Lynus Wesselbaum &amp; Edrea Lloryrr" full_name="Lynus Wesselbaum &amp; Edrea Lloryrr" qualification="Mercenary Minion Character Unit" fa="C" base_cost="3" full_cost="-" base_count="3" full_count="-" completed="true">
           <model id="LYNUS" name="Lynus" full_name="Lynus Wesselbaum">
             <basestats name="Lynus" spd="6" str="5" mat="5" rat="5" def="14" arm="12" cmd="9" hitpoints="5" officer="true"/>
             <weapons>
@@ -909,7 +909,7 @@
           <works_for id="FACTION_ORBOROS" />
           <works_for id="FACTION_TROLLBLOOD" />
         </unit>
-        <unit id="MU05_MINION" name="Cylena Raefyll &amp; Nyss Hunters" full_name="Cylena Raefyll &amp; Nyss Hunters" qualification="Minion Character Unit" fa="C" base_cost="7" full_cost="10" baseCount="6" fullCount="10" completed="true">
+        <unit id="MU05_MINION" name="Cylena Raefyll &amp; Nyss Hunters" full_name="Cylena Raefyll &amp; Nyss Hunters" qualification="Minion Character Unit" fa="C" base_cost="7" full_cost="10" base_count="6" full_count="10" completed="true">
           <basestats name="CYLENA" spd="7" str="5" mat="7" rat="7" def="15" arm="11" cmd="9" hitpoints="5" officer="true" pathfinder="true" />
           <weapons>
             <ranged_weapon name="Nyss Bow" rng="12" rof="1" aoe="-" pow="10" />
@@ -931,7 +931,7 @@
           <works_for id="FACTION_ORBOROS" />
           <works_for id="FACTION_TROLLBLOOD" />
         </unit>
-        <unit id="MU16_MINION" name="Dannon Blythe &amp; Bull" full_name="Dannon Blythe &amp; Bull" qualification="Minion Character Unit" fa="C" base_cost="4" full_cost="-" baseCount="2" fullCount="-" completed="true">
+        <unit id="MU16_MINION" name="Dannon Blythe &amp; Bull" full_name="Dannon Blythe &amp; Bull" qualification="Minion Character Unit" fa="C" base_cost="4" full_cost="-" base_count="2" full_count="-" completed="true">
           <model id="BLYTHE" name="Blythe" full_name="Dannon Blythe">
             <basestats name="BLYTHE" spd="6" str="5" mat="6" rat="6" def="15" arm="13" cmd="9" hitpoints="5" gunfighter="true" officer="true" />
             <weapons>
@@ -959,7 +959,7 @@
           </model>
           <works_for id="FACTION_TROLLBLOOD" />
         </unit>
-        <unit id="MU01_MINION" name="Greygore Boomhowler &amp; Co." full_name="Greygore Boomhowler &amp; Co." qualification="Minion Character Unit" fa="C" base_cost="6" full_cost="9" baseCount="6" fullCount="10" completed="true">
+        <unit id="MU01_MINION" name="Greygore Boomhowler &amp; Co." full_name="Greygore Boomhowler &amp; Co." qualification="Minion Character Unit" fa="C" base_cost="6" full_cost="9" base_count="6" full_count="10" completed="true">
           <basestats name="BOOMHOWLER" spd="6" str="7" mat="7" rat="5" def="12" arm="16" cmd="9" hitpoints="8" cma="true" officer="true" tough="true" />
           <weapons>
             <ranged_weapon name="Blunderbuss" rng="8" rof="1" aoe="-" pow="12" />

@@ -628,7 +628,7 @@
         </battleEngine>
       </battleEngines>
       <units>
-        <unit id="EU01" name="Blighted Nyss Archers" full_name="Blighted Nyss Archers" qualification="Legion Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="EU01" name="Blighted Nyss Archers" full_name="Blighted Nyss Archers" qualification="Legion Unit" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="4" mat="5" rat="5" def="13" arm="11" cmd="8" cra="true" />
           <weapons>
             <melee_weapon name="Sword" pow="3" p_plus_s="7" />
@@ -653,7 +653,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="EU02" name="Blighted Nyss Legionnaires" full_name="Blighted Nyss Legionnaires" qualification="Legion Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="EU02" name="Blighted Nyss Legionnaires" full_name="Blighted Nyss Legionnaires" qualification="Legion Unit" fa="2" base_cost="4" full_cost="6" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="6" mat="6" rat="4" def="12" arm="14" cmd="9" fearless="true" cma="true" />
           <weapons>
             <melee_weapon name="Great Sword" pow="4" p_plus_s="10" reach="true" />
@@ -681,7 +681,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="EU03" name="Blighted Nyss Swordsmen" full_name="Blighted Nyss Swordsmen" qualification="Legion Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="EU03" name="Blighted Nyss Swordsmen" full_name="Blighted Nyss Swordsmen" qualification="Legion Unit" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="6" str="7" mat="7" rat="4" def="14" arm="13" cmd="8" fearless="true" />
           <weapons>
             <melee_weapon name="Nyss Claymore" pow="4" p_plus_s="11" weapon_master="true" />
@@ -706,7 +706,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="EU04" name="Blighted Nyss Raptors" full_name="Blighted Nyss Raptors" qualification="Legion Light Cavalry Unit" fa="1" base_cost="6" full_cost="10" baseCount="3" fullCount="5" completed="true">
+        <unit id="EU04" name="Blighted Nyss Raptors" full_name="Blighted Nyss Raptors" qualification="Legion Light Cavalry Unit" fa="1" base_cost="6" full_cost="10" base_count="3" full_count="5" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="9" str="6" mat="6" rat="7" def="14" arm="15" cmd="8" hitpoints="5" pathfinder="true" />
           <weapons>
             <melee_weapon name="Nyss Claymore" pow="4" p_plus_s="10" weapon_master="true" />
@@ -716,7 +716,7 @@
             <mount_weapon name="Mount" pow="12" />
           </weapons>
         </unit>
-        <unit id="EU05" name="Blighted Nyss Scather Crew" full_name="Blighted Nyss Scather Crew" qualification="Legion Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" baseCount="3" fullCount="-" completed="true">
+        <unit id="EU05" name="Blighted Nyss Scather Crew" full_name="Blighted Nyss Scather Crew" qualification="Legion Weapon Crew Unit" fa="2" base_cost="3" full_cost="-" base_count="3" full_count="-" completed="true">
           <basestats name="Leader" spd="4" str="4" mat="5" rat="5" def="13" arm="11" cmd="8" />
           <weapons>
             <melee_weapon name="Sword" pow="3" p_plus_s="7" />
@@ -735,7 +735,7 @@
             </weapons>
           </model>
         </unit>
-        <unit id="EU06" name="Spawning Vessel" full_name="Spawning Vessel" qualification="Legion Blighted Nyss Unit" fa="1" base_cost="2" full_cost="3" baseCount="5" fullCount="7" completed="true">
+        <unit id="EU06" name="Spawning Vessel" full_name="Spawning Vessel" qualification="Legion Blighted Nyss Unit" fa="1" base_cost="2" full_cost="3" base_count="5" full_count="7" completed="true">
           <basestats name="VESSEL" spd="0" str="0" mat="0" rat="0" def="5" arm="18" cmd="0" hitpoints="10" construct="true" />
           <weapons />
           <capacity title="CARRIED">This model is not a warrior model. It can advance only during its unit's normal movement. When it advances, it can move up to 1" for each Grunt in this unit within 2" of it at the beginning of this unit's activation. This model is automatically hit by melee attacks. It cannot be knocked down or made stationary.</capacity>
@@ -751,7 +751,7 @@
             <capacity title="STONE HEART">This model never flees and automatically passes command checks.</capacity>
           </model>
         </unit>
-        <unit id="EU07" name="Strider Rangers" full_name="Strider Rangers" qualification="Legion Blighted Nyss Unit" fa="2" base_cost="6" full_cost="-" baseCount="6" fullCount="-" has_unit_attachment="true" completed="true">
+        <unit id="EU07" name="Strider Rangers" full_name="Strider Rangers" qualification="Legion Blighted Nyss Unit" fa="2" base_cost="6" full_cost="-" base_count="6" full_count="-" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="7" str="6" mat="5" rat="6" def="15" arm="11" cmd="8" advance_deployment="true" cra="true" pathfinder="true" stealth="true" />
           <weapons>
             <melee_weapon name="Sword" pow="3" p_plus_s="9" />
@@ -779,14 +779,14 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="EU08" name="Blighted Ogrun Warmongers" full_name="Blighted Ogrun Warmongers" qualification="Legion Unit" fa="3" base_cost="5" full_cost="8" baseCount="3" fullCount="5" completed="true">
+        <unit id="EU08" name="Blighted Ogrun Warmongers" full_name="Blighted Ogrun Warmongers" qualification="Legion Unit" fa="3" base_cost="5" full_cost="8" base_count="3" full_count="5" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="9" mat="7" rat="3" def="12" arm="16" cmd="8" hitpoints="8" fearless="true" terror="true" />
           <weapons>
             <melee_weapon name="War Cleaver" pow="5" p_plus_s="14" reach="true" />
           </weapons>
           <capacity title="BERSERK">When this model destroys one or more models with a melee attack during its combat action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range.</capacity>
         </unit>
-        <unit id="EU09" name="Blighted Ogrun Warspears" full_name="Blighted Ogrun Warspears" qualification="Legion Unit" fa="3" base_cost="5" full_cost="8" baseCount="3" fullCount="5" has_unit_attachment="true" completed="true">
+        <unit id="EU09" name="Blighted Ogrun Warspears" full_name="Blighted Ogrun Warspears" qualification="Legion Unit" fa="3" base_cost="5" full_cost="8" base_count="3" full_count="5" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="5" str="9" mat="7" rat="5" def="12" arm="16" cmd="8" hitpoints="8" fearless="true" terror="true" />
           <weapons>
             <melee_weapon name="War Spear" pow="4" p_plus_s="13" reach="true">
@@ -812,7 +812,7 @@
             <capacity title="TACTICS: RELENTLESS CHARGE">Models in this unit gain Relentless Charge. (Models with Relentless Charge gain Pathfinder during activations they charge.)</capacity>
           </unit_attachment>
         </unit>
-        <unit id="EU10" name="Grotesque Raiders" full_name="Grotesque Raiders" qualification="Legion Blighted Nyss Unit" fa="2" base_cost="4" full_cost="6" baseCount="6" fullCount="10" completed="true" split="true">
+        <unit id="EU10" name="Grotesque Raiders" full_name="Grotesque Raiders" qualification="Legion Blighted Nyss Unit" fa="2" base_cost="4" full_cost="6" base_count="6" full_count="10" completed="true" split="true">
           <basestats name="leader &amp; grunts" spd="5" str="7" mat="5" rat="4" def="13" arm="13" cmd="6" fearless="true" />
           <weapons>
             <melee_weapon name="Claws" pow="3" p_plus_s="10" />
@@ -820,7 +820,7 @@
           <capacity title="FLIGHT">This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movement to move completely past them. This model ignores intervening models when declaring its charge target.</capacity>
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
         </unit>
-        <unit id="EU11" name="Blighted Nyss Hex Hunters" full_name="Blighted Nyss Hex Hunters" qualification="Legion Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" has_unit_attachment="true" completed="true">
+        <unit id="EU11" name="Blighted Nyss Hex Hunters" full_name="Blighted Nyss Hex Hunters" qualification="Legion Unit" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" has_unit_attachment="true" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="7" str="6" mat="7" rat="4" def="14" arm="12" cmd="8" pathfinder="true" stealth="true" />
           <weapons>
             <melee_weapon name="Hex Razor" pow="4" p_plus_s="10" magical="true" />
@@ -844,7 +844,7 @@
             <capacity title="TACTICS: ADVANCE DEPLOYMENT">Models in this unit gain Advance Deployment.</capacity>
           </unit_attachment>
         </unit>
-        <unit id="EU12" name="Blackfrost Shard" full_name="Blackfrost Shard" qualification="Legion Blighted Nyss Character Unit" fa="C" base_cost="5" full_cost="-" baseCount="3" fullCount="-" completed="true">
+        <unit id="EU12" name="Blackfrost Shard" full_name="Blackfrost Shard" qualification="Legion Blighted Nyss Character Unit" fa="C" base_cost="5" full_cost="-" base_count="3" full_count="-" completed="true">
           <basestats name="SEVRYN" spd="6" str="5" mat="7" rat="4" def="14" arm="12" cmd="9" hitpoints="5" immunity_frost="true" officer="true" pathfinder="true" />
           <weapons>
             <melee_weapon name="Nyss Claymore" pow="4" p_plus_s="9" magical="true" weapon_master="true" />
@@ -874,7 +874,7 @@
             <capacity title="● CLOAK OF MIST (★ACTION)">While in formation models in this unit gain Stealth. Cloak of Mist lasts for one round.</capacity>
           </model>
         </unit>
-        <unit id="EU13" name="Strider Blightblades" full_name="Strider Blightblades" qualification="Legion Blighted Nyss Unit" fa="2" base_cost="6" full_cost="-" baseCount="6" fullCount="-" completed="true">
+        <unit id="EU13" name="Strider Blightblades" full_name="Strider Blightblades" qualification="Legion Blighted Nyss Unit" fa="2" base_cost="6" full_cost="-" base_count="6" full_count="-" completed="true">
           <basestats name="LEADER &amp; GRUNTS" spd="7" str="6" mat="6" rat="5" def="15" arm="11" cmd="8" cma="true" pathfinder="true" stealth="true" />
           <weapons>
             <melee_weapon name="Blade" pow="3" count="2" p_plus_s="9">
@@ -883,7 +883,7 @@
           </weapons>
           <capacity title="AMBUSH">You can choose not to deploy this unit at the start of the game. If it is not deployed normally, you can put it into play at the end of any of your Control Phases after your first turn. When you do, choose any table edge except the back of your opponent's deployment zone. Place all models in this unit in formation within 3" of the chosen table edge.</capacity>
         </unit>
-        <unit id="EU14" name="Grotesque Banshees" full_name="Grotesque Banshees" qualification="Legion Blighted Nyss Unit" fa="2" base_cost="5" full_cost="8" baseCount="6" fullCount="10" completed="true">
+        <unit id="EU14" name="Grotesque Banshees" full_name="Grotesque Banshees" qualification="Legion Blighted Nyss Unit" fa="2" base_cost="5" full_cost="8" base_count="6" full_count="10" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="7" mat="5" rat="5" def="13" arm="13" cmd="6" fearless="true" gunfighter="true" />
           <weapons>
             <ranged_weapon name="Piercing Screech" count="0" rng="SP6" rof="1" aoe="-" pow="12" location="">
@@ -908,7 +908,7 @@
           <capacity title="● FROSTBITE (★ATTACK)">Frostbite is a RNG SP 8 magic attack. Models hit suffer a POW 12 cold damage roll.</capacity>
           <capacity title="● WIND RAVAGER (★ACTION)">While in this model's command range, enemy models cannot make ranged attacks for one round.</capacity>
         </solo>
-        <unit id="ES02" name="Incubi" full_name="Incubi" qualification="Legion Solo" fa="2" cost="5" baseCount="5" fullCount="-" completed="true">
+        <unit id="ES02" name="Incubi" full_name="Incubi" qualification="Legion Solo" fa="2" cost="5" base_count="5" full_count="-" completed="true">
           <basestats name="INCUBUS" spd="6" str="8" mat="7" rat="3" def="12" arm="15" cmd="6" fearless="true" />
           <weapons>
             <melee_weapon name="Claws " pow="3" count="2" p_plus_s="11">

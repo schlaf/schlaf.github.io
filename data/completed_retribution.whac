@@ -471,7 +471,7 @@
       </battleEngines>
       <units>
         <!--Dawnguard Invictors complete-->
-        <unit id="RU01" name="Dawnguard Invictors" full_name="Dawnguard Invictors" base_cost="6" baseCount="6" full_cost="10" fullCount="10" qualification="Retribution Unit" fa="2" has_unit_attachment="true" completed="true">
+        <unit id="RU01" name="Dawnguard Invictors" full_name="Dawnguard Invictors" base_cost="6" base_count="6" full_cost="10" full_count="10" qualification="Retribution Unit" fa="2" has_unit_attachment="true" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="6" mat="7" rat="6" def="12" arm="15" cmd="9" jack_marshal="true" cra="true" />
           <weapons>
             <ranged_weapon rng="10" name="Sword Cannon" aoe="-" pow="12" rof="1"></ranged_weapon>
@@ -499,7 +499,7 @@
           </unit_attachment>
         </unit>
         <!--Dawnguard Sentinels complete-->
-        <unit id="RU02" name="Dawnguard Sentinels" full_name="Dawnguard Sentinels" base_cost="6" baseCount="6" full_cost="9" fullCount="10" qualification="Retribution Unit" fa="2" has_unit_attachment="true" completed="true">
+        <unit id="RU02" name="Dawnguard Sentinels" full_name="Dawnguard Sentinels" base_cost="6" base_count="6" full_cost="9" full_count="10" qualification="Retribution Unit" fa="2" has_unit_attachment="true" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="6" mat="7" rat="4" def="12" arm="15" cmd="9" jack_marshal="true" />
           <weapons>
             <melee_weapon name="Great Sword" pow="6" p_plus_s="12" reach="true" weapon_master="true"></melee_weapon>
@@ -507,7 +507,7 @@
           <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gains +2 ARM.</capacity>
         </unit>
         <!--House Shyeel Battle Mages complete-->
-        <unit id="RU03" name="House Shyeel Battle Mages" full_name="House Shyeel Battle Mages" base_cost="5" baseCount="6" qualification="Retribution Unit" fa="2" completed="true" full_cost="-" fullCount="-">
+        <unit id="RU03" name="House Shyeel Battle Mages" full_name="House Shyeel Battle Mages" base_cost="5" base_count="6" qualification="Retribution Unit" fa="2" completed="true" full_cost="-" full_count="-">
           <basestats name="Leader &amp; Grunts" spd="6" str="7" mat="6" rat="4" def="13" arm="12" cmd="9" />
           <weapons>
             <melee_weapon name="Power Gauntlet" pow="4" p_plus_s="11" magical="true" count="2">
@@ -534,7 +534,7 @@
           </unit_attachment>
         </unit>
         <!--Houseguard Riflemen complete-->
-        <unit id="RU04" name="Houseguard Riflemen" full_name="Houseguard Riflemen" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Retribution Unit" fa="3" has_unit_attachment="true" completed="true">
+        <unit id="RU04" name="Houseguard Riflemen" full_name="Houseguard Riflemen" base_cost="5" base_count="6" full_cost="8" full_count="10" qualification="Retribution Unit" fa="3" has_unit_attachment="true" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" cra="true" />
           <weapons>
             <ranged_weapon rng="14" name="Long Rifle" aoe="-" pow="10" rof="1"></ranged_weapon>
@@ -559,7 +559,7 @@
           </unit_attachment>
         </unit>
         <!--Mage Hunter Strike Force complete-->
-        <unit id="RU05" name="Mage Hunter Strike Force" full_name="Mage Hunter Strike Force" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Retribution Unit" fa="2" has_unit_attachment="true" completed="true">
+        <unit id="RU05" name="Mage Hunter Strike Force" full_name="Mage Hunter Strike Force" base_cost="5" base_count="6" full_cost="8" full_count="10" qualification="Retribution Unit" fa="2" has_unit_attachment="true" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="5" mat="6" rat="6" def="14" arm="11" cmd="9" stealth="true" pathfinder="true" cma="true" />
           <weapons>
             <ranged_weapon rng="12" name="Crossbow" aoe="-" pow="10" rof="1"></ranged_weapon>
@@ -580,7 +580,7 @@
           </unit_attachment>
         </unit>
         <!--Dawnguard Destors complete-->
-        <unit id="RU06" name="Dawnguard Destors" full_name="Dawnguard Destors" base_cost="7" baseCount="3" full_cost="11" fullCount="5" qualification="Retribution Cavalry Unit" fa="1" completed="true">
+        <unit id="RU06" name="Dawnguard Destors" full_name="Dawnguard Destors" base_cost="7" base_count="3" full_cost="11" full_count="5" qualification="Retribution Cavalry Unit" fa="1" completed="true">
           <basestats name="Leader &amp; Grunts" spd="8" str="6" mat="7" rat="6" def="13" arm="17" cmd="9" hitpoints="5" gunfighter="true" />
           <weapons>
             <ranged_weapon rng="10" name="Lance Cannon" aoe="-" pow="12" rof="2"></ranged_weapon>
@@ -593,7 +593,7 @@
           <capacity title="UNYIELDING">While engaging an enemy model, this model gains +2 ARM.</capacity>
         </unit>
         <!--Houseguard Halberdiers complete-->
-        <unit id="RU07" name="Houseguard Halberdiers" full_name="Houseguard Halberdiers" base_cost="4" baseCount="6" full_cost="7" fullCount="10" qualification="Retribution Unit" fa="3" has_unit_attachment="true" completed="true">
+        <unit id="RU07" name="Houseguard Halberdiers" full_name="Houseguard Halberdiers" base_cost="4" base_count="6" full_cost="7" full_count="10" qualification="Retribution Unit" fa="3" has_unit_attachment="true" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="5" mat="6" rat="4" def="13" arm="14" cmd="8" cma="true" />
           <weapons>
             <melee_weapon name="Halberd" pow="5" p_plus_s="10" reach="true">
@@ -622,7 +622,7 @@
           </unit_attachment>
         </unit>
         <!--Stormfall Archers complete-->
-        <unit id="RU08" name="Stormfall Archers" full_name="Stormfall Archers" base_cost="5" baseCount="4" qualification="Retribution Unit" fa="2" completed="true" full_cost="-" fullCount="-">
+        <unit id="RU08" name="Stormfall Archers" full_name="Stormfall Archers" base_cost="5" base_count="4" qualification="Retribution Unit" fa="2" completed="true" full_cost="-" full_count="-">
           <basestats name="Leader &amp; Grunts" spd="5" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" />
           <weapons>
             <ranged_weapon rng="12" name="Great Bow" aoe="3" pow="12" rof="1">
@@ -634,7 +634,7 @@
             <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
           </weapons>
         </unit>
-        <unit id="RU09" name="Heavy Rifle Team" full_name="Heavy Rifle Team" base_cost="2" baseCount="2" qualification="Retribution Houseguard Weapon Crew Unit" fa="2" has_unit_attachment="true" full_cost="-" fullCount="-" completed="true">
+        <unit id="RU09" name="Heavy Rifle Team" full_name="Heavy Rifle Team" base_cost="2" base_count="2" qualification="Retribution Houseguard Weapon Crew Unit" fa="2" has_unit_attachment="true" full_cost="-" full_count="-" completed="true">
           <model id="LEADER" name="Leader" full_name="Heavy Rifle Team Leader">
             <basestats name="Leader" spd="4" str="4" mat="5" rat="5" def="13" arm="13" cmd="8" />
             <weapons>
@@ -654,7 +654,7 @@
           </model>
         </unit>
         <!--Mage Hunter Infiltrators complete-->
-        <unit id="RU10" name="Mage Hunter Infiltrators" full_name="Mage Hunter Infiltrators" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Retribution Unit" fa="2" completed="true">
+        <unit id="RU10" name="Mage Hunter Infiltrators" full_name="Mage Hunter Infiltrators" base_cost="5" base_count="6" full_cost="8" full_count="10" qualification="Retribution Unit" fa="2" completed="true">
           <basestats name="Leader &amp; Grunts" spd="7" str="6" mat="6" rat="4" def="14" arm="11" cmd="9" stealth="true" pathfinder="true" />
           <weapons>
             <melee_weapon name="Blades" pow="3" p_plus_s="9" count="2">
@@ -664,7 +664,7 @@
           <capacity title="ARCANE ASSASSIN">When making attacks, ignore focus points overboosting the target's Power Field and spell effects adding to its ARM or DEF</capacity>
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
         </unit>
-        <unit id="RU11" name="House Vyre Electromancers" full_name="House Vyre Electromancers" base_cost="4" baseCount="3" full_cost="-" fullCount="-" qualification="Retribution Unit" fa="2" completed="true">
+        <unit id="RU11" name="House Vyre Electromancers" full_name="House Vyre Electromancers" base_cost="4" base_count="3" full_cost="-" full_count="-" qualification="Retribution Unit" fa="2" completed="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="5" mat="6" rat="6" def="13" arm="12" cmd="9" immunity_electricity="true"/>
           <weapons>
             <melee_weapon name="Storm Inducer" pow="6" p_plus_s="11" magical="true" reach="true">

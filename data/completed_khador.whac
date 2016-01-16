@@ -646,7 +646,7 @@
         </battleEngine>
       </battleEngines>
       <units>
-        <unit id="KU01" name="Battle Mechaniks" full_name="Battle Mechaniks" base_cost="2" baseCount="4" full_cost="3" fullCount="6" qualification="Khador Unit" fa="3" has_unit_attachment="true" completed="true">
+        <unit id="KU01" name="Battle Mechaniks" full_name="Battle Mechaniks" base_cost="2" base_count="4" full_cost="3" full_count="6" qualification="Khador Unit" fa="3" has_unit_attachment="true" completed="true">
           <basestats name="Leader &amp; grunts" spd="5" str="6" mat="5" rat="4" def="13" arm="12" cmd="8" jack_marshal="true" />
           <weapons>
             <melee_weapon p_plus_s="8" pow="2" name="Monkey Wrench" />
@@ -665,7 +665,7 @@
             <capacity title="REPAIR [9]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjacks damage grid.</capacity>
           </unit_attachment>
         </unit>
-        <unit id="KU02" name="Doom Reavers" full_name="Doom Reavers" base_cost="6" baseCount="6" full_cost="-" fullCount="-" qualification="Khador Unit" fa="2" has_unit_attachment="true" completed="true">
+        <unit id="KU02" name="Doom Reavers" full_name="Doom Reavers" base_cost="6" base_count="6" full_cost="-" full_count="-" qualification="Khador Unit" fa="2" has_unit_attachment="true" completed="true">
           <basestats name="Leader &amp; grunts" spd="6" str="7" mat="7" rat="4" def="13" arm="14" cmd="7" abomination="true" fearless="true" advance_deployment="true" />
           <weapons>
             <melee_weapon p_plus_s="13" pow="6" name="Fell Blade" weapon_master="true" reach="true" magical="true" />
@@ -685,7 +685,7 @@
             <capacity title="SPELL WARD">This model can not be targeted by spells.</capacity>
           </unit_attachment>
         </unit>
-        <unit id="KU03" name="Iron Fang Pikemen" full_name="Iron Fang Pikemen" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Khador Unit" fa="2" has_unit_attachment="true" completed="true">
+        <unit id="KU03" name="Iron Fang Pikemen" full_name="Iron Fang Pikemen" base_cost="5" base_count="6" full_cost="8" full_count="10" qualification="Khador Unit" fa="2" has_unit_attachment="true" completed="true">
           <basestats name="Leader &amp; grunts" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" cma="true" />
           <weapons>
             <melee_weapon p_plus_s="13" pow="7" name="Blasting Pike" reach="true">
@@ -710,7 +710,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="KU03B" name="Black Dragon Iron Fang Pikemen" full_name="Black Dragon Iron Fang Pikemen" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Khador Unit" fa="2" has_unit_attachment="true" completed="true">
+        <unit id="KU03B" name="Black Dragon Iron Fang Pikemen" full_name="Black Dragon Iron Fang Pikemen" base_cost="5" base_count="6" full_cost="8" full_count="10" qualification="Khador Unit" fa="2" has_unit_attachment="true" completed="true">
           <basestats name="Leader &amp; grunts" spd="6" str="6" mat="6" rat="4" def="13" arm="14" cmd="9" cma="true" />
           <weapons>
             <melee_weapon p_plus_s="13" pow="7" name="Blasting Pike" reach="true">
@@ -735,7 +735,7 @@
             </model>
           </unit_attachment>
         </unit>
-        <unit id="KU04" name="Man-o-war Shocktroopers" full_name="Man-o-war Shocktroopers" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Khador Unit" fa="3" completed="true">
+        <unit id="KU04" name="Man-o-war Shocktroopers" full_name="Man-o-war Shocktroopers" base_cost="6" base_count="3" full_cost="9" full_count="5" qualification="Khador Unit" fa="3" completed="true">
           <basestats name="Leader &amp; grunts" spd="4" str="9" mat="7" rat="5" def="11" arm="17" cmd="9" hitpoints="8" fearless="true" cma="true" />
           <weapons>
             <melee_weapon p_plus_s="14" pow="5" name="Annihilator Blade" reach="true" />
@@ -743,7 +743,7 @@
           </weapons>
           <capacity title="SHIELD WALL" type="Order">For one round, each affected model gains a +4ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
         </unit>
-        <unit id="KU05" name="Widowmakers" full_name="Widowmakers" base_cost="4" baseCount="4" full_cost="-" fullCount="-" qualification="Khador Unit" fa="1" completed="true">
+        <unit id="KU05" name="Widowmakers" full_name="Widowmakers" base_cost="4" base_count="4" full_cost="-" full_count="-" qualification="Khador Unit" fa="1" completed="true">
           <basestats name="Leader &amp; grunts" spd="6" str="5" mat="4" rat="7" def="14" arm="11" cmd="8" advance_deployment="true" pathfinder="true" />
           <weapons>
             <melee_weapon p_plus_s="8" pow="3" name="Sword" />
@@ -752,7 +752,7 @@
           <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
           <capacity title="SNIPER">When damaging a Warbeast or Warjack with a ranged attack, choose which column or branch suffers damage. Instead of rolling damage on a ranged attack, the model can inflict 1 damage point. A model that participate in a combined ranged attack loses Sniper until the attack is resolved.</capacity>
         </unit>
-        <unit id="KU06" name="Winter Guard" full_name="Winter Guard Infantry" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Khador Unit" fa="3" has_unit_attachment="true" has_weapon_attachment="true" completed="true">
+        <unit id="KU06" name="Winter Guard" full_name="Winter Guard Infantry" base_cost="4" base_count="6" full_cost="6" full_count="10" qualification="Khador Unit" fa="3" has_unit_attachment="true" has_weapon_attachment="true" completed="true">
           <basestats name="Leader &amp; grunts" spd="6" str="5" mat="5" rat="5" def="12" arm="13" cmd="8" cra="true" />
           <weapons>
             <melee_weapon p_plus_s="8" pow="3" name="Axe" />
@@ -792,7 +792,7 @@
             <capacity title="TAKE UP">If this model is destroyed or removed from play, you can choose a grunt in this unit within 1" of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the table instead of this model. This model has the same number of unmarked damagge boxes as the chosen Grunt.</capacity>
           </weapon_attachment>
         </unit>
-        <unit id="KU07" name="Greylord Ternion" full_name="Greylord Ternion" base_cost="4" baseCount="3" full_cost="-" fullCount="-" qualification="Khador Unit" fa="3" completed="true">
+        <unit id="KU07" name="Greylord Ternion" full_name="Greylord Ternion" base_cost="4" base_count="3" full_cost="-" full_count="-" qualification="Khador Unit" fa="3" completed="true">
           <basestats name="Leader &amp; grunts" spd="6" str="5" mat="5" rat="4" def="13" arm="13" cmd="9" />
           <weapons>
             <melee_weapon p_plus_s="10" pow="5" name="Rune Axe" magical="true" />
@@ -802,7 +802,7 @@
           <capacity title="● FROSTBITE" type="*Attack">Frostbite is a RNG SP8 magic attack. Models hit suffer a POW12 cold damage roll.</capacity>
           <capacity title="● ICE CAGE" type="*Attack">Ice Cage is a RNG 10 magic attack. A model hit suffer a cumulative -2 DEF for one turn unless it has Immunity:Cold. When a model without Immunity:Cold is hit with three or more Ice Cage attacks the same turn, it becomes Stationary for one round.</capacity>
         </unit>
-        <unit id="KU08" name="Kossite Woodsmen" full_name="Kossite Woodsmen" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Khador Unit" fa="2" completed="true">
+        <unit id="KU08" name="Kossite Woodsmen" full_name="Kossite Woodsmen" base_cost="4" base_count="6" full_cost="6" full_count="10" qualification="Khador Unit" fa="2" completed="true">
           <basestats name="Leader &amp; grunts" spd="6" str="5" mat="5" rat="4" def="12" arm="10" cmd="7" pathfinder="true" />
           <weapons>
             <melee_weapon p_plus_s="8" pow="3" name="Hand Weapon" />
@@ -812,7 +812,7 @@
           <capacity title="CAMOUFLAGE">This model gains an additional +2 DEF when benefiting from concealment or cover.</capacity>
           <capacity title="REFORM">After all models in this unit have completed their actions, each can advance up to 3".</capacity>
         </unit>
-        <unit id="KU09" name="Winter Guard Mortar Crew" full_name="Winter Guard Mortar Crew" base_cost="3" baseCount="2" full_cost="-" fullCount="-" qualification="Khador Winter Guard Unit" fa="2" completed="true">
+        <unit id="KU09" name="Winter Guard Mortar Crew" full_name="Winter Guard Mortar Crew" base_cost="3" base_count="2" full_cost="-" full_count="-" qualification="Khador Winter Guard Unit" fa="2" completed="true">
           <basestats name="Leader" spd="4" str="5" mat="5" rat="5" def="12" arm="13" cmd="8" />
           <weapons>
             <melee_weapon p_plus_s="8" pow="3" name="Axe" />
@@ -832,7 +832,7 @@
             </weapons>
           </model>
         </unit>
-        <unit id="KU10" name="Assault Kommandos" full_name="Assault Kommandos" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Khador Unit" fa="2" has_weapon_attachment="true" completed="true">
+        <unit id="KU10" name="Assault Kommandos" full_name="Assault Kommandos" base_cost="5" base_count="6" full_cost="8" full_count="10" qualification="Khador Unit" fa="2" has_weapon_attachment="true" completed="true">
           <basestats name="Leader &amp; grunts" spd="6" str="6" mat="6" rat="5" def="12" arm="14" cmd="9" immunity_corrosion="true" immunity_fire="true" />
           <weapons>
             <melee_weapon p_plus_s="8" pow="2" name="Combat Shield" />
@@ -859,7 +859,7 @@
             </model>
           </weapon_attachment>
         </unit>
-        <unit id="KU11" name="Iron Fang Uhlans" full_name="Iron Fang Uhlans" base_cost="7" baseCount="3" full_cost="11" fullCount="5" qualification="Khador Cavalry Unit" fa="1" completed="true">
+        <unit id="KU11" name="Iron Fang Uhlans" full_name="Iron Fang Uhlans" base_cost="7" base_count="3" full_cost="11" full_count="5" qualification="Khador Cavalry Unit" fa="1" completed="true">
           <basestats name="Leader &amp; grunts" spd="8" str="6" mat="6" rat="4" def="13" arm="17" cmd="9" hitpoints="5" />
           <weapons>
             <melee_weapon p_plus_s="16" pow="10" name="Blasting Lance">
@@ -877,7 +877,7 @@
           <capacity title="DEFENSIVE LINE">While this model is B2B with one or more models in its unit, it gain +2ARM.</capacity>
           <capacity title="RELENTLESS CHARGE">This model gains Pathfinder during activations it charges.</capacity>
         </unit>
-        <unit id="KU12" name="Man-o-war Demolition Corps" full_name="Man-o-war Demolition Corps" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Khador Unit" fa="3" completed="true">
+        <unit id="KU12" name="Man-o-war Demolition Corps" full_name="Man-o-war Demolition Corps" base_cost="6" base_count="3" full_cost="9" full_count="5" qualification="Khador Unit" fa="3" completed="true">
           <basestats name="Leader &amp; grunts" spd="4" str="9" mat="7" rat="5" def="11" arm="16" cmd="9" hitpoints="8" fearless="true" />
           <weapons>
             <melee_weapon p_plus_s="14" pow="5" name="Ice Maul" reach="true">
@@ -886,7 +886,7 @@
             </melee_weapon>
           </weapons>
         </unit>
-        <unit id="KU13" name="Winter Guard Field Gun Crew" full_name="Winter Guard Field Gun Crew" base_cost="2" baseCount="3" full_cost="-" fullCount="-" qualification="Khador Winter Guard Unit" fa="2" completed="true">
+        <unit id="KU13" name="Winter Guard Field Gun Crew" full_name="Winter Guard Field Gun Crew" base_cost="2" base_count="3" full_cost="-" full_count="-" qualification="Khador Winter Guard Unit" fa="2" completed="true">
           <basestats name="Leader" spd="4" str="5" mat="5" rat="5" def="12" arm="13" cmd="8" />
           <weapons>
             <melee_weapon p_plus_s="8" pow="3" name="Axe" />
@@ -904,7 +904,7 @@
             </weapons>
           </model>
         </unit>
-        <unit id="KU14" name="Great Bears of Gallowswood" full_name="Great Bears of Gallowswood" base_cost="5" baseCount="3" full_cost="-" fullCount="-" qualification="Khador Character Unit" fa="C" completed="true">
+        <unit id="KU14" name="Great Bears of Gallowswood" full_name="Great Bears of Gallowswood" base_cost="5" base_count="3" full_cost="-" full_count="-" qualification="Khador Character Unit" fa="C" completed="true">
           <basestats name="Volkov" spd="6" str="7" mat="8" rat="4" def="13" arm="14" cmd="9" hitpoints="5" fearless="true" officer="true" tough="true" />
           <weapons>
             <melee_weapon p_plus_s="12" pow="5" name="Great Axe" reach="true" weapon_master="true">
@@ -937,7 +937,7 @@
             <capacity title="PRECISION STRIKE">See above.</capacity>
           </model>
         </unit>
-        <unit id="KU15" name="Kayazy Assassins" full_name="Kayazy Assassins" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Khador Ally Unit" fa="2" has_unit_attachment="true" completed="true">
+        <unit id="KU15" name="Kayazy Assassins" full_name="Kayazy Assassins" base_cost="5" base_count="6" full_cost="8" full_count="10" qualification="Khador Ally Unit" fa="2" has_unit_attachment="true" completed="true">
           <basestats name="Leader &amp; grunts" spd="6" str="6" mat="7" rat="4" def="14" arm="11" cmd="8" stealth="true" />
           <weapons>
             <melee_weapon p_plus_s="10" pow="4" name="Assassin Blade" />
@@ -958,7 +958,7 @@
             <capacity title="TACTICS: DUELIST">Models in this unit gain +2 DEF against melee attack rolls.</capacity>
           </unit_attachment>
         </unit>
-        <unit id="KU16" name="Man-o-war Bombardiers" full_name="Man-o-war Bombardiers" base_cost="7" baseCount="3" full_cost="11" fullCount="5" qualification="Khador Unit" fa="1" completed="true">
+        <unit id="KU16" name="Man-o-war Bombardiers" full_name="Man-o-war Bombardiers" base_cost="7" base_count="3" full_cost="11" full_count="5" qualification="Khador Unit" fa="1" completed="true">
           <basestats name="Leader &amp; grunts" spd="4" str="9" mat="7" rat="5" def="11" arm="16" cmd="9" hitpoints="8" fearless="true" />
           <weapons>
             <melee_weapon p_plus_s="13" pow="4" name="Chain Blade">
@@ -969,7 +969,7 @@
             </ranged_weapon>
           </weapons>
         </unit>
-        <unit id="KU17" name="Winter Guard Rifle Corps" full_name="Winter Guard Rifle Corps" base_cost="5" baseCount="6" full_cost="8" fullCount="10" qualification="Khador Unit" fa="3" completed="true">
+        <unit id="KU17" name="Winter Guard Rifle Corps" full_name="Winter Guard Rifle Corps" base_cost="5" base_count="6" full_cost="8" full_count="10" qualification="Khador Unit" fa="3" completed="true">
           <basestats name="Leader &amp; grunts" spd="6" str="5" mat="5" rat="5" def="12" arm="13" cmd="8" />
           <weapons>
             <melee_weapon p_plus_s="8" pow="3" name="Axe" />
@@ -978,7 +978,7 @@
           <capacity title="RANKED ATTACKS">Friendly Faction models can ignore this model when determining LOS.</capacity>
           <capacity title="SUPPRESSING FIRE" type="Order">This order can be issued only if two or more models in this unit in formation are able to forfeit their actions. Each model in this unit in formation must forfeit its action. Other than the Standard Bearer, those models that do are participants. After all models in this unit have completed their normal movement, place an AOE completely within 14" of all participants, with its center point in LOS of all participants, ignoring intervening models. The size of the AOE is based on the number of participants. If there are 2-4, the AOE is 3". If there are 5-7, the AOE is 4". If there are 8 or more, the AOE is 5". When a model enters or ends its activation within the AOE, it suffers a POW 10 damage roll. Suppressing Fire lasts for one round or until all participants have been destroyed or removed from play.</capacity><!-- errata 12-2013 -->
         </unit>
-        <unit id="KU18" name="Kayazy Eliminators" full_name="Kayazy Eliminators" base_cost="3" baseCount="2" full_cost="-" fullCount="-" qualification="Khador Ally Unit" fa="2" completed="true">
+        <unit id="KU18" name="Kayazy Eliminators" full_name="Kayazy Eliminators" base_cost="3" base_count="2" full_cost="-" full_count="-" qualification="Khador Ally Unit" fa="2" completed="true">
           <basestats name="Leader &amp; grunts" spd="7" str="5" mat="7" rat="4" def="15" arm="11" cmd="9" hitpoints="5" stealth="true" />
           <weapons>
             <melee_weapon p_plus_s="9" pow="4" name="Assassin Blade" count="2">
@@ -990,7 +990,7 @@
           <capacity title="GANG">When making a melee attack targeting an enemy model in melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls.</capacity>
           <capacity title="SIDE STEP">When this model hits an enemy model with an initial melee attack or a melee special attack that is not a power attack, it can advance up to 2" after the attack is resolved. This model cannot be targeted by free strikes during this movement.</capacity><!-- errata 12-2013 -->
         </unit>
-        <unit id="KU19" name="Greylord Outriders" full_name="Greylord Outriders" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Khador Light Cavalry Unit" fa="1" completed="true">
+        <unit id="KU19" name="Greylord Outriders" full_name="Greylord Outriders" base_cost="6" base_count="3" full_cost="9" full_count="5" qualification="Khador Light Cavalry Unit" fa="1" completed="true">
           <basestats name="Leader &amp; grunts" spd="9" str="5" mat="5" rat="4" def="13" arm="15" cmd="9" hitpoints="5" pathfinder="true" immunity_frost="true" />
           <weapons>
             <melee_weapon p_plus_s="10" pow="5" name="Rune Axe" magical="true" />

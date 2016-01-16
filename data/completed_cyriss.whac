@@ -283,7 +283,7 @@
         </unit>
       </battleEngines>
       <units>
-        <unit id="COCU01" name="Clockwork Angels" full_name="Clockwork Angels" base_cost="3" baseCount="3" full_cost="-" fullCount="-" qualification="Convergence Unit" fa="3" completed="true">
+        <unit id="COCU01" name="Clockwork Angels" full_name="Clockwork Angels" base_cost="3" base_count="3" full_cost="-" full_count="-" qualification="Convergence Unit" fa="3" completed="true">
           <basestats name="Leader &amp; Grunts" spd="7" str="5" mat="6" rat="5" def="14" arm="12" cmd="7" construct="true" advance_deployment="true" cra="true"/>
           <weapons>
             <ranged_weapon rng="10" name="Binomial Beam" aoe="-" rof="1" pow="10" magical="true" />
@@ -296,7 +296,7 @@
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
           <capacity title="REFORM">After all models in this unit have completed their actions, each can advance up to 3".</capacity>
         </unit>
-        <unit id="COCU02" name="Obstructors" full_name="Obstructors" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Convergence Unit" fa="3" completed="true">
+        <unit id="COCU02" name="Obstructors" full_name="Obstructors" base_cost="4" base_count="6" full_cost="6" full_count="10" qualification="Convergence Unit" fa="3" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="7" mat="6" rat="5" def="12" arm="14" cmd="7" construct="true" />
           <weapons>
             <melee_weapon p_plus_s="11" pow="4" name="Teleflail" reach="true" chain="true">
@@ -306,7 +306,7 @@
           <capacity title="SHIELD WALL" type="Order">For one round, each affected model gains a +4 ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
         </unit>
-        <unit id="COCU03" name="Reductors" full_name="Reductors" base_cost="4" baseCount="6" full_cost="6" fullCount="10" qualification="Convergence Unit" fa="3" completed="true">
+        <unit id="COCU03" name="Reductors" full_name="Reductors" base_cost="4" base_count="6" full_cost="6" full_count="10" qualification="Convergence Unit" fa="3" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="7" mat="6" rat="5" def="12" arm="14" cmd="7" construct="true" />
           <weapons>
             <melee_weapon p_plus_s="10" pow="3" name="Retractable Blade" />
@@ -315,7 +315,7 @@
           <capacity title="CLOCKWORK VESSEL">This model counts as a living model for the purposes of generating soul tokens.</capacity>
           <capacity title="CLEAR!">Ranged attacks against friendly models made by a model with Clear! automatically miss.</capacity>
         </unit>
-        <unit id="COCU04" name="Eradicators" full_name="Eradicators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true">
+        <unit id="COCU04" name="Eradicators" full_name="Eradicators" base_cost="6" base_count="3" full_cost="9" full_count="5" qualification="Convergence Unit" fa="2" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="15" cmd="7" construct="true" hitpoints="8" />
           <weapons>
             <melee_weapon p_plus_s="12" pow="4" name="Protean Buckler" count="2" />
@@ -327,7 +327,7 @@
           <capacity title="● ACCURACY">This weapon gains +2 on its attack rolls.</capacity>
           <capacity title="● SHIELDS UP">This weapon gains BUCKLER.</capacity>
         </unit>
-        <unit id="COCU05" name="Optifex Directive" full_name="Optifex Directive" base_cost="2" baseCount="3" full_cost="-" fullCount="-" qualification="Convergence Unit" fa="U" completed="true" split="true">
+        <unit id="COCU05" name="Optifex Directive" full_name="Optifex Directive" base_cost="2" base_count="3" full_cost="-" full_count="-" qualification="Convergence Unit" fa="U" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="6" str="5" mat="5" rat="4" def="13" arm="12" cmd="8" />
           <weapons>
             <melee_weapon p_plus_s="8" pow="3" name="Tuning Kit" />
@@ -337,7 +337,7 @@
           <capacity title="REPAIR [8]" type="*Action">This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</capacity>
           <capacity title="WEAPONS MODULATION" type="*Action">This model can make this special action only when B2B with a friendly Faction model with Construct. The construct's weapons gain Magical Weapon for one round.</capacity>
         </unit>
-        <unit id="COCU06" name="Reciprocators" full_name="Reciprocators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true" split="true">
+        <unit id="COCU06" name="Reciprocators" full_name="Reciprocators" base_cost="6" base_count="3" full_cost="9" full_count="5" qualification="Convergence Unit" fa="2" completed="true" split="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="16" cmd="7" construct="true" hitpoints="8"/>
           <weapons>
             <melee_weapon p_plus_s="12" pow="4" name="Protean Polearm" reach="true"/>
@@ -349,7 +349,7 @@
           <capacity title="● EMPOWERED ATTACK">This weapon gains +2 on its damage rolls.</capacity>
           <capacity title="● SET DEFENSE">A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model .</capacity>
         </unit>
-        <unit id="COCU07" name="Perforators" full_name="Perforators" base_cost="6" baseCount="3" full_cost="9" fullCount="5" qualification="Convergence Unit" fa="2" completed="true">
+        <unit id="COCU07" name="Perforators" full_name="Perforators" base_cost="6" base_count="3" full_cost="9" full_count="5" qualification="Convergence Unit" fa="2" completed="true">
           <basestats name="Leader &amp; Grunts" spd="5" str="8" mat="7" rat="5" def="12" arm="15" cmd="7" construct="true" hitpoints="8" />
           <weapons>
             <melee_weapon p_plus_s="12" pow="4" name="Gear Blade" />
