@@ -1379,7 +1379,7 @@
           <works_for id="FACTION_TROLLBLOOD" />
         </solo>
         <solo id="IS15" name="Gremlin Swarm" full_name="Gremlin Swarm" qualification="Minion Grymkin Solo" fa="3" cost="2" completed="true">
-          <basestats name="GREMLIN SWARM" spd="6" str="2" mat="2" rat="2" def="14" arm="12" cmd="7" stealth="true" incorporeal="true" hitpoints="5    "/>
+          <basestats name="GREMLIN SWARM" spd="6" str="2" mat="2" rat="2" def="14" arm="12" cmd="7" stealth="true" incorporeal="true" hitpoints="5"/>
           <weapons>
           </weapons>
           <capacity title="MINION">This model will work for Circle, Legion, Skorne, and Trollbloods.</capacity>
