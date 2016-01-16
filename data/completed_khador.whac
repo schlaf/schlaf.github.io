@@ -847,16 +847,14 @@
           <capacity title="ASSAULT &amp; BATTERY" type="Order">Before their normal movement, affected models can make one ranged attack, after which they must charge or run. The ranged attack is made before declaring a charge target.</capacity>
           <capacity title="SHIELD WALL" type="Order">For one round, each affected model gains a +4ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</capacity>
           <weapon_attachment id="KA05" name="Assault Kommando Flame Thrower" full_name="Assault Kommando Flame Thrower" fa="2" cost="1" qualification="Khador Kommando Weapon Attachment" max_wa="3" completed="true">
-            <model id="FLAMETHROWER" name="Assault Kommando Flame Thrower">
-              <basestats name="Assault Kommando Flame Thrower" spd="6" str="6" mat="6" rat="5" def="12" arm="14" cmd="9" immunity_corrosion="true" immunity_fire="true" />
-              <weapons>
-                <melee_weapon p_plus_s="8" pow="2" name="Combat Shield" />
-                <ranged_weapon rng="SP8" name="Flamethrower" aoe="-" pow="12" rof="1" fire="true" continuous_fire="true" />
-              </weapons>
-              <capacity title="ATTACHMENT [ASSAULT KOMMANDOS]">This attachment can be added to a Assault Kommandos unit.</capacity>
-              <capacity title="ALCHEMICAL MASK">This model ignores Gas effects. When determining LOS or resolving attacks, this model ignores cloud effects</capacity>
-              <capacity title="FIERY BLAST">When this model is disabled, center a 5" AOE on it, then remove this model from play. Models in the AOE suffer the Fire continuous effect.</capacity>
-            </model>
+            <basestats name="Assault Kommando Flame Thrower" spd="6" str="6" mat="6" rat="5" def="12" arm="14" cmd="9" immunity_corrosion="true" immunity_fire="true" />
+            <weapons>
+              <melee_weapon p_plus_s="8" pow="2" name="Combat Shield" />
+              <ranged_weapon rng="SP8" name="Flamethrower" aoe="-" pow="12" rof="1" fire="true" continuous_fire="true" />
+            </weapons>
+            <capacity title="ATTACHMENT [ASSAULT KOMMANDOS]">This attachment can be added to a Assault Kommandos unit.</capacity>
+            <capacity title="ALCHEMICAL MASK">This model ignores Gas effects. When determining LOS or resolving attacks, this model ignores cloud effects</capacity>
+            <capacity title="FIERY BLAST">When this model is disabled, center a 5" AOE on it, then remove this model from play. Models in the AOE suffer the Fire continuous effect.</capacity>
           </weapon_attachment>
         </unit>
         <unit id="KU11" name="Iron Fang Uhlans" full_name="Iron Fang Uhlans" base_cost="7" base_count="3" full_cost="11" full_count="5" qualification="Khador Cavalry Unit" fa="1" completed="true">
