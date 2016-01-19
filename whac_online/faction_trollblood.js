@@ -1450,30 +1450,9 @@ faction_trollblood_tiers = {"tiers":[
     "levels": [
       {
         "freeModels": [],
-        "costAlterations": [
-          {
-            "id": "TB01",
-            "bonus": 1
-          },
-          {
-            "id": "TB02",
-            "bonus": 1
-          },
-          {
-            "id": "TB06",
-            "bonus": 1
-          },
-          {
-            "id": "TB14",
-            "bonus": 1
-          },
-          {
-            "id": "TB16",
-            "bonus": 1
-          }
-        ],
+        "costAlterations": [],
         "faAlterations": [],
-        "benefit": "",
+        "benefit": "At the start of your first turn, choose one warbeast in Calandra's battlegroup. All models in the army are affected by that warbeast's animus.",
         "level": 1,
         "mustHave": [],
         "onlyModels": {"ids": [
@@ -1555,9 +1534,29 @@ faction_trollblood_tiers = {"tiers":[
       },
       {
         "freeModels": [],
-        "costAlterations": [],
+        "costAlterations": [
+          {
+            "id": "TB01",
+            "bonus": 1
+          },
+          {
+            "id": "TB02",
+            "bonus": 1
+          },
+          {
+            "id": "TB06",
+            "bonus": 1
+          },
+          {
+            "id": "TB14",
+            "bonus": 1
+          },
+          {
+            "id": "TB16",
+            "bonus": 1
+          }
         "faAlterations": [],
-        "benefit": "At the start of your first turn, choose one warbeast in Calandra's battlegroup. All models in the army are affected by that warbeast's animus.",
+        "benefit": "",
         "level": 4,
         "mustHave": [{
           "min": 1,
