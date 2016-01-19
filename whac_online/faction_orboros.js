@@ -903,7 +903,7 @@ faction_orboros_tiers = {"tiers":[
         "freeModels": [],
         "costAlterations": [],
         "faAlterations": [],
-        "benefit": "Sentry Stones start the game with 3 Fury",
+        "benefit": "You gain +1 on your starting roll for the game",
         "level": 3,
         "mustHave": [{
           "min": 1,
