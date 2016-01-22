@@ -648,7 +648,7 @@
       </battleEngines>
       <units>
         <!--Druids and Overseer complete-->
-        <unit id="OU01" name="Druids of Orboros" full_name="Druids of Orboros" base_cost="7" base_count="6" full_cost="-" full_count="-" qualification="Circle Unit" fa="2" has_unit_attachment="true" completed="true">
+        <unit id="OU01" name="Druids of Orboros" full_name="Druids of Orboros" base_cost="7" base_count="6" full_cost="-" full_count="-" qualification="Circle Unit" fa="2" has_unit_attachment="true" completed="true" split="false">
           <model id="GRUNTS" name="Grunts" full_name="Druids of Orboros Grunts">
             <basestats name="Grunts" spd="6" str="6" mat="5" rat="4" def="14" arm="13" cmd="9" pathfinder="true" />
             <weapons>
