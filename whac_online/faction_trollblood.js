@@ -1555,6 +1555,7 @@ faction_trollblood_tiers = {"tiers":[
             "id": "TB16",
             "bonus": 1
           }
+        ],
         "faAlterations": [],
         "benefit": "",
         "level": 4,
