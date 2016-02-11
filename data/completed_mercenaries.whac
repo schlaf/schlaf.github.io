@@ -21,7 +21,7 @@
               <capacity title="KNOCKDOWN">When a model is hit by an attack with this weapon, it is knocked down.</capacity>
             </melee_weapon>            
           </weapons>
-          <feat title="Hit and Run">Models in Magnus' battlegroup currently in his control area can make a full advance or run after all friendly models have completed their activations this turn. Warjacks do not have to spend focus to run during this movement. During this movement models cannot be targeted by free strikes.</feat>
+          <feat title="HIT AND RUN">Models in Magnus' battlegroup currently in his control area can make a full advance or run after all friendly models have completed their activations this turn. Warjacks do not have to spend focus to run during this movement. During this movement models cannot be targeted by free strikes.</feat>
           <spell name="ARCANTRIK BOLT" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">A warjack damaged by this attack becomes stationary for one round.</spell>
           <spell name="BLUR" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit gains +3 DEF against ranged and magic attack rolls.</spell>
           <spell name="IRON AGGRESSION" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly warjack can run, charge, or make slam or trample power attacks without spending focus and gains boosted melee attack rolls.</spell>
@@ -48,7 +48,7 @@
               <capacity title="KNOCKDOWN">When a model is hit by an attack with this weapon, it is knocked down.</capacity>
             </melee_weapon>            
           </weapons>
-          <feat title="Kill Box">Choose two table edges. Enemy models beginning an advance in Magnus' control area cannot advance toward those table edges for one round.</feat>
+          <feat title="KILL BOX">Choose two table edges. Enemy models beginning an advance in Magnus' control area cannot advance toward those table edges for one round.</feat>
           <spell name="BULLET DODGER" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model gains +2 DEF against ranged attack rolls and Dodge, (A model with Dodge can advance up to 2" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.)</spell>
           <spell name="CALAMITY" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">Friendly models gain +2 to attack and damage rolls against target enemy model/unit.</spell>
           <spell name="CONVECTION" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">When Convection destroys a living enemy model, allocate 1 focus point to a warjack in this model’s battlegroup that is in its control area.</spell>
@@ -73,7 +73,7 @@
             </melee_weapon>
             <melee_weapon name="Gutter" pow="2" p_plus_s="9" />            
           </weapons>
-          <feat title="Landslide">Choose a table edge and a distance up to 8". Enemy models currently in Gorten's control area are pushed the chosen distance directly toward the chosen table edge in the order you choose. For one round, affected models cannot give or receive orders and suffer –3 SPD, RAT, and DEF.</feat>
+          <feat title="LANDSLIDE">Choose a table edge and a distance up to 8". Enemy models currently in Gorten's control area are pushed the chosen distance directly toward the chosen table edge in the order you choose. For one round, affected models cannot give or receive orders and suffer –3 SPD, RAT, and DEF.</feat>
           <spell name="ERUPTION" cost="3" rng="8" aoe="3" pow="14" up="NO" off="YES">Models hit suffer a POW 14 fire damage roll. The AOE is a cloud effect that remains in play for one round. Models entering or ending their activation in the AOE suffer an unboostable POW 14 fire damage roll.</spell>
           <spell name="MOLTEN METAL" cost="2" rng="10" aoe="-" pow="-" up="NO" off="YES">Target warjack suffers 1 point of fire damage to each column on its damage grid.</spell>
           <spell name="ROCK WALL" cost="2" rng="CTRL" aoe="WALL" pow="-" up="YES" off="NO">Place a wall template anywhere completely in this model's control area where it does not touch a model's base, an obstruction, or an obstacle. The wall is a linear obstacle that provides cover.</spell>
@@ -96,7 +96,7 @@
               <capacity title="BACK BLAST">When this model hits with an attack with this weapon, it can spend 1 focus point to use Back Blast. If it does, center a 3" AOE on the model hit. Models in the AOE suffer a POW 10 blast damage roll. This damage is not considered to have been caused by a melee attack.</capacity>
             </melee_weapon>            
           </weapons>
-          <feat title="Bombs Away">While in Madhammer's control area, friendly Faction models gain an additional die on blast damage rolls and AOE ranged attack rolls this turn.</feat>
+          <feat title="BOMBS AWAY">While in Madhammer's control area, friendly Faction models gain an additional die on blast damage rolls and AOE ranged attack rolls this turn.</feat>
           <spell name="EXPLOSIVO" cost="1" rng="6" aoe="-" pow="-" up="NO" off="NO">When target friendly model makes a normal attack with a non-spray ranged weapon, the weapon gains Magical Weapon. If the weapon was AOE - it becomes AOE 3. An affected model cannot participate in a combined ranged attack. Models in the AOE other than the model that was directly hit suffer blast damage rolls but do not suffer any other effects of the attack. Explosivo expires immediately after resolving target model's next ranged attack. Explosivo lasts for one turn.</spell>
           <spell name="GROUND ZERO" cost="3" rng="SELF" aoe="5" pow="13" up="NO" off="NO">Center a 5" AOE on this model. Each other model in the AOE is hit and suffers a POW 13 damage roll. Each enemy model damaged by Ground Zero is pushed d6" directly away from this model in the order you choose.</spell>
           <spell name="INHOSPITABLE GROUND" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, enemy models treat open terrain as rough terrain. Inhospitable Ground lasts for one round.</spell>
@@ -116,7 +116,7 @@
             <ranged_weapon name="Hand Cannon" rng="12" rof="1" aoe="-" pow="12" />
 			<melee_weapon name="Nemesis" pow="6" p_plus_s="11" magical="true" weapon_master="true" />            
           </weapons>
-          <feat title="Roulette">While in Ashlynn's control area, models gain two additional dice on their attack rolls. For each of those attack rolls, you choose two of the dice rolled to be discarded. Roulette lasts for one round.</feat>
+          <feat title="ROULETTE">While in Ashlynn's control area, models gain two additional dice on their attack rolls. For each of those attack rolls, you choose two of the dice rolled to be discarded. Roulette lasts for one round.</feat>
           <spell name="ADMONITION" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When an enemy model advances and ends its movement within 6" of target model in this model’s battlegroup, the affected model can immediately advance up to 3", then Admonition expires. The affected model cannot be targeted by free strikes during this movement.</spell>
           <spell name="DISTRACTION" cost="2" rng="8" aoe="-" pow="-" up="NO" off="YES">Target enemy warrior model/unit cannot make ranged attacks and suffers –2 DEF and MAT for one round.</spell>
           <spell name="FLASHING BLADE" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model immediately makes one normal melee attack with one of its melee weapons against each enemy model in its LOS that is in the weapon's melee range. These attacks are simultaneous.</spell>
@@ -139,7 +139,7 @@
               <capacity title="GRIEVOUS WOUNDS">When a model is hit by this weapon, for one round it loses Tough, cannot heal or be healed, and cannot transfer damage.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Dark Omen">For one round, enemy models roll one less die when making attack and damage rolls while in Fiona's control area.</feat>
+          <feat title="DARK OMEN">For one round, enemy models roll one less die when making attack and damage rolls while in Fiona's control area.</feat>
           <spell name="AFFLICTION" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">When a damage roll resulting from a direct hit fails to exceed the ARM of the target enemy model/unit, the affected model hit suffers 1 damage point.</spell>
           <spell name="INFLUENCE" cost="1" rng="10" aoe="-" pow="-" up="NO" off="YES">Take control of target enemy non-warcaster, non-warlock warrior model. The model immediately makes one normal melee attack, then Influence expires.</spell>
           <spell name="NONOKRION BRAND" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model/unit ignores intervening models when making attacks. The weapons of affected models gain Magical Weapon.</spell>
@@ -160,7 +160,7 @@
             <ranged_weapon name="Ace" rng="SP8" rof="1" aoe="-" pow="12" />
 			<melee_weapon name="Red Tide" pow="7" p_plus_s="14" magical="true" />            
           </weapons>
-          <feat title="Typhoon">Advancing enemy models that end their movement in Montador's control area are knocked down. While in Montador's control area, enemy models suffer –3 to attack rolls. Typhoon lasts for one round.</feat>
+          <feat title="TYPHOON">Advancing enemy models that end their movement in Montador's control area are knocked down. While in Montador's control area, enemy models suffer –3 to attack rolls. Typhoon lasts for one round.</feat>
           <spell name="BATTEN DOWN THE HATCHES" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model's control area, models in its battlegroup cannot be knocked down and gain +3 ARM but suffer –2 DEF. Batten Down the Hatches lasts for one round.</spell>
           <spell name="BROADSIDE" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Models in this model's battlegroup currently in its control area can immediately make one normal ranged attack. Attacks gained from Broadside do not count against a weapon's ROF. Broadside can be cast only once per turn.</spell>
           <spell name="DEADWEIGHT" cost="2" rng="8" aoe="-" pow="12" up="NO" off="YES">When Deadweight destroys an enemy living or undead model, you can choose an enemy model within 2" of the destroyed model. The chosen model must forfeit either its movement or its action during its next activation, as its controller chooses.</spell>
@@ -182,7 +182,7 @@
               <capacity title="BEAT BACK">Immediately after a normal attack with this weapon is resolved during this model's combat action, the ennemy model hit can be pushed 1'' directly away from the attacking model. After the enemy is pushed, the attacking model can advance up to 1".</capacity>
             </melee_weapon>            
           </weapons>
-          <feat title="Godspeed">Friendly models currently in Shae's control area immediately advance up to 3". During this movement, affected models gain Pathfinder and cannot be targeted by free strikes.</feat>
+          <feat title="GODSPEED">Friendly models currently in Shae's control area immediately advance up to 3". During this movement, affected models gain Pathfinder and cannot be targeted by free strikes.</feat>
           <spell name="BLOW THE MAN DOWN" cost="3" rng="8" aoe="-" pow="15" up="NO" off="YES">When a model is hit by Blow the Man Down, it is knocked down. On a critical hit, instead of suffering a normal damage roll, a non-incorporeal model is slammed d6" directly away from the spell's point of origin regardless of its base size. Collateral damage from this slam is POW 15.</spell>
           <spell name="COUP DE MAIN" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Friendly models/units beginning a charge in this model's control area gain +2" movement. Affected models can charge without spending focus points or being forced. Coup de Main lasts for one round.</spell>
           <spell name="PHANTASM" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">When target friendly model/unit is targeted by a ranged attack, the attack suffers –5 RNG.</spell>
@@ -202,7 +202,7 @@
               <capacity title="GRIEVOUS WOUNDS">When a model is hit by this weapon, for one round it loses Tough, cannot heal or be healed, and cannot transfer damage.</capacity>
             </melee_weapon>            
           </weapons>
-          <feat title="True Grit">Choose a number of friendly non-warcaster Faction warrior models currently in MacBain's control area up to the number of focus points on him +5. When a chosen model is disabled, it heals 1 damage point and is knocked down. True Grit lasts for one round.</feat>
+          <feat title="TRUE GRIT">Choose a number of friendly non-warcaster Faction warrior models currently in MacBain's control area up to the number of focus points on him +5. When a chosen model is disabled, it heals 1 damage point and is knocked down. True Grit lasts for one round.</feat>
           <spell name="COUNTERMEASURE" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">While within 5" of target model/unit, enemy models cannot make ranged attacks.</spell>
           <spell name="ENERGIZER" cost="*" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">This model spends up to 3 focus points to cast Energizer. Models in its battlegroup that are currently in its control area can immediately advance up to 1" for each focus point spent. Energizer can be cast only once per turn.</spell>
           <spell name="FAIL SAFE" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly warjack gains +2 ARM and does not suffer the effects of crippled systems.</spell>
@@ -225,7 +225,7 @@
             </ranged_weapon>
 			<melee_weapon name="Glory" pow="6" p_plus_s="12" magical="true" />            
           </weapons>
-          <feat title="Conquest">While in Damiano's control area, friendly Faction models gain +3 STR and ARM and can only move or be moved during your turn. Conquest lasts for one round.</feat>
+          <feat title="CONQUEST">While in Damiano's control area, friendly Faction models gain +3 STR and ARM and can only move or be moved during your turn. Conquest lasts for one round.</feat>
 
           <spell name="CONVECTION" cost="2" rng="10" aoe="-" pow="12" up="NO" off="YES">When Convection destroys a living enemy model, allocate 1 focus point to a warjack in this model's battlegroup that is in its control area.</spell>
           <spell name="DEADEYE" cost="2" rng="6" aoe="-" pow="-" up="NO" off="NO">Target friendly model/unit gains an additional die on each model's first ranged attack roll this turn.</spell>
@@ -249,7 +249,7 @@
               <capacity title="CRITICAL DECAPITATION">On a critical hit, double the damage exceeding the ARM of the model hit. A model disabled by this attack cannot make a Tough roll.</capacity>
             </melee_weapon>            
           </weapons>
-          <feat title="Perfect Plan">While in Ossrum's control area, friendly Rhulic models gains +2 ARM. Friendly Rhulic models/units activating in this model's control area gain +2 SPD and Pathfinder. Perfect Plan lasts for one round.</feat>
+          <feat title="PERFECT PLAN">While in Ossrum's control area, friendly Rhulic models gains +2 ARM. Friendly Rhulic models/units activating in this model's control area gain +2 SPD and Pathfinder. Perfect Plan lasts for one round.</feat>
           <spell name="BULLET DODGER" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Target friendly model gains +2 DEF against ranged attack rolls and Dodge, (A model with Dodge can advance up to 2" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.)</spell>
           <spell name="ENERGIZER" cost="*" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">This model spends up to 3 focus points to cast Energizer. Models in its battlegroup that are currently in its control area can immediately advance up to 1" for each focus point spent. Energizer can be cast only once per turn.</spell>
           <spell name="FIRE FOR EFFECT" cost="3" rng="6" aoe="-" pow="-" up="YES" off="NO">Boost the attack and damage rolls of target friendly Faction model's first ranged attack each activation.</spell>
@@ -270,7 +270,7 @@
               <capacity title="BLESSED">When making an attack with this weapon, ignore spell effects that add to a model's ARM or DEF.</capacity>
             </melee_weapon>
           </weapons>
-          <feat title="Divine Intervention">Blaize gains one soul token for each friendly living Faction warrior model destroyed in her control area by an enemy attack or collateral damage of an enemy attack for one round. While in her control area, friendly living Faction warrior models gain +1 ARM for each soul token on Blaize. When Blaize replenishes her focus during your next Control Phase, replace each soul token on her with 1 focus point, then Divine Intervention expires.</feat>
+          <feat title="DIVINE INTERVENTION">Blaize gains one soul token for each friendly living Faction warrior model destroyed in her control area by an enemy attack or collateral damage of an enemy attack for one round. While in her control area, friendly living Faction warrior models gain +1 ARM for each soul token on Blaize. When Blaize replenishes her focus during your next Control Phase, replace each soul token on her with 1 focus point, then Divine Intervention expires.</feat>
           <spell name="BANISHING WARD" cost="2" rng="6" aoe="-" pow="-" up="YES" off="NO">Enemy upkeep spells on target friendly model/unit expire. Affected models cannot be targeted by enemy spells or animi.</spell>
           <spell name="CRUSADER'S CALL" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">Friendly faction models beginning a charge while in this model's control area this turn gain +2" movement.</spell>
           <spell name="FLASHING BLADE" cost="1" rng="SELF" aoe="-" pow="-" up="NO" off="NO">This model immediately makes one normal melee attack with one of its melee weapons against each enemy model in its LOS that is in the weapon's melee range. These attacks are simultaneous.</spell>
@@ -286,7 +286,7 @@
           <weapons>
               <melee_weapon name="Prosthetic Blades" pow="5" p_plus_s="9" />
           </weapons>
-          <feat title="Telekinetic Tide">Push each enemy non-warlock, non-warcaster model currently in Thexus' control area 2" in any direction.</feat>
+          <feat title="TELEKINETIC TIDE">Push each enemy non-warlock, non-warcaster model currently in Thexus' control area 2" in any direction.</feat>
           <spell name="DECELERATION" cost="3" rng="SELF" aoe="CTRL" pow="-" up="NO" off="NO">While in this model’s control area, friendly models gain +2 DEF and ARM against ranged attacks. Deceleration lasts for one round.</spell>
           <spell name="HEX BLAST" cost="3" rng="10" aoe="3" pow="13" up="NO" off="YES">Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire.</spell>
           <spell name="INFLUENCE" cost="1" rng="10" aoe="-" pow="-" up="NO" off="YES">Take control of target enemy non-warcaster, non-warlock warrior model. The model immediately makes one normal melee attack, then Influence expires.</spell>
@@ -309,7 +309,7 @@
                       <capacity title="SILENCER">A model directly hit by this weapon cannot cast spells for one round.</capacity>
                   </ranged_weapon>
               </weapons>
-              <feat title="Adrenaline Rush">Monstrosities in Cyphon's battlegroup that are currently in his control area can gain +3 SPD, STR and ARM for one round. Those that do suffer 1 damage to each column on their damage grid at the end of their activation this turn.</feat>
+              <feat title="ADRENALINE RUSH">Monstrosities in Cyphon's battlegroup that are currently in his control area can gain +3 SPD, STR and ARM for one round. Those that do suffer 1 damage to each column on their damage grid at the end of their activation this turn.</feat>
               <spell name="AFFLICTION" cost="3" rng="8" aoe="-" pow="-" up="YES" off="YES">When a damage roll resulting from a direct hit fails to exceed the ARM of the target enemy model/unit, the affected model hit suffers 1 damage point.</spell>
               <spell name="BREATH STEALER" cost="2" rng="10" aoe="-" pow="-" up="NO" off="YES">Target model/unit suffers –2 SPD and DEF for one round. Breath Stealer can be cast only once per turn.</spell>
               <spell name="EMPATHIC OVERLOAD" cost="3" rng="8" aoe="4" pow="12" up="NO" off="YES">Models hit by Empathic Overload suffer a POW 12 damage roll. When Empathic Overload targets a friendly model, it automatically hits.</spell>
@@ -697,11 +697,11 @@
               <ranged_weapon pow="12" aoe="-" rng="8" rof="1" name="Shield Gun" location="L"></ranged_weapon>
               <melee_weapon p_plus_s="10" pow="1" name="Tower Shield" shield="true" location="L"></melee_weapon>
               <melee_weapon p_plus_s="13" pow="4" name="Guisarme" reach="true" location="R">
-                  <capacity title="Set Defense">A model in this model's front arc suffers -2 on charge, slam, power attack, and impact rolls against this model.</capacity>
+                  <capacity title="SET DEFENSE">A model in this model's front arc suffers -2 on charge, slam, power attack, and impact rolls against this model.</capacity>
               </melee_weapon>
           </weapons>
-          <capacity title="Assault" type="">As part of a charge, after moving but before making its charge attack, this model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of this model's activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, this model can make the Assault ranged attack before its activation ends.</capacity>
-          <capacity title="Shield Guard">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity> <!-- errata 12-2013 -->
+          <capacity title="ASSAULT" type="">As part of a charge, after moving but before making its charge attack, this model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of this model's activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, this model can make the Assault ranged attack before its activation ends.</capacity>
+          <capacity title="SHIELD GUARD">Once per round, when a friendly model is directly hit by a ranged attack during your opponent's turn while within 2" of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</capacity> <!-- errata 12-2013 -->
           <restricted_to id="MS25" />
         </warjack>
         
@@ -1087,11 +1087,11 @@
               <weapons>
                   <ranged_weapon name="Alchemical Mortar" rng="12" rof="1" aoe="3" pow="*">
                       <capacity title="AMMO TYPE">Each time this weapon is used to make an attack, choose one of the following abilities:</capacity>
-                      <capacity title="● Acid Bomb">Models in the AOE are hit and suffer a POW 12 Corrosion damage roll and suffer the Corrosion continuous effect.</capacity>
-                      <capacity title="● Psychoactive Gas">This attack is a gas effect and causes no damage. Models/units hit must pass a command check or flee. Enemy warbeasts hit must pass a THR check or frenzy.</capacity>
-                      <capacity title="● Smoke Blast">The weapon’s base POW becomes 14 for this attack. This attack causes fire damage. This weapon’s AOE is a cloud effect that remains in play for one round.</capacity>
-                      <capacity title="Arcing Fire">When attacking with this weapon, this model can ignore intervening models except those within 1" of the target.</capacity>
-                      <capacity title="Inaccurate">This model suffers -4 to attack rolls with this weapon.</capacity>
+                      <capacity title="● ACID BOMB">Models in the AOE are hit and suffer a POW 12 Corrosion damage roll and suffer the Corrosion continuous effect.</capacity>
+                      <capacity title="● PSYCHOACTIVE GAS">This attack is a gas effect and causes no damage. Models/units hit must pass a command check or flee. Enemy warbeasts hit must pass a THR check or frenzy.</capacity>
+                      <capacity title="● SMOKE BLAST">The weapon’s base POW becomes 14 for this attack. This attack causes fire damage. This weapon’s AOE is a cloud effect that remains in play for one round.</capacity>
+                      <capacity title="ARCING FIRE">When attacking with this weapon, this model can ignore intervening models except those within 1" of the target.</capacity>
+                      <capacity title="INACCURATE">This model suffers -4 to attack rolls with this weapon.</capacity>
                   </ranged_weapon>
                   <melee_weapon name="Open Fist" pow="3" p_plus_s="11" open_fist="true" location="L"></melee_weapon>
                   <melee_weapon name="Open Fist" pow="3" p_plus_s="11" open_fist="true" location="R"></melee_weapon>
@@ -1178,7 +1178,7 @@
                 <weapons>
                     <melee_weapon name="Bash" pow="0" p_plus_s="15"></melee_weapon>
                     <ranged_weapon name="Quad Cannon" rng="10" rof="1" aoe="-" pow="12">
-                        <capacity title="AUTO FIRE[d3+1]">Make d3+1 ranged attacks targeting a primary target and any number of secondary targets within 2" of the first target. Ignore intervening models when declaring secondary targets. A secondary target cannot be targeted by more attacks than the primary target. Auto Fire counts as one attack for ROF.</capacity>
+                        <capacity title="AUTO FIRE[D3+1]">Make d3+1 ranged attacks targeting a primary target and any number of secondary targets within 2" of the first target. Ignore intervening models when declaring secondary targets. A secondary target cannot be targeted by more attacks than the primary target. Auto Fire counts as one attack for ROF.</capacity>
                     </ranged_weapon>
                     <ranged_weapon name="Siegebreaker" rng="12" rof="1" aoe="4" pow="15" location="L">
                         <capacity title="CRITICAL STAGGER">On a critical hit, the model hit loses its initial attacks and cannot make special attack for one round.</capacity>
@@ -1688,11 +1688,11 @@
                   <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11"></ranged_weapon>
                   <melee_weapon name="Heavy Sword" pow="5" p_plus_s="10" reach="true"></melee_weapon>
               </weapons>
-              <capacity title="Mercenaries">These models will work for Cygnar.</capacity>
-              <capacity title="Minions">These models will work for Circle and Trollbloods and the Blindwater Congregation and Thornfall Alliance pacts.</capacity>
-              <capacity title="Animosity [Saxon Orrik]">This unit cannot be included in an army that includes one or more models of the listed type.</capacity>
-              <capacity title="Collaboration" type="*Action">RNG CMD. Target friendly warrior model’s next attack roll this turn is boosted.</capacity>
-              <capacity title="Granted: Applied Knowledge">While this model is in play, models in this unit gain Applied Knowledge. (If a model with Applied Knowledge makes only normal attacks during its combat action, it can make an additional combat action during its activation this turn.)</capacity>
+              <capacity title="MERCENARIES">These models will work for Cygnar.</capacity>
+              <capacity title="MINIONS">These models will work for Circle and Trollbloods and the Blindwater Congregation and Thornfall Alliance pacts.</capacity>
+              <capacity title="ANIMOSITY [SAXON ORRIK]">This unit cannot be included in an army that includes one or more models of the listed type.</capacity>
+              <capacity title="COLLABORATION" type="*Action">RNG CMD. Target friendly warrior model’s next attack roll this turn is boosted.</capacity>
+              <capacity title="GRANTED: APPLIED KNOWLEDGE">While this model is in play, models in this unit gain Applied Knowledge. (If a model with Applied Knowledge makes only normal attacks during its combat action, it can make an additional combat action during its activation this turn.)</capacity>
 
               <model>
                   <basestats name="EDREA" spd="6" str="4" mat="5" rat="5" def="14" arm="12" cmd="9" hitpoints="5" />
@@ -1700,11 +1700,11 @@
                       <ranged_weapon name="Military Rifle" rng="10" rof="1" aoe="-" pow="11"></ranged_weapon>
                       <melee_weapon name="Sword" pow="3" p_plus_s="7"></melee_weapon>
                   </weapons>
-                  <capacity title="Magic Ability [7]"></capacity>
-                  <capacity title="•	Arcane Bolt" type="*Attack">Arcane Bolt is a RNG 12, POW 11 magic attack.</capacity>
-                  <capacity title="•	Wind Barrier" type="*Action">Non-magical ranged attacks targeting this model or a model in this unit completely within 3" of this model automatically miss. Wind Barrier lasts for one round.</capacity>
-                  <capacity title="•	Zephyr" type="*Action">Models in this unit that are in formation can immediately advance up to 3". They cannot be targeted by free strikes during this movement.</capacity>
-                  <capacity title="True Sight"> This model ignores concealment, Camouflage, and Stealth.</capacity>
+                  <capacity title="MAGIC ABILITY [7]"></capacity>
+                  <capacity title="•	ARCANE BOLT" type="*Attack">Arcane Bolt is a RNG 12, POW 11 magic attack.</capacity>
+                  <capacity title="•	WIND BARRIER" type="*Action">Non-magical ranged attacks targeting this model or a model in this unit completely within 3" of this model automatically miss. Wind Barrier lasts for one round.</capacity>
+                  <capacity title="•	ZEPHYR" type="*Action">Models in this unit that are in formation can immediately advance up to 3". They cannot be targeted by free strikes during this movement.</capacity>
+                  <capacity title="TRUE SIGHT"> This model ignores concealment, Camouflage, and Stealth.</capacity>
               </model>
               <works_for id="faction_cygnar" />
           </unit>
@@ -2678,15 +2678,15 @@
               <basestats name="Trench Buster" spd="6" str="9" mat="7" rat="5" def="13" arm="17" cmd="9" hitpoints="8" advance_deployment="true" tough="true" />
               <weapons>
                   <ranged_weapon name="Cinder Bomber" rng="10" rof="1" aoe="3" pow="14" fire="true" >
-                      <capacity title="Arcing Fire">When attacking with this weapon, this model can ignore intervening models except those within 1" of the target.</capacity>
-                      <capacity title="Smoke">This weapon's AOE is a cloud effect that remains in play for one round.</capacity>
+                      <capacity title="ARCING FIRE">When attacking with this weapon, this model can ignore intervening models except those within 1" of the target.</capacity>
+                      <capacity title="SMOKE">This weapon's AOE is a cloud effect that remains in play for one round.</capacity>
                   </ranged_weapon>
                   <melee_weapon name="Bayonet" pow="4" p_plus_s="13" />
                   <melee_weapon name="Assault Shield" pow="2" p_plus_s="11" />
               </weapons>
-              <capacity title="Assault">As part of a charge, after moving but before making its charge attack, a model with Assault can make one ranged attack targeting the model charged unless they were in melee with each other at the start of the affected model's activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, this model must still make the ranged attack before its activation ends.)</capacity>
-              <capacity title="Flank [Trencher]" type="">When this model makes a melee attack against an enemy model within a melee range of a friendly model of type indicated, this model gains +2 to attacks rolls and gains an additional damage die.</capacity>
-              <capacity title="Girded" >This model does not suffer blast damage. Friendly models in B2B with it do not suffer blast damage.</capacity>
+              <capacity title="ASSAULT">As part of a charge, after moving but before making its charge attack, a model with Assault can make one ranged attack targeting the model charged unless they were in melee with each other at the start of the affected model's activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in melee penalty. If the target is not in melee range after moving, this model must still make the ranged attack before its activation ends.)</capacity>
+              <capacity title="FLANK [TRENCHER]" type="">When this model makes a melee attack against an enemy model within a melee range of a friendly model of type indicated, this model gains +2 to attacks rolls and gains an additional damage die.</capacity>
+              <capacity title="GIRDED" >This model does not suffer blast damage. Friendly models in B2B with it do not suffer blast damage.</capacity>
               <only_in_tier id="Magnus2 - Bad Seeds (NQ36)" />
           </solo>
 
@@ -2773,10 +2773,10 @@
               <ranged_weapon name="Pistol" rng="8" rof="1" aoe="" pow="10"/>
           </weapons>
           <capacity title="MERCENARY">This model will work for Cryx, Cygnar, Khador and the Protectorate</capacity>
-            <capacity title="Field Medic">While within 3" of this model, other friendly living non-warcaster, non-warlock Faction warrior models gain Tough</capacity>
-            <capacity title="Flank [Another Steelhead]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of type indicated, this model gains +2 to attacks rolls and gains an additional damage die.</capacity>
-            <capacity title="Hold the line">While B2B with one or more Steelhead models, this model gains +2 ARM.</capacity>
-            <capacity title="Leadership [Steelhead]">While in this model's command range, friendly Steelhead models gain Defensive Line. (While a model with Defensive line is B2B with one or more models in its unit, it gains +2 ARM)</capacity>
+            <capacity title="FIELD MEDIC">While within 3" of this model, other friendly living non-warcaster, non-warlock Faction warrior models gain Tough</capacity>
+            <capacity title="FLANK [ANOTHER STEELHEAD]">When this model makes a melee attack against an enemy model within the melee range of a friendly model of type indicated, this model gains +2 to attacks rolls and gains an additional damage die.</capacity>
+            <capacity title="HOLD THE LINE">While B2B with one or more Steelhead models, this model gains +2 ARM.</capacity>
+            <capacity title="LEADERSHIP [STEELHEAD]">While in this model's command range, friendly Steelhead models gain Defensive Line. (While a model with Defensive line is B2B with one or more models in its unit, it gains +2 ARM)</capacity>
           <works_for id="faction_cryx"/>
           <works_for id="faction_cygnar"/>
           <works_for id="faction_khador"/>
