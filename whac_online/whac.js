@@ -755,12 +755,13 @@ function recomposeArmy() {
 		});
 	}
 
-	calculateCompendium();
-
+	// Calculate tier bonuses before the Compendium
 	if (currentTier) {
 		computeTiersLevel();
 		computeTiersBonus();
 	}
+
+	calculateCompendium();
 
 	for (var i = 0; i < full_entries.groups.length; i++) {
 		var group = full_entries.groups[i];
