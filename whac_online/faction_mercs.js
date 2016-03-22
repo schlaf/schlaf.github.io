@@ -1961,6 +1961,18 @@ faction_mercs_entries = {"groups":[
         "type": "soloMarshall"
       },
       {
+        "name": "Hutchuck, Ogrun Bounty Hunter",
+        "fa": "C",
+        "works_for": [
+          "faction_cygnar",
+          "faction_khador"
+        ],
+        "cost": 3,
+        "faction": "faction_mercs",
+        "id": "MS32",
+        "type": "solo"
+      },
+      {
         "name": "Gorman di Wulfe, Rogue Alchemist",
         "fa": "C",
         "works_for": [
@@ -3083,7 +3095,8 @@ faction_mercs_tiers = {"tiers":[
           "MU04",
           "MS10",
           "MS06",
-          "MS22"
+          "MS22",
+          "MS31"
         ]}
       },
       {
@@ -3117,7 +3130,8 @@ faction_mercs_tiers = {"tiers":[
           "MU04",
           "MS10",
           "MS06",
-          "MS22"
+          "MS22",
+          "MS31"
         ]}
       },
       {
@@ -3155,7 +3169,8 @@ faction_mercs_tiers = {"tiers":[
           "MU04",
           "MS10",
           "MS06",
-          "MS22"
+          "MS22",
+          "MS31"
         ]}
       },
       {
@@ -3193,7 +3208,8 @@ faction_mercs_tiers = {"tiers":[
           "MU04",
           "MS10",
           "MS06",
-          "MS22"
+          "MS22",
+          "MS31"
         ]}
       }
     ],
@@ -3248,6 +3264,7 @@ faction_mercs_tiers = {"tiers":[
           "MJ08",
           "MJ14",
           "MJ15",
+          "MJ19",
           "MU02",
           "MU06",
           "MA03",
@@ -3259,7 +3276,8 @@ faction_mercs_tiers = {"tiers":[
           "Lug_mercs",
           "MS05",
           "MS12",
-          "MS17"
+          "MS17",
+          "MS32"
         ]}
       },
       {
@@ -3282,6 +3300,7 @@ faction_mercs_tiers = {"tiers":[
           "MJ08",
           "MJ14",
           "MJ15",
+          "MJ19",
           "MU02",
           "MU06",
           "MA03",
@@ -3293,7 +3312,8 @@ faction_mercs_tiers = {"tiers":[
           "Lug_mercs",
           "MS05",
           "MS12",
-          "MS17"
+          "MS17",
+          "MS32"
         ]}
       },
       {
@@ -3311,7 +3331,8 @@ faction_mercs_tiers = {"tiers":[
             "MJ07",
             "MJ08",
             "MJ14",
-            "MJ15"
+            "MJ15",
+            "MJ19"
           ],
           "inBG": true
         }],
@@ -3323,6 +3344,7 @@ faction_mercs_tiers = {"tiers":[
           "MJ08",
           "MJ14",
           "MJ15",
+          "MJ19",
           "MU02",
           "MU06",
           "MA03",
@@ -3334,7 +3356,8 @@ faction_mercs_tiers = {"tiers":[
           "Lug_mercs",
           "MS05",
           "MS12",
-          "MS17"
+          "MS17",
+          "MS32"
         ]}
       },
       {
@@ -3364,6 +3387,7 @@ faction_mercs_tiers = {"tiers":[
           "MJ08",
           "MJ14",
           "MJ15",
+          "MJ19",
           "MU02",
           "MU06",
           "MA03",
@@ -3375,7 +3399,8 @@ faction_mercs_tiers = {"tiers":[
           "Lug_mercs",
           "MS05",
           "MS12",
-          "MS17"
+          "MS17",
+          "MS32"
         ]}
       }
     ],
@@ -4090,7 +4115,8 @@ faction_mercs_tiers = {"tiers":[
           "MS06",
           "MS15",
           "IS06_mercs",
-          "MS16"
+          "MS16",
+          "MS29"
         ]}
       },
       {
@@ -4134,7 +4160,8 @@ faction_mercs_tiers = {"tiers":[
           "MS06",
           "MS15",
           "IS06_mercs",
-          "MS16"
+          "MS16",
+          "MS29"
         ]}
       },
       {
@@ -4178,7 +4205,8 @@ faction_mercs_tiers = {"tiers":[
           "MS06",
           "MS15",
           "IS06_mercs",
-          "MS16"
+          "MS16",
+          "MS29"
         ]}
       },
       {
@@ -4222,7 +4250,8 @@ faction_mercs_tiers = {"tiers":[
           "MS06",
           "MS15",
           "IS06_mercs",
-          "MS16"
+          "MS16",
+          "MS29"
         ]}
       }
     ],
@@ -4272,6 +4301,7 @@ faction_mercs_tiers = {"tiers":[
           "MS05",
           "MS12",
           "MS17",
+          "MS32",
           "IW01_mercs",
           "Lug_mercs"
         ]}
@@ -4312,6 +4342,7 @@ faction_mercs_tiers = {"tiers":[
           "MS05",
           "MS12",
           "MS17",
+          "MS32",
           "IW01_mercs",
           "Lug_mercs"
         ]}
@@ -4352,6 +4383,7 @@ faction_mercs_tiers = {"tiers":[
           "MS05",
           "MS12",
           "MS17",
+          "MS32",
           "IW01_mercs",
           "Lug_mercs"
         ]}
@@ -4395,6 +4427,7 @@ faction_mercs_tiers = {"tiers":[
           "MS05",
           "MS12",
           "MS17",
+          "MS32",
           "IW01_mercs",
           "Lug_mercs"
         ]}
@@ -4467,6 +4500,7 @@ faction_mercs_tiers = {"tiers":[
           "MA01",
           "MA02",
           "MU14",
+          "MU21",
           "MS08",
           "MS09",
           "MS10",
@@ -4505,6 +4539,7 @@ faction_mercs_tiers = {"tiers":[
           "MA01",
           "MA02",
           "MU14",
+          "MU21",
           "MS08",
           "MS09",
           "MS10",
@@ -4543,6 +4578,7 @@ faction_mercs_tiers = {"tiers":[
           "MA01",
           "MA02",
           "MU14",
+          "MU21",
           "MS08",
           "MS09",
           "MS10",
@@ -4592,6 +4628,7 @@ faction_mercs_tiers = {"tiers":[
           "MA01",
           "MA02",
           "MU14",
+          "MU21",
           "MS08",
           "MS09",
           "MS10",
@@ -4660,11 +4697,14 @@ faction_mercs_tiers = {"tiers":[
         "IB02_mercs",
         "IB06_mercs",
         "IB09_mercs",
+        "IB10_mercs",
+        "IB11_mercs",
         "IB08_mercs",
         "IB07_mercs",
         "IB05_mercs",
         "IB04_mercs",
         "IB03_mercs",
+        "IB12_mercs",
         "ME01",
         "MU01",
         "MU02",
@@ -4720,6 +4760,7 @@ faction_mercs_tiers = {"tiers":[
         "MS26",
         "MS29",
         "MS30",
+        "MS32",
         "IS01_mercs",
         "IS03_mercs",
         "IS06_mercs",
@@ -4797,6 +4838,8 @@ faction_mercs_tiers = {"tiers":[
         "IB02_mercs",
         "IB06_mercs",
         "IB09_mercs",
+        "IB10_mercs",
+        "IB11_mercs",
         "ME01",
         "MU01",
         "MU02",
@@ -4855,6 +4898,7 @@ faction_mercs_tiers = {"tiers":[
         "MS26",
         "MS29",
         "MS31",
+        "MS32",
         "IS01_mercs",
         "IS03_mercs",
         "IS04_mercs",
@@ -5013,6 +5057,7 @@ faction_mercs_tiers = {"tiers":[
         "MS05",
         "MS12",
         "MS17",
+        "MS32",
         "IS03_mercs",
         "IW01_mercs",
         "Lug_mercs"

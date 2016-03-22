@@ -2775,6 +2775,8 @@ faction_minions_tiers = {"tiers":[
         "IB02",
         "IB06",
         "IB09",
+        "IB10",
+        "IB11",
         "MJ04_minion",
         "MJ12_minion",
         "MJ09_minion",
