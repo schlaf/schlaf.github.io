@@ -644,7 +644,6 @@ faction_cryx_entries = {"groups":[
         "id": "CS17",
         "type": "solo"
       },
-      }
       {
         "name": "Soul Trapper",
         "fa": "3",
