@@ -637,6 +637,15 @@ faction_cryx_entries = {"groups":[
     "id": "faction_cryx_solos",
     "entries": [
       {
+        "name": "Bloat Thrall Overseer Mobius",
+        "fa": "C",
+        "cost": 3,
+        "faction": "faction_cryx",
+        "id": "CS17",
+        "type": "solo"
+      },
+      }
+      {
         "name": "Soul Trapper",
         "fa": "3",
         "cost": 1,
@@ -804,7 +813,8 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS03",
           "CS04",
-          "CS01"
+          "CS01",
+          "CS17"
         ]}
       },
       {
@@ -858,7 +868,8 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS03",
           "CS04",
-          "CS01"
+          "CS01",
+          "CS17"
         ]}
       },
       {
@@ -903,7 +914,8 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS03",
           "CS04",
-          "CS01"
+          "CS01",
+          "CS17"
         ]}
       },
       {
@@ -957,7 +969,8 @@ faction_cryx_tiers = {"tiers":[
           "CS05",
           "CS03",
           "CS04",
-          "CS01"
+          "CS01",
+          "CS17"
         ]}
       }
     ],
@@ -2410,7 +2423,8 @@ faction_cryx_tiers = {"tiers":[
           "CS07",
           "CS02",
           "CS04",
-          "CS01"
+          "CS01",
+          "CS17"
         ]}
       },
       {
@@ -2454,7 +2468,8 @@ faction_cryx_tiers = {"tiers":[
           "CS07",
           "CS02",
           "CS04",
-          "CS01"
+          "CS01",
+          "CS17"
         ]}
       },
       {
@@ -2511,7 +2526,8 @@ faction_cryx_tiers = {"tiers":[
           "CS07",
           "CS02",
           "CS04",
-          "CS01"
+          "CS01",
+          "CS17"
         ]}
       },
       {
@@ -2563,7 +2579,8 @@ faction_cryx_tiers = {"tiers":[
           "CS07",
           "CS02",
           "CS04",
-          "CS01"
+          "CS01",
+          "CS17"
         ]}
       }
     ],
@@ -2636,7 +2653,8 @@ faction_cryx_tiers = {"tiers":[
           "CS02",
           "CS03",
           "CS04",
-          "CS11"
+          "CS11",
+          "CS17"
         ]}
       },
       {
@@ -2679,7 +2697,8 @@ faction_cryx_tiers = {"tiers":[
           "CS02",
           "CS03",
           "CS04",
-          "CS11"
+          "CS11",
+          "CS17"
         ]}
       },
       {
@@ -2748,7 +2767,8 @@ faction_cryx_tiers = {"tiers":[
           "CS02",
           "CS03",
           "CS04",
-          "CS11"
+          "CS11",
+          "CS17"
         ]}
       },
       {
@@ -2795,7 +2815,8 @@ faction_cryx_tiers = {"tiers":[
           "CS02",
           "CS03",
           "CS04",
-          "CS11"
+          "CS11",
+          "CS17"
         ]}
       }
     ],
