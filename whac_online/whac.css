@@ -56,6 +56,47 @@ border: 1px solid #000;
 	width: 60%;
 }
 
+#drag div.comp_name  {
+	float: left; 
+	text-transform : uppercase;
+	font-size:8pt;
+	width: 20%;
+}
+
+#drag div.comp_nature {
+	float: left;
+	font-size:8pt;
+	width: 15%;
+	padding-left: 2px;
+}
+
+#drag div.comp_description {
+	padding-left: 15px;
+	font-size:8pt;
+	float: left;
+}
+
+#drop div.comp_name  {
+	float: left; 
+	text-transform : uppercase;
+	font-size:8pt;
+	width: 20%;
+}
+
+#drop div.comp_nature {
+	float: left;
+	font-size:8pt;
+	width: 15%;
+	padding-left: 2px;
+}
+
+#drop div.comp_description {
+	padding-left: 15px;
+	font-size:8pt;
+	float: left;
+}
+
+
 #army_selected ul li img.remove_entry {
 	width: 20px;
 	height: 20px;
@@ -411,3 +452,255 @@ img.tierImg{
 	float: right;
 }
 
+.drop_capacity {
+  margin-top: 10px;
+  padding: 40px;
+  border: 3px dashed #CCC;
+  color: #CCC;
+  font-size: 20px;
+  font-weight: bold; }
+ 
+.drop-model {
+  margin-top: 10px;
+  padding: 40px;
+  border: 3px dashed #CCC;
+  color: #CCC;
+  font-size: 20px;
+  font-weight: bold; }
+
+.capacities {
+	width: 100%;
+	height: 250px;
+	overflow-y: auto;
+
+}
+.capacity {
+	width: 100%;
+	float: left;
+	display: block;
+	font-size: 12px;
+  	font-weight: normal;
+}
+
+.capacity_even {background-color: #CCC}
+.capacity_odd {background-color: #FFF}
+
+
+.capa_copy {
+	display:table-cell;
+	vertical-align: top;
+    width: 50px;
+}
+
+.capa_id {
+	display:table-cell;
+    width: 150px;
+}
+
+.capa_value {
+	display:table-cell;
+    width: 350px;
+    white-space: pre-wrap;
+    overflow-y : auto;
+}
+
+.spells {
+	width: 100%;
+	height: 250px;
+	overflow-y: auto;
+
+}
+.spell {
+	width: 100%;
+	height: 80px;
+	display: block;
+	font-size: 12px;
+  	font-weight: normal;
+}
+
+.spell_edit {
+	white-space: pre-wrap;
+}
+
+.spell_headers {
+	width: 100%;
+	height: 20px;
+	display: block;
+	font-size: 12px;
+  	font-weight: normal;
+}
+
+.spell_even {background-color: #CCC}
+.spell_odd {background-color: #FFF}
+
+
+.spell_id {
+	float: left;
+    width: 150px;
+}
+.spell_cost {
+	float: right;
+    width: 40px;
+}
+.spell_range {
+	float: right;
+    width: 40px;
+}
+.spell_aoe {
+	float: right;
+    width: 40px;
+}
+.spell_off {
+	float: right;
+    width: 40px;
+}
+.spell_up {
+	float: right;
+    width: 40px;
+}
+
+
+.spell_desc {
+	float: right;
+	height: 40px;
+	width: 100%;
+	overflow-y: auto;
+}
+
+
+////////////////////////// cards
+.card_edit {
+	height: 150px;
+	width: 800px;
+	border-style: solid;
+	border-width: 1px;
+}
+.card_label {
+	width: 800px;
+	border-style: solid;
+	border-width: 1px;
+}
+.card_title {
+	text-transform: uppercase;
+	background-color: beige;
+	float: left;
+	width: 100%;
+	font-size: 14px;
+}
+
+.card_name {
+	width: 150px;
+	float: left;
+}
+
+.card_qualification {
+	text-transform: uppercase;
+	background-color: beige;
+	width: 100%;
+	font-size: 14px;
+}
+.card_fa {
+	text-align: center;
+	float: left;
+	width: 100px;
+}
+.card_cost {
+	float: right;
+	width: 70%;
+}
+
+.model_stats{
+	border-style: solid;
+	border-width: 1px;
+	width: 800px;
+}
+
+.weapons {
+	width: 800px;
+}
+.weapon_stats {
+	padding: 10px 15px;
+	margin-left:auto;
+	margin-right:0;
+	border: solid 1px #20538D;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+	width: 600px;
+}
+
+.weapon_title {
+	background-color: beige;
+}
+
+.weapon_title {
+	background-color: beige;
+}
+
+.model_title
+{
+	text-transform: uppercase;
+	background-color: beige;
+	float: left;
+	width: 100%;
+	font-size: 20px;
+}
+.model_basestats
+{
+	width: 100%;
+	font-size: 20px;
+}
+.stat_title {
+	width: 50px;
+	display:inline-block;
+	background-color: black;
+	color: white;
+}
+.stat_value {
+	display:inline-block;
+	width: 50px;
+}
+
+
+
+
+
+.button-link {
+    padding: 10px 15px;
+    background: #4479BA;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-link:hover {
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.button-link:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #2E5481;
+    border: solid 1px #203E5F;
+}
+
+.faction_options {
+	background-color: black;
+	height: 75px;
+	vertical-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
