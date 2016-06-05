@@ -121,8 +121,15 @@ function updateSpell() {
 	  		$("body").css("cursor", "default");
 	  		$('#spell_filter').val("");
 	  		var spell_responded = jqXHR.responseJSON;
+	  		$('#input_spell_id').val(spell_responded._id.$oid);
+	  		$('.new_spell_button').show()
+			$('.create_spell_button').hide();
+			$('.update_spell_button').show();
+
 	  		alert("spell updated");
 	  		refreshSpells();
+
+
 
 	  		// search all cards for spell to update
 	  		pushSpellInCards(spell_responded);
@@ -378,6 +385,12 @@ function createNewCapacity() {
 		complete:   function( jqXHR, textStatus){
 			$("body").css("cursor", "default");
 			response = jqXHR.responseJSON;
+
+	  		$('#input_capa_id').val(response._id.$oid);
+	  		$('.new_capa_button').show()
+			$('.create_capa_button').hide();
+			$('.update_capa_button').show();
+
 			alert("capacity created");
 			$('#capa_filter').val("");
 			refreshCapacities();
@@ -420,6 +433,12 @@ function createNewSpell() {
 	  		$("body").css("cursor", "default");
 	  		$('#spell_filter').val("");
 	  		var spell_responded = jqXHR.responseJSON;
+
+	  		$('#input_spell_id').val(spell_responded._id.$oid);
+	  		$('.new_spell_button').show()
+			$('.create_spell_button').hide();
+			$('.update_spell_button').show();
+
 	  		alert("spell created");
 	  		refreshSpells();
 	  	}

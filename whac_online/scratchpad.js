@@ -27,17 +27,26 @@ data = troll_data;
 capacities = [];
 spells = [];
 
+counter = 0;
+delay = 0
 
 for (army in all_data) {
-	data = all_data[army];
-	createCasters();
-	createWarlocks();
-	createWarjacks();
-	createWarbeasts();
-	createColossals();
-	createUnits();
-	createSolos();
-	createBEs();
+
+	setTimeout(function(){ 
+		data = all_data[counter];
+		createCasters();
+		createWarlocks();
+		createWarjacks();
+		createWarbeasts();
+		createColossals();
+		createUnits();
+		createSolos();
+		createBEs();
+		counter++;
+    }, delay * 20000);  
+
+	delay++;
+
 }
 
 
