@@ -6,7 +6,7 @@ factions[systems[1]] = ["Everblight", "Orboros", "Minions", "Skorne", "Trollbloo
 
 faction_codes = [];
 faction_codes[systems[0]] = ["faction_cryx", "faction_cygnar", "faction_cyriss", "faction_khador", "faction_mercs", "faction_menoth", "faction_retribution"];
-faction_codes[systems[1]] = ["faction_everblight", "faction_orboros", "faction_minion", "faction_skorne", "faction_trollblood"];
+faction_codes[systems[1]] = ["faction_everblight", "faction_orboros", "faction_minions", "faction_skorne", "faction_trollblood"];
 
 
 model_types = ["all", "warcaster", "warlock", "warjack", "colossal", "warbeast", "battle engine", "unit", "CA", "WA","solo"];
@@ -280,7 +280,7 @@ function refreshModels(systemValue, faction, modeTypeValue) {
 					if (firstModelId == "0") {
 						firstModelId = model._id;
 					}
-					options += '<option value="' + model._id + '">' + model.name + '</option>';		
+					options += '<option value="' + model._id + '" class="' + model.status.replace(/[ ]/g, "_") + '">' + model.name + '</option>';		
 				}
 			}
 		}) ;

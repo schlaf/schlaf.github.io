@@ -704,3 +704,13 @@ img.tierImg{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+.copy_of_MK2 {
+	background-color: orange;
+}
+.Mk3_in_progress {
+	background-color: yellow;
+}
+.MK3_done {
+	background-color: green;	
+}
