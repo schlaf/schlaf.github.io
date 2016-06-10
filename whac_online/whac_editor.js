@@ -89,7 +89,7 @@ function updateCapacity() {
 	  	data: JSON.stringify( { "_title" : $capa_name , "_type" : $capa_type, "__text" : $capa_text }),
 	  	complete:   function( jqXHR, textStatus){
 	  		$("body").css("cursor", "default");
-	  		$('#capa_filter').val("");
+	  		// $('#capa_filter').val("");
 	  		var capacity_responded = jqXHR.responseJSON;
 	  		alert("capacity updated");
 	  		refreshCapacities();
@@ -297,38 +297,44 @@ function updateCapacities(response, updateCapacitiesList) {
 
 		// fill capacity map with oid as key
 		capacities.map(function (capacity) {
-			capacities_map[capacity._id.$oid] = capacity;	
+			capacities_map[capacity._id.$oid] = capacity;
+			capacity.visible = true	;
 		});
-		
-
 	}
-	$panel = $('#capas_list_panel');
-	$panel.empty();
 
-	$odd = true;
+	if (updateCapacitiesList) {
+		$panel = $('#capas_list_panel');
+		$panel.empty();
 
-	var template_capacities = $.templates("#capacities_display");
-	var all_capas = {capacities : response};
-	linked_template_capas = template_capacities.link($("#capas_list_panel"), all_capas);
+		$odd = true;
 
-    $('.capa_copy').on("click", function() {
-    	var m_capa = $.view(this).data; // data is the current "model"
-    	copied_capacity = m_capa;
-    });
+		var template_capacities = $.templates("#capacities_display");
+		var all_capas = {capacities : response};
+		linked_template_capas = template_capacities.link($("#capas_list_panel"), all_capas);
 
-    $('.capa_edit').on("click", function() {
-    	var m_capa = $.view(this).data; // data is the current "model"
-    	$('#input_capa_id').val(m_capa._id.$oid);
-		$('#input_capa_title').val(m_capa._title);
-		$('#input_capa_type').val(m_capa._type);
-		$('#input_capa_text').val(m_capa.__text);
+	    $('.capa_copy').on("click", function() {
+	    	var m_capa = $.view(this).data; // data is the current "model"
+	    	copied_capacity = m_capa;
+	    });
+
+	    $('.capa_edit').on("click", function() {
+	    	var m_capa = $.view(this).data; // data is the current "model"
+	    	$('#input_capa_id').val(m_capa._id.$oid);
+			$('#input_capa_title').val(m_capa._title);
+			$('#input_capa_type').val(m_capa._type);
+			$('#input_capa_text').val(m_capa.__text);
 
 
-    	$('.create_capa_button').hide();
-    	$('.new_capa_button').show();
-    	$('.update_capa_button').show();
+	    	$('.create_capa_button').hide();
+	    	$('.new_capa_button').show();
+	    	$('.update_capa_button').show();
 
-    });
+	    });
+	} 
+
+	// apply filtering
+	refreshCapacitiesWithFilter($('#capa_filter').val());
+
 }
 
 function refreshCapacities() {
@@ -347,15 +353,17 @@ function refreshCapacities() {
 }
 
 function refreshCapacitiesWithFilter(filterValue) {
-	filteredCaps = capacities.filter(function(capacity) {
+	capacities.map(function(capacity) {
 		if (filterValue == null || filterValue.length == 0 ) {
-			return true;
+			$.observable(capacity).setProperty('visible', true);
+		} else {
+			if (capacity._title.toUpperCase().indexOf(filterValue.toUpperCase()) >= 0) {
+				$.observable(capacity).setProperty('visible', true);
+			} else {
+				$.observable(capacity).setProperty('visible', false);
+			}
 		}
-		return (capacity._title.toUpperCase().indexOf(filterValue.toUpperCase()) >= 0);
 	});
-
-	updateCapacities(filteredCaps, false);
-
 }
 
 
@@ -392,7 +400,7 @@ function createNewCapacity() {
 			$('.update_capa_button').show();
 
 			alert("capacity created");
-			$('#capa_filter').val("");
+			// $('#capa_filter').val("");
 			refreshCapacities();
 		}
 	});
