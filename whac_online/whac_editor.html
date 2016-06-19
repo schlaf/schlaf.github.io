@@ -33,6 +33,7 @@
 	    <select name="select_system" id="select_system"  autocomplete="off">
 	        <option value="0">Warmachine</option>
 	        <option value="1">Hordes</option>
+	        <option value="2">SR 2016 Objectives</option>
 	    </select>
 	    
 	    <select name="select_faction" id="select_faction"  autocomplete="off">
@@ -96,7 +97,7 @@
 	<td class="spell_attr">{{:_rng}} </td>
 	<td class="spell_attr">{{:_aoe}} </td>
 	<td class="spell_attr">{{:_pow}} </td>
-	<td class="spell_attr">{{:_dur}} </td>
+	<td class="spell_attr">{{:_duration}} </td>
 	<td class="spell_attr">{{:_off}} </td>
 </tr>
 <tr class="spell_edit"><td colspan="9">{{:__text}} </td></tr>
@@ -724,9 +725,6 @@ $.jsPanel({
     theme:    'primary',
     title:    'Spells/Animi'
 });
-
-
-
 
 
 // end of $(document).ready(function(){

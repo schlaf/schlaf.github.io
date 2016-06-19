@@ -1,12 +1,14 @@
 
-systems = ["Warmachine", "Hordes"];
+systems = ["Warmachine", "Hordes", "Objectives"];
 factions = [];
 factions[systems[0]] = ["Cryx", "Cygnar", "Cyriss", "Khador", "Mercenaries", "Protectorate", "Retribution"];
 factions[systems[1]] = ["Everblight", "Orboros", "Minions", "Skorne", "Trollblood"];
+factions[systems[2]] = ["Objectives SR 2016"];
 
 faction_codes = [];
 faction_codes[systems[0]] = ["faction_cryx", "faction_cygnar", "faction_cyriss", "faction_khador", "faction_mercs", "faction_menoth", "faction_retribution"];
 faction_codes[systems[1]] = ["faction_everblight", "faction_orboros", "faction_minions", "faction_skorne", "faction_trollblood"];
+faction_codes[systems[2]] = ["faction_objectives_sr2016"];
 
 
 model_types = ["all", "warcaster", "warlock", "warjack", "colossal", "warbeast", "battle engine", "unit", "CA", "WA","solo"];
@@ -22,8 +24,7 @@ var capacities; // all capacities, sorted alphab. asc. on title
 var capacities_map = []; // map with oid as key.
 var spells; // all spells, sorted alphab. asc. on title
 var spells_map = []; // map with oid as key
-
-
+var template_capacities;
 
 function populateFactions(systemValue) {
 	var options = '';
@@ -307,7 +308,10 @@ function updateCapacities(response, updateCapacitiesList) {
 
 	$odd = true;
 
-	var template_capacities = $.templates("#capacities_display");
+	if ( ! template_capacities) {
+		template_capacities = $.templates("#capacities_display");	
+	} 
+
 	var all_capas = {capacities : response};
 	linked_template_capas = template_capacities.link($("#capas_list_panel"), all_capas);
 
@@ -347,6 +351,8 @@ function refreshCapacities() {
 }
 
 function refreshCapacitiesWithFilter(filterValue) {
+	var start = new Date().getTime();
+	// new RegExp(searchstring, "i")
 	filteredCaps = capacities.filter(function(capacity) {
 		if (filterValue == null || filterValue.length == 0 ) {
 			return true;
@@ -354,6 +360,8 @@ function refreshCapacitiesWithFilter(filterValue) {
 		return (capacity._title.toUpperCase().indexOf(filterValue.toUpperCase()) >= 0);
 	});
 
+	var end = new Date().getTime() - start;
+	console.log("filter duration = " + end);
 	updateCapacities(filteredCaps, false);
 
 }
