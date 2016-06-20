@@ -64,7 +64,7 @@
 <script id="capacities_display" type="text/x-jsrender">
 <table><tbody>
 {^{for capacities}}
-<tr><td class="capa_copy">
+<tr data-link="visible{:visible}"><td class="capa_copy">
 	<img src="copy.png"></td>
 	<td class="capa_edit">
 	<span class="capa_id"> {^{:_title}} </span>
@@ -117,6 +117,7 @@
 						  <option>copy of MK2</option>
 					      <option>Mk3 in progress</option>
 					      <option>MK3 done</option>
+					      <option>MK3 new</option>
     			</select></div>
     	<div class="fa_cost">
 			<span class=""> FA: <select data-link="fa" trigger="true" >

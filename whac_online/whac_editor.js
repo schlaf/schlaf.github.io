@@ -17,7 +17,19 @@ MK_status = ["copy of MK2", "Mk3 in progress", "MK3 done"];
 
 selected_model_id = "";
 copied_capacity = {_title : "empty", __text : "empty"};
-copied_spell = undefined;
+copied_spell = {
+    "_id": {
+        "$oid": "57582f78bd966f5eba490850"
+    },
+    "_name": "ORNERY",
+    "_cost": "1",
+    "_rng": "SELF",
+    "_pow": "-",
+    "_aoe": "-",
+    "_duration": "RND",
+    "_off": "NO",
+    "__text": "The spellcaster gains Retaliatory Strike. Ornery lasts for one round and expires after the spellcaster makes a Retaliatory Strike attack. (If a model with Retaliatory Strike is hit by a melee attack made by an enemy model during your opponent's turn, after that attack is resolved the model with Retaliatory Strike can immediately make one basic melee attack against that model.)"
+};
 
 
 var capacities; // all capacities, sorted alphab. asc. on title
@@ -90,7 +102,7 @@ function updateCapacity() {
 	  	data: JSON.stringify( { "_title" : $capa_name , "_type" : $capa_type, "__text" : $capa_text }),
 	  	complete:   function( jqXHR, textStatus){
 	  		$("body").css("cursor", "default");
-	  		$('#capa_filter').val("");
+	  		// $('#capa_filter').val("");
 	  		var capacity_responded = jqXHR.responseJSON;
 	  		alert("capacity updated");
 	  		refreshCapacities();
@@ -298,41 +310,46 @@ function updateCapacities(response, updateCapacitiesList) {
 
 		// fill capacity map with oid as key
 		capacities.map(function (capacity) {
-			capacities_map[capacity._id.$oid] = capacity;	
+			capacities_map[capacity._id.$oid] = capacity;
+			capacity.visible = true	;
 		});
-		
-
 	}
-	$panel = $('#capas_list_panel');
-	$panel.empty();
 
-	$odd = true;
+	if (updateCapacitiesList) {
+		$panel = $('#capas_list_panel');
+		$panel.empty();
 
-	if ( ! template_capacities) {
-		template_capacities = $.templates("#capacities_display");	
+		var template_capacities = $.templates("#capacities_display");
+		var all_capas = {capacities : response};
+		linked_template_capas = template_capacities.link($("#capas_list_panel"), all_capas);
+
+		
+		var all_capas = {capacities : response};
+		linked_template_capas = template_capacities.link($("#capas_list_panel"), all_capas);
+
+	    $('.capa_copy').on("click", function() {
+	    	var m_capa = $.view(this).data; // data is the current "model"
+	    	copied_capacity = m_capa;
+	    });
+
+	    $('.capa_edit').on("click", function() {
+	    	var m_capa = $.view(this).data; // data is the current "model"
+	    	$('#input_capa_id').val(m_capa._id.$oid);
+			$('#input_capa_title').val(m_capa._title);
+			$('#input_capa_type').val(m_capa._type);
+			$('#input_capa_text').val(m_capa.__text);
+
+
+	    	$('.create_capa_button').hide();
+	    	$('.new_capa_button').show();
+	    	$('.update_capa_button').show();
+
+	    });
 	} 
 
-	var all_capas = {capacities : response};
-	linked_template_capas = template_capacities.link($("#capas_list_panel"), all_capas);
+	// apply filtering
+	refreshCapacitiesWithFilter($('#capa_filter').val());
 
-    $('.capa_copy').on("click", function() {
-    	var m_capa = $.view(this).data; // data is the current "model"
-    	copied_capacity = m_capa;
-    });
-
-    $('.capa_edit').on("click", function() {
-    	var m_capa = $.view(this).data; // data is the current "model"
-    	$('#input_capa_id').val(m_capa._id.$oid);
-		$('#input_capa_title').val(m_capa._title);
-		$('#input_capa_type').val(m_capa._type);
-		$('#input_capa_text').val(m_capa.__text);
-
-
-    	$('.create_capa_button').hide();
-    	$('.new_capa_button').show();
-    	$('.update_capa_button').show();
-
-    });
 }
 
 function refreshCapacities() {
@@ -351,19 +368,17 @@ function refreshCapacities() {
 }
 
 function refreshCapacitiesWithFilter(filterValue) {
-	var start = new Date().getTime();
-	// new RegExp(searchstring, "i")
-	filteredCaps = capacities.filter(function(capacity) {
+	capacities.map(function(capacity) {
 		if (filterValue == null || filterValue.length == 0 ) {
-			return true;
+			$.observable(capacity).setProperty('visible', true);
+		} else {
+			if (capacity._title.toUpperCase().indexOf(filterValue.toUpperCase()) >= 0) {
+				$.observable(capacity).setProperty('visible', true);
+			} else {
+				$.observable(capacity).setProperty('visible', false);
+			}
 		}
-		return (capacity._title.toUpperCase().indexOf(filterValue.toUpperCase()) >= 0);
 	});
-
-	var end = new Date().getTime() - start;
-	console.log("filter duration = " + end);
-	updateCapacities(filteredCaps, false);
-
 }
 
 
@@ -400,7 +415,7 @@ function createNewCapacity() {
 			$('.update_capa_button').show();
 
 			alert("capacity created");
-			$('#capa_filter').val("");
+			// $('#capa_filter').val("");
 			refreshCapacities();
 		}
 	});
