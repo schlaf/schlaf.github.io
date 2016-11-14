@@ -1,8 +1,5 @@
 angular.module('whacApp').controller('ListCards', function ($scope, $http, cardsService) {
 
-    $scope.selectedSystem={};
-    $scope.selectedFaction={};
-    $scope.selectedType="";
     $scope.selectedCard={};
     $scope.cards = [];
     $scope.filteredCards = [];
@@ -37,50 +34,98 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, cards
 
     $scope.modelTypes = ["all", "warcaster", "warlock", "warjack", "colossal", "warbeast", "battle engine", "unit", "CA", "WA","solo"];
 
-    $scope.modelTypesLabels = ["All", "Warcasters", "Warlocks", "Warjacks", "Colossals", "Warbeasts", "Battle engines", "Units", "Command Attachments", "Weapon Attachments","Solos"];
+    $scope.modelTypesSorting = {
+        "all":{"sort": -1, "innerType":"all", "name":"All"},
+        "warcaster": {"sort": 0, "innerType":"warcaster", "name":"Warcasters"}, 
+        "warlock":{"sort": 1, "innerType":"warlock", "name":"Warlocks"}, 
+        "warjack":{"sort": 2, "innerType":"warjack", "name":"Warjacks"},  
+        "colossal":{"sort": 3, "innerType":"colossal", "name":"Colossals"}, 
+        "warbeast":{"sort": 4, "innerType":"warbeast", "name":"Warbeasts"}, 
+        "battle engine":{"sort": 9, "innerType":"battle engine", "name":"Battle engines"}, 
+        "unit":{"sort": 5, "innerType":"unit", "name":"Units"}, 
+        "CA":{"sort": 6, "innerType":"CA", "name":"Command Attachments"}, 
+        "WA":{"sort": 7, "innerType":"WA", "name":"Weapon Attachments"}, 
+        "solo":{"sort": 8, "innerType":"solo", "name":"Solos"} 
+    };
 
-    $scope.modelTypesSorting = {"warcaster":0, "warlock":1, "warjack":2, "colossal":3, "warbeast":4, "battle engine":9, "unit":5, "CA":6, "WA":7,"solo":8};
+    $scope.meleeRanges = ["0.5", "1", "2"];
+    $scope.weaponLocations = ["-", "L", "R", "H", "S"];
+
+
+    $scope.selectedSystem=$scope.warmachine;
+    $scope.selectedFaction=$scope.cryx;
+    $scope.selectedType=$scope.modelTypesSorting['all'];
+
+
+
 
     $scope.faDefinitions = ["C", "1", "2", "3", "4","U"];
 
 
-    $scope.name = "Cedric";
-
-    $scope.currentAnimal = null;
-
-    $scope.alimentationTypes = [{"id":"CARNIVORE",name:"carni"},{"id":"HERBIVORE", "name":"herbi"},{"id":"OMNIVORE", "name":"omni"}];
-
-    
-
-    $scope.animaux = [
-        {
-            "name": "bachi",
-            "nature": "CARNIVORE",
-            "previewUrl": "https://pixabay.com/static/uploads/photo/2016/06/27/22/14/man-1483479_150.jpg",
-            "carnivore": true,
-            "herbivore": false
-        },
-        {
-            "name": "bouzouk",
-            "nature": "HERBIVORE",
-            "previewUrl": "https://pixabay.com/static/uploads/photo/2016/10/18/16/40/statue-1750690_150.jpg",
-            "carnivore": false,
-            "herbivore": true
+    $scope.isGrey = function(index) {
+        if (index %2 == 0) {
+            return "greyBg";
+        } else {
+            return "whiteBg"
         }
-    ];
-
-    $scope.retrieveTypeLabel = function(type) {
-        var i= 0;
-        var result = 0;
-        $scope.modelTypes.map(function(modelType) {
-            if (modelType == type) {
-                result = i;
-            }
-            i++;
-        });
-        return $scope.modelTypesLabels[result];
     }
 
+
+
+    $scope.addMeleeWeapon = function(model) {
+        if (model.weapons == undefined) {
+            model.weapons = {"melee_weapon" : [], "ranged_weapon" : []};
+        }
+        if (model.weapons.melee_weapon == undefined) {
+            model.weapons.melee_weapon = [{"_rng":"0.5", "_pow":"0","_p_plus_s":"0", "_location":"", "_count":""}];
+        } else {
+            var newWeapon = {"_rng":"0.5", "_pow":"0","_p_plus_s":"0", "_location":"", "_count":""};
+            model.weapons.melee_weapon.push(newWeapon);
+        }
+    }
+
+    $scope.addRangedWeapon = function(model) {
+        if (model.weapons == undefined) {
+            model.weapons = {"melee_weapon" : [], "ranged_weapon" : []};
+        }
+        if (model.weapons.ranged_weapon == undefined) {
+            model.weapons.ranged_weapon = [{"_rng":"0", "_rof":"1","_pow":"0","_p_plus_s":"0", "_location":"", "_count":""}];
+        } else {
+            var newWeapon = {"_rng":"0", "_rof":"1","_pow":"0","_p_plus_s":"0", "_location":"", "_count":""};
+            model.weapons.ranged_weapon.push(newWeapon);
+        }
+    }
+
+
+    $scope.removeMeleeWeapon = function(model, index) {
+        if (window.confirm("Are you sure to remove this weapon?")) { 
+            model.weapons.melee_weapon.splice(index, 1);
+        }
+    }
+
+    $scope.removeRangedWeapon = function(model, index) {
+        if (window.confirm("Are you sure to remove this weapon?")) { 
+            model.weapons.ranged_weapon.splice(index, 1);
+        }
+    }
+
+    $scope.removeWeaponCapacity = function(weapon, index) {
+        if (window.confirm("Are you sure to remove this capacity?")) { 
+            weapon.capacities.splice(index, 1);
+        }
+    }    
+
+
+    $scope.removeCapacity = function(model, index) {
+        if (window.confirm("Are you sure to remove this capacity?")) { 
+            model.capacities.splice(index, 1);
+        }
+    }    
+
+
+    $scope.retrieveTypeLabel = function(type) {
+        return $scope.modelTypesSorting[type].name;
+     }
 
 
     $scope.getCards = function() {
@@ -88,7 +133,7 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, cards
             function( cards ) {
                 $scope.cards = cards;
                 $scope.cards.map( function(card) {
-                        var sortName = $scope.modelTypesSorting[card.type];
+                        var sortName = $scope.modelTypesSorting[card.type].sort;
                         card.sortedLabel = sortName + card.name;
                     });
 

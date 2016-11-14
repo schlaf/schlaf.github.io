@@ -26,17 +26,21 @@ angular.module('whacApp').service(
             result = [];
             var i = 0;
             var passType = false;
-            if ( modelType == "all") {passType = true;}
-            allCards.map(function(card){
-                if (card.faction == faction.code)  {
-                    if ( passType || card.type == modelType) {
-                        result[i] = card;
-                        i++;
-                    }
-                }
-            }) ;
-            return result;
+            if ( modelType.innerType == "all") {passType = true;}
+            return allCards.filter(matchFactionAndType(faction, modelType.innerType, passType));
         }
+
+        function matchFactionAndType(faction, modelType, passType) {
+            return function(element) { 
+                if (element.faction == faction.code)  {
+                    if ( passType || element.type == modelType) {
+                        return true;
+                    }
+                } 
+                return false;
+            }
+        }
+
 
         function getCard() {
             return {"_id":"empty","name":"unknown"};
