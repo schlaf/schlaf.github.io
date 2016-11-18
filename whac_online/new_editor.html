@@ -17,6 +17,10 @@
     <script src="resources/js/cards/cards.service.js"></script>
     <script src="resources/js/cards/cards.controller.js"></script>
 
+    <script src="resources/js/capacities/capacities.service.js"></script>
+    <script src="resources/js/capacities/capacities.controller.js"></script>
+
+
 </head>
 <body>
 <script>
@@ -47,9 +51,12 @@
                         </table>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" ng-show="cards.length == 0">
+                        Waiting for cards loading....
+                    </div>
+                    <div class="col-lg-6" ng-show="cards.length > 0">
                         <button type="button" class="btn btn-default btn-lg" ng-click="filterCards()">
-                          <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                          <span class="glyphicon glyphicon-arrow-right" aria-hidden="true">Filter</span>
                         </button>
 
                         <select ng-size="{{filteredCards.length}}" ng-options="card.name group by retrieveTypeLabel(card.type) for card in filteredCards | orderBy:'sortedLabel'" ng-model="selectedCard"></select>
@@ -58,43 +65,14 @@
                           <span class="glyphicon glyphicon-pencil" aria-hidden="true">Edit</span>
                         </button>
                     </div>
-                    </div>
-                    </div>
+                </div>
+            </div>
 
-                    <div ng-if="editedCard.name != undefined" class="panel panel-primary" class="animate-if">
-                    <div class="panel-heading">Editing {{editedCard.name}} <button type="button" class="btn btn-default btn-lg" ng-click="save()"><span class="glyphicon glyphicon-floppy-saved " aria-hidden="true"></span></button> </div>
+            <div ng-if="editedCard.name != undefined" class="panel panel-primary" class="animate-if">
+                <div class="panel-heading">Editing {{editedCard.name}} <button type="button" class="btn btn-default btn-lg" ng-click="save()"><span class="glyphicon glyphicon-floppy-saved " aria-hidden="true"></span></button> </div>
                     <div class="panel-body">
 
-                    <div class="panel-info">
-                        <div class="panel-heading">Model headers </div>
-                        <div class="panel-body">
-                        <table class="table table-inverse">
-                            <tr><td minWidth="100px">Id </td><td>{{editedCard._id}}</td></tr>
-                            <tr><td>Name </td><td><input ng-model="editedCard.name" size="30" /></td></tr>
-                            <tr><td>Full name </td><td><input ng-model="editedCard.full_name" size="40" /></td></tr>
-                            <tr><td>Qualification </td><td><input ng-model="editedCard.qualification" size="40"/></td></tr>
-                            <tr ng-if="editedCard.type!='unit'">
-                                <td ng-if="editedCard.type=='warcaster'">Warjack points </td>
-                                <td ng-if="editedCard.type=='warlock'">Warbeasts points </td>
-                                <td ng-if="editedCard.type!='warcaster' && editedCard.type!='warlock'">Cost </td>
-                                <td>
-                                    <input ng-if="editedCard.type=='warcaster'" ng-model="editedCard.wj_points" size="2" />
-                                    <input ng-if="editedCard.type=='warlock'" ng-model="editedCard.wb_points" size="2" />
-                                    <input ng-if="editedCard.type!='warcaster' && editedCard.type!='warlock'" ng-model="editedCard.cost" size="2" />
-                                </td>
-                            </tr>
-                            <tr ng-if="editedCard.type=='unit' && editedCard.maxSize=='-'">
-                                <td>Cost </td>
-                                <td> <input ng-model="editedCard.minCost" size="2" /> points for <input ng-model="editedCard.minSize" size="2" /> models</td>
-                            </tr>
-                            <tr ng-if="editedCard.type=='unit' && editedCard.maxSize!='-'">
-                                <td>Cost </td>
-                                <td> <input ng-model="editedCard.minCost" size="2" />/<input ng-model="editedCard.maxCost" size="2" /> points for <input ng-model="editedCard.minSize" size="2" /> / <input ng-model="editedCard.maxSize" size="2" /> models </td>
-                            </tr>
-                            <tr><td>Field Allowance </td><td><select ng-options="fa for fa in faDefinitions" ng-model="editedCard.fa"></td></tr>
-                        </table>
-                        </div>
-                    </div> <!-- card_label -->
+                    <div header></div>
 
                     <div ng-if="editedCard.feat != undefined" class="panel-info">
                         <div class="panel-heading"> Feat : <input ng-model="editedCard.feat.title" trigger="true" size="80" /></div>
@@ -104,104 +82,10 @@
                     <div class="panel-info" ng-repeat="model in editedCard.models" >
                         <div class="panel-heading">Model #{{$index + 1}} : <input ng-model="model.basestats._name" size="40"/></div>
                         <div class="panel-body"> 
-                            <table class="gridtable">
-                                <thead>
-                                <tr>
-                                <th>SPD</th><th>STR</th><th>MAT</th><th>RAT</th><th>DEF</th><th>ARM</th><th>CMD</th><th>FOC</th><th>FUR</th><th>THR</th><th>HP</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td><input ng-model="model.basestats._spd" size="2"></td>
-                                    <td><input ng-model="model.basestats._str" size="2"></td>
-                                    <td><input ng-model="model.basestats._mat" size="2"></td>
-                                    <td><input ng-model="model.basestats._rat" size="2"></td>
-                                    <td><input ng-model="model.basestats._def" size="2"></td>
-                                    <td><input ng-model="model.basestats._arm" size="2"></td>
-                                    <td><input ng-model="model.basestats._cmd" size="2"></td>
-                                    <td><input ng-model="model.basestats._foc" size="2"></td>
-                                    <td><input ng-model="model.basestats._fur" size="2"></td>
-                                    <td><input ng-model="model.basestats._thr" size="2"></td>
-                                    <td><input ng-model="model.basestats._hitpoints" size="2"></td>
-                                </tr>
-                                </tbody>
-                            </table>
 
-                            <div class="icons">
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._advance_deployment" />Advance deploy, 
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._amphibious" />amphibious, 
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._arc_node" />arc node, 
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._assault"/>assault, 
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._cavalry"/>cavalry,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._cma"/>CMA,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._cra"/>CRA,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._construct"/>construct,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._eyelesssight"/>eyeless,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._flight"/>flight,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._gunfighter"/>gunfighter,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._incorporeal"/>incorporeal,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._immunity_corrosion"/>immune corr.
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._immunity_electricity"/>immune elect.
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._immunity_fire"/>immune fire,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._immunity_frost"/>immune frost,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._jack_marshal"/>jack marshal,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._officer"/>officer,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._parry"/>parry,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._pathfinder"/>pathfinder,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._soulless"/>soulless,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._standard_bearer"/>standard bearer,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._stealth"/>stealth,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._tough"/>tough,
-                                <input type="checkbox" ng-true-value="'true'" ng-model="model.basestats._undead"/>Undead
-                            </div>   
-
-                            <div class="panel-success">
-                                <div class="panel-heading">Spells
-                                    <button type="button" class="btn btn-default btn-lg" ng-click="pasteSpell()">
-                                        <img src="resources/magical_weapon_icon.png" height="42" width="42"> Paste
-                                        <span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span>
-                                    </button>
-                                    <button type="button" class="btn btn-default btn-lg" ng-click="searchSpell()">
-                                        <img src="resources/magical_weapon_icon.png" height="42" width="42"> Search/Edit
-                                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                                    </button>    
-                                </div>
-                                <div class="panel-body">
-                                    <table class="gridtable" width="100%" ng-if="model.spells.length > 0">
-                                        <thead>
-                                        <tr>
-                                            <td class="spell_name">Name</th>
-                                            <th class="spell_attr">Cost</th>
-                                            <th class="spell_attr">RNG</th>
-                                            <th class="spell_attr">AOE</th>
-                                            <th class="spell_attr">POW</th>
-                                            <th class="spell_attr">DUR</th>
-                                            <th class="spell_attr">OFF</th>
-                                            <th >&nbsp;</th>
-                                        </tr>
-                                        </thead>
-
-
-                                        <tbody ng-repeat="spell in model.spells"  >
-                                        <tr>
-                                            <td class="spell_name" rowspan="2" ng-class="isGrey($index)">{{spell._name}} </td>
-                                            <td class="spell_attr" ng-class="isGrey($index)">{{spell._cost}} </td>
-                                            <td class="spell_attr" ng-class="isGrey($index)">{{spell._rng}} </td>
-                                            <td class="spell_attr" ng-class="isGrey($index)">{{spell._aoe}} </td>
-                                            <td class="spell_attr" ng-class="isGrey($index)">{{spell._pow}} </td>
-                                            <td class="spell_attr" ng-class="isGrey($index)">{{spell._duration}} </td>
-                                            <td class="spell_attr" ng-class="isGrey($index)">{{spell._off}} </td>
-                                            <td class="spell_remove" rowspan="2" ng-class="isGrey($index)">
-                                                <button type="button" class="btn btn-default btn-lg" ng-click="removeSpell( model, $index)">
-                                                    <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr class="spell_edit"><td colspan="6" ng-class="isGrey($index)"> {{spell.__text}} </td></tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
+                            <div basestats></div>
+                            
+                            <div spells></div>
 
                             <div class="panel-warning">
                                 <div class="panel-heading">Weapons  
@@ -387,6 +271,8 @@
                     </div>
                 </div>
             </div>
+
+            <div my-card></div>
         </div><!-- end card_edit -->
 
 
@@ -408,6 +294,10 @@
     </div>
 
 <div>
+
+<div ng-controller="ListCapacities">
+youp
+</div>
 
 <script>
     $('#myTab a').click(function (e) {

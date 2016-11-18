@@ -1,0 +1,49 @@
+<div class="panel-success">
+    <div class="panel-heading">Spells
+        <button type="button" class="btn btn-default btn-lg" ng-click="pasteSpell()">
+            <img src="resources/magical_weapon_icon.png" height="42" width="42"> Paste
+            <span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span>
+        </button>
+        <button type="button" class="btn btn-default btn-lg" ng-click="searchSpell()">
+            <img src="resources/magical_weapon_icon.png" height="42" width="42"> Search/Edit
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </button>    
+    </div>
+
+    <div class="panel-body">
+        <table class="gridtable" width="100%" ng-if="model.spells.length > 0">
+            <thead>
+            <tr>
+                <td class="spell_name">Name</th>
+                <th class="spell_attr">Cost</th>
+                <th class="spell_attr">RNG</th>
+                <th class="spell_attr">AOE</th>
+                <th class="spell_attr">POW</th>
+                <th class="spell_attr">DUR</th>
+                <th class="spell_attr">OFF</th>
+                <th >&nbsp;</th>
+            </tr>
+            </thead>
+
+
+            <tbody ng-repeat="spell in model.spells"  >
+            <tr>
+                <td class="spell_name" rowspan="2" ng-class="isGrey($index)">{{spell._name}} </td>
+                <td class="spell_attr" ng-class="isGrey($index)">{{spell._cost}} </td>
+                <td class="spell_attr" ng-class="isGrey($index)">{{spell._rng}} </td>
+                <td class="spell_attr" ng-class="isGrey($index)">{{spell._aoe}} </td>
+                <td class="spell_attr" ng-class="isGrey($index)">{{spell._pow}} </td>
+                <td class="spell_attr" ng-class="isGrey($index)">{{spell._duration}} </td>
+                <td class="spell_attr" ng-class="isGrey($index)">{{spell._off}} </td>
+                <td class="spell_remove" rowspan="2" ng-class="isGrey($index)">
+                    <button type="button" class="btn btn-default btn-lg" ng-click="removeSpell( model, $index)">
+                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                    </button>
+                </td>
+            </tr>
+            <tr class="spell_edit"><td colspan="6" ng-class="isGrey($index)"> {{spell.__text}} </td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+

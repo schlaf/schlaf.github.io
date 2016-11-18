@@ -175,5 +175,23 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, cards
     $scope.getCards();
 
 
+}).directive('myCard', function() {
+  return {
+    template: 'Name: {{editedCard.name}} Type: {{editedCard.type}}'
+  };
+}).directive('header', function() {
+  return {
+    templateUrl: 'resources/js/cards/cards.header.html'
+  };
+}).directive('basestats', function() {
+  return {
+    templateUrl: 'resources/js/cards/cards.basestats.html'
+  };
+}).directive('spells', function() {
+  return {
+    templateUrl: function(elem, attr) {
+      return 'resources/js/cards/cards.spells.html';
+    }
+  };
 });
 
