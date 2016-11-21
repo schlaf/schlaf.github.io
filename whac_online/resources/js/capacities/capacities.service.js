@@ -12,7 +12,7 @@ angular.module('whacApp').service(
 
             var request = $http({
                 method: "get",
-                url: "https://api.mlab.com/api/1/databases/whac/collections/capacities?l=100&s={'name':1}&apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa",
+                url: "https://api.mlab.com/api/1/databases/whac/collections/capacities?l=10000&s={'name':1}&apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa",
                 params: {
                     action: "get"
                 }
@@ -21,21 +21,22 @@ angular.module('whacApp').service(
 
         };
 
-        /* return cards that match faction & type */
-        function filterCapacities(allCards, faction, modelType) {
+        /* return capacities that match title (start) & textcontent (contains) */
+        function filterCapacities(allCapacities, title, textContent) {
             result = [];
             var i = 0;
-            var passType = false;
-            if ( modelType.innerType == "all") {passType = true;}
-            return allCards.filter(matchFactionAndType(faction, modelType.innerType, passType));
+            return allCapacities.filter(matchTitleAndContent(title, textContent));
         }
 
-        function matchFactionAndType(faction, modelType, passType) {
+        function matchTitleAndContent(title, textContent) {
             return function(element) { 
-                if (element.faction == faction.code)  {
-                    if ( passType || element.type == modelType) {
+                if (title == "" || element._title.toUpperCase().startsWith(title.toUpperCase()) )  {
+                    if (textContent == "") {
+                        return true;
+                    } else if (element.__text != undefined && element.__text.toUpperCase().indexOf(textContent.toUpperCase()) !== -1) {
                         return true;
                     }
+
                 } 
                 return false;
             }

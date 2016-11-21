@@ -277,7 +277,59 @@
 
 
 
-        <div class="tab-pane" id="capacities"> qsdfqsdf
+        <div class="tab-pane" id="capacities"> 
+
+            <div ng-controller="ListCapacities">
+
+                <div class="col-lg-6" ng-show="capacities.length == 0">
+                    Waiting for capacities loading....
+                </div>
+
+                <div class="col-lg-4" ng-show="cards.length > 0">
+                    <table class="table" width="100%" ng-if="capacities.length > 0">
+                        <thead>
+                        <tr>
+                            <th width="40%">Title (starts with)</th>
+                            <th width="60%"><input ng-model="filterCapacity.name" trigger="true" size="40" /></th>
+                        </tr>
+                        <tr>
+                            <th width="40%">Text (contains)</th>
+                            <th width="60%"><input ng-model="filterCapacity.text" trigger="true" size="40" /></th>
+                        </tr>
+                        <tr><th></th><th>
+                            <button type="button" class="btn btn-default btn-lg" ng-click="filterCapacities()">
+                                <span class="glyphicon glyphicon-arrow-right" aria-hidden="true">Filter</span>
+                            </button>
+                        </th>
+                        </thead>
+                    </table>
+                </div>
+
+                <div height="10px"> &nbsp; </div>
+
+                <div class="col-lg-12" ng-show="filteredCapacities.length > 0" >
+                <table class="gridtable" width="100%" ng-if="filteredCapacities.length > 0">
+                    <thead>
+                    <tr>
+                        <th width="20%">Title</th>
+                        <th width="80%">Description</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                    </thead>
+                    <tr ng-repeat="capacity in filteredCapacities | orderBy:'_title'">   
+                        <td ng-class="isGrey($index)">{{capacity._title}}</td>
+                        <td ng-class="isGrey($index)"><span style="white-space: pre-wrap;">{{capacity.__text}}</span></td>                 
+                        <td ng-class="isGrey($index)"> 
+                            <button type="button" class="btn btn-default btn-lg" ng-click="copyCapacity( capacity)">
+                                <span class="glyphicon glyphicon-copy" aria-hidden="true"></span>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+                </div>
+
+            </div>
+
         </div><!-- end capacities -->
 
 
@@ -295,9 +347,7 @@
 
 <div>
 
-<div ng-controller="ListCapacities">
-youp
-</div>
+
 
 <script>
     $('#myTab a').click(function (e) {
