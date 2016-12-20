@@ -1,0 +1,41 @@
+<html> 
+<head><title>WHAC - Online</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link href="jspanel/jquery.jspanel.css" rel="stylesheet">
+	<link rel="stylesheet" href="whac.css">
+	<link rel="icon" href="favicon.ico" />
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="js.cookie.js"></script>
+	<script src="jsrender.js"></script>
+	<script src="jsviews.js"></script>
+	<script src="whac_editor.js"></script>
+	
+	<script src="jspanel/jquery.jspanel.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+
+</head>
+<body>
+<textarea id="full_text" cols="120" rows="100"></textarea>
+</body>
+</html>
+<script>
+
+$(document).ready(function(){
+
+$.ajax({ 
+			url: "https://api.mlab.com/api/1/databases/whac/collections/models?s={'name':1}&apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa" ,
+		  	type: "GET",
+		  	contentType: "application/json",
+		  	dataType: "json",
+		  	success:   function( data, jqXHR, textStatus){
+		  		alert("pouf");
+		  		response = JSON.stringify(jqXHR.responseText);
+		  		models = data;
+		  		$.("#full_text").val(JSON.stringify(response));
+		  	}
+});
+
+}
+</script>

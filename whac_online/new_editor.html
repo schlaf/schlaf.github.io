@@ -1,6 +1,8 @@
 <html ng-app="whacApp">
 <head>
     <title>WHAC Data Editor : v2</title>
+    <link rel="icon" href="favicon.ico" />
+    <meta charset="UTF-8">
 
     <script src="resources/js/angular.js"></script>
     <script src="resources/js/angular-route.js"></script>
@@ -20,6 +22,9 @@
     <script src="resources/js/capacities/capacities.service.js"></script>
     <script src="resources/js/capacities/capacities.controller.js"></script>
 
+    <script src="resources/js/spells/spells.service.js"></script>
+    <script src="resources/js/spells/spells.controller.js"></script>
+
 
 </head>
 <body>
@@ -34,6 +39,7 @@
       <li class="active"><a href="#card_edit" data-toggle="tab">Edit cards</a></li>
       <li><a href="#capacities" data-toggle="tab">Capacities</a></li>
       <li><a href="#spells" data-toggle="tab">Spells</a></li>
+      <li><a href="#new_models" data-toggle="tab">New Models</a></li>
       <li><a href="#langage" data-toggle="tab">Langage</a></li>
     </ul>
     </div>
@@ -69,7 +75,7 @@
             </div>
 
             <div ng-if="editedCard.name != undefined" class="panel panel-primary" class="animate-if">
-                <div class="panel-heading">Editing {{editedCard.name}} <button type="button" class="btn btn-default btn-lg" ng-click="save()"><span class="glyphicon glyphicon-floppy-saved " aria-hidden="true"></span></button> </div>
+                <div class="panel-heading">Editing {{editedCard.name}} <button type="button" class="btn btn-default btn-lg" ng-click="saveCard()"><span class="glyphicon glyphicon-floppy-saved " aria-hidden="true"></span></button> </div>
                     <div class="panel-body">
 
                     <div header></div>
@@ -105,6 +111,10 @@
                                 </div>
 
                                 <div class="panel-body">
+                                    <!-- ---------------------------------------------- -->
+                                    <!-- MELEE WEAPON                                   --> 
+                                    <!-- ---------------------------------------------- -->
+
                                     <table class="gridtable" width="100%" ng-if="model.weapons.melee_weapon.length > 0">
                                         <thead>
                                         <tr>
@@ -118,12 +128,16 @@
                                         </tr>
                                         </thead>
 
-
                                         <tbody ng-repeat="weapon in model.weapons.melee_weapon"  >
                                         <tr>
                                             <td class="spell_name" ng-class="isGrey($index)">
                                                 <img src="resources/melee_weapon_icon.png" height="42" width="42">
                                                 <input ng-model="weapon._name" size="30"> 
+
+                                                <button type="button" class="btn btn-default btn-md" ng-click="copyCapacityToWeapon(weapon)">
+                                                    <span class="glyphicon glyphicon-hand-down" aria-hidden="true">Paste capa.</span>
+                                                </button> 
+
                                             </td>
                                             <td class="spell_attr" ng-class="isGrey($index)"><select ng-model="weapon._rng" ng-options="range for range in meleeRanges"/> </td>
                                             <td class="spell_attr" ng-class="isGrey($index)"><input ng-model="weapon._pow" size="2"> </td>
@@ -157,17 +171,24 @@
                                         </tr>
                                         <tr class="spell_edit" ng-if="weapon.capacities.length > 0">
                                             <td colspan="7" ng-class="isGrey($index)"> 
-                                            <button type="button " class="btn btn-default  btn-sm" ng-click="removeWeaponCapacity( weapon, $index)">
-                                                <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-                                            </button>
-                                            <span ng-repeat="capacity in weapon.capacities" style="white-space: pre;"><b>[{{capacity._title}}]</b> {{capacity.__text}}</span>
-                                            <br/>
+                                                <div ng-repeat="capacity in weapon.capacities | orderBy:'_title'" >
+                                                    <div>
+                                                       <b>{{capacity._title}}</b> : {{capacity._type}}  {{capacity.__text}}
+                                                    </div>
+                                                    <div class="btn btn-default  btn-sm" ng-click="removeWeaponCapacity( weapon, capacity)">
+                                                        Remove this capacity <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                                                    </div>
+                                                    <hr>
+                                                </div>
                                             </td>
                                         </tr>
                                         </tbody>
                                     </table>
 
                                     <br>
+                                    <!-- ---------------------------------------------- -->
+                                    <!-- RANGED WEAPON                                  --> 
+                                    <!-- ---------------------------------------------- -->
 
                                     <table class="gridtable" width="100%" ng-if="model.weapons.ranged_weapon.length > 0">
                                         <thead>
@@ -189,6 +210,11 @@
                                             <td class="spell_name" ng-class="isGrey($index)">
                                                 <img src="resources/ranged_weapon_icon.png" height="42" width="42">
                                                 <input ng-model="weapon._name" size="30"> 
+
+                                                <button type="button" class="btn btn-default btn-md" ng-click="copyCapacityToWeapon(weapon)">
+                                                    <span class="glyphicon glyphicon-hand-down" aria-hidden="true">Paste capa.</span>
+                                                </button> 
+
                                             </td>
                                             <td class="spell_attr" ng-class="isGrey($index)"><input ng-model="weapon._rng" size="4"> </td>
                                             <td class="spell_attr" ng-class="isGrey($index)"><input ng-model="weapon._rof" size="1"> </td>
@@ -225,19 +251,74 @@
                                             <button type="button " class="btn btn-default  btn-sm" ng-click="removeWeaponCapacity( weapon, $index)">
                                                 <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
                                             </button>
-                                            <span ng-repeat="capacity in weapon.capacities" style="white-space: pre-line;"><b>[{{capacity._title}}]</b> {{capacity.__text}}</span>
+                                            <span ng-repeat="capacity in weapon.capacities" style="white-space: pre-line;"><b>[{{capacity._title}}]</b> {{capacity._type}} {{capacity.__text}}</span>
                                             <br/>
                                             </td>
                                         </tr>
                                         </tbody>
                                     </table>
 
+
+                                    <br>
+                                    <!-- ---------------------------------------------- -->
+                                    <!-- MOUNT WEAPON                                   --> 
+                                    <!-- ---------------------------------------------- -->
+
+                                    <table class="gridtable" width="100%" ng-if="model.weapons.mount_weapon.length > 0">
+                                        <thead>
+                                        <tr>
+                                            <td>Mount weapons</th>
+                                            <th>RNG</th>
+                                            <th>POW</th>
+                                            <th>&nbsp;</th>
+                                        </tr>
+                                        </thead>
+
+
+                                        <tbody ng-repeat="weapon in model.weapons.mount_weapon"  >
+                                        <tr>
+                                            <td class="spell_name" ng-class="isGrey($index)">
+                                                <img src="resources/mount_weapon_icon.png" height="42" width="42">
+                                                <input ng-model="weapon._name" size="30"> 
+
+                                                <button type="button" class="btn btn-default btn-md" ng-click="copyCapacityToWeapon(weapon)">
+                                                    <span class="glyphicon glyphicon-hand-down" aria-hidden="true">Paste capa.</span>
+                                                </button> 
+
+                                            </td>
+                                            <td class="spell_attr" ng-class="isGrey($index)"><select ng-model="weapon._rng" ng-options="range for range in meleeRanges"/> </td>
+                                            <td class="spell_attr" ng-class="isGrey($index)"><input ng-model="weapon._pow" size="2"> </td>
+                                            <td class="spell_remove" rowspan="{{weapon.capacities.length > 0?'2':'0'}}" ng-class="isGrey($index)">
+                                                <button type="button" class="btn btn-default btn-lg" ng-click="removeMountWeapon( model, $index)">
+                                                    <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr class="spell_edit" ng-if="weapon.capacities.length > 0">
+                                            <td colspan="8" ng-class="isGrey($index)"> 
+                                            <button type="button " class="btn btn-default  btn-sm" ng-click="removeWeaponCapacity( weapon, $index)">
+                                                <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                                            </button>
+                                            <span ng-repeat="capacity in weapon.capacities" style="white-space: pre-line;"><b>[{{capacity._title}}]</b> {{capacity._type}} {{capacity.__text}}</span>
+                                            <br/>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+
+
+
                                 </div>
                             </div>
 
+                            <!-- ---------------------------------------------- -->
+                            <!-- CAPACITIES                                     --> 
+                            <!-- ---------------------------------------------- -->
+
+
                             <div class="panel-warning">
                                 <div class="panel-heading">Capacities  
-                                    <button type="button" class="btn btn-default btn-lg" ng-click="addCapacity()">
+                                    <button type="button" class="btn btn-default btn-lg" ng-click="copyCapacityToModel(model)">
                                         <img src="resources/construct_icon.png" height="42" width="42">
                                         Paste <span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span>
                                     </button> 
@@ -251,12 +332,14 @@
                                         <thead>
                                         <tr>
                                             <th width="20%">Title</th>
-                                            <th width="80%">Description</th>
+                                            <th width="10%">Type</th>
+                                            <th width="70%">Description</th>
                                             <th>&nbsp;</th>
                                         </tr>
                                         </thead>
                                         <tr ng-repeat="capacity in model.capacities">   
                                             <td ng-class="isGrey($index)">{{capacity._title}}</td>
+                                            <td ng-class="isGrey($index)">{{capacity._type}}</td>
                                             <td ng-class="isGrey($index)">{{capacity.__text}}</td>                 
                                             <td ng-class="isGrey($index)"> 
                                                 <button type="button" class="btn btn-default btn-lg" ng-click="removeCapacity( model, $index)">
@@ -279,7 +362,47 @@
 
         <div class="tab-pane" id="capacities"> 
 
-            <div ng-controller="ListCapacities">
+            <form ng-controller="ListCapacities" ng-submit="filterCapacities()">
+
+
+                <div id="editor_panel" class="editor_panel" ng-if="editedCapacity._id != undefined">
+                    <table class="gridtable" width="100%" ng-if="capacities.length > 0">
+                        <thead>
+                        <tr>
+                            <th class="capacity_name" width="20%">Title</th>
+                            <th class="capacity_name" width="10%">Type</th>
+                            <th class="capacity_attr" width="70%">Description</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr>
+                            <td class="capacity_name" ng-class="isGrey($index)"><input ng-model="editedCapacity._title" trigger="true" style="width: 100%; height: 100%"/>use upper-case for capacity name</td>
+                            <td class="capacity_name" ng-class="isGrey($index)">
+                                <select ng-model="editedCapacity._type" ng-options="type for type in capacityTypes"/>
+                            </td>
+
+                            <td class="capacity_attr" ng-class="isGrey($index)">
+                                <textarea ng-model="editedCapacity.__text" style="width: 100%; height: 100%" rows="4" ></textarea> 
+                                do NOT create multiple capacities if multi-line ; for star/bullet copy/paste these symbols : ★, ●
+                            </td>
+                        </tr>
+                            
+                        </tbody>
+                    </table>                
+                    <div style="margin-top: 15">
+                        <button type="button" class="btn btn-default btn-lg" ng-click="saveCapacity(editedCapacity)" style="float:right; margin-right:15;">
+                            <span class="glyphicon glyphicon-save" aria-hidden="true">Save</span>
+                        </button>
+                        <button type="button" class="btn btn-default btn-lg" ng-click="dismissCapacity()"  style="float:right; margin-right:15; ">
+                            <span class="glyphicon .glyphicon-eject" aria-hidden="true">Dismiss</span>
+                        </button>
+                    </div>
+
+
+                </div>
+
+                <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;"/>
 
                 <div class="col-lg-6" ng-show="capacities.length == 0">
                     Waiting for capacities loading....
@@ -312,15 +435,17 @@
                     <thead>
                     <tr>
                         <th width="20%">Title</th>
-                        <th width="80%">Description</th>
+                        <th width="10%">Type</th>
+                        <th width="70%">Description</th>
                         <th>&nbsp;</th>
                     </tr>
                     </thead>
-                    <tr ng-repeat="capacity in filteredCapacities | orderBy:'_title'">   
+                    <tr ng-click="editCapacity(capacity)" ng-repeat="capacity in filteredCapacities | orderBy:'_title'">   
                         <td ng-class="isGrey($index)">{{capacity._title}}</td>
+                        <td ng-class="isGrey($index)">{{capacity._type}}</td>
                         <td ng-class="isGrey($index)"><span style="white-space: pre-wrap;">{{capacity.__text}}</span></td>                 
                         <td ng-class="isGrey($index)"> 
-                            <button type="button" class="btn btn-default btn-lg" ng-click="copyCapacity( capacity)">
+                            <button type="button" class="btn btn-default btn-lg" ng-click="copyCapacity(capacity, $event)">
                                 <span class="glyphicon glyphicon-copy" aria-hidden="true"></span>
                             </button>
                         </td>
@@ -328,7 +453,7 @@
                 </table>
                 </div>
 
-            </div>
+            </form>
 
         </div><!-- end capacities -->
 
@@ -336,8 +461,152 @@
 
 
 
-        <div class="tab-pane" id="spells">spellsqsdf
+        <div class="tab-pane" id="spells">
+
+            <form ng-controller="ListSpells" ng-submit="filterSpells()">
+
+                <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;"/>
+                
+                <div class="col-lg-6" ng-show="spells.length == 0">
+                    Waiting for spells loading....
+                </div>
+
+                <div class="col-lg-4" ng-show="spells.length > 0">
+                    <table class="table" width="100%" ng-if="spells.length > 0">
+                        <thead>
+                        <tr>
+                            <th width="40%">Title (starts with)</th>
+                            <th width="60%"><input ng-model="filterSpell.name" trigger="true" size="40" /></th>
+                        </tr>
+                        <tr>
+                            <th width="40%">Text (contains)</th>
+                            <th width="60%"><input ng-model="filterSpell.text" trigger="true" size="40" /></th>
+                        </tr>
+                        <tr><th></th><th>
+                            <button type="button" class="btn btn-default btn-lg" ng-click="filterSpells()">
+                                <span class="glyphicon glyphicon-arrow-right" aria-hidden="true">Filter</span>
+                            </button>
+                        </th>
+                        </thead>
+                    </table>
+                </div>
+
+                <div height="10px"> &nbsp; </div>
+
+                <div id="editor_panel" class="editor_panel" ng-if="editedSpell._id != undefined">
+                    <table class="gridtable" width="100%" ng-if="spells.length > 0">
+                        <thead>
+                        <tr>
+                            <th class="spell_name" width="40%">Name</th>
+                            <th class="spell_attr" width="10%">Cost</th>
+                            <th class="spell_attr" width="10%">RNG</th>
+                            <th class="spell_attr" width="10%">AOE</th>
+                            <th class="spell_attr" width="10%">POW</th>
+                            <th class="spell_attr" width="10%">DUR</th>
+                            <th class="spell_attr" width="10%">OFF</th>
+                        </tr>
+                        </thead>
+
+
+                        <tbody>
+                        <tr>
+                            <td class="spell_name" ng-class="isGrey($index)"><input ng-model="editedSpell._name" trigger="true" style="width: 100%; height: 100%"/></td>
+                            <td class="spell_attr" ng-class="isGrey($index)"><input ng-model="editedSpell._cost" trigger="true"/></td>
+                            <td class="spell_attr" ng-class="isGrey($index)"><select ng-options="range for range in spellRanges" ng-model="editedSpell._rng"/></td>
+                            <td class="spell_attr" ng-class="isGrey($index)"><select ng-options="aoe for aoe in spellAOEs" ng-model="editedSpell._aoe"/></td>
+                            <td class="spell_attr" ng-class="isGrey($index)"><input ng-model="editedSpell._pow" trigger="true"/> </td>
+                            <td class="spell_attr" ng-class="isGrey($index)"><select ng-options="duration for duration in spellDurations" ng-model="editedSpell._duration"/></td>
+                            <td class="spell_attr" ng-class="isGrey($index)"><select ng-options="off for off in spellOffensiveness" ng-model="editedSpell._off"/></td>
+                        </tr>
+                        <tr class="spell_edit"><td colspan="7" ng-class="isGrey($index)"> 
+                            <textarea ng-model="editedSpell.__text" style="width: 100%; height: 100%" ></textarea> </td></tr>
+                        </tbody>
+                    </table>                
+                    <div style="margin-top: 15">
+                        <button type="button" class="btn btn-default btn-lg" ng-click="saveSpell(editedSpell)" style="float:right; margin-right:15;">
+                            <span class="glyphicon glyphicon-save" aria-hidden="true">Save</span>
+                        </button>
+                        <button type="button" class="btn btn-default btn-lg" ng-click="dismissSpell()"  style="float:right; margin-right:15; ">
+                            <span class="glyphicon .glyphicon-eject" aria-hidden="true">Dismiss</span>
+                        </button>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-12" ng-show="filteredSpells.length > 0" >
+
+                    <table class="gridtable" width="100%" ng-if="spells.length > 0">
+                        <thead>
+                        <tr>
+                            <td class="spell_name">Name</th>
+                            <th class="spell_attr">Cost</th>
+                            <th class="spell_attr">RNG</th>
+                            <th class="spell_attr">AOE</th>
+                            <th class="spell_attr">POW</th>
+                            <th class="spell_attr">DUR</th>
+                            <th class="spell_attr">OFF</th>
+                            <th >&nbsp;</th>
+                        </tr>
+                        </thead>
+
+
+                        <tbody ng-repeat="spell in filteredSpells | orderBy:'_name'"  >
+                        <tr ng-click="editSpell(spell)">
+                            <td class="spell_name" rowspan="2" ng-class="isGrey($index)">{{spell._name}} </td>
+                            <td class="spell_attr" ng-class="isGrey($index)">{{spell._cost}} </td>
+                            <td class="spell_attr" ng-class="isGrey($index)">{{spell._rng}} </td>
+                            <td class="spell_attr" ng-class="isGrey($index)">{{spell._aoe}} </td>
+                            <td class="spell_attr" ng-class="isGrey($index)">{{spell._pow}} </td>
+                            <td class="spell_attr" ng-class="isGrey($index)">{{spell._duration}} </td>
+                            <td class="spell_attr" ng-class="isGrey($index)">{{spell._off}} </td>
+                            <td class="spell_remove" rowspan="2" ng-class="isGrey($index)">
+                                <button type="button" class="btn btn-default btn-lg" ng-click="copySpell(spell, $event)">
+                                    <span class="glyphicon glyphicon-copy" aria-hidden="true"></span>
+                                </button>
+
+                            </td>
+                        </tr>
+                        <tr class="spell_edit" ng-click="editSpell(spell)" ><td colspan="6" ng-class="isGrey($index)"> {{spell.__text}} </td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </form>
+
         </div><!-- end spells -->
+
+        <div class="tab-pane" id="new_models">
+
+
+                    <div class="col-lg-4">
+                        <table class="table table-inverse">
+                            <tr><td>Faction </td><td><select ng-options="faction.name for faction in allFactions" ng-model="selectedNewModelFaction" ng-change="displayExistingModelsId()" /></td></tr>
+                            <tr><td>Subtype </td><td><select ng-options="modelType.name for modelType in modelTypesSorting" ng-model="selectedNewModelType" ng-change="displayExistingModelsId()" /></td></tr>
+                            <tr><td rowspan="{{existingModels.length + 1}}">Existing models </td></tr>
+                            <tr ng-repeat="model in existingModels | orderBy:'_id'">
+                            <td><span class="label label-default"> {{model._id}} - {{model.name}}</span> </td>
+                            </tr>
+                            <tr><td>Please choose a relevant new ID that does <u>NOT</u> exists</td></tr>
+                            <tr><td>ID </td><td><input ng-model="newModelId" trigger="true" size="10" /> </input></td></tr>
+                            <tr><td>Type </td><td>{{selectedNewModelType.name}}</input></td></tr>
+                            <tr><td>short name </td><td><input ng-model="newModelShortName" trigger="true" size="30" /> </input></td></tr>
+                            <tr><td>long name </td><td><input ng-model="newModelLongName" trigger="true" size="50" /> </input></td></tr>
+                        </table>
+                        <div class="col-lg-12" ng-show="existingModels.length > 0">
+                        <button type="button" class="btn btn-default btn-lg" ng-click="createNewModel()">
+                          <span class="glyphicon glyphicon-arrow-right" aria-hidden="true">Create a new entry</span>
+                        </button>
+                    </div>
+                    </div>
+
+                    
+
+
+
+
+        </div><!-- end create new models -->
+
 
 
 

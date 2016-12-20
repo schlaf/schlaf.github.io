@@ -1,44 +1,43 @@
 angular.module('whacApp').service(
-    "capacitiesService",
+    "spellsService",
     function ($http, $q) {
         // Return public API.
         return ({
-            getCapacities: getCapacities,
-            getCapacity: getCapacity,
-            filterCapacities : filterCapacities, 
-            copyCapacity : copyCapacity,
-            getCurrentCapacity : getCurrentCapacity,
-            saveCapacity : saveCapacity,
-            removeCapacity : removeCapacity,
-            updatedCapacity : updatedCapacity,
-            getUpdatedCapacity : getUpdatedCapacity
+            getSpells: getSpells,
+            getSpell: getSpell,
+            filterSpells : filterSpells,
+            saveSpell : saveSpell,
+            removeSpell : removeSpell,
+            copySpell : copySpell,
+            getCurrentSpell : getCurrentSpell
         });
 
+        var currentSpell = {};
 
-        var currentCapacity = {};
-        var lastUpdatedCapacity = {};
-
-        function copyCapacity(capacity) {
-            currentCapacity = capacity;
+        function copySpell(spell) {
+            currentSpell = spell;
         }
 
-        function getCurrentCapacity() {
-            return currentCapacity;
+        function getCurrentSpell() {
+            return currentSpell;
         }
 
-        function updatedCapacity(capacity) {
-            lastUpdatedCapacity = capacity;
+        function saveSpell(spell) {
+            var request = $http.put("https://api.mlab.com/api/1/databases/whac_v2/collections/spells/" + spell._id.$oid + "/?apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa", spell);
+            return( request.then( handleSuccess, handleError ) );
         }
 
-        function getUpdatedCapacity() {
-            return lastUpdatedCapacity;
+        function removeSpell(spell) {
+            var request = $http.put("https://api.mlab.com/api/1/databases/whac_v2/collections/spells/" + spell._id.$oid + "/?apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa", spell);
+            return( request.then( handleSuccess, handleError ) );
         }
 
-        function getCapacities() {
+
+        function getSpells() {
 
             var request = $http({
                 method: "get",
-                url: "https://api.mlab.com/api/1/databases/whac_v2/collections/capacities?l=10000&s={'name':1}&apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa",
+                url: "https://api.mlab.com/api/1/databases/whac_v2/collections/spells?l=1000&s={'_name':1}&apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa",
                 params: {
                     action: "get"
                 }
@@ -47,27 +46,16 @@ angular.module('whacApp').service(
 
         };
 
-        function saveCapacity(capacity) {
-            var request = $http.put("https://api.mlab.com/api/1/databases/whac_v2/collections/capacities/" + capacity._id.$oid + "/?apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa", capacity);
-            return( request.then( handleSuccess, handleError ) );
-        }
-
-        function removeCapacity(capacity) {
-            var request = $http.put("https://api.mlab.com/api/1/databases/whac_v2/collections/spells/" + capacity._id.$oid + "/?apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa", capacity);
-            return( request.then( handleSuccess, handleError ) );
-        }
-
-
-        /* return capacities that match title (start) & textcontent (contains) */
-        function filterCapacities(allCapacities, title, textContent) {
+        /* return Spells that match title (start) & textcontent (contains) */
+        function filterSpells(allSpells, title, textContent) {
             result = [];
             var i = 0;
-            return allCapacities.filter(matchTitleAndContent(title, textContent));
+            return allSpells.filter(matchTitleAndContent(title, textContent));
         }
 
         function matchTitleAndContent(title, textContent) {
             return function(element) { 
-                if (title == "" || element._title.toUpperCase().startsWith(title.toUpperCase()) )  {
+                if (title == "" || element._name.toUpperCase().startsWith(title.toUpperCase()) )  {
                     if (textContent == "") {
                         return true;
                     } else if (element.__text != undefined && element.__text.toUpperCase().indexOf(textContent.toUpperCase()) !== -1) {
@@ -80,7 +68,7 @@ angular.module('whacApp').service(
         }
 
 
-        function getCapacity() {
+        function getSpell() {
             return {"_id":"empty","name":"unknown"};
         }
 

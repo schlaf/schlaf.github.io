@@ -1,4 +1,4 @@
-angular.module('whacApp').controller('ListCards', function ($scope, $http, cardsService) {
+angular.module('whacApp').controller('ListCards', function ($scope, $http, $interval, cardsService, spellsService, capacitiesService) {
 
     $scope.selectedCard={};
     $scope.cards = [];
@@ -30,6 +30,7 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, cards
 
     $scope.warmachine.factions = [$scope.cryx, $scope.cygnar, $scope.cyriss, $scope.khador, $scope.mercenaries, $scope.protectorate, $scope.retribution];
     $scope.hordes.factions = [$scope.everblight, $scope.orboros, $scope.minions, $scope.skorne, $scope.trollblood];
+    $scope.allFactions = [$scope.cryx, $scope.cygnar, $scope.cyriss, $scope.khador, $scope.mercenaries, $scope.protectorate, $scope.retribution, $scope.everblight, $scope.orboros, $scope.minions, $scope.skorne, $scope.trollblood];
     $scope.objectivesSR2016.factions = [$scope.objectives];
 
     $scope.modelTypes = ["all", "warcaster", "warlock", "warjack", "colossal", "warbeast", "battle engine", "unit", "CA", "WA","solo"];
@@ -48,9 +49,12 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, cards
         "solo":{"sort": 8, "innerType":"solo", "name":"Solos"} 
     };
 
+
+
     $scope.meleeRanges = ["0.5", "1", "2"];
     $scope.weaponLocations = ["-", "L", "R", "H", "S"];
 
+    $scope.capacityTypes = ["", "*Attack", "*Action", "Order"]
 
     $scope.selectedSystem=$scope.warmachine;
     $scope.selectedFaction=$scope.cryx;
@@ -60,6 +64,8 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, cards
 
 
     $scope.faDefinitions = ["C", "1", "2", "3", "4","U"];
+
+
 
 
     $scope.isGrey = function(index) {
@@ -74,7 +80,7 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, cards
 
     $scope.addMeleeWeapon = function(model) {
         if (model.weapons == undefined) {
-            model.weapons = {"melee_weapon" : [], "ranged_weapon" : []};
+            model.weapons = {"melee_weapon" : [], "ranged_weapon" : [], "mount_weapon" : []};
         }
         if (model.weapons.melee_weapon == undefined) {
             model.weapons.melee_weapon = [{"_rng":"0.5", "_pow":"0","_p_plus_s":"0", "_location":"", "_count":""}];
@@ -86,13 +92,25 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, cards
 
     $scope.addRangedWeapon = function(model) {
         if (model.weapons == undefined) {
-            model.weapons = {"melee_weapon" : [], "ranged_weapon" : []};
+            model.weapons = {"melee_weapon" : [], "ranged_weapon" : [], "mount_weapon" : []};
         }
         if (model.weapons.ranged_weapon == undefined) {
             model.weapons.ranged_weapon = [{"_rng":"0", "_rof":"1","_pow":"0","_p_plus_s":"0", "_location":"", "_count":""}];
         } else {
             var newWeapon = {"_rng":"0", "_rof":"1","_pow":"0","_p_plus_s":"0", "_location":"", "_count":""};
             model.weapons.ranged_weapon.push(newWeapon);
+        }
+    }
+
+    $scope.addMountWeapon = function(model) {
+        if (model.weapons == undefined) {
+            model.weapons = {"melee_weapon" : [], "ranged_weapon" : [], "mount_weapon" : []};
+        }
+        if (model.weapons.mount_weapon == undefined) {
+            model.weapons.mount_weapon = [{"_name":"Mount", "_rng":"0.5", "_pow":"0"}];
+        } else {
+            var newWeapon = {"_name":"Mount", "_rng":"0.5", "_pow":"0"};
+            model.weapons.mount_weapon.push(newWeapon);
         }
     }
 
@@ -109,8 +127,9 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, cards
         }
     }
 
-    $scope.removeWeaponCapacity = function(weapon, index) {
+    $scope.removeWeaponCapacity = function(weapon, capacity) {
         if (window.confirm("Are you sure to remove this capacity?")) { 
+            index = weapon.capacities.indexOf(capacity);
             weapon.capacities.splice(index, 1);
         }
     }    
@@ -141,6 +160,41 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, cards
         );
     }
 
+    $scope.copySpellToModel = function(model) {
+        spell = spellsService.getCurrentSpell();
+        if ( spell != undefined ) {
+            model.spells.push(spell);
+        }
+    }
+
+    $scope.copyCapacityToModel = function(model) {
+        capacity = capacitiesService.getCurrentCapacity();
+        if (capacity != undefined && capacity != {}) {
+            model.capacities.push(capacity);
+        } else {
+            alert("first copy a capacity!")
+        }
+    }
+
+    $scope.copyCapacityToWeapon = function(weapon) {
+        capacity = capacitiesService.getCurrentCapacity();
+        if (capacity != undefined && capacity != {}) {
+            if (weapon.capacities == undefined) {
+                weapon.capacities = [];
+            }
+            weapon.capacities.push(capacity);
+        } else {
+            alert("first copy a capacity!")
+        }
+    }
+    
+
+    $scope.removeSpell = function(model, spell) {
+        if (confirm("are you sure to remove this spell from this model?")) {
+            model.spells.splice(model.spells.indexOf(spell),1);    
+        }
+    }
+
     $scope.filterCards = function() {
         $scope.filteredCards = cardsService.filterCards( $scope.cards, $scope.selectedFaction,  $scope.selectedType);
     }
@@ -148,31 +202,212 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, cards
     $scope.editCard = function() {
         if ($scope.selectedCard != undefined && $scope.selectedCard._id != undefined) {
             angular.copy($scope.selectedCard, $scope.editedCard);    
+
+            if ($scope.selectedCard.type == "warjack") {
+
+
+            }
         }
     }
 
-    $scope.editAnimal = function(id) {
+    $scope.saveCard = function() {
+        if ($scope.editedCard != undefined && $scope.editedCard._id != undefined) {
+            cardsService.saveCard($scope.editedCard).then(function(card){
+                alert("card saved");
 
-        $scope.animaux.map(function(oneAnimal) {
-            if (oneAnimal.id == id) {
-                alert("animal found " + oneAnimal.id + " - " + oneAnimal.name);
-                $scope.currentAnimal = {"id" : "still_empty"};
-                angular.copy(oneAnimal, $scope.currentAnimal);
+                // update card in list
+                $scope.cards.map(function(a_card){
+                    if (a_card._id == card._id) {
+                        angular.copy(card, a_card);
+                    }
+                });
+
+                $scope.editedCard = {};
+            })
+        }
+        
+    }    
+
+    $scope.testUpdateCapacity = function() {
+        if (capacitiesService.getUpdatedCapacity() != undefined && capacitiesService.getUpdatedCapacity()._id != undefined) {
+            alert('capacity updated' + capacitiesService.getUpdatedCapacity());
+
+            var updatedCapa = capacitiesService.getUpdatedCapacity()
+            $scope.editedCard.models.map( function(model) {
+
+                model.capacities.map(function(capacity) {
+                    if (capacity._id.$oid == updatedCapa._id.$oid) {
+                        capacity.__text == updatedCapa.__text;
+                    }
+                });
+            });
+
+            capacitiesService.updatedCapacity(null);
+
+        }
+
+
+
+
+        
+
+    }
+
+    $interval($scope.testUpdateCapacity, 1000); 
+
+
+    $scope.existingModels = [];
+    $scope.selectedNewModelFaction = {};
+    $scope.selectedNewModelType = {};
+    $scope.newModelId = "";
+    $scope.newModelShortName = "";
+    $scope.newModelLongName = "";
+
+
+    $scope.displayExistingModelsId = function() {
+        
+        $scope.existingModels = [];
+
+        if ($scope.selectedNewModelFaction != null && $scope.selectedNewModelType) {
+
+
+            $scope.cards.map(function (card) {
+
+                if (card.faction == $scope.selectedNewModelFaction.code) {
+                    if (card.type == $scope.selectedNewModelType.innerType) {
+                        $scope.existingModels.push(card);
+                    }
+                }
+            });
+        } else {
+            $scope.existingModels = [];
+        }
+    };
+
+    $scope.createNewModel = function() {
+        var isReallyNew = true;
+        var newCard = {};
+        $scope.cards.map(function (card) {
+            if (card._id == $scope.newModelId) {
+                isReallyNew = false;
+                alert("i said choose a _new_ id!");
             }
         });
+
+        if (isReallyNew) {
+            if ( $scope.selectedNewModelType.innerType == 'warcaster') {
+                angular.copy($scope.emptyCaster, newCard);
+            }
+
+            if ( $scope.selectedNewModelType.innerType == 'unit') {
+                angular.copy($scope.emptyUnit, newCard);
+            }
+
+            newCard._id = $scope.newModelId;
+            newCard.faction = $scope.selectedNewModelFaction.code;
+            newCard.name = $scope.newModelShortName;
+            newCard.full_name = $scope.newModelLongName;
+
+
+            cardsService.createCard(newCard).then(function(card){
+                alert("card created");
+                $scope.cards.push(newCard);
+            });
+        }
     }
 
-    $scope.updateAnimal = function() {
-        $scope.animaux.map(function(oneAnimal) {
-           if (oneAnimal.id == $scope.currentAnimal.id) {
-               oneAnimal.name = $scope.currentAnimal.name;
-               oneAnimal.previewUrl = $scope.currentAnimal.previewUrl;
-               oneAnimal.nature = $scope.currentAnimal.nature;
-           }
-        });
-    }
+
 
     $scope.getCards();
+
+
+$scope.emptyModel = {
+            "basestats": {
+                "_name": "card name",
+                "_spd": "0",
+                "_str": "0",
+                "_mat": "0",
+                "_rat": "0",
+                "_def": "0",
+                "_arm": "0",
+                "_cmd": "0",
+                "_hitpoints": "1"
+            },
+            "weapons": {
+                "melee_weapon": [],
+                "ranged_weapon": [],
+                "mount_weapon": []
+            },
+            "spells": [],
+            "capacities": []
+        };
+
+
+$scope.emptyUnit = 
+{
+    "_id": "",
+    "name": "short name",
+    "status": "new model",
+    "qualification": "please fill",
+    "type": "unit",
+    "faction": "faction_skorne",
+    "full_name": "full name",
+    "fa": "1",
+    "variableSize": true,
+    "minCost": "12",
+    "maxCost": "18",
+    "minSize": "4",
+    "maxSize": "6",
+    "works_for": [],
+    "restricted_to": [],
+    "models": [
+        $scope.emptyModel
+    ]
+}
+
+
+$scope.emptySolo = {
+    "_id": "",
+    "name": "short name",
+    "status": "new model",
+    "qualification": "please fill",
+    "type": "solo",
+    "faction": "faction_skorne",
+    "full_name": "full name",
+    "fa": "1",
+    "cost": "4",
+    "works_for": [],
+    "restricted_to": [],
+    "models": [
+        $scope.emptyModel
+    ]
+}
+
+$scope.emptyCaster = {
+    "_id": "",
+    "name": "short name",
+    "status": "new model",
+    "qualification": "please fill",
+    "type": "warcaster",
+    "faction": "faction_cyriss",
+    "full_name": "full name",
+    "fa": "C",
+    "wj_points": "29",
+    "feat": {
+        "title": "feat title",
+        "text": "feat content"
+    },
+    "works_for": [],
+    "restricted_to": [],
+    "models": [
+        $scope.emptyModel
+    ]
+}
+
+
+
+
+
 
 
 }).directive('myCard', function() {

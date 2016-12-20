@@ -5,21 +5,27 @@ angular.module('whacApp').service(
         return ({
             getCards: getCards,
             getCard: getCard,
-            filterCards : filterCards
+            filterCards : filterCards,
+            saveCard : saveCard,
+            createCard : createCard
         });
 
         function getCards() {
 
-            var request = $http({
-                method: "get",
-                url: "https://api.mlab.com/api/1/databases/whac/collections/models?l=100&s={'name':1}&apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa",
-                params: {
-                    action: "get"
-                }
-            });
+            var request = $http.get("https://api.mlab.com/api/1/databases/whac_v2/collections/models?l=1000&s={'name':1}&apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa");
             return( request.then( handleSuccess, handleError ) );
 
         };
+
+        function saveCard(card) {
+            var request = $http.put("https://api.mlab.com/api/1/databases/whac_v2/collections/models/" + card._id + "/?apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa", card);
+            return( request.then( handleSuccess, handleError ) );
+        }
+
+        function createCard(card) {
+            var request = $http.put("https://api.mlab.com/api/1/databases/whac_v2/collections/models/" + card._id + "/?apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa", card);
+            return( request.then( handleSuccess, handleError ) );
+        }
 
         /* return cards that match faction & type */
         function filterCards(allCards, faction, modelType) {

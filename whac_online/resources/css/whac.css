@@ -54,3 +54,15 @@ table.gridtable td.whiteBg {
     right:0; 
     overflow: auto;
 }
+
+#editor_panel {
+  width: 80%;
+  height: 200px;
+  border: 5px solid red;
+  background-color: #fff;
+  position: fixed;
+  top: 150px;
+  z-index: 5000;
+  left: 10%	;
+}
+
