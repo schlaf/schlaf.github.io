@@ -51,7 +51,7 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, $inte
 
 
 
-    $scope.meleeRanges = ["0.5", "1", "2"];
+    $scope.meleeRanges = ["0.5", "1", "2", "*"];
     $scope.weaponLocations = ["-", "L", "R", "H", "S"];
 
     $scope.capacityTypes = ["", "*Attack", "*Action", "Order"]
@@ -63,7 +63,7 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, $inte
 
 
 
-    $scope.faDefinitions = ["C", "1", "2", "3", "4","U"];
+    $scope.faDefinitions = ["C", "1", "2", "3", "4", "5", "6", "U"];
 
 
 
@@ -76,7 +76,11 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, $inte
         }
     }
 
-
+    $scope.addModel = function() {
+        var newModel = {};
+        angular.copy($scope.emptyModel, newModel);
+        $scope.editedCard.models.push(newModel);
+    }
 
     $scope.addMeleeWeapon = function(model) {
         if (model.weapons == undefined) {
@@ -299,14 +303,43 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, $inte
                 angular.copy($scope.emptyCaster, newCard);
             }
 
+            if ( $scope.selectedNewModelType.innerType == 'warlock') {
+                angular.copy($scope.emptyWarlock, newCard);
+            }
+
+            if ( $scope.selectedNewModelType.innerType == 'warjack') {
+                angular.copy($scope.emptyWarjack, newCard);
+            }
+
+            if ( $scope.selectedNewModelType.innerType == 'colossal') {
+                angular.copy($scope.emptyColossal, newCard);
+            }
+
             if ( $scope.selectedNewModelType.innerType == 'unit') {
                 angular.copy($scope.emptyUnit, newCard);
             }
+
+            if ( $scope.selectedNewModelType.innerType == 'solo') {
+                angular.copy($scope.emptySolo, newCard);
+            }
+
 
             newCard._id = $scope.newModelId;
             newCard.faction = $scope.selectedNewModelFaction.code;
             newCard.name = $scope.newModelShortName;
             newCard.full_name = $scope.newModelLongName;
+
+            if (newCard.faction == "faction_mercs") {
+                newCard["works_for"] = $scope.worksForEveryBodyMerc;
+            }
+
+            if (newCard.faction == "faction_minions") {
+                newCard["works_for"] = $scope.worksForEveryBodyMinion;
+            }
+
+
+            var sortName = $scope.modelTypesSorting[newCard.type].sort;
+                        newCard.sortedLabel = sortName + newCard.name;
 
 
             cardsService.createCard(newCard).then(function(card){
@@ -319,6 +352,9 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, $inte
 
 
     $scope.getCards();
+
+$scope.worksForEveryBodyMerc = [{"_id": "faction_khador"}, {"_id": "faction_cygnar"}, {"_id": "faction_menoth"} , {"_id": "faction_cryx"}  ];
+$scope.worksForEveryBodyMinion = [{"_id": "faction_everblight"}, {"_id": "faction_orboros"}, {"_id": "faction_skorne"} , {"_id": "faction_trollblood"}  ];
 
 
 $scope.emptyModel = {
@@ -404,8 +440,100 @@ $scope.emptyCaster = {
     ]
 }
 
+$scope.emptyWarlock = {
+    "_id": "",
+    "name": "short name",
+    "status": "new model",
+    "qualification": "please fill",
+    "type": "warlock",
+    "faction": "faction_cyriss",
+    "full_name": "full name",
+    "fa": "C",
+    "wb_points": "29",
+    "feat": {
+        "title": "feat title",
+        "text": "feat content"
+    },
+    "works_for": [],
+    "restricted_to": [],
+    "models": [
+        $scope.emptyModel
+    ]
+}
 
+$scope.emptyColossal = {
+    "_id": "",
+    "name": "short name",
+    "status": "new model",
+    "qualification": "please fill",
+    "type": "colossal",
+    "faction": "faction_cyriss",
+    "full_name": "full name",
+    "fa": "C",
+    "cost": "38",
+    "works_for": [],
+    "restricted_to": [],
+    "models": [ {
+            "basestats": {
+                "_name": "COLOSSAL NAME",
+                "_spd": "4",
+                "_str": "19",
+                "_mat": "6",
+                "_rat": "4",
+                "_def": "7",
+                "_arm": "20",
+                "_cmd": "0",
+                "_damage_grid_right": "...xxx....xxSS....CSRRR.CCCCRRMMMMCR",
+                "_damage_grid_left": "xxx...xx........SS.LLLSCLLCCCCLCMMMM",
+                "_construct": true,
+                "_pathfinder": true
+            },
+            "weapons": {
+                "melee_weapon": [],
+                "ranged_weapon": [],
+                "mount_weapon": []
+            },
+            "spells": [],
+            "capacities": []
+        }
+    ]
+}
 
+$scope.emptyWarjack = {
+    "_id": "",
+    "name": "short name",
+    "status": "new model",
+    "qualification": "please fill",
+    "type": "warjack",
+    "faction": "faction_cyriss",
+    "full_name": "full name",
+    "fa": "C",
+    "cost": "15",
+    "works_for": [],
+    "restricted_to": [],
+    "models": [ {
+            "basestats": {
+                "_name": "WARJACK NAME",
+                "_spd": "4",
+                "_str": "19",
+                "_mat": "6",
+                "_rat": "4",
+                "_def": "7",
+                "_arm": "20",
+                "_cmd": "0",
+                "_damage_grid": "...................L..R.LLMCRRxMMCCx",
+                "_construct": true
+            },
+            "weapons": {
+                "melee_weapon": [],
+                "ranged_weapon": [],
+                "mount_weapon": []
+            },
+            "spells": [],
+            "capacities": []
+        }
+    ]
+}
 
 
 

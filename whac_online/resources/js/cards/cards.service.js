@@ -39,7 +39,9 @@ angular.module('whacApp').service(
         function matchFactionAndType(faction, modelType, passType) {
             return function(element) { 
                 if (element.faction == faction.code)  {
-                    if ( passType || element.type == modelType) {
+                    if ( passType ) {
+                        return true;
+                    } else if (element.type != undefined && element.type == modelType) {
                         return true;
                     }
                 } 
