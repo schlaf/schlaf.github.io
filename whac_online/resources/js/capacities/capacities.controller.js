@@ -52,11 +52,12 @@ angular.module('whacApp').controller('ListCapacities', function ($scope, $http, 
                 // update capacity in list
                 $scope.capacities.map(function(a_capacity){
                     if (a_capacity._id.$oid == capacity._id.$oid) {
-                        angular.copy(capacity, a_capacity);
+                        angular.copy(capacity , a_capacity);
                     }
                 });
 
-                capacitiesService.updatedCapacity(capacity);
+                $scope.$emit('capacityUpdated', { 'capacity': capacity });
+
                 $scope.editedCapacity = {};
             }
         );

@@ -225,36 +225,105 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, $inte
                         angular.copy(card, a_card);
                     }
                 });
-
                 $scope.editedCard = {};
             })
         }
         
     }    
 
-    $scope.testUpdateCapacity = function() {
-        if (capacitiesService.getUpdatedCapacity() != undefined && capacitiesService.getUpdatedCapacity()._id != undefined) {
-            alert('capacity updated' + capacitiesService.getUpdatedCapacity());
+    $scope.$on('capacityUpdated', function (event, args) {
+        $scope.pushCapacityInCards(args.capacity);
+        console.log(args.capacity);
+    });
 
-            var updatedCapa = capacitiesService.getUpdatedCapacity()
-            $scope.editedCard.models.map( function(model) {
+    $scope.$on('spellUpdated', function (event, args) {
+        $scope.pushSpellInCards(args.spell);
+        console.log(args.spell);
+    });
 
-                model.capacities.map(function(capacity) {
-                    if (capacity._id.$oid == updatedCapa._id.$oid) {
-                        capacity.__text == updatedCapa.__text;
+
+    /** search within all card for this capacity, and updates the card
+    */
+    $scope.pushCapacityInCards = function (capacity_responded) {
+
+        $scope.cards.map(function(a_card){
+            a_card.models.map(function(a_model) {
+                copyCapacity(a_model, capacity_responded);
+            });
+        });
+
+        $scope.editedCard.models.map(function(a_model) {
+            copyCapacity(a_model, capacity_responded);
+        });
+
+
+    };
+
+    function copyCapacity(a_model, capacity_responded) {
+        a_model.capacities.map(function(a_capacity){
+            if (capacity_responded._id.$oid == a_capacity._id.$oid) {
+                angular.copy(capacity_responded, a_capacity);
+            }
+        });
+
+        if (a_model.weapons.melee_weapon) {
+            a_model.weapons.melee_weapon.map(function(a_weapon) {
+                a_model.capacities.map(function(a_capacity){
+                    if (capacity_responded._id.$oid == a_capacity._id.$oid) {
+                        angular.copy(capacity_responded, a_capacity);
                     }
                 });
             });
-
-            capacitiesService.updatedCapacity(null);
-
         }
 
+        if (a_model.weapons.ranged_weapon) {
+            a_model.weapons.ranged_weapon.map(function(a_weapon) {
+                a_model.capacities.map(function(a_capacity){
+                    if (capacity_responded._id.$oid == a_capacity._id.$oid) {
+                        angular.copy(capacity_responded, a_capacity);
+                    }
+                });
+            });
+        }
+
+        if (a_model.weapons.mount_weapon) {
+            a_model.weapons.mount_weapon.map(function(a_weapon) {
+                a_model.capacities.map(function(a_capacity){
+                    if (capacity_responded._id.$oid == a_capacity._id.$oid) {
+                        angular.copy(capacity_responded, a_capacity);
+                    }
+                });
+            });
+        }
+
+    }
+
+    /** search within all card for this capacity, and updates the card
+    */
+    $scope.pushSpellInCards = function (spell_responded) {
+
+        $scope.cards.map(function(a_card){
+            a_card.models.map(function(a_model) {
+                copySpell(a_model, spell_responded);
+            });
+        });
+
+        $scope.editedCard.models.map(function(a_model) {
+            copySpell(a_model, spell_responded);
+        });
 
 
+    };
 
-        
 
+    function copySpell(a_model, spell_responded) {
+        if (a_model.spells) {
+            a_model.spells.map(function(a_spell){
+                if (spell_responded._id.$oid == a_spell._id.$oid) {
+                    angular.copy(spell_responded, a_spell);
+                }
+            });
+        }
     }
 
     $interval($scope.testUpdateCapacity, 1000); 

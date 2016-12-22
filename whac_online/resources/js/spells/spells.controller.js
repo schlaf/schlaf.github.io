@@ -48,6 +48,7 @@ angular.module('whacApp').controller('ListSpells', function ($scope, $http, spel
                     }
                 });
 
+                $scope.$emit('spellUpdated', { 'spell': spell });
                 $scope.editedSpell = {};
             }
         );

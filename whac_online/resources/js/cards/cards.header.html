@@ -24,7 +24,8 @@
             </tr>
             <tr ng-if="editedCard.type=='unit' && editedCard.maxSize!='-'">
                 <td>Cost </td>
-                <td> <input ng-model="editedCard.minCost" size="2" />/<input ng-model="editedCard.maxCost" size="2" /> points for <input ng-model="editedCard.minSize" size="2" /> / <input ng-model="editedCard.maxSize" size="2" /> models </td>
+                <td> <input ng-model="editedCard.minCost" size="2" />/<input ng-model="editedCard.maxCost" size="2" /> points for <input ng-model="editedCard.minSize" size="2" /> / <input ng-model="editedCard.maxSize" size="2" /> models 
+                (set max cost and size to '-' if this unit has not a variable size/cost)</td>
             </tr>
             <tr><td>Field Allowance </td><td><select ng-options="fa for fa in faDefinitions" ng-model="editedCard.fa"></td></tr>
         </table>
