@@ -1,4 +1,4 @@
-angular.module('whacApp').controller('ListCards', function ($scope, $http, $interval, cardsService, spellsService, capacitiesService) {
+angular.module('whacApp').controller('ListCards', function ($scope, $http, $interval, $filter, cardsService, spellsService, capacitiesService) {
 
     $scope.selectedCard={};
     $scope.cards = [];
@@ -35,6 +35,8 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, $inte
 
     $scope.modelTypes = ["all", "warcaster", "warlock", "warjack", "colossal", "warbeast", "battle engine", "unit", "CA", "WA","solo"];
 
+    $scope.modelTypesSorted = ["warcaster", "warlock", "warjack", "warbeast",  "unit","solo", "colossal","battle engine", "CA", "WA"];
+
     $scope.modelTypesSorting = {
         "all":{"sort": -1, "innerType":"all", "name":"All"},
         "warcaster": {"sort": 0, "innerType":"warcaster", "name":"Warcasters"}, 
@@ -60,7 +62,7 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, $inte
     $scope.selectedFaction=$scope.cryx;
     $scope.selectedType=$scope.modelTypesSorting['all'];
 
-
+    $scope.proofReadingStatus = ["Yet to read", "Mainly not ok", "Mainly ok", "OK"];
 
 
     $scope.faDefinitions = ["C", "1", "2", "3", "4", "5", "6", "U"];
@@ -158,6 +160,22 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, $inte
                 $scope.cards.map( function(card) {
                         var sortName = $scope.modelTypesSorting[card.type].sort;
                         card.sortedLabel = sortName + card.name;
+
+
+                        $scope.allFactions.map( function(a_faction) {
+
+                            if (a_faction.code == card.faction) {
+                                if ( a_faction[card.type] ){
+                                    a_faction[card.type].push(card);
+                                } else {
+                                    a_faction[card.type] = [card]
+                                }
+                                
+                            }
+                        });
+                        
+
+
                     });
 
             }
@@ -206,6 +224,15 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, $inte
     $scope.editCard = function() {
         if ($scope.selectedCard != undefined && $scope.selectedCard._id != undefined) {
             angular.copy($scope.selectedCard, $scope.editedCard);    
+
+            if (! $scope.editedCard.proofReadingStatus) {
+                $scope.editedCard['proofReadingStatus'] = $scope.proofReadingStatus[0];
+            }
+
+            if (! $scope.editedCard.version) {
+                $scope.editedCard['version'] = "2016v1";
+            }
+
 
             if ($scope.selectedCard.type == "warjack") {
 
@@ -392,6 +419,18 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, $inte
                 angular.copy($scope.emptySolo, newCard);
             }
 
+            if ( $scope.selectedNewModelType.innerType == 'WA') {
+                angular.copy($scope.emptyWA, newCard);
+            }
+
+            if ( $scope.selectedNewModelType.innerType == 'CA') {
+                angular.copy($scope.emptyCA, newCard);
+            }
+
+            if ( $scope.selectedNewModelType.innerType == 'battle engine') {
+                angular.copy($scope.emptyBE, newCard);
+            }
+
 
             newCard._id = $scope.newModelId;
             newCard.faction = $scope.selectedNewModelFaction.code;
@@ -487,6 +526,58 @@ $scope.emptySolo = {
         $scope.emptyModel
     ]
 }
+
+$scope.emptyCA = {
+    "_id": "",
+    "name": "short name",
+    "status": "new model",
+    "qualification": "please fill",
+    "type": "CA",
+    "faction": "faction_skorne",
+    "full_name": "full name",
+    "fa": "1",
+    "cost": "4",
+    "works_for": [],
+    "restricted_to": [],
+    "models": [
+        $scope.emptyModel
+    ]
+}
+
+$scope.emptyWA = {
+    "_id": "",
+    "name": "short name",
+    "status": "new model",
+    "qualification": "please fill",
+    "type": "WA",
+    "faction": "faction_skorne",
+    "full_name": "full name",
+    "fa": "1",
+    "cost": "4",
+    "works_for": [],
+    "restricted_to": [],
+    "models": [
+        $scope.emptyModel
+    ]
+}
+
+$scope.emptyBE = {
+    "_id": "",
+    "name": "short name",
+    "status": "new model",
+    "qualification": "please fill",
+    "type": "battle engine",
+    "faction": "faction_skorne",
+    "full_name": "full name",
+    "fa": "1",
+    "cost": "4",
+    "works_for": [],
+    "restricted_to": [],
+    "models": [
+        $scope.emptyModel
+    ]
+}
+
 
 $scope.emptyCaster = {
     "_id": "",

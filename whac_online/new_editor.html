@@ -39,8 +39,8 @@
       <li class="active"><a href="#card_edit" data-toggle="tab">Edit cards</a></li>
       <li><a href="#capacities" data-toggle="tab">Capacities</a></li>
       <li><a href="#spells" data-toggle="tab">Spells</a></li>
-      <li><a href="#new_models" data-toggle="tab">New Models</a></li>
-      <li><a href="#langage" data-toggle="tab">Langage</a></li>
+      <li><a href="#new_models" data-toggle="tab">Add new Card</a></li>
+      <li><a href="#compendium" data-toggle="tab">Compendium</a></li>
     </ul>
     </div>
 
@@ -619,11 +619,36 @@
 
         </div><!-- end create new models -->
 
+        <div class="tab-pane" id="compendium">
+<!-- $scope.modelTypes = ["all", "warcaster", "warlock", "warjack", "colossal", "warbeast", "battle engine", "unit", "CA", "WA","solo"]; -->
+
+            <span class="label label-success"  style="display: inline-block;">Green = good </span>
+            <span class="label label-info"  style="display: inline-block;">Blue = almost good </span>
+            <span class="label label-warning"  style="display: inline-block;">Orange = not good </span>
+            <span class="label label-default"  style="display: inline-block;">Grey = no status yet </span>
+
+            <div ng-repeat="faction in allFactions">
+                <div class="col-lg-12"><h1>{{faction.name}}</h1></div>
+
+                <type ng-repeat="type in modelTypesSorted">
+                    <div class="col-lg-2" ng-if="faction[type]">
+                        <h2>{{type}}</h2>
+                        <div ng-repeat="card in faction[type]">
+                            <span ng-if="card.proofReadingStatus == 'OK'" class="label label-success"  style="display: inline-block;">{{card.name}} </span>
+                            <span ng-if="card.proofReadingStatus == 'Mainly ok'" class="label label-info" style="display: inline-block;">{{card.name}} </span>
+                            <span ng-if="card.proofReadingStatus == 'Mainly not ok'" class="label label-warning" style="display: inline-block;">{{card.name}} </span>
+                            <span ng-if="card.proofReadingStatus == 'Yet to read' || card.proofReadingStatus == undefined" class="label label-default" style="display: inline-block;">{{card.name}} </span>
+                            <span ng-if="card.version" class="label label-default" style="display: inline-block;">{{card.version}}</span>
+                            <span ng-if="card.version == undefined" class="label label-default" style="display: inline-block;">(?)</span>
+                        </div>
+
+                    </div
+                </type>
+            </div>
+
+        </div><!-- end compendium -->
 
 
-
-        <div class="tab-pane" id="langage">langageqsdf
-        </div><!-- end langage -->
     </div>
 
 <div>
