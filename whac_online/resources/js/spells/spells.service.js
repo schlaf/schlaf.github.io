@@ -9,6 +9,7 @@ angular.module('whacApp').service(
             saveSpell : saveSpell,
             removeSpell : removeSpell,
             copySpell : copySpell,
+            createSpell : createSpell,
             getCurrentSpell : getCurrentSpell
         });
 
@@ -20,6 +21,11 @@ angular.module('whacApp').service(
 
         function getCurrentSpell() {
             return currentSpell;
+        }
+
+        function createSpell(spell) {
+            var request = $http.post("https://api.mlab.com/api/1/databases/whac_v2/collections/spells/?apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa", spell);
+            return( request.then( handleSuccess, handleError ) );
         }
 
         function saveSpell(spell) {

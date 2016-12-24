@@ -12,6 +12,18 @@ angular.module('whacApp').controller('ListSpells', function ($scope, $http, spel
     $scope.spellDurations = ["-", "TURN", "RND", "UP", "*"];
     $scope.spellOffensiveness = ["YES", "NO", "*"];
 
+    $scope.emptySpell = {
+
+        "_id" : "new",
+        "_name": "Spell name",
+        "_cost": "0",
+        "_rng": "SELF",
+        "_pow": "-",
+        "_aoe": "CTRL",
+        "_duration": "TURN",
+        "_off": "NO",
+        "__text": "Text spell"
+    }
 
 	$scope.getSpells = function() {
         spellsService.getSpells().then(
@@ -32,26 +44,45 @@ angular.module('whacApp').controller('ListSpells', function ($scope, $http, spel
         angular.copy(spell, $scope.editedSpell);
     }
 
+    $scope.newSpell = function() {
+        angular.copy($scope.emptySpell, $scope.editedSpell);
+    }
+
+
     $scope.dismissSpell = function() {
         $scope.editedSpell = {};
     }
 
     $scope.saveSpell = function(spell) {
-        spellsService.saveSpell(spell).then(
-            function(spell){
-                alert("spell saved");
 
-                // update spell in list
-                $scope.spells.map(function(a_spell){
-                    if (a_spell._id.$oid == spell._id.$oid) {
-                        angular.copy(spell, a_spell);
-                    }
-                });
+        if (spell._id == "new" ) {
+            spell._id = null;
+            spellsService.createSpell(spell).then(
+                function(spell){
+                    alert("spell created");
 
-                $scope.$emit('spellUpdated', { 'spell': spell });
-                $scope.editedSpell = {};
-            }
-        );
+                    // update spell in list
+                    $scope.spells.push(spell);
+                    $scope.editedSpell = {};
+                }
+            );            
+        } else {
+            spellsService.saveSpell(spell).then(
+                function(spell){
+                    alert("spell saved");
+
+                    // update spell in list
+                    $scope.spells.map(function(a_spell){
+                        if (a_spell._id.$oid == spell._id.$oid) {
+                            angular.copy(spell, a_spell);
+                        }
+                    });
+
+                    $scope.$emit('spellUpdated', { 'spell': spell });
+                    $scope.editedSpell = {};
+                }
+            );
+        }
     }
 
     $scope.removeSpell = function(spell) {

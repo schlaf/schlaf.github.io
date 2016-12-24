@@ -11,6 +11,7 @@ angular.module('whacApp').service(
             saveCapacity : saveCapacity,
             removeCapacity : removeCapacity,
             updatedCapacity : updatedCapacity,
+            createCapacity : createCapacity,
             getUpdatedCapacity : getUpdatedCapacity
         });
 
@@ -46,6 +47,12 @@ angular.module('whacApp').service(
             return( request.then( handleSuccess, handleError ) );
 
         };
+
+
+        function createCapacity(capacity) {
+            var request = $http.post("https://api.mlab.com/api/1/databases/whac_v2/collections/capacities/?apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa", capacity);
+            return( request.then( handleSuccess, handleError ) );
+        }
 
         function saveCapacity(capacity) {
             var request = $http.put("https://api.mlab.com/api/1/databases/whac_v2/collections/capacities/" + capacity._id.$oid + "/?apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa", capacity);

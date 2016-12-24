@@ -9,6 +9,13 @@ angular.module('whacApp').controller('ListCapacities', function ($scope, $http, 
 
     var currentCapacity = {};
 
+    $scope.emptyCapacity = {
+    "_id": "new",
+    "_title": "Capa title",
+    "_type": "",
+    "__text": "Capa text"
+    }
+
     $scope.copyCapacity = function(capacity, $event) {
         $event.stopPropagation();
         capacitiesService.copyCapacity(capacity);
@@ -35,6 +42,9 @@ angular.module('whacApp').controller('ListCapacities', function ($scope, $http, 
         $scope.filteredCapacities = capacitiesService.filterCapacities($scope.capacities, $scope.filterCapacity.name, $scope.filterCapacity.text);
     }
 
+    $scope.newCapacity = function() {
+        angular.copy($scope.emptyCapacity, $scope.editedCapacity);
+    }
 
     $scope.editCapacity = function(capacity) {
         angular.copy(capacity, $scope.editedCapacity);
@@ -45,22 +55,35 @@ angular.module('whacApp').controller('ListCapacities', function ($scope, $http, 
     }
 
     $scope.saveCapacity = function(capacity) {
-        capacitiesService.saveCapacity(capacity).then(
-            function(capacity){
-                alert("capacity saved");
+        if (capacity._id == "new" ) {
+            capacity._id = null;
+            capacitiesService.createCapacity(capacity).then(
+                function(capacity){
+                    alert("capacity created");
 
-                // update capacity in list
-                $scope.capacities.map(function(a_capacity){
-                    if (a_capacity._id.$oid == capacity._id.$oid) {
-                        angular.copy(capacity , a_capacity);
-                    }
-                });
+                    // update spell in list
+                    $scope.capacities.push(capacity);
+                    $scope.editedCapacity = {};
+                }
+            );            
+        } else {
+            capacitiesService.saveCapacity(capacity).then(
+                function(capacity){
+                    alert("capacity saved");
 
-                $scope.$emit('capacityUpdated', { 'capacity': capacity });
+                    // update capacity in list
+                    $scope.capacities.map(function(a_capacity){
+                        if (a_capacity._id.$oid == capacity._id.$oid) {
+                            angular.copy(capacity , a_capacity);
+                        }
+                    });
 
-                $scope.editedCapacity = {};
-            }
-        );
+                    $scope.$emit('capacityUpdated', { 'capacity': capacity });
+
+                    $scope.editedCapacity = {};
+                }
+            );
+        }
     }
 
 
