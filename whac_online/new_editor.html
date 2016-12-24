@@ -184,7 +184,7 @@
                                                        <b>{{capacity._title}}</b> : {{capacity._type}}  {{capacity.__text}}
                                                     </div>
                                                     <div class="btn btn-default  btn-sm" ng-click="removeWeaponCapacity( weapon, capacity)">
-                                                        Remove this capacity <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                                                        Remove "{{capacity._title}}" <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
                                                     </div>
                                                     <hr>
                                                 </div>
@@ -255,11 +255,15 @@
                                         </tr>
                                         <tr class="spell_edit" ng-if="weapon.capacities.length > 0">
                                             <td colspan="8" ng-class="isGrey($index)"> 
-                                            <button type="button " class="btn btn-default  btn-sm" ng-click="removeWeaponCapacity( weapon, $index)">
-                                                <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-                                            </button>
-                                            <span ng-repeat="capacity in weapon.capacities" style="white-space: pre-line;"><b>[{{capacity._title}}]</b> {{capacity._type}} {{capacity.__text}}</span>
-                                            <br/>
+                                                <div ng-repeat="capacity in weapon.capacities | orderBy:'_title'" >
+                                                    <div>
+                                                       <b>{{capacity._title}}</b> : {{capacity._type}}  {{capacity.__text}}
+                                                    </div>
+                                                    <div class="btn btn-default  btn-sm" ng-click="removeWeaponCapacity( weapon, capacity)">
+                                                        Remove "{{capacity._title}}" <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                                                    </div>
+                                                    <hr>
+                                                </div>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -303,11 +307,15 @@
                                         </tr>
                                         <tr class="spell_edit" ng-if="weapon.capacities.length > 0">
                                             <td colspan="3" ng-class="isGrey($index)"> 
-                                            <button type="button " class="btn btn-default  btn-sm" ng-click="removeWeaponCapacity( weapon, $index)">
-                                                <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-                                            </button>
-                                            <span ng-repeat="capacity in weapon.capacities" style="white-space: pre-line;"><b>[{{capacity._title}}]</b> {{capacity._type}} {{capacity.__text}}</span>
-                                            <br/>
+                                                <div ng-repeat="capacity in weapon.capacities | orderBy:'_title'" >
+                                                    <div>
+                                                       <b>{{capacity._title}}</b> : {{capacity._type}}  {{capacity.__text}}
+                                                    </div>
+                                                    <div class="btn btn-default  btn-sm" ng-click="removeWeaponCapacity( weapon, capacity)">
+                                                        Remove "{{capacity._title}}" <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                                                    </div>
+                                                    <hr>
+                                                </div>
                                             </td>
                                         </tr>
                                         </tbody>
