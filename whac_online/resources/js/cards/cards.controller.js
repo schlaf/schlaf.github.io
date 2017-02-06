@@ -407,6 +407,10 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, $inte
                 angular.copy($scope.emptyWarjack, newCard);
             }
 
+            if ( $scope.selectedNewModelType.innerType == 'warbeast') {
+                angular.copy($scope.emptyWarbeast, newCard);
+            }
+
             if ( $scope.selectedNewModelType.innerType == 'colossal') {
                 angular.copy($scope.emptyColossal, newCard);
             }
@@ -695,6 +699,42 @@ $scope.emptyWarjack = {
     ]
 }
 
+$scope.emptyWarbeast = {
+    "_id": "",
+    "name": "short name",
+    "status": "new model",
+    "qualification": "please fill",
+    "type": "warbeast",
+    "faction": "faction_everblight",
+    "full_name": "full name",
+    "fa": "C",
+    "cost": "15",
+    "works_for": [],
+    "restricted_to": [],
+    "models": [ {
+            "basestats": {
+                "_name": "WARBEAST NAME",
+                "_spd": "4",
+                "_str": "19",
+                "_mat": "6",
+                "_rat": "4",
+                "_def": "7",
+                "_arm": "20",
+                "_cmd": "0",
+                "_fur": "4",
+                "_thr": "10",
+                "_damage_spiral": "8-10-10"
+            },
+            "weapons": {
+                "melee_weapon": [],
+                "ranged_weapon": [],
+                "mount_weapon": []
+            },
+            "spells": [],
+            "capacities": []
+        }
+    ]
+}
 
 
 
