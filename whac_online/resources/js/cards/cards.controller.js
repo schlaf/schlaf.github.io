@@ -22,6 +22,7 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, $inte
     $scope.protectorate = {"name":"Protectorate", "code":"faction_menoth"} ;
     $scope.retribution = {"name":"Retribution", "code":"faction_retribution"} ;
     $scope.everblight = {"name":"Everblight", "code":"faction_everblight"} ;
+    $scope.grymkin = {"name":"Grymkin", "code":"faction_grymkin"} ;
     $scope.orboros = {"name":"Orboros", "code":"faction_orboros"} ;
     $scope.minions = {"name":"Minions", "code":"faction_minions"} ;
     $scope.skorne = {"name":"Skorne", "code":"faction_skorne"} ;
@@ -29,8 +30,8 @@ angular.module('whacApp').controller('ListCards', function ($scope, $http, $inte
     $scope.objectives = {"name":"Objectives SR 2016", "code":"faction_objectives_sr2016"} ;
 
     $scope.warmachine.factions = [$scope.cryx, $scope.cygnar, $scope.cyriss, $scope.khador, $scope.mercenaries, $scope.protectorate, $scope.retribution];
-    $scope.hordes.factions = [$scope.everblight, $scope.orboros, $scope.minions, $scope.skorne, $scope.trollblood];
-    $scope.allFactions = [$scope.cryx, $scope.cygnar, $scope.cyriss, $scope.khador, $scope.mercenaries, $scope.protectorate, $scope.retribution, $scope.everblight, $scope.orboros, $scope.minions, $scope.skorne, $scope.trollblood];
+    $scope.hordes.factions = [$scope.everblight, $scope.grymkin, $scope.orboros, $scope.minions, $scope.skorne, $scope.trollblood];
+    $scope.allFactions = [$scope.cryx, $scope.cygnar, $scope.cyriss, $scope.grymkin, $scope.khador, $scope.mercenaries, $scope.protectorate, $scope.retribution, $scope.everblight, $scope.orboros, $scope.minions, $scope.skorne, $scope.trollblood];
     $scope.objectivesSR2016.factions = [$scope.objectives];
 
     $scope.modelTypes = ["all", "warcaster", "warlock", "warjack", "colossal", "warbeast", "battle engine", "unit", "CA", "WA","solo"];
