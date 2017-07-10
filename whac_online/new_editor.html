@@ -34,14 +34,14 @@
 
 <div ng-controller="ListCards">
 
-    <div id="header" bgcolor="black">
-    <ul class="nav nav-tabs header" id="myTab" >
-      <li class="active"><a href="#card_edit" data-toggle="tab">Edit cards</a></li>
-      <li><a href="#capacities" data-toggle="tab">Capacities</a></li>
-      <li><a href="#spells" data-toggle="tab">Spells</a></li>
-      <li><a href="#new_models" data-toggle="tab">Add new Card</a></li>
-      <li><a href="#compendium" data-toggle="tab">Compendium</a></li>
-    </ul>
+    <div id="header">
+        <ul class="nav nav-tabs header" id="myTab" >
+          <li class="active"><a href="#card_edit" data-toggle="tab">Edit cards</a></li>
+          <li><a href="#capacities" data-toggle="tab">Capacities</a></li>
+          <li><a href="#spells" data-toggle="tab">Spells</a></li>
+          <li><a href="#new_models" data-toggle="tab">Add new Card</a></li>
+          <li><a href="#compendium" data-toggle="tab">Compendium</a></li>
+        </ul>
     </div>
 
     <div class="tab-content" id="content">
@@ -51,9 +51,9 @@
                     <div class="panel-body">
                     <div class="col-lg-4">
                         <table class="table table-inverse">
-                            <tr><td minWidth="100px">System </td><td><select ng-options="system.name for system in systems" ng-model="selectedSystem"></select></td></tr>
-                            <tr><td>Faction </td><td><select ng-options="faction.name for faction in selectedSystem.factions" ng-model="selectedFaction"/></td></tr>
-                            <tr><td>Subtype </td><td><select ng-options="modelType.name for modelType in modelTypesSorting" ng-model="selectedType"/></td></tr>
+                            <tr><td>System </td><td><select ng-options="system.name for system in systems" ng-model="selectedSystem"></select></td></tr>
+                            <tr><td>Faction </td><td><select ng-options="faction.name for faction in selectedSystem.factions" ng-model="selectedFaction"></select></td></tr>
+                            <tr><td>Subtype </td><td><select ng-options="modelType.name for modelType in modelTypesSorting" ng-model="selectedType"></select></td></tr>
                         </table>
                     </div>
 
@@ -663,7 +663,7 @@
                             <span ng-if="card.version == undefined" class="label label-default" style="display: inline-block;">(?)</span>
                         </div>
 
-                    </div
+                    </div>
                 </type>
             </div>
 
