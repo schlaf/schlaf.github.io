@@ -12,7 +12,7 @@ angular.module('whacApp').service(
 
         function getCards() {
 
-            var request = $http.get("https://api.mlab.com/api/1/databases/whac_v2/collections/models?l=1000&s={'name':1}&apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa");
+            var request = $http.get("https://api.mlab.com/api/1/databases/whac_v2/collections/models?l=1500&s={'name':1}&apiKey=wcadeCXsaFhH5G4__crfJpZBdloyTTAa");
             return( request.then( handleSuccess, handleError ) );
 
         };
